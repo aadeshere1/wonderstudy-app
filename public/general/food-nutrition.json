@@ -1,0 +1,268 @@
+{
+  "id": "general-food-nutrition",
+  "meta": {
+    "title": "Food & Nutrition",
+    "subject": "general",
+    "class": null,
+    "lesson": null,
+    "subtopic": "Eating for Health",
+    "description": "Discover what different foods do for your body and how to eat well every day.",
+    "icon": "🥗",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "🍎 Why do we need to eat fruits and vegetables?",
+        "back": "Fruits and vegetables are packed with vitamins, minerals, and fibre. They protect us from illness, help us grow, and keep our skin and eyes healthy. Aim for 5 portions a day!",
+        "hint": "They have vitamins and keep us healthy"
+      },
+      {
+        "front": "🍞 What are carbohydrates and why do we need them?",
+        "back": "Carbohydrates (carbs) are the body's main source of energy. Foods like bread, rice, pasta, and potatoes are full of carbs. They fuel your brain and muscles!",
+        "hint": "They give us energy to move and think"
+      },
+      {
+        "front": "🥩 What do proteins do for your body?",
+        "back": "Proteins help build and repair muscles, bones, and tissues. Good sources include meat, fish, eggs, beans, and nuts. Growing children need plenty of protein!",
+        "hint": "They build and fix muscles"
+      },
+      {
+        "front": "🧈 Are all fats bad for you?",
+        "back": "No! Healthy fats (found in avocado, nuts, olive oil, and fish) are essential for brain health and absorbing vitamins. Unhealthy fats in junk food should be limited.",
+        "hint": "Some fats are actually good for your brain"
+      },
+      {
+        "front": "💧 Why is water so important for your body?",
+        "back": "About 60% of your body is water! You need water to digest food, carry nutrients, control body temperature, and keep your brain working. Drink 6–8 glasses daily.",
+        "hint": "Your body is mostly made of it"
+      },
+      {
+        "front": "🥛 What does calcium do for your body?",
+        "back": "Calcium builds strong bones and teeth. Dairy foods like milk, cheese, and yoghurt are rich in calcium. Leafy vegetables like broccoli also contain calcium.",
+        "hint": "Strong bones and teeth need this"
+      },
+      {
+        "front": "🌾 What is fibre and why do we need it?",
+        "back": "Fibre is found in fruits, vegetables, beans, and whole grains. It helps your digestive system work smoothly and keeps you feeling full longer. Good gut health means good health!",
+        "hint": "It helps your digestive system"
+      },
+      {
+        "front": "🍭 Why should we limit sugar?",
+        "back": "Too much sugar can cause tooth decay, weight gain, and energy crashes. Natural sugars in fruit are better than added sugars in sweets and fizzy drinks. Small amounts are fine!",
+        "hint": "Too much causes tooth decay and energy crashes"
+      },
+      {
+        "front": "🍳 What is a balanced diet?",
+        "back": "A balanced diet includes: plenty of fruit & vegetables, starchy carbohydrates, some protein, some dairy (or alternatives), and small amounts of fats and sugars. Variety is key!",
+        "hint": "Eating the right amounts of all food groups"
+      },
+      {
+        "front": "🐟 Why is fish good for you?",
+        "back": "Fish, especially oily fish like salmon and mackerel, contain omega-3 fatty acids. These are amazing for brain development, heart health, and reducing inflammation in the body.",
+        "hint": "Omega-3 in fish is great for your brain"
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 0,
+      "questionsCount": 12
+    },
+    "items": [
+      {
+        "question": "Which nutrient gives your body the most energy?",
+        "answer": "Carbohydrates",
+        "options": ["Carbohydrates", "Protein", "Vitamins", "Fibre"],
+        "explanation": "Carbohydrates are the body's main and preferred energy source. Bread, rice, and pasta are good examples.",
+        "hint": "Bread, rice, and pasta contain this"
+      },
+      {
+        "question": "Which food group helps build and repair muscles?",
+        "answer": "Protein",
+        "options": ["Protein", "Carbohydrates", "Sugar", "Fat"],
+        "explanation": "Protein is essential for building and repairing muscles, skin, and other tissues. Meat, eggs, and beans are high in protein.",
+        "hint": "Athletes eat lots of this to stay strong"
+      },
+      {
+        "question": "Which mineral makes bones and teeth strong?",
+        "answer": "Calcium",
+        "options": ["Calcium", "Iron", "Zinc", "Sodium"],
+        "explanation": "Calcium is essential for strong bones and teeth. Milk, cheese, and yoghurt are rich in calcium.",
+        "hint": "Found in milk and dairy products"
+      },
+      {
+        "question": "How many portions of fruit and vegetables should you eat each day?",
+        "answer": "5",
+        "options": ["5", "2", "10", "1"],
+        "explanation": "Nutrition guidelines recommend at least 5 portions of fruits and vegetables every day for good health.",
+        "hint": "Five-a-day!"
+      },
+      {
+        "question": "Which of these is a healthy source of fat?",
+        "answer": "Avocado",
+        "options": ["Avocado", "Crisps", "Sweets", "Fizzy drinks"],
+        "explanation": "Avocados contain healthy unsaturated fats that are good for your heart and brain.",
+        "hint": "A green fruit with good fats"
+      },
+      {
+        "question": "What does fibre help your body do?",
+        "answer": "Digest food smoothly",
+        "options": [
+          "Digest food smoothly",
+          "Build muscles",
+          "Give instant energy",
+          "Make teeth strong"
+        ],
+        "explanation": "Dietary fibre helps food move through your digestive system and keeps your gut healthy.",
+        "hint": "Think about your digestive system"
+      },
+      {
+        "question": "Which drink is best for staying hydrated?",
+        "answer": "Water",
+        "options": ["Water", "Fizzy drinks", "Fruit juice", "Milkshake"],
+        "explanation": "Water is the best drink for hydration with no added sugar or calories. Aim for 6–8 glasses a day.",
+        "hint": "The simplest and purest drink"
+      },
+      {
+        "question": "Which food is richest in iron?",
+        "answer": "Red meat and leafy greens",
+        "options": [
+          "Red meat and leafy greens",
+          "Bread and butter",
+          "Sweets and crisps",
+          "Fizzy drinks"
+        ],
+        "explanation": "Iron is found in red meat, lentils, spinach, and fortified cereals. Iron carries oxygen in your blood.",
+        "hint": "Blood needs this to carry oxygen"
+      },
+      {
+        "question": "What happens if you eat too much sugar?",
+        "answer": "Tooth decay and weight gain",
+        "options": [
+          "Tooth decay and weight gain",
+          "Stronger bones",
+          "Better eyesight",
+          "More energy all day"
+        ],
+        "explanation": "Excess sugar causes tooth decay and can lead to weight gain and energy crashes.",
+        "hint": "Bad for your teeth and waistline"
+      },
+      {
+        "question": "Which oily fish is high in omega-3?",
+        "answer": "Salmon",
+        "options": ["Salmon", "Tuna canned in brine", "Cod", "Prawn"],
+        "explanation": "Oily fish like salmon, mackerel, and sardines are rich in omega-3 fatty acids, which are great for brain health.",
+        "hint": "A pink oily fish"
+      },
+      {
+        "question": "What is a 'balanced diet'?",
+        "answer": "Eating the right amounts of all food groups",
+        "options": [
+          "Eating the right amounts of all food groups",
+          "Only eating vegetables",
+          "Eating as much protein as possible",
+          "Skipping meals to lose weight"
+        ],
+        "explanation": "A balanced diet means eating a variety of foods from all food groups in the right proportions.",
+        "hint": "Variety and proportion matter"
+      },
+      {
+        "question": "Which vitamin does your body make from sunlight?",
+        "answer": "Vitamin D",
+        "options": ["Vitamin D", "Vitamin C", "Vitamin A", "Vitamin B12"],
+        "explanation": "When sunlight hits your skin, your body produces Vitamin D, which helps absorb calcium for strong bones.",
+        "hint": "You can 'soak it up' outside"
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 60,
+      "questionsCount": 999
+    },
+    "items": [
+      {
+        "question": "What are the three macronutrients?",
+        "answer": "Carbohydrates, protein, and fat",
+        "options": [
+          "Carbohydrates, protein, and fat",
+          "Vitamins, minerals, and water",
+          "Sugar, salt, and oil",
+          "Calcium, iron, and zinc"
+        ],
+        "explanation": "The three macronutrients are carbohydrates, proteins, and fats. They provide energy and are needed in large amounts.",
+        "hint": "The big three nutrients — all give energy"
+      },
+      {
+        "question": "Which vitamin prevents scurvy and is found in citrus fruits?",
+        "answer": "Vitamin C",
+        "options": ["Vitamin C", "Vitamin A", "Vitamin D", "Vitamin K"],
+        "explanation": "Vitamin C prevents scurvy and boosts the immune system. Citrus fruits, kiwis, and peppers are rich in Vitamin C.",
+        "hint": "Found in oranges and lemons"
+      },
+      {
+        "question": "Which nutrient is essential for healthy eyesight and found in carrots?",
+        "answer": "Vitamin A",
+        "options": ["Vitamin A", "Vitamin B", "Vitamin C", "Zinc"],
+        "explanation": "Vitamin A is vital for good eyesight, especially in low light. Carrots, sweet potatoes, and leafy greens are good sources.",
+        "hint": "Carrots help you see in the dark because of this"
+      },
+      {
+        "question": "What does BMR stand for in nutrition?",
+        "answer": "Basal Metabolic Rate",
+        "options": [
+          "Basal Metabolic Rate",
+          "Body Mass Ratio",
+          "Basic Mineral Requirement",
+          "Balanced Meal Ration"
+        ],
+        "explanation": "BMR is the number of calories your body needs to keep basic functions going at rest — breathing, heartbeat, temperature.",
+        "hint": "Your body's resting energy needs"
+      },
+      {
+        "question": "What is the difference between soluble and insoluble fibre?",
+        "answer": "Soluble dissolves in water; insoluble does not",
+        "options": [
+          "Soluble dissolves in water; insoluble does not",
+          "Insoluble is in fruits; soluble is in meat",
+          "Soluble is sugar; insoluble is starch",
+          "They are the same thing"
+        ],
+        "explanation": "Soluble fibre (oats, beans) dissolves in water and lowers cholesterol. Insoluble fibre (wheat, vegetables) adds bulk to stools.",
+        "hint": "Think of what happens to oats in water"
+      },
+      {
+        "question": "How many calories are in 1 gram of fat?",
+        "answer": "9 calories",
+        "options": ["9 calories", "4 calories", "7 calories", "2 calories"],
+        "explanation": "Fat provides 9 calories per gram — more than double the 4 calories per gram from carbohydrates or protein.",
+        "hint": "The most calorie-dense macronutrient"
+      },
+      {
+        "question": "What is the role of probiotics in food?",
+        "answer": "They support good gut bacteria",
+        "options": [
+          "They support good gut bacteria",
+          "They provide instant energy",
+          "They build muscle",
+          "They whiten teeth"
+        ],
+        "explanation": "Probiotics are live bacteria found in yoghurt, kefir, and fermented foods. They help maintain a healthy digestive system.",
+        "hint": "Found in yoghurt — good for your gut"
+      },
+      {
+        "question": "Which food is a complete protein, containing all essential amino acids?",
+        "answer": "Eggs",
+        "options": ["Eggs", "Rice", "Carrots", "Bread"],
+        "explanation": "Eggs are one of the few foods that contain all nine essential amino acids, making them a 'complete' protein source.",
+        "hint": "A breakfast favourite with every amino acid"
+      }
+    ]
+  }
+}

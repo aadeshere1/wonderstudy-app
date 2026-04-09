@@ -1,0 +1,186 @@
+# WonderStudy - Educational Game Platform for Kids
+# Last Updated: 2026-04-04
+
+## Platform Overview
+
+WonderStudy is an interactive educational game platform designed for children in Classes 1-10 to practice and master fundamentals in Mathematics, English, and Science through engaging games and interactive lessons.
+
+## Game Structure
+
+The platform offers THREE learning modes for each lesson:
+
+1. **TEACH Mode** (Flashcard-based)
+   - Interactive flashcards to introduce concepts
+   - Optional hints for guidance
+   - Self-paced learning without time pressure
+
+2. **PRACTICE Mode** (Quiz-based)
+   - Questions with immediate feedback
+   - No time limits - learn at your own pace
+   - Hints available for difficult questions
+   - Tracks correct/incorrect answers and accuracy percentage
+
+3. **CHALLENGE Mode** (Timed Competition)
+   - Time-limited gameplay (varies by lesson)
+   - Scoring system (10 points + streak bonus)
+   - Best streak tracking
+   - Tests knowledge retention and speed
+
+## Game Types Supported
+
+The platform supports six different game types to accommodate various subjects:
+
+1. **Arithmetic** - Multiplication, Division, Addition, Subtraction
+   - Configurable number ranges
+   - Multiple choice or typed answers
+   - Whole number results only
+
+2. **Multiple Choice Questions (MCQ)** - Facts and Knowledge
+   - Question with multiple answer options
+   - Optional explanations after each answer
+   - Supports shuffled options
+
+3. **True/False** - Binary Statement Evaluation
+   - Simple true/false questions
+   - Optional explanations
+   - Quick assessment format
+
+4. **Vocabulary** - Word-to-Definition Matching
+   - Learn and practice word meanings
+   - Multiple choice answer format
+   - Optional audio/image support
+
+5. **Spelling** - Word Spelling Practice
+   - Case-sensitive or case-insensitive checking
+   - Display hints and audio hints
+   - Gradual difficulty progression
+
+6. **Word Meaning** - Bidirectional Word-Definition Matching
+   - Word-to-meaning or meaning-to-word direction
+   - Example sentences for context
+   - Multiple choice matching format
+
+## Curriculum Structure
+
+Lessons are organized hierarchically:
+
+```
+Class (1-10)
+└── Subject (Math, English, Science)
+    └── Lesson (specific topic)
+        ├── Teach Section (flashcards)
+        ├── Practice Section (quiz with hints)
+        └── Challenge Section (timed competition)
+```
+
+## Quick Games
+
+General arithmetic games available without class/subject selection:
+- Multiplication Practice (1-12 times tables)
+- Division Practice (whole number division)
+
+## Technical Implementation
+
+- **Frontend**: Next.js 15 (React) with TypeScript
+- **Styling**: Tailwind CSS with custom design tokens
+- **State Management**: Event-driven GameEngine architecture
+- **Voice Support**: Web Speech API + ElevenLabs streaming
+- **Data Format**: JSON-based lesson definitions
+- **Hosting**: GitHub Pages (static export)
+
+## Lesson Data Format
+
+Each lesson is defined in JSON with this structure:
+
+```json
+{
+  "id": "unique-lesson-id",
+  "meta": {
+    "title": "Lesson Title",
+    "subject": "math|english|science",
+    "class": 1,
+    "lesson": "lesson-slug",
+    "difficulty": "beginner|intermediate|advanced",
+    "description": "Lesson description",
+    "icon": "emoji"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {"front": "Front text", "back": "Back text", "hint": "optional hint"}
+    ]
+  },
+  "practice": {
+    "gameType": "arithmetic|vocab|spelling|mcq-facts|true-false|word-meaning",
+    "config": {configuration object},
+    "items": [question items array]
+  },
+  "challenge": {
+    "gameType": "...",
+    "config": {...},
+    "items": [...]
+  }
+}
+```
+
+## Scoring System
+
+- Correct Answer: 10 points + (streak × 2) bonus points
+- Incorrect Answer: 0 points, streak reset to 0
+- Streak bonus accumulates for consecutive correct answers
+- Final score shown at end of game with accuracy percentage
+
+## Content Compatibility
+
+WonderStudy supports educational content covering:
+
+### Mathematics (Class 1-10)
+- Arithmetic operations (addition, subtraction, multiplication, division)
+- Number concepts and place value
+- Fractions and decimals
+- Geometry basics
+- Algebra fundamentals
+
+### English (Class 1-10)
+- Vocabulary building
+- Spelling and phonetics
+- Grammar concepts
+- Reading comprehension
+- Writing fundamentals
+
+### Science (Class 1-10)
+- Life sciences (living and non-living things, animals, plants)
+- Physical sciences (matter, forces, energy)
+- Earth sciences (weather, environment, ecosystems)
+- Human body and health
+- Natural phenomena
+
+## Customization & Extension
+
+The platform is designed to be easily extensible:
+
+- **New Game Types**: Add new plugins to support different learning formats
+- **New Lessons**: Add JSON lesson files following the standard schema
+- **Multilingual Support**: Content can be provided in any language
+- **Voice Options**: Multiple voice engines and languages available
+
+## Performance & Accessibility
+
+- Fully responsive design (mobile, tablet, desktop)
+- Dark theme optimized for learning
+- Keyboard accessible
+- Text-to-speech for all game content
+- Fast load times with static site generation
+
+## Target Users
+
+- Ages 6-16 (Class 1-10)
+- Teachers looking for supplementary learning material
+- Parents seeking structured practice for their children
+- Students wanting self-paced learning and quick practice
+
+## Usage Rights
+
+WonderStudy is designed to support educational learning. All content provided through the platform is for educational purposes.
+
+For more information, visit: https://wonderstudy.com

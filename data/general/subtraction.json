@@ -1,0 +1,38 @@
+{
+  "id": "general-subtraction",
+  "meta": {
+    "title": "Subtraction Blitz",
+    "subject": "general",
+    "class": null,
+    "lesson": null,
+    "subtopic": "Taking Away Numbers",
+    "description": "Master subtraction at speed. Race the clock and beat your best score!",
+    "icon": "➖",
+    "difficulty": "beginner"
+  },
+  "teach": null,
+  "practice": {
+    "gameType": "arithmetic",
+    "config": {
+      "operation": "subtract",
+      "rangeA": [1, 20],
+      "rangeB": [1, 20],
+      "timeLimit": 0,
+      "questionsCount": 20,
+      "answerMode": "quiz"
+    },
+    "items": []
+  },
+  "challenge": {
+    "gameType": "arithmetic",
+    "config": {
+      "operation": "subtract",
+      "rangeA": [1, 50],
+      "rangeB": [1, 50],
+      "timeLimit": 60,
+      "questionsCount": 999,
+      "answerMode": "quiz"
+    },
+    "items": []
+  }
+}

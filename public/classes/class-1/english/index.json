@@ -1,0 +1,11 @@
+{
+  "lessons": [
+    {
+      "id": "animals-vocabulary",
+      "file": "animals-vocabulary",
+      "title": "Animals Vocabulary",
+      "icon": "🐾",
+      "subtopics": ["Domestic Animals", "Wild Animals", "Baby Animals"]
+    }
+  ]
+}

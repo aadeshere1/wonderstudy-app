@@ -1,0 +1,170 @@
+@import "tailwindcss";
+
+@keyframes twinkle {
+  from {
+    opacity: 0.05;
+  }
+  to {
+    opacity: 0.8;
+  }
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Star background */
+.stars {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.star {
+  position: absolute;
+  background: white;
+  border-radius: 50%;
+  animation: twinkle var(--duration, 2s) ease-in-out infinite alternate;
+}
+
+/* Main content */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #0d0d1a;
+  color: #f0f4ff;
+  font-family: var(--font-nunito);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+main {
+  position: relative;
+  z-index: 1;
+}
+
+/* Card styling */
+.card {
+  background: #1e1e38;
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.card + .card {
+  margin-top: 14px;
+}
+
+/* Button styling */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 11px 22px;
+  border-radius: 14px;
+  border: none;
+  cursor: pointer;
+  font-family: var(--font-nunito);
+  font-weight: 800;
+  font-size: 0.9rem;
+  transition: all 0.2s;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #a78bfa, #f87171);
+  color: white;
+  box-shadow: 0 4px 15px rgba(167, 139, 250, 0.35);
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+}
+
+.btn-secondary {
+  background: #252545;
+  color: #f0f4ff;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.btn-secondary:hover {
+  border-color: #a78bfa;
+  color: #a78bfa;
+}
+
+.btn-gold {
+  background: linear-gradient(135deg, #fbbf24, #f97316);
+  color: #1a1a2e;
+  font-weight: 900;
+}
+
+.btn-sm {
+  padding: 7px 14px;
+  font-size: 0.8rem;
+  border-radius: 10px;
+}
+
+.btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  transform: none !important;
+}
+
+/* ── Section typography (matches the HTML design) ── */
+.section-title {
+  font-family: var(--font-fredoka-one), cursive;
+  font-size: 1.6rem;
+  margin-bottom: 4px;
+  line-height: 1.2;
+}
+
+.section-sub {
+  font-size: 0.85rem;
+  color: rgba(240, 244, 255, 0.4);
+  margin-bottom: 20px;
+}
+
+/* chip / time-chip matching the HTML design */
+.chip {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  background: #252545;
+  color: #f0f4ff;
+  font-family: var(--font-fredoka-one), cursive;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chip:hover {
+  border-color: #34d399;
+  transform: scale(1.08);
+}
+
+.chip.active {
+  background: linear-gradient(135deg, #34d399, #0891b2);
+  border-color: #34d399;
+  box-shadow: 0 4px 12px rgba(52, 211, 153, 0.4);
+  transform: scale(1.08);
+}
+
+/* Animate fadeUp for page sections */
+.animate-fadeUp {
+  animation: fadeUp 0.4s ease;
+}

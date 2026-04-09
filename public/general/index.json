@@ -1,0 +1,74 @@
+{
+  "lessons": [
+    {
+      "id": "multiplication",
+      "file": "multiplication",
+      "title": "Multiplication Tables",
+      "icon": "✖️",
+      "subtopics": ["1-5", "6-10", "11-12"]
+    },
+    {
+      "id": "division",
+      "file": "division",
+      "title": "Division Facts",
+      "icon": "÷",
+      "subtopics": ["Basics", "Advanced"]
+    },
+    {
+      "id": "general-addition",
+      "file": "addition",
+      "title": "Addition Sprint",
+      "icon": "➕",
+      "subtopics": ["Adding Numbers"]
+    },
+    {
+      "id": "general-subtraction",
+      "file": "subtraction",
+      "title": "Subtraction Blitz",
+      "icon": "➖",
+      "subtopics": ["Taking Away Numbers"]
+    },
+    {
+      "id": "general-solar-system",
+      "file": "solar-system",
+      "title": "Solar System",
+      "icon": "🪐",
+      "subtopics": ["Planets, Stars & Space"]
+    },
+    {
+      "id": "general-human-body",
+      "file": "human-body",
+      "title": "Human Body",
+      "icon": "🫀",
+      "subtopics": ["Organs, Senses & Health"]
+    },
+    {
+      "id": "general-animals-world",
+      "file": "animals-world",
+      "title": "Animals of the World",
+      "icon": "🦁",
+      "subtopics": ["Habitats, Diet & Fun Facts"]
+    },
+    {
+      "id": "general-spelling-bee",
+      "file": "spelling-bee",
+      "title": "Spelling Bee",
+      "icon": "🐝",
+      "subtopics": ["Spell It Right!"]
+    },
+    {
+      "id": "general-countries-capitals",
+      "file": "countries-capitals",
+      "title": "Countries & Capitals",
+      "icon": "🌍",
+      "subtopics": ["World Geography"]
+    },
+    {
+      "id": "general-food-nutrition",
+      "file": "food-nutrition",
+      "title": "Food & Nutrition",
+      "icon": "🥗",
+      "subtopics": ["Eating for Health"]
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "id": "general-spelling-bee",
+  "meta": {
+    "title": "Spelling Bee",
+    "subject": "general",
+    "class": null,
+    "lesson": null,
+    "subtopic": "Spell It Right!",
+    "description": "Sharpen your spelling skills! Listen to the clue and type each word correctly.",
+    "icon": "🐝",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "🐘 How do you spell the largest land animal?",
+        "back": "E - L - E - P - H - A - N - T\n\nelephant\n\nAn elephant is the biggest land animal on Earth!",
+        "hint": "It has a trunk and big ears"
+      },
+      {
+        "front": "🦋 How do you spell the insect that starts as a caterpillar?",
+        "back": "B - U - T - T - E - R - F - L - Y\n\nbutterfly\n\nA butterfly goes through metamorphosis from a caterpillar!",
+        "hint": "It has colourful wings"
+      },
+      {
+        "front": "🌈 How do you spell what appears after rain?",
+        "back": "R - A - I - N - B - O - W\n\nrainbow\n\nA rainbow forms when sunlight shines through water droplets!",
+        "hint": "Seven colours in the sky"
+      },
+      {
+        "front": "🍓 How do you spell this red berry fruit?",
+        "back": "S - T - R - A - W - B - E - R - R - Y\n\nstrawberry\n\nStrawberries are sweet red fruits that grow close to the ground!",
+        "hint": "Red, sweet, and grows in gardens"
+      },
+      {
+        "front": "🏔️ How do you spell a very tall landform?",
+        "back": "M - O - U - N - T - A - I - N\n\nmountain\n\nMount Everest is the tallest mountain in the world!",
+        "hint": "Tall, rocky, and has a peak"
+      },
+      {
+        "front": "🌻 How do you spell this tall yellow flower?",
+        "back": "S - U - N - F - L - O - W - E - R\n\nsunflower\n\nSunflowers always turn to face the sun during the day!",
+        "hint": "It follows the sun"
+      },
+      {
+        "front": "🦁 How do you spell the king of the jungle?",
+        "back": "L - I - O - N\n\nlion\n\nLions live in groups called prides on the African savanna!",
+        "hint": "It has a big mane"
+      },
+      {
+        "front": "🌊 How do you spell a body of salty water?",
+        "back": "O - C - E - A - N\n\nocean\n\nOceans cover more than 70% of the Earth's surface!",
+        "hint": "Bigger than a sea"
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "spelling",
+    "config": {
+      "speakWord": true,
+      "caseSensitive": false,
+      "timeLimit": 0,
+      "questionsCount": 15
+    },
+    "items": [
+      {
+        "word": "elephant",
+        "displayHint": "The largest land animal 🐘",
+        "spokenHint": "elephant. Spell it: elephant",
+        "hint": "Largest land animal with a trunk"
+      },
+      {
+        "word": "butterfly",
+        "displayHint": "A colourful insect with wings 🦋",
+        "spokenHint": "butterfly. Spell it: butterfly",
+        "hint": "Starts life as a caterpillar"
+      },
+      {
+        "word": "rainbow",
+        "displayHint": "Colourful arc that appears after rain 🌈",
+        "spokenHint": "rainbow. Spell it: rainbow",
+        "hint": "Seven colours in the sky"
+      },
+      {
+        "word": "strawberry",
+        "displayHint": "A small red sweet fruit 🍓",
+        "spokenHint": "strawberry. Spell it: strawberry",
+        "hint": "Red fruit that grows in gardens"
+      },
+      {
+        "word": "mountain",
+        "displayHint": "A very tall rocky landform 🏔️",
+        "spokenHint": "mountain. Spell it: mountain",
+        "hint": "Taller than a hill"
+      },
+      {
+        "word": "sunflower",
+        "displayHint": "A tall yellow flower that follows the sun 🌻",
+        "spokenHint": "sunflower. Spell it: sunflower",
+        "hint": "It turns to face the sun"
+      },
+      {
+        "word": "lion",
+        "displayHint": "King of the jungle 🦁",
+        "spokenHint": "lion. Spell it: lion",
+        "hint": "Has a big mane, lives in Africa"
+      },
+      {
+        "word": "ocean",
+        "displayHint": "A huge body of salt water 🌊",
+        "spokenHint": "ocean. Spell it: ocean",
+        "hint": "Bigger than a sea"
+      },
+      {
+        "word": "friend",
+        "displayHint": "Someone you like to spend time with 🤝",
+        "spokenHint": "friend. Spell it: friend",
+        "hint": "A close companion"
+      },
+      {
+        "word": "garden",
+        "displayHint": "A place where flowers and vegetables grow 🌷",
+        "spokenHint": "garden. Spell it: garden",
+        "hint": "Flowers grow here"
+      },
+      {
+        "word": "thunder",
+        "displayHint": "The loud boom during a storm ⛈️",
+        "spokenHint": "thunder. Spell it: thunder",
+        "hint": "Follows lightning in a storm"
+      },
+      {
+        "word": "umbrella",
+        "displayHint": "You use this to stay dry in the rain ☂️",
+        "spokenHint": "umbrella. Spell it: umbrella",
+        "hint": "Keeps you dry when it rains"
+      },
+      {
+        "word": "school",
+        "displayHint": "A place where children go to learn 🏫",
+        "spokenHint": "school. Spell it: school",
+        "hint": "Where you learn every day"
+      },
+      {
+        "word": "picture",
+        "displayHint": "A drawing or photo 🖼️",
+        "spokenHint": "picture. Spell it: picture",
+        "hint": "You can draw or take one"
+      },
+      {
+        "word": "answer",
+        "displayHint": "A response to a question ✅",
+        "spokenHint": "answer. Spell it: answer",
+        "hint": "What you give after a question"
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "spelling",
+    "config": {
+      "speakWord": true,
+      "caseSensitive": false,
+      "timeLimit": 60,
+      "questionsCount": 999
+    },
+    "items": [
+      {
+        "word": "environment",
+        "displayHint": "The natural world around us 🌍",
+        "spokenHint": "environment. Spell it: environment",
+        "hint": "Nature and the world we live in"
+      },
+      {
+        "word": "temperature",
+        "displayHint": "A measure of how hot or cold something is 🌡️",
+        "spokenHint": "temperature. Spell it: temperature",
+        "hint": "Measured in degrees"
+      },
+      {
+        "word": "necessary",
+        "displayHint": "Something that is needed or required ✔️",
+        "spokenHint": "necessary. Spell it: necessary",
+        "hint": "One collar, two socks (1 C, 2 S)"
+      },
+      {
+        "word": "beautiful",
+        "displayHint": "Very attractive and pleasing to look at 😍",
+        "spokenHint": "beautiful. Spell it: beautiful",
+        "hint": "More than just pretty"
+      },
+      {
+        "word": "experiment",
+        "displayHint": "A scientific test to find out something 🔬",
+        "spokenHint": "experiment. Spell it: experiment",
+        "hint": "Scientists do these in labs"
+      },
+      {
+        "word": "vocabulary",
+        "displayHint": "All the words you know 📖",
+        "spokenHint": "vocabulary. Spell it: vocabulary",
+        "hint": "Your collection of words"
+      },
+      {
+        "word": "geography",
+        "displayHint": "The study of Earth's lands and people 🗺️",
+        "spokenHint": "geography. Spell it: geography",
+        "hint": "Study of the Earth's places"
+      },
+      {
+        "word": "celebrate",
+        "displayHint": "To do something special to mark an occasion 🎉",
+        "spokenHint": "celebrate. Spell it: celebrate",
+        "hint": "What you do on your birthday"
+      },
+      {
+        "word": "astronaut",
+        "displayHint": "A person trained to travel in space 🧑‍🚀",
+        "spokenHint": "astronaut. Spell it: astronaut",
+        "hint": "Goes to outer space"
+      },
+      {
+        "word": "chocolate",
+        "displayHint": "A sweet food made from cocoa 🍫",
+        "spokenHint": "chocolate. Spell it: chocolate",
+        "hint": "A favourite sweet treat"
+      },
+      {
+        "word": "exercise",
+        "displayHint": "Physical activity to keep your body healthy 🏃",
+        "spokenHint": "exercise. Spell it: exercise",
+        "hint": "Running, jumping, playing sports"
+      },
+      {
+        "word": "adventure",
+        "displayHint": "An exciting or unusual experience 🗺️",
+        "spokenHint": "adventure. Spell it: adventure",
+        "hint": "Something exciting and bold"
+      }
+    ]
+  }
+}

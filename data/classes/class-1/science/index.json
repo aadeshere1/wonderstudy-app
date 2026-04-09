@@ -1,0 +1,11 @@
+{
+  "lessons": [
+    {
+      "id": "living-nonliving",
+      "file": "living-nonliving",
+      "title": "Living and Non-Living Things",
+      "icon": "🌿",
+      "subtopics": ["Living Things", "Non-Living Things", "Characteristics"]
+    }
+  ]
+}

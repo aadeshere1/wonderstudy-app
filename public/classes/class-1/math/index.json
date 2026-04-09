@@ -1,0 +1,11 @@
+{
+  "lessons": [
+    {
+      "id": "addition-subtraction",
+      "file": "addition-subtraction",
+      "title": "Addition & Subtraction",
+      "icon": "➕",
+      "subtopics": ["Add to 10", "Subtract from 10", "Mixed"]
+    }
+  ]
+}

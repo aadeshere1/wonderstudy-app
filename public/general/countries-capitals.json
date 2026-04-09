@@ -1,0 +1,228 @@
+{
+  "id": "general-countries-capitals",
+  "meta": {
+    "title": "Countries & Capitals",
+    "subject": "general",
+    "class": null,
+    "lesson": null,
+    "subtopic": "World Geography",
+    "description": "Travel the world! Learn which city is the capital of each country.",
+    "icon": "🌍",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "🇫🇷 What is the capital of France?",
+        "back": "Paris 🗼\n\nParis is the capital of France. It is famous for the Eiffel Tower, the Louvre museum, and delicious croissants!",
+        "hint": "City of the Eiffel Tower"
+      },
+      {
+        "front": "🇯🇵 What is the capital of Japan?",
+        "back": "Tokyo 🏯\n\nTokyo is the capital of Japan and one of the most populous cities in the world. Japan is known for sushi, anime, and samurai history.",
+        "hint": "World's most populated city"
+      },
+      {
+        "front": "🇧🇷 What is the capital of Brazil?",
+        "back": "Brasília 🌿\n\nBrasília is the capital of Brazil. It was purpose-built as a new capital city in 1960. Brazil is famous for the Amazon rainforest and carnival.",
+        "hint": "A specially built capital city"
+      },
+      {
+        "front": "🇦🇺 What is the capital of Australia?",
+        "back": "Canberra 🦘\n\nCanberra is the capital of Australia — not Sydney! It was chosen as a compromise between Sydney and Melbourne. Australia is home to kangaroos and koalas.",
+        "hint": "Not Sydney! Think of a compromise city"
+      },
+      {
+        "front": "🇪🇬 What is the capital of Egypt?",
+        "back": "Cairo 🏛️\n\nCairo is the capital of Egypt. It is one of the oldest cities in the world and sits near the famous ancient pyramids of Giza.",
+        "hint": "City near the ancient pyramids"
+      },
+      {
+        "front": "🇨🇳 What is the capital of China?",
+        "back": "Beijing 🐉\n\nBeijing is the capital of China. It is home to the Forbidden City and is the starting point of the Great Wall of China.",
+        "hint": "Home of the Forbidden City"
+      },
+      {
+        "front": "🇧🇷 What continent is Brazil in?",
+        "back": "South America 🌎\n\nBrazil is the largest country in South America. It covers nearly half the continent and is home to the world's largest rainforest, the Amazon.",
+        "hint": "Think of the Amazon rainforest"
+      },
+      {
+        "front": "🇬🇧 What is the capital of the United Kingdom?",
+        "back": "London 🎡\n\nLondon is the capital of the United Kingdom. It is home to Buckingham Palace, the Tower of London, and the famous red double-decker buses!",
+        "hint": "Home of the red double-decker bus"
+      },
+      {
+        "front": "🇮🇳 What is the capital of India?",
+        "back": "New Delhi 🕌\n\nNew Delhi is the capital of India. India is the world's most populous country and the birthplace of chess and the number zero!",
+        "hint": "Birthplace of chess"
+      },
+      {
+        "front": "🇿🇦 What is the capital of South Africa?",
+        "back": "Pretoria (administrative) 🦁\n\nSouth Africa has three capitals! Pretoria (executive), Cape Town (legislative), and Bloemfontein (judicial). It's unique in the world!",
+        "hint": "A country with three capitals!"
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 0,
+      "questionsCount": 12
+    },
+    "items": [
+      {
+        "question": "What is the capital of France?",
+        "answer": "Paris",
+        "options": ["Paris", "Lyon", "Berlin", "Rome"],
+        "explanation": "Paris is the capital of France, famous for the Eiffel Tower and Louvre museum.",
+        "hint": "City of the Eiffel Tower"
+      },
+      {
+        "question": "What is the capital of Japan?",
+        "answer": "Tokyo",
+        "options": ["Tokyo", "Osaka", "Kyoto", "Hiroshima"],
+        "explanation": "Tokyo is the capital of Japan and one of the world's most populated cities.",
+        "hint": "One of the world's largest cities"
+      },
+      {
+        "question": "What is the capital of the United Kingdom?",
+        "answer": "London",
+        "options": ["London", "Manchester", "Edinburgh", "Dublin"],
+        "explanation": "London is the capital of the United Kingdom, home to Buckingham Palace.",
+        "hint": "Home of red double-decker buses"
+      },
+      {
+        "question": "What is the capital of Australia?",
+        "answer": "Canberra",
+        "options": ["Canberra", "Sydney", "Melbourne", "Brisbane"],
+        "explanation": "Canberra is Australia's capital — not Sydney! It was chosen as a compromise.",
+        "hint": "It's not the most famous Australian city"
+      },
+      {
+        "question": "What is the capital of the United States?",
+        "answer": "Washington D.C.",
+        "options": ["Washington D.C.", "New York", "Los Angeles", "Chicago"],
+        "explanation": "Washington D.C. is the US capital. New York is the largest city but not the capital.",
+        "hint": "Where the White House is"
+      },
+      {
+        "question": "What is the capital of India?",
+        "answer": "New Delhi",
+        "options": ["New Delhi", "Mumbai", "Kolkata", "Chennai"],
+        "explanation": "New Delhi is the capital of India. Mumbai is the financial capital but not the official capital.",
+        "hint": "Not Mumbai!"
+      },
+      {
+        "question": "What is the capital of China?",
+        "answer": "Beijing",
+        "options": ["Beijing", "Shanghai", "Guangzhou", "Chengdu"],
+        "explanation": "Beijing is China's capital, home to the Great Wall and the Forbidden City.",
+        "hint": "Home of the Forbidden City"
+      },
+      {
+        "question": "What is the capital of Brazil?",
+        "answer": "Brasília",
+        "options": ["Brasília", "São Paulo", "Rio de Janeiro", "Salvador"],
+        "explanation": "Brasília is the capital, not Rio de Janeiro! It was built as a new capital city in 1960.",
+        "hint": "A specially designed city, not the famous beach city"
+      },
+      {
+        "question": "What is the capital of Egypt?",
+        "answer": "Cairo",
+        "options": ["Cairo", "Alexandria", "Luxor", "Aswan"],
+        "explanation": "Cairo is Egypt's capital, located near the ancient pyramids of Giza.",
+        "hint": "Near the pyramids of Giza"
+      },
+      {
+        "question": "What is the capital of Canada?",
+        "answer": "Ottawa",
+        "options": ["Ottawa", "Toronto", "Vancouver", "Montreal"],
+        "explanation": "Ottawa is Canada's capital — not Toronto, which is just the largest city.",
+        "hint": "Not Toronto!"
+      },
+      {
+        "question": "What is the capital of Germany?",
+        "answer": "Berlin",
+        "options": ["Berlin", "Munich", "Hamburg", "Frankfurt"],
+        "explanation": "Berlin is the capital of Germany. It is famous for the Brandenburg Gate.",
+        "hint": "Home of the Brandenburg Gate"
+      },
+      {
+        "question": "What is the capital of Italy?",
+        "answer": "Rome",
+        "options": ["Rome", "Milan", "Venice", "Florence"],
+        "explanation": "Rome is the capital of Italy, often called the Eternal City. It's home to the Colosseum.",
+        "hint": "The Eternal City with the Colosseum"
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 60,
+      "questionsCount": 999
+    },
+    "items": [
+      {
+        "question": "What is the capital of Russia?",
+        "answer": "Moscow",
+        "options": ["Moscow", "Saint Petersburg", "Vladivostok", "Kazan"],
+        "explanation": "Moscow is Russia's capital and largest city, home to the Kremlin and Red Square.",
+        "hint": "Home of the Kremlin and Red Square"
+      },
+      {
+        "question": "What is the capital of Argentina?",
+        "answer": "Buenos Aires",
+        "options": ["Buenos Aires", "Córdoba", "Rosario", "Mendoza"],
+        "explanation": "Buenos Aires is Argentina's capital, known as the birthplace of the tango dance.",
+        "hint": "Birthplace of the tango"
+      },
+      {
+        "question": "What is the capital of Nigeria?",
+        "answer": "Abuja",
+        "options": ["Abuja", "Lagos", "Kano", "Ibadan"],
+        "explanation": "Abuja is Nigeria's capital. Lagos is the largest city but Abuja was built as the capital.",
+        "hint": "Not Lagos — a purpose-built capital"
+      },
+      {
+        "question": "What is the capital of South Korea?",
+        "answer": "Seoul",
+        "options": ["Seoul", "Busan", "Incheon", "Daegu"],
+        "explanation": "Seoul is South Korea's capital, a massive tech-forward city home to Samsung and LG.",
+        "hint": "Home of Samsung and K-pop"
+      },
+      {
+        "question": "What is the capital of Mexico?",
+        "answer": "Mexico City",
+        "options": ["Mexico City", "Guadalajara", "Monterrey", "Cancún"],
+        "explanation": "Mexico City is one of the largest cities in the world and the capital of Mexico.",
+        "hint": "One of the world's largest cities"
+      },
+      {
+        "question": "What is the capital of Kenya?",
+        "answer": "Nairobi",
+        "options": ["Nairobi", "Mombasa", "Kisumu", "Nakuru"],
+        "explanation": "Nairobi is Kenya's capital and is known as the 'Green City in the Sun'.",
+        "hint": "The Green City in the Sun"
+      },
+      {
+        "question": "What is the capital of Spain?",
+        "answer": "Madrid",
+        "options": ["Madrid", "Barcelona", "Seville", "Valencia"],
+        "explanation": "Madrid is Spain's capital. Barcelona is famous but Madrid is the official capital.",
+        "hint": "Not Barcelona!"
+      },
+      {
+        "question": "What is the capital of Thailand?",
+        "answer": "Bangkok",
+        "options": ["Bangkok", "Chiang Mai", "Phuket", "Pattaya"],
+        "explanation": "Bangkok is Thailand's capital. It has one of the longest official city names in the world!",
+        "hint": "City with the world's longest official name"
+      }
+    ]
+  }
+}

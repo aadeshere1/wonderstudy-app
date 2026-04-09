@@ -1,0 +1,243 @@
+{
+  "id": "general-solar-system",
+  "meta": {
+    "title": "Solar System",
+    "subject": "general",
+    "class": null,
+    "lesson": null,
+    "subtopic": "Planets, Stars & Space",
+    "description": "Explore the planets, moons, stars, and other wonders of our solar system.",
+    "icon": "🪐",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "🌞 What is the Sun?",
+        "back": "The Sun is a star — a giant ball of hot gas at the centre of our solar system. It gives us light and heat. Without the Sun, there would be no life on Earth.",
+        "hint": "It's our nearest star"
+      },
+      {
+        "front": "How many planets are in our solar system?",
+        "back": "There are 8 planets: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune. Pluto used to be counted but is now called a dwarf planet.",
+        "hint": "Count on two hands — minus two"
+      },
+      {
+        "front": "🌍 Which planet do we live on?",
+        "back": "We live on Earth — the third planet from the Sun. Earth is the only known planet with liquid water on its surface and life.",
+        "hint": "Look down!"
+      },
+      {
+        "front": "Which is the biggest planet?",
+        "back": "Jupiter is the biggest planet. It is so large that all the other planets could fit inside it! It has a huge storm called the Great Red Spot.",
+        "hint": "It's named after the king of Roman gods"
+      },
+      {
+        "front": "Which planet has rings?",
+        "back": "Saturn is famous for its beautiful rings made of ice and rock. It also has 146 known moons — the most of any planet!",
+        "hint": "It looks like it's wearing a hat"
+      },
+      {
+        "front": "🌕 What is the Moon?",
+        "back": "The Moon is Earth's only natural satellite. It orbits the Earth and takes about 27 days to complete one orbit. We can see it at night because it reflects sunlight.",
+        "hint": "It goes around the Earth"
+      },
+      {
+        "front": "Which planet is closest to the Sun?",
+        "back": "Mercury is the closest planet to the Sun. It is also the smallest planet. A day on Mercury is longer than its year!",
+        "hint": "It's the smallest and fastest"
+      },
+      {
+        "front": "Which is the coldest planet?",
+        "back": "Neptune is the farthest planet and the coldest, with temperatures as low as −214°C. It has the strongest winds in the solar system.",
+        "hint": "It's the last planet"
+      },
+      {
+        "front": "What is a meteor?",
+        "back": "A meteor is a piece of rock or metal from space that burns up as it enters Earth's atmosphere. We sometimes call it a 'shooting star'.",
+        "hint": "It streaks across the night sky"
+      },
+      {
+        "front": "🌌 What is a galaxy?",
+        "back": "A galaxy is a huge collection of billions of stars, gas, and dust held together by gravity. Our solar system is inside the Milky Way galaxy.",
+        "hint": "Our home in space"
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 0,
+      "questionsCount": 12
+    },
+    "items": [
+      {
+        "question": "Which planet is closest to the Sun?",
+        "answer": "Mercury",
+        "options": ["Mercury", "Venus", "Earth", "Mars"],
+        "explanation": "Mercury is the first and smallest planet in our solar system, orbiting closest to the Sun.",
+        "hint": "Smallest and fastest planet"
+      },
+      {
+        "question": "Which is the largest planet in our solar system?",
+        "answer": "Jupiter",
+        "options": ["Jupiter", "Saturn", "Neptune", "Earth"],
+        "explanation": "Jupiter is the largest planet — all other planets could fit inside it!",
+        "hint": "Named after the king of gods"
+      },
+      {
+        "question": "How many planets are in our solar system?",
+        "answer": "8",
+        "options": ["8", "9", "7", "10"],
+        "explanation": "There are 8 planets: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune. Pluto is now classed as a dwarf planet.",
+        "hint": "Pluto was removed from the list"
+      },
+      {
+        "question": "Which planet is known for its beautiful rings?",
+        "answer": "Saturn",
+        "options": ["Saturn", "Jupiter", "Uranus", "Neptune"],
+        "explanation": "Saturn has stunning rings made of billions of pieces of ice and rock.",
+        "hint": "It looks like it has a hula hoop"
+      },
+      {
+        "question": "What is the Sun made of?",
+        "answer": "Hot gas (plasma)",
+        "options": ["Hot gas (plasma)", "Rock and metal", "Ice and water", "Solid fire"],
+        "explanation": "The Sun is a giant ball of hot plasma, mainly hydrogen and helium, held together by gravity.",
+        "hint": "It's not solid"
+      },
+      {
+        "question": "Which planet do humans live on?",
+        "answer": "Earth",
+        "options": ["Earth", "Mars", "Venus", "Jupiter"],
+        "explanation": "Earth is the third planet from the Sun and the only known planet with life.",
+        "hint": "Look around you!"
+      },
+      {
+        "question": "What do we call Earth's natural satellite?",
+        "answer": "The Moon",
+        "options": ["The Moon", "Mars", "A comet", "An asteroid"],
+        "explanation": "The Moon is Earth's only natural satellite. It orbits Earth every 27 days.",
+        "hint": "You can see it at night"
+      },
+      {
+        "question": "Which planet is called the Red Planet?",
+        "answer": "Mars",
+        "options": ["Mars", "Jupiter", "Mercury", "Neptune"],
+        "explanation": "Mars appears red because of iron oxide (rust) on its surface.",
+        "hint": "Its colour gives it away"
+      },
+      {
+        "question": "What is a shooting star really?",
+        "answer": "A meteor burning up in the atmosphere",
+        "options": [
+          "A meteor burning up in the atmosphere",
+          "A star that has moved",
+          "A piece of the Sun",
+          "A satellite falling"
+        ],
+        "explanation": "A 'shooting star' is actually a meteor — a rock from space that burns up as it enters Earth's atmosphere.",
+        "hint": "It's not a real star"
+      },
+      {
+        "question": "What is our solar system's galaxy called?",
+        "answer": "The Milky Way",
+        "options": ["The Milky Way", "Andromeda", "The Big Dipper", "The Cosmos"],
+        "explanation": "Our solar system is part of the Milky Way galaxy, which contains hundreds of billions of stars.",
+        "hint": "You can see it on a clear night"
+      },
+      {
+        "question": "Which planet has the most moons?",
+        "answer": "Saturn",
+        "options": ["Saturn", "Jupiter", "Uranus", "Mars"],
+        "explanation": "Saturn has 146 known moons, the most of any planet in our solar system.",
+        "hint": "The ringed planet"
+      },
+      {
+        "question": "What keeps planets orbiting the Sun?",
+        "answer": "Gravity",
+        "options": ["Gravity", "Wind", "Magnetism", "Light"],
+        "explanation": "The Sun's gravity pulls planets toward it, while their speed keeps them moving in an orbit — a perfect balance.",
+        "hint": "The same force that keeps you on the ground"
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 60,
+      "questionsCount": 999
+    },
+    "items": [
+      {
+        "question": "Which planet spins on its side?",
+        "answer": "Uranus",
+        "options": ["Uranus", "Neptune", "Saturn", "Mars"],
+        "explanation": "Uranus has an extreme axial tilt of 98° — it essentially rolls around the Sun on its side.",
+        "hint": "The oddly tilted planet"
+      },
+      {
+        "question": "How long does light from the Sun take to reach Earth?",
+        "answer": "About 8 minutes",
+        "options": ["About 8 minutes", "1 second", "1 hour", "1 day"],
+        "explanation": "Light travels at 300,000 km/s. The Sun is 150 million km away, so light takes about 8 minutes to reach us.",
+        "hint": "Faster than anything, but still takes a few minutes"
+      },
+      {
+        "question": "Which is the hottest planet?",
+        "answer": "Venus",
+        "options": ["Venus", "Mercury", "Mars", "Jupiter"],
+        "explanation": "Venus is hotter than Mercury despite being farther from the Sun. Its thick atmosphere traps heat like a blanket.",
+        "hint": "Not the closest, but the hottest"
+      },
+      {
+        "question": "What is a comet made of?",
+        "answer": "Ice, dust, and rock",
+        "options": ["Ice, dust, and rock", "Pure metal", "Hot gas", "Water only"],
+        "explanation": "Comets are 'dirty snowballs' made of ice, dust, and rock. As they approach the Sun the ice melts, creating a bright tail.",
+        "hint": "Think of a dirty snowball in space"
+      },
+      {
+        "question": "Which planet has the Great Red Spot?",
+        "answer": "Jupiter",
+        "options": ["Jupiter", "Mars", "Saturn", "Neptune"],
+        "explanation": "The Great Red Spot on Jupiter is a storm larger than Earth that has been raging for hundreds of years.",
+        "hint": "The biggest planet"
+      },
+      {
+        "question": "What is the order of the first four planets from the Sun?",
+        "answer": "Mercury, Venus, Earth, Mars",
+        "options": [
+          "Mercury, Venus, Earth, Mars",
+          "Venus, Mercury, Mars, Earth",
+          "Earth, Mars, Venus, Mercury",
+          "Mercury, Earth, Venus, Mars"
+        ],
+        "explanation": "Remember: My Very Educated Mother — for Mercury, Venus, Earth, Mars.",
+        "hint": "My Very Educated Mother…"
+      },
+      {
+        "question": "What is the asteroid belt?",
+        "answer": "A region of rocky objects between Mars and Jupiter",
+        "options": [
+          "A region of rocky objects between Mars and Jupiter",
+          "Saturn's rings",
+          "A belt of comets near Neptune",
+          "A storm on Jupiter"
+        ],
+        "explanation": "The asteroid belt lies between Mars and Jupiter and contains millions of rocky objects left over from the formation of the solar system.",
+        "hint": "It sits between the inner and outer planets"
+      },
+      {
+        "question": "How long does Earth take to orbit the Sun once?",
+        "answer": "365 days (1 year)",
+        "options": ["365 days (1 year)", "24 hours", "30 days", "100 days"],
+        "explanation": "Earth completes one full orbit around the Sun in 365.25 days — which is why we have a leap year every 4 years.",
+        "hint": "That's one Earth year"
+      }
+    ]
+  }
+}

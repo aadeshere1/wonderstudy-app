@@ -1,0 +1,233 @@
+{
+  "id": "general-human-body",
+  "meta": {
+    "title": "Human Body",
+    "subject": "general",
+    "class": null,
+    "lesson": null,
+    "subtopic": "Organs, Senses & Health",
+    "description": "Discover how your amazing body works — organs, senses, bones, and more.",
+    "icon": "🫀",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "🫀 What does the heart do?",
+        "back": "The heart is a muscle that pumps blood around your body. It beats about 100,000 times every single day! Blood carries oxygen and food to all your organs.",
+        "hint": "Put your hand on your chest to feel it"
+      },
+      {
+        "front": "🧠 What does the brain do?",
+        "back": "The brain is your body's control centre. It controls thinking, memory, feelings, movement, and all your body's organs. It weighs about 1.4 kg.",
+        "hint": "It's inside your head"
+      },
+      {
+        "front": "🫁 What do the lungs do?",
+        "back": "Your lungs breathe in oxygen from the air and breathe out carbon dioxide. You have two lungs, one on each side of your chest.",
+        "hint": "Take a deep breath!"
+      },
+      {
+        "front": "What does the stomach do?",
+        "back": "The stomach breaks down food you eat using strong acids. It churns food into a soft paste so your body can absorb the goodness from it.",
+        "hint": "It growls when you're hungry"
+      },
+      {
+        "front": "How many bones are in the adult human body?",
+        "back": "An adult human body has 206 bones. Babies are born with about 270 bones — some fuse together as you grow.",
+        "hint": "More than 200"
+      },
+      {
+        "front": "What are the 5 senses?",
+        "back": "The five senses are: Sight (eyes), Hearing (ears), Smell (nose), Taste (tongue), Touch (skin). They help you understand the world around you.",
+        "hint": "You use them every day"
+      },
+      {
+        "front": "👁️ How do eyes work?",
+        "back": "Your eyes detect light. Light enters through the pupil, is focused by the lens, and hits the retina at the back. The brain turns this signal into the image you see.",
+        "hint": "Light goes in, your brain does the rest"
+      },
+      {
+        "front": "What is skin?",
+        "back": "Skin is the body's largest organ. It protects you from germs, helps control your body temperature, and lets you feel touch, heat, and pain.",
+        "hint": "It covers your whole body"
+      },
+      {
+        "front": "What does blood do?",
+        "back": "Blood carries oxygen, nutrients, and hormones to all parts of your body. It also carries away waste and fights infections using white blood cells.",
+        "hint": "It travels through your veins and arteries"
+      },
+      {
+        "front": "🦷 Why do we have two sets of teeth?",
+        "back": "Children have 20 baby teeth that fall out as they grow. These are replaced by 32 permanent adult teeth. Adult teeth must last a lifetime — so we must look after them!",
+        "hint": "Baby teeth come first, then adult teeth"
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 0,
+      "questionsCount": 12
+    },
+    "items": [
+      {
+        "question": "Which organ pumps blood around the body?",
+        "answer": "Heart",
+        "options": ["Heart", "Lungs", "Brain", "Stomach"],
+        "explanation": "The heart is a powerful muscle that pumps blood to every part of the body.",
+        "hint": "You can feel it beating"
+      },
+      {
+        "question": "What is the body's control centre?",
+        "answer": "Brain",
+        "options": ["Brain", "Heart", "Spine", "Lungs"],
+        "explanation": "The brain controls all body functions, thoughts, movement, and senses.",
+        "hint": "It's inside your skull"
+      },
+      {
+        "question": "How many lungs does a human have?",
+        "answer": "2",
+        "options": ["2", "1", "3", "4"],
+        "explanation": "Humans have two lungs — a left and a right — inside the chest cavity.",
+        "hint": "One on each side of your chest"
+      },
+      {
+        "question": "Which sense organ is used for hearing?",
+        "answer": "Ears",
+        "options": ["Ears", "Eyes", "Nose", "Tongue"],
+        "explanation": "Ears detect sound waves and send signals to the brain so we can hear.",
+        "hint": "You have two of them on the side of your head"
+      },
+      {
+        "question": "How many bones are in an adult human body?",
+        "answer": "206",
+        "options": ["206", "100", "300", "150"],
+        "explanation": "An adult skeleton has 206 bones. Babies start with around 270, which fuse as they grow.",
+        "hint": "A bit more than 200"
+      },
+      {
+        "question": "Which is the largest organ in the human body?",
+        "answer": "Skin",
+        "options": ["Skin", "Liver", "Heart", "Brain"],
+        "explanation": "Skin is the largest organ — it covers the entire body and protects us from germs.",
+        "hint": "It covers your whole body"
+      },
+      {
+        "question": "What do white blood cells do?",
+        "answer": "Fight infections and germs",
+        "options": [
+          "Fight infections and germs",
+          "Carry oxygen",
+          "Digest food",
+          "Control movement"
+        ],
+        "explanation": "White blood cells are part of the immune system and attack bacteria and viruses that enter the body.",
+        "hint": "They are the body's soldiers"
+      },
+      {
+        "question": "Which organ digests food?",
+        "answer": "Stomach",
+        "options": ["Stomach", "Heart", "Lungs", "Brain"],
+        "explanation": "The stomach uses acids and churning movements to break down food into a form the body can absorb.",
+        "hint": "It growls when you're hungry"
+      },
+      {
+        "question": "What gas do the lungs breathe in?",
+        "answer": "Oxygen",
+        "options": ["Oxygen", "Carbon dioxide", "Nitrogen", "Helium"],
+        "explanation": "The lungs breathe in oxygen, which red blood cells carry to every cell in the body.",
+        "hint": "The gas all living things need"
+      },
+      {
+        "question": "What is the hard white covering on teeth called?",
+        "answer": "Enamel",
+        "options": ["Enamel", "Bone", "Calcium", "Dentin"],
+        "explanation": "Enamel is the hardest substance in the human body. It protects teeth from damage.",
+        "hint": "Hardest substance in your body"
+      },
+      {
+        "question": "Which part of the eye controls how much light enters?",
+        "answer": "Pupil",
+        "options": ["Pupil", "Iris", "Retina", "Lens"],
+        "explanation": "The pupil is the dark circle in the centre of the eye. It gets bigger in low light to let more light in.",
+        "hint": "It gets bigger in the dark"
+      },
+      {
+        "question": "How many senses does a human have?",
+        "answer": "5",
+        "options": ["5", "4", "6", "3"],
+        "explanation": "The five senses are sight, hearing, smell, taste, and touch.",
+        "hint": "Sight, hearing, smell, taste, touch"
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 60,
+      "questionsCount": 999
+    },
+    "items": [
+      {
+        "question": "Which organ filters waste from the blood?",
+        "answer": "Kidneys",
+        "options": ["Kidneys", "Liver", "Lungs", "Stomach"],
+        "explanation": "The kidneys filter about 200 litres of blood every day, removing waste as urine.",
+        "hint": "You have two of them, shaped like beans"
+      },
+      {
+        "question": "What is the strongest muscle in the human body?",
+        "answer": "The jaw muscle (masseter)",
+        "options": ["The jaw muscle (masseter)", "The heart", "The bicep", "The thigh muscle"],
+        "explanation": "The masseter (jaw muscle) is the strongest muscle relative to its size, used for chewing.",
+        "hint": "You use it when you chew"
+      },
+      {
+        "question": "What connects muscles to bones?",
+        "answer": "Tendons",
+        "options": ["Tendons", "Ligaments", "Veins", "Cartilage"],
+        "explanation": "Tendons are tough cords of tissue that connect muscles to bones, allowing movement.",
+        "hint": "They help muscles pull bones"
+      },
+      {
+        "question": "Which part of the brain controls balance and coordination?",
+        "answer": "Cerebellum",
+        "options": ["Cerebellum", "Cerebrum", "Brain stem", "Hippocampus"],
+        "explanation": "The cerebellum, at the back of the brain, coordinates movement and balance.",
+        "hint": "It's at the back of the brain"
+      },
+      {
+        "question": "How long is the small intestine in an adult?",
+        "answer": "About 6–7 metres",
+        "options": ["About 6–7 metres", "About 1 metre", "About 20 metres", "About 30 cm"],
+        "explanation": "The small intestine is surprisingly long — about 6–7 metres — folded up inside your abdomen.",
+        "hint": "Longer than you'd expect!"
+      },
+      {
+        "question": "What type of blood vessel carries blood away from the heart?",
+        "answer": "Arteries",
+        "options": ["Arteries", "Veins", "Capillaries", "Nerves"],
+        "explanation": "Arteries carry oxygenated blood away from the heart. Veins carry blood back to the heart.",
+        "hint": "Think: Arteries Away"
+      },
+      {
+        "question": "Which vitamin does sunlight help your body produce?",
+        "answer": "Vitamin D",
+        "options": ["Vitamin D", "Vitamin C", "Vitamin A", "Vitamin B12"],
+        "explanation": "Your skin produces Vitamin D when exposed to sunlight. It keeps bones and teeth strong.",
+        "hint": "Sunlight vitamin"
+      },
+      {
+        "question": "How many chambers does the human heart have?",
+        "answer": "4",
+        "options": ["4", "2", "3", "6"],
+        "explanation": "The heart has four chambers: two atria (upper) and two ventricles (lower).",
+        "hint": "Two upper, two lower"
+      }
+    ]
+  }
+}

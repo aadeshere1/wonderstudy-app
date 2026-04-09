@@ -1,0 +1,38 @@
+{
+  "id": "general-multiplication",
+  "meta": {
+    "title": "Multiplication Tables",
+    "subject": "general",
+    "class": null,
+    "lesson": null,
+    "subtopic": "Times Tables 1-12",
+    "description": "Practice multiplication facts from 1×1 to 12×12. Master the times tables with quick, timed challenges.",
+    "icon": "✖️",
+    "difficulty": "intermediate"
+  },
+  "teach": null,
+  "practice": {
+    "gameType": "arithmetic",
+    "config": {
+      "operation": "multiply",
+      "rangeA": [1, 12],
+      "rangeB": [1, 12],
+      "timeLimit": 0,
+      "questionsCount": 20,
+      "answerMode": "quiz"
+    },
+    "items": []
+  },
+  "challenge": {
+    "gameType": "arithmetic",
+    "config": {
+      "operation": "multiply",
+      "rangeA": [1, 12],
+      "rangeB": [1, 12],
+      "timeLimit": 60,
+      "questionsCount": 999,
+      "answerMode": "quiz"
+    },
+    "items": []
+  }
+}

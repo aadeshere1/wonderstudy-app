@@ -1,0 +1,170 @@
+{
+  "id": "class-1-english-animals-vocabulary",
+  "meta": {
+    "title": "Animals Vocabulary",
+    "subject": "english",
+    "class": 1,
+    "lesson": "Chapter 2",
+    "subtopic": "Animals Around Us",
+    "description": "Learn the names of common animals and their sounds and baby names",
+    "icon": "🐾",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "🐕 Dog",
+        "back": "A dog says 'Woof!' It is a pet that barks. A baby dog is called a puppy.",
+        "hint": "Man's best friend"
+      },
+      {
+        "front": "🐈 Cat",
+        "back": "A cat says 'Meow!' It is a pet that purrs. A baby cat is called a kitten.",
+        "hint": "It purrs"
+      },
+      {
+        "front": "🐄 Cow",
+        "back": "A cow says 'Moo!' Cows live on farms and give us milk. A baby cow is called a calf.",
+        "hint": "Gives us milk"
+      },
+      {
+        "front": "🐔 Hen",
+        "back": "A hen says 'Cluck!' Hens lay eggs. A baby chicken is called a chick.",
+        "hint": "Lays eggs"
+      },
+      {
+        "front": "🦁 Lion",
+        "back": "A lion says 'Roar!' Lions are big wild cats. A baby lion is called a cub.",
+        "hint": "The king of animals"
+      },
+      {
+        "front": "🐸 Frog",
+        "back": "A frog says 'Ribbit!' Frogs live near water and can jump very far.",
+        "hint": "Hops and jumps"
+      },
+      {
+        "front": "🐘 Elephant",
+        "back": "An elephant makes a 'Trumpet' sound. It has a long trunk and big ears. A baby elephant is called a calf.",
+        "hint": "Has a trunk"
+      },
+      {
+        "front": "🦆 Duck",
+        "back": "A duck says 'Quack!' Ducks swim in water and waddle on land.",
+        "hint": "Swims in water"
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "vocab",
+    "config": {
+      "answerMode": "mcq",
+      "optionsCount": 4,
+      "timeLimit": 0,
+      "questionsCount": 10
+    },
+    "items": [
+      {
+        "question": "Which animal says 'Woof'?",
+        "answer": "Dog",
+        "options": ["Dog", "Cat", "Cow", "Hen"],
+        "hint": "Man's best friend"
+      },
+      {
+        "question": "What do we call a baby cat?",
+        "answer": "Kitten",
+        "options": ["Kitten", "Puppy", "Cub", "Calf"],
+        "hint": "Sounds cute"
+      },
+      {
+        "question": "Which animal gives us milk?",
+        "answer": "Cow",
+        "options": ["Cow", "Dog", "Cat", "Duck"],
+        "hint": "Say 'Moo'"
+      },
+      {
+        "question": "What sound does a hen make?",
+        "answer": "Cluck",
+        "options": ["Cluck", "Moo", "Quack", "Roar"],
+        "hint": "Farm animal"
+      },
+      {
+        "question": "Which is a wild animal?",
+        "answer": "Lion",
+        "options": ["Lion", "Dog", "Cat", "Cow"],
+        "hint": "Big and strong"
+      },
+      {
+        "question": "Where do frogs live?",
+        "answer": "Near water",
+        "options": ["Near water", "In trees", "In caves", "In grass"],
+        "hint": "They hop and jump"
+      },
+      {
+        "question": "What does an elephant have?",
+        "answer": "Trunk",
+        "options": ["Trunk", "Wings", "Fins", "Horns"],
+        "hint": "It uses this to grab things"
+      },
+      {
+        "question": "Which animal quacks?",
+        "answer": "Duck",
+        "options": ["Duck", "Hen", "Frog", "Cow"],
+        "hint": "Swims in water"
+      },
+      {
+        "question": "What do we call a baby dog?",
+        "answer": "Puppy",
+        "options": ["Puppy", "Kitten", "Cub", "Chick"],
+        "hint": "Cute and small"
+      },
+      {
+        "question": "Which animal lays eggs?",
+        "answer": "Hen",
+        "options": ["Hen", "Dog", "Cow", "Lion"],
+        "hint": "Farm animal"
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "vocab",
+    "config": {
+      "answerMode": "mcq",
+      "optionsCount": 4,
+      "timeLimit": 60,
+      "questionsCount": 15
+    },
+    "items": [
+      {
+        "question": "What is a baby lion called?",
+        "answer": "Cub",
+        "options": ["Cub", "Kitten", "Puppy", "Calf"],
+        "hint": "Young wild cat"
+      },
+      {
+        "question": "Which animal makes a trumpet sound?",
+        "answer": "Elephant",
+        "options": ["Elephant", "Frog", "Duck", "Dog"],
+        "hint": "Has a long trunk"
+      },
+      {
+        "question": "What sound does a frog make?",
+        "answer": "Ribbit",
+        "options": ["Ribbit", "Quack", "Moo", "Cluck"],
+        "hint": "Hops around"
+      },
+      {
+        "question": "Which animal waddles?",
+        "answer": "Duck",
+        "options": ["Duck", "Cat", "Lion", "Cow"],
+        "hint": "Water bird"
+      },
+      {
+        "question": "A baby cow is called a?",
+        "answer": "Calf",
+        "options": ["Calf", "Foal", "Kid", "Lamb"],
+        "hint": "Young cow"
+      }
+    ]
+  }
+}

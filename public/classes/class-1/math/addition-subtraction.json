@@ -1,0 +1,82 @@
+{
+  "id": "class-1-math-addition-subtraction",
+  "meta": {
+    "title": "Addition & Subtraction",
+    "subject": "math",
+    "class": 1,
+    "lesson": "Chapter 1",
+    "subtopic": "Numbers to 10",
+    "description": "Learn addition and subtraction with numbers from 0 to 10",
+    "icon": "➕",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "What is 2 + 3?",
+        "back": "2 + 3 = 5. If you have 2 apples and get 3 more, you have 5 apples total.",
+        "hint": "Count on your fingers"
+      },
+      {
+        "front": "What is 5 + 4?",
+        "back": "5 + 4 = 9. Addition means putting groups together to find how many in total.",
+        "hint": "Put them together"
+      },
+      {
+        "front": "What is 7 - 2?",
+        "back": "7 - 2 = 5. If you have 7 cookies and eat 2, you have 5 left.",
+        "hint": "Take away some"
+      },
+      {
+        "front": "What is 10 - 3?",
+        "back": "10 - 3 = 7. Subtraction means taking away from a group.",
+        "hint": "Count backwards"
+      },
+      {
+        "front": "What is 1 + 1?",
+        "back": "1 + 1 = 2. When you add one thing to another thing, you get two things.",
+        "hint": "The first addition"
+      },
+      {
+        "front": "What is 6 + 4?",
+        "back": "6 + 4 = 10. We can skip count: 6...7, 8, 9, 10!",
+        "hint": "Makes 10"
+      },
+      {
+        "front": "What is 9 - 4?",
+        "back": "9 - 4 = 5. We can use counting backwards: 9, 8, 7, 6, 5",
+        "hint": "Count down 4 steps"
+      },
+      {
+        "front": "What is 8 + 2?",
+        "back": "8 + 2 = 10. We skip count 2 more: 8... 9, 10!",
+        "hint": "Gets to 10"
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "arithmetic",
+    "config": {
+      "operation": "add",
+      "rangeA": [0, 10],
+      "rangeB": [0, 10],
+      "timeLimit": 0,
+      "questionsCount": 15,
+      "answerMode": "quiz"
+    },
+    "items": []
+  },
+  "challenge": {
+    "gameType": "arithmetic",
+    "config": {
+      "operation": "mixed",
+      "rangeA": [0, 10],
+      "rangeB": [0, 10],
+      "timeLimit": 90,
+      "questionsCount": 999,
+      "answerMode": "quiz"
+    },
+    "items": []
+  }
+}

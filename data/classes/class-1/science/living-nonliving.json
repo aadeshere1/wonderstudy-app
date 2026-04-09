@@ -1,0 +1,173 @@
+{
+  "id": "class-1-science-living-nonliving",
+  "meta": {
+    "title": "Living and Non-Living Things",
+    "subject": "science",
+    "class": 1,
+    "lesson": "Chapter 1",
+    "subtopic": "Living vs Non-Living",
+    "description": "Learn to identify living and non-living things and their characteristics",
+    "icon": "🌿",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "What are living things?",
+        "back": "Living things are creatures that breathe, eat, grow, and can have babies. Examples: people, animals, plants.",
+        "hint": "They need food and air"
+      },
+      {
+        "front": "What are non-living things?",
+        "back": "Non-living things do not breathe, eat, or grow. They cannot have babies. Examples: rocks, chairs, water.",
+        "hint": "They don't need food"
+      },
+      {
+        "front": "Do plants grow?",
+        "back": "Yes! Plants grow taller and bigger. This is one sign that they are living things.",
+        "hint": "Think of a plant in a pot"
+      },
+      {
+        "front": "Can a rock move?",
+        "back": "A rock cannot move on its own. We can move it, but rocks cannot move by themselves.",
+        "hint": "It needs help to move"
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 0,
+      "questionsCount": 10
+    },
+    "items": [
+      {
+        "question": "Which of these is a living thing?",
+        "answer": "Dog",
+        "options": ["Dog", "Chair", "Stone", "Cup"],
+        "explanation": "A dog breathes, eats, grows, and can have puppies. These are signs of a living thing.",
+        "hint": "Can it breathe?"
+      },
+      {
+        "question": "Which of these is NOT a living thing?",
+        "answer": "Rock",
+        "options": ["Rock", "Tree", "Fish", "Bird"],
+        "explanation": "A rock does not grow, breathe, or move on its own.",
+        "hint": "Which one doesn't need food?"
+      },
+      {
+        "question": "What do living things need?",
+        "answer": "Food and air",
+        "options": ["Food and air", "Just water", "Nothing", "Only sunlight"],
+        "explanation": "All living things need food and air to survive.",
+        "hint": "What do you need to live?"
+      },
+      {
+        "question": "Which one grows?",
+        "answer": "Plant",
+        "options": ["Plant", "Metal", "Plastic", "Paper"],
+        "explanation": "Plants grow taller and bigger as they get older.",
+        "hint": "Living things grow"
+      },
+      {
+        "question": "Can a table move by itself?",
+        "answer": "No",
+        "options": ["Yes", "No"],
+        "explanation": "A table is non-living. It cannot move by itself. We must push it.",
+        "hint": "Is it a living thing?"
+      },
+      {
+        "question": "What do we call a baby dog?",
+        "answer": "Puppy",
+        "options": ["Puppy", "Kitten", "Cub", "Calf"],
+        "explanation": "A baby dog is called a puppy.",
+        "hint": "It's a cute baby"
+      },
+      {
+        "question": "Which lives in water?",
+        "answer": "Fish",
+        "options": ["Fish", "Lion", "Eagle", "Monkey"],
+        "explanation": "Fish are living things that live in water.",
+        "hint": "It has gills"
+      },
+      {
+        "question": "Is the sun a living thing?",
+        "answer": "No",
+        "options": ["Yes", "No"],
+        "explanation": "The sun is not a living thing. It does not eat or grow.",
+        "hint": "Can it eat food?"
+      },
+      {
+        "question": "What do plants need from the sun?",
+        "answer": "Light",
+        "options": ["Light", "Water only", "Food", "Air only"],
+        "explanation": "Plants need light from the sun to make their own food.",
+        "hint": "Plants get energy from it"
+      },
+      {
+        "question": "Which one can have babies?",
+        "answer": "Cat",
+        "options": ["Cat", "Book", "Shoe", "Toy"],
+        "explanation": "Living things like cats can have babies. Non-living things cannot.",
+        "hint": "Only living things have babies"
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 60,
+      "questionsCount": 15
+    },
+    "items": [
+      {
+        "question": "Which group has only living things?",
+        "answer": "Cat, bird, plant",
+        "options": ["Cat, bird, plant", "Stone, chair, table", "Water, rock, sand"],
+        "explanation": "Living things include animals and plants.",
+        "hint": "Which ones breathe?"
+      },
+      {
+        "question": "How do we know something is alive?",
+        "answer": "It breathes, eats, and grows",
+        "options": [
+          "It breathes, eats, and grows",
+          "It has color",
+          "It is hard",
+          "It is big"
+        ],
+        "explanation": "Living things show these characteristics: breathing, eating, growing, moving, and making babies.",
+        "hint": "Signs of life"
+      },
+      {
+        "question": "Which needs oxygen (air) to breathe?",
+        "answer": "Human",
+        "options": ["Human", "Rock", "Table", "Window"],
+        "explanation": "Humans are living things that need oxygen from the air to breathe.",
+        "hint": "It's a living thing"
+      },
+      {
+        "question": "What makes a plant a living thing?",
+        "answer": "It grows and makes its own food",
+        "options": [
+          "It grows and makes its own food",
+          "It is green",
+          "It lives in soil",
+          "It has roots"
+        ],
+        "explanation": "Plants are living because they grow, make their own food using sunlight, and reproduce.",
+        "hint": "It has life processes"
+      },
+      {
+        "question": "Is water alive?",
+        "answer": "No",
+        "options": ["Yes", "No"],
+        "explanation": "Water is not alive. It does not breathe, eat, grow, or move on its own.",
+        "hint": "Does it eat food?"
+      }
+    ]
+  }
+}

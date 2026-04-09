@@ -1,0 +1,38 @@
+{
+  "id": "general-addition",
+  "meta": {
+    "title": "Addition Sprint",
+    "subject": "general",
+    "class": null,
+    "lesson": null,
+    "subtopic": "Adding Numbers",
+    "description": "Build your addition speed! Start with small numbers and work up to bigger ones.",
+    "icon": "➕",
+    "difficulty": "beginner"
+  },
+  "teach": null,
+  "practice": {
+    "gameType": "arithmetic",
+    "config": {
+      "operation": "add",
+      "rangeA": [1, 20],
+      "rangeB": [1, 20],
+      "timeLimit": 0,
+      "questionsCount": 20,
+      "answerMode": "quiz"
+    },
+    "items": []
+  },
+  "challenge": {
+    "gameType": "arithmetic",
+    "config": {
+      "operation": "add",
+      "rangeA": [1, 50],
+      "rangeB": [1, 50],
+      "timeLimit": 60,
+      "questionsCount": 999,
+      "answerMode": "quiz"
+    },
+    "items": []
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "id": "general-animals-world",
+  "meta": {
+    "title": "Animals of the World",
+    "subject": "general",
+    "class": null,
+    "lesson": null,
+    "subtopic": "Habitats, Diet & Fun Facts",
+    "description": "Explore amazing animals from around the world — where they live, what they eat, and incredible facts.",
+    "icon": "🦁",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "🦁 Where do lions live?",
+        "back": "Lions live on the grasslands and savannas of Africa. They live in family groups called prides. The female lions (lionesses) do most of the hunting.",
+        "hint": "Hot grassy lands of Africa"
+      },
+      {
+        "front": "🐘 How do elephants drink water?",
+        "back": "Elephants use their trunk like a straw — they suck up to 15 litres of water, then squirt it into their mouth. Their trunk has about 40,000 muscles!",
+        "hint": "They use their long nose"
+      },
+      {
+        "front": "🐬 Are dolphins fish?",
+        "back": "No! Dolphins are mammals, not fish. They breathe air through a blowhole on top of their head and feed their babies milk, just like humans.",
+        "hint": "They breathe air like we do"
+      },
+      {
+        "front": "🦅 What is a bird of prey?",
+        "back": "Birds of prey (raptors) hunt and eat other animals. Examples: eagles, hawks, owls, and falcons. They have sharp talons and excellent eyesight.",
+        "hint": "They hunt with their claws"
+      },
+      {
+        "front": "🐢 How long can a tortoise live?",
+        "back": "Some tortoises live over 150 years, making them one of the longest-living animals on Earth. They grow slowly and their hard shell protects them from predators.",
+        "hint": "Slow and very, very old"
+      },
+      {
+        "front": "🦋 What is metamorphosis?",
+        "back": "Metamorphosis is the amazing process some animals use to transform. A caterpillar wraps itself in a chrysalis and emerges as a butterfly — a completely different creature!",
+        "hint": "Caterpillar → butterfly"
+      },
+      {
+        "front": "🐧 Can penguins fly?",
+        "back": "No, penguins cannot fly. Their wings evolved into flippers for swimming. They are excellent swimmers and can dive to 550 metres! They live in the Southern Hemisphere.",
+        "hint": "They swim instead of flying"
+      },
+      {
+        "front": "🦈 Are sharks mammals?",
+        "back": "No, sharks are fish. They breathe through gills and are cold-blooded. Sharks have existed for over 450 million years — longer than trees!",
+        "hint": "They breathe underwater through gills"
+      },
+      {
+        "front": "🐍 How do snakes swallow large animals?",
+        "back": "Snakes have special flexible jaws that can stretch wide open. They swallow prey whole and can go weeks without eating after a large meal.",
+        "hint": "Their jaws can unhinge"
+      },
+      {
+        "front": "🦒 Why does a giraffe have a long neck?",
+        "back": "A giraffe's long neck lets it reach leaves high in trees that other animals can't get to. It's about 1.8 metres long — the same as a full-grown human!",
+        "hint": "To reach the tallest trees"
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 0,
+      "questionsCount": 12
+    },
+    "items": [
+      {
+        "question": "Which is the fastest land animal?",
+        "answer": "Cheetah",
+        "options": ["Cheetah", "Lion", "Horse", "Ostrich"],
+        "explanation": "The cheetah can run up to 120 km/h in short bursts, making it the fastest land animal.",
+        "hint": "It has black spots and tear marks on its face"
+      },
+      {
+        "question": "Which animal has the longest neck?",
+        "answer": "Giraffe",
+        "options": ["Giraffe", "Elephant", "Camel", "Ostrich"],
+        "explanation": "A giraffe's neck can be 1.8 metres long, allowing it to eat leaves from tall trees.",
+        "hint": "The tallest animal on land"
+      },
+      {
+        "question": "What do herbivores eat?",
+        "answer": "Only plants",
+        "options": ["Only plants", "Only meat", "Plants and meat", "Only insects"],
+        "explanation": "Herbivores eat only plants — examples include cows, rabbits, and elephants.",
+        "hint": "Herb = plant"
+      },
+      {
+        "question": "Which animal is known as the ship of the desert?",
+        "answer": "Camel",
+        "options": ["Camel", "Horse", "Donkey", "Elephant"],
+        "explanation": "Camels are called the ship of the desert because they carry people and goods across deserts. They can go days without water.",
+        "hint": "It has humps on its back"
+      },
+      {
+        "question": "Which is the largest animal in the world?",
+        "answer": "Blue whale",
+        "options": ["Blue whale", "Elephant", "Giraffe", "Whale shark"],
+        "explanation": "The blue whale is the largest animal ever known — it can grow to 30 metres and weigh 200 tonnes.",
+        "hint": "It lives in the ocean"
+      },
+      {
+        "question": "What do carnivores eat?",
+        "answer": "Only meat",
+        "options": ["Only meat", "Only plants", "Plants and meat", "Only fish"],
+        "explanation": "Carnivores eat only meat — examples include lions, wolves, and sharks.",
+        "hint": "Carni = flesh/meat"
+      },
+      {
+        "question": "Which bird can mimic human speech?",
+        "answer": "Parrot",
+        "options": ["Parrot", "Eagle", "Penguin", "Sparrow"],
+        "explanation": "Parrots have a special vocal organ that lets them mimic sounds, including human speech.",
+        "hint": "Colourful tropical bird"
+      },
+      {
+        "question": "What is a group of wolves called?",
+        "answer": "A pack",
+        "options": ["A pack", "A pride", "A herd", "A flock"],
+        "explanation": "Wolves live in family groups called packs, led by an alpha pair.",
+        "hint": "Lions have a 'pride', wolves have a…"
+      },
+      {
+        "question": "Which animal can change its colour to camouflage?",
+        "answer": "Chameleon",
+        "options": ["Chameleon", "Frog", "Snake", "Lizard"],
+        "explanation": "Chameleons can rapidly change skin colour using special pigment cells to camouflage or communicate emotions.",
+        "hint": "It's a type of lizard"
+      },
+      {
+        "question": "What are baby frogs called?",
+        "answer": "Tadpoles",
+        "options": ["Tadpoles", "Larvae", "Puppies", "Hatchlings"],
+        "explanation": "Baby frogs start as tadpoles — small swimming creatures with tails. They gradually grow legs and lose their tails.",
+        "hint": "They swim and have tails"
+      },
+      {
+        "question": "Which animal has the best sense of smell?",
+        "answer": "Dog",
+        "options": ["Dog", "Elephant", "Shark", "Bear"],
+        "explanation": "Dogs have about 300 million olfactory receptors in their noses compared to 6 million in humans — 50 times more sensitive.",
+        "hint": "Man's best friend"
+      },
+      {
+        "question": "What do omnivores eat?",
+        "answer": "Both plants and meat",
+        "options": ["Both plants and meat", "Only plants", "Only meat", "Only insects"],
+        "explanation": "Omnivores eat both plants and animals — examples include humans, bears, and pigs.",
+        "hint": "Omni = all/everything"
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 60,
+      "questionsCount": 999
+    },
+    "items": [
+      {
+        "question": "How do bats navigate in the dark?",
+        "answer": "Echolocation",
+        "options": ["Echolocation", "Excellent eyesight", "Heat sensing", "Magnetic fields"],
+        "explanation": "Bats emit high-pitched sound waves and listen for the echoes to detect objects around them — this is called echolocation.",
+        "hint": "They use sound like a sonar"
+      },
+      {
+        "question": "Which insect produces honey?",
+        "answer": "Honeybee",
+        "options": ["Honeybee", "Wasp", "Butterfly", "Ant"],
+        "explanation": "Honeybees collect nectar from flowers and convert it into honey in their hives. A single bee produces only about 1/12 of a teaspoon in its lifetime.",
+        "hint": "It lives in a hive"
+      },
+      {
+        "question": "What is the only mammal that can truly fly?",
+        "answer": "Bat",
+        "options": ["Bat", "Flying squirrel", "Eagle", "Dragonfly"],
+        "explanation": "Bats are the only mammals with wings for true powered flight. Flying squirrels only glide.",
+        "hint": "It comes out at night"
+      },
+      {
+        "question": "Which animal has the largest brain relative to body size?",
+        "answer": "Dolphin",
+        "options": ["Dolphin", "Human", "Chimpanzee", "Elephant"],
+        "explanation": "Dolphins have the largest brain-to-body ratio of any non-human animal and are considered highly intelligent.",
+        "hint": "Intelligent sea mammal"
+      },
+      {
+        "question": "How many legs does an insect have?",
+        "answer": "6",
+        "options": ["6", "8", "4", "10"],
+        "explanation": "All insects have 6 legs. Spiders have 8 legs and are arachnids, not insects.",
+        "hint": "Count a beetle's legs"
+      },
+      {
+        "question": "Which is the only continent with no native reptiles?",
+        "answer": "Antarctica",
+        "options": ["Antarctica", "Arctic", "Europe", "Greenland"],
+        "explanation": "Antarctica is too cold for reptiles, which are cold-blooded and need external warmth to survive.",
+        "hint": "The coldest continent"
+      },
+      {
+        "question": "What is the loudest animal on Earth?",
+        "answer": "Sperm whale",
+        "options": ["Sperm whale", "Blue whale", "Howler monkey", "Lion"],
+        "explanation": "The sperm whale produces clicks up to 230 decibels — the loudest sound made by any animal.",
+        "hint": "A whale — but not the biggest one"
+      },
+      {
+        "question": "What do you call animals that are active at night?",
+        "answer": "Nocturnal",
+        "options": ["Nocturnal", "Diurnal", "Crepuscular", "Hibernate"],
+        "explanation": "Nocturnal animals sleep during the day and are active at night — examples include owls, bats, and hedgehogs.",
+        "hint": "Active at night"
+      }
+    ]
+  }
+}

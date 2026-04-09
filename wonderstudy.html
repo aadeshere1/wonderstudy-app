@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Times Tables Adventure!</title>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg:#0d0d1a;--surface:#161628;--card:#1e1e38;--card2:#252545;
+  --gold:#fbbf24;--coral:#f87171;--mint:#34d399;--purple:#a78bfa;
+  --blue:#60a5fa;--pink:#f472b6;--white:#f0f4ff;
+  --muted:rgba(240,244,255,0.4);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Nunito',sans-serif;background:var(--bg);color:var(--white);min-height:100vh;overflow-x:hidden}
+.stars{position:fixed;inset:0;pointer-events:none;z-index:0;overflow:hidden}
+.star{position:absolute;background:white;border-radius:50%;animation:twinkle var(--d) ease-in-out infinite alternate}
+@keyframes twinkle{from{opacity:.05}to{opacity:.8}}
+.nav{position:sticky;top:0;z-index:50;background:rgba(13,13,26,.9);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.07);display:flex;align-items:center;justify-content:space-between;padding:12px 20px}
+.nav-title{font-family:'Fredoka One',cursive;font-size:1.4rem;background:linear-gradient(135deg,var(--gold),var(--coral));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.nav-tabs{display:flex;gap:4px}
+.nav-tab{padding:7px 14px;border-radius:10px;border:none;cursor:pointer;font-family:'Nunito',sans-serif;font-weight:800;font-size:.8rem;transition:all .2s;background:transparent;color:var(--muted)}
+.nav-tab.active{background:rgba(167,139,250,.2);color:var(--purple)}
+.nav-tab:hover:not(.active){color:var(--white)}
+.page{display:none;position:relative;z-index:1;max-width:760px;margin:0 auto;padding:20px 16px 60px;animation:fadeUp .4s ease}
+.page.active{display:block}
+@keyframes fadeUp{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+.section-title{font-family:'Fredoka One',cursive;font-size:1.6rem;margin-bottom:4px}
+.section-sub{font-size:.85rem;color:var(--muted);margin-bottom:20px}
+.card{background:var(--card);border:1px solid rgba(255,255,255,.07);border-radius:20px;padding:20px}
+.card+.card{margin-top:14px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:11px 22px;border-radius:14px;border:none;cursor:pointer;font-family:'Nunito',sans-serif;font-weight:800;font-size:.9rem;transition:all .2s}
+.btn-primary{background:linear-gradient(135deg,var(--purple),var(--coral));color:white;box-shadow:0 4px 15px rgba(167,139,250,.35)}
+.btn-primary:hover{transform:translateY(-2px)}
+.btn-secondary{background:var(--card2);color:var(--white);border:1px solid rgba(255,255,255,.1)}
+.btn-secondary:hover{border-color:var(--purple);color:var(--purple)}
+.btn-gold{background:linear-gradient(135deg,var(--gold),#f97316);color:#1a1a2e;font-weight:900}
+.btn-sm{padding:7px 14px;font-size:.8rem;border-radius:10px}
+.btn:disabled{opacity:.4;cursor:not-allowed;transform:none!important}
+.chip-row{display:flex;flex-wrap:wrap;gap:8px}
+.chip{width:44px;height:44px;border-radius:12px;border:2px solid rgba(255,255,255,.1);background:var(--card2);color:var(--white);font-family:'Fredoka One',cursive;font-size:1.1rem;cursor:pointer;transition:all .2s;display:flex;align-items:center;justify-content:center}
+.chip:hover{border-color:var(--mint);transform:scale(1.08)}
+.chip.active{background:linear-gradient(135deg,var(--mint),#0891b2);border-color:var(--mint);box-shadow:0 4px 12px rgba(52,211,153,.4);transform:scale(1.08)}
+.time-chip{padding:8px 18px;width:auto;border-radius:30px;font-family:'Nunito',sans-serif;font-weight:800;font-size:.85rem}
+.time-chip.active{background:linear-gradient(135deg,var(--gold),#f97316);border-color:var(--gold);color:#1a1a2e}
+.player-row{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+.player-color{width:18px;height:18px;border-radius:50%;flex-shrink:0}
+.player-input{flex:1;background:var(--card2);border:2px solid rgba(255,255,255,.1);border-radius:12px;color:var(--white);font-family:'Nunito',sans-serif;font-weight:700;font-size:.9rem;padding:9px 14px;outline:none;transition:border-color .2s}
+.player-input:focus{border-color:var(--purple)}
+.player-toggle{padding:7px 14px;border-radius:10px;border:2px solid rgba(255,255,255,.1);background:transparent;color:var(--muted);font-weight:800;font-size:.8rem;cursor:pointer;transition:all .2s;font-family:'Nunito',sans-serif}
+.player-toggle.active{background:rgba(167,139,250,.2);border-color:var(--purple);color:var(--purple)}
+.speak-option-row{display:flex;align-items:center;justify-content:space-between;padding:10px 0;border-bottom:1px solid rgba(255,255,255,.06)}
+.speak-option-row:last-child{border-bottom:none}
+.speak-label{font-weight:700;font-size:.9rem}
+.speak-desc{font-size:.75rem;color:var(--muted);margin-top:2px}
+.toggle-switch{position:relative;width:46px;height:26px;flex-shrink:0}
+.toggle-switch input{opacity:0;width:0;height:0}
+.toggle-slider{position:absolute;inset:0;background:var(--card2);border-radius:30px;cursor:pointer;transition:.3s;border:2px solid rgba(255,255,255,.1)}
+.toggle-slider:before{content:'';position:absolute;width:18px;height:18px;left:2px;top:2px;background:var(--muted);border-radius:50%;transition:.3s}
+.toggle-switch input:checked+.toggle-slider{background:var(--purple);border-color:var(--purple)}
+.toggle-switch input:checked+.toggle-slider:before{transform:translateX(20px);background:white}
+
+/* Voice engine card */
+.voice-engine-row{display:flex;gap:8px;margin-bottom:14px;flex-wrap:wrap}
+.voice-engine-btn{flex:1;min-width:100px;padding:10px 8px;border-radius:14px;border:2px solid rgba(255,255,255,.1);background:var(--card2);color:var(--white);font-family:'Nunito',sans-serif;font-weight:800;font-size:.8rem;cursor:pointer;transition:all .2s;text-align:center}
+.voice-engine-btn:hover{border-color:var(--mint)}
+.voice-engine-btn.active{border-color:var(--mint);background:rgba(52,211,153,.15);color:var(--mint)}
+.voice-select{width:100%;background:var(--card2);border:2px solid rgba(255,255,255,.1);border-radius:12px;color:var(--white);font-family:'Nunito',sans-serif;font-weight:700;font-size:.85rem;padding:9px 12px;outline:none;cursor:pointer;margin-top:8px}
+.voice-select:focus{border-color:var(--purple)}
+.api-key-row{display:flex;gap:8px;margin-top:10px;align-items:center}
+.api-key-input{flex:1;background:var(--card2);border:2px solid rgba(255,255,255,.1);border-radius:12px;color:var(--white);font-family:'Nunito',sans-serif;font-weight:600;font-size:.82rem;padding:9px 14px;outline:none;transition:border-color .2s}
+.api-key-input:focus{border-color:var(--purple)}
+.api-key-input::placeholder{color:var(--muted)}
+.voice-status{font-size:.75rem;margin-top:6px;padding:6px 10px;border-radius:8px;font-weight:700}
+.voice-status.ok{background:rgba(52,211,153,.15);color:var(--mint)}
+.voice-status.warn{background:rgba(251,191,36,.15);color:var(--gold)}
+.voice-status.err{background:rgba(248,113,113,.15);color:var(--coral)}
+
+.game-screen{display:none;position:fixed;inset:0;z-index:100;background:var(--bg);flex-direction:column;overflow:hidden}
+.game-screen.active{display:flex}
+.timer-wrap{position:relative;width:90px;height:90px;flex-shrink:0}
+.timer-ring{transform:rotate(-90deg)}
+.timer-bg{fill:none;stroke:rgba(255,255,255,.08);stroke-width:6}
+.timer-fg{fill:none;stroke-width:6;stroke-linecap:round;transition:stroke-dashoffset .9s linear,stroke .5s}
+.timer-text{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-family:'Fredoka One',cursive;font-size:1.6rem}
+.score-bar{display:flex;align-items:center;justify-content:space-between;padding:10px 16px;background:var(--surface);border-bottom:1px solid rgba(255,255,255,.06)}
+.score-item{text-align:center}
+.score-item .lbl{font-size:.65rem;text-transform:uppercase;letter-spacing:1.5px;color:var(--muted)}
+.score-item .val{font-family:'Fredoka One',cursive;font-size:1.3rem;color:var(--gold)}
+.score-item .val.mint{color:var(--mint)}
+.q-area{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:16px;gap:8px}
+.verbal-say{font-size:.85rem;color:var(--muted);font-style:italic;height:22px;transition:color .3s}
+.verbal-say.show{color:var(--mint)}
+.q-main{font-family:'Fredoka One',cursive;font-size:clamp(2.4rem,10vw,4.2rem);text-align:center;line-height:1}
+.q-a{color:var(--gold)}.q-b{color:var(--coral)}.q-op{color:rgba(255,255,255,.3);font-size:.6em}
+.q-speak-btn{width:52px;height:52px;border-radius:50%;background:var(--card2);border:2px solid rgba(255,255,255,.1);font-size:1.4rem;cursor:pointer;transition:all .2s;display:flex;align-items:center;justify-content:center;position:relative}
+.q-speak-btn:hover{border-color:var(--mint);transform:scale(1.1)}
+.q-speak-btn.pulse{animation:speakPulse 1s ease infinite;border-color:var(--gold)}
+.q-speak-btn.loading::after{content:'';position:absolute;inset:0;border-radius:50%;border:3px solid transparent;border-top-color:var(--gold);animation:spin .7s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes speakPulse{0%,100%{box-shadow:0 0 0 0 rgba(251,191,36,.4)}50%{box-shadow:0 0 0 10px rgba(251,191,36,0)}}
+.opts{display:grid;grid-template-columns:1fr 1fr;gap:10px;width:100%;max-width:500px;padding:0 16px}
+.opt{padding:16px;border-radius:16px;border:2px solid rgba(255,255,255,.1);background:var(--card);font-family:'Fredoka One',cursive;font-size:1.5rem;color:var(--white);cursor:pointer;transition:all .18s;text-align:center}
+.opt:hover:not(:disabled){border-color:var(--purple);transform:translateY(-3px);box-shadow:0 6px 20px rgba(167,139,250,.3)}
+.opt.correct{background:linear-gradient(135deg,#15803d,#22c55e);border-color:var(--mint);transform:scale(1.04)}
+.opt.wrong{background:linear-gradient(135deg,#991b1b,#f87171);border-color:var(--coral);animation:shake .35s ease}
+.opt:disabled{cursor:default}
+@keyframes shake{0%,100%{transform:translateX(0)}25%{transform:translateX(-7px)}75%{transform:translateX(7px)}}
+.type-row{display:flex;gap:10px;align-items:center;max-width:360px;width:100%}
+.type-in{flex:1;background:var(--card);border:3px solid rgba(255,255,255,.12);border-radius:16px;color:white;font-family:'Fredoka One',cursive;font-size:2rem;text-align:center;padding:14px;outline:none;transition:border-color .2s}
+.type-in:focus{border-color:var(--mint)}
+.type-in.correct{border-color:var(--mint);background:rgba(52,211,153,.1)}
+.type-in.wrong{border-color:var(--coral);animation:shake .35s ease}
+.go-btn{padding:14px 22px;border-radius:16px;background:linear-gradient(135deg,var(--purple),var(--coral));border:none;color:white;font-family:'Fredoka One',cursive;font-size:1.2rem;cursor:pointer;transition:all .2s}
+.q-feedback{height:32px;font-family:'Fredoka One',cursive;font-size:1rem;text-align:center;opacity:0;transition:opacity .2s}
+.q-feedback.show{opacity:1}
+.q-feedback.c{color:var(--mint)}.q-feedback.w{color:var(--coral)}
+.turn-banner{background:linear-gradient(135deg,var(--purple),var(--coral));padding:8px 24px;border-radius:30px;font-family:'Fredoka One',cursive;font-size:1rem;text-align:center;transition:all .3s}
+.prog-track{width:100%;height:6px;background:rgba(255,255,255,.07);border-radius:6px;overflow:hidden;margin:0 16px;max-width:calc(100% - 32px)}
+.prog-fill{height:100%;border-radius:6px;transition:width .4s ease;background:linear-gradient(90deg,var(--purple),var(--coral))}
+.results-screen{display:none;position:fixed;inset:0;z-index:110;background:var(--bg);overflow-y:auto}
+.results-screen.active{display:block}
+.results-inner{max-width:600px;margin:0 auto;padding:24px 16px 60px}
+.podium{display:flex;align-items:flex-end;justify-content:center;gap:12px;margin:24px 0}
+.podium-item{text-align:center;border-radius:16px 16px 0 0;padding:16px 12px;min-width:100px}
+.podium-item .p-name{font-weight:900;font-size:.85rem;margin-bottom:6px;word-break:break-word}
+.podium-item .p-score{font-family:'Fredoka One',cursive;font-size:1.6rem}
+.podium-item .p-rank{font-size:1.8rem;margin-bottom:4px}
+.podium-1{background:linear-gradient(180deg,rgba(251,191,36,.25),rgba(251,191,36,.05));border:2px solid rgba(251,191,36,.4);min-height:160px}
+.podium-2{background:linear-gradient(180deg,rgba(192,192,192,.2),rgba(192,192,192,.05));border:2px solid rgba(192,192,192,.3);min-height:120px}
+.podium-3{background:linear-gradient(180deg,rgba(205,127,50,.2),rgba(205,127,50,.05));border:2px solid rgba(205,127,50,.3);min-height:100px}
+.podium-4{background:linear-gradient(180deg,rgba(96,165,250,.15),rgba(96,165,250,.05));border:2px solid rgba(96,165,250,.2);min-height:80px}
+.records-table{width:100%;border-collapse:separate;border-spacing:0 6px}
+.records-table th{font-size:.7rem;text-transform:uppercase;letter-spacing:1.5px;color:var(--muted);padding:4px 12px;text-align:left;font-weight:700}
+.records-table td{padding:10px 12px;font-size:.85rem;font-weight:700}
+.records-table tr td:first-child{border-radius:12px 0 0 12px}
+.records-table tr td:last-child{border-radius:0 12px 12px 0}
+.records-table tbody tr td{background:var(--card)}
+.rec-rank{color:var(--gold);font-family:'Fredoka One',cursive;font-size:1.1rem}
+.rec-score{color:var(--mint);font-family:'Fredoka One',cursive}
+.new-badge{background:var(--coral);color:white;font-size:.65rem;padding:2px 7px;border-radius:20px;font-weight:900;text-transform:uppercase;letter-spacing:1px;margin-left:6px}
+.confetti-c{position:fixed;inset:0;pointer-events:none;z-index:999;overflow:hidden}
+.cp{position:absolute;top:-10px;width:10px;height:10px;border-radius:2px;animation:cfFall 1.2s ease-in forwards}
+@keyframes cfFall{0%{transform:translateY(0) rotate(0);opacity:1}100%{transform:translateY(100vh) rotate(720deg);opacity:0}}
+.flex{display:flex}.items-center{align-items:center}.justify-between{justify-content:space-between}.gap-2{gap:8px}.gap-3{gap:12px}.mt-1{margin-top:6px}.mt-2{margin-top:12px}.w-full{width:100%}.font-bold{font-weight:800}
+.divider{height:1px;background:rgba(255,255,255,.07);margin:16px 0}
+.tag{display:inline-block;padding:3px 10px;border-radius:20px;font-size:.72rem;font-weight:800;text-transform:uppercase;letter-spacing:1px}
+.tag-purple{background:rgba(167,139,250,.2);color:var(--purple)}
+.tag-gold{background:rgba(251,191,36,.2);color:var(--gold)}
+.tag-coral{background:rgba(248,113,113,.2);color:var(--coral)}
+.tag-mint{background:rgba(52,211,153,.2);color:var(--mint)}
+@media(max-width:400px){.opt{font-size:1.2rem;padding:12px 8px}.q-main{font-size:2rem}}
+</style>
+</head>
+<body>
+
+<div class="stars" id="stars"></div>
+<div class="confetti-c" id="confetti"></div>
+
+<nav class="nav">
+  <div class="nav-title">⭐ Times Tables</div>
+  <div class="nav-tabs">
+    <button class="nav-tab active" onclick="showPage('practice')">🎮 Practice</button>
+    <button class="nav-tab" onclick="showPage('setup')">⚙️ Setup</button>
+    <button class="nav-tab" onclick="showPage('records')">🏆 Records</button>
+  </div>
+</nav>
+
+<!-- PRACTICE PAGE -->
+<div class="page active" id="page-practice">
+  <div class="section-title">🎯 Timed Practice</div>
+  <div class="section-sub">Race the clock — beat your record!</div>
+  <div class="card">
+    <div class="flex items-center justify-between gap-2" style="margin-bottom:12px">
+      <div><div class="font-bold" style="font-size:.9rem">Choose Tables</div><div style="font-size:.75rem;color:var(--muted)">Pick one or more</div></div>
+      <div class="flex gap-2">
+        <button class="btn btn-secondary btn-sm" onclick="selectAllTables()">All</button>
+        <button class="btn btn-secondary btn-sm" onclick="clearTables()">Clear</button>
+      </div>
+    </div>
+    <div class="chip-row" id="tableChips"></div>
+  </div>
+  <div class="card mt-2">
+    <div class="font-bold" style="font-size:.9rem;margin-bottom:10px">⏱ Challenge Length</div>
+    <div class="chip-row" id="timeChips"></div>
+  </div>
+  <div class="card mt-2">
+    <div class="font-bold" style="font-size:.9rem;margin-bottom:10px">🎮 Answer Mode</div>
+    <div class="chip-row">
+      <button class="chip time-chip" id="modeQuiz" onclick="setAnswerMode('quiz')" style="width:auto">🎯 Multiple Choice</button>
+      <button class="chip time-chip" id="modeType" onclick="setAnswerMode('type')" style="width:auto">⌨️ Type Answer</button>
+    </div>
+  </div>
+  <div class="card mt-2">
+    <div class="flex items-center justify-between">
+      <div><div class="font-bold" style="font-size:.9rem">🔊 Voice Settings</div><div style="font-size:.75rem;color:var(--muted)">Configure on Setup tab</div></div>
+      <button class="btn btn-secondary btn-sm" onclick="showPage('setup')">Edit →</button>
+    </div>
+    <div style="margin-top:10px;display:flex;flex-wrap:wrap;gap:6px" id="speakPreview"></div>
+  </div>
+  <div class="card mt-2">
+    <div class="font-bold" style="font-size:.9rem;margin-bottom:10px">👥 Players</div>
+    <div id="playerPreview"></div>
+    <button class="btn btn-secondary btn-sm" style="margin-top:10px" onclick="showPage('setup')">Manage Players →</button>
+  </div>
+  <div style="margin-top:20px;display:flex;justify-content:center">
+    <button class="btn btn-gold" style="font-size:1.1rem;padding:16px 40px" onclick="startGame()">🚀 Start Challenge!</button>
+  </div>
+</div>
+
+<!-- SETUP PAGE -->
+<div class="page" id="page-setup">
+  <div class="section-title">⚙️ Setup</div>
+  <div class="section-sub">Players & voice options</div>
+
+  <div class="card">
+    <div class="flex items-center justify-between" style="margin-bottom:14px">
+      <div class="font-bold">👥 Players (up to 4)</div>
+      <span class="tag tag-purple" id="playerCountTag">1 Player</span>
+    </div>
+    <div id="playerSetup"></div>
+  </div>
+
+  <!-- VOICE ENGINE CARD -->
+  <div class="card mt-2">
+    <div class="font-bold" style="margin-bottom:4px">🔊 Voice Engine</div>
+    <div style="font-size:.75rem;color:var(--muted);margin-bottom:14px">Choose how the game speaks — pick the most natural-sounding option for your device</div>
+
+    <div class="voice-engine-row">
+      <button class="voice-engine-btn active" id="ve-browser" onclick="setVoiceEngine('browser')">🌐 Browser<br><span style="font-size:.7rem;opacity:.7">Free, built-in</span></button>
+      <button class="voice-engine-btn" id="ve-elevenlabs" onclick="setVoiceEngine('elevenlabs')">✨ ElevenLabs<br><span style="font-size:.7rem;opacity:.7">Most human</span></button>
+    </div>
+
+    <!-- Browser voice options -->
+    <div id="browser-voice-panel">
+      <div style="font-size:.8rem;color:var(--muted);margin-bottom:6px;font-weight:700">Select a voice:</div>
+      <select class="voice-select" id="voiceSelect" onchange="onVoiceSelected()">
+        <option value="">Loading voices...</option>
+      </select>
+      <div class="voice-status warn" id="voiceStatusMsg" style="display:none"></div>
+    </div>
+
+    <!-- ElevenLabs panel -->
+    <div id="elevenlabs-panel" style="display:none">
+      <div style="font-size:.82rem;color:var(--muted);margin-bottom:8px;line-height:1.6">
+        ElevenLabs has the most natural, human-sounding voices — completely free up to 10,000 characters/month.<br>
+        <a href="https://elevenlabs.io" target="_blank" style="color:var(--mint)">→ Sign up free at elevenlabs.io</a>, then copy your API key below.
+      </div>
+      <div class="api-key-row">
+        <input class="api-key-input" id="elApiKey" type="password" placeholder="Paste your ElevenLabs API key here...">
+        <button class="btn btn-secondary btn-sm" onclick="saveElKey()">Save</button>
+      </div>
+      <div style="font-size:.8rem;color:var(--muted);margin-top:8px;margin-bottom:8px;font-weight:700">Choose a voice:</div>
+      <select class="voice-select" id="elVoiceSelect" onchange="saveSettings()">
+        <option value="EXAVITQu4vr4xnSDxMaL">Sarah (friendly, clear) ⭐ Recommended</option>
+        <option value="XrExE9yKIg1WjnnlVkGX">Matilda (warm, nurturing)</option>
+        <option value="cgSgspJ2msm6clMCkdW9">Jessica (expressive)</option>
+        <option value="iP95p4xoKVk53GoZ742B">Chris (calm, warm)</option>
+        <option value="pqHfZKP75CvOlQylNhV4">Bill (deep, clear)</option>
+      </select>
+      <div class="voice-status" id="elStatus" style="display:none"></div>
+      <button class="btn btn-secondary w-full" style="margin-top:10px" onclick="testElevenLabs()">🔊 Test ElevenLabs Voice</button>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- What to say -->
+    <div class="font-bold" style="font-size:.9rem;margin-bottom:10px">What to announce</div>
+    <div class="speak-option-row">
+      <div><div class="speak-label">Read the Question</div><div class="speak-desc">e.g. "What is 7 times 8?"</div></div>
+      <label class="toggle-switch"><input type="checkbox" id="speakQuestion" checked onchange="saveSettings()"><div class="toggle-slider"></div></label>
+    </div>
+    <div class="speak-option-row">
+      <div><div class="speak-label">Times-Table Style</div><div class="speak-desc">e.g. "Seven 8s are..."</div></div>
+      <label class="toggle-switch"><input type="checkbox" id="speakVerbal" checked onchange="saveSettings()"><div class="toggle-slider"></div></label>
+    </div>
+    <div class="speak-option-row">
+      <div><div class="speak-label">Announce the Answer</div><div class="speak-desc">Says the answer after each question</div></div>
+      <label class="toggle-switch"><input type="checkbox" id="speakAnswer" checked onchange="saveSettings()"><div class="toggle-slider"></div></label>
+    </div>
+    <div class="speak-option-row">
+      <div><div class="speak-label">Cheer on Correct Answer</div><div class="speak-desc">"Amazing!", "Brilliant!" etc.</div></div>
+      <label class="toggle-switch"><input type="checkbox" id="speakCheer" checked onchange="saveSettings()"><div class="toggle-slider"></div></label>
+    </div>
+    <div class="speak-option-row">
+      <div><div class="speak-label">Player Turn Announcement</div><div class="speak-desc">Calls out player name at turn start</div></div>
+      <label class="toggle-switch"><input type="checkbox" id="speakTurn" checked onchange="saveSettings()"><div class="toggle-slider"></div></label>
+    </div>
+    <div class="speak-option-row">
+      <div><div class="speak-label">Timer Warnings</div><div class="speak-desc">"10 seconds left!", "Time's up!"</div></div>
+      <label class="toggle-switch"><input type="checkbox" id="speakTimer" checked onchange="saveSettings()"><div class="toggle-slider"></div></label>
+    </div>
+
+    <div class="divider"></div>
+    <div class="flex items-center justify-between">
+      <div><div class="speak-label">Speech Speed</div><div class="speak-desc">Only applies to browser voice</div></div>
+      <div class="flex gap-2">
+        <button class="chip time-chip btn-sm" id="speedSlow" onclick="setSpeed('slow')" style="width:auto">🐢 Slow</button>
+        <button class="chip time-chip btn-sm active" id="speedNorm" onclick="setSpeed('normal')" style="width:auto">Normal</button>
+        <button class="chip time-chip btn-sm" id="speedFast" onclick="setSpeed('fast')" style="width:auto">🐇 Fast</button>
+      </div>
+    </div>
+    <button class="btn btn-secondary w-full" style="margin-top:14px" onclick="testVoice()">🔊 Test Voice</button>
+  </div>
+</div>
+
+<!-- RECORDS PAGE -->
+<div class="page" id="page-records">
+  <div class="section-title">🏆 Records</div>
+  <div class="section-sub">Session bests — resets when browser closes</div>
+  <div class="card" id="recordsContent">
+    <div style="text-align:center;padding:30px;color:var(--muted)">No records yet — finish a game to see scores here!</div>
+  </div>
+  <div style="margin-top:14px">
+    <button class="btn btn-secondary w-full" onclick="clearRecords()">🗑 Clear All Records</button>
+  </div>
+</div>
+
+<!-- GAME SCREEN -->
+<div class="game-screen" id="gameScreen">
+  <div class="score-bar">
+    <div class="score-item"><div class="lbl">Score</div><div class="val" id="gScore">0</div></div>
+    <div class="timer-wrap">
+      <svg class="timer-ring" width="90" height="90" viewBox="0 0 90 90">
+        <circle class="timer-bg" cx="45" cy="45" r="38"/>
+        <circle class="timer-fg" id="timerCircle" cx="45" cy="45" r="38"/>
+      </svg>
+      <div class="timer-text" id="timerText">60</div>
+    </div>
+    <div class="score-item"><div class="lbl">Streak</div><div class="val mint" id="gStreak">0</div></div>
+  </div>
+  <div class="prog-track"><div class="prog-fill" id="gProg" style="width:0%"></div></div>
+  <div class="q-area">
+    <div class="turn-banner" id="turnBanner">Go! 🎯</div>
+    <div class="verbal-say" id="gVerbal"></div>
+    <div class="q-main">
+      <span class="q-a" id="gA">?</span><span class="q-op"> × </span><span class="q-b" id="gB">?</span><span class="q-op"> = </span><span id="gAns" style="color:rgba(255,255,255,.2)">?</span>
+    </div>
+    <button class="q-speak-btn" id="gSpeakBtn" onclick="speakCurrentQ()" title="Hear question">🔊</button>
+    <div class="opts" id="gOpts"></div>
+    <div class="type-row" id="gTypeRow" style="display:none">
+      <input class="type-in" id="gTypeIn" type="number" min="0" max="300" placeholder="?" onkeydown="if(event.key==='Enter')submitType()">
+      <button class="go-btn" onclick="submitType()">→</button>
+    </div>
+    <div class="q-feedback" id="gFeedback"></div>
+  </div>
+  <div style="padding:8px 16px 16px;display:flex;justify-content:center">
+    <button class="btn btn-secondary btn-sm" onclick="endGame()">✕ End Game</button>
+  </div>
+</div>
+
+<!-- RESULTS SCREEN -->
+<div class="results-screen" id="resultsScreen">
+  <div class="results-inner">
+    <div style="text-align:center;margin-top:24px">
+      <div style="font-size:2.5rem">🎉</div>
+      <div class="section-title" style="font-size:2rem">Time's Up!</div>
+      <div style="color:var(--muted);font-size:.9rem" id="resultsSub">Great effort!</div>
+    </div>
+    <div class="podium" id="podium"></div>
+    <div class="card mt-2" id="resultDetails"></div>
+    <div class="flex gap-3" style="margin-top:20px;justify-content:center;flex-wrap:wrap">
+      <button class="btn btn-primary" onclick="playAgain()">🔄 Play Again</button>
+      <button class="btn btn-gold" onclick="showPage('records');closeResults()">🏆 Records</button>
+      <button class="btn btn-secondary" onclick="closeResults()">← Back</button>
+    </div>
+  </div>
+</div>
+
+<script>
+// ── Stars ──────────────────────────────────────────────────────────────────
+(()=>{
+  const c=document.getElementById('stars');
+  for(let i=0;i<90;i++){
+    const s=document.createElement('div');s.className='star';
+    const z=Math.random()*3+1;
+    s.style.cssText=`width:${z}px;height:${z}px;left:${Math.random()*100}%;top:${Math.random()*100}%;--d:${(Math.random()*3+1).toFixed(1)}s`;
+    c.appendChild(s);
+  }
+})();
+
+// ── Records ────────────────────────────────────────────────────────────────
+let records=JSON.parse(sessionStorage.getItem('ttRecords')||'[]');
+function saveRecords(){sessionStorage.setItem('ttRecords',JSON.stringify(records));}
+
+// ── Settings ───────────────────────────────────────────────────────────────
+let settings=JSON.parse(localStorage.getItem('ttSettings')||'{}');
+const defaults={
+  speakQuestion:true,speakVerbal:true,speakAnswer:true,
+  speakCheer:true,speakTurn:true,speakTimer:true,
+  speed:'normal',voiceEngine:'browser',selectedVoiceURI:'',
+  elVoiceId:'EXAVITQu4vr4xnSDxMaL',
+  tables:[2,5,10],time:60,answerMode:'quiz',
+  players:[
+    {name:'Player 1',active:true},{name:'Player 2',active:false},
+    {name:'Player 3',active:false},{name:'Player 4',active:false}
+  ]
+};
+settings=Object.assign({},defaults,settings);
+
+function saveSettings(){
+  settings.speakQuestion=document.getElementById('speakQuestion').checked;
+  settings.speakVerbal=document.getElementById('speakVerbal').checked;
+  settings.speakAnswer=document.getElementById('speakAnswer').checked;
+  settings.speakCheer=document.getElementById('speakCheer').checked;
+  settings.speakTurn=document.getElementById('speakTurn').checked;
+  settings.speakTimer=document.getElementById('speakTimer').checked;
+  settings.elVoiceId=document.getElementById('elVoiceSelect').value;
+  localStorage.setItem('ttSettings',JSON.stringify(settings));
+  updateSpeakPreview();
+}
+
+// ══════════════════════════════════════════════════════════════════════════
+//  VOICE ENGINE
+// ══════════════════════════════════════════════════════════════════════════
+
+// Priority order of voice name fragments we want for browser voice
+// Covers Windows, macOS, iOS, Android & Chrome
+const PREFERRED_VOICE_HINTS = [
+  // Premium / Neural (most human)
+  'Google UK English Female','Google UK English Male',
+  'Microsoft Aria','Microsoft Jenny','Microsoft Guy',
+  'Microsoft Zira','Microsoft David',
+  'Samantha','Karen','Moira','Fiona','Daniel',  // macOS / iOS premium
+  'Google US English',
+  'en-GB','en-AU',
+  'Google हिन्दी',  // fallback: any Google
+];
+
+const synth=window.speechSynthesis;
+let browserVoices=[];
+
+function loadBrowserVoices(){
+  browserVoices=synth.getVoices().filter(v=>v.lang.startsWith('en'));
+  if(!browserVoices.length) browserVoices=synth.getVoices();
+  populateVoiceSelect();
+}
+if(synth){synth.onvoiceschanged=loadBrowserVoices;loadBrowserVoices();}
+
+function getBestBrowserVoice(){
+  // First try saved preference
+  if(settings.selectedVoiceURI){
+    const saved=browserVoices.find(v=>v.voiceURI===settings.selectedVoiceURI);
+    if(saved) return saved;
+  }
+  // Then try preferred hints in order
+  for(const hint of PREFERRED_VOICE_HINTS){
+    const match=browserVoices.find(v=>v.name.includes(hint)||v.voiceURI.includes(hint));
+    if(match) return match;
+  }
+  // Last resort: first English voice
+  return browserVoices[0]||null;
+}
+
+function populateVoiceSelect(){
+  const sel=document.getElementById('voiceSelect');
+  if(!browserVoices.length){sel.innerHTML='<option>No voices found</option>';return;}
+
+  sel.innerHTML='';
+  // Sort: put preferred at top
+  const sorted=[...browserVoices].sort((a,b)=>{
+    const ai=PREFERRED_VOICE_HINTS.findIndex(h=>a.name.includes(h)||a.voiceURI.includes(h));
+    const bi=PREFERRED_VOICE_HINTS.findIndex(h=>b.name.includes(h)||b.voiceURI.includes(h));
+    const av=ai===-1?999:ai;
+    const bv=bi===-1?999:bi;
+    return av-bv;
+  });
+
+  sorted.forEach(v=>{
+    const opt=document.createElement('option');
+    opt.value=v.voiceURI;
+    const isTop=PREFERRED_VOICE_HINTS.slice(0,8).some(h=>v.name.includes(h));
+    opt.textContent=(isTop?'⭐ ':'')+v.name+' ('+v.lang+')';
+    if(settings.selectedVoiceURI && v.voiceURI===settings.selectedVoiceURI) opt.selected=true;
+    sel.appendChild(opt);
+  });
+
+  // If nothing saved, auto-select best voice and show it
+  if(!settings.selectedVoiceURI){
+    const best=getBestBrowserVoice();
+    if(best){
+      sel.value=best.voiceURI;
+      settings.selectedVoiceURI=best.voiceURI;
+    }
+  }
+
+  showVoiceStatus();
+}
+
+function onVoiceSelected(){
+  settings.selectedVoiceURI=document.getElementById('voiceSelect').value;
+  localStorage.setItem('ttSettings',JSON.stringify(settings));
+  showVoiceStatus();
+}
+
+function showVoiceStatus(){
+  const el=document.getElementById('voiceStatusMsg');
+  const v=getBestBrowserVoice();
+  if(!v){el.className='voice-status err';el.style.display='block';el.textContent='⚠️ No voices found. Try a different browser.';return;}
+  const isGood=PREFERRED_VOICE_HINTS.slice(0,10).some(h=>v.name.includes(h)||v.voiceURI.includes(h));
+  if(isGood){
+    el.className='voice-status ok';el.style.display='block';
+    el.textContent='✅ Using: '+v.name+' — sounds natural!';
+  } else {
+    el.className='voice-status warn';el.style.display='block';
+    el.textContent='⚠️ Using: '+v.name+' — may sound robotic. Try Chrome on desktop for better voices, or use ElevenLabs.';
+  }
+}
+
+function setVoiceEngine(engine){
+  settings.voiceEngine=engine;
+  localStorage.setItem('ttSettings',JSON.stringify(settings));
+  document.getElementById('ve-browser').classList.toggle('active',engine==='browser');
+  document.getElementById('ve-elevenlabs').classList.toggle('active',engine==='elevenlabs');
+  document.getElementById('browser-voice-panel').style.display=engine==='browser'?'block':'none';
+  document.getElementById('elevenlabs-panel').style.display=engine==='elevenlabs'?'block':'none';
+}
+
+// ── ElevenLabs ─────────────────────────────────────────────────────────────
+function saveElKey(){
+  const key=document.getElementById('elApiKey').value.trim();
+  if(!key){showElStatus('err','Please paste your API key first.');return;}
+  localStorage.setItem('elApiKey',key);
+  showElStatus('ok','✅ API key saved! Test it below.');
+}
+function getElKey(){return localStorage.getItem('elApiKey')||'';}
+
+function showElStatus(type,msg){
+  const el=document.getElementById('elStatus');
+  el.className='voice-status '+type;
+  el.style.display='block';
+  el.textContent=msg;
+}
+
+async function speakElevenLabs(text){
+  const key=getElKey();
+  if(!key){
+    showElStatus('err','No API key saved — switching to browser voice for now.');
+    speakBrowser(text);return;
+  }
+  const voiceId=settings.elVoiceId||'EXAVITQu4vr4xnSDxMaL';
+  const btn=document.getElementById('gSpeakBtn');
+  if(btn){btn.classList.remove('pulse');btn.classList.add('loading');}
+  try{
+    const resp=await fetch(`https://api.elevenlabs.io/v1/text-to-speech/${voiceId}/stream`,{
+      method:'POST',
+      headers:{'xi-api-key':key,'Content-Type':'application/json','Accept':'audio/mpeg'},
+      body:JSON.stringify({
+        text:text,
+        model_id:'eleven_turbo_v2',
+        voice_settings:{stability:0.5,similarity_boost:0.8,style:0.2,use_speaker_boost:true}
+      })
+    });
+    if(!resp.ok){
+      const err=await resp.json().catch(()=>({}));
+      showElStatus('err','❌ ElevenLabs error: '+(err.detail?.message||resp.status)+'. Check your API key.');
+      speakBrowser(text);
+      if(btn){btn.classList.remove('loading');}
+      return;
+    }
+    const blob=await resp.blob();
+    const url=URL.createObjectURL(blob);
+    const audio=new Audio(url);
+    if(btn){btn.classList.remove('loading');btn.classList.add('pulse');}
+    audio.onended=()=>{URL.revokeObjectURL(url);if(btn)btn.classList.remove('pulse');};
+    audio.onerror=()=>{URL.revokeObjectURL(url);if(btn)btn.classList.remove('loading','pulse');};
+    audio.play();
+  }catch(e){
+    showElStatus('err','❌ Network error. Check connection.');
+    speakBrowser(text);
+    if(btn){btn.classList.remove('loading');}
+  }
+}
+
+async function testElevenLabs(){
+  const key=document.getElementById('elApiKey').value.trim()||getElKey();
+  if(!key){showElStatus('err','Please save your API key first.');return;}
+  localStorage.setItem('elApiKey',key);
+  showElStatus('warn','🔄 Testing...');
+  await speakElevenLabs('Seven sevens are forty nine. Eight eights are sixty four. Well done!');
+}
+
+// ── Main speak dispatcher ──────────────────────────────────────────────────
+function speak(text,rate,cb){
+  if(settings.voiceEngine==='elevenlabs'&&getElKey()){
+    speakElevenLabs(text);
+    if(cb) setTimeout(cb,2000); // rough estimate
+  } else {
+    speakBrowser(text,rate,cb);
+  }
+}
+
+function speakBrowser(text,rate,cb){
+  if(!synth)return;
+  synth.cancel();
+  const u=new SpeechSynthesisUtterance(text);
+  const rates={slow:.8,normal:.92,fast:1.25};
+  u.rate=(rate||rates[settings.speed]||1);
+  u.pitch=1.05;u.volume=1;
+  const v=getBestBrowserVoice();
+  if(v)u.voice=v;
+  if(cb)u.onend=cb;
+  synth.speak(u);
+}
+
+function testVoice(){
+  speak('Seven sevens are forty nine. Eight eights are sixty four. Well done!');
+}
+
+// ── Word helpers ───────────────────────────────────────────────────────────
+const NUM_WORDS=['zero','one','two','three','four','five','six','seven','eight','nine','ten','eleven','twelve'];
+function w(n){return NUM_WORDS[n]||n;}
+const CHEERS=['Amazing!','Brilliant!','Fantastic!','Spot on!','Perfect!','Super!','Excellent!','Great job!','Wonderful!'];
+function randCheer(){return CHEERS[Math.floor(Math.random()*CHEERS.length)];}
+
+// ── Speed buttons ──────────────────────────────────────────────────────────
+function setSpeed(s){
+  settings.speed=s;
+  ['Slow','Norm','Fast'].forEach(x=>document.getElementById('speed'+x)?.classList.remove('active'));
+  const map={slow:'Slow',normal:'Norm',fast:'Fast'};
+  document.getElementById('speed'+(map[s]))?.classList.add('active');
+  localStorage.setItem('ttSettings',JSON.stringify(settings));
+}
+
+// ── Nav ────────────────────────────────────────────────────────────────────
+function showPage(p){
+  document.querySelectorAll('.page').forEach(x=>x.classList.remove('active'));
+  document.querySelectorAll('.nav-tab').forEach(x=>x.classList.remove('active'));
+  document.getElementById('page-'+p).classList.add('active');
+  const idx={practice:0,setup:1,records:2}[p];
+  document.querySelectorAll('.nav-tab')[idx]?.classList.add('active');
+  if(p==='records')renderRecords();
+  if(p==='practice'){updateSpeakPreview();renderPlayerPreview();}
+  if(p==='setup'){
+    setTimeout(()=>{
+      loadBrowserVoices();
+      // restore saved API key display (just show dots)
+      const k=getElKey();
+      if(k)document.getElementById('elApiKey').placeholder='API key saved ✅ (paste new to update)';
+      document.getElementById('elVoiceSelect').value=settings.elVoiceId||'EXAVITQu4vr4xnSDxMaL';
+    },100);
+  }
+}
+
+// ── Table chips ────────────────────────────────────────────────────────────
+const timeDurations=[30,60,90,120,180];
+function buildTableChips(){
+  const c=document.getElementById('tableChips');c.innerHTML='';
+  for(let i=1;i<=12;i++){
+    const b=document.createElement('button');
+    b.className='chip'+(settings.tables.includes(i)?' active':'');
+    b.textContent=i;
+    b.onclick=()=>{
+      if(settings.tables.includes(i))settings.tables=settings.tables.filter(x=>x!==i);
+      else settings.tables.push(i);
+      b.classList.toggle('active',settings.tables.includes(i));
+      localStorage.setItem('ttSettings',JSON.stringify(settings));
+    };
+    c.appendChild(b);
+  }
+}
+function selectAllTables(){settings.tables=[1,2,3,4,5,6,7,8,9,10,11,12];buildTableChips();localStorage.setItem('ttSettings',JSON.stringify(settings));}
+function clearTables(){settings.tables=[];buildTableChips();}
+
+function buildTimeChips(){
+  const c=document.getElementById('timeChips');c.innerHTML='';
+  timeDurations.forEach(t=>{
+    const b=document.createElement('button');
+    b.className='chip time-chip'+(settings.time===t?' active':'');
+    b.textContent=t>=60?`${t/60} min`:`${t}s`;
+    b.onclick=()=>{
+      settings.time=t;
+      document.querySelectorAll('#timeChips .chip').forEach(x=>x.classList.remove('active'));
+      b.classList.add('active');
+      localStorage.setItem('ttSettings',JSON.stringify(settings));
+    };
+    c.appendChild(b);
+  });
+}
+
+function setAnswerMode(m){
+  settings.answerMode=m;
+  document.getElementById('modeQuiz').classList.toggle('active',m==='quiz');
+  document.getElementById('modeType').classList.toggle('active',m==='type');
+  localStorage.setItem('ttSettings',JSON.stringify(settings));
+}
+
+// ── Players ────────────────────────────────────────────────────────────────
+const playerColors=['#a78bfa','#f87171','#34d399','#fbbf24'];
+function buildPlayerSetup(){
+  const c=document.getElementById('playerSetup');c.innerHTML='';
+  settings.players.forEach((p,i)=>{
+    const row=document.createElement('div');row.className='player-row';
+    row.innerHTML=`
+      <div class="player-color" style="background:${playerColors[i]}"></div>
+      <input class="player-input" value="${p.name}" placeholder="Player ${i+1} name"
+        oninput="settings.players[${i}].name=this.value;updatePlayerCount();localStorage.setItem('ttSettings',JSON.stringify(settings))">
+      <button class="player-toggle${p.active?' active':''}" id="ptog${i}" onclick="togglePlayer(${i})">${p.active?'✓ In':'+ Add'}</button>`;
+    c.appendChild(row);
+  });
+  updatePlayerCount();
+}
+function togglePlayer(i){
+  settings.players[i].active=!settings.players[i].active;
+  const btn=document.getElementById('ptog'+i);
+  btn.classList.toggle('active',settings.players[i].active);
+  btn.textContent=settings.players[i].active?'✓ In':'+ Add';
+  updatePlayerCount();
+  localStorage.setItem('ttSettings',JSON.stringify(settings));
+}
+function updatePlayerCount(){
+  const n=settings.players.filter(p=>p.active).length;
+  document.getElementById('playerCountTag').textContent=`${n} Player${n!==1?'s':''}`;
+}
+function renderPlayerPreview(){
+  const c=document.getElementById('playerPreview');
+  c.innerHTML=settings.players.filter(p=>p.active).map(p=>{
+    const ci=settings.players.indexOf(p);
+    return `<span class="tag" style="background:${playerColors[ci]}22;color:${playerColors[ci]};margin:3px">${p.name}</span>`;
+  }).join('');
+}
+function updateSpeakPreview(){
+  const c=document.getElementById('speakPreview');
+  const engine=settings.voiceEngine==='elevenlabs'&&getElKey()?'✨ ElevenLabs':'🌐 Browser';
+  const map={speakQuestion:'❓ Question',speakVerbal:'🗣 Verbal',speakAnswer:'✅ Answer',speakCheer:'🎉 Cheers',speakTurn:'👤 Turn',speakTimer:'⏱ Timer'};
+  const tags=Object.entries(map).filter(([k])=>settings[k]).map(([,v])=>`<span class="tag tag-mint">${v}</span>`).join('');
+  c.innerHTML=`<span class="tag tag-purple">${engine}</span>${tags}`;
+}
+
+// ── Speak options init ─────────────────────────────────────────────────────
+function initSpeakUI(){
+  ['speakQuestion','speakVerbal','speakAnswer','speakCheer','speakTurn','speakTimer'].forEach(id=>{
+    const el=document.getElementById(id);if(el)el.checked=settings[id]!==false;
+  });
+  setSpeed(settings.speed||'normal');
+  setVoiceEngine(settings.voiceEngine||'browser');
+}
+
+// ── GAME ───────────────────────────────────────────────────────────────────
+let gState={};
+function getActivePlayers(){return settings.players.filter(p=>p.active);}
+
+function startGame(){
+  if(!settings.tables.length){alert('Please select at least one table!');return;}
+  if(!getActivePlayers().length){settings.players[0].active=true;buildPlayerSetup();}
+
+  gState={
+    players:getActivePlayers().map(p=>({...p,colorIdx:settings.players.indexOf(p),score:0,streak:0,correct:0,wrong:0})),
+    curPlayer:0,tables:[...settings.tables],
+    timeLeft:settings.time,totalTime:settings.time,
+    curA:0,curB:0,curAnswer:0,
+    running:false,interval:null,warnedTen:false,
+    multiPlayer:getActivePlayers().length>1,
+    questionsPerTurn:getActivePlayers().length>1?5:999,
+    questionsThisTurn:0,mode:settings.answerMode,
+  };
+
+  document.getElementById('gameScreen').classList.add('active');
+  document.getElementById('gOpts').style.display=gState.mode==='quiz'?'grid':'none';
+  document.getElementById('gTypeRow').style.display=gState.mode==='type'?'flex':'none';
+  setupTimerRing();nextQuestion();startTimer();
+
+  if(gState.multiPlayer&&settings.speakTurn) speak(`${gState.players[0].name}'s turn! Go!`);
+}
+
+function startTimer(){
+  gState.running=true;
+  gState.interval=setInterval(()=>{
+    gState.timeLeft--;updateTimerUI();
+    if(settings.speakTimer&&gState.timeLeft===10&&!gState.warnedTen){gState.warnedTen=true;speak('10 seconds left!');}
+    if(gState.timeLeft<=0)endGame();
+  },1000);
+}
+
+function setupTimerRing(){
+  const circ=2*Math.PI*38;
+  const tc=document.getElementById('timerCircle');
+  tc.style.strokeDasharray=circ;tc.style.strokeDashoffset=0;
+}
+
+function updateTimerUI(){
+  const circ=2*Math.PI*38,pct=gState.timeLeft/gState.totalTime;
+  const tc=document.getElementById('timerCircle');
+  tc.style.strokeDashoffset=circ*(1-pct);
+  const col=pct>.5?'var(--mint)':pct>.25?'var(--gold)':'var(--coral)';
+  tc.style.stroke=col;
+  document.getElementById('timerText').textContent=gState.timeLeft;
+  document.getElementById('timerText').style.color=col;
+}
+
+function nextQuestion(){
+  const p=gState.players[gState.curPlayer];
+  document.getElementById('turnBanner').textContent=gState.multiPlayer?`${p.name}'s Turn 🎯`:'Go! 🎯';
+  document.getElementById('turnBanner').style.background=`linear-gradient(135deg,${playerColors[p.colorIdx]},${playerColors[p.colorIdx]}aa)`;
+
+  const t=gState.tables[Math.floor(Math.random()*gState.tables.length)];
+  const b=Math.ceil(Math.random()*12);
+  gState.curA=t;gState.curB=b;gState.curAnswer=t*b;
+
+  document.getElementById('gA').textContent=t;
+  document.getElementById('gB').textContent=b;
+  document.getElementById('gAns').textContent='?';
+  document.getElementById('gAns').style.color='rgba(255,255,255,.2)';
+
+  const vb=document.getElementById('gVerbal');
+  if(settings.speakVerbal){vb.textContent=`${w(t)} ${w(b)}s are...`;vb.className='verbal-say show';}
+  else{vb.textContent='';vb.className='verbal-say';}
+
+  document.getElementById('gFeedback').className='q-feedback';
+
+  if(gState.mode==='quiz')buildOpts();
+  else{const inp=document.getElementById('gTypeIn');inp.value='';inp.className='type-in';inp.disabled=false;setTimeout(()=>inp.focus(),100);}
+
+  updateProgUI();
+  if(settings.speakQuestion) speak(`What is ${w(t)} times ${w(b)}?`);
+}
+
+function buildOpts(){
+  const correct=gState.curAnswer,s=new Set([correct]);
+  while(s.size<4){const v=Math.max(0,correct+Math.floor(Math.random()*18)-9);if(v!==correct)s.add(v);}
+  const arr=[...s].sort(()=>Math.random()-.5);
+  const g=document.getElementById('gOpts');g.innerHTML='';
+  arr.forEach(v=>{
+    const b=document.createElement('button');
+    b.className='opt';b.textContent=v;b.dataset.val=v;
+    b.onclick=()=>checkAnswer(b);
+    g.appendChild(b);
+  });
+}
+
+function checkAnswer(btn){
+  document.querySelectorAll('.opt').forEach(b=>b.disabled=true);
+  resolveAnswer(parseInt(btn.dataset.val)===gState.curAnswer,btn);
+}
+function submitType(){
+  const inp=document.getElementById('gTypeIn');
+  const v=parseInt(inp.value);if(isNaN(v))return;
+  inp.disabled=true;resolveAnswer(v===gState.curAnswer,inp);
+}
+
+function resolveAnswer(correct,el){
+  const p=gState.players[gState.curPlayer];
+  const fb=document.getElementById('gFeedback');
+
+  if(correct){
+    el.classList.add('correct');
+    p.score+=10+(p.streak*2);p.streak++;p.correct++;
+    document.getElementById('gScore').textContent=gState.players.reduce((a,x)=>a+x.score,0);
+    document.getElementById('gStreak').textContent=p.streak;
+    document.getElementById('gAns').textContent=gState.curAnswer;
+    document.getElementById('gAns').style.color='var(--mint)';
+    fb.textContent=`🎉 +${10+((p.streak-1)*2)}pts`;
+    fb.className='q-feedback show c';
+
+    let say='';
+    if(settings.speakVerbal) say=`${w(gState.curA)} ${w(gState.curB)}s are ${gState.curAnswer}. `;
+    if(settings.speakCheer&&p.streak%3===0) say+=randCheer();
+    else if(settings.speakAnswer) say+=`${gState.curAnswer}.`;
+    if(say.trim()) speak(say);
+
+    if(p.streak%5===0)confetti();
+    updateProgUI();gState.questionsThisTurn++;
+    checkTurnRotation(1500);
+  } else {
+    el.classList.add('wrong');
+    p.streak=0;p.wrong++;
+    document.getElementById('gStreak').textContent=0;
+    fb.textContent=`The answer is ${gState.curAnswer}`;
+    fb.className='q-feedback show w';
+    document.getElementById('gAns').textContent=gState.curAnswer;
+    document.getElementById('gAns').style.color='var(--coral)';
+
+    if(gState.mode==='quiz') document.querySelectorAll('.opt').forEach(b=>{if(parseInt(b.dataset.val)===gState.curAnswer)b.classList.add('correct');});
+    else{el.value=gState.curAnswer;el.className='type-in correct';}
+
+    let say='';
+    if(settings.speakVerbal) say=`${w(gState.curA)} ${w(gState.curB)}s are ${gState.curAnswer}. `;
+    else if(settings.speakAnswer) say=`The answer is ${gState.curAnswer}.`;
+    if(say) speak(say);
+
+    gState.questionsThisTurn++;checkTurnRotation(2200);
+  }
+}
+
+function checkTurnRotation(delay){
+  setTimeout(()=>{
+    if(!gState.running)return;
+    if(gState.multiPlayer&&gState.questionsThisTurn>=gState.questionsPerTurn){
+      gState.questionsThisTurn=0;
+      gState.curPlayer=(gState.curPlayer+1)%gState.players.length;
+      const next=gState.players[gState.curPlayer];
+      if(settings.speakTurn) speak(`${next.name}'s turn!`);
+      document.getElementById('gFeedback').className='q-feedback show c';
+      document.getElementById('gFeedback').textContent=`🔄 ${next.name}'s turn!`;
+      setTimeout(nextQuestion,1200);
+    } else nextQuestion();
+  },delay);
+}
+
+function speakCurrentQ(){
+  const btn=document.getElementById('gSpeakBtn');
+  btn.classList.add('pulse');
+  speak(`What is ${w(gState.curA)} times ${w(gState.curB)}?`,null,()=>btn.classList.remove('pulse'));
+}
+
+function updateProgUI(){
+  const tot=gState.players.reduce((a,x)=>a+x.correct,0);
+  document.getElementById('gProg').style.width=`${Math.min((tot/20)*100,100)}%`;
+}
+
+function endGame(){
+  if(gState.interval)clearInterval(gState.interval);
+  gState.running=false;synth&&synth.cancel();
+  document.getElementById('gameScreen').classList.remove('active');
+  if(settings.speakTimer) speak('Time is up! Well done everyone!');
+  saveGameRecords();showResults();
+}
+
+// ── Records ────────────────────────────────────────────────────────────────
+function saveGameRecords(){
+  const now=new Date();
+  const dateStr=now.toLocaleDateString()+'  '+now.toLocaleTimeString([],{hour:'2-digit',minute:'2-digit'});
+  gState.players.forEach(p=>{
+    records.unshift({name:p.name,score:p.score,correct:p.correct,wrong:p.wrong,
+      tables:[...gState.tables].sort((a,b)=>a-b),time:gState.totalTime,date:dateStr,isNew:true});
+  });
+  records=records.slice(0,50);
+  setTimeout(()=>{records.forEach(r=>r.isNew=false);saveRecords();},3000);
+  saveRecords();
+}
+
+function renderRecords(){
+  const c=document.getElementById('recordsContent');
+  if(!records.length){c.innerHTML='<div style="text-align:center;padding:30px;color:var(--muted)">No records yet!</div>';return;}
+  const sorted=[...records].sort((a,b)=>b.score-a.score);
+  c.innerHTML=`<table class="records-table"><thead><tr><th>#</th><th>Player</th><th>Score</th><th>✓</th><th>Tables</th><th>Time</th><th>Date</th></tr></thead><tbody>
+    ${sorted.slice(0,20).map((r,i)=>`<tr>
+      <td class="rec-rank">${i===0?'🥇':i===1?'🥈':i===2?'🥉':i+1}</td>
+      <td>${r.name}${r.isNew?'<span class="new-badge">NEW</span>':''}</td>
+      <td class="rec-score">${r.score}</td>
+      <td style="color:var(--mint)">${r.correct}</td>
+      <td style="color:var(--muted);font-size:.75rem">${r.tables.join(',')}</td>
+      <td style="color:var(--gold);font-size:.75rem">${r.time}s</td>
+      <td style="color:var(--muted);font-size:.7rem">${r.date}</td>
+    </tr>`).join('')}
+  </tbody></table>`;
+}
+function clearRecords(){if(confirm('Clear all records?')){records=[];saveRecords();renderRecords();}}
+
+// ── Results ────────────────────────────────────────────────────────────────
+function showResults(){
+  document.getElementById('resultsScreen').classList.add('active');
+  const ps=[...gState.players].sort((a,b)=>b.score-a.score);
+  document.getElementById('resultsSub').textContent=ps.length>1?`Winner: ${ps[0].name} with ${ps[0].score} points!`:`You scored ${ps[0].score} points!`;
+  const rankIcons=['🥇','🥈','🥉','4️⃣'];
+  const posClass=['podium-1','podium-2','podium-3','podium-4'];
+  const order=ps.length===1?[0]:ps.length===2?[1,0]:ps.length===3?[1,0,2]:[1,0,2,3];
+  document.getElementById('podium').innerHTML=order.map(i=>`
+    <div class="podium-item ${posClass[i===0?0:i]}">
+      <div class="p-rank">${rankIcons[i]||'🏅'}</div>
+      <div class="p-name">${ps[i]?.name||''}</div>
+      <div class="p-score">${ps[i]?.score||0}</div>
+    </div>`).join('');
+  document.getElementById('resultDetails').innerHTML=`
+    <div class="font-bold" style="margin-bottom:12px">📊 Stats</div>
+    ${gState.players.map(p=>`<div class="flex items-center justify-between" style="margin-bottom:8px">
+      <span style="font-weight:800">${p.name}</span>
+      <div class="flex gap-2">
+        <span class="tag tag-gold">Score: ${p.score}</span>
+        <span class="tag tag-mint">✓ ${p.correct}</span>
+        <span class="tag tag-coral">✗ ${p.wrong}</span>
+      </div></div>`).join('')}
+    <div class="divider"></div>
+    <div style="color:var(--muted);font-size:.8rem">Tables: ${[...gState.tables].sort((a,b)=>a-b).join(', ')} | Time: ${gState.totalTime}s</div>`;
+  confetti();
+}
+function closeResults(){document.getElementById('resultsScreen').classList.remove('active');}
+function playAgain(){closeResults();startGame();}
+
+// ── Confetti ───────────────────────────────────────────────────────────────
+function confetti(){
+  const cols=['#fbbf24','#f87171','#34d399','#a78bfa','#60a5fa','#f472b6'];
+  const c=document.getElementById('confetti');
+  for(let i=0;i<50;i++){
+    const p=document.createElement('div');p.className='cp';
+    const s=6+Math.random()*8;
+    p.style.cssText=`left:${Math.random()*100}%;background:${cols[Math.floor(Math.random()*cols.length)]};animation-duration:${(.7+Math.random()*.7).toFixed(2)}s;animation-delay:${(Math.random()*.5).toFixed(2)}s;border-radius:${Math.random()>.5?'50%':'2px'};width:${s}px;height:${s}px`;
+    c.appendChild(p);setTimeout(()=>p.remove(),1800);
+  }
+}
+
+// ── Init ───────────────────────────────────────────────────────────────────
+buildTableChips();
+buildTimeChips();
+buildPlayerSetup();
+initSpeakUI();
+setAnswerMode(settings.answerMode||'quiz');
+updateSpeakPreview();
+renderPlayerPreview();
+// Load voices on a slight delay to ensure browser has them ready
+setTimeout(loadBrowserVoices, 500);
+</script>
+</body>
+</html>

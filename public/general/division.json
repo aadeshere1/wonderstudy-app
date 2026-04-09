@@ -1,0 +1,38 @@
+{
+  "id": "general-division",
+  "meta": {
+    "title": "Division",
+    "subject": "general",
+    "class": null,
+    "lesson": null,
+    "subtopic": "Division Facts",
+    "description": "Practice division facts. Learn to divide quickly and accurately.",
+    "icon": "÷",
+    "difficulty": "intermediate"
+  },
+  "teach": null,
+  "practice": {
+    "gameType": "arithmetic",
+    "config": {
+      "operation": "divide",
+      "rangeA": [1, 12],
+      "rangeB": [1, 12],
+      "timeLimit": 0,
+      "questionsCount": 20,
+      "answerMode": "quiz"
+    },
+    "items": []
+  },
+  "challenge": {
+    "gameType": "arithmetic",
+    "config": {
+      "operation": "divide",
+      "rangeA": [1, 12],
+      "rangeB": [1, 12],
+      "timeLimit": 60,
+      "questionsCount": 999,
+      "answerMode": "quiz"
+    },
+    "items": []
+  }
+}
