@@ -52,7 +52,7 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <SchemaMarkup schema={organizationSchema} />
       </head>
-      <body className="bg-bg text-white font-body antialiased overflow-x-hidden min-h-screen">
+      <body suppressHydrationWarning className="bg-bg text-white font-body antialiased overflow-x-hidden min-h-screen">
         <StarsBackground />
         {children}
       </body>

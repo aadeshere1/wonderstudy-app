@@ -404,8 +404,8 @@ For `data/classes/class-{N}/{subject}/index.json`, add this entry to the `lesson
 3. Generate the **lesson JSON file** following the schema above exactly.
 4. Choose the best `gameType` for practice/challenge based on the subject.
 5. For `teach` flashcards: create 6–10 cards covering the key concepts in the images. Write in simple, age-appropriate language.
-6. For `practice` items: create 8–12 questions drawn from the lesson content.
-7. For `challenge` items: create 5–8 slightly harder or faster questions (same topic). Set `timeLimit` to 60 or 90.
+6. For `practice` and `challenge` items: **extract EVERY single question, exercise, fill-in-the-blank, match-the-following, true/false, and short-answer item visible in the book images — no exceptions, no skipping.** Go through the images one by one and collect every question that a student would be expected to solve. There is no maximum limit on items — if the book has 30 questions, include all 30 across practice and challenge. Do not stop at 8 or 12.
+7. Distribute the extracted questions: put the **straightforward questions** (earlier numbered, General Section, Classwork) into `practice`, and the **harder or later questions** (Creative Section, higher-numbered, Project Work) into `challenge`. Set `timeLimit` to 60 or 90 for challenge.
 8. Also give me the **index entry** to add to the subject's `index.json`.
 9. Tell me the **exact file path** where each file should be saved.
 
@@ -415,6 +415,8 @@ Output only valid JSON — no extra explanation unless I ask.
 
 ## IMPORTANT RULES
 
+- **Extract ALL book questions — every single one.** Go through every image methodically. Every numbered question, every sub-question (a, b, c, d...), every fill-in-the-blank, every match-the-following pair, every true/false statement, and every short-answer item must become an entry in `practice` or `challenge`. **There is no cap on the number of items.** Do not stop early. Do not summarise or combine questions. Each individual question becomes its own item. Copy the question text **word-for-word** and adapt only the format to fit the gameType (e.g. a fill-in-the-blank becomes an MCQ with one correct and three plausible wrong options). Only after all book questions are exhausted may you add invented questions.
+- **You must solve every extracted question yourself.** Textbook exercise pages do not include answer keys — you are responsible for working out the correct `answer` for each item. For math, compute it. For science/social studies/language, use your knowledge to determine the correct answer. Never leave `answer` blank or write a placeholder. If a question is ambiguous, choose the most educationally correct answer and note it in `explanation`.
 - All option strings must be **consistent in style** (all capitalised the same way).
 - `answer` must **exactly match** one option string (copy-paste it).
 - For `arithmetic`, always set `"items": []` — the engine generates questions automatically.

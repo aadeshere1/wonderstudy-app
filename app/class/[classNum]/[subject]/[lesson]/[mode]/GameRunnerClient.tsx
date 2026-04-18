@@ -4,7 +4,6 @@ import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { GameEngine } from '@/lib/engine/GameEngine';
 import { VoiceManager } from '@/lib/voice/VoiceManager';
-import { fetchLesson } from '@/lib/data/loader';
 import { ConfettiOverlay } from '@/components/layout';
 import {
   Timer,
@@ -21,6 +20,7 @@ interface GameRunnerClientProps {
   subject: string;
   lesson: string;
   mode: string;
+  initialLesson: LessonData | null;
 }
 
 export default function GameRunnerClient({
@@ -28,9 +28,9 @@ export default function GameRunnerClient({
   subject,
   lesson,
   mode,
+  initialLesson,
 }: GameRunnerClientProps) {
   const router = useRouter();
-  const [lessonData, setLessonData] = useState<LessonData | null>(null);
   const [gameEngine, setGameEngine] = useState<GameEngine | null>(null);
   const [voiceManager, setVoiceManager] = useState<VoiceManager | null>(null);
   const [gameState, setGameState] = useState<GameState | null>(null);
@@ -39,68 +39,65 @@ export default function GameRunnerClient({
   const [showConfetti, setShowConfetti] = useState(false);
 
   useEffect(() => {
-    const loadGame = async () => {
-      try {
-        const lessonPath = `classes/class-${classNum}/${subject}/${lesson}`;
-        const lessonContent = await fetchLesson(lessonPath);
-        if (!lessonContent) { setError('Lesson not found'); return; }
-        setLessonData(lessonContent);
+    if (!initialLesson) {
+      setError(`Lesson not found: ${lesson}`);
+      setLoading(false);
+      return;
+    }
 
-        const settings = (() => {
-          if (typeof window === 'undefined') return null;
-          const saved = localStorage.getItem('wsSettings');
-          if (saved) { try { return JSON.parse(saved); } catch { return null; } }
-          return null;
-        })();
+    try {
+      const settings = (() => {
+        if (typeof window === 'undefined') return null;
+        const saved = localStorage.getItem('wsSettings');
+        if (saved) { try { return JSON.parse(saved); } catch { return null; } }
+        return null;
+      })();
 
-        const defaultSettings = {
-          players: [{ name: 'Player 1', active: true, colorIdx: 0 }],
-          voiceEngine: 'browser' as const,
-          speed: 'normal' as const,
-          selectedVoiceURI: '',
-          elVoiceId: '',
-          speakQuestion: false,
-          speakAnswer: false,
-          speakCheer: false,
-          speakTurn: false,
-          speakTimer: false,
-          speakVerbal: false,
-        };
+      const defaultSettings = {
+        players: [{ name: 'Player 1', active: true, colorIdx: 0 }],
+        voiceEngine: 'browser' as const,
+        speed: 'normal' as const,
+        selectedVoiceURI: '',
+        elVoiceId: '',
+        speakQuestion: false,
+        speakAnswer: false,
+        speakCheer: false,
+        speakTurn: false,
+        speakTimer: false,
+        speakVerbal: false,
+      };
 
-        const finalSettings = settings || defaultSettings;
-        const voice = new VoiceManager(finalSettings.speed);
-        setVoiceManager(voice);
+      const finalSettings = settings || defaultSettings;
+      const voice = new VoiceManager(finalSettings.speed);
+      setVoiceManager(voice);
 
-        const engine = new GameEngine(lessonContent, mode as GameMode, finalSettings, voice);
-        setGameEngine(engine);
+      const engine = new GameEngine(initialLesson, mode as GameMode, finalSettings, voice);
+      setGameEngine(engine);
 
-        const handleStateChange = () => setGameState({ ...engine.getState() });
+      const handleStateChange = () => setGameState({ ...engine.getState() });
+      const handleAnswered = (e: Event) => {
+        const event = e as CustomEvent;
+        if (event.detail?.correct) {
+          setShowConfetti(true);
+          setTimeout(() => setShowConfetti(false), 1200);
+        }
+      };
 
-        const handleAnswered = (e: Event) => {
-          const event = e as CustomEvent;
-          if (event.detail?.correct) {
-            setShowConfetti(true);
-            setTimeout(() => setShowConfetti(false), 1200);
-          }
-        };
+      engine.addEventListener('question', handleStateChange);
+      engine.addEventListener('answered', handleAnswered);
+      engine.addEventListener('answered', handleStateChange);
+      engine.addEventListener('turn', handleStateChange);
+      engine.addEventListener('tick', handleStateChange);
+      engine.addEventListener('card', handleStateChange);
+      engine.addEventListener('end', handleStateChange);
 
-        engine.addEventListener('question', handleStateChange);
-        engine.addEventListener('answered', handleAnswered);
-        engine.addEventListener('answered', handleStateChange);
-        engine.addEventListener('turn', handleStateChange);
-        engine.addEventListener('tick', handleStateChange);
-        engine.addEventListener('card', handleStateChange);
-        engine.addEventListener('end', handleStateChange);
-
-        engine.start();
-        setLoading(false);
-      } catch (err) {
-        setError((err as Error).message || 'Failed to load lesson');
-        setLoading(false);
-      }
-    };
-    loadGame();
-  }, [classNum, subject, lesson, mode]);
+      engine.start();
+      setLoading(false);
+    } catch (err) {
+      setError((err as Error).message || 'Failed to start game');
+      setLoading(false);
+    }
+  }, [initialLesson, mode]);
 
   // ── Loading ──────────────────────────────────────────────────────────────
   if (loading) {
@@ -115,7 +112,7 @@ export default function GameRunnerClient({
   }
 
   // ── Error ────────────────────────────────────────────────────────────────
-  if (error || !gameEngine || !gameState || !lessonData) {
+  if (error || !gameEngine || !gameState || !initialLesson) {
     return (
       <div className="fixed inset-0 flex items-center justify-center p-4" style={{ background: '#0d0d1a' }}>
         <div className="text-center max-w-md">
@@ -168,7 +165,7 @@ export default function GameRunnerClient({
 
   // ── TEACH MODE (Flashcard) ───────────────────────────────────────────────
   if (mode === 'teach') {
-    const teachData = lessonData.teach;
+    const teachData = initialLesson.teach;
 
     if (!teachData || teachData.type !== 'flashcard') {
       return (
@@ -192,8 +189,6 @@ export default function GameRunnerClient({
     const item = teachData.items?.[cardIndex];
     const isFirst = cardIndex === 0;
     const isLast = cardIndex >= totalCards - 1;
-
-    // Progress bar %
     const progressPct = totalCards > 0 ? Math.round(((cardIndex + 1) / totalCards) * 100) : 0;
 
     return (
@@ -205,7 +200,6 @@ export default function GameRunnerClient({
           className="flex-shrink-0 flex items-center justify-between px-4 py-3"
           style={{ background: '#161628', borderBottom: '1px solid rgba(255,255,255,0.06)' }}
         >
-          {/* Back / title */}
           <button
             onClick={() => router.push(`/class/${classNum}/${subject}/${lesson}`)}
             style={{ background: 'none', border: 'none', color: 'rgba(240,244,255,0.45)', fontWeight: 800, fontSize: '0.85rem', cursor: 'pointer', fontFamily: 'var(--font-nunito),sans-serif' }}
@@ -219,10 +213,9 @@ export default function GameRunnerClient({
             WebkitTextFillColor: 'transparent',
             backgroundClip: 'text',
           }}>
-            📚 {lessonData.meta.title}
+            📚 {initialLesson.meta.title}
           </div>
 
-          {/* Card counter */}
           <div className="font-display text-sm" style={{ color: '#fbbf24' }}>
             {cardIndex + 1} / {totalCards}
           </div>
@@ -325,8 +318,8 @@ export default function GameRunnerClient({
   const spokenText  = q?.spokenText || displayText;
   const options     = q?.options ?? [];
 
-  const totalQ    = gameState.totalQuestions || 20;
-  const doneQ     = gameState.questionNumber || 0;
+  const totalQ     = gameState.totalQuestions || 20;
+  const doneQ      = gameState.questionNumber || 0;
   const progressPct = Math.min(100, Math.round((doneQ / totalQ) * 100));
 
   return (
@@ -349,7 +342,7 @@ export default function GameRunnerClient({
           />
         ) : (
           <div className="font-display text-sm px-4 py-1 rounded-3xl" style={{ background: 'linear-gradient(135deg,#a78bfa,#f87171)', color: 'white' }}>
-            {lessonData.meta.title}
+            {initialLesson.meta.title}
           </div>
         )}
 
@@ -385,7 +378,13 @@ export default function GameRunnerClient({
                 onSelect={(option) => gameEngine.checkAnswer(option)}
                 columns={options.length <= 2 ? 1 : options.length <= 4 ? 2 : 3}
                 disabled={gameState.lastAnswerValue !== undefined}
-                correctOption={gameState.lastAnswerCorrect ? gameState.lastAnswerValue : undefined}
+                correctOption={
+                  gameState.lastAnswerCorrect
+                    ? gameState.lastAnswerValue
+                    : gameState.lastAnswerCorrect === false
+                      ? gameState.correctAnswerValue
+                      : undefined
+                }
                 wrongOption={gameState.lastAnswerCorrect === false ? gameState.lastAnswerValue : undefined}
               />
             )}

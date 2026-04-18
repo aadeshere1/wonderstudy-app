@@ -1,4 +1,4 @@
-import { readFileSync } from 'fs';
+import { readFileSync, readdirSync, existsSync } from 'fs';
 import { join } from 'path';
 import { Metadata } from 'next';
 import { siteMetadata } from './metadata';
@@ -20,6 +20,58 @@ const GAME_STYLES: Record<string, { gradient: string; glow: string; subtitle: st
 };
 
 type GameCard = { id: string; title: string; icon: string; subtitle: string; gradient: string; glow: string };
+
+export type LessonEntry = {
+  id: string;
+  title: string;
+  icon: string;
+  description: string;
+  difficulty: 'beginner' | 'intermediate' | 'advanced';
+};
+
+// Map of classNum → subject → lessons
+export type ClassLessonsMap = Record<string, Record<string, LessonEntry[]>>;
+
+function loadClassLessons(): ClassLessonsMap {
+  const result: ClassLessonsMap = {};
+  const classesDir = join(process.cwd(), 'data', 'classes');
+  if (!existsSync(classesDir)) return result;
+
+  try {
+    const classDirs = readdirSync(classesDir);
+    for (const classDir of classDirs) {
+      // classDir looks like "class-6"
+      const match = classDir.match(/^class-(\d+)$/);
+      if (!match) continue;
+      const classNum = match[1];
+      const subjectDir = join(classesDir, classDir);
+
+      try {
+        const subjects = readdirSync(subjectDir);
+        for (const subject of subjects) {
+          const indexPath = join(subjectDir, subject, 'index.json');
+          if (!existsSync(indexPath)) continue;
+
+          try {
+            const raw = JSON.parse(readFileSync(indexPath, 'utf-8')) as {
+              lessons: Array<{ id: string; title: string; icon: string; subtopics?: string[] }>;
+            };
+            if (!result[classNum]) result[classNum] = {};
+            result[classNum][subject] = raw.lessons.map((l) => ({
+              id: l.id,
+              title: l.title,
+              icon: l.icon,
+              description: l.subtopics?.join(' · ') ?? '',
+              difficulty: 'beginner' as const,
+            }));
+          } catch { /* skip bad index */ }
+        }
+      } catch { /* skip unreadable subject dir */ }
+    }
+  } catch { /* skip if classes dir unreadable */ }
+
+  return result;
+}
 
 export default function Page() {
   let games: GameCard[] = [];
@@ -44,5 +96,7 @@ export default function Page() {
     ];
   }
 
-  return <HomePage games={games} />;
+  const classLessons = loadClassLessons();
+
+  return <HomePage games={games} classLessons={classLessons} />;
 }

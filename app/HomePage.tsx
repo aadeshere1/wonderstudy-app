@@ -8,48 +8,32 @@ import {
   LessonCard,
   QuickGameCard,
 } from '@/components/lesson-browser';
+
 type GameCard = { id: string; title: string; icon: string; subtitle: string; gradient: string; glow: string };
+
+type LessonEntry = {
+  id: string;
+  title: string;
+  icon: string;
+  description: string;
+  difficulty: 'beginner' | 'intermediate' | 'advanced';
+};
+
+type ClassLessonsMap = Record<string, Record<string, LessonEntry[]>>;
 
 interface HomePageProps {
   games: GameCard[];
+  classLessons: ClassLessonsMap;
 }
 
-export default function HomePage({ games }: HomePageProps) {
+export default function HomePage({ games, classLessons }: HomePageProps) {
   const [selectedClass, setSelectedClass] = useState<number | null>(null);
   const [selectedSubject, setSelectedSubject] = useState<string | null>(null);
 
-  const sampleLessons =
-    selectedClass === 1 && selectedSubject === 'science'
-      ? [
-          {
-            id: 'living-nonliving',
-            title: 'Living & Non-Living Things',
-            description: 'Learn to identify living and non-living objects',
-            icon: '🌿',
-            difficulty: 'beginner' as const,
-          },
-        ]
-      : selectedClass === 1 && selectedSubject === 'english'
-        ? [
-            {
-              id: 'animals-vocabulary',
-              title: 'Animal Vocabulary',
-              description: 'Learn animal names and sounds',
-              icon: '🦁',
-              difficulty: 'beginner' as const,
-            },
-          ]
-        : selectedClass === 1 && selectedSubject === 'math'
-          ? [
-              {
-                id: 'addition-subtraction',
-                title: 'Addition & Subtraction',
-                description: 'Basic math operations (0-10)',
-                icon: '🔢',
-                difficulty: 'beginner' as const,
-              },
-            ]
-          : [];
+  const lessons: LessonEntry[] =
+    selectedClass && selectedSubject
+      ? (classLessons[String(selectedClass)]?.[selectedSubject] ?? [])
+      : [];
 
   return (
     <>
@@ -110,9 +94,9 @@ export default function HomePage({ games }: HomePageProps) {
               Class {selectedClass} — {selectedSubject.charAt(0).toUpperCase() + selectedSubject.slice(1)}
             </div>
 
-            {sampleLessons.length > 0 ? (
+            {lessons.length > 0 ? (
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
-                {sampleLessons.map((lesson) => (
+                {lessons.map((lesson) => (
                   <LessonCard
                     key={lesson.id}
                     {...lesson}

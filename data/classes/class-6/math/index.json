@@ -1,0 +1,18 @@
+{
+  "lessons": [
+    {
+      "id": "sets-introduction",
+      "file": "sets-introduction",
+      "title": "Introduction to Sets",
+      "icon": "🔵",
+      "subtopics": ["What is a Set", "Set Notation", "Types of Sets", "Set Relationships"]
+    },
+    {
+      "id": "whole-numbers",
+      "file": "whole-numbers",
+      "title": "Operations on Whole Numbers",
+      "icon": "🔢",
+      "subtopics": ["Number System", "Place Value", "Nepali & International Systems", "DMAS Rule", "Brackets"]
+    }
+  ]
+}

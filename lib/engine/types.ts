@@ -188,6 +188,7 @@ export interface GameState {
   warnedTen: boolean;
   lastAnswerCorrect?: boolean;
   lastAnswerValue?: string;
+  correctAnswerValue?: string;
 }
 
 // Settings

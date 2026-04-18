@@ -229,7 +229,19 @@ export class GameEngine extends EventTarget {
     const isCorrect = plugin.checkAnswer(input, this.state.currentQuestion);
     const currentPlayer = this.state.players[this.state.currentPlayer];
 
-    // Update player stats
+    // Resolve the correct answer from the current question
+    const correctAnswer =
+      this.state.currentQuestion && "answer" in this.state.currentQuestion
+        ? String((this.state.currentQuestion as any).answer)
+        : undefined;
+
+    // Store feedback in state BEFORE dispatching events so that
+    // synchronous event listeners (handleStateChange) see the values.
+    this.state.lastAnswerCorrect = isCorrect;
+    this.state.lastAnswerValue = input;
+    this.state.correctAnswerValue = correctAnswer;
+
+    // Update player stats and emit events
     if (isCorrect) {
       const points = 10 + currentPlayer.streak * 2;
       currentPlayer.score += points;
@@ -271,28 +283,25 @@ export class GameEngine extends EventTarget {
 
       // Speak correct answer
       if (this.settings.speakAnswer) {
-        const answerText =
-          "answer" in this.state.currentQuestion
-            ? String(this.state.currentQuestion.answer)
-            : "";
+        const answerText = correctAnswer ?? "";
         this.voice
           .speak(`The answer is ${answerText}`)
           .catch(() => {});
       }
     }
 
-    // Store feedback for UI display
-    this.state.lastAnswerCorrect = isCorrect;
-    this.state.lastAnswerValue = input;
+    // When wrong: show correct answer for 1500ms so the student can see it.
+    // When correct: move on quickly (600ms).
+    const delay = isCorrect ? 600 : 1500;
 
-    // Brief delay to show feedback, then move to next question
     setTimeout(() => {
       if (this.state.running) {
         this.state.lastAnswerCorrect = undefined;
         this.state.lastAnswerValue = undefined;
+        this.state.correctAnswerValue = undefined;
         this._generateQuestion();
       }
-    }, 250);
+    }, delay);
   }
 
   /**

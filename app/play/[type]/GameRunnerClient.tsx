@@ -269,7 +269,13 @@ export default function GameRunnerClient({ type, initialLesson }: GameRunnerClie
                 onSelect={(option) => gameEngine.checkAnswer(option)}
                 columns={2}
                 disabled={gameState.lastAnswerValue !== undefined}
-                correctOption={gameState.lastAnswerCorrect ? gameState.lastAnswerValue : undefined}
+                correctOption={
+                  gameState.lastAnswerCorrect
+                    ? gameState.lastAnswerValue
+                    : gameState.lastAnswerCorrect === false
+                      ? gameState.correctAnswerValue
+                      : undefined
+                }
                 wrongOption={gameState.lastAnswerCorrect === false ? gameState.lastAnswerValue : undefined}
               />
             ) : (

@@ -1,14 +1,27 @@
+import { readFileSync } from 'fs';
+import { join } from 'path';
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { fetchLesson } from '@/lib/data/loader';
 import { lessonSchema, breadcrumbSchema } from '@/components/seo/SchemaMarkup';
 import { Nav } from '@/components/layout';
+import type { LessonData } from '@/lib/engine/types';
+
+function loadLesson(classNum: string, subject: string, lesson: string): LessonData | null {
+  try {
+    const filePath = join(process.cwd(), 'data', 'classes', `class-${classNum}`, subject, `${lesson}.json`);
+    return JSON.parse(readFileSync(filePath, 'utf-8')) as LessonData;
+  } catch {
+    return null;
+  }
+}
 
 export async function generateStaticParams() {
   return [
     { classNum: '1', subject: 'science', lesson: 'living-nonliving' },
     { classNum: '1', subject: 'math', lesson: 'addition-subtraction' },
     { classNum: '1', subject: 'english', lesson: 'animals-vocabulary' },
+    { classNum: '6', subject: 'math', lesson: 'sets-introduction' },
+    { classNum: '6', subject: 'math', lesson: 'whole-numbers' },
   ];
 }
 
@@ -18,12 +31,9 @@ export async function generateMetadata({
   params: Promise<{ classNum: string; subject: string; lesson: string }>;
 }): Promise<Metadata> {
   const { classNum, subject, lesson } = await params;
-  const path = `classes/class-${classNum}/${subject}/${lesson}`;
+  const lessonData = loadLesson(classNum, subject, lesson);
 
-  let lessonData;
-  try {
-    lessonData = await fetchLesson(path);
-  } catch {
+  if (!lessonData) {
     return { title: 'Lesson - WonderStudy', description: 'Interactive lesson' };
   }
 
@@ -79,12 +89,9 @@ const modeCards = [
 
 export default async function LessonPage({ params }: PageProps) {
   const { classNum, subject, lesson } = await params;
-  const path = `classes/class-${classNum}/${subject}/${lesson}`;
+  const lessonData = loadLesson(classNum, subject, lesson);
 
-  let lessonData;
-  try {
-    lessonData = await fetchLesson(path);
-  } catch {
+  if (!lessonData) {
     return (
       <div className="fixed inset-0 flex items-center justify-center" style={{ background: '#0d0d1a' }}>
         <div className="text-center">

@@ -1,0 +1,518 @@
+{
+  "id": "class-6-math-whole-numbers",
+  "meta": {
+    "title": "Operations on Whole Numbers",
+    "subject": "math",
+    "class": 6,
+    "lesson": "Unit 2",
+    "subtopic": "Number System, Place Value and DMAS",
+    "description": "Learn the Hindu-Arabic number system, place values, Nepali and International numeration systems, and the order of operations (DMAS) with brackets",
+    "icon": "🔢",
+    "difficulty": "intermediate"
+  },
+
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "🔟 What is the Hindu-Arabic numeration system?",
+        "back": "It uses ten digits: 0, 1, 2, 3, 4, 5, 6, 7, 8 and 9. It is based on grouping of tens, so it is also called the Base-Ten or Decimal System.",
+        "hint": "Count on your fingers — 10 digits!"
+      },
+      {
+        "front": "🔢 What are natural numbers?",
+        "back": "Natural numbers are counting numbers: 1, 2, 3, 4, 5, … The least natural number is 1. There is no greatest natural number. Written as N = {1, 2, 3, …}",
+        "hint": "You use these to count objects"
+      },
+      {
+        "front": "0️⃣ What are whole numbers?",
+        "back": "Whole numbers are natural numbers plus zero: W = {0, 1, 2, 3, …}. The least whole number is 0. There is no greatest whole number.",
+        "hint": "Same as natural numbers but with zero added"
+      },
+      {
+        "front": "📍 What is the difference between face value and place value?",
+        "back": "Face value of a digit is the digit itself. Place value = face value × value of its position. Example: in 3517248, the digit 5 has face value 5 but place value 5,00,000 (since it is in the hundred-thousands place).",
+        "hint": "Multiply the digit by its position value"
+      },
+      {
+        "front": "🇳🇵 What is the Nepali numeration system?",
+        "back": "Periods from right: Units (ones–hundreds), Thousands, Lakhs, Crores, Arabs. Commas separate each period. Example: 7,25,83,61,94 is read as seven arab twenty-five crore eighty-three lakh sixty-one thousand nine hundred ninety-four.",
+        "hint": "Groups: ones/thousands/lakhs/crores/arabs"
+      },
+      {
+        "front": "🌍 What is the International numeration system?",
+        "back": "Periods from right: Units (ones–hundreds), Thousands (thousands–hundred-thousands), Millions, Billions, Trillions. Numbers are grouped in sets of three digits. Example: 725,036,194.",
+        "hint": "Three digits in each group (period)"
+      },
+      {
+        "front": "🔡 How do you form the smallest number from given digits?",
+        "back": "Arrange digits in increasing order. If 0 is one of the digits, put the smallest non-zero digit first, then 0, then the rest in increasing order. Example: From 7, 0, 2, 4, 9 → smallest 5-digit number is 20479.",
+        "hint": "0 cannot be the leading (first) digit"
+      },
+      {
+        "front": "🔠 How do you form the greatest number from given digits?",
+        "back": "Arrange the given digits in decreasing (descending) order. Example: From 8, 3, 0, 6 → greatest 4-digit number is 8630.",
+        "hint": "Largest digit comes first"
+      },
+      {
+        "front": "➗ What is the DMAS rule?",
+        "back": "DMAS = Division → Multiplication → Addition → Subtraction. When a problem has mixed operations, always follow this order. Example: 27 − 54 ÷ 9 + 5 × 6 = 27 − 6 + 30 = 51.",
+        "hint": "D before M before A before S"
+      },
+      {
+        "front": "🔳 How are brackets used in simplification?",
+        "back": "Brackets tell you what to compute first. Work from the innermost bracket outward: ( ) first, then { }, then [ ]. Example: 7 × (4 + 5) = 7 × 9 = 63. Without brackets: 7 × 4 + 5 = 33.",
+        "hint": "Always solve inside brackets before anything else"
+      }
+    ]
+  },
+
+  "practice": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 0,
+      "questionsCount": 28
+    },
+    "items": [
+      {
+        "question": "How many digits are there in the Hindu-Arabic numeration system?",
+        "answer": "10 (digits 0–9)",
+        "options": ["10 (digits 0–9)", "9 (digits 1–9)", "8 (digits 2–9)", "11 (digits 0–10)"],
+        "explanation": "The Hindu-Arabic numeration system uses ten digits: 0, 1, 2, 3, 4, 5, 6, 7, 8 and 9.",
+        "hint": "Count from 0 to 9"
+      },
+      {
+        "question": "What is the least natural number?",
+        "answer": "1",
+        "options": ["1", "0", "2", "There is no least natural number"],
+        "explanation": "Natural numbers start from 1. Zero is not a natural number. So 1 is the least natural number.",
+        "hint": "Natural numbers are counting numbers"
+      },
+      {
+        "question": "What is the least whole number?",
+        "answer": "0",
+        "options": ["0", "1", "-1", "There is no least whole number"],
+        "explanation": "Whole numbers include zero along with all natural numbers. So 0 is the least whole number.",
+        "hint": "Whole numbers include natural numbers plus zero"
+      },
+      {
+        "question": "What is the greatest 5-digit number?",
+        "answer": "99999",
+        "options": ["99999", "99998", "100000", "9999"],
+        "explanation": "The greatest 5-digit number has all 9s: 99,999. The next number (100,000) is a 6-digit number.",
+        "hint": "All five digits should be 9"
+      },
+      {
+        "question": "What is the least 6-digit number?",
+        "answer": "100000",
+        "options": ["100000", "99999", "100001", "10000"],
+        "explanation": "The least 6-digit number is 1,00,000 (one lakh). It has 1 in the lakhs place and zeros elsewhere.",
+        "hint": "Start with 1 followed by five zeros"
+      },
+      {
+        "question": "What is the place value of 9 in 46904317?",
+        "answer": "900000",
+        "options": ["900000", "9000000", "90000", "9000"],
+        "explanation": "In 46904317, 9 is in the hundred-thousands (lakh) place. Its place value = 9 × 1,00,000 = 9,00,000.",
+        "hint": "Count 9's position from the right"
+      },
+      {
+        "question": "The expanded form 3 × 10⁴ + 2 × 10² represents which numeral?",
+        "answer": "30200",
+        "options": ["30200", "32000", "30020", "3200"],
+        "explanation": "3 × 10⁴ = 30000 and 2 × 10² = 200. Adding them: 30000 + 200 = 30200.",
+        "hint": "Calculate each term separately then add"
+      },
+      {
+        "question": "What is the greatest 4-digit number formed from the digits 8, 3, 0, 6?",
+        "answer": "8630",
+        "options": ["8630", "8603", "8360", "6830"],
+        "explanation": "To form the greatest number, arrange digits in decreasing order: 8, 6, 3, 0 → 8630.",
+        "hint": "Arrange digits from largest to smallest"
+      },
+      {
+        "question": "What is the least 5-digit number formed from the digits 7, 0, 2, 4, 9?",
+        "answer": "20479",
+        "options": ["20479", "24079", "20749", "40279"],
+        "explanation": "Digits in order: 0, 2, 4, 7, 9. 0 cannot lead, so put smallest non-zero (2) first: 2, 0, 4, 7, 9 = 20479.",
+        "hint": "0 cannot be the first digit"
+      },
+      {
+        "question": "How many millions are there in 40 lakh?",
+        "answer": "4",
+        "options": ["4", "40", "400", "0.4"],
+        "explanation": "40 lakh = 40,00,000 = 4,000,000 = 4 million. (1 million = 10 lakh, so 40 lakh = 4 million.)",
+        "hint": "1 million = 10 lakh"
+      },
+      {
+        "question": "How many crores are there in 3 hundred million?",
+        "answer": "30",
+        "options": ["30", "3", "300", "0.3"],
+        "explanation": "3 hundred million = 300,000,000. 1 crore = 10,000,000. So 300,000,000 ÷ 10,000,000 = 30 crores.",
+        "hint": "1 crore = 10 million"
+      },
+      {
+        "question": "Simplify: 4 + 6 − 3",
+        "answer": "7",
+        "options": ["7", "5", "13", "1"],
+        "explanation": "By DMAS (addition and subtraction from left to right): 4 + 6 = 10, then 10 − 3 = 7.",
+        "hint": "Work left to right for addition and subtraction"
+      },
+      {
+        "question": "Simplify: 7 + 5 × 4",
+        "answer": "27",
+        "options": ["27", "48", "23", "57"],
+        "explanation": "By DMAS, multiplication first: 5 × 4 = 20. Then addition: 7 + 20 = 27.",
+        "hint": "Do multiplication before addition"
+      },
+      {
+        "question": "Simplify: 9 × 5 + 5",
+        "answer": "50",
+        "options": ["50", "90", "45", "14"],
+        "explanation": "By DMAS, multiplication first: 9 × 5 = 45. Then addition: 45 + 5 = 50.",
+        "hint": "Multiplication comes before addition"
+      },
+      {
+        "question": "Simplify: 8 × 15 ÷ 5",
+        "answer": "24",
+        "options": ["24", "3", "600", "120"],
+        "explanation": "Multiplication and division are done left to right: 8 × 15 = 120, then 120 ÷ 5 = 24.",
+        "hint": "Work left to right for × and ÷"
+      },
+      {
+        "question": "Simplify: 12 ÷ 4 × 2",
+        "answer": "6",
+        "options": ["6", "1", "24", "3"],
+        "explanation": "Division and multiplication left to right: 12 ÷ 4 = 3, then 3 × 2 = 6.",
+        "hint": "Work left to right when all operations have equal priority"
+      },
+      {
+        "question": "Add 7 with the difference of 12 and 9. What is the answer?",
+        "answer": "10",
+        "options": ["10", "28", "4", "16"],
+        "explanation": "Difference of 12 and 9 = 12 − 9 = 3. Then add 7: 3 + 7 = 10.",
+        "hint": "Find the difference first, then add 7"
+      },
+      {
+        "question": "Subtract 7 from the sum of 9 and 8. What is the answer?",
+        "answer": "10",
+        "options": ["10", "24", "6", "4"],
+        "explanation": "Sum of 9 and 8 = 9 + 8 = 17. Then subtract 7: 17 − 7 = 10.",
+        "hint": "Find the sum first, then subtract 7"
+      },
+      {
+        "question": "Add 5 with the product of 4 and 6. What is the answer?",
+        "answer": "29",
+        "options": ["29", "44", "11", "60"],
+        "explanation": "Product of 4 and 6 = 4 × 6 = 24. Then add 5: 24 + 5 = 29.",
+        "hint": "Find the product first, then add 5"
+      },
+      {
+        "question": "Divide 63 by 9, then multiply the quotient by 5. What is the answer?",
+        "answer": "35",
+        "options": ["35", "63", "45", "315"],
+        "explanation": "63 ÷ 9 = 7 (the quotient). Then 7 × 5 = 35.",
+        "hint": "Divide first, then multiply the result"
+      },
+      {
+        "question": "Simplify: 8 + 3 × 7 − 6",
+        "answer": "23",
+        "options": ["23", "71", "13", "57"],
+        "explanation": "DMAS: multiplication first: 3 × 7 = 21. Then left to right: 8 + 21 − 6 = 29 − 6 = 23.",
+        "hint": "Multiply first, then add and subtract"
+      },
+      {
+        "question": "Simplify: 5 × 2 + 3 − 6",
+        "answer": "7",
+        "options": ["7", "19", "1", "13"],
+        "explanation": "Multiplication first: 5 × 2 = 10. Then: 10 + 3 − 6 = 13 − 6 = 7.",
+        "hint": "Multiply first, then work left to right"
+      },
+      {
+        "question": "Simplify: 10 − 3 × 2 + 1",
+        "answer": "5",
+        "options": ["5", "15", "9", "13"],
+        "explanation": "Multiplication first: 3 × 2 = 6. Then: 10 − 6 + 1 = 4 + 1 = 5.",
+        "hint": "Find 3 × 2 first"
+      },
+      {
+        "question": "Which sign makes 5 □ 7 − 3 = 9 correct?",
+        "answer": "+",
+        "options": ["+", "−", "×", "÷"],
+        "explanation": "5 + 7 − 3 = 12 − 3 = 9. So the missing sign is +.",
+        "hint": "Try each sign and see which gives 9"
+      },
+      {
+        "question": "Which sign makes 10 □ 4 × 2 = 2 correct?",
+        "answer": "−",
+        "options": ["−", "+", "×", "÷"],
+        "explanation": "10 − 4 × 2 = 10 − 8 = 2. By DMAS, 4 × 2 = 8 first, then 10 − 8 = 2.",
+        "hint": "DMAS: multiplication happens before the missing operation"
+      },
+      {
+        "question": "Which sign makes 6 □ 12 ÷ 4 = 18 correct?",
+        "answer": "×",
+        "options": ["×", "+", "−", "÷"],
+        "explanation": "6 × 12 ÷ 4 = 72 ÷ 4 = 18. Left to right: 6 × 12 = 72, then 72 ÷ 4 = 18.",
+        "hint": "Division and multiplication have equal priority — work left to right"
+      },
+      {
+        "question": "Which sign makes 30 □ 6 × 4 = 20 correct?",
+        "answer": "÷",
+        "options": ["÷", "+", "−", "×"],
+        "explanation": "30 ÷ 6 × 4 = 5 × 4 = 20. Left to right: 30 ÷ 6 = 5, then 5 × 4 = 20.",
+        "hint": "Try division: 30 ÷ 6 = 5, then 5 × 4"
+      },
+      {
+        "question": "Simplify: 11 − 6 + 4",
+        "answer": "9",
+        "options": ["9", "1", "13", "21"],
+        "explanation": "Work left to right: 11 − 6 = 5, then 5 + 4 = 9.",
+        "hint": "Work left to right for addition and subtraction"
+      }
+    ]
+  },
+
+  "challenge": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 90,
+      "questionsCount": 999
+    },
+    "items": [
+      {
+        "question": "What is the place value of 5 in the mobile number 9851086083?",
+        "answer": "50,000,000",
+        "options": ["50,000,000", "5,000,000", "500,000,000", "5,000"],
+        "explanation": "In 9851086083, counting from right: the 5 is in position 8 (ten-millions place). Place value = 5 × 10,000,000 = 50,000,000.",
+        "hint": "Count the digit's position carefully from the right"
+      },
+      {
+        "question": "How many lakhs are there in 4 million?",
+        "answer": "40",
+        "options": ["40", "4", "400", "0.4"],
+        "explanation": "4 million = 4,000,000. 1 lakh = 1,00,000. So 4,000,000 ÷ 1,00,000 = 40 lakhs.",
+        "hint": "1 million = 10 lakh"
+      },
+      {
+        "question": "How many crores are there in 20 million?",
+        "answer": "2",
+        "options": ["2", "20", "0.2", "200"],
+        "explanation": "20 million = 20,000,000. 1 crore = 10,000,000. So 20,000,000 ÷ 10,000,000 = 2 crores.",
+        "hint": "1 crore = 10 million"
+      },
+      {
+        "question": "How many arabs are there in 30 billion?",
+        "answer": "30",
+        "options": ["30", "3", "300", "0.3"],
+        "explanation": "1 arab = 1,000,000,000 = 1 billion. So 30 billion = 30 arabs.",
+        "hint": "1 arab = 1 billion"
+      },
+      {
+        "question": "How many millions are there in 5 crore?",
+        "answer": "50",
+        "options": ["50", "5", "500", "0.5"],
+        "explanation": "5 crore = 5,00,00,000 = 50,000,000 = 50 million. (1 crore = 10 million.)",
+        "hint": "1 crore = 10 million"
+      },
+      {
+        "question": "What is the sum of the greatest and least 6-digit numbers?",
+        "answer": "1099999",
+        "options": ["1099999", "1099998", "1000000", "899999"],
+        "explanation": "Greatest 6-digit number = 999999. Least 6-digit number = 100000. Sum = 999999 + 100000 = 1099999.",
+        "hint": "Greatest 6-digit = 999999, Least 6-digit = 100000"
+      },
+      {
+        "question": "In the number 6784037525, what is the sum of the place values of the two 7s?",
+        "answer": "700,007,000",
+        "options": ["700,007,000", "700,000,007", "7,007,000", "707,000,000"],
+        "explanation": "One 7 is in the thousands place (value = 7,000) and the other is in the hundred-millions place (value = 700,000,000). Sum = 700,007,000.",
+        "hint": "Find both 7s and calculate each place value separately"
+      },
+      {
+        "question": "Himmat got 85 marks in Mathematics. Chhiring got marks formed by reversing Himmat's digits. What are Chhiring's marks?",
+        "answer": "58",
+        "options": ["58", "85", "53", "48"],
+        "explanation": "Himmat's marks = 85. Reversing the digits 8 and 5 gives 58. So Chhiring got 58 marks.",
+        "hint": "Swap the tens digit and ones digit of 85"
+      },
+      {
+        "question": "Himmat got 85 marks and Chhiring got marks by reversing Himmat's digits. What is the difference between their marks?",
+        "answer": "27",
+        "options": ["27", "143", "17", "58"],
+        "explanation": "Himmat = 85, Chhiring = 58. Difference = 85 − 58 = 27.",
+        "hint": "Subtract the smaller from the larger"
+      },
+      {
+        "question": "Sunayana bought 6 pencils at Rs 8 each and gave a Rs 50 note. How much change did the shopkeeper return?",
+        "answer": "Rs 2",
+        "options": ["Rs 2", "Rs 10", "Rs 48", "Rs 12"],
+        "explanation": "Cost = 6 × 8 = Rs 48. Change = 50 − 48 = Rs 2.",
+        "hint": "Find total cost first, then subtract from Rs 50"
+      },
+      {
+        "question": "Anil bought 6 exercise books at Rs 40 each and an eraser for Rs 10. He gave Rs 500. How much change did he get?",
+        "answer": "Rs 250",
+        "options": ["Rs 250", "Rs 240", "Rs 260", "Rs 150"],
+        "explanation": "Total cost = (6 × 40) + 10 = 240 + 10 = Rs 250. Change = 500 − 250 = Rs 250.",
+        "hint": "Calculate total cost for books + eraser, then subtract from 500"
+      },
+      {
+        "question": "Sunita buys 5 kg of rice at Rs 90/kg and 2 kg of sugar at Rs 85/kg. She gives Rs 1000. How much change does she get?",
+        "answer": "Rs 380",
+        "options": ["Rs 380", "Rs 620", "Rs 450", "Rs 300"],
+        "explanation": "Rice = 5 × 90 = Rs 450. Sugar = 2 × 85 = Rs 170. Total = 620. Change = 1000 − 620 = Rs 380.",
+        "hint": "Find cost of rice and sugar separately, add, then subtract from 1000"
+      },
+      {
+        "question": "Simplify: 27 ÷ 3 × 4 + 12 − 5",
+        "answer": "43",
+        "options": ["43", "48", "36", "53"],
+        "explanation": "Division first: 27 ÷ 3 = 9. Multiplication: 9 × 4 = 36. Then: 36 + 12 − 5 = 48 − 5 = 43.",
+        "hint": "DMAS: divide first, then multiply, then add and subtract"
+      },
+      {
+        "question": "Simplify: 10 × 9 + 63 ÷ 7 − 20",
+        "answer": "79",
+        "options": ["79", "100", "69", "71"],
+        "explanation": "Division: 63 ÷ 7 = 9. Multiplication: 10 × 9 = 90. Then: 90 + 9 − 20 = 79.",
+        "hint": "Find division and multiplication first, then add and subtract"
+      },
+      {
+        "question": "5 is subtracted from the sum of 8 and 7. What is the result?",
+        "answer": "10",
+        "options": ["10", "20", "15", "0"],
+        "explanation": "Sum of 8 and 7 = 15. Then 15 − 5 = 10.",
+        "hint": "Add 8 and 7 first, then subtract 5"
+      },
+      {
+        "question": "7 is added to the product of 5 and 6. What is the result?",
+        "answer": "37",
+        "options": ["37", "67", "42", "57"],
+        "explanation": "Product of 5 and 6 = 30. Then 30 + 7 = 37.",
+        "hint": "Multiply 5 and 6 first, then add 7"
+      },
+      {
+        "question": "9 is subtracted from the product of 7 and 3. What is the result?",
+        "answer": "12",
+        "options": ["12", "3", "21", "30"],
+        "explanation": "Product of 7 and 3 = 21. Then 21 − 9 = 12.",
+        "hint": "Multiply 7 and 3 first, then subtract 9"
+      },
+      {
+        "question": "8 is added to the quotient of 36 divided by 4. What is the result?",
+        "answer": "17",
+        "options": ["17", "11", "25", "44"],
+        "explanation": "Quotient of 36 ÷ 4 = 9. Then 9 + 8 = 17.",
+        "hint": "Divide 36 by 4 first, then add 8"
+      },
+      {
+        "question": "Simplify: 5 + (6 − 2)",
+        "answer": "9",
+        "options": ["9", "3", "13", "1"],
+        "explanation": "Solve inside brackets first: 6 − 2 = 4. Then 5 + 4 = 9.",
+        "hint": "Solve the bracket first"
+      },
+      {
+        "question": "Simplify: 4 × (4 + 5)",
+        "answer": "36",
+        "options": ["36", "21", "29", "16"],
+        "explanation": "Bracket first: 4 + 5 = 9. Then 4 × 9 = 36.",
+        "hint": "Add inside the bracket first, then multiply"
+      },
+      {
+        "question": "Simplify: 12 − (3 + 7)",
+        "answer": "2",
+        "options": ["2", "16", "22", "6"],
+        "explanation": "Bracket first: 3 + 7 = 10. Then 12 − 10 = 2.",
+        "hint": "Add inside the bracket first, then subtract"
+      },
+      {
+        "question": "Simplify: 15 ÷ (9 − 4)",
+        "answer": "3",
+        "options": ["3", "5", "75", "10"],
+        "explanation": "Bracket first: 9 − 4 = 5. Then 15 ÷ 5 = 3.",
+        "hint": "Subtract inside the bracket first, then divide"
+      },
+      {
+        "question": "Simplify: 24 ÷ {2 × (3 + 1)}",
+        "answer": "3",
+        "options": ["3", "6", "12", "8"],
+        "explanation": "Innermost bracket first: (3 + 1) = 4. Then { }: 2 × 4 = 8. Then 24 ÷ 8 = 3.",
+        "hint": "Work from the innermost bracket outward"
+      },
+      {
+        "question": "Which bracket arrangement makes 3 × 4 + 6 = 30?",
+        "answer": "3 × (4 + 6)",
+        "options": ["3 × (4 + 6)", "(3 × 4) + 6", "3 × 4 + 6", "3 + (4 × 6)"],
+        "explanation": "3 × (4 + 6) = 3 × 10 = 30. Brackets force the addition first.",
+        "hint": "30 ÷ 3 = 10, and 4 + 6 = 10"
+      },
+      {
+        "question": "Which bracket arrangement makes 7 × 14 − 8 = 42?",
+        "answer": "7 × (14 − 8)",
+        "options": ["7 × (14 − 8)", "(7 × 14) − 8", "7 × 14 − 8", "7 + (14 − 8)"],
+        "explanation": "7 × (14 − 8) = 7 × 6 = 42. Brackets force the subtraction first.",
+        "hint": "42 ÷ 7 = 6, and 14 − 8 = 6"
+      },
+      {
+        "question": "9 is subtracted from the sum of 8 and 7 (with brackets). What is the result?",
+        "answer": "6",
+        "options": ["6", "10", "24", "15"],
+        "explanation": "(8 + 7) − 9 = 15 − 9 = 6. The bracket ensures the sum is found first.",
+        "hint": "Add 8 and 7 first using brackets, then subtract 9"
+      },
+      {
+        "question": "4 times the sum of 5 and 3 is...",
+        "answer": "32",
+        "options": ["32", "23", "12", "20"],
+        "explanation": "4 × (5 + 3) = 4 × 8 = 32. The phrase '4 times the sum' means multiply by the full sum.",
+        "hint": "Find the sum first, then multiply by 4"
+      },
+      {
+        "question": "The quotient of 36 divided by the sum of 4 and 5 is...",
+        "answer": "4",
+        "options": ["4", "9", "13", "144"],
+        "explanation": "36 ÷ (4 + 5) = 36 ÷ 9 = 4.",
+        "hint": "Find the sum of 4 and 5 first, then divide 36 by it"
+      },
+      {
+        "question": "The quotient of 72 divided by the product of 2 and 4 is...",
+        "answer": "9",
+        "options": ["9", "8", "36", "4"],
+        "explanation": "72 ÷ (2 × 4) = 72 ÷ 8 = 9.",
+        "hint": "Find the product of 2 and 4 first, then divide 72 by it"
+      },
+      {
+        "question": "A sick person takes 10 ml of medicine 3 times a day. How much medicine does she take in 15 days?",
+        "answer": "450 ml",
+        "options": ["450 ml", "45 ml", "300 ml", "150 ml"],
+        "explanation": "Expression: 10 × 3 × 15 = 30 × 15 = 450 ml.",
+        "hint": "Multiply: 10 ml × 3 times × 15 days"
+      },
+      {
+        "question": "Sunayana had 20 marbles. She lost 6 and divided the rest equally among her 7 friends. How many marbles does each friend get?",
+        "answer": "2",
+        "options": ["2", "14", "7", "4"],
+        "explanation": "Expression: (20 − 6) ÷ 7 = 14 ÷ 7 = 2 marbles each.",
+        "hint": "Subtract the lost marbles first, then divide"
+      },
+      {
+        "question": "Pratik has Rs 300. He buys 2 boxes at Rs 60 each and 3 pens at Rs 30 each. How much money is left with him?",
+        "answer": "Rs 90",
+        "options": ["Rs 90", "Rs 210", "Rs 180", "Rs 30"],
+        "explanation": "Cost = (2 × 60) + (3 × 30) = 120 + 90 = Rs 210. Left = 300 − 210 = Rs 90.",
+        "hint": "Find total cost of boxes and pens, then subtract from 300"
+      },
+      {
+        "question": "There are two baskets each with 18 apples. 10 are rotten. You add 4 more apples and divide among 6 friends. How many apples does each friend get?",
+        "answer": "5",
+        "options": ["5", "6", "4", "8"],
+        "explanation": "Expression: (2 × 18 − 10 + 4) ÷ 6 = (36 − 10 + 4) ÷ 6 = 30 ÷ 6 = 5 apples each.",
+        "hint": "Find total good apples first (2 × 18 − 10 + 4), then divide by 6"
+      }
+    ]
+  }
+}

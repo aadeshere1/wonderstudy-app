@@ -1,15 +1,26 @@
-import dynamic from 'next/dynamic';
+import { readFileSync } from 'fs';
+import { join } from 'path';
 import { Metadata } from 'next';
-import { fetchLesson } from '@/lib/data/loader';
-import { lessonSchema, gameSchema } from '@/components/seo/SchemaMarkup';
+import { gameSchema } from '@/components/seo/SchemaMarkup';
+import type { LessonData } from '@/lib/engine/types';
+import GameLoader from './GameLoader';
 
-const GameRunnerClient = dynamic(() => import('./GameRunnerClient'));
+function loadLesson(classNum: string, subject: string, lesson: string): LessonData | null {
+  try {
+    const filePath = join(process.cwd(), 'data', 'classes', `class-${classNum}`, subject, `${lesson}.json`);
+    return JSON.parse(readFileSync(filePath, 'utf-8')) as LessonData;
+  } catch {
+    return null;
+  }
+}
 
 export async function generateStaticParams() {
   const lessons = [
     { classNum: '1', subject: 'science', lesson: 'living-nonliving' },
     { classNum: '1', subject: 'math', lesson: 'addition-subtraction' },
     { classNum: '1', subject: 'english', lesson: 'animals-vocabulary' },
+    { classNum: '6', subject: 'math', lesson: 'sets-introduction' },
+    { classNum: '6', subject: 'math', lesson: 'whole-numbers' },
   ];
   const modes = ['teach', 'practice', 'challenge'];
 
@@ -27,12 +38,9 @@ export async function generateMetadata({
   params: Promise<{ classNum: string; subject: string; lesson: string; mode: string }>;
 }): Promise<Metadata> {
   const { classNum, subject, lesson, mode } = await params;
-  const path = `classes/class-${classNum}/${subject}/${lesson}`;
+  const lessonData = loadLesson(classNum, subject, lesson);
 
-  let lessonData;
-  try {
-    lessonData = await fetchLesson(path);
-  } catch (error) {
+  if (!lessonData) {
     return {
       title: 'Play Lesson - WonderStudy',
       description: 'Interactive learning game',
@@ -72,20 +80,15 @@ interface PageProps {
 
 export default async function LessonPage({ params }: PageProps) {
   const { classNum, subject, lesson, mode } = await params;
-  const path = `classes/class-${classNum}/${subject}/${lesson}`;
+  const lessonData = loadLesson(classNum, subject, lesson);
 
-  let lessonData;
   let schemaMarkup = null;
-
-  try {
-    lessonData = await fetchLesson(path);
+  if (lessonData) {
     const modeLabel = mode.charAt(0).toUpperCase() + mode.slice(1);
     schemaMarkup = gameSchema(
       `${lessonData.meta.title} - ${modeLabel} Mode`,
       `${modeLabel} mode for "${lessonData.meta.title}" - Class ${classNum} ${subject}`
     );
-  } catch (error) {
-    // Continue without schema if lesson fetch fails
   }
 
   return (
@@ -96,11 +99,12 @@ export default async function LessonPage({ params }: PageProps) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaMarkup) }}
         />
       )}
-      <GameRunnerClient
+      <GameLoader
         classNum={classNum}
         subject={subject}
         lesson={lesson}
         mode={mode}
+        initialLesson={lessonData}
       />
     </>
   );

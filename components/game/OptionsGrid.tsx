@@ -34,10 +34,14 @@ export const OptionsGrid = ({
         const isWrong = option === wrongOption;
         const isSelected = option === selectedOption;
 
+        // Use longhand border properties throughout — never mix border shorthand
+        // with borderColor/borderWidth/borderStyle or React warns about conflicts.
         let style: React.CSSProperties = {
           padding: '16px',
           borderRadius: '16px',
-          border: '2px solid rgba(255,255,255,0.1)',
+          borderWidth: '2px',
+          borderStyle: 'solid',
+          borderColor: 'rgba(255,255,255,0.1)',
           background: '#1e1e38',
           color: '#f0f4ff',
           fontFamily: 'var(--font-fredoka-one), cursive',
