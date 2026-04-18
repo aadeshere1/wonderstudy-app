@@ -450,3 +450,4 @@ Add the index entry the LLM gives you to:
 `data/classes/class-{N}/{subject}/index.json`
 
 That's it — no other code changes needed.
+

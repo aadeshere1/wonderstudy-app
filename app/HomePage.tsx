@@ -27,7 +27,7 @@ interface HomePageProps {
 }
 
 export default function HomePage({ games, classLessons }: HomePageProps) {
-  const [selectedClass, setSelectedClass] = useState<number | null>(null);
+  const [selectedClass, setSelectedClass] = useState<number | null>(6);
   const [selectedSubject, setSelectedSubject] = useState<string | null>(null);
 
   const lessons: LessonEntry[] =
