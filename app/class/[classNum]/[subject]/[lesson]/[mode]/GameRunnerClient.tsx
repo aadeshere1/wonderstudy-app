@@ -14,6 +14,8 @@ import {
   Podium,
 } from '@/components/game';
 import { LessonData, GameMode, GameState } from '@/lib/engine/types';
+import { useAuth } from '@/contexts/AuthContext';
+import { recordAnswer } from '@/lib/srs/store';
 
 interface GameRunnerClientProps {
   classNum: string;
@@ -23,6 +25,19 @@ interface GameRunnerClientProps {
   initialLesson: LessonData | null;
 }
 
+// Duration options: label + seconds
+const DURATION_OPTIONS = [
+  { label: '1:30', sublabel: 'Quick', seconds: 90 },
+  { label: '5 min', sublabel: 'Warm-up', seconds: 300 },
+  { label: '10 min', sublabel: 'Short', seconds: 600 },
+  { label: '15 min', sublabel: 'Standard', seconds: 900 },
+  { label: '20 min', sublabel: 'Focused', seconds: 1200 },
+  { label: '25 min', sublabel: 'Pomodoro', seconds: 1500 },
+  { label: '30 min', sublabel: 'Deep dive', seconds: 1800 },
+  { label: '35 min', sublabel: 'Extended', seconds: 2100 },
+  { label: '40 min', sublabel: 'Marathon', seconds: 2400 },
+];
+
 export default function GameRunnerClient({
   classNum,
   subject,
@@ -31,19 +46,31 @@ export default function GameRunnerClient({
   initialLesson,
 }: GameRunnerClientProps) {
   const router = useRouter();
+  const { user } = useAuth();
+
+  // For challenge mode: null = show picker, number = duration chosen (in seconds)
+  const [selectedDuration, setSelectedDuration] = useState<number | null>(
+    mode === 'challenge' ? null : 90
+  );
+
   const [gameEngine, setGameEngine] = useState<GameEngine | null>(null);
   const [voiceManager, setVoiceManager] = useState<VoiceManager | null>(null);
   const [gameState, setGameState] = useState<GameState | null>(null);
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(mode !== 'challenge'); // don't show loader during picker
   const [error, setError] = useState<string | null>(null);
   const [showConfetti, setShowConfetti] = useState(false);
 
   useEffect(() => {
+    // Challenge mode: wait for duration selection
+    if (mode === 'challenge' && selectedDuration === null) return;
+
     if (!initialLesson) {
       setError(`Lesson not found: ${lesson}`);
       setLoading(false);
       return;
     }
+
+    setLoading(true);
 
     try {
       const settings = (() => {
@@ -71,15 +98,39 @@ export default function GameRunnerClient({
       const voice = new VoiceManager(finalSettings.speed);
       setVoiceManager(voice);
 
-      const engine = new GameEngine(initialLesson, mode as GameMode, finalSettings, voice);
+      // Override challenge timeLimit with user-selected duration
+      const lessonForEngine: LessonData =
+        mode === 'challenge' && selectedDuration !== null && initialLesson.challenge
+          ? {
+              ...initialLesson,
+              challenge: {
+                ...initialLesson.challenge,
+                config: {
+                  ...(initialLesson.challenge as any).config,
+                  timeLimit: selectedDuration,
+                },
+              },
+            }
+          : initialLesson;
+
+      const engine = new GameEngine(lessonForEngine, mode as GameMode, finalSettings, voice);
       setGameEngine(engine);
 
       const handleStateChange = () => setGameState({ ...engine.getState() });
       const handleAnswered = (e: Event) => {
         const event = e as CustomEvent;
-        if (event.detail?.correct) {
+        const { correct, questionIndex, hintUsed } = event.detail ?? {};
+        if (correct) {
           setShowConfetti(true);
           setTimeout(() => setShowConfetti(false), 1200);
+        }
+        // Record into SRS for practice and challenge modes
+        if (mode === 'practice' || mode === 'challenge') {
+          const lessonId = initialLesson.id;
+          const section  = mode;
+          const index    = typeof questionIndex === 'number' ? questionIndex : 0;
+          recordAnswer(user?.uid ?? null, lessonId, section, index, !!correct, !!hintUsed)
+            .catch(console.error);
         }
       };
 
@@ -97,7 +148,122 @@ export default function GameRunnerClient({
       setError((err as Error).message || 'Failed to start game');
       setLoading(false);
     }
-  }, [initialLesson, mode]);
+  }, [initialLesson, mode, selectedDuration]);
+
+  // ── CHALLENGE: Duration Picker ────────────────────────────────────────────
+  if (mode === 'challenge' && selectedDuration === null) {
+    return (
+      <div className="fixed inset-0 flex flex-col overflow-y-auto" style={{ background: '#0d0d1a' }}>
+        <div className="max-w-md mx-auto w-full px-4 py-10 flex flex-col">
+          {/* Back button */}
+          <button
+            onClick={() => router.push(`/class/${classNum}/${subject}/${lesson}`)}
+            style={{
+              background: 'none',
+              border: 'none',
+              color: 'rgba(240,244,255,0.4)',
+              fontWeight: 800,
+              fontSize: '0.85rem',
+              cursor: 'pointer',
+              fontFamily: 'var(--font-nunito),sans-serif',
+              marginBottom: '24px',
+              textAlign: 'left',
+            }}
+          >
+            ← Back
+          </button>
+
+          {/* Header */}
+          <div className="text-center mb-8">
+            <div className="text-5xl mb-3">⚡</div>
+            <h2
+              className="font-display text-3xl mb-1"
+              style={{
+                background: 'linear-gradient(135deg,#fbbf24,#f87171)',
+                WebkitBackgroundClip: 'text',
+                WebkitTextFillColor: 'transparent',
+                backgroundClip: 'text',
+              }}
+            >
+              Challenge Mode
+            </h2>
+            <p className="text-sm" style={{ color: 'rgba(240,244,255,0.45)' }}>
+              How long do you want to study?
+            </p>
+          </div>
+
+          {/* Duration grid */}
+          <div
+            style={{
+              display: 'grid',
+              gridTemplateColumns: 'repeat(3, 1fr)',
+              gap: '12px',
+              marginBottom: '32px',
+            }}
+          >
+            {DURATION_OPTIONS.map((opt) => (
+              <button
+                key={opt.seconds}
+                onClick={() => setSelectedDuration(opt.seconds)}
+                style={{
+                  background: 'rgba(30,30,56,0.9)',
+                  border: '2px solid rgba(251,191,36,0.25)',
+                  borderRadius: '16px',
+                  padding: '16px 8px',
+                  cursor: 'pointer',
+                  display: 'flex',
+                  flexDirection: 'column',
+                  alignItems: 'center',
+                  gap: '4px',
+                  transition: 'all 0.15s',
+                }}
+                onMouseEnter={(e) => {
+                  (e.currentTarget as HTMLButtonElement).style.border = '2px solid #fbbf24';
+                  (e.currentTarget as HTMLButtonElement).style.transform = 'translateY(-2px)';
+                  (e.currentTarget as HTMLButtonElement).style.boxShadow = '0 6px 20px rgba(251,191,36,0.3)';
+                }}
+                onMouseLeave={(e) => {
+                  (e.currentTarget as HTMLButtonElement).style.border = '2px solid rgba(251,191,36,0.25)';
+                  (e.currentTarget as HTMLButtonElement).style.transform = 'none';
+                  (e.currentTarget as HTMLButtonElement).style.boxShadow = 'none';
+                }}
+              >
+                <span
+                  className="font-display text-lg"
+                  style={{ color: '#fbbf24' }}
+                >
+                  {opt.label}
+                </span>
+                <span
+                  style={{
+                    fontSize: '0.65rem',
+                    color: 'rgba(240,244,255,0.4)',
+                    fontFamily: 'var(--font-nunito),sans-serif',
+                    fontWeight: 700,
+                  }}
+                >
+                  {opt.sublabel}
+                </span>
+              </button>
+            ))}
+          </div>
+
+          {/* Info footer */}
+          <div
+            className="rounded-xl px-4 py-3 text-center text-xs"
+            style={{
+              background: 'rgba(251,191,36,0.08)',
+              border: '1px solid rgba(251,191,36,0.2)',
+              color: 'rgba(240,244,255,0.45)',
+              fontFamily: 'var(--font-nunito),sans-serif',
+            }}
+          >
+            Questions keep cycling until time runs out. Your score keeps climbing!
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   // ── Loading ──────────────────────────────────────────────────────────────
   if (loading) {
@@ -155,7 +321,11 @@ export default function GameRunnerClient({
             streak={currentPlayer?.streak || 0}
             playerName={currentPlayer?.name}
             playerColor={currentPlayer?.colorIdx?.toString()}
-            onRestart={() => window.location.reload()}
+            onRestart={() => {
+              // Reset duration picker for challenge so they can change time
+              if (mode === 'challenge') setSelectedDuration(null);
+              else window.location.reload();
+            }}
             onExit={() => router.push(`/class/${classNum}/${subject}/${lesson}`)}
           />
         )}
@@ -318,9 +488,10 @@ export default function GameRunnerClient({
   const spokenText  = q?.spokenText || displayText;
   const options     = q?.options ?? [];
 
-  const totalQ     = gameState.totalQuestions || 20;
-  const doneQ      = gameState.questionNumber || 0;
-  const progressPct = Math.min(100, Math.round((doneQ / totalQ) * 100));
+  // Progress bar: time-based for challenge (since questionsCount is 999), question-based for practice
+  const progressPct = mode === 'challenge' && gameState.totalTime > 0
+    ? Math.min(100, Math.round(((gameState.totalTime - gameState.timeLeft) / gameState.totalTime) * 100))
+    : Math.min(100, Math.round(((gameState.questionNumber || 0) / (gameState.totalQuestions || 20)) * 100));
 
   return (
     <div className="fixed inset-0 flex flex-col overflow-hidden" style={{ background: '#0d0d1a' }}>

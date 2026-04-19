@@ -8,6 +8,7 @@ import {
   LessonCard,
   QuickGameCard,
 } from '@/components/lesson-browser';
+import SRSDueWidget from '@/components/srs/SRSDueWidget';
 
 type GameCard = { id: string; title: string; icon: string; subtitle: string; gradient: string; glow: string };
 
@@ -49,6 +50,9 @@ export default function HomePage({ games, classLessons }: HomePageProps) {
           </h1>
           <p className="text-muted text-sm">Learn with fun games &amp; interactive lessons</p>
         </div>
+
+        {/* ── SRS Due Widget ───────────────────────────── */}
+        <SRSDueWidget />
 
         {/* ── Quick Games ───────────────────────────────── */}
         <section className="mb-5">

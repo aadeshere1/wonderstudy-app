@@ -30,6 +30,7 @@ export class GameEngine extends EventTarget {
   private state: GameState;
   private timerInterval: NodeJS.Timeout | null = null;
   private usedQuestionIndices: number[] = [];
+  private currentItemIndex: number = -1; // tracks which item index is being shown
 
   constructor(
     lesson: LessonData,
@@ -134,6 +135,15 @@ export class GameEngine extends EventTarget {
       section.config,
       this.usedQuestionIndices
     ) as any;
+
+    // Track which item index this question came from (by reference lookup).
+    // NOTE: all plugins currently read from lesson.practice internally, so we
+    // search practice items first, then challenge items, to handle both modes.
+    const practiceItems: any[] = (this.lesson.practice as any)?.items ?? [];
+    const challengeItems: any[] = (this.lesson.challenge as any)?.items ?? [];
+    const practiceIdx = practiceItems.indexOf(question);
+    const challengeIdx = challengeItems.indexOf(question);
+    this.currentItemIndex = practiceIdx !== -1 ? practiceIdx : challengeIdx;
 
     // Generate options for quiz-based games
     const config = section.config as any;
@@ -257,6 +267,7 @@ export class GameEngine extends EventTarget {
             points,
             streak: currentPlayer.streak,
             player: currentPlayer,
+            questionIndex: this.currentItemIndex,
           },
         })
       );
@@ -277,6 +288,7 @@ export class GameEngine extends EventTarget {
             points: 0,
             streak: 0,
             player: currentPlayer,
+            questionIndex: this.currentItemIndex,
           },
         })
       );

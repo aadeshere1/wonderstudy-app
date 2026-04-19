@@ -4,6 +4,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import { lessonSchema, breadcrumbSchema } from '@/components/seo/SchemaMarkup';
 import { Nav } from '@/components/layout';
+import ReviewCard from '@/components/srs/ReviewCard';
 import type { LessonData } from '@/lib/engine/types';
 
 function loadLesson(classNum: string, subject: string, lesson: string): LessonData | null {
@@ -206,6 +207,14 @@ export default async function LessonPage({ params }: PageProps) {
               </div>
             </Link>
           ))}
+
+          {/* ── Review card (SRS) ── */}
+          <ReviewCard
+            classNum={classNum}
+            subject={subject}
+            lesson={lesson}
+            lessonId={lessonData.id}
+          />
         </div>
 
         {/* ── Back link ── */}

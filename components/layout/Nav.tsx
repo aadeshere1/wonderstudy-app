@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { AuthButton } from "@/components/auth/AuthButton";
 
 export interface NavTab {
   id: string;
@@ -57,16 +57,19 @@ export const Nav = ({
         </div>
       )}
 
-      {/* Settings Button */}
-      {showSettings && (
-        <button
-          onClick={onSettingsClick}
-          className="px-3 py-2 rounded-lg bg-card2 hover:bg-card hover:border-purple border border-white/10 text-white transition-all cursor-pointer"
-          title="Settings"
-        >
-          ⚙️
-        </button>
-      )}
+      {/* Right side: Settings + Auth */}
+      <div className="flex items-center gap-2">
+        {showSettings && (
+          <button
+            onClick={onSettingsClick}
+            className="px-3 py-2 rounded-lg bg-card2 hover:bg-card hover:border-purple border border-white/10 text-white transition-all cursor-pointer"
+            title="Settings"
+          >
+            ⚙️
+          </button>
+        )}
+        <AuthButton />
+      </div>
     </nav>
   );
 };
