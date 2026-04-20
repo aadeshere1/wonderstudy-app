@@ -42,6 +42,41 @@ async function firestoreSave(uid: string, data: GamificationData) {
   try { await setDoc(gamRef(uid), data); } catch {}
 }
 
+// ── Debounced Firestore write ─────────────────────────────────────────────
+// localStorage is always written synchronously; Firestore is written after 3 s
+// of idle time so rapid answering only produces one write per burst.
+
+let _debounceTimer: ReturnType<typeof setTimeout> | null = null;
+let _pendingSave: { uid: string; data: GamificationData } | null = null;
+
+function scheduleSave(uid: string, data: GamificationData): void {
+  _pendingSave = { uid, data };
+  if (_debounceTimer) clearTimeout(_debounceTimer);
+  _debounceTimer = setTimeout(() => {
+    _debounceTimer = null;
+    if (_pendingSave) {
+      firestoreSave(_pendingSave.uid, _pendingSave.data).catch(console.error);
+      _pendingSave = null;
+    }
+  }, 3000);
+}
+
+/**
+ * Immediately flush any pending debounced Firestore write.
+ * Call this at session end so the final state is persisted before the page
+ * navigates away.
+ */
+export function flushGamificationSave(): void {
+  if (_debounceTimer) {
+    clearTimeout(_debounceTimer);
+    _debounceTimer = null;
+  }
+  if (_pendingSave) {
+    firestoreSave(_pendingSave.uid, _pendingSave.data).catch(console.error);
+    _pendingSave = null;
+  }
+}
+
 // ── Today ISO helper ──────────────────────────────────────────────────────
 
 function todayISO(): string {
@@ -80,22 +115,26 @@ export interface RecordAnswerResult {
 
 /**
  * Record a question answer. Returns XP gained, newly unlocked badges, and level-up info.
+ *
+ * Pass `prev` (the caller's current in-memory data) to skip the Firestore read.
+ * If omitted, falls back to a Firestore/localStorage load.
  */
 export async function recordGamificationAnswer(
   uid: string | null,
   correct: boolean,
   mode: 'practice' | 'challenge' | 'review',
   currentStreak: number, // streak from game engine
+  prev?: GamificationData,
 ): Promise<RecordAnswerResult> {
-  const prev = uid ? await firestoreLoad(uid) : localLoad();
-  let data = updateDailyStreak(prev);
+  const base = prev ?? (uid ? await firestoreLoad(uid) : localLoad());
+  let data = updateDailyStreak(base);
 
   // ── XP calculation ──────────────────────────────────────────────────────
   let xp = 0;
   if (correct) {
-    const base = mode === 'challenge' ? 15 : mode === 'review' ? 12 : 10;
+    const xpBase = mode === 'challenge' ? 15 : mode === 'review' ? 12 : 10;
     const streakBonus = Math.min(currentStreak, 10) * 2; // up to +20
-    xp = base + streakBonus;
+    xp = xpBase + streakBonus;
   } else {
     xp = 1; // participation XP
   }
@@ -117,25 +156,34 @@ export async function recordGamificationAnswer(
   const currentLevel = getLevelForXP(data.totalXP).level;
 
   // ── Badge check ─────────────────────────────────────────────────────────
-  const newBadges = checkNewBadges(prev, data, currentLevel);
+  const newBadges = checkNewBadges(base, data, currentLevel);
   data = { ...data, badgesEarned: [...data.badgesEarned, ...newBadges] };
 
   // ── Persist ─────────────────────────────────────────────────────────────
-  if (uid) await firestoreSave(uid, data);
+  // localStorage: always immediate
   localSave(data);
+  // Firestore: debounced — only fires after 3 s of no new answers
+  if (uid) scheduleSave(uid, data);
 
   return { xpGained: xp, newBadges, leveledUp, data };
 }
 
 /**
  * Record session completion (practice / challenge / teach / review).
+ *
+ * Pass `prev` to skip the Firestore read. Flushes any pending debounced write
+ * before scheduling its own immediate write, so state is never lost.
  */
 export async function recordSessionComplete(
   uid: string | null,
   type: 'practice' | 'challenge' | 'teach' | 'review',
+  prev?: GamificationData,
 ): Promise<RecordAnswerResult> {
-  const prev = uid ? await firestoreLoad(uid) : localLoad();
-  let data = updateDailyStreak(prev);
+  // Flush any pending debounced answer write first so we build on the freshest data
+  if (uid) flushGamificationSave();
+
+  const base = prev ?? (uid ? await firestoreLoad(uid) : localLoad());
+  let data = updateDailyStreak(base);
 
   const sessionXP = type === 'teach' ? 20 : type === 'review' ? 30 : 25;
   const oldXP = data.totalXP;
@@ -156,11 +204,12 @@ export async function recordSessionComplete(
 
   const leveledUp = didLevelUp(oldXP, data.totalXP);
   const currentLevel = getLevelForXP(data.totalXP).level;
-  const newBadges = checkNewBadges(prev, data, currentLevel);
+  const newBadges = checkNewBadges(base, data, currentLevel);
   data = { ...data, badgesEarned: [...data.badgesEarned, ...newBadges] };
 
-  if (uid) await firestoreSave(uid, data);
+  // Immediate write (session end is a natural sync point)
   localSave(data);
+  if (uid) await firestoreSave(uid, data);
 
   return { xpGained: sessionXP, newBadges, leveledUp, data };
 }

@@ -10,6 +10,7 @@ import {
   recordGamificationAnswer,
   recordSessionComplete,
   mergeLocalGamificationToFirestore,
+  flushGamificationSave,
 } from '@/lib/gamification/store';
 import type { RecordAnswerResult } from '@/lib/gamification/store';
 import { BADGE_MAP } from '@/lib/gamification/badges';
@@ -86,6 +87,16 @@ export function GamificationProvider({ children }: { children: React.ReactNode }
   const [lastXP, setLastXP] = useState(0);
   const prevUid = useRef<string | null>(null);
 
+  // Always-current ref — lets callbacks read latest data without stale closures
+  // and without needing to re-create the callback on every answer.
+  const dataRef = useRef<GamificationData>(DEFAULT_GAMIFICATION);
+
+  // Keep dataRef in sync whenever state updates
+  const setDataAndRef = useCallback((d: GamificationData) => {
+    dataRef.current = d;
+    setData(d);
+  }, []);
+
   // Load data on auth change
   useEffect(() => {
     const uid = user?.uid ?? null;
@@ -94,8 +105,8 @@ export function GamificationProvider({ children }: { children: React.ReactNode }
       mergeLocalGamificationToFirestore(uid).catch(console.error);
     }
     prevUid.current = uid;
-    loadGamification(uid).then(setData).catch(console.error);
-  }, [user]);
+    loadGamification(uid).then(setDataAndRef).catch(console.error);
+  }, [user, setDataAndRef]);
 
   const onAnswer = useCallback(async (
     correct: boolean,
@@ -103,8 +114,15 @@ export function GamificationProvider({ children }: { children: React.ReactNode }
     currentStreak: number,
   ): Promise<RecordAnswerResult | null> => {
     try {
-      const result = await recordGamificationAnswer(user?.uid ?? null, correct, mode, currentStreak);
-      setData(result.data);
+      // Pass current in-memory data as `prev` — eliminates the Firestore getDoc
+      const result = await recordGamificationAnswer(
+        user?.uid ?? null,
+        correct,
+        mode,
+        currentStreak,
+        dataRef.current,
+      );
+      setDataAndRef(result.data);
       setLastXP(result.xpGained);
 
       // Queue new badges
@@ -130,12 +148,18 @@ export function GamificationProvider({ children }: { children: React.ReactNode }
       console.error('gamification error', e);
       return null;
     }
-  }, [user]);
+  }, [user, setDataAndRef]);
 
   const onSessionEnd = useCallback(async (type: 'practice' | 'challenge' | 'teach' | 'review') => {
     try {
-      const result = await recordSessionComplete(user?.uid ?? null, type);
-      setData(result.data);
+      // Pass current in-memory data as `prev` — eliminates the Firestore getDoc.
+      // recordSessionComplete internally flushes the debounce before its own write.
+      const result = await recordSessionComplete(
+        user?.uid ?? null,
+        type,
+        dataRef.current,
+      );
+      setDataAndRef(result.data);
 
       if (result.newBadges.length > 0) {
         const badges = result.newBadges.map(id => BADGE_MAP[id]).filter(Boolean);
@@ -150,7 +174,7 @@ export function GamificationProvider({ children }: { children: React.ReactNode }
     } catch (e) {
       console.error('gamification session error', e);
     }
-  }, [user]);
+  }, [user, setDataAndRef]);
 
   const clearBadge = useCallback((id: string) => {
     setPendingBadges(prev => prev.filter(b => b.id !== id));

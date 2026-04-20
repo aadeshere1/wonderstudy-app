@@ -73,8 +73,28 @@ export async function getStudentQuestionProgress(uid: string): Promise<QuestionP
   }
 }
 
+// ── Session-level deduplication for lessonsVisited ────────────────────────
+// Key: uid  →  Set of lessonIds already written this browser session.
+// This prevents a redundant arrayUnion write on every question answer for a
+// lesson the student is already known to have visited.
+const _visitedThisSession = new Map<string, Set<string>>();
+
+function hasVisited(uid: string, lessonId: string): boolean {
+  return _visitedThisSession.get(uid)?.has(lessonId) ?? false;
+}
+
+function markVisited(uid: string, lessonId: string): void {
+  if (!_visitedThisSession.has(uid)) _visitedThisSession.set(uid, new Set());
+  _visitedThisSession.get(uid)!.add(lessonId);
+}
+
 /**
  * Write per-question accuracy to publicProgress/{uid}/questions/data.
+ *
+ * Two Firestore writes are combined into a single writeBatch:
+ *   1. Atomic increments on the per-question record.
+ *   2. arrayUnion on lessonsVisited (skipped if already sent this session).
+ *
  * Must be called with the User object so getIdToken() can be called first.
  */
 export async function recordQuestionProgress(
@@ -86,15 +106,18 @@ export async function recordQuestionProgress(
 ): Promise<void> {
   try {
     await user.getIdToken(); // ensure Firestore auth token is ready
-    const { getFirestore: gf, doc, setDoc, increment, arrayUnion } =
+
+    const { getFirestore: gf, doc, writeBatch, increment, arrayUnion } =
       await import('firebase/firestore');
     const { default: firebaseApp } = await import('@/lib/firebase/config');
     const fdb = gf(firebaseApp);
     const cardId = `${lessonId}_${section}_${index}`;
     const now = new Date().toISOString();
 
-    // Atomic increments — no read needed
-    await setDoc(
+    const batch = writeBatch(fdb);
+
+    // 1. Per-question atomic increments
+    batch.set(
       doc(fdb, 'publicProgress', user.uid, 'questions', 'data'),
       {
         [cardId]: {
@@ -109,15 +132,20 @@ export async function recordQuestionProgress(
           lastAttempted:      now,
         },
       },
-      { merge: true }
+      { merge: true },
     );
 
-    // Track which lessons the student has visited
-    await setDoc(
-      doc(fdb, 'publicProgress', user.uid),
-      { lessonsVisited: arrayUnion(lessonId) },
-      { merge: true }
-    );
+    // 2. Track which lessons the student has visited — skip if already sent
+    if (!hasVisited(user.uid, lessonId)) {
+      batch.set(
+        doc(fdb, 'publicProgress', user.uid),
+        { lessonsVisited: arrayUnion(lessonId) },
+        { merge: true },
+      );
+      markVisited(user.uid, lessonId);
+    }
+
+    await batch.commit();
   } catch (e) {
     console.error('[admin] recordQuestionProgress failed:', e);
   }
