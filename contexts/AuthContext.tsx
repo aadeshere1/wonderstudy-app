@@ -2,7 +2,7 @@
 
 import { createContext, useContext, useEffect, useRef, useState, ReactNode } from 'react';
 import { User } from 'firebase/auth';
-import { signInWithGoogle, signOut, onAuthChange } from '@/lib/firebase/auth';
+import { signInWithGoogle, handleRedirectResult, signOut, onAuthChange } from '@/lib/firebase/auth';
 import { mergeLocalToFirestore } from '@/lib/srs/store';
 
 interface AuthContextValue {
@@ -27,6 +27,10 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
   // Auth state listener — keep lean, no Firestore writes here
   useEffect(() => {
+    // Collect credential after Google redirects back to the app.
+    // This is a no-op if there is no pending redirect (normal page loads).
+    handleRedirectResult().catch(console.error);
+
     const unsub = onAuthChange(async (u) => {
       if (u && syncedUidRef.current !== u.uid) {
         // Merge any local guest SRS/gam progress to Firestore
@@ -73,7 +77,8 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   }, [user]);
 
   const handleSignIn = async () => {
-    await signInWithGoogle();
+    // signInWithRedirect navigates away — this function never returns normally
+    signInWithGoogle().catch(console.error);
   };
 
   const handleSignOut = async () => {

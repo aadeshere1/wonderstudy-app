@@ -1,7 +1,8 @@
 import {
   getAuth,
   GoogleAuthProvider,
-  signInWithPopup,
+  signInWithRedirect,
+  getRedirectResult,
   signOut as fbSignOut,
   onAuthStateChanged,
   type User,
@@ -17,12 +18,28 @@ function _auth() {
 
 const provider = new GoogleAuthProvider();
 
-export async function signInWithGoogle(): Promise<User | null> {
+/**
+ * Kick off Google sign-in using a full-page redirect.
+ * This works reliably on any domain (GitHub Pages, custom domains, etc.)
+ * without popup-blocker or cross-origin issues.
+ * After Google authenticates the user, the page reloads and
+ * `handleRedirectResult()` picks up the credential.
+ */
+export async function signInWithGoogle(): Promise<void> {
+  await signInWithRedirect(_auth(), provider);
+}
+
+/**
+ * Call this once on app startup (in AuthContext) to collect the credential
+ * after Google redirects back. Returns the signed-in User or null if there
+ * was no pending redirect.
+ */
+export async function handleRedirectResult(): Promise<User | null> {
   try {
-    const result = await signInWithPopup(_auth(), provider);
-    return result.user;
+    const result = await getRedirectResult(_auth());
+    return result?.user ?? null;
   } catch (err) {
-    console.error('Google sign-in failed:', err);
+    console.error('Google redirect sign-in failed:', err);
     return null;
   }
 }
