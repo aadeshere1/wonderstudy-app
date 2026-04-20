@@ -48,7 +48,7 @@ export const Podium = ({ players, showMedals = true }: PodiumProps) => {
           return (
             <div key={player.name} className="flex flex-col items-center gap-2">
               {/* Name */}
-              <div className="text-sm font-black text-center text-white max-w-20 truncate">
+              <div className="text-sm font-black text-center text-theme max-w-20 truncate">
                 {player.name}
               </div>
 
@@ -60,7 +60,7 @@ export const Podium = ({ players, showMedals = true }: PodiumProps) => {
                 <div className="text-xs text-muted uppercase tracking-wider mb-1">
                   Position {positionIndex + 1}
                 </div>
-                <div className="text-2xl font-black text-white">{player.score}</div>
+                <div className="text-2xl font-black text-theme">{player.score}</div>
                 <div className="text-xs text-muted mt-1">points</div>
               </div>
 
@@ -73,7 +73,7 @@ export const Podium = ({ players, showMedals = true }: PodiumProps) => {
 
       {/* Full Leaderboard */}
       <div className="w-full max-w-md">
-        <h3 className="text-lg font-black text-white mb-3">Final Results</h3>
+        <h3 className="text-lg font-black text-theme mb-3">Final Results</h3>
         <div className="space-y-2">
           {sorted.map((player, idx) => {
             const colorClass = colorMap[player.colorIdx];
@@ -88,7 +88,7 @@ export const Podium = ({ players, showMedals = true }: PodiumProps) => {
                 <div className="flex items-center gap-3 flex-1">
                   <div className="font-black text-lg w-8">#{idx + 1}</div>
                   <div>
-                    <div className="font-black text-white text-sm">{player.name}</div>
+                    <div className="font-black text-theme text-sm">{player.name}</div>
                     <div className="text-xs text-muted">
                       {player.correct}✓ {player.wrong}✗ {accuracy}%
                     </div>

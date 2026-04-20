@@ -49,8 +49,8 @@ export const LessonCard = ({
   return (
     <Link href={href} className="block group">
       <div
-        className="rounded-2xl border border-white/10 bg-card h-full transition-all duration-200 group-hover:-translate-y-1 overflow-hidden"
-        style={{ boxShadow: `0 0 0 0 ${diff.glow}`, transition: 'transform 0.2s, box-shadow 0.2s' }}
+        className="rounded-2xl bg-card h-full transition-all duration-200 group-hover:-translate-y-1 overflow-hidden"
+        style={{ border: '1px solid var(--ws-border)', boxShadow: `0 0 0 0 ${diff.glow}`, transition: 'transform 0.2s, box-shadow 0.2s' }}
         onMouseEnter={(e) => { (e.currentTarget as HTMLDivElement).style.boxShadow = `0 6px 24px ${diff.glow}`; }}
         onMouseLeave={(e) => { (e.currentTarget as HTMLDivElement).style.boxShadow = `0 0 0 0 ${diff.glow}`; }}
       >
@@ -62,7 +62,7 @@ export const LessonCard = ({
           <div className="flex items-start gap-3">
             <div className="text-3xl flex-shrink-0 leading-none">{icon}</div>
             <div className="flex-1 min-w-0">
-              <h3 className="font-black text-white text-sm leading-snug">{title}</h3>
+              <h3 className="font-black text-theme text-sm leading-snug">{title}</h3>
               {description && (
                 <p className="text-xs text-muted mt-1 line-clamp-2">{description}</p>
               )}

@@ -54,7 +54,7 @@ export const PlayerSetup = ({
 
   return (
     <div className="space-y-4">
-      <h3 className="text-sm font-black text-white uppercase tracking-wider">
+      <h3 className="text-sm font-black text-theme uppercase tracking-wider">
         👥 Players ({players.length}/{maxPlayers})
       </h3>
 
@@ -75,7 +75,7 @@ export const PlayerSetup = ({
                 }
                 onFocus={() => setEditingIdx(idx)}
                 onBlur={() => setEditingIdx(null)}
-                className="flex-1 px-3 py-2 rounded-lg bg-card2 border border-white/10 text-white focus:outline-none focus:ring-2 focus:ring-purple/50"
+                className="flex-1 px-3 py-2 rounded-lg bg-card2 border border-white/10 text-theme focus:outline-none focus:ring-2 focus:ring-purple/50"
               />
               <div className="text-lg">
                 {colorOptions.find((c) => c.idx === player.colorIdx)?.emoji}
@@ -121,12 +121,12 @@ export const PlayerSetup = ({
             onKeyDown={(e) => e.key === 'Enter' && handleAddPlayer()}
             placeholder="Player name..."
             maxLength={20}
-            className="flex-1 px-3 py-2 rounded-lg bg-card border border-white/10 text-white placeholder-muted focus:outline-none focus:ring-2 focus:ring-purple/50"
+            className="flex-1 px-3 py-2 rounded-lg bg-card border border-white/10 text-theme placeholder-muted focus:outline-none focus:ring-2 focus:ring-purple/50"
           />
           <button
             onClick={handleAddPlayer}
             disabled={!newPlayerName.trim()}
-            className="px-4 py-2 rounded-lg bg-purple hover:bg-purple/80 text-white font-black transition-all disabled:opacity-50 disabled:cursor-not-allowed"
+            className="px-4 py-2 rounded-lg bg-purple hover:bg-purple/80 text-theme font-black transition-all disabled:opacity-50 disabled:cursor-not-allowed"
           >
             +
           </button>

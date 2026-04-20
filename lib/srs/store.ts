@@ -96,7 +96,7 @@ export async function recordAnswer(
   const updated  = applyAnswer(existing, quality);
   data[cardId]   = updated;
 
-  // save
+  // save SRS progress
   localSave(data);
   if (uid) await firestoreSave(uid, data);
 }

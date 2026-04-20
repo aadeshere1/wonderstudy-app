@@ -27,10 +27,10 @@ export default function SRSDueWidget() {
     >
       <div className="text-3xl flex-shrink-0">🔁</div>
       <div className="flex-1 min-w-0">
-        <div className="font-display text-base text-white leading-tight">
+        <div className="font-display text-base text-theme leading-tight">
           {totalDue} card{totalDue !== 1 ? 's' : ''} due for review
         </div>
-        <div className="text-xs mt-0.5" style={{ color: 'rgba(240,244,255,0.45)' }}>
+        <div className="text-xs mt-0.5" style={{ color: 'var(--ws-text-muted)' }}>
           Keep your streak alive with spaced repetition
         </div>
       </div>

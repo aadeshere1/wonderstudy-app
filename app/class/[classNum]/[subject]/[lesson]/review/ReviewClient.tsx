@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState, useCallback } from 'react';
+import { useEffect, useState, useCallback, useRef } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { useAuth } from '@/contexts/AuthContext';
@@ -10,6 +10,8 @@ import type { SRSCard } from '@/lib/srs/types';
 import type { LessonData } from '@/lib/engine/types';
 import { OptionsGrid } from '@/components/game';
 import { ConfettiOverlay } from '@/components/layout';
+import { useGamification } from '@/contexts/GamificationContext';
+import { recordQuestionProgress } from '@/lib/admin/queries';
 
 interface Props {
   classNum: string;
@@ -57,6 +59,7 @@ function buildQuestions(lesson: LessonData, dueCards: SRSCard[]): ReviewQuestion
 export default function ReviewClient({ classNum, subject, lesson, initialLesson }: Props) {
   const router = useRouter();
   const { user } = useAuth();
+  const { onAnswer: gamOnAnswer, onSessionEnd } = useGamification();
 
   const [state, setState]         = useState<ReviewState>('loading');
   const [questions, setQuestions] = useState<ReviewQuestion[]>([]);
@@ -66,6 +69,9 @@ export default function ReviewClient({ classNum, subject, lesson, initialLesson 
   const [hintShown, setHintShown] = useState(false);
   const [showConfetti, setShowConfetti] = useState(false);
   const [sessionStats, setSessionStats] = useState({ correct: 0, wrong: 0 });
+
+  // Running streak within this review session (for XP bonus calculation)
+  const reviewStreakRef = useRef(0);
 
   useEffect(() => {
     if (!initialLesson) { setState('empty'); return; }
@@ -89,10 +95,12 @@ export default function ReviewClient({ classNum, subject, lesson, initialLesson 
     setState('answered');
 
     if (isCorrect) {
+      reviewStreakRef.current += 1;
       setShowConfetti(true);
       setTimeout(() => setShowConfetti(false), 1200);
       setSessionStats(s => ({ ...s, correct: s.correct + 1 }));
     } else {
+      reviewStreakRef.current = 0;
       setSessionStats(s => ({ ...s, wrong: s.wrong + 1 }));
     }
 
@@ -105,10 +113,19 @@ export default function ReviewClient({ classNum, subject, lesson, initialLesson 
       isCorrect,
       hintShown,
     );
-  }, [state, questions, current, user, initialLesson, hintShown]);
+
+    // Record XP + badge progress
+    gamOnAnswer(isCorrect, 'review', reviewStreakRef.current).catch(console.error);
+    // Record per-question accuracy for admin dashboard
+    if (user) {
+      recordQuestionProgress(user, q.card.lessonId, q.card.section, q.card.index, isCorrect)
+        .catch(console.error);
+    }
+  }, [state, questions, current, user, initialLesson, hintShown, gamOnAnswer]);
 
   const handleNext = useCallback(() => {
     if (current + 1 >= questions.length) {
+      onSessionEnd('review').catch(console.error);
       setState('done');
     } else {
       setCurrent(c => c + 1);
@@ -117,12 +134,12 @@ export default function ReviewClient({ classNum, subject, lesson, initialLesson 
       setHintShown(false);
       setState('question');
     }
-  }, [current, questions.length]);
+  }, [current, questions.length, onSessionEnd]);
 
   // ── Loading ──────────────────────────────────────────────────────────────
   if (state === 'loading') {
     return (
-      <div className="fixed inset-0 flex items-center justify-center" style={{ background: '#0d0d1a' }}>
+      <div className="fixed inset-0 flex items-center justify-center" style={{ background: 'var(--ws-bg)' }}>
         <div className="text-center">
           <div className="text-6xl mb-4 animate-bounce">🔁</div>
           <div className="font-display text-2xl" style={{ color: '#a78bfa' }}>Loading your review…</div>
@@ -134,11 +151,11 @@ export default function ReviewClient({ classNum, subject, lesson, initialLesson 
   // ── Empty (nothing due) ──────────────────────────────────────────────────
   if (state === 'empty') {
     return (
-      <div className="fixed inset-0 flex items-center justify-center p-4" style={{ background: '#0d0d1a' }}>
+      <div className="fixed inset-0 flex items-center justify-center p-4" style={{ background: 'var(--ws-bg)' }}>
         <div className="text-center max-w-sm">
           <div className="text-6xl mb-4">✅</div>
-          <div className="font-display text-2xl text-white mb-2">Nothing due!</div>
-          <p className="text-sm mb-6" style={{ color: 'rgba(240,244,255,0.5)' }}>
+          <div className="font-display text-2xl text-theme mb-2">Nothing due!</div>
+          <p className="text-sm mb-6" style={{ color: 'var(--ws-text-muted)' }}>
             You&apos;re all caught up. Practice more questions to add cards to your review queue.
           </p>
           <Link
@@ -164,25 +181,25 @@ export default function ReviewClient({ classNum, subject, lesson, initialLesson 
     const emoji   = pct === 100 ? '🏆' : pct >= 70 ? '🎉' : '💪';
 
     return (
-      <div className="fixed inset-0 flex items-center justify-center p-4" style={{ background: '#0d0d1a' }}>
+      <div className="fixed inset-0 flex items-center justify-center p-4" style={{ background: 'var(--ws-bg)' }}>
         <ConfettiOverlay active={pct === 100} />
         <div className="text-center max-w-sm w-full">
           <div className="text-7xl mb-4">{emoji}</div>
-          <div className="font-display text-3xl text-white mb-2">Review done!</div>
+          <div className="font-display text-3xl text-theme mb-2">Review done!</div>
           <div className="font-display text-xl mb-6" style={{ color: '#fbbf24' }}>{pct}% correct</div>
 
-          <div className="rounded-2xl p-5 mb-6 flex justify-around" style={{ background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.1)' }}>
+          <div className="rounded-2xl p-5 mb-6 flex justify-around" style={{ background: 'var(--ws-card)', border: '1px solid var(--ws-border)' }}>
             <div className="text-center">
               <div className="font-display text-3xl" style={{ color: '#34d399' }}>{sessionStats.correct}</div>
-              <div className="text-xs mt-1" style={{ color: 'rgba(240,244,255,0.45)' }}>Correct</div>
+              <div className="text-xs mt-1" style={{ color: 'var(--ws-text-muted)' }}>Correct</div>
             </div>
             <div className="text-center">
               <div className="font-display text-3xl" style={{ color: '#f87171' }}>{sessionStats.wrong}</div>
-              <div className="text-xs mt-1" style={{ color: 'rgba(240,244,255,0.45)' }}>Wrong</div>
+              <div className="text-xs mt-1" style={{ color: 'var(--ws-text-muted)' }}>Wrong</div>
             </div>
             <div className="text-center">
               <div className="font-display text-3xl" style={{ color: '#a78bfa' }}>{total}</div>
-              <div className="text-xs mt-1" style={{ color: 'rgba(240,244,255,0.45)' }}>Total</div>
+              <div className="text-xs mt-1" style={{ color: 'var(--ws-text-muted)' }}>Total</div>
             </div>
           </div>
 
@@ -202,11 +219,12 @@ export default function ReviewClient({ classNum, subject, lesson, initialLesson 
               onClick={() => {
                 setCurrent(0); setSelected(null); setCorrect(null);
                 setHintShown(false); setSessionStats({ correct: 0, wrong: 0 });
+                reviewStreakRef.current = 0;
                 setState('loading');
               }}
               style={{
-                padding: '10px', borderRadius: 14, border: '1px solid rgba(255,255,255,0.15)',
-                background: 'transparent', color: 'rgba(240,244,255,0.6)',
+                padding: '10px', borderRadius: 14, border: '1px solid var(--ws-border)',
+                background: 'transparent', color: 'var(--ws-text-muted)',
                 fontFamily: 'var(--font-nunito),sans-serif', fontWeight: 800,
                 fontSize: '0.9rem', cursor: 'pointer',
               }}
@@ -224,22 +242,22 @@ export default function ReviewClient({ classNum, subject, lesson, initialLesson 
   const progress = Math.round(((current) / questions.length) * 100);
 
   return (
-    <div className="fixed inset-0 flex flex-col overflow-hidden" style={{ background: '#0d0d1a' }}>
+    <div className="fixed inset-0 flex flex-col overflow-hidden" style={{ background: 'var(--ws-bg)' }}>
       <ConfettiOverlay active={showConfetti} />
 
       {/* Top bar */}
       <div className="flex-shrink-0 flex items-center justify-between px-4 py-3"
-        style={{ background: '#161628', borderBottom: '1px solid rgba(255,255,255,0.06)' }}>
+        style={{ background: 'var(--ws-surface)', borderBottom: '1px solid var(--ws-border)' }}>
         <button
           onClick={() => router.push(`/class/${classNum}/${subject}/${lesson}`)}
-          style={{ background: 'none', border: 'none', color: 'rgba(240,244,255,0.45)', fontWeight: 800, fontSize: '0.85rem', cursor: 'pointer', fontFamily: 'var(--font-nunito),sans-serif' }}
+          style={{ background: 'none', border: 'none', color: 'var(--ws-text-muted)', fontWeight: 800, fontSize: '0.85rem', cursor: 'pointer', fontFamily: 'var(--font-nunito),sans-serif' }}
         >
           ← Back
         </button>
         <div className="font-display text-base" style={{ color: '#a78bfa' }}>
           🔁 Review
         </div>
-        <div className="font-display text-sm" style={{ color: 'rgba(240,244,255,0.45)' }}>
+        <div className="font-display text-sm" style={{ color: 'var(--ws-text-muted)' }}>
           {current + 1} / {questions.length}
         </div>
       </div>
@@ -258,8 +276,8 @@ export default function ReviewClient({ classNum, subject, lesson, initialLesson 
         </div>
 
         <div
-          className="w-full max-w-lg rounded-2xl p-5 text-center font-display text-lg text-white leading-snug"
-          style={{ background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.1)' }}
+          className="w-full max-w-lg rounded-2xl p-5 text-center font-display text-lg text-theme leading-snug"
+          style={{ background: 'var(--ws-card)', border: '1px solid var(--ws-border)' }}
         >
           {q.question}
         </div>
@@ -294,7 +312,7 @@ export default function ReviewClient({ classNum, subject, lesson, initialLesson 
         {/* Explanation after answer */}
         {state === 'answered' && q.explanation && (
           <div className="w-full max-w-lg rounded-xl px-4 py-3 text-sm"
-            style={{ background: correct ? 'rgba(52,211,153,0.1)' : 'rgba(248,113,113,0.1)', border: `1px solid ${correct ? 'rgba(52,211,153,0.3)' : 'rgba(248,113,113,0.3)'}`, color: 'rgba(240,244,255,0.8)' }}>
+            style={{ background: correct ? 'rgba(52,211,153,0.1)' : 'rgba(248,113,113,0.1)', border: `1px solid ${correct ? 'rgba(52,211,153,0.3)' : 'rgba(248,113,113,0.3)'}`, color: 'var(--ws-text)' }}>
             {correct ? '✅' : '❌'} {q.explanation}
           </div>
         )}
@@ -302,7 +320,7 @@ export default function ReviewClient({ classNum, subject, lesson, initialLesson 
 
       {/* Next button */}
       {state === 'answered' && (
-        <div className="flex-shrink-0 px-4 py-4" style={{ borderTop: '1px solid rgba(255,255,255,0.06)' }}>
+        <div className="flex-shrink-0 px-4 py-4" style={{ borderTop: '1px solid var(--ws-border)' }}>
           <button
             onClick={handleNext}
             style={{

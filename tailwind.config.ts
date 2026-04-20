@@ -8,17 +8,18 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        bg: "#0d0d1a",
-        surface: "#161628",
-        card: "#1e1e38",
-        card2: "#252545",
+        bg: "var(--ws-bg)",
+        surface: "var(--ws-surface)",
+        card: "var(--ws-card)",
+        card2: "var(--ws-card2)",
         gold: "#fbbf24",
         coral: "#f87171",
         mint: "#34d399",
         purple: "#a78bfa",
         blue: "#60a5fa",
         pink: "#f472b6",
-        muted: "rgba(240, 244, 255, 0.4)",
+        muted: "var(--ws-text-muted)",
+        theme: "var(--ws-text)",
       },
       fontFamily: {
         display: ["var(--font-fredoka-one)"],

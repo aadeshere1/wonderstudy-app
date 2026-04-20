@@ -3,6 +3,10 @@ import { Fredoka, Nunito } from "next/font/google";
 import { SchemaMarkup, organizationSchema } from "@/components/seo/SchemaMarkup";
 import { StarsBackground } from "@/components/layout";
 import { AuthProvider } from "@/contexts/AuthContext";
+import { ThemeProvider } from "@/contexts/ThemeContext";
+import { GamificationProvider } from "@/contexts/GamificationContext";
+import BadgeToast from "@/components/gamification/BadgeToast";
+import LevelUpModal from "@/components/gamification/LevelUpModal";
 import "./globals.css";
 
 const fredoka = Fredoka({
@@ -48,16 +52,30 @@ export default function RootLayout({
     <html
       lang="en"
       className={`${fredoka.variable} ${nunito.variable} scroll-smooth`}
+      suppressHydrationWarning
     >
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <SchemaMarkup schema={organizationSchema} />
+        {/* Anti-flash: apply saved theme before React hydrates */}
+        <script dangerouslySetInnerHTML={{ __html: `
+          try {
+            var t = localStorage.getItem('ws_theme') || 'light';
+            document.documentElement.setAttribute('data-theme', t);
+          } catch(e) {}
+        `}} />
       </head>
-      <body suppressHydrationWarning className="bg-bg text-white font-body antialiased overflow-x-hidden min-h-screen">
+      <body suppressHydrationWarning className="font-body antialiased overflow-x-hidden min-h-screen" style={{ background: 'var(--ws-bg)', color: 'var(--ws-text)' }}>
         <StarsBackground />
-        <AuthProvider>
-          {children}
-        </AuthProvider>
+        <ThemeProvider>
+          <AuthProvider>
+            <GamificationProvider>
+              <BadgeToast />
+              <LevelUpModal />
+              {children}
+            </GamificationProvider>
+          </AuthProvider>
+        </ThemeProvider>
       </body>
     </html>
   );

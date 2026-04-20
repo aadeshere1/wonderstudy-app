@@ -94,10 +94,10 @@ export default async function LessonPage({ params }: PageProps) {
 
   if (!lessonData) {
     return (
-      <div className="fixed inset-0 flex items-center justify-center" style={{ background: '#0d0d1a' }}>
+      <div className="fixed inset-0 flex items-center justify-center" style={{ background: 'var(--ws-bg)' }}>
         <div className="text-center">
           <div className="text-4xl mb-4">😬</div>
-          <h1 className="font-display text-2xl text-white mb-4">Lesson not found</h1>
+          <h1 className="font-display text-2xl mb-4" style={{ color: 'var(--ws-text)' }}>Lesson not found</h1>
           <Link href="/" style={{ color: '#a78bfa', fontWeight: 800 }}>← Back to home</Link>
         </div>
       </div>
@@ -140,11 +140,11 @@ export default async function LessonPage({ params }: PageProps) {
           >
             {lessonData.meta.title}
           </h1>
-          <p className="text-sm font-bold" style={{ color: 'rgba(240,244,255,0.4)' }}>
+          <p className="text-sm font-bold" style={{ color: 'var(--ws-text-muted)' }}>
             Class {classNum} &bull; {subject.charAt(0).toUpperCase() + subject.slice(1)}
           </p>
           {lessonData.meta.description && (
-            <p className="text-sm mt-2 max-w-md mx-auto" style={{ color: 'rgba(240,244,255,0.55)' }}>
+            <p className="text-sm mt-2 max-w-md mx-auto" style={{ color: 'var(--ws-text-muted)' }}>
               {lessonData.meta.description}
             </p>
           )}
@@ -152,7 +152,7 @@ export default async function LessonPage({ params }: PageProps) {
 
         {/* ── Section title ── */}
         <div className="font-display text-xl mb-1">🎮 Choose a Mode</div>
-        <div className="text-xs mb-5" style={{ color: 'rgba(240,244,255,0.4)' }}>
+        <div className="text-xs mb-5" style={{ color: 'var(--ws-text-muted)' }}>
           Pick how you want to learn today
         </div>
 
@@ -165,12 +165,12 @@ export default async function LessonPage({ params }: PageProps) {
               className="block group"
             >
               <div
-                className="rounded-2xl border border-white/10 p-px transition-all duration-200 group-hover:-translate-y-0.5"
-                style={{ boxShadow: `0 4px 20px ${card.glow}` }}
+                className="rounded-2xl p-px transition-all duration-200 group-hover:-translate-y-0.5"
+                style={{ boxShadow: `0 4px 20px ${card.glow}`, border: '1px solid var(--ws-border)' }}
               >
                 <div
                   className="rounded-2xl flex items-center gap-5 px-6 py-5"
-                  style={{ background: 'rgba(30,30,56,0.92)' }}
+                  style={{ background: 'var(--ws-card-inner)' }}
                 >
                   {/* Icon circle */}
                   <div
@@ -183,7 +183,7 @@ export default async function LessonPage({ params }: PageProps) {
                   {/* Text */}
                   <div className="flex-1 min-w-0">
                     <div className="flex items-center gap-2 mb-0.5">
-                      <span className="font-display text-xl text-white">{card.label}</span>
+                      <span className="font-display text-xl" style={{ color: 'var(--ws-text)' }}>{card.label}</span>
                       <span
                         className="text-xs font-bold px-2 py-0.5 rounded-full"
                         style={{ background: card.tagBg, color: card.tagColor }}
@@ -191,7 +191,7 @@ export default async function LessonPage({ params }: PageProps) {
                         {card.tag}
                       </span>
                     </div>
-                    <p className="text-xs" style={{ color: 'rgba(240,244,255,0.45)' }}>
+                    <p className="text-xs" style={{ color: 'var(--ws-text-muted)' }}>
                       {card.description}
                     </p>
                   </div>
@@ -199,7 +199,7 @@ export default async function LessonPage({ params }: PageProps) {
                   {/* Arrow */}
                   <div
                     className="flex-shrink-0 font-display text-xl transition-transform duration-200 group-hover:translate-x-1"
-                    style={{ color: 'rgba(240,244,255,0.3)' }}
+                    style={{ color: 'var(--ws-text-dim)' }}
                   >
                     →
                   </div>
@@ -222,7 +222,7 @@ export default async function LessonPage({ params }: PageProps) {
           <Link
             href="/"
             className="text-sm font-bold transition-colors"
-            style={{ color: 'rgba(240,244,255,0.35)' }}
+            style={{ color: 'var(--ws-text-dim)' }}
           >
             ← Back to all lessons
           </Link>

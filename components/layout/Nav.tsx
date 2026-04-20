@@ -2,6 +2,8 @@
 
 import Link from "next/link";
 import { AuthButton } from "@/components/auth/AuthButton";
+import { useTheme } from "@/contexts/ThemeContext";
+import XPBar from "@/components/gamification/XPBar";
 
 export interface NavTab {
   id: string;
@@ -28,8 +30,16 @@ export const Nav = ({
   showSettings = false,
   onSettingsClick,
 }: NavProps) => {
+  const { theme, toggle } = useTheme();
+
   return (
-    <nav className="sticky top-0 z-40 bg-bg/90 backdrop-blur-2xl border-b border-white/7 px-5 py-3 flex items-center justify-between">
+    <nav
+      className="sticky top-0 z-40 backdrop-blur-2xl px-5 py-3 flex items-center justify-between"
+      style={{
+        background: 'var(--ws-nav-bg)',
+        borderBottom: '1px solid var(--ws-nav-border)',
+      }}
+    >
       {/* Title */}
       <Link href="/" className="font-display text-2xl bg-gradient-to-r from-gold to-coral bg-clip-text text-transparent font-bold hover:opacity-80 transition">
         ⭐ {title}
@@ -48,8 +58,9 @@ export const Nav = ({
               className={`px-3.5 py-1.5 rounded-xl border-none cursor-pointer font-body font-black text-xs transition-all duration-200 ${
                 activeTab === tab.id
                   ? "bg-purple/20 text-purple"
-                  : "bg-transparent text-muted hover:text-white"
+                  : "bg-transparent hover:text-purple"
               }`}
+              style={{ color: activeTab === tab.id ? undefined : 'var(--ws-text-muted)' }}
             >
               {tab.icon} {tab.label}
             </button>
@@ -57,12 +68,47 @@ export const Nav = ({
         </div>
       )}
 
-      {/* Right side: Settings + Auth */}
+      {/* Right side: XP + Theme toggle + Settings + Auth */}
       <div className="flex items-center gap-2">
+        <XPBar />
+        {/* Theme toggle */}
+        <button
+          onClick={toggle}
+          title={theme === 'light' ? 'Switch to dark mode' : 'Switch to light mode'}
+          style={{
+            width: 36,
+            height: 36,
+            borderRadius: 10,
+            border: '1px solid var(--ws-border)',
+            background: 'var(--ws-card2)',
+            cursor: 'pointer',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            fontSize: '1.1rem',
+            transition: 'all 0.2s',
+            flexShrink: 0,
+          }}
+        >
+          {theme === 'light' ? '🌙' : '☀️'}
+        </button>
+
         {showSettings && (
           <button
             onClick={onSettingsClick}
-            className="px-3 py-2 rounded-lg bg-card2 hover:bg-card hover:border-purple border border-white/10 text-white transition-all cursor-pointer"
+            style={{
+              width: 36,
+              height: 36,
+              borderRadius: 10,
+              border: '1px solid var(--ws-border)',
+              background: 'var(--ws-card2)',
+              cursor: 'pointer',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              fontSize: '1rem',
+              transition: 'all 0.2s',
+            }}
             title="Settings"
           >
             ⚙️

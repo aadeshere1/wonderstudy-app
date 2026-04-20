@@ -34,7 +34,7 @@ function MathQuestion({ text }: { text: string }) {
   // Fallback: plain big text
   return (
     <div
-      className="text-center text-white leading-tight max-w-2xl"
+      className="text-center text-theme leading-tight max-w-2xl"
       style={{ fontFamily: 'var(--font-fredoka-one), cursive', fontSize: 'clamp(2rem,8vw,3.5rem)' }}
     >
       {text}

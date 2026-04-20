@@ -1,52 +1,72 @@
 @import "tailwindcss";
 
+/* ── Theme CSS Variables ──────────────────────────────────────────────────── */
+
+:root {
+  /* LIGHT THEME (default — bright & kid-friendly) */
+  --ws-bg:          #f5f0ff;
+  --ws-surface:     #ffffff;
+  --ws-card:        #ffffff;
+  --ws-card-inner:  rgba(255, 255, 255, 0.97);
+  --ws-card2:       #ede9fe;
+  --ws-text:        #1e1b4b;
+  --ws-text-muted:  rgba(30, 27, 75, 0.5);
+  --ws-text-dim:    rgba(30, 27, 75, 0.35);
+  --ws-border:      rgba(139, 92, 246, 0.18);
+  --ws-nav-bg:      rgba(255, 255, 255, 0.92);
+  --ws-nav-border:  rgba(139, 92, 246, 0.18);
+  --ws-star-color:  rgba(167, 139, 250, 0.5);
+  --ws-chip-bg:     #ede9fe;
+  --ws-chip-border: rgba(139, 92, 246, 0.25);
+  --ws-btn-sec-bg:  #ede9fe;
+  --ws-btn-sec-fg:  #4c1d95;
+}
+
+[data-theme="dark"] {
+  /* DARK THEME */
+  --ws-bg:          #0d0d1a;
+  --ws-surface:     #161628;
+  --ws-card:        #1e1e38;
+  --ws-card-inner:  rgba(30, 30, 56, 0.92);
+  --ws-card2:       #252545;
+  --ws-text:        #f0f4ff;
+  --ws-text-muted:  rgba(240, 244, 255, 0.45);
+  --ws-text-dim:    rgba(240, 244, 255, 0.3);
+  --ws-border:      rgba(255, 255, 255, 0.07);
+  --ws-nav-bg:      rgba(13, 13, 26, 0.92);
+  --ws-nav-border:  rgba(255, 255, 255, 0.07);
+  --ws-star-color:  rgba(255, 255, 255, 0.9);
+  --ws-chip-bg:     #252545;
+  --ws-chip-border: rgba(255, 255, 255, 0.1);
+  --ws-btn-sec-bg:  #252545;
+  --ws-btn-sec-fg:  #f0f4ff;
+}
+
+/* ── Animations ───────────────────────────────────────────────────────────── */
+
 @keyframes twinkle {
-  from {
-    opacity: 0.05;
-  }
-  to {
-    opacity: 0.8;
-  }
+  from { opacity: 0.1; }
+  to   { opacity: 0.8; }
 }
 
 @keyframes fadeUp {
-  from {
-    opacity: 0;
-    transform: translateY(16px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
 }
 
-/* Star background */
-.stars {
-  position: fixed;
-  inset: 0;
-  pointer-events: none;
-  z-index: 0;
-  overflow: hidden;
-}
+/* ── Base ─────────────────────────────────────────────────────────────────── */
 
-.star {
-  position: absolute;
-  background: white;
-  border-radius: 50%;
-  animation: twinkle var(--duration, 2s) ease-in-out infinite alternate;
-}
-
-/* Main content */
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  background: #0d0d1a;
-  color: #f0f4ff;
+  background: var(--ws-bg);
+  color: var(--ws-text);
   font-family: var(--font-nunito);
   min-height: 100vh;
   overflow-x: hidden;
+  transition: background 0.25s ease, color 0.25s ease;
 }
 
 main {
@@ -54,19 +74,30 @@ main {
   z-index: 1;
 }
 
-/* Card styling */
+/* ── Star/dot background ───────────────────────────────────────────────────── */
+.star {
+  position: absolute;
+  border-radius: 50%;
+  background: var(--ws-star-color);
+  animation: twinkle var(--duration, 2s) ease-in-out infinite alternate;
+}
+
+/* ── Card ─────────────────────────────────────────────────────────────────── */
+
 .card {
-  background: #1e1e38;
-  border: 1px solid rgba(255, 255, 255, 0.07);
+  background: var(--ws-card);
+  border: 1px solid var(--ws-border);
   border-radius: 20px;
   padding: 20px;
+  transition: background 0.25s ease;
 }
 
 .card + .card {
   margin-top: 14px;
 }
 
-/* Button styling */
+/* ── Buttons ──────────────────────────────────────────────────────────────── */
+
 .btn {
   display: inline-flex;
   align-items: center;
@@ -93,9 +124,9 @@ main {
 }
 
 .btn-secondary {
-  background: #252545;
-  color: #f0f4ff;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: var(--ws-btn-sec-bg);
+  color: var(--ws-btn-sec-fg);
+  border: 1px solid var(--ws-border);
 }
 
 .btn-secondary:hover {
@@ -121,28 +152,31 @@ main {
   transform: none !important;
 }
 
-/* ── Section typography (matches the HTML design) ── */
+/* ── Section typography ───────────────────────────────────────────────────── */
+
 .section-title {
   font-family: var(--font-fredoka-one), cursive;
   font-size: 1.6rem;
   margin-bottom: 4px;
   line-height: 1.2;
+  color: var(--ws-text);
 }
 
 .section-sub {
   font-size: 0.85rem;
-  color: rgba(240, 244, 255, 0.4);
+  color: var(--ws-text-muted);
   margin-bottom: 20px;
 }
 
-/* chip / time-chip matching the HTML design */
+/* ── Chip ─────────────────────────────────────────────────────────────────── */
+
 .chip {
   width: 44px;
   height: 44px;
   border-radius: 12px;
-  border: 2px solid rgba(255, 255, 255, 0.1);
-  background: #252545;
-  color: #f0f4ff;
+  border: 2px solid var(--ws-chip-border);
+  background: var(--ws-chip-bg);
+  color: var(--ws-text);
   font-family: var(--font-fredoka-one), cursive;
   font-size: 1.1rem;
   cursor: pointer;
@@ -160,11 +194,18 @@ main {
 .chip.active {
   background: linear-gradient(135deg, #34d399, #0891b2);
   border-color: #34d399;
+  color: #fff;
   box-shadow: 0 4px 12px rgba(52, 211, 153, 0.4);
   transform: scale(1.08);
 }
 
-/* Animate fadeUp for page sections */
+/* ── Text-muted helper ────────────────────────────────────────────────────── */
+.text-muted-ws {
+  color: var(--ws-text-muted);
+}
+
+/* ── Animate ──────────────────────────────────────────────────────────────── */
+
 .animate-fadeUp {
   animation: fadeUp 0.4s ease;
 }

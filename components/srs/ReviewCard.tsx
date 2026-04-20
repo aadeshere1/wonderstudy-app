@@ -35,7 +35,7 @@ export default function ReviewCard({ classNum, subject, lesson, lessonId }: Prop
       >
         <div
           className="rounded-2xl flex items-center gap-5 px-6 py-5"
-          style={{ background: 'rgba(30,30,56,0.92)' }}
+          style={{ background: 'var(--ws-card-inner)' }}
         >
           {/* Icon circle */}
           <div
@@ -51,7 +51,7 @@ export default function ReviewCard({ classNum, subject, lesson, lessonId }: Prop
           {/* Text */}
           <div className="flex-1 min-w-0">
             <div className="flex items-center gap-2 mb-0.5">
-              <span className="font-display text-xl text-white">Review</span>
+              <span className="font-display text-xl text-theme">Review</span>
 
               {/* Due badge */}
               {dueCount === null ? (

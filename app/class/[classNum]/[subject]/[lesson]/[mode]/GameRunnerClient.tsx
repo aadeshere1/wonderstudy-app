@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { GameEngine } from '@/lib/engine/GameEngine';
 import { VoiceManager } from '@/lib/voice/VoiceManager';
@@ -16,6 +16,8 @@ import {
 import { LessonData, GameMode, GameState } from '@/lib/engine/types';
 import { useAuth } from '@/contexts/AuthContext';
 import { recordAnswer } from '@/lib/srs/store';
+import { recordQuestionProgress } from '@/lib/admin/queries';
+import { useGamification } from '@/contexts/GamificationContext';
 
 interface GameRunnerClientProps {
   classNum: string;
@@ -47,6 +49,7 @@ export default function GameRunnerClient({
 }: GameRunnerClientProps) {
   const router = useRouter();
   const { user } = useAuth();
+  const { onAnswer: gamOnAnswer, onSessionEnd } = useGamification();
 
   // For challenge mode: null = show picker, number = duration chosen (in seconds)
   const [selectedDuration, setSelectedDuration] = useState<number | null>(
@@ -59,6 +62,9 @@ export default function GameRunnerClient({
   const [loading, setLoading] = useState(mode !== 'challenge'); // don't show loader during picker
   const [error, setError] = useState<string | null>(null);
   const [showConfetti, setShowConfetti] = useState(false);
+
+  // Guard: only fire onSessionEnd once per game session
+  const sessionEndedRef = useRef(false);
 
   useEffect(() => {
     // Challenge mode: wait for duration selection
@@ -114,6 +120,7 @@ export default function GameRunnerClient({
           : initialLesson;
 
       const engine = new GameEngine(lessonForEngine, mode as GameMode, finalSettings, voice);
+      sessionEndedRef.current = false; // reset guard for new session
       setGameEngine(engine);
 
       const handleStateChange = () => setGameState({ ...engine.getState() });
@@ -131,6 +138,14 @@ export default function GameRunnerClient({
           const index    = typeof questionIndex === 'number' ? questionIndex : 0;
           recordAnswer(user?.uid ?? null, lessonId, section, index, !!correct, !!hintUsed)
             .catch(console.error);
+          // Record XP + badge progress
+          const streak = typeof event.detail?.streak === 'number' ? event.detail.streak : 0;
+          gamOnAnswer(!!correct, mode as 'practice' | 'challenge', streak).catch(console.error);
+          // Record per-question accuracy for admin dashboard
+          if (user) {
+            recordQuestionProgress(user, lessonId, section, index, !!correct)
+              .catch(console.error);
+          }
         }
       };
 
@@ -150,10 +165,18 @@ export default function GameRunnerClient({
     }
   }, [initialLesson, mode, selectedDuration]);
 
+  // Fire onSessionEnd exactly once when the game transitions to over
+  useEffect(() => {
+    if (gameState && !gameState.running && !sessionEndedRef.current) {
+      sessionEndedRef.current = true;
+      onSessionEnd(mode as 'practice' | 'challenge' | 'teach').catch(console.error);
+    }
+  }, [gameState?.running]); // eslint-disable-line react-hooks/exhaustive-deps
+
   // ── CHALLENGE: Duration Picker ────────────────────────────────────────────
   if (mode === 'challenge' && selectedDuration === null) {
     return (
-      <div className="fixed inset-0 flex flex-col overflow-y-auto" style={{ background: '#0d0d1a' }}>
+      <div className="fixed inset-0 flex flex-col overflow-y-auto" style={{ background: 'var(--ws-bg)' }}>
         <div className="max-w-md mx-auto w-full px-4 py-10 flex flex-col">
           {/* Back button */}
           <button
@@ -161,7 +184,7 @@ export default function GameRunnerClient({
             style={{
               background: 'none',
               border: 'none',
-              color: 'rgba(240,244,255,0.4)',
+              color: 'var(--ws-text-muted)',
               fontWeight: 800,
               fontSize: '0.85rem',
               cursor: 'pointer',
@@ -187,7 +210,7 @@ export default function GameRunnerClient({
             >
               Challenge Mode
             </h2>
-            <p className="text-sm" style={{ color: 'rgba(240,244,255,0.45)' }}>
+            <p className="text-sm" style={{ color: 'var(--ws-text-muted)' }}>
               How long do you want to study?
             </p>
           </div>
@@ -206,7 +229,7 @@ export default function GameRunnerClient({
                 key={opt.seconds}
                 onClick={() => setSelectedDuration(opt.seconds)}
                 style={{
-                  background: 'rgba(30,30,56,0.9)',
+                  background: 'var(--ws-card-inner)',
                   border: '2px solid rgba(251,191,36,0.25)',
                   borderRadius: '16px',
                   padding: '16px 8px',
@@ -237,7 +260,7 @@ export default function GameRunnerClient({
                 <span
                   style={{
                     fontSize: '0.65rem',
-                    color: 'rgba(240,244,255,0.4)',
+                    color: 'var(--ws-text-muted)',
                     fontFamily: 'var(--font-nunito),sans-serif',
                     fontWeight: 700,
                   }}
@@ -254,7 +277,7 @@ export default function GameRunnerClient({
             style={{
               background: 'rgba(251,191,36,0.08)',
               border: '1px solid rgba(251,191,36,0.2)',
-              color: 'rgba(240,244,255,0.45)',
+              color: 'var(--ws-text-muted)',
               fontFamily: 'var(--font-nunito),sans-serif',
             }}
           >
@@ -268,7 +291,7 @@ export default function GameRunnerClient({
   // ── Loading ──────────────────────────────────────────────────────────────
   if (loading) {
     return (
-      <div className="fixed inset-0 flex items-center justify-center" style={{ background: '#0d0d1a' }}>
+      <div className="fixed inset-0 flex items-center justify-center" style={{ background: 'var(--ws-bg)' }}>
         <div className="text-center">
           <div className="text-6xl mb-4 animate-bounce">📚</div>
           <div className="font-display text-2xl" style={{ color: '#fbbf24' }}>Loading lesson…</div>
@@ -280,10 +303,10 @@ export default function GameRunnerClient({
   // ── Error ────────────────────────────────────────────────────────────────
   if (error || !gameEngine || !gameState || !initialLesson) {
     return (
-      <div className="fixed inset-0 flex items-center justify-center p-4" style={{ background: '#0d0d1a' }}>
+      <div className="fixed inset-0 flex items-center justify-center p-4" style={{ background: 'var(--ws-bg)' }}>
         <div className="text-center max-w-md">
           <div className="text-5xl mb-4">😬</div>
-          <div className="font-display text-2xl text-white mb-3">{error || 'Game failed to load'}</div>
+          <div className="font-display text-2xl text-theme mb-3">{error || 'Game failed to load'}</div>
           <button
             onClick={() => router.back()}
             style={{ padding: '12px 28px', borderRadius: '14px', background: 'linear-gradient(135deg,#a78bfa,#f87171)', border: 'none', color: 'white', fontFamily: 'var(--font-fredoka-one),cursive', fontSize: '1rem', cursor: 'pointer' }}
@@ -300,7 +323,7 @@ export default function GameRunnerClient({
   // ── Game Over ────────────────────────────────────────────────────────────
   if (!gameState.running) {
     return (
-      <div className="fixed inset-0 overflow-y-auto" style={{ background: '#0d0d1a' }}>
+      <div className="fixed inset-0 overflow-y-auto" style={{ background: 'var(--ws-bg)' }}>
         {gameState.players.length > 1 ? (
           <div className="min-h-full py-8">
             <Podium
@@ -339,10 +362,10 @@ export default function GameRunnerClient({
 
     if (!teachData || teachData.type !== 'flashcard') {
       return (
-        <div className="fixed inset-0 flex items-center justify-center" style={{ background: '#0d0d1a' }}>
+        <div className="fixed inset-0 flex items-center justify-center" style={{ background: 'var(--ws-bg)' }}>
           <div className="text-center">
             <div className="text-4xl mb-4">📭</div>
-            <div className="font-display text-2xl text-white mb-4">No teach content yet</div>
+            <div className="font-display text-2xl text-theme mb-4">No teach content yet</div>
             <button
               onClick={() => router.back()}
               style={{ padding: '10px 24px', borderRadius: '14px', background: 'rgba(167,139,250,0.2)', border: '1px solid #a78bfa', color: '#a78bfa', fontWeight: 800, cursor: 'pointer' }}
@@ -362,17 +385,17 @@ export default function GameRunnerClient({
     const progressPct = totalCards > 0 ? Math.round(((cardIndex + 1) / totalCards) * 100) : 0;
 
     return (
-      <div className="fixed inset-0 flex flex-col overflow-hidden" style={{ background: '#0d0d1a' }}>
+      <div className="fixed inset-0 flex flex-col overflow-hidden" style={{ background: 'var(--ws-bg)' }}>
         <ConfettiOverlay active={showConfetti} />
 
         {/* ── Top bar ── */}
         <div
           className="flex-shrink-0 flex items-center justify-between px-4 py-3"
-          style={{ background: '#161628', borderBottom: '1px solid rgba(255,255,255,0.06)' }}
+          style={{ background: 'var(--ws-surface)', borderBottom: '1px solid var(--ws-border)' }}
         >
           <button
             onClick={() => router.push(`/class/${classNum}/${subject}/${lesson}`)}
-            style={{ background: 'none', border: 'none', color: 'rgba(240,244,255,0.45)', fontWeight: 800, fontSize: '0.85rem', cursor: 'pointer', fontFamily: 'var(--font-nunito),sans-serif' }}
+            style={{ background: 'none', border: 'none', color: 'var(--ws-text-muted)', fontWeight: 800, fontSize: '0.85rem', cursor: 'pointer', fontFamily: 'var(--font-nunito),sans-serif' }}
           >
             ← Back
           </button>
@@ -411,14 +434,14 @@ export default function GameRunnerClient({
               onSpeak={() => voiceManager?.speak(item.front)}
             />
           ) : (
-            <div className="font-display text-xl text-white opacity-40">No card data</div>
+            <div className="font-display text-xl text-theme opacity-40">No card data</div>
           )}
         </div>
 
         {/* ── Navigation ── */}
         <div
           className="flex-shrink-0 flex items-center justify-center gap-3 px-4 py-4"
-          style={{ background: 'rgba(22,22,40,0.8)', borderTop: '1px solid rgba(255,255,255,0.06)' }}
+          style={{ background: 'var(--ws-surface)', borderTop: '1px solid var(--ws-border)' }}
         >
           <button
             onClick={() => gameEngine.prevCard()}
@@ -494,13 +517,13 @@ export default function GameRunnerClient({
     : Math.min(100, Math.round(((gameState.questionNumber || 0) / (gameState.totalQuestions || 20)) * 100));
 
   return (
-    <div className="fixed inset-0 flex flex-col overflow-hidden" style={{ background: '#0d0d1a' }}>
+    <div className="fixed inset-0 flex flex-col overflow-hidden" style={{ background: 'var(--ws-bg)' }}>
       <ConfettiOverlay active={showConfetti} />
 
       {/* ── Top bar: Score | Timer | Streak ── */}
-      <div className="flex items-center justify-between flex-shrink-0" style={{ background: '#161628', borderBottom: '1px solid rgba(255,255,255,0.06)' }}>
+      <div className="flex items-center justify-between flex-shrink-0" style={{ background: 'var(--ws-surface)', borderBottom: '1px solid var(--ws-border)' }}>
         <div className="text-center px-5 py-2 min-w-[80px]">
-          <div className="text-xs uppercase tracking-widest mb-0.5" style={{ color: 'rgba(240,244,255,0.4)' }}>Score</div>
+          <div className="text-xs uppercase tracking-widest mb-0.5" style={{ color: 'var(--ws-text-muted)' }}>Score</div>
           <div className="font-display text-3xl" style={{ color: '#fbbf24' }}>{currentPlayer?.score || 0}</div>
         </div>
 
@@ -518,7 +541,7 @@ export default function GameRunnerClient({
         )}
 
         <div className="text-center px-5 py-2 min-w-[80px]">
-          <div className="text-xs uppercase tracking-widest mb-0.5" style={{ color: 'rgba(240,244,255,0.4)' }}>Streak</div>
+          <div className="text-xs uppercase tracking-widest mb-0.5" style={{ color: 'var(--ws-text-muted)' }}>Streak</div>
           <div className="font-display text-3xl" style={{ color: '#34d399' }}>
             {(currentPlayer?.streak || 0) > 0 ? `🔥${currentPlayer.streak}` : '0'}
           </div>
@@ -570,9 +593,9 @@ export default function GameRunnerClient({
           style={{
             padding: '7px 18px',
             borderRadius: '10px',
-            background: '#252545',
+            background: 'var(--ws-card2)',
             border: '1px solid rgba(255,255,255,0.1)',
-            color: 'rgba(240,244,255,0.5)',
+            color: 'var(--ws-text-muted)',
             fontFamily: 'var(--font-nunito),sans-serif',
             fontWeight: 800,
             fontSize: '0.8rem',

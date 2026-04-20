@@ -76,11 +76,11 @@ export const SettingsPanel = ({
       {/* Header */}
       {!compact && (
         <div className="flex items-center justify-between">
-          <h2 className="text-2xl font-black text-white">⚙️ Settings</h2>
+          <h2 className="text-2xl font-black text-theme">⚙️ Settings</h2>
           {showCloseButton && onClose && (
             <button
               onClick={onClose}
-              className="px-3 py-2 rounded-lg bg-card2 hover:bg-card border border-white/10 text-white transition-all"
+              className="px-3 py-2 rounded-lg bg-card2 hover:bg-card border border-white/10 text-theme transition-all"
             >
               ✕
             </button>
@@ -100,13 +100,13 @@ export const SettingsPanel = ({
 
       {/* Audio Toggles */}
       <div className="bg-card border border-white/10 rounded-lg p-4 space-y-3">
-        <h3 className="text-sm font-black text-white uppercase tracking-wider">
+        <h3 className="text-sm font-black text-theme uppercase tracking-wider">
           🎵 Audio
         </h3>
 
         <div className="space-y-2">
           <div className="flex items-center justify-between">
-            <label className="text-white font-semibold">Speak Questions</label>
+            <label className="text-theme font-semibold">Speak Questions</label>
             <ToggleSwitch
               checked={settings.speakQuestions}
               onChange={(val) => saveSettings({ speakQuestions: val })}
@@ -114,7 +114,7 @@ export const SettingsPanel = ({
           </div>
 
           <div className="flex items-center justify-between">
-            <label className="text-white font-semibold">Speak Correct</label>
+            <label className="text-theme font-semibold">Speak Correct</label>
             <ToggleSwitch
               checked={settings.speakCorrect}
               onChange={(val) => saveSettings({ speakCorrect: val })}
@@ -122,7 +122,7 @@ export const SettingsPanel = ({
           </div>
 
           <div className="flex items-center justify-between">
-            <label className="text-white font-semibold">Speak Wrong</label>
+            <label className="text-theme font-semibold">Speak Wrong</label>
             <ToggleSwitch
               checked={settings.speakWrong}
               onChange={(val) => saveSettings({ speakWrong: val })}
@@ -130,7 +130,7 @@ export const SettingsPanel = ({
           </div>
 
           <div className="flex items-center justify-between">
-            <label className="text-white font-semibold">Sound Effects</label>
+            <label className="text-theme font-semibold">Sound Effects</label>
             <ToggleSwitch
               checked={settings.soundEffects}
               onChange={(val) => saveSettings({ soundEffects: val })}

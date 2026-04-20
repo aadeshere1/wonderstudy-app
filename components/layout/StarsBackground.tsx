@@ -15,7 +15,7 @@ export const StarsBackground = () => {
       {stars.map((star, i) => (
         <div
           key={i}
-          className="absolute bg-white rounded-full animate-twinkle"
+          className="absolute star rounded-full animate-twinkle"
           style={{
             width: star.size,
             height: star.size,

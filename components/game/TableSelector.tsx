@@ -48,12 +48,12 @@ export const TableSelector = ({
   const canStart = selected.size > 0;
 
   return (
-    <div className="fixed inset-0 flex flex-col overflow-hidden" style={{ background: '#0d0d1a' }}>
+    <div className="fixed inset-0 flex flex-col overflow-hidden" style={{ background: 'var(--ws-bg)' }}>
 
       {/* ── Top bar ── */}
       <div
         className="flex-shrink-0 flex items-center justify-between px-4 py-3"
-        style={{ background: '#161628', borderBottom: '1px solid rgba(255,255,255,0.06)' }}
+        style={{ background: 'var(--ws-surface)', borderBottom: '1px solid var(--ws-border)' }}
       >
         <button
           onClick={onBack}
@@ -91,12 +91,12 @@ export const TableSelector = ({
           {/* ── Table chips ── */}
           <div
             className="rounded-2xl p-5"
-            style={{ background: '#1e1e38', border: '1px solid rgba(255,255,255,0.07)' }}
+            style={{ background: 'var(--ws-card)', border: '1px solid var(--ws-border)' }}
           >
             {/* Row header */}
             <div className="flex items-center justify-between mb-4">
               <div>
-                <div className="font-black text-white text-sm">Choose Tables</div>
+                <div className="font-black text-theme text-sm">Choose Tables</div>
                 <div className="text-xs mt-0.5" style={{ color: 'rgba(240,244,255,0.4)' }}>
                   {selected.size === 0
                     ? 'Pick at least one'
@@ -111,9 +111,9 @@ export const TableSelector = ({
                   style={{
                     padding: '5px 12px',
                     borderRadius: '8px',
-                    background: '#252545',
-                    border: '1px solid rgba(255,255,255,0.1)',
-                    color: '#f0f4ff',
+                    background: 'var(--ws-card2)',
+                    border: '1px solid var(--ws-border)',
+                    color: 'var(--ws-text)',
                     fontWeight: 800,
                     fontSize: '0.75rem',
                     cursor: 'pointer',
@@ -127,9 +127,9 @@ export const TableSelector = ({
                   style={{
                     padding: '5px 12px',
                     borderRadius: '8px',
-                    background: '#252545',
-                    border: '1px solid rgba(255,255,255,0.1)',
-                    color: '#f0f4ff',
+                    background: 'var(--ws-card2)',
+                    border: '1px solid var(--ws-border)',
+                    color: 'var(--ws-text)',
                     fontWeight: 800,
                     fontSize: '0.75rem',
                     cursor: 'pointer',
@@ -153,7 +153,7 @@ export const TableSelector = ({
                       width: 52,
                       height: 52,
                       borderRadius: '12px',
-                      border: active ? '2px solid #34d399' : '2px solid rgba(255,255,255,0.1)',
+                      border: active ? '2px solid #34d399' : '2px solid var(--ws-border)',
                       background: active
                         ? 'linear-gradient(135deg,#34d399,#0891b2)'
                         : '#252545',
@@ -187,7 +187,7 @@ export const TableSelector = ({
                           justifyContent: 'center',
                           fontSize: '0.5rem',
                           fontWeight: 900,
-                          color: '#0d0d1a',
+                          color: 'var(--ws-bg)',
                         }}
                       >
                         ✓
@@ -199,7 +199,7 @@ export const TableSelector = ({
             </div>
 
             {/* Quick-picks row */}
-            <div className="flex flex-wrap gap-2 mt-4 pt-4" style={{ borderTop: '1px solid rgba(255,255,255,0.06)' }}>
+            <div className="flex flex-wrap gap-2 mt-4 pt-4" style={{ borderTop: '1px solid var(--ws-border)' }}>
               <span className="text-xs font-bold self-center" style={{ color: 'rgba(240,244,255,0.35)' }}>Quick pick:</span>
               {[
                 { label: 'Easy', tables: [2, 5, 10] },
@@ -212,9 +212,9 @@ export const TableSelector = ({
                   style={{
                     padding: '4px 12px',
                     borderRadius: '20px',
-                    border: '2px solid rgba(255,255,255,0.1)',
+                    border: '2px solid var(--ws-border)',
                     background: 'transparent',
-                    color: 'rgba(240,244,255,0.55)',
+                    color: 'var(--ws-text-muted)',
                     fontWeight: 800,
                     fontSize: '0.75rem',
                     cursor: 'pointer',
@@ -222,7 +222,7 @@ export const TableSelector = ({
                     transition: 'all 0.15s',
                   }}
                   onMouseEnter={(e) => { e.currentTarget.style.borderColor = '#a78bfa'; e.currentTarget.style.color = '#a78bfa'; }}
-                  onMouseLeave={(e) => { e.currentTarget.style.borderColor = 'rgba(255,255,255,0.1)'; e.currentTarget.style.color = 'rgba(240,244,255,0.55)'; }}
+                  onMouseLeave={(e) => { e.currentTarget.style.borderColor = 'var(--ws-border)'; e.currentTarget.style.color = 'rgba(240,244,255,0.55)'; }}
                 >
                   {preset.label}
                 </button>
@@ -246,7 +246,7 @@ export const TableSelector = ({
       {/* ── Start button ── */}
       <div
         className="flex-shrink-0 flex justify-center px-4 py-5"
-        style={{ background: 'rgba(22,22,40,0.9)', borderTop: '1px solid rgba(255,255,255,0.06)' }}
+        style={{ background: 'var(--ws-surface)', borderTop: '1px solid var(--ws-border)' }}
       >
         <button
           onClick={() => canStart && onStart(Array.from(selected).sort((a, b) => a - b))}

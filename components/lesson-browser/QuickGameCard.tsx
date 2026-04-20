@@ -22,13 +22,14 @@ export const QuickGameCard = ({
   return (
     <Link href={`/play/${id}`} className="block group">
       <div
-        className={`relative overflow-hidden rounded-2xl border border-white/10 bg-gradient-to-br ${gradient} p-px transition-all duration-200 group-hover:-translate-y-1`}
-        style={{ boxShadow: `0 4px 20px ${glow}` }}
+        className={`relative overflow-hidden rounded-2xl bg-gradient-to-br ${gradient} p-px transition-all duration-200 group-hover:-translate-y-1`}
+        style={{ boxShadow: `0 4px 20px ${glow}`, border: '1px solid var(--ws-border)' }}
       >
-        {/* inner dark surface */}
-        <div className="rounded-2xl bg-card/80 backdrop-blur-sm px-6 py-7 flex flex-col items-center justify-center text-center gap-3 h-full"
-          style={{ background: 'rgba(30, 30, 56, 0.85)' }}>
-
+        {/* inner surface — themed */}
+        <div
+          className="rounded-2xl backdrop-blur-sm px-6 py-7 flex flex-col items-center justify-center text-center gap-3 h-full"
+          style={{ background: 'var(--ws-card)' }}
+        >
           {/* icon with gradient circle bg */}
           <div
             className={`w-16 h-16 rounded-2xl bg-gradient-to-br ${gradient} flex items-center justify-center text-3xl shadow-lg`}
@@ -38,15 +39,16 @@ export const QuickGameCard = ({
           </div>
 
           <div>
-            <h3 className="font-display text-xl text-white">{title}</h3>
+            <h3 className="font-display text-xl text-theme">{title}</h3>
             {subtitle && (
-              <p className="text-xs text-muted mt-1">{subtitle}</p>
+              <p className="text-xs mt-1" style={{ color: 'var(--ws-text-muted)' }}>{subtitle}</p>
             )}
           </div>
 
-          {/* play button */}
+          {/* play button — always white text on gradient bg */}
           <div
-            className={`mt-1 px-5 py-1.5 rounded-full bg-gradient-to-r ${gradient} font-black text-xs text-white shadow-md`}
+            className={`mt-1 px-5 py-1.5 rounded-full bg-gradient-to-r ${gradient} font-black text-xs shadow-md`}
+            style={{ color: 'white' }}
           >
             Play Now →
           </div>

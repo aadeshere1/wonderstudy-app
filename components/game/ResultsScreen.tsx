@@ -73,14 +73,14 @@ export const ResultsScreen = ({
       </div>
 
       {/* Performance Message */}
-      <div className="text-3xl font-bold text-white text-center">
+      <div className="text-3xl font-bold text-theme text-center">
         {message || performanceMsg}
       </div>
 
       {/* Player Name */}
       {playerName && (
         <div className="text-xl text-muted">
-          Great work, <span className="text-white font-bold">{playerName}</span>!
+          Great work, <span className="text-theme font-bold">{playerName}</span>!
         </div>
       )}
 
@@ -90,28 +90,28 @@ export const ResultsScreen = ({
         <div className="bg-mint/20 border border-mint rounded-lg p-4 text-center">
           <div className="text-3xl font-bold text-mint">✓</div>
           <div className="text-sm text-muted mt-2">Correct</div>
-          <div className="text-2xl font-black text-white">{correct}</div>
+          <div className="text-2xl font-black text-theme">{correct}</div>
         </div>
 
         {/* Wrong */}
         <div className="bg-coral/20 border border-coral rounded-lg p-4 text-center">
           <div className="text-3xl font-bold text-coral">✗</div>
           <div className="text-sm text-muted mt-2">Wrong</div>
-          <div className="text-2xl font-black text-white">{wrong}</div>
+          <div className="text-2xl font-black text-theme">{wrong}</div>
         </div>
 
         {/* Accuracy */}
         <div className="bg-blue/20 border border-blue rounded-lg p-4 text-center">
           <div className="text-3xl font-bold text-blue">%</div>
           <div className="text-sm text-muted mt-2">Accuracy</div>
-          <div className="text-2xl font-black text-white">{finalAccuracy}%</div>
+          <div className="text-2xl font-black text-theme">{finalAccuracy}%</div>
         </div>
 
         {/* Streak */}
         <div className="bg-gold/20 border border-gold rounded-lg p-4 text-center">
           <div className="text-3xl font-bold text-gold">🔥</div>
           <div className="text-sm text-muted mt-2">Best Streak</div>
-          <div className="text-2xl font-black text-white">{streak}</div>
+          <div className="text-2xl font-black text-theme">{streak}</div>
         </div>
       </div>
 
@@ -119,12 +119,12 @@ export const ResultsScreen = ({
       <div className="flex flex-col gap-2 text-center text-sm">
         {questionsCount && (
           <div className="text-muted">
-            Answered <span className="text-white font-bold">{questionsCount}</span> questions
+            Answered <span className="text-theme font-bold">{questionsCount}</span> questions
           </div>
         )}
         {timeSpent && (
           <div className="text-muted">
-            Time spent: <span className="text-white font-bold">{timeSpent}s</span>
+            Time spent: <span className="text-theme font-bold">{timeSpent}s</span>
           </div>
         )}
       </div>

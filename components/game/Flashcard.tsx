@@ -115,7 +115,7 @@ export const Flashcard = ({
 
             {/* scrollable content */}
             <div
-              className="w-full overflow-y-auto text-center font-display text-white leading-snug"
+              className="w-full overflow-y-auto text-center font-display text-theme leading-snug"
               style={{ fontSize: pickFontSize(front), maxHeight: '100%' }}
             >
               {front}
@@ -160,7 +160,7 @@ export const Flashcard = ({
 
             {/* scrollable content */}
             <div
-              className="w-full overflow-y-auto text-center font-display text-white leading-snug"
+              className="w-full overflow-y-auto text-center font-display text-theme leading-snug"
               style={{ fontSize: pickFontSize(back), maxHeight: '100%' }}
             >
               {back}
@@ -205,8 +205,8 @@ export const Flashcard = ({
               width: 44,
               height: 44,
               borderRadius: '50%',
-              background: '#252545',
-              border: '2px solid rgba(255,255,255,0.1)',
+              background: 'var(--ws-card2)',
+              border: '2px solid var(--ws-border)',
               fontSize: '1.2rem',
               cursor: 'pointer',
               display: 'flex',
@@ -215,7 +215,7 @@ export const Flashcard = ({
               transition: 'all 0.2s',
             }}
             onMouseEnter={(e) => { e.currentTarget.style.borderColor = '#34d399'; }}
-            onMouseLeave={(e) => { e.currentTarget.style.borderColor = 'rgba(255,255,255,0.1)'; }}
+            onMouseLeave={(e) => { e.currentTarget.style.borderColor = 'var(--ws-border)'; }}
           >
             🔊
           </button>

@@ -113,7 +113,7 @@ export default function HomePage({ games, classLessons }: HomePageProps) {
               <div className="card text-center py-10">
                 <div className="text-4xl mb-3">🔭</div>
                 <p className="text-muted text-sm mb-1">No lessons here yet!</p>
-                <p className="text-xs" style={{ color: 'rgba(240,244,255,0.25)' }}>More coming soon…</p>
+                <p className="text-xs" style={{ color: 'var(--ws-text-dim)' }}>More coming soon…</p>
               </div>
             )}
           </section>
@@ -128,21 +128,21 @@ export default function HomePage({ games, classLessons }: HomePageProps) {
             <div className="flex items-start gap-3">
               <span className="text-2xl flex-shrink-0">📖</span>
               <div>
-                <div className="font-black text-white text-sm">Teach</div>
+                <div className="font-black text-theme text-sm">Teach</div>
                 <div className="text-muted text-xs">Learn new concepts with interactive flashcards</div>
               </div>
             </div>
             <div className="flex items-start gap-3">
               <span className="text-2xl flex-shrink-0">✏️</span>
               <div>
-                <div className="font-black text-white text-sm">Practice</div>
+                <div className="font-black text-theme text-sm">Practice</div>
                 <div className="text-muted text-xs">Test your knowledge at your own pace</div>
               </div>
             </div>
             <div className="flex items-start gap-3">
               <span className="text-2xl flex-shrink-0">🏆</span>
               <div>
-                <div className="font-black text-white text-sm">Challenge</div>
+                <div className="font-black text-theme text-sm">Challenge</div>
                 <div className="text-muted text-xs">Race against time and beat your own record!</div>
               </div>
             </div>
