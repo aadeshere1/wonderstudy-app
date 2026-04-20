@@ -94,8 +94,10 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   }, [user]);
 
   const handleSignIn = async () => {
-    // signInWithRedirect navigates away — this function never returns normally
-    signInWithGoogle().catch(console.error);
+    const u = await signInWithGoogle();
+    // signInWithPopup returns the user directly; signInWithRedirect returns
+    // null and navigates away (result picked up by handleRedirectResult on return).
+    if (u) setUser(u);
   };
 
   const handleSignOut = async () => {

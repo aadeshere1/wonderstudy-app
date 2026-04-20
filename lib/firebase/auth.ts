@@ -1,6 +1,7 @@
 import {
   getAuth,
   GoogleAuthProvider,
+  signInWithPopup,
   signInWithRedirect,
   getRedirectResult,
   signOut as fbSignOut,
@@ -19,27 +20,43 @@ function _auth() {
 const provider = new GoogleAuthProvider();
 
 /**
- * Kick off Google sign-in using a full-page redirect.
- * This works reliably on any domain (GitHub Pages, custom domains, etc.)
- * without popup-blocker or cross-origin issues.
- * After Google authenticates the user, the page reloads and
- * `handleRedirectResult()` picks up the credential.
+ * Sign in with Google.
+ *
+ * Strategy:
+ *  1. Try signInWithPopup — best UX, works on desktop once the domain is
+ *     listed in Firebase → Authentication → Authorized domains.
+ *  2. If the browser blocks the popup (mobile, strict settings), fall back
+ *     to signInWithRedirect, which navigates the whole page to Google and
+ *     back. AuthContext's handleRedirectResult() picks up the result on return.
  */
-export async function signInWithGoogle(): Promise<void> {
-  await signInWithRedirect(_auth(), provider);
+export async function signInWithGoogle(): Promise<User | null> {
+  try {
+    const result = await signInWithPopup(_auth(), provider);
+    return result.user;
+  } catch (err: any) {
+    const code = err?.code ?? '';
+    if (code === 'auth/popup-blocked' || code === 'auth/popup-closed-by-user') {
+      // Popup was suppressed — fall back to full-page redirect
+      await signInWithRedirect(_auth(), provider);
+      return null; // page navigates away; result handled on return via handleRedirectResult
+    }
+    console.error('[auth] signInWithGoogle failed:', err);
+    return null;
+  }
 }
 
 /**
- * Call this once on app startup (in AuthContext) to collect the credential
- * after Google redirects back. Returns the signed-in User or null if there
- * was no pending redirect.
+ * Called once on app startup (in AuthContext) to collect a credential
+ * after Google redirects the user back from a signInWithRedirect flow.
+ * Returns the User if a redirect was pending, null on normal loads.
  */
 export async function handleRedirectResult(): Promise<User | null> {
   try {
     const result = await getRedirectResult(_auth());
     return result?.user ?? null;
   } catch (err) {
-    console.error('Google redirect sign-in failed:', err);
+    // auth/unauthorized-domain or network errors — log but don't crash
+    console.error('[auth] getRedirectResult failed:', err);
     return null;
   }
 }
