@@ -27,20 +27,37 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
   // Auth state listener — keep lean, no Firestore writes here
   useEffect(() => {
-    // Collect credential after Google redirects back to the app.
-    // This is a no-op if there is no pending redirect (normal page loads).
-    handleRedirectResult().catch(console.error);
+    let unsub: (() => void) | null = null;
 
-    const unsub = onAuthChange(async (u) => {
-      if (u && syncedUidRef.current !== u.uid) {
-        // Merge any local guest SRS/gam progress to Firestore
-        mergeLocalToFirestore(u.uid).catch(console.error);
-      }
-      if (!u) syncedUidRef.current = null; // reset on sign-out
-      setUser(u);
-      setLoading(false);
+    const initialize = async () => {
+      // IMPORTANT: await getRedirectResult() BEFORE setting up onAuthStateChanged.
+      //
+      // When the user is redirected back from Google, the auth token is not yet
+      // in localStorage — it only lands there after getRedirectResult() calls
+      // signInWithCredential internally. If we set up the listener first,
+      // onAuthStateChanged fires with null, sets loading=false, and shows
+      // "Sign In" — even though the user just authenticated. Awaiting
+      // getRedirectResult() first means onAuthStateChanged sees the correct
+      // signed-in state on its very first emission.
+      await handleRedirectResult();
+
+      unsub = onAuthChange(async (u) => {
+        if (u && syncedUidRef.current !== u.uid) {
+          // Merge any local guest SRS/gam progress to Firestore
+          mergeLocalToFirestore(u.uid).catch(console.error);
+        }
+        if (!u) syncedUidRef.current = null; // reset on sign-out
+        setUser(u);
+        setLoading(false);
+      });
+    };
+
+    initialize().catch((err) => {
+      console.error('[auth] initialization failed:', err);
+      setLoading(false); // fail open — don't leave app stuck in loading state
     });
-    return unsub;
+
+    return () => { unsub?.(); };
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
