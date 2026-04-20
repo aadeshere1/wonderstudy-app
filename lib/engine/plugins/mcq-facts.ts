@@ -34,16 +34,9 @@ export const mcqFactsPlugin: GamePlugin = {
 
   generateOptions(question, lesson, config) {
     const q = question as MCQFactsQuestion;
-    const gameConfig = config as any;
-
-    if (!q.options || q.options.length === 0) {
-      return [q.answer];
-    }
-
-    if (gameConfig.shuffleOptions) {
-      return shuffleArray(q.options);
-    }
-    return q.options;
+    if (!q.options || q.options.length === 0) return [q.answer];
+    // Always shuffle so the correct answer isn't always in the same position
+    return shuffleArray([...q.options]);
   },
 
   formatQuestion(question) {

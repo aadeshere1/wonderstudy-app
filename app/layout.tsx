@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Fredoka, Nunito } from "next/font/google";
+import Script from "next/script";
 import { SchemaMarkup, organizationSchema } from "@/components/seo/SchemaMarkup";
 import { StarsBackground } from "@/components/layout";
 import { AuthProvider } from "@/contexts/AuthContext";
@@ -65,6 +66,19 @@ export default function RootLayout({
           } catch(e) {}
         `}} />
       </head>
+      {/* Google Analytics */}
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-22B81SDWJQ"
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-22B81SDWJQ');
+        `}
+      </Script>
       <body suppressHydrationWarning className="font-body antialiased overflow-x-hidden min-h-screen" style={{ background: 'var(--ws-bg)', color: 'var(--ws-text)' }}>
         <StarsBackground />
         <ThemeProvider>

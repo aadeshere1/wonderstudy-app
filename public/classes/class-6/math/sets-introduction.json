@@ -1,0 +1,490 @@
+{
+  "id": "class-6-math-sets-introduction",
+  "meta": {
+    "title": "Introduction to Sets",
+    "subject": "math",
+    "class": 6,
+    "lesson": "Unit 1",
+    "subtopic": "Set — Definition, Notation, Types & Relationships",
+    "description": "Learn what a set is, how to write sets using different methods, types of sets, and relationships between sets.",
+    "icon": "🔵",
+    "difficulty": "beginner"
+  },
+
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "🧺 What is a set?",
+        "back": "A set is a well-defined collection of objects. 'Well-defined' means we can clearly say whether any object belongs or does not belong to the collection. Example: {2, 4, 6, 8} is a well-defined set of even numbers less than 10.",
+        "hint": "Can you always say YES or NO if something belongs?"
+      },
+      {
+        "front": "✅ What does the symbol ∈ mean?",
+        "back": "∈ means 'belongs to' or 'is a member of'. If P = {2, 3, 5, 7}, then 2 ∈ P means '2 belongs to set P'. 4 ∉ P means '4 does not belong to set P'.",
+        "hint": "∈ looks like 'E' — think Element"
+      },
+      {
+        "front": "📋 What is the Listing Method?",
+        "back": "All members are written inside curly braces { }, separated by commas. Each member is written only once. Example: A = {1, 4, 9} is the set of square numbers less than 10.",
+        "hint": "List every member inside { }, no repeats!"
+      },
+      {
+        "front": "📝 What is the Description Method?",
+        "back": "The common property of all members is described inside braces. Example: A = {square numbers less than 10}, B = {factors of 18}.",
+        "hint": "Describe WHAT the members have in common"
+      },
+      {
+        "front": "🔧 What is the Set-Builder Method?",
+        "back": "A variable and its property are written inside braces. Example: A = {x : x is a square number less than 10}. Read as: 'A is the set of all x such that x is a square number less than 10'.",
+        "hint": "Format is {x : x has this property}"
+      },
+      {
+        "front": "🔢 What is the Cardinal Number of a set?",
+        "back": "The cardinal number n(A) is the total count of elements in a set. If A = {1, 4, 9}, then n(A) = 3. An empty set has n(A) = 0.",
+        "hint": "Count the members → that is n(A)"
+      },
+      {
+        "front": "∅ What is an Empty (Null) Set?",
+        "back": "An empty set has no elements. It is written as { } or ∅. Example: A = {oceans in Nepal} = { } because Nepal has no oceans. n(A) = 0.",
+        "hint": "No members at all — written as { } or ∅"
+      },
+      {
+        "front": "1️⃣ What is a Singleton (Unit) Set?",
+        "back": "A singleton or unit set has exactly one element. Example: A = {the highest peak of the world} = {Sagarmatha}, so n(A) = 1. Also, B = {prime number between 6 and 10} = {7}.",
+        "hint": "Exactly ONE member inside"
+      },
+      {
+        "front": "♾️ Finite vs Infinite Set — what is the difference?",
+        "back": "A finite set has a countable number of elements that comes to an end. Example: W = {0,1,2,...,9}, n(W) = 10. An infinite set never ends. Example: N = {1, 2, 3, 4, 5, ...} — shown with '...'.",
+        "hint": "Finite = counting stops. Infinite = never ends (look for ...)"
+      },
+      {
+        "front": "🔗 Equal, Equivalent, Overlapping, Disjoint — what are these?",
+        "back": "Equal sets: same elements. A = {e,f,g,h} = B = {g,f,h,e}. Equivalent: same count, different elements. P~Q. Overlapping: share at least one element. Disjoint: share NO elements.",
+        "hint": "Equal = same elements. Equivalent = same COUNT. Overlapping = share some. Disjoint = share none."
+      }
+    ]
+  },
+
+  "practice": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 0,
+      "questionsCount": 999
+    },
+    "items": [
+      {
+        "question": "Which of these is a well-defined collection (a proper set)?",
+        "answer": "A collection of fruits",
+        "options": ["A collection of tasty fruits", "A collection of fruits", "A collection of nice Nepali songs", "A collection of tall students in Class 6"],
+        "explanation": "'A collection of fruits' is well-defined because we can clearly say whether any object is a fruit. 'Tasty', 'nice', and 'tall' are subjective — different people may have different opinions.",
+        "hint": "Can we say YES or NO for every object without doubt?"
+      },
+      {
+        "question": "Which of these is a well-defined collection (a proper set)?",
+        "answer": "A collection of rivers of Nepal",
+        "options": ["A collection of long rivers of Nepal", "A collection of rivers of Nepal", "A collection of beautiful mountains", "A collection of good students"],
+        "explanation": "'A collection of rivers of Nepal' is well-defined. 'Long' and 'beautiful' are subjective, so those are not well-defined.",
+        "hint": "Avoid collections that depend on personal opinions"
+      },
+      {
+        "question": "If N = {1, 2, 3, 4, 5} and O = {1, 3, 5, 7, 9}, is 4 ∈ N true or false?",
+        "answer": "True",
+        "options": ["True", "False"],
+        "explanation": "4 is in set N = {1, 2, 3, 4, 5}, so 4 ∈ N is True.",
+        "hint": "Check if 4 appears in N"
+      },
+      {
+        "question": "If N = {1, 2, 3, 4, 5} and O = {1, 3, 5, 7, 9}, is 4 ∈ O true or false?",
+        "answer": "False",
+        "options": ["True", "False"],
+        "explanation": "4 is not in set O = {1, 3, 5, 7, 9}, so 4 ∈ O is False. We should write 4 ∉ O.",
+        "hint": "Check if 4 appears in O"
+      },
+      {
+        "question": "If N = {1, 2, 3, 4, 5}, is 5 ∉ N true or false?",
+        "answer": "False",
+        "options": ["True", "False"],
+        "explanation": "5 is in N = {1, 2, 3, 4, 5}, so the correct statement is 5 ∈ N, not 5 ∉ N. The given statement is False.",
+        "hint": "Check if 5 is inside N"
+      },
+      {
+        "question": "If O = {1, 3, 5, 7, 9}, is 7 ∈ O true or false?",
+        "answer": "True",
+        "options": ["True", "False"],
+        "explanation": "7 is in O = {1, 3, 5, 7, 9}, so 7 ∈ O is True.",
+        "hint": "Look for 7 in set O"
+      },
+      {
+        "question": "If N = {1, 2, 3, 4, 5}, is 6 ∈ N true or false?",
+        "answer": "False",
+        "options": ["True", "False"],
+        "explanation": "6 is not in N = {1, 2, 3, 4, 5}, so 6 ∈ N is False. The correct statement is 6 ∉ N.",
+        "hint": "Does N go up to 5 or higher?"
+      },
+      {
+        "question": "If O = {1, 3, 5, 7, 9}, is 1 ∈ O true or false?",
+        "answer": "True",
+        "options": ["True", "False"],
+        "explanation": "1 is in O = {1, 3, 5, 7, 9}, so 1 ∈ O is True.",
+        "hint": "1 is the first element of set O"
+      },
+      {
+        "question": "If W = {0, 1, 2, 3, 4} and E = {2, 4, 6, 8}, which symbol fills the blank: 6 ___ E?",
+        "answer": "∈",
+        "options": ["∈", "∉"],
+        "explanation": "6 is in E = {2, 4, 6, 8}, so 6 ∈ E (6 belongs to E).",
+        "hint": "Is 6 one of the members of set E?"
+      },
+      {
+        "question": "If W = {0, 1, 2, 3, 4} and E = {2, 4, 6, 8}, which symbol fills the blank: 3 ___ W?",
+        "answer": "∈",
+        "options": ["∈", "∉"],
+        "explanation": "3 is in W = {0, 1, 2, 3, 4}, so 3 ∈ W.",
+        "hint": "Is 3 listed in set W?"
+      },
+      {
+        "question": "If W = {0, 1, 2, 3, 4} and E = {2, 4, 6, 8}, which symbol fills the blank: 5 ___ W?",
+        "answer": "∉",
+        "options": ["∈", "∉"],
+        "explanation": "5 is not in W = {0, 1, 2, 3, 4}, so 5 ∉ W.",
+        "hint": "W goes from 0 to 4 — is 5 inside?"
+      },
+      {
+        "question": "If W = {0, 1, 2, 3, 4} and E = {2, 4, 6, 8}, which symbol fills the blank: 1 ___ E?",
+        "answer": "∉",
+        "options": ["∈", "∉"],
+        "explanation": "1 is not in E = {2, 4, 6, 8}, so 1 ∉ E.",
+        "hint": "E contains only even numbers 2, 4, 6, 8"
+      },
+      {
+        "question": "If W = {0, 1, 2, 3, 4} and E = {2, 4, 6, 8}, which symbol fills the blank: 4 ___ E?",
+        "answer": "∈",
+        "options": ["∈", "∉"],
+        "explanation": "4 is in E = {2, 4, 6, 8}, so 4 ∈ E.",
+        "hint": "Is 4 listed in set E?"
+      },
+      {
+        "question": "If W = {0, 1, 2, 3, 4}, which symbol fills the blank: 7 ___ W?",
+        "answer": "∉",
+        "options": ["∈", "∉"],
+        "explanation": "7 is not in W = {0, 1, 2, 3, 4}, so 7 ∉ W.",
+        "hint": "W only goes up to 4"
+      },
+      {
+        "question": "A = {prime numbers between 10 and 20}. Which is the correct listing of set A?",
+        "answer": "{11, 13, 17, 19}",
+        "options": ["{11, 13, 17, 19}", "{11, 13, 15, 17, 19}", "{13, 17, 19}", "{11, 12, 13, 17, 19}"],
+        "explanation": "Prime numbers between 10 and 20: 11, 13, 17, 19. Note: 15 = 3×5 is not prime; 12, 14, 16, 18 are even and not prime.",
+        "hint": "A prime number has exactly two factors: 1 and itself"
+      },
+      {
+        "question": "B = {letters of the word 'elephant'}. Which is the correct listing of set B?",
+        "answer": "{e, l, p, h, a, n, t}",
+        "options": ["{e, l, p, h, a, n, t}", "{e, l, e, p, h, a, n, t}", "{l, p, h, a, n, t}", "{e, p, h, a, n, t}"],
+        "explanation": "The word 'elephant' has letters e, l, e, p, h, a, n, t. In a set, each member is listed only once, so e appears just once: {e, l, p, h, a, n, t}.",
+        "hint": "Each letter is listed only once in a set — no repeats!"
+      },
+      {
+        "question": "C = {x : x is an odd number less than 5}. Which is the correct listing of set C?",
+        "answer": "{1, 3}",
+        "options": ["{1, 3}", "{1, 3, 5}", "{3}", "{1, 2, 3}"],
+        "explanation": "Odd numbers less than 5 are 1 and 3. (5 is not less than 5, so it is not included.)",
+        "hint": "Odd numbers: 1, 3, 5, 7... — which are LESS THAN 5?"
+      },
+      {
+        "question": "D = {y : y is a factor of 12}. Which is the correct listing of set D?",
+        "answer": "{1, 2, 3, 4, 6, 12}",
+        "options": ["{1, 2, 3, 4, 6, 12}", "{2, 3, 4, 6}", "{1, 2, 4, 6, 12}", "{1, 2, 3, 6, 12}"],
+        "explanation": "Factors of 12 are all numbers that divide 12 exactly: 1, 2, 3, 4, 6, and 12. Check: 12÷1=12, 12÷2=6, 12÷3=4, 12÷4=3, 12÷6=2, 12÷12=1.",
+        "hint": "Which numbers divide 12 with no remainder?"
+      },
+      {
+        "question": "How do we write '9 belongs to the set N' in set notation?",
+        "answer": "9 ∈ N",
+        "options": ["9 ∈ N", "9 ∉ N", "N ∈ 9", "N ∉ 9"],
+        "explanation": "∈ means 'belongs to' or 'is a member of'. So '9 belongs to the set N' is written as 9 ∈ N.",
+        "hint": "∈ means 'belongs to'"
+      },
+      {
+        "question": "How do we write '3 is not an element of Z' in set notation?",
+        "answer": "3 ∉ Z",
+        "options": ["3 ∉ Z", "3 ∈ Z", "Z ∉ 3", "Z ∈ 3"],
+        "explanation": "∉ means 'does not belong to'. So '3 is not an element of Z' is written as 3 ∉ Z.",
+        "hint": "∉ is ∈ crossed out — NOT a member"
+      },
+      {
+        "question": "How do we write '7 does not belong to {2, 4, 6, 8}' in set notation?",
+        "answer": "7 ∉ {2, 4, 6, 8}",
+        "options": ["7 ∉ {2, 4, 6, 8}", "7 ∈ {2, 4, 6, 8}", "{2,4,6,8} ∉ 7", "{2,4,6,8} ∈ 7"],
+        "explanation": "7 is not in {2, 4, 6, 8}, so we use ∉: 7 ∉ {2, 4, 6, 8}.",
+        "hint": "Is 7 an even number?"
+      },
+      {
+        "question": "W = {the whole numbers less than 6}. Which is the correct listing?",
+        "answer": "{0, 1, 2, 3, 4, 5}",
+        "options": ["{0, 1, 2, 3, 4, 5}", "{1, 2, 3, 4, 5}", "{0, 1, 2, 3, 4}", "{1, 2, 3, 4, 5, 6}"],
+        "explanation": "Whole numbers start from 0. Whole numbers less than 6 are: 0, 1, 2, 3, 4, 5.",
+        "hint": "Whole numbers start from 0, not 1"
+      },
+      {
+        "question": "M = {the first five multiples of 4}. Which is the correct listing?",
+        "answer": "{4, 8, 12, 16, 20}",
+        "options": ["{4, 8, 12, 16, 20}", "{0, 4, 8, 12, 16}", "{4, 8, 12, 16}", "{2, 4, 6, 8, 10}"],
+        "explanation": "Multiples of 4: 4×1=4, 4×2=8, 4×3=12, 4×4=16, 4×5=20. So M = {4, 8, 12, 16, 20}.",
+        "hint": "Multiply 4 by 1, 2, 3, 4, 5"
+      },
+      {
+        "question": "A = {letters of the word 'MATHEMATICS'}. How many elements does A have?",
+        "answer": "8",
+        "options": ["8", "11", "9", "7"],
+        "explanation": "MATHEMATICS has letters: M, A, T, H, E, M, A, T, I, C, S. Removing duplicates: {M, A, T, H, E, I, C, S} = 8 unique letters.",
+        "hint": "Remove duplicate letters — each is listed only once"
+      },
+      {
+        "question": "P = {x : x is a prime number, x < 20}. How many elements does P have?",
+        "answer": "8",
+        "options": ["8", "7", "9", "10"],
+        "explanation": "Primes less than 20: 2, 3, 5, 7, 11, 13, 17, 19 — that is 8 elements.",
+        "hint": "List all primes: 2, 3, 5, 7... up to but not including 20"
+      },
+      {
+        "question": "B = {y : y is a composite number, y < 10}. Which is the correct listing?",
+        "answer": "{4, 6, 8, 9}",
+        "options": ["{4, 6, 8, 9}", "{4, 6, 8}", "{2, 4, 6, 8}", "{1, 4, 6, 8, 9}"],
+        "explanation": "Composite numbers have more than 2 factors. Less than 10: 4 (=2×2), 6 (=2×3), 8 (=2×4), 9 (=3×3). Note: 1 is neither prime nor composite.",
+        "hint": "Composite = not prime and not 1"
+      },
+      {
+        "question": "What is the set-builder form of W = {0, 1, 2, 3, 4}?",
+        "answer": "{x : x is a whole number, x < 5}",
+        "options": ["{x : x is a whole number, x < 5}", "{x : x is a natural number, x < 5}", "{x : x is a whole number, x ≤ 5}", "{x : x is an even number, x < 5}"],
+        "explanation": "W contains whole numbers (starting from 0) less than 5, so W = {x : x is a whole number, x < 5}.",
+        "hint": "Whole numbers include 0. What is the condition x must satisfy?"
+      },
+      {
+        "question": "What is the set-builder form of O = {1, 3, 5, 7, 9}?",
+        "answer": "{x : x is an odd number, x ≤ 9}",
+        "options": ["{x : x is an odd number, x ≤ 9}", "{x : x is an even number, x ≤ 9}", "{x : x is a prime number, x ≤ 9}", "{x : x is a natural number, x ≤ 9}"],
+        "explanation": "The set {1, 3, 5, 7, 9} contains odd numbers up to 9, so the set-builder form is {x : x is an odd number, x ≤ 9}.",
+        "hint": "What property do 1, 3, 5, 7, 9 all share?"
+      },
+      {
+        "question": "What is the set-builder form of F = {1, 3, 5, 15}?",
+        "answer": "{x : x is a factor of 15}",
+        "options": ["{x : x is a factor of 15}", "{x : x is an odd number, x ≤ 15}", "{x : x is a prime number, x ≤ 15}", "{x : x is a multiple of 3, x ≤ 15}"],
+        "explanation": "1, 3, 5, 15 are exactly the factors of 15 (15÷1=15, 15÷3=5, 15÷5=3, 15÷15=1). So F = {x : x is a factor of 15}.",
+        "hint": "Which numbers divide 15 exactly?"
+      },
+      {
+        "question": "What type of set is A = {2, 4, 6, 8, 10, ...}?",
+        "answer": "Infinite set",
+        "options": ["Empty set", "Singleton set", "Finite set", "Infinite set"],
+        "explanation": "The '...' shows the set continues without end. A set whose elements cannot be completely listed is an infinite set.",
+        "hint": "Look for '...' — does the counting ever stop?"
+      },
+      {
+        "question": "If N = {11, 12, 13, 14}, what is n(N)?",
+        "answer": "4",
+        "options": ["3", "4", "5", "14"],
+        "explanation": "n(N) is the cardinal number — the total count of elements. N has 4 elements: 11, 12, 13, 14. So n(N) = 4.",
+        "hint": "Count how many members are in the set"
+      },
+      {
+        "question": "S = {1, 4, 9, 16, 25, 36, 49}. What is n(S)?",
+        "answer": "7",
+        "options": ["5", "6", "7", "8"],
+        "explanation": "S contains the square numbers: 1², 2², 3², 4², 5², 6², 7² = 1, 4, 9, 16, 25, 36, 49. That is 7 elements, so n(S) = 7.",
+        "hint": "Count the elements: 1, 4, 9, 16, 25, 36, 49"
+      }
+    ]
+  },
+
+  "challenge": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 90,
+      "questionsCount": 999
+    },
+    "items": [
+      {
+        "question": "A = {e, f, g, h} and B = {g, f, h, e}. What is the relationship between sets A and B?",
+        "answer": "Equal sets",
+        "options": ["Equal sets", "Equivalent sets", "Overlapping sets", "Disjoint sets"],
+        "explanation": "A and B contain exactly the same elements in a different order. Two sets with the same elements are called equal sets. A = B.",
+        "hint": "Are the members exactly the same — just in different order?"
+      },
+      {
+        "question": "X = {3, 6, 9, 12} and Y = {1, 3, 5, 7}. What is the relationship between X and Y?",
+        "answer": "Equivalent sets",
+        "options": ["Equal sets", "Equivalent sets", "Overlapping sets", "Disjoint sets"],
+        "explanation": "X and Y do not have the same elements but both have 4 elements: n(X) = n(Y) = 4. Sets with the same number of elements are called equivalent sets.",
+        "hint": "Do they have the same COUNT of elements?"
+      },
+      {
+        "question": "P = {1, 3, 5, 7, 9} and Q = {2, 4, 6, 8}. What is the relationship between P and Q?",
+        "answer": "Disjoint sets",
+        "options": ["Equal sets", "Equivalent sets", "Overlapping sets", "Disjoint sets"],
+        "explanation": "P contains odd numbers and Q contains even numbers. They share no common element, so they are disjoint sets.",
+        "hint": "Do P and Q share any common element?"
+      },
+      {
+        "question": "A = {5, 10, 15, 20} and B = {4, 8, 12, 16, 20}. What is the relationship between A and B?",
+        "answer": "Overlapping sets",
+        "options": ["Equal sets", "Equivalent sets", "Overlapping sets", "Disjoint sets"],
+        "explanation": "A and B share the element 20, so they are overlapping sets. Two sets that have at least one element in common are overlapping.",
+        "hint": "Is there any number that appears in both A and B?"
+      },
+      {
+        "question": "What type of set is A = {prime number between 5 and 7}?",
+        "answer": "Empty set",
+        "options": ["Empty set", "Singleton set", "Finite set", "Infinite set"],
+        "explanation": "The only integer strictly between 5 and 7 is 6. But 6 = 2×3 is not prime. So A = { }, which is an empty set.",
+        "hint": "List integers strictly between 5 and 7 — is any of them prime?"
+      },
+      {
+        "question": "What type of set is D = {square numbers between 10 and 20}?",
+        "answer": "Singleton set",
+        "options": ["Empty set", "Singleton set", "Finite set", "Infinite set"],
+        "explanation": "Square numbers between 10 and 20: 4²=16. Only 16 qualifies (3²=9 < 10, 5²=25 > 20). So D = {16}, which is a singleton set.",
+        "hint": "List squares: 9, 16, 25 — which lie strictly between 10 and 20?"
+      },
+      {
+        "question": "What type of set is B = {multiples of 2 less than 20}?",
+        "answer": "Finite set",
+        "options": ["Empty set", "Singleton set", "Finite set", "Infinite set"],
+        "explanation": "B = {2, 4, 6, 8, 10, 12, 14, 16, 18} — it has exactly 9 elements and comes to an end. So B is a finite set with n(B) = 9.",
+        "hint": "Does the list of multiples of 2 less than 20 ever end?"
+      },
+      {
+        "question": "What type of set is C = {multiples of 2 greater than 20}?",
+        "answer": "Infinite set",
+        "options": ["Empty set", "Singleton set", "Finite set", "Infinite set"],
+        "explanation": "C = {22, 24, 26, 28, ...} — there is no greatest even number, so this list never ends. C is an infinite set.",
+        "hint": "Do multiples of 2 greater than 20 ever stop?"
+      },
+      {
+        "question": "If D = {x : x is a square number, x < 75}, what is n(D)?",
+        "answer": "8",
+        "options": ["6", "7", "8", "9"],
+        "explanation": "Square numbers less than 75: 1, 4, 9, 16, 25, 36, 49, 64 (since 8²=64 < 75, but 9²=81 ≥ 75). So n(D) = 8.",
+        "hint": "List 1², 2², 3²... and stop when the result reaches or passes 75"
+      },
+      {
+        "question": "A = {Natural numbers less than 10}. What is n(A)?",
+        "answer": "9",
+        "options": ["8", "9", "10", "11"],
+        "explanation": "Natural numbers less than 10: {1, 2, 3, 4, 5, 6, 7, 8, 9} — that is 9 elements. Note: 0 is not a natural number.",
+        "hint": "Natural numbers start at 1 — count up to but not including 10"
+      },
+      {
+        "question": "B = {factors of 18}. What is n(B)?",
+        "answer": "6",
+        "options": ["4", "5", "6", "8"],
+        "explanation": "Factors of 18: 1, 2, 3, 6, 9, 18. So n(B) = 6.",
+        "hint": "Which numbers divide 18 exactly? Count them."
+      },
+      {
+        "question": "C = {letters of the word 'apple'}. What is n(C)?",
+        "answer": "4",
+        "options": ["3", "4", "5", "6"],
+        "explanation": "The word 'apple' has letters a, p, p, l, e. Removing duplicate p: C = {a, p, l, e}, so n(C) = 4.",
+        "hint": "Remove repeated letters — each letter is listed only once"
+      },
+      {
+        "question": "A = {x : x is a natural number less than 1}. What type of set is A?",
+        "answer": "Empty set",
+        "options": ["Empty set", "Singleton set", "Finite set", "Infinite set"],
+        "explanation": "The smallest natural number is 1. No natural number is less than 1. So A = { }, an empty set with n(A) = 0.",
+        "hint": "The smallest natural number is 1 — can any be less than 1?"
+      },
+      {
+        "question": "P = {y : y is a prime number between 12 and 15}. What is n(P)?",
+        "answer": "1",
+        "options": ["0", "1", "2", "3"],
+        "explanation": "Integers strictly between 12 and 15: 13 and 14. 13 is prime; 14 = 2×7 is not. So P = {13} and n(P) = 1. It is a singleton set.",
+        "hint": "Check 13 and 14 — which one is prime?"
+      },
+      {
+        "question": "A = {whole numbers less than 5} and B = {1, 2, 3, 4, 5}. What is their relationship?",
+        "answer": "Equivalent sets",
+        "options": ["Equal sets", "Equivalent sets", "Overlapping sets", "Disjoint sets"],
+        "explanation": "A = {0, 1, 2, 3, 4} (whole numbers include 0) and B = {1, 2, 3, 4, 5}. Both have n = 5 elements but different members. They are equivalent sets (A ~ B), not equal.",
+        "hint": "Remember: whole numbers start from 0. Are the elements exactly the same?"
+      },
+      {
+        "question": "P = {x : x is a prime number, x < 10} and Q = {7, 5, 3, 2}. What is their relationship?",
+        "answer": "Equal sets",
+        "options": ["Equal sets", "Equivalent sets only", "Overlapping sets", "Disjoint sets"],
+        "explanation": "P = {2, 3, 5, 7} and Q = {7, 5, 3, 2}. Both sets contain exactly the same elements. So P = Q (equal sets).",
+        "hint": "List P in order and compare element by element with Q"
+      },
+      {
+        "question": "A = {factors of 12} and B = {factors of 18}. Are A and B overlapping or disjoint?",
+        "answer": "Overlapping sets",
+        "options": ["Equal sets", "Equivalent sets", "Overlapping sets", "Disjoint sets"],
+        "explanation": "A = {1, 2, 3, 4, 6, 12} and B = {1, 2, 3, 6, 9, 18}. Common elements: {1, 2, 3, 6}. Since they share elements, they are overlapping sets.",
+        "hint": "Find factors of both 12 and 18 — do any appear in both lists?"
+      },
+      {
+        "question": "P = {first five multiples of 4} and Q = {first five multiples of 7}. Are they overlapping or disjoint?",
+        "answer": "Disjoint sets",
+        "options": ["Equal sets", "Equivalent sets", "Overlapping sets", "Disjoint sets"],
+        "explanation": "P = {4, 8, 12, 16, 20} and Q = {7, 14, 21, 28, 35}. No common elements, so they are disjoint sets.",
+        "hint": "List P and Q — does any number appear in both?"
+      },
+      {
+        "question": "The letters of the word 'rhododendron' are listed correctly as...",
+        "answer": "{r, h, o, d, e, n}",
+        "options": ["{r, h, o, d, e, n}", "{r, h, o, d, o, d, e, n, d, r, o, n}", "{r, o, d, e, n}", "{h, o, d, e, n}"],
+        "explanation": "The word has letters r, h, o, d, o, d, e, n, d, r, o, n. In a set, each member is written only once: {r, h, o, d, e, n} = 6 elements.",
+        "hint": "Remember: no repeated elements in a set!"
+      },
+      {
+        "question": "From the set N = {1, 2, ..., 10}, which is true about {3, 6, 9, 12} __ N?",
+        "answer": "⊄ (not a subset)",
+        "options": ["⊄ (not a subset)", "⊂ (subset)", "= (equal)", "∈ (member)"],
+        "explanation": "12 is not in N = {1, 2, ..., 10}, so {3, 6, 9, 12} is NOT a subset of N. We write {3, 6, 9, 12} ⊄ N.",
+        "hint": "Is every element of {3, 6, 9, 12} also in N = {1 to 10}?"
+      },
+      {
+        "question": "If A = {1, 2, 3, 4, 5, 6, 7, 8, 9} and B = {2, 3, 5, 7}, what is the set of common elements?",
+        "answer": "{2, 3, 5, 7}",
+        "options": ["{2, 3, 5, 7}", "{1, 4, 6, 8, 9}", "{2, 3, 5, 7, 9}", "{1, 2, 3}"],
+        "explanation": "All elements of B = {2, 3, 5, 7} are also in A. So the common elements are {2, 3, 5, 7}.",
+        "hint": "Which elements appear in both A and B?"
+      },
+      {
+        "question": "If P = {2, 4, 6, 8, 10} and Q = {4, 8, 12, 16}, what is the set of common elements?",
+        "answer": "{4, 8}",
+        "options": ["{4, 8}", "{2, 4, 8}", "{8}", "{4, 8, 12}"],
+        "explanation": "Elements in both P and Q: 4 ∈ P and 4 ∈ Q ✓; 8 ∈ P and 8 ∈ Q ✓. So common elements = {4, 8}.",
+        "hint": "Check each element of Q — is it also in P?"
+      },
+      {
+        "question": "B = {letters of the word 'ball'} and C = {letters of the word 'call'}. What is their relationship?",
+        "answer": "Equivalent sets",
+        "options": ["Equal sets", "Equivalent sets", "Overlapping sets", "Disjoint sets"],
+        "explanation": "B = {b, a, l} and C = {c, a, l}. n(B) = n(C) = 3, but the elements are different (b ≠ c). They are equivalent sets.",
+        "hint": "List both sets removing duplicates — same count, same elements, or different?"
+      },
+      {
+        "question": "P = {x : x is a prime number less than 10} and Q = {y : y is an even number less than 10}. Are P and Q overlapping or disjoint?",
+        "answer": "Overlapping sets",
+        "options": ["Overlapping sets", "Disjoint sets", "Equal sets", "Equivalent sets"],
+        "explanation": "P = {2, 3, 5, 7} and Q = {2, 4, 6, 8}. The element 2 is in both P and Q, so they are overlapping sets.",
+        "hint": "Is there any number that is both prime and even less than 10?"
+      },
+      {
+        "question": "P = {x : x is a prime, x < 10} and Q = {y : y is even, y < 10}. What is the set R of their common elements, and what is n(R)?",
+        "answer": "R = {2}, n(R) = 1",
+        "options": ["R = {2}, n(R) = 1", "R = {2, 4}, n(R) = 2", "R = { }, n(R) = 0", "R = {2, 3}, n(R) = 2"],
+        "explanation": "P = {2, 3, 5, 7} and Q = {2, 4, 6, 8}. Only 2 appears in both. So R = {2} and n(R) = 1.",
+        "hint": "2 is the only even prime number"
+      }
+    ]
+  }
+}

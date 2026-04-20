@@ -161,12 +161,21 @@ export async function fetchLessonItems(
   lessonId: string,
 ): Promise<Record<string, { question: string; answer: string; options: string[] }>> {
   try {
-    // class-1-science-living-nonliving → class-1 / science / living-nonliving
-    const parts    = lessonId.split('-');
-    const classNum = parts[1];         // "1"
-    const subject  = parts[2];         // "science"
-    const slug     = parts.slice(3).join('-'); // "living-nonliving"
-    const url      = `/classes/class-${classNum}/${subject}/${slug}.json`;
+    // Resolve URL based on lessonId prefix:
+    //   general-multiplication  → /general/multiplication.json
+    //   class-1-science-slug    → /classes/class-1/science/slug.json
+    let url: string;
+    if (lessonId.startsWith('general-')) {
+      const slug = lessonId.slice('general-'.length); // "multiplication"
+      url = `/general/${slug}.json`;
+    } else {
+      // class-1-science-living-nonliving → class-1 / science / living-nonliving
+      const parts    = lessonId.split('-');
+      const classNum = parts[1];             // "1"
+      const subject  = parts[2];             // "science"
+      const slug     = parts.slice(3).join('-'); // "living-nonliving"
+      url = `/classes/class-${classNum}/${subject}/${slug}.json`;
+    }
 
     const res = await fetch(url);
     if (!res.ok) return {};

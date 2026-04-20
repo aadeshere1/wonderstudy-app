@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useCallback } from 'react';
 import type { StudentSummary, QuestionProgress, QuestionProgressMap } from '@/lib/admin/types';
 import { getStudentQuestionProgress, fetchLessonItems } from '@/lib/admin/queries';
 import { BADGE_MAP } from '@/lib/gamification/badges';
@@ -11,7 +11,192 @@ interface Props {
   onBack: () => void;
 }
 
-type LessonItems = Record<string, { question: string; answer: string }>;
+interface LessonItem {
+  question: string;
+  answer: string;
+  options: string[];
+}
+
+type LessonItems = Record<string, LessonItem>;
+
+// ── Question detail modal ──────────────────────────────────────────────────
+
+interface ModalProps {
+  q: QuestionProgress;
+  item: LessonItem | undefined;
+  formatLessonId: (id: string) => string;
+  onClose: () => void;
+}
+
+function QuestionModal({ q, item, formatLessonId, onClose }: ModalProps) {
+  const pct = q.totalAttempts > 0
+    ? Math.round((q.correctAttempts / q.totalAttempts) * 100) : 0;
+  const accuracyColor = pct >= 80 ? '#34d399' : pct >= 60 ? '#fbbf24' : '#f87171';
+  const isStruggling = pct < 60 && q.totalAttempts >= 2;
+
+  // Close on Escape key
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') onClose(); };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [onClose]);
+
+  return (
+    /* Backdrop */
+    <div
+      onClick={onClose}
+      style={{
+        position: 'fixed', inset: 0, zIndex: 1000,
+        background: 'rgba(0,0,0,0.55)', backdropFilter: 'blur(4px)',
+        display: 'flex', alignItems: 'center', justifyContent: 'center',
+        padding: 20,
+      }}
+    >
+      {/* Panel — stop propagation so clicking inside doesn't close */}
+      <div
+        onClick={(e) => e.stopPropagation()}
+        style={{
+          background: 'var(--ws-card)', border: '1px solid var(--ws-border)',
+          borderRadius: 24, padding: 28, maxWidth: 520, width: '100%',
+          maxHeight: '90vh', overflowY: 'auto',
+          boxShadow: '0 24px 64px rgba(0,0,0,0.35)',
+          fontFamily: 'var(--font-nunito),sans-serif',
+        }}
+      >
+        {/* Header */}
+        <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', marginBottom: 20, gap: 12 }}>
+          <div>
+            <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 4 }}>
+              <span style={{
+                display: 'inline-block', padding: '2px 10px', borderRadius: 10,
+                fontSize: '0.7rem', fontWeight: 800,
+                background: q.section === 'challenge' ? 'rgba(251,191,36,0.15)' : 'rgba(167,139,250,0.15)',
+                color: q.section === 'challenge' ? '#fbbf24' : '#a78bfa',
+              }}>
+                {q.section}
+              </span>
+              <span style={{ fontSize: '0.72rem', color: 'var(--ws-text-muted)' }}>
+                {formatLessonId(q.lessonId)}
+              </span>
+            </div>
+            {isStruggling && (
+              <div style={{
+                display: 'inline-flex', alignItems: 'center', gap: 4,
+                background: 'rgba(248,113,113,0.12)', border: '1px solid rgba(248,113,113,0.3)',
+                borderRadius: 10, padding: '2px 8px',
+                fontSize: '0.7rem', color: '#f87171', fontWeight: 800,
+              }}>
+                ⚠️ Needs attention
+              </div>
+            )}
+          </div>
+          <button
+            onClick={onClose}
+            style={{
+              background: 'var(--ws-card2)', border: 'none', borderRadius: 10,
+              width: 32, height: 32, cursor: 'pointer', fontSize: '1rem',
+              color: 'var(--ws-text-muted)', flexShrink: 0,
+              display: 'flex', alignItems: 'center', justifyContent: 'center',
+            }}
+          >✕</button>
+        </div>
+
+        {/* Question text */}
+        <div style={{
+          background: 'var(--ws-surface)', border: '1px solid var(--ws-border)',
+          borderRadius: 16, padding: '16px 18px', marginBottom: 20,
+        }}>
+          <div style={{ fontSize: '0.68rem', color: 'var(--ws-text-muted)', fontWeight: 800, textTransform: 'uppercase', letterSpacing: '0.06em', marginBottom: 6 }}>
+            Question
+          </div>
+          <div style={{ fontSize: '1rem', color: 'var(--ws-text)', lineHeight: 1.5, fontWeight: 700 }}>
+            {item?.question ?? `${formatLessonId(q.lessonId)} · question #${q.index + 1}`}
+          </div>
+        </div>
+
+        {/* Options */}
+        {item?.options && item.options.length > 0 && (
+          <div style={{ marginBottom: 20 }}>
+            <div style={{ fontSize: '0.68rem', color: 'var(--ws-text-muted)', fontWeight: 800, textTransform: 'uppercase', letterSpacing: '0.06em', marginBottom: 10 }}>
+              Options
+            </div>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
+              {item.options.map((opt) => {
+                const isCorrect = opt === item.answer;
+                return (
+                  <div
+                    key={opt}
+                    style={{
+                      padding: '10px 14px', borderRadius: 12,
+                      border: `1.5px solid ${isCorrect ? 'rgba(52,211,153,0.5)' : 'var(--ws-border)'}`,
+                      background: isCorrect ? 'rgba(52,211,153,0.08)' : 'var(--ws-surface)',
+                      display: 'flex', alignItems: 'center', gap: 10,
+                      fontSize: '0.88rem', color: isCorrect ? '#34d399' : 'var(--ws-text)',
+                      fontWeight: isCorrect ? 800 : 500,
+                    }}
+                  >
+                    <span style={{
+                      width: 20, height: 20, borderRadius: '50%', flexShrink: 0,
+                      display: 'flex', alignItems: 'center', justifyContent: 'center',
+                      fontSize: '0.7rem', fontWeight: 900,
+                      background: isCorrect ? 'rgba(52,211,153,0.2)' : 'rgba(255,255,255,0.05)',
+                      color: isCorrect ? '#34d399' : 'var(--ws-text-muted)',
+                    }}>
+                      {isCorrect ? '✓' : ''}
+                    </span>
+                    {opt}
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        )}
+
+        {/* Answer (if no options) */}
+        {item?.answer && (!item.options || item.options.length === 0) && (
+          <div style={{ marginBottom: 20 }}>
+            <div style={{ fontSize: '0.68rem', color: 'var(--ws-text-muted)', fontWeight: 800, textTransform: 'uppercase', letterSpacing: '0.06em', marginBottom: 6 }}>
+              Correct answer
+            </div>
+            <div style={{
+              padding: '10px 14px', borderRadius: 12,
+              border: '1.5px solid rgba(52,211,153,0.5)',
+              background: 'rgba(52,211,153,0.08)',
+              fontSize: '0.95rem', color: '#34d399', fontWeight: 800,
+            }}>
+              ✓ {item.answer}
+            </div>
+          </div>
+        )}
+
+        {/* Stats */}
+        <div style={{
+          display: 'grid', gridTemplateColumns: 'repeat(4,1fr)', gap: 10,
+          paddingTop: 16, borderTop: '1px solid var(--ws-border)',
+        }}>
+          {[
+            { label: 'Attempts', value: q.totalAttempts, color: 'var(--ws-text)' },
+            { label: 'Correct', value: q.correctAttempts, color: '#34d399' },
+            { label: 'Wrong', value: q.wrongAttempts, color: '#f87171' },
+            { label: 'Accuracy', value: `${pct}%`, color: accuracyColor },
+          ].map(({ label, value, color }) => (
+            <div key={label} style={{ textAlign: 'center' }}>
+              <div style={{
+                fontFamily: 'var(--font-fredoka-one),cursive',
+                fontSize: '1.4rem', color, lineHeight: 1,
+              }}>{value}</div>
+              <div style={{ fontSize: '0.65rem', color: 'var(--ws-text-muted)', fontWeight: 700, marginTop: 2 }}>
+                {label}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+// ── Sub-components ────────────────────────────────────────────────────────
 
 function AccuracyBar({ pct }: { pct: number }) {
   const color = pct >= 80 ? '#34d399' : pct >= 60 ? '#fbbf24' : '#f87171';
@@ -44,11 +229,16 @@ function StatBox({ label, value, color }: { label: string; value: string | numbe
   );
 }
 
+// ── Main component ────────────────────────────────────────────────────────
+
 export default function StudentDetail({ student, onBack }: Props) {
   const [questionMap, setQuestionMap] = useState<QuestionProgressMap>({});
   const [lessonItems, setLessonItems] = useState<LessonItems>({});
   const [loading, setLoading] = useState(true);
   const [activeLesson, setActiveLesson] = useState<string | 'all'>('all');
+  const [modalQ, setModalQ] = useState<QuestionProgress | null>(null);
+
+  const closeModal = useCallback(() => setModalQ(null), []);
 
   useEffect(() => {
     getStudentQuestionProgress(student.uid).then(async (qmap) => {
@@ -108,6 +298,17 @@ export default function StudentDetail({ student, onBack }: Props) {
 
   return (
     <div style={{ minHeight: '100vh', background: 'var(--ws-bg)', paddingBottom: 48 }}>
+
+      {/* ── Question detail modal ── */}
+      {modalQ && (
+        <QuestionModal
+          q={modalQ}
+          item={lessonItems[modalQ.cardId]}
+          formatLessonId={formatLessonId}
+          onClose={closeModal}
+        />
+      )}
+
       {/* ── Header ── */}
       <div style={{
         background: 'var(--ws-surface)', borderBottom: '1px solid var(--ws-border)',
@@ -295,7 +496,7 @@ export default function StudentDetail({ student, onBack }: Props) {
             Question accuracy
             {sorted.length > 0 && (
               <span style={{ fontWeight: 400, textTransform: 'none', marginLeft: 8, fontSize: '0.7rem' }}>
-                (worst first — focus areas highlighted in red)
+                — click any row to see full question &amp; answer
               </span>
             )}
           </div>
@@ -354,24 +555,41 @@ export default function StudentDetail({ student, onBack }: Props) {
                     return (
                       <tr
                         key={q.cardId}
+                        onClick={() => setModalQ(q)}
+                        title="Click to see full question and answer"
                         style={{
                           borderBottom: '1px solid var(--ws-border)',
                           background: isStruggling ? 'rgba(248,113,113,0.05)' : 'transparent',
-                          transition: 'background 0.15s',
+                          cursor: 'pointer',
+                          transition: 'background 0.12s',
+                        }}
+                        onMouseEnter={(e) => {
+                          (e.currentTarget as HTMLElement).style.background =
+                            isStruggling ? 'rgba(248,113,113,0.12)' : 'rgba(167,139,250,0.06)';
+                        }}
+                        onMouseLeave={(e) => {
+                          (e.currentTarget as HTMLElement).style.background =
+                            isStruggling ? 'rgba(248,113,113,0.05)' : 'transparent';
                         }}
                       >
                         <td style={{ padding: '9px 10px', color: 'var(--ws-text)', maxWidth: 280 }}>
-                          {qText ? (
-                            <span title={qText.question}>
-                              {qText.question.length > 70
-                                ? qText.question.slice(0, 68) + '…'
-                                : qText.question}
-                            </span>
-                          ) : (
-                            <span style={{ color: 'var(--ws-text-muted)', fontStyle: 'italic' }}>
-                              {formatLessonId(q.lessonId)} #{q.index + 1}
-                            </span>
-                          )}
+                          <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
+                            {qText ? (
+                              <span>
+                                {qText.question.length > 65
+                                  ? qText.question.slice(0, 63) + '…'
+                                  : qText.question}
+                              </span>
+                            ) : (
+                              <span style={{ color: 'var(--ws-text-muted)', fontStyle: 'italic' }}>
+                                {formatLessonId(q.lessonId)} #{q.index + 1}
+                              </span>
+                            )}
+                            <span style={{
+                              flexShrink: 0, fontSize: '0.65rem', color: 'var(--ws-text-muted)',
+                              opacity: 0.6,
+                            }}>↗</span>
+                          </div>
                         </td>
                         <td style={{ padding: '9px 10px', whiteSpace: 'nowrap' }}>
                           <span style={{

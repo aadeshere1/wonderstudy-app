@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev --port 3001",
-    "build": "next build",
+    "sync-public": "cp -r data/classes/. public/classes/ && cp -r data/general/. public/general/",
+    "build": "npm run sync-public && next build",
     "start": "next start",
     "lint": "eslint"
   },

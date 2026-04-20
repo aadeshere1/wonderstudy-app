@@ -6,6 +6,7 @@ import Link from 'next/link';
 import { useAuth } from '@/contexts/AuthContext';
 import { getDueCards, recordAnswer } from '@/lib/srs/store';
 import { applyAnswer } from '@/lib/srs/algorithm';
+import { shuffleArray } from '@/lib/utils/helpers';
 import type { SRSCard } from '@/lib/srs/types';
 import type { LessonData } from '@/lib/engine/types';
 import { OptionsGrid } from '@/components/game';
@@ -46,14 +47,15 @@ function buildQuestions(lesson: LessonData, dueCards: SRSCard[]): ReviewQuestion
       card,
       question:    item.question,
       answer:      item.answer,
-      options:     item.options,
+      // Shuffle options so the correct answer isn't always in the same slot
+      options:     shuffleArray([...item.options]),
       explanation: item.explanation || '',
       hint:        item.hint,
     });
   }
 
-  // Shuffle
-  return questions.sort(() => Math.random() - 0.5);
+  // Shuffle question order with a proper Fisher-Yates shuffle
+  return shuffleArray(questions);
 }
 
 export default function ReviewClient({ classNum, subject, lesson, initialLesson }: Props) {

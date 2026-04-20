@@ -40,8 +40,8 @@ export const wordMeaningPlugin: GamePlugin = {
       return [q.meaning];
     }
 
-    // Shuffle options
-    return shuffleArray(q.options);
+    // Always shuffle so the correct answer isn't always in the same position
+    return shuffleArray([...q.options]);
   },
 
   formatQuestion(question) {

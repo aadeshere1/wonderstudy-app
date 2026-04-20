@@ -2,6 +2,8 @@
 
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
+import { useAuth } from '@/contexts/AuthContext';
+import { recordQuestionProgress } from '@/lib/admin/queries';
 import { GameEngine } from '@/lib/engine/GameEngine';
 import { VoiceManager } from '@/lib/voice/VoiceManager';
 import { ConfettiOverlay } from '@/components/layout';
@@ -16,6 +18,13 @@ import {
 } from '@/components/game';
 import { LessonData, GameState, ArithmeticConfig } from '@/lib/engine/types';
 
+// Thin wrapper so TypeScript doesn't complain about window.gtag
+function trackEvent(name: string, params?: Record<string, string | number | boolean>) {
+  if (typeof window !== 'undefined' && typeof (window as any).gtag === 'function') {
+    (window as any).gtag('event', name, params);
+  }
+}
+
 interface GameRunnerClientProps {
   type: string;
   /** Lesson data pre-loaded by the server component */
@@ -26,6 +35,7 @@ type Phase = 'loading' | 'select' | 'playing';
 
 export default function GameRunnerClient({ type, initialLesson }: GameRunnerClientProps) {
   const router = useRouter();
+  const { user } = useAuth();
 
   // Lesson comes pre-loaded from server — no client fetch needed
   const lesson = initialLesson;
@@ -95,10 +105,40 @@ export default function GameRunnerClient({ type, initialLesson }: GameRunnerClie
     const handleStateChange = () => setGameState({ ...engine.getState() });
     const handleAnswered = (e: Event) => {
       const event = e as CustomEvent;
-      if (event.detail?.correct) {
+      const correct: boolean = event.detail?.correct ?? false;
+      const questionIndex: number = event.detail?.questionIndex ?? 0;
+
+      if (correct) {
         setShowConfetti(true);
         setTimeout(() => setShowConfetti(false), 1200);
       }
+
+      trackEvent('quick_game_answer', {
+        game_type: type,
+        correct,
+        streak: event.detail?.streak ?? 0,
+      });
+
+      // Record per-question accuracy to Firestore for admin dashboard
+      if (user && lessonData) {
+        recordQuestionProgress(user, lessonData.id, 'practice', questionIndex, correct)
+          .catch(console.error);
+      }
+    };
+
+    const handleEnd = (e: Event) => {
+      const event = e as CustomEvent;
+      const { players, score, reason, questionNumber } = event.detail ?? {};
+      const p = players?.[0];
+      trackEvent('quick_game_complete', {
+        game_type: type,
+        score: score ?? 0,
+        correct: p?.correct ?? 0,
+        wrong: p?.wrong ?? 0,
+        questions_answered: questionNumber ?? 0,
+        reason: reason ?? 'unknown',
+      });
+      handleStateChange();
     };
 
     engine.addEventListener('question', handleStateChange);
@@ -106,9 +146,10 @@ export default function GameRunnerClient({ type, initialLesson }: GameRunnerClie
     engine.addEventListener('answered', handleStateChange);
     engine.addEventListener('turn', handleStateChange);
     engine.addEventListener('tick', handleStateChange);
-    engine.addEventListener('end', handleStateChange);
+    engine.addEventListener('end', handleEnd);
 
     engine.start();
+    trackEvent('quick_game_start', { game_type: type });
     setPhase('playing');
   };
 

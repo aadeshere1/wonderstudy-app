@@ -18,6 +18,7 @@ import {
   vocabPlugin,
   wordMeaningPlugin,
 } from "@/lib/engine/plugins";
+import { shuffleArray } from "@/lib/utils/helpers";
 
 const PLAYER_COLORS = ["#a78bfa", "#f87171", "#34d399", "#fbbf24"];
 const QUESTIONS_PER_TURN = 5;
@@ -29,7 +30,10 @@ export class GameEngine extends EventTarget {
   private voice: VoiceManager;
   private state: GameState;
   private timerInterval: NodeJS.Timeout | null = null;
-  private usedQuestionIndices: number[] = [];
+  // Pre-shuffled queue of item indices — built once at start(), stepped through
+  // sequentially so every question appears exactly once before any repeats.
+  private _questionQueue: number[] = [];
+  private _queuePos: number = 0;
   private currentItemIndex: number = -1; // tracks which item index is being shown
 
   constructor(
@@ -103,6 +107,18 @@ export class GameEngine extends EventTarget {
 
     this.state.running = true;
 
+    // Build the shuffled question queue for item-list games (practice/challenge).
+    // Dynamic plugins (e.g. arithmetic) have no items — queue stays empty and
+    // _generateQuestion falls back to plugin.generateQuestion() instead.
+    if (this.mode !== "teach") {
+      const gameSection = section as any;
+      const items: unknown[] = gameSection.items ?? [];
+      if (items.length > 0) {
+        this._questionQueue = shuffleArray(items.map((_, i) => i));
+        this._queuePos = 0;
+      }
+    }
+
     if (this.mode === "teach") {
       this._generateTeachCard();
     } else {
@@ -111,7 +127,11 @@ export class GameEngine extends EventTarget {
   }
 
   /**
-   * Generate the next question (for practice/challenge modes)
+   * Generate the next question (for practice/challenge modes).
+   *
+   * Picks the next index from the pre-shuffled queue built in start().
+   * When the queue is exhausted (all items shown once), it is reshuffled
+   * so the session can continue for as many questions as configured.
    */
   private _generateQuestion(): void {
     if (!this.state.running) return;
@@ -121,34 +141,51 @@ export class GameEngine extends EventTarget {
         ? this.lesson.practice
         : this.lesson.challenge;
 
-    if (!section || this.mode === "teach") {
+    if (!section || this.mode === "teach") return;
+
+    const plugin = this._getPlugin(section.gameType);
+    if (!plugin) throw new Error(`Unknown game type: ${section.gameType}`);
+
+    const items: any[] = (section as any).items ?? [];
+
+    // For untimed modes (practice): end after questionsCount questions.
+    // totalTime === 0 means no timer. Skip this check for dynamic plugins
+    // (no items) — they manage their own cycling.
+    if (
+      items.length > 0 &&
+      this.state.totalTime === 0 &&
+      this.state.questionNumber >= this.state.totalQuestions
+    ) {
+      this.endGame("completed");
       return;
     }
 
-    const plugin = this._getPlugin(section.gameType);
-    if (!plugin) {
-      throw new Error(`Unknown game type: ${section.gameType}`);
+    let question: any;
+
+    if (items.length === 0) {
+      // ── Dynamic plugin (e.g. arithmetic): generate question on the fly ──
+      if (!plugin.generateQuestion) {
+        throw new Error(`No items and no generateQuestion for ${section.gameType}`);
+      }
+      question = { ...plugin.generateQuestion(this.lesson, section.config, []) };
+      this.currentItemIndex = -1; // no meaningful index for dynamic questions
+    } else {
+      // ── Item-list plugin: step through pre-shuffled queue ────────────────
+      // Reshuffle when every item has been shown once.
+      if (this._queuePos >= this._questionQueue.length) {
+        this._questionQueue = shuffleArray(items.map((_, i) => i));
+        this._queuePos = 0;
+      }
+      const itemIndex = this._questionQueue[this._queuePos++];
+      this.currentItemIndex = itemIndex;
+      // Shallow-copy so we don't mutate the original lesson data.
+      question = { ...items[itemIndex] };
     }
 
-    const question = plugin.generateQuestion(
-      this.lesson,
-      section.config,
-      this.usedQuestionIndices
-    ) as any;
-
-    // Track which item index this question came from (by reference lookup).
-    // NOTE: all plugins currently read from lesson.practice internally, so we
-    // search practice items first, then challenge items, to handle both modes.
-    const practiceItems: any[] = (this.lesson.practice as any)?.items ?? [];
-    const challengeItems: any[] = (this.lesson.challenge as any)?.items ?? [];
-    const practiceIdx = practiceItems.indexOf(question);
-    const challengeIdx = challengeItems.indexOf(question);
-    this.currentItemIndex = practiceIdx !== -1 ? practiceIdx : challengeIdx;
-
-    // Generate options for quiz-based games
-    const config = section.config as any;
-    if (config.answerMode === "quiz" && plugin.generateOptions) {
-      question.options = plugin.generateOptions(question);
+    // Always shuffle options when the plugin supports it, regardless of answerMode
+    // label ("quiz", "mcq", etc.) so the correct answer is never in a fixed position.
+    if (plugin.generateOptions) {
+      question.options = plugin.generateOptions(question, this.lesson, section.config);
     }
 
     this.state.currentQuestion = question;
@@ -167,10 +204,7 @@ export class GameEngine extends EventTarget {
     );
 
     // Speak question if enabled
-    if (
-      this.settings.speakQuestion &&
-      (this.mode === "practice" || this.mode === "challenge")
-    ) {
+    if (this.settings.speakQuestion) {
       this.voice.speak(this._formatQuestionText(question)).catch(() => {});
     }
 

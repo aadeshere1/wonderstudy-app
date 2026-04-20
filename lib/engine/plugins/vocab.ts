@@ -35,7 +35,7 @@ export const vocabPlugin: GamePlugin = {
   generateOptions(question, lesson, config) {
     const q = question as VocabQuestion;
     if (q.options && q.options.length > 0) {
-      return shuffleArray(q.options);
+      return shuffleArray([...q.options]);
     }
     return [q.answer];
   },
