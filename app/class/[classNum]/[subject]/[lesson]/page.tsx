@@ -50,10 +50,10 @@ export async function generateMetadata({
   const lessonData = loadLesson(classNum, subject, lesson);
 
   if (!lessonData) {
-    return { title: 'Lesson - WonderStudy', description: 'Interactive lesson' };
+    return { title: 'Lesson - Sikshya', description: 'Interactive lesson' };
   }
 
-  const title = `${lessonData.meta.title} - Class ${classNum} - WonderStudy`;
+  const title = `${lessonData.meta.title} - Class ${classNum} - Sikshya`;
   const description = lessonData.meta.description || `Learn about ${lessonData.meta.title} in Class ${classNum}`;
   return {
     title,
@@ -137,7 +137,7 @@ export default async function LessonPage({ params }: PageProps) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbData) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(lessonSchemaData) }} />
 
-      <Nav title="WonderStudy" />
+      <Nav title="Sikshya" />
 
       <main className="relative z-10 max-w-2xl mx-auto px-4 pb-16">
 

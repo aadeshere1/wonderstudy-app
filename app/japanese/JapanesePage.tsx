@@ -160,7 +160,7 @@ export default function JapanesePage({ japaneseLessons }: { japaneseLessons: Jap
 
   return (
     <>
-      <Nav title="WonderStudy" />
+      <Nav title="Sikshya" />
 
       <main className="relative z-10 max-w-3xl mx-auto px-4 pb-16">
 

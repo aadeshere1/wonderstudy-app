@@ -15,8 +15,8 @@ export const SchemaMarkup = ({ schema }: SchemaMarkupProps) => {
 export const organizationSchema = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
-  name: 'WonderStudy',
-  url: 'https://wonderstudy.com',
+  name: 'Sikshya',
+  url: 'https://sikshya.com',
   description: 'Interactive educational games for kids',
 };
 
@@ -51,7 +51,7 @@ export function gameSchema(title: string, description: string) {
     inLanguage: 'en',
     author: {
       '@type': 'Organization',
-      name: 'WonderStudy',
+      name: 'Sikshya',
     },
   };
 }

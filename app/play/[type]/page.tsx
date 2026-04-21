@@ -19,7 +19,7 @@ export async function generateStaticParams() {
 }
 
 export const metadata = {
-  title: 'Play Game - WonderStudy',
+  title: 'Play Game - Sikshya',
 };
 
 interface PageProps {

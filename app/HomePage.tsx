@@ -39,7 +39,7 @@ export default function HomePage({ games, classLessons }: HomePageProps) {
 
   return (
     <>
-      <Nav title="WonderStudy" />
+      <Nav title="Sikshya" />
 
       <main className="relative z-10 max-w-3xl mx-auto px-4 pb-16">
 
@@ -47,7 +47,7 @@ export default function HomePage({ games, classLessons }: HomePageProps) {
         <div className="text-center pt-10 pb-6">
           <div className="text-5xl mb-3 animate-bounce">🌟</div>
           <h1 className="font-display text-4xl md:text-5xl bg-gradient-to-r from-gold via-coral to-purple bg-clip-text text-transparent mb-2 leading-tight">
-            Welcome to WonderStudy!
+            Welcome to Sikshya!
           </h1>
           <p className="text-muted text-sm">Learn with fun games &amp; interactive lessons</p>
         </div>

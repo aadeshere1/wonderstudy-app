@@ -1,4 +1,4 @@
-# WonderStudy Mobile App — Setup Guide
+# Sikshya Mobile App — Setup Guide
 
 The mobile app uses **Capacitor 8** to wrap the Next.js static export into a native Android and iOS app. The web app source is unchanged; Capacitor just packages the `out/` build output as a native app.
 
@@ -127,10 +127,10 @@ The `.env.local` Firebase keys are baked into the static export at build time vi
 
 | Field | Value |
 |---|---|
-| App ID | `com.wonderstudy.app` |
-| Android package | `com.wonderstudy.app` |
-| iOS bundle ID | `com.wonderstudy.app` |
-| Display name | WonderStudy |
+| App ID | `com.sikshya.app` |
+| Android package | `com.sikshya.app` |
+| iOS bundle ID | `com.sikshya.app` |
+| Display name | Sikshya |
 
 ---
 
@@ -145,12 +145,12 @@ For now, sign-in works on the web app as normal. Students who were already signe
 ## Project structure
 
 ```
-wonderstudy-app/
+sikshya-app/
 ├── android/              ← Android Studio project (git-tracked)
 │   └── app/
 │       └── src/main/
 │           ├── assets/public/   ← auto-populated by cap sync (gitignored)
-│           └── java/com/wonderstudy/app/MainActivity.java
+│           └── java/com/sikshya/app/MainActivity.java
 ├── ios/                  ← Xcode project (git-tracked)
 │   └── App/
 │       └── App/public/  ← auto-populated by cap sync (gitignored)

@@ -3,7 +3,7 @@ import { MetadataRoute } from 'next';
 export const dynamic = 'force-static';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://wonderstudy.com';
+  const baseUrl = 'https://sikshya.com';
 
   // Main pages
   const pages = [

@@ -4,7 +4,7 @@ import type { Metadata } from 'next';
 import JapanesePage, { type JapaneseLessonsMap } from './JapanesePage';
 
 export const metadata: Metadata = {
-  title: 'Learn Japanese | WonderStudy',
+  title: 'Learn Japanese | Sikshya',
   description: 'Study for JLPT N5–N1 with Minna no Nihongo — vocabulary, grammar, and dialogue.',
 };
 

@@ -1,4 +1,4 @@
-# WonderStudy — Lesson Data Generation Prompt
+# Sikshya — Lesson Data Generation Prompt
 
 Copy everything below the divider line and paste it into your LLM chat along with the lesson images.
 
@@ -6,7 +6,7 @@ Copy everything below the divider line and paste it into your LLM chat along wit
 
 ## PROMPT (copy from here)
 
-You are a curriculum data engineer for an educational app called **WonderStudy**. I will give you one or more images of a school lesson (textbook pages, worksheets, or teacher notes). Your job is to read the content in the images and convert it into structured JSON that the app can use.
+You are a curriculum data engineer for an educational app called **Sikshya**. I will give you one or more images of a school lesson (textbook pages, worksheets, or teacher notes). Your job is to read the content in the images and convert it into structured JSON that the app can use.
 
 ---
 

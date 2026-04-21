@@ -22,7 +22,7 @@ const nunito = Nunito({
 });
 
 export const metadata: Metadata = {
-  title: "WonderStudy - Learn Math, English & Science",
+  title: "Sikshya - Learn Math, English & Science",
   description:
     "Interactive games for kids to practice and memorize mathematics, English, and science fundamentals. Classes 1-10.",
   keywords: [
@@ -37,10 +37,10 @@ export const metadata: Metadata = {
   ],
   robots: "index, follow",
   openGraph: {
-    title: "WonderStudy",
+    title: "Sikshya",
     description: "Interactive educational games for kids",
     type: "website",
-    siteName: "WonderStudy",
+    siteName: "Sikshya",
   },
 };
 

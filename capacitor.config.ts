@@ -2,8 +2,8 @@ import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
   // Unique app identifier — matches what you'll register in Google Play & App Store
-  appId: 'com.wonderstudy.app',
-  appName: 'WonderStudy',
+  appId: 'com.sikshya.app',
+  appName: 'Sikshya',
 
   // Points at the Next.js static export output folder.
   // Run `npm run build` before `npx cap sync` to refresh this.

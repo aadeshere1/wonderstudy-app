@@ -51,13 +51,13 @@ export async function generateMetadata({
 
   if (!lessonData) {
     return {
-      title: 'Play Lesson - WonderStudy',
+      title: 'Play Lesson - Sikshya',
       description: 'Interactive learning game',
     };
   }
 
   const modeLabel = mode.charAt(0).toUpperCase() + mode.slice(1);
-  const title = `${lessonData.meta.title} - ${modeLabel} Mode - WonderStudy`;
+  const title = `${lessonData.meta.title} - ${modeLabel} Mode - Sikshya`;
   const description = `${modeLabel} mode for "${lessonData.meta.title}" - Class ${classNum} ${subject}`;
 
   return {

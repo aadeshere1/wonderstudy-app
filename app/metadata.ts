@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
 export const siteMetadata: Metadata = {
-  title: 'WonderStudy - Learn Math, English & Science',
+  title: 'Sikshya - Learn Math, English & Science',
   description:
     'Interactive games for kids to practice and memorize mathematics, English, and science fundamentals. Classes 1-10.',
   keywords: [
@@ -16,13 +16,13 @@ export const siteMetadata: Metadata = {
   ],
   robots: 'index, follow',
   openGraph: {
-    title: 'WonderStudy',
+    title: 'Sikshya',
     description: 'Interactive educational games for kids',
     type: 'website',
   },
   twitter: {
     card: 'summary',
-    title: 'WonderStudy',
+    title: 'Sikshya',
     description: 'Interactive educational games for kids',
   },
 };
@@ -33,7 +33,7 @@ export function generateLessonMetadata(
   classNum?: number,
   subject?: string
 ): Metadata {
-  const fullTitle = `${title} - WonderStudy`;
+  const fullTitle = `${title} - Sikshya`;
   const keywords = [
     title,
     subject || '',
@@ -58,7 +58,7 @@ export function generateGameMetadata(
   gameTitle: string,
   description: string
 ): Metadata {
-  const fullTitle = `${gameTitle} - WonderStudy`;
+  const fullTitle = `${gameTitle} - Sikshya`;
 
   return {
     title: fullTitle,

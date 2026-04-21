@@ -286,7 +286,7 @@ export default function AdminDashboard() {
           background: 'linear-gradient(135deg,#a78bfa,#60a5fa)',
           WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text',
         }}>
-          👩‍🏫 WonderStudy Admin
+          👩‍🏫 Sikshya Admin
         </div>
         <div style={{ display: 'flex', alignItems: 'center', gap: 16 }}>
           {/* Live indicator */}
