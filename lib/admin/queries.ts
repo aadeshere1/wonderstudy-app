@@ -177,7 +177,8 @@ export async function fetchLessonItems(
       url = `/classes/class-${classNum}/${subject}/${slug}.json`;
     }
 
-    const res = await fetch(url);
+    const base = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
+    const res = await fetch(`${base}${url}`);
     if (!res.ok) return {};
     const json = await res.json();
 
