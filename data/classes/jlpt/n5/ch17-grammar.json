@@ -1,0 +1,160 @@
+{
+  "id": "ch17-grammar",
+  "meta": {
+    "title": "Lesson 17: ちょっと待ってください — Grammar",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "ch17-grammar",
+    "subtopic": "Please Wait a Moment",
+    "description": "Grammar patterns for Minna no Nihongo Lesson 17: Please Wait a Moment",
+    "icon": "✋",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "Polite requests: 〜ていただけませんか",
+        "back": "Very polite request: could you please ~?\n\nもう一度言っていただけませんか。\n= Could you please say it one more time?\n\nゆっくり話していただけませんか。\n= Could you please speak slowly?\n\nMore formal than 〜てください"
+      },
+      {
+        "front": "〜てくれませんか (friendly request)",
+        "back": "Friendly/casual request: won't you ~ for me?\n\nちょっと待ってくれませんか。\n= Won't you wait a moment?\n\nLess formal than 〜ていただけませんか\nMore personal/direct"
+      },
+      {
+        "front": "Communication adverbs",
+        "back": "ゆっくり = slowly\nはっきり = clearly\nもう一度 = one more time\nもう少し = a little more\n大きい声で = in a loud voice\n小さい声で = in a quiet voice\n日本語で = in Japanese"
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 25,
+      "questionsCount": 5
+    },
+    "items": [
+      {
+        "question": "もう一度言っていただけ ___ か。(Could you please say it one more time?)",
+        "answer": "ません",
+        "options": [
+          "ません",
+          "ます",
+          "ましょう",
+          "てください"
+        ],
+        "explanation": "〜ていただけませんか = Could you please ~? Very polite request form."
+      },
+      {
+        "question": "ゆっくり話してくれ ___ か。(Won't you please speak slowly?)",
+        "answer": "ません",
+        "options": [
+          "ません",
+          "ます",
+          "ましょう",
+          "ていただけ"
+        ],
+        "explanation": "〜てくれませんか = won't you ~ (for me)? Less formal than いただけませんか."
+      },
+      {
+        "question": "Which is more polite?",
+        "answer": "〜ていただけませんか",
+        "options": [
+          "〜ていただけませんか",
+          "〜てくれませんか",
+          "〜てください",
+          "〜て (plain form)"
+        ],
+        "explanation": "Politeness scale: 〜ていただけませんか > 〜てくれませんか > 〜てください > plain て-form."
+      },
+      {
+        "question": "はっきり話してください means:",
+        "answer": "Please speak clearly.",
+        "options": [
+          "Please speak clearly.",
+          "Please speak slowly.",
+          "Please speak quietly.",
+          "Please speak in Japanese."
+        ],
+        "explanation": "はっきり = clearly/distinctly. はっきり話す = speak clearly."
+      },
+      {
+        "question": "How do you ask someone to write in Japanese?",
+        "answer": "日本語でかいていただけませんか。",
+        "options": [
+          "日本語でかいていただけませんか。",
+          "日本語をかいていただけませんか。",
+          "日本語にかいていただけませんか。",
+          "日本語からかいていただけませんか。"
+        ],
+        "explanation": "で marks the means/language: 日本語で = in Japanese. かいて + いただけませんか = could you write?"
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 12,
+      "questionsCount": 5
+    },
+    "items": [
+      {
+        "question": "もう一度言っていただけ ___ か。(Could you please say it one more time?)",
+        "answer": "ません",
+        "options": [
+          "ません",
+          "ます",
+          "ましょう",
+          "てください"
+        ],
+        "explanation": "〜ていただけませんか = Could you please ~? Very polite request form."
+      },
+      {
+        "question": "ゆっくり話してくれ ___ か。(Won't you please speak slowly?)",
+        "answer": "ません",
+        "options": [
+          "ません",
+          "ます",
+          "ましょう",
+          "ていただけ"
+        ],
+        "explanation": "〜てくれませんか = won't you ~ (for me)? Less formal than いただけませんか."
+      },
+      {
+        "question": "Which is more polite?",
+        "answer": "〜ていただけませんか",
+        "options": [
+          "〜ていただけませんか",
+          "〜てくれませんか",
+          "〜てください",
+          "〜て (plain form)"
+        ],
+        "explanation": "Politeness scale: 〜ていただけませんか > 〜てくれませんか > 〜てください > plain て-form."
+      },
+      {
+        "question": "はっきり話してください means:",
+        "answer": "Please speak clearly.",
+        "options": [
+          "Please speak clearly.",
+          "Please speak slowly.",
+          "Please speak quietly.",
+          "Please speak in Japanese."
+        ],
+        "explanation": "はっきり = clearly/distinctly. はっきり話す = speak clearly."
+      },
+      {
+        "question": "How do you ask someone to write in Japanese?",
+        "answer": "日本語でかいていただけませんか。",
+        "options": [
+          "日本語でかいていただけませんか。",
+          "日本語をかいていただけませんか。",
+          "日本語にかいていただけませんか。",
+          "日本語からかいていただけませんか。"
+        ],
+        "explanation": "で marks the means/language: 日本語で = in Japanese. かいて + いただけませんか = could you write?"
+      }
+    ]
+  }
+}

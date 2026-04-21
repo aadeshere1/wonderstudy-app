@@ -1,0 +1,422 @@
+{
+  "id": "class-6-math-perimeter-area",
+  "meta": {
+    "title": "Perimeter and Area",
+    "subject": "math",
+    "class": 6,
+    "lesson": "Unit 4",
+    "subtopic": "Perimeter & Area of Rectangle, Square, Triangle and Circle",
+    "description": "Learn to calculate perimeter and area of 2D shapes using their formulas.",
+    "icon": "📐",
+    "difficulty": "intermediate"
+  },
+
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "📏 What is Perimeter?",
+        "back": "Perimeter is the total length of the boundary of a 2D shape.\nIt is measured in units like cm, m, km.\nTo find it, add up all the side lengths.",
+        "hint": "Think of walking all the way around the edge of a field."
+      },
+      {
+        "front": "🟦 Perimeter of a Rectangle",
+        "back": "Formula: P = 2 × (l + b)\nWhere l = length and b = breadth.\n\nExample: l = 8 cm, b = 4 cm\nP = 2 × (8 + 4) = 2 × 12 = 24 cm",
+        "hint": "A rectangle has two pairs of equal sides."
+      },
+      {
+        "front": "🟥 Area of a Rectangle",
+        "back": "Formula: A = l × b\nWhere l = length and b = breadth.\nArea is measured in square units (cm², m²).\n\nExample: l = 8 cm, b = 4 cm\nA = 8 × 4 = 32 cm²",
+        "hint": "Area tells you how much surface is covered."
+      },
+      {
+        "front": "🟪 Perimeter of a Square",
+        "back": "A square has four equal sides of length s.\nFormula: P = 4 × s\n\nExample: s = 6 cm\nP = 4 × 6 = 24 cm",
+        "hint": "All four sides of a square are equal."
+      },
+      {
+        "front": "🟫 Area of a Square",
+        "back": "Formula: A = s × s = s²\nWhere s = side length.\n\nExample: s = 6 cm\nA = 6² = 36 cm²",
+        "hint": "Multiply the side by itself."
+      },
+      {
+        "front": "🔺 Perimeter of a Triangle",
+        "back": "Add all three sides together.\nFormula: P = a + b + c\n\nExample: sides 5 cm, 12 cm, 13 cm\nP = 5 + 12 + 13 = 30 cm",
+        "hint": "Just add all sides — even if sides are unequal."
+      },
+      {
+        "front": "🔻 Area of a Right Triangle",
+        "back": "Formula: A = ½ × base × height\n\nExample: base = 8 cm, height = 6 cm\nA = ½ × 8 × 6 = 24 cm²\n\nThe base and height must be perpendicular (at 90°).",
+        "hint": "The height is the perpendicular side, not the slanting side."
+      },
+      {
+        "front": "⭕ Circumference of a Circle",
+        "back": "Formula: C = 2πr  or  C = πd\nWhere r = radius, d = diameter, π = 22/7\n\nExample: r = 7 cm\nC = 2 × 22/7 × 7 = 44 cm",
+        "hint": "Circumference is the perimeter of a circle."
+      },
+      {
+        "front": "🔵 Area of a Circle",
+        "back": "Formula: A = πr²\nWhere r = radius and π = 22/7\n\nExample: r = 7 cm\nA = 22/7 × 7 × 7 = 154 cm²",
+        "hint": "Square the radius first, then multiply by π."
+      }
+    ]
+  },
+
+  "practice": {
+    "gameType": "geometry",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 0,
+      "questionsCount": 26
+    },
+    "items": [
+      {
+        "question": "Find the perimeter of this rectangle.",
+        "answer": "24 cm",
+        "options": ["24 cm", "12 cm", "32 cm", "20 cm"],
+        "explanation": "P = 2 × (l + b) = 2 × (8 + 4) = 2 × 12 = 24 cm",
+        "hint": "P = 2 × (length + breadth)",
+        "shape": { "type": "rectangle", "width": 8, "height": 4, "unit": "cm" }
+      },
+      {
+        "question": "Find the area of this rectangle.",
+        "answer": "32 cm²",
+        "options": ["32 cm²", "24 cm²", "16 cm²", "48 cm²"],
+        "explanation": "A = l × b = 8 × 4 = 32 cm²",
+        "hint": "A = length × breadth",
+        "shape": { "type": "rectangle", "width": 8, "height": 4, "unit": "cm" }
+      },
+      {
+        "question": "Find the perimeter of this rectangle.",
+        "answer": "34 cm",
+        "options": ["34 cm", "17 cm", "60 cm", "28 cm"],
+        "explanation": "P = 2 × (l + b) = 2 × (12 + 5) = 2 × 17 = 34 cm",
+        "hint": "P = 2 × (length + breadth)",
+        "shape": { "type": "rectangle", "width": 12, "height": 5, "unit": "cm" }
+      },
+      {
+        "question": "Find the area of this rectangle.",
+        "answer": "60 cm²",
+        "options": ["60 cm²", "34 cm²", "32 cm²", "70 cm²"],
+        "explanation": "A = l × b = 12 × 5 = 60 cm²",
+        "hint": "A = length × breadth",
+        "shape": { "type": "rectangle", "width": 12, "height": 5, "unit": "cm" }
+      },
+      {
+        "question": "Find the perimeter of this rectangle.",
+        "answer": "30 cm",
+        "options": ["30 cm", "15 cm", "54 cm", "26 cm"],
+        "explanation": "P = 2 × (l + b) = 2 × (9 + 6) = 2 × 15 = 30 cm",
+        "hint": "P = 2 × (length + breadth)",
+        "shape": { "type": "rectangle", "width": 9, "height": 6, "unit": "cm" }
+      },
+      {
+        "question": "Find the area of this rectangle.",
+        "answer": "54 cm²",
+        "options": ["54 cm²", "30 cm²", "45 cm²", "36 cm²"],
+        "explanation": "A = l × b = 9 × 6 = 54 cm²",
+        "hint": "A = length × breadth",
+        "shape": { "type": "rectangle", "width": 9, "height": 6, "unit": "cm" }
+      },
+      {
+        "question": "Find the perimeter of this rectangle.",
+        "answer": "44 cm",
+        "options": ["44 cm", "22 cm", "105 cm", "40 cm"],
+        "explanation": "P = 2 × (l + b) = 2 × (15 + 7) = 2 × 22 = 44 cm",
+        "hint": "P = 2 × (length + breadth)",
+        "shape": { "type": "rectangle", "width": 15, "height": 7, "unit": "cm" }
+      },
+      {
+        "question": "Find the area of this rectangle.",
+        "answer": "105 cm²",
+        "options": ["105 cm²", "44 cm²", "90 cm²", "120 cm²"],
+        "explanation": "A = l × b = 15 × 7 = 105 cm²",
+        "hint": "A = length × breadth",
+        "shape": { "type": "rectangle", "width": 15, "height": 7, "unit": "cm" }
+      },
+      {
+        "question": "Find the perimeter of this rectangle.",
+        "answer": "28 cm",
+        "options": ["28 cm", "14 cm", "33 cm", "24 cm"],
+        "explanation": "P = 2 × (l + b) = 2 × (11 + 3) = 2 × 14 = 28 cm",
+        "hint": "P = 2 × (length + breadth)",
+        "shape": { "type": "rectangle", "width": 11, "height": 3, "unit": "cm" }
+      },
+      {
+        "question": "Find the area of this rectangle.",
+        "answer": "33 cm²",
+        "options": ["33 cm²", "28 cm²", "40 cm²", "22 cm²"],
+        "explanation": "A = l × b = 11 × 3 = 33 cm²",
+        "hint": "A = length × breadth",
+        "shape": { "type": "rectangle", "width": 11, "height": 3, "unit": "cm" }
+      },
+      {
+        "question": "Find the perimeter of this square.",
+        "answer": "24 cm",
+        "options": ["24 cm", "36 cm", "12 cm", "6 cm"],
+        "explanation": "P = 4 × s = 4 × 6 = 24 cm",
+        "hint": "All four sides are equal. P = 4 × side",
+        "shape": { "type": "square", "side": 6, "unit": "cm" }
+      },
+      {
+        "question": "Find the area of this square.",
+        "answer": "36 cm²",
+        "options": ["36 cm²", "24 cm²", "12 cm²", "6 cm²"],
+        "explanation": "A = s² = 6 × 6 = 36 cm²",
+        "hint": "A = side × side",
+        "shape": { "type": "square", "side": 6, "unit": "cm" }
+      },
+      {
+        "question": "Find the perimeter of this square.",
+        "answer": "36 cm",
+        "options": ["36 cm", "81 cm", "18 cm", "9 cm"],
+        "explanation": "P = 4 × s = 4 × 9 = 36 cm",
+        "hint": "P = 4 × side",
+        "shape": { "type": "square", "side": 9, "unit": "cm" }
+      },
+      {
+        "question": "Find the area of this square.",
+        "answer": "81 cm²",
+        "options": ["81 cm²", "36 cm²", "18 cm²", "72 cm²"],
+        "explanation": "A = s² = 9 × 9 = 81 cm²",
+        "hint": "A = side × side",
+        "shape": { "type": "square", "side": 9, "unit": "cm" }
+      },
+      {
+        "question": "Find the perimeter of this square.",
+        "answer": "28 cm",
+        "options": ["28 cm", "49 cm", "14 cm", "7 cm"],
+        "explanation": "P = 4 × s = 4 × 7 = 28 cm",
+        "hint": "P = 4 × side",
+        "shape": { "type": "square", "side": 7, "unit": "cm" }
+      },
+      {
+        "question": "Find the area of this square.",
+        "answer": "49 cm²",
+        "options": ["49 cm²", "28 cm²", "14 cm²", "56 cm²"],
+        "explanation": "A = s² = 7 × 7 = 49 cm²",
+        "hint": "A = side × side",
+        "shape": { "type": "square", "side": 7, "unit": "cm" }
+      },
+      {
+        "question": "Find the perimeter of this triangle.",
+        "answer": "30 cm",
+        "options": ["30 cm", "60 cm", "25 cm", "35 cm"],
+        "explanation": "P = a + b + c = 5 + 12 + 13 = 30 cm",
+        "hint": "Add all three sides together.",
+        "shape": { "type": "triangle", "sideA": 5, "sideB": 12, "sideC": 13, "unit": "cm" }
+      },
+      {
+        "question": "Find the perimeter of this triangle.",
+        "answer": "24 cm",
+        "options": ["24 cm", "48 cm", "12 cm", "28 cm"],
+        "explanation": "P = a + b + c = 6 + 8 + 10 = 24 cm",
+        "hint": "Add all three sides together.",
+        "shape": { "type": "triangle", "sideA": 6, "sideB": 8, "sideC": 10, "unit": "cm" }
+      },
+      {
+        "question": "Find the perimeter of this triangle.",
+        "answer": "12 cm",
+        "options": ["12 cm", "6 cm", "20 cm", "15 cm"],
+        "explanation": "P = a + b + c = 3 + 4 + 5 = 12 cm",
+        "hint": "Add all three sides together.",
+        "shape": { "type": "triangle", "sideA": 3, "sideB": 4, "sideC": 5, "unit": "cm" }
+      },
+      {
+        "question": "Find the perimeter of this triangle.",
+        "answer": "40 cm",
+        "options": ["40 cm", "60 cm", "20 cm", "34 cm"],
+        "explanation": "P = a + b + c = 8 + 15 + 17 = 40 cm",
+        "hint": "Add all three sides together.",
+        "shape": { "type": "triangle", "sideA": 8, "sideB": 15, "sideC": 17, "unit": "cm" }
+      },
+      {
+        "question": "Find the area of this right triangle.",
+        "answer": "24 cm²",
+        "options": ["24 cm²", "48 cm²", "28 cm²", "14 cm²"],
+        "explanation": "A = ½ × base × height = ½ × 8 × 6 = 24 cm²",
+        "hint": "A = ½ × base × height",
+        "shape": { "type": "triangle", "base": 8, "triHeight": 6, "sideC": 10, "unit": "cm" }
+      },
+      {
+        "question": "Find the area of this right triangle.",
+        "answer": "25 cm²",
+        "options": ["25 cm²", "50 cm²", "30 cm²", "15 cm²"],
+        "explanation": "A = ½ × base × height = ½ × 10 × 5 = 25 cm²",
+        "hint": "A = ½ × base × height",
+        "shape": { "type": "triangle", "base": 10, "triHeight": 5, "sideC": 11, "unit": "cm" }
+      },
+      {
+        "question": "Find the area of this right triangle.",
+        "answer": "24 cm²",
+        "options": ["24 cm²", "32 cm²", "48 cm²", "16 cm²"],
+        "explanation": "A = ½ × base × height = ½ × 12 × 4 = 24 cm²",
+        "hint": "A = ½ × base × height",
+        "shape": { "type": "triangle", "base": 12, "triHeight": 4, "sideC": 13, "unit": "cm" }
+      },
+      {
+        "question": "Find the area of this right triangle.",
+        "answer": "30 cm²",
+        "options": ["30 cm²", "60 cm²", "15 cm²", "36 cm²"],
+        "explanation": "A = ½ × base × height = ½ × 12 × 5 = 30 cm²",
+        "hint": "A = ½ × base × height",
+        "shape": { "type": "triangle", "base": 12, "triHeight": 5, "sideC": 13, "unit": "cm" }
+      },
+      {
+        "question": "Find the circumference of this circle. (Use π = 22/7)",
+        "answer": "44 cm",
+        "options": ["44 cm", "22 cm", "154 cm", "88 cm"],
+        "explanation": "C = 2πr = 2 × 22/7 × 7 = 44 cm",
+        "hint": "C = 2 × π × r",
+        "shape": { "type": "circle", "radius": 7, "unit": "cm" }
+      },
+      {
+        "question": "Find the area of this circle. (Use π = 22/7)",
+        "answer": "154 cm²",
+        "options": ["154 cm²", "44 cm²", "49 cm²", "308 cm²"],
+        "explanation": "A = πr² = 22/7 × 7 × 7 = 22 × 7 = 154 cm²",
+        "hint": "A = π × r × r",
+        "shape": { "type": "circle", "radius": 7, "unit": "cm" }
+      }
+    ]
+  },
+
+  "challenge": {
+    "gameType": "geometry",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 300,
+      "questionsCount": 999
+    },
+    "items": [
+      {
+        "question": "Find the perimeter of this rectangle.",
+        "answer": "24 cm",
+        "options": ["24 cm", "12 cm", "32 cm", "20 cm"],
+        "explanation": "P = 2 × (l + b) = 2 × (8 + 4) = 24 cm",
+        "hint": "P = 2 × (length + breadth)",
+        "shape": { "type": "rectangle", "width": 8, "height": 4, "unit": "cm" }
+      },
+      {
+        "question": "Find the area of this rectangle.",
+        "answer": "32 cm²",
+        "options": ["32 cm²", "24 cm²", "16 cm²", "48 cm²"],
+        "explanation": "A = l × b = 8 × 4 = 32 cm²",
+        "hint": "A = length × breadth",
+        "shape": { "type": "rectangle", "width": 8, "height": 4, "unit": "cm" }
+      },
+      {
+        "question": "Find the perimeter of this rectangle.",
+        "answer": "34 cm",
+        "options": ["34 cm", "17 cm", "60 cm", "28 cm"],
+        "explanation": "P = 2 × (l + b) = 2 × (12 + 5) = 34 cm",
+        "hint": "P = 2 × (length + breadth)",
+        "shape": { "type": "rectangle", "width": 12, "height": 5, "unit": "cm" }
+      },
+      {
+        "question": "Find the area of this rectangle.",
+        "answer": "60 cm²",
+        "options": ["60 cm²", "34 cm²", "32 cm²", "70 cm²"],
+        "explanation": "A = l × b = 12 × 5 = 60 cm²",
+        "hint": "A = length × breadth",
+        "shape": { "type": "rectangle", "width": 12, "height": 5, "unit": "cm" }
+      },
+      {
+        "question": "Find the perimeter of this rectangle.",
+        "answer": "30 cm",
+        "options": ["30 cm", "15 cm", "54 cm", "26 cm"],
+        "explanation": "P = 2 × (l + b) = 2 × (9 + 6) = 30 cm",
+        "hint": "P = 2 × (length + breadth)",
+        "shape": { "type": "rectangle", "width": 9, "height": 6, "unit": "cm" }
+      },
+      {
+        "question": "Find the area of this rectangle.",
+        "answer": "54 cm²",
+        "options": ["54 cm²", "30 cm²", "45 cm²", "36 cm²"],
+        "explanation": "A = l × b = 9 × 6 = 54 cm²",
+        "hint": "A = length × breadth",
+        "shape": { "type": "rectangle", "width": 9, "height": 6, "unit": "cm" }
+      },
+      {
+        "question": "Find the perimeter of this square.",
+        "answer": "24 cm",
+        "options": ["24 cm", "36 cm", "12 cm", "6 cm"],
+        "explanation": "P = 4 × s = 4 × 6 = 24 cm",
+        "hint": "P = 4 × side",
+        "shape": { "type": "square", "side": 6, "unit": "cm" }
+      },
+      {
+        "question": "Find the area of this square.",
+        "answer": "36 cm²",
+        "options": ["36 cm²", "24 cm²", "12 cm²", "6 cm²"],
+        "explanation": "A = s² = 6 × 6 = 36 cm²",
+        "hint": "A = side × side",
+        "shape": { "type": "square", "side": 6, "unit": "cm" }
+      },
+      {
+        "question": "Find the perimeter of this square.",
+        "answer": "36 cm",
+        "options": ["36 cm", "81 cm", "18 cm", "9 cm"],
+        "explanation": "P = 4 × s = 4 × 9 = 36 cm",
+        "hint": "P = 4 × side",
+        "shape": { "type": "square", "side": 9, "unit": "cm" }
+      },
+      {
+        "question": "Find the area of this square.",
+        "answer": "81 cm²",
+        "options": ["81 cm²", "36 cm²", "18 cm²", "72 cm²"],
+        "explanation": "A = s² = 9 × 9 = 81 cm²",
+        "hint": "A = side × side",
+        "shape": { "type": "square", "side": 9, "unit": "cm" }
+      },
+      {
+        "question": "Find the perimeter of this triangle.",
+        "answer": "30 cm",
+        "options": ["30 cm", "60 cm", "25 cm", "35 cm"],
+        "explanation": "P = 5 + 12 + 13 = 30 cm",
+        "hint": "Add all three sides.",
+        "shape": { "type": "triangle", "sideA": 5, "sideB": 12, "sideC": 13, "unit": "cm" }
+      },
+      {
+        "question": "Find the perimeter of this triangle.",
+        "answer": "24 cm",
+        "options": ["24 cm", "48 cm", "12 cm", "28 cm"],
+        "explanation": "P = 6 + 8 + 10 = 24 cm",
+        "hint": "Add all three sides.",
+        "shape": { "type": "triangle", "sideA": 6, "sideB": 8, "sideC": 10, "unit": "cm" }
+      },
+      {
+        "question": "Find the area of this right triangle.",
+        "answer": "24 cm²",
+        "options": ["24 cm²", "48 cm²", "28 cm²", "14 cm²"],
+        "explanation": "A = ½ × 8 × 6 = 24 cm²",
+        "hint": "A = ½ × base × height",
+        "shape": { "type": "triangle", "base": 8, "triHeight": 6, "sideC": 10, "unit": "cm" }
+      },
+      {
+        "question": "Find the area of this right triangle.",
+        "answer": "25 cm²",
+        "options": ["25 cm²", "50 cm²", "30 cm²", "15 cm²"],
+        "explanation": "A = ½ × 10 × 5 = 25 cm²",
+        "hint": "A = ½ × base × height",
+        "shape": { "type": "triangle", "base": 10, "triHeight": 5, "sideC": 11, "unit": "cm" }
+      },
+      {
+        "question": "Find the circumference of this circle. (Use π = 22/7)",
+        "answer": "44 cm",
+        "options": ["44 cm", "22 cm", "154 cm", "88 cm"],
+        "explanation": "C = 2 × 22/7 × 7 = 44 cm",
+        "hint": "C = 2πr",
+        "shape": { "type": "circle", "radius": 7, "unit": "cm" }
+      },
+      {
+        "question": "Find the area of this circle. (Use π = 22/7)",
+        "answer": "154 cm²",
+        "options": ["154 cm²", "44 cm²", "49 cm²", "308 cm²"],
+        "explanation": "A = 22/7 × 7 × 7 = 154 cm²",
+        "hint": "A = πr²",
+        "shape": { "type": "circle", "radius": 7, "unit": "cm" }
+      }
+    ]
+  }
+}

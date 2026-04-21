@@ -1,0 +1,238 @@
+{
+  "id": "ch05-examples",
+  "meta": {
+    "title": "Lesson 5: 誕生日はいつですか — Dialogue & Examples",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "ch05-examples",
+    "subtopic": "When Is Your Birthday?",
+    "description": "Practical dialogues and sentences for Lesson 5: When Is Your Birthday?",
+    "icon": "🎂",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "Birthday conversation",
+        "back": "A: ミラーさんのたんじょうびはいつですか。\nB: 9月18日です。\nA: そうですか。何曜日ですか。\nB: 火曜日です。\n\nA: When is your birthday, Miller-san?\nB: September 18th.\nA: Is that so. What day of the week?\nB: Tuesday."
+      },
+      {
+        "front": "Planning: 'What day is convenient?'",
+        "back": "A: 来週のいつがいいですか。\nB: 水曜日はどうですか。\nA: いいですね。\n\nA: When is good next week?\nB: How about Wednesday?\nA: That's good!"
+      },
+      {
+        "front": "Japanese holidays",
+        "back": "1月1日 = お正月 (New Year)\n2月11日 = けんこくきねんびNational Foundation Day\n3月21日ごろ = しゅんぶんのひ (Spring Equinox)\n5月3日 = けんぽうきねんび (Constitution Day)\n8月11日 = やまのひ (Mountain Day)\n11月3日 = ぶんかのひ (Culture Day)"
+      },
+      {
+        "front": "Asking the date today",
+        "back": "A: 今日は何月何日ですか。\nB: 4月14日です。\nA: 何曜日ですか。\nB: 月曜日です。\n\nA: What is today's date?\nB: April 14th.\nA: What day is it?\nB: Monday."
+      },
+      {
+        "front": "Giving relative time expressions",
+        "back": "今日は火曜日です。\n昨日は月曜日でした。\n明日は水曜日です。\n\nToday is Tuesday.\nYesterday was Monday.\nTomorrow is Wednesday.\n\nPast → でした (was/were)"
+      },
+      {
+        "front": "Using でした (past of です)",
+        "back": "たんじょうびは先週でした。\n= My birthday was last week.\n\nです → でした (past)\nじゃありません → じゃありませんでした (past negative)\n\nExample:\nきのうはいいてんきでした。\n= Yesterday was good weather."
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 25,
+      "questionsCount": 8
+    },
+    "items": [
+      {
+        "question": "How do you ask 'When is your birthday?'",
+        "answer": "たんじょうびはいつですか。",
+        "options": [
+          "たんじょうびはいつですか。",
+          "たんじょうびはなんですか。",
+          "たんじょうびはどこですか。",
+          "たんじょうびはだれですか。"
+        ],
+        "explanation": "いつ = when? Used for dates and times. たんじょうびはいつですか = When is the birthday?"
+      },
+      {
+        "question": "Today is April 14th. How do you say this?",
+        "answer": "今日はしがつじゅうよっかです。",
+        "options": [
+          "今日はしがつじゅうよっかです。",
+          "今日はよんがつじゅうよんにちです。",
+          "今日はしがつじゅうしにちです。",
+          "今日はよんがつよんにちです。"
+        ],
+        "explanation": "4月 = しがつ. 14日 = じゅうよっか (irregular). Both readings are important to know!"
+      },
+      {
+        "question": "Your friend's birthday is next month. Which phrase describes this?",
+        "answer": "らいげつ",
+        "options": [
+          "らいげつ",
+          "こんげつ",
+          "せんげつ",
+          "きょねん"
+        ],
+        "explanation": "来月 (らいげつ) = next month. こんげつ = this month. せんげつ = last month."
+      },
+      {
+        "question": "Someone says 先週の金曜日. What does this mean?",
+        "answer": "Last Friday",
+        "options": [
+          "Last Friday",
+          "Next Friday",
+          "This Friday",
+          "Last Saturday"
+        ],
+        "explanation": "先週 (せんしゅう) = last week. 金曜日 = Friday. 先週の金曜日 = last Friday."
+      },
+      {
+        "question": "How do you say 'My birthday was yesterday'?",
+        "answer": "たんじょうびはきのうでした。",
+        "options": [
+          "たんじょうびはきのうでした。",
+          "たんじょうびはきのうです。",
+          "たんじょうびにきのうです。",
+          "たんじょうびはきのうでしたか。"
+        ],
+        "explanation": "でした = past tense of です. きのう = yesterday. たんじょうびはきのうでした = Birthday was yesterday."
+      },
+      {
+        "question": "What is 水曜日?",
+        "answer": "Wednesday",
+        "options": [
+          "Wednesday",
+          "Monday",
+          "Friday",
+          "Saturday"
+        ],
+        "explanation": "水曜日 (すいようび) = Wednesday. 水 = water. Days: 月=Mon, 火=Tue, 水=Wed, 木=Thu, 金=Fri, 土=Sat, 日=Sun."
+      },
+      {
+        "question": "A: 今日は何曜日ですか。B: ___です。(It's Thursday.)",
+        "answer": "木曜日 (もくようび)",
+        "options": [
+          "木曜日 (もくようび)",
+          "水曜日 (すいようび)",
+          "金曜日 (きんようび)",
+          "土曜日 (どようび)"
+        ],
+        "explanation": "木曜日 (もくようび) = Thursday. 木 = tree/wood (木星 = Jupiter, Thor's planet!)."
+      },
+      {
+        "question": "How do you say 'How many months until your birthday?'",
+        "answer": "たんじょうびまでなんかげつですか。",
+        "options": [
+          "たんじょうびまでなんかげつですか。",
+          "たんじょうびになんかげつですか。",
+          "たんじょうびからなんかげつですか。",
+          "たんじょうびでなんかげつですか。"
+        ],
+        "explanation": "まで = until/to. なんかげつ = how many months. 〜までなんかげつ = how many months until ~."
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 12,
+      "questionsCount": 8
+    },
+    "items": [
+      {
+        "question": "How do you ask 'When is your birthday?'",
+        "answer": "たんじょうびはいつですか。",
+        "options": [
+          "たんじょうびはいつですか。",
+          "たんじょうびはなんですか。",
+          "たんじょうびはどこですか。",
+          "たんじょうびはだれですか。"
+        ],
+        "explanation": "いつ = when? Used for dates and times. たんじょうびはいつですか = When is the birthday?"
+      },
+      {
+        "question": "Today is April 14th. How do you say this?",
+        "answer": "今日はしがつじゅうよっかです。",
+        "options": [
+          "今日はしがつじゅうよっかです。",
+          "今日はよんがつじゅうよんにちです。",
+          "今日はしがつじゅうしにちです。",
+          "今日はよんがつよんにちです。"
+        ],
+        "explanation": "4月 = しがつ. 14日 = じゅうよっか (irregular). Both readings are important to know!"
+      },
+      {
+        "question": "Your friend's birthday is next month. Which phrase describes this?",
+        "answer": "らいげつ",
+        "options": [
+          "らいげつ",
+          "こんげつ",
+          "せんげつ",
+          "きょねん"
+        ],
+        "explanation": "来月 (らいげつ) = next month. こんげつ = this month. せんげつ = last month."
+      },
+      {
+        "question": "Someone says 先週の金曜日. What does this mean?",
+        "answer": "Last Friday",
+        "options": [
+          "Last Friday",
+          "Next Friday",
+          "This Friday",
+          "Last Saturday"
+        ],
+        "explanation": "先週 (せんしゅう) = last week. 金曜日 = Friday. 先週の金曜日 = last Friday."
+      },
+      {
+        "question": "How do you say 'My birthday was yesterday'?",
+        "answer": "たんじょうびはきのうでした。",
+        "options": [
+          "たんじょうびはきのうでした。",
+          "たんじょうびはきのうです。",
+          "たんじょうびにきのうです。",
+          "たんじょうびはきのうでしたか。"
+        ],
+        "explanation": "でした = past tense of です. きのう = yesterday. たんじょうびはきのうでした = Birthday was yesterday."
+      },
+      {
+        "question": "What is 水曜日?",
+        "answer": "Wednesday",
+        "options": [
+          "Wednesday",
+          "Monday",
+          "Friday",
+          "Saturday"
+        ],
+        "explanation": "水曜日 (すいようび) = Wednesday. 水 = water. Days: 月=Mon, 火=Tue, 水=Wed, 木=Thu, 金=Fri, 土=Sat, 日=Sun."
+      },
+      {
+        "question": "A: 今日は何曜日ですか。B: ___です。(It's Thursday.)",
+        "answer": "木曜日 (もくようび)",
+        "options": [
+          "木曜日 (もくようび)",
+          "水曜日 (すいようび)",
+          "金曜日 (きんようび)",
+          "土曜日 (どようび)"
+        ],
+        "explanation": "木曜日 (もくようび) = Thursday. 木 = tree/wood (木星 = Jupiter, Thor's planet!)."
+      },
+      {
+        "question": "How do you say 'How many months until your birthday?'",
+        "answer": "たんじょうびまでなんかげつですか。",
+        "options": [
+          "たんじょうびまでなんかげつですか。",
+          "たんじょうびになんかげつですか。",
+          "たんじょうびからなんかげつですか。",
+          "たんじょうびでなんかげつですか。"
+        ],
+        "explanation": "まで = until/to. なんかげつ = how many months. 〜までなんかげつ = how many months until ~."
+      }
+    ]
+  }
+}

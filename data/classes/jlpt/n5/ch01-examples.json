@@ -1,0 +1,282 @@
+{
+  "id": "ch01-examples",
+  "meta": {
+    "title": "Lesson 1: はじめまして — Dialogue & Examples",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "ch01-examples",
+    "subtopic": "Nice to Meet You",
+    "description": "Practical dialogues and sentences for Lesson 1: Nice to Meet You",
+    "icon": "👋",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "Self-introduction formula",
+        "back": "1. はじめまして。\n2. (name)です。\n3. (country/company)の(name)です。\n4. よろしくおねがいします。\n\nExample:\nはじめまして。IMCのミラーです。よろしくおねがいします。"
+      },
+      {
+        "front": "Asking nationality",
+        "back": "Q: 〜さんは___人ですか。\nA: はい、___人です。\n   いいえ、___人じゃありません。___人です。\n\nExample:\nA: ミラーさんはアメリカ人ですか。\nB: はい、そうです。"
+      },
+      {
+        "front": "Asking occupation",
+        "back": "Q: おしごとは？/ しごとはなんですか。\nA: 〜です。\n\nExample:\nA: おしごとは？\nB: エンジニアです。ABCのエンジニアです。"
+      },
+      {
+        "front": "Business card exchange",
+        "back": "When exchanging 名刺 (めいし = business card):\n1. Hand with both hands + slight bow\n2. はじめまして。(name)でございます。\n3. よろしくおねがいいたします。\nForever remember: never write on or stuff a card in pocket immediately!"
+      },
+      {
+        "front": "Key Lesson 1 dialogue",
+        "back": "ミラー：はじめまして。IMCのミラーです。よろしく。\n山田：山田です。よろしく。ミラーさんはアメリカ人ですか。\nミラー：はい、そうです。山田さんは？\n山田：わたしは日本人です。"
+      },
+      {
+        "front": "Polite vs casual",
+        "back": "Polite (です/ます): Use with strangers, superiors\nわたしは学生です。\n\nCasual (drop です): Use with close friends\nわたしは学生。\n\nAlways use polite form in Lesson 1 situations!"
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 25,
+      "questionsCount": 10
+    },
+    "items": [
+      {
+        "question": "Someone says はじめまして to you. What do you say back?",
+        "answer": "はじめまして。よろしくおねがいします。",
+        "options": [
+          "はじめまして。よろしくおねがいします。",
+          "ありがとうございます。",
+          "おはようございます。",
+          "さようなら。"
+        ],
+        "explanation": "はじめまして is reciprocal — you say it back, then add よろしくおねがいします."
+      },
+      {
+        "question": "Mr. Miller works at IMC. How does he introduce himself?",
+        "answer": "IMCのミラーです。",
+        "options": [
+          "IMCのミラーです。",
+          "ミラーのIMCです。",
+          "IMCはミラーです。",
+          "ミラーがIMCです。"
+        ],
+        "explanation": "Company/affiliation comes first with の: [company]の[name]です."
+      },
+      {
+        "question": "How do you ask 'Are you a teacher?'",
+        "answer": "せんせいですか。",
+        "options": [
+          "せんせいですか。",
+          "せんせいですね。",
+          "せんせいでしょう。",
+          "せんせいですよ。"
+        ],
+        "explanation": "Add か to a です statement to make a yes/no question."
+      },
+      {
+        "question": "Someone asks あなたはちゅうごく人ですか。You're Japanese. What do you say?",
+        "answer": "いいえ、ちがいます。日本人です。",
+        "options": [
+          "いいえ、ちがいます。日本人です。",
+          "はい、そうです。",
+          "いいえ、日本人じゃありません。",
+          "はい、ちがいます。"
+        ],
+        "explanation": "いいえ、ちがいます or いいえ、〜じゃありません are both correct polite denials."
+      },
+      {
+        "question": "Your colleague is also from France. Which sentence is correct?",
+        "answer": "マリーさんもフランス人です。",
+        "options": [
+          "マリーさんもフランス人です。",
+          "マリーさんはフランス人です。",
+          "マリーさんがフランス人です。",
+          "マリーさんのフランス人です。"
+        ],
+        "explanation": "も (also) replaces は when adding 'also/too'. 〜さんも〜です."
+      },
+      {
+        "question": "What does よろしくおねがいします mean in a first meeting?",
+        "answer": "Pleased to meet you / I'm in your care",
+        "options": [
+          "Pleased to meet you / I'm in your care",
+          "Thank you very much",
+          "Excuse me",
+          "Goodbye"
+        ],
+        "explanation": "よろしくおねがいします literally means 'please treat me well' — the standard phrase ending introductions."
+      },
+      {
+        "question": "Karina is Indonesian. Which nationality sentence is correct?",
+        "answer": "カリナさんはインドネシア人です。",
+        "options": [
+          "カリナさんはインドネシア人です。",
+          "カリナさんはインドネシアごです。",
+          "カリナさんのインドネシア人です。",
+          "カリナさんがインドネシアです。"
+        ],
+        "explanation": "〜人 (じん) is used for nationality. Country + 人 = person from that country."
+      },
+      {
+        "question": "How do you say 'I am not a researcher'?",
+        "answer": "わたしはけんきゅうしゃじゃありません。",
+        "options": [
+          "わたしはけんきゅうしゃじゃありません。",
+          "わたしはけんきゅうしゃです。",
+          "わたしがけんきゅうしゃじゃありません。",
+          "わたしのけんきゅうしゃじゃありません。"
+        ],
+        "explanation": "NはNじゃありません = N is not N. は marks topic; じゃありません = negative of です."
+      },
+      {
+        "question": "A person hands you their business card (名刺). What are they doing?",
+        "answer": "Introducing themselves / exchanging business cards",
+        "options": [
+          "Introducing themselves / exchanging business cards",
+          "Giving you a present",
+          "Asking for directions",
+          "Requesting help"
+        ],
+        "explanation": "名刺 (めいし) exchange is an important Japanese business introduction ritual."
+      },
+      {
+        "question": "What is the correct Japanese for 'Japanese language'?",
+        "answer": "にほんご (日本語)",
+        "options": [
+          "にほんご (日本語)",
+          "にほんじん (日本人)",
+          "にほん (日本)",
+          "にほんさん"
+        ],
+        "explanation": "〜語 (ご) = language. 日本語 = Japanese language. 日本人 = Japanese person."
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 12,
+      "questionsCount": 10
+    },
+    "items": [
+      {
+        "question": "Someone says はじめまして to you. What do you say back?",
+        "answer": "はじめまして。よろしくおねがいします。",
+        "options": [
+          "はじめまして。よろしくおねがいします。",
+          "ありがとうございます。",
+          "おはようございます。",
+          "さようなら。"
+        ],
+        "explanation": "はじめまして is reciprocal — you say it back, then add よろしくおねがいします."
+      },
+      {
+        "question": "Mr. Miller works at IMC. How does he introduce himself?",
+        "answer": "IMCのミラーです。",
+        "options": [
+          "IMCのミラーです。",
+          "ミラーのIMCです。",
+          "IMCはミラーです。",
+          "ミラーがIMCです。"
+        ],
+        "explanation": "Company/affiliation comes first with の: [company]の[name]です."
+      },
+      {
+        "question": "How do you ask 'Are you a teacher?'",
+        "answer": "せんせいですか。",
+        "options": [
+          "せんせいですか。",
+          "せんせいですね。",
+          "せんせいでしょう。",
+          "せんせいですよ。"
+        ],
+        "explanation": "Add か to a です statement to make a yes/no question."
+      },
+      {
+        "question": "Someone asks あなたはちゅうごく人ですか。You're Japanese. What do you say?",
+        "answer": "いいえ、ちがいます。日本人です。",
+        "options": [
+          "いいえ、ちがいます。日本人です。",
+          "はい、そうです。",
+          "いいえ、日本人じゃありません。",
+          "はい、ちがいます。"
+        ],
+        "explanation": "いいえ、ちがいます or いいえ、〜じゃありません are both correct polite denials."
+      },
+      {
+        "question": "Your colleague is also from France. Which sentence is correct?",
+        "answer": "マリーさんもフランス人です。",
+        "options": [
+          "マリーさんもフランス人です。",
+          "マリーさんはフランス人です。",
+          "マリーさんがフランス人です。",
+          "マリーさんのフランス人です。"
+        ],
+        "explanation": "も (also) replaces は when adding 'also/too'. 〜さんも〜です."
+      },
+      {
+        "question": "What does よろしくおねがいします mean in a first meeting?",
+        "answer": "Pleased to meet you / I'm in your care",
+        "options": [
+          "Pleased to meet you / I'm in your care",
+          "Thank you very much",
+          "Excuse me",
+          "Goodbye"
+        ],
+        "explanation": "よろしくおねがいします literally means 'please treat me well' — the standard phrase ending introductions."
+      },
+      {
+        "question": "Karina is Indonesian. Which nationality sentence is correct?",
+        "answer": "カリナさんはインドネシア人です。",
+        "options": [
+          "カリナさんはインドネシア人です。",
+          "カリナさんはインドネシアごです。",
+          "カリナさんのインドネシア人です。",
+          "カリナさんがインドネシアです。"
+        ],
+        "explanation": "〜人 (じん) is used for nationality. Country + 人 = person from that country."
+      },
+      {
+        "question": "How do you say 'I am not a researcher'?",
+        "answer": "わたしはけんきゅうしゃじゃありません。",
+        "options": [
+          "わたしはけんきゅうしゃじゃありません。",
+          "わたしはけんきゅうしゃです。",
+          "わたしがけんきゅうしゃじゃありません。",
+          "わたしのけんきゅうしゃじゃありません。"
+        ],
+        "explanation": "NはNじゃありません = N is not N. は marks topic; じゃありません = negative of です."
+      },
+      {
+        "question": "A person hands you their business card (名刺). What are they doing?",
+        "answer": "Introducing themselves / exchanging business cards",
+        "options": [
+          "Introducing themselves / exchanging business cards",
+          "Giving you a present",
+          "Asking for directions",
+          "Requesting help"
+        ],
+        "explanation": "名刺 (めいし) exchange is an important Japanese business introduction ritual."
+      },
+      {
+        "question": "What is the correct Japanese for 'Japanese language'?",
+        "answer": "にほんご (日本語)",
+        "options": [
+          "にほんご (日本語)",
+          "にほんじん (日本人)",
+          "にほん (日本)",
+          "にほんさん"
+        ],
+        "explanation": "〜語 (ご) = language. 日本語 = Japanese language. 日本人 = Japanese person."
+      }
+    ]
+  }
+}

@@ -1,0 +1,352 @@
+{
+  "id": "ch21-vocabulary",
+  "meta": {
+    "title": "Lesson 21: 誰でも利用できます — Vocabulary",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "ch21-vocabulary",
+    "subtopic": "Anyone Can Use It",
+    "description": "Vocabulary for Minna no Nihongo Lesson 21: Anyone Can Use It",
+    "icon": "✅",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "Potential form — Group 2 (ru-verbs)",
+        "back": "Replace る with られる:\n食べる → 食べられる (can eat)\n見る → 見られる (can see)\n起きる → 起きられる (can wake up)\n\nPolite: 食べられます (can eat)\nNegative: 食べられません (cannot eat)"
+      },
+      {
+        "front": "Potential form — Group 1 (u-verbs)",
+        "back": "Replace the u-sound with e-sound + る:\n書く (ku) → 書ける (keru) = can write\n読む (mu) → 読める (meru) = can read\n飲む → 飲める (can drink)\n話す → 話せる (can speak)\n\nPolite: 書けます (can write)"
+      },
+      {
+        "front": "Irregular potential forms",
+        "back": "する → できる (can do)\n来る → 来られる (korareru, can come)\n\nNote: できる is the most common!\n日本語ができます = can do Japanese = can speak Japanese\nスポーツができます = can do sports"
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "vocab",
+    "config": {
+      "answerMode": "mcq",
+      "optionsCount": 4,
+      "timeLimit": 20,
+      "questionsCount": 15
+    },
+    "items": [
+      {
+        "question": "できます",
+        "answer": "can do / is possible",
+        "options": [
+          "cannot do",
+          "can do / is possible",
+          "want to do",
+          "must do"
+        ]
+      },
+      {
+        "question": "〜ができます",
+        "answer": "can ~ / is able to ~",
+        "options": [
+          "can ~ / is able to ~",
+          "must ~",
+          "wants to ~",
+          "cannot ~"
+        ]
+      },
+      {
+        "question": "〜られます (Group 2 potential)",
+        "answer": "can ~ (ru-verb potential)",
+        "options": [
+          "must ~",
+          "wants to ~",
+          "can ~ (ru-verb potential)",
+          "has to ~"
+        ]
+      },
+      {
+        "question": "〜える (Group 1 potential)",
+        "answer": "can ~ (u-verb potential)",
+        "options": [
+          "must ~",
+          "has to ~",
+          "wants to ~",
+          "can ~ (u-verb potential)"
+        ]
+      },
+      {
+        "question": "だれでも",
+        "answer": "anyone / everyone",
+        "options": [
+          "someone",
+          "anyone / everyone",
+          "who?",
+          "no one"
+        ]
+      },
+      {
+        "question": "なんでも",
+        "answer": "anything / everything",
+        "options": [
+          "what?",
+          "something",
+          "nothing",
+          "anything / everything"
+        ]
+      },
+      {
+        "question": "どこでも",
+        "answer": "anywhere / everywhere",
+        "options": [
+          "where?",
+          "somewhere",
+          "anywhere / everywhere",
+          "nowhere"
+        ]
+      },
+      {
+        "question": "いつでも",
+        "answer": "anytime / always",
+        "options": [
+          "sometimes",
+          "never",
+          "when?",
+          "anytime / always"
+        ]
+      },
+      {
+        "question": "じゆうに (自由に)",
+        "answer": "freely / as you like",
+        "options": [
+          "slowly",
+          "restrictedly",
+          "carefully",
+          "freely / as you like"
+        ]
+      },
+      {
+        "question": "りようします (利用します)",
+        "answer": "to use / make use of",
+        "options": [
+          "to stop",
+          "to avoid",
+          "to use / make use of",
+          "to buy"
+        ]
+      },
+      {
+        "question": "つかいます (使います)",
+        "answer": "to use (a thing)",
+        "options": [
+          "to use (a thing)",
+          "to stop",
+          "to avoid",
+          "to repair"
+        ]
+      },
+      {
+        "question": "プール",
+        "answer": "swimming pool",
+        "options": [
+          "swimming pool",
+          "gym",
+          "court",
+          "park"
+        ]
+      },
+      {
+        "question": "えいご (英語)",
+        "answer": "English (language)",
+        "options": [
+          "Japanese",
+          "English (language)",
+          "Chinese",
+          "French"
+        ]
+      },
+      {
+        "question": "にほんご (日本語)",
+        "answer": "Japanese (language)",
+        "options": [
+          "French",
+          "English",
+          "Japanese (language)",
+          "Chinese"
+        ]
+      },
+      {
+        "question": "スポーツ",
+        "answer": "sport(s)",
+        "options": [
+          "study",
+          "sport(s)",
+          "music",
+          "art"
+        ]
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "vocab",
+    "config": {
+      "answerMode": "mcq",
+      "optionsCount": 4,
+      "timeLimit": 10,
+      "questionsCount": 15
+    },
+    "items": [
+      {
+        "question": "How do you say 'can do / is possible' in Japanese?",
+        "answer": "できます",
+        "options": [
+          "〜られます (Group 2 potential)",
+          "〜ができます",
+          "できます",
+          "〜える (Group 1 potential)"
+        ]
+      },
+      {
+        "question": "How do you say 'can ~ / is able to ~' in Japanese?",
+        "answer": "〜ができます",
+        "options": [
+          "〜ができます",
+          "できます",
+          "〜られます (Group 2 potential)",
+          "〜える (Group 1 potential)"
+        ]
+      },
+      {
+        "question": "How do you say 'can ~ (ru-verb potential)' in Japanese?",
+        "answer": "〜られます (Group 2 potential)",
+        "options": [
+          "〜られます (Group 2 potential)",
+          "〜える (Group 1 potential)",
+          "〜ができます",
+          "できます"
+        ]
+      },
+      {
+        "question": "How do you say 'can ~ (u-verb potential)' in Japanese?",
+        "answer": "〜える (Group 1 potential)",
+        "options": [
+          "〜える (Group 1 potential)",
+          "〜られます (Group 2 potential)",
+          "〜ができます",
+          "できます"
+        ]
+      },
+      {
+        "question": "How do you say 'anyone / everyone' in Japanese?",
+        "answer": "だれでも",
+        "options": [
+          "〜られます (Group 2 potential)",
+          "〜ができます",
+          "できます",
+          "だれでも"
+        ]
+      },
+      {
+        "question": "How do you say 'anything / everything' in Japanese?",
+        "answer": "なんでも",
+        "options": [
+          "なんでも",
+          "〜ができます",
+          "〜られます (Group 2 potential)",
+          "できます"
+        ]
+      },
+      {
+        "question": "How do you say 'anywhere / everywhere' in Japanese?",
+        "answer": "どこでも",
+        "options": [
+          "どこでも",
+          "〜ができます",
+          "できます",
+          "〜られます (Group 2 potential)"
+        ]
+      },
+      {
+        "question": "How do you say 'anytime / always' in Japanese?",
+        "answer": "いつでも",
+        "options": [
+          "できます",
+          "いつでも",
+          "〜ができます",
+          "〜られます (Group 2 potential)"
+        ]
+      },
+      {
+        "question": "How do you say 'freely / as you like' in Japanese?",
+        "answer": "じゆうに (自由に)",
+        "options": [
+          "〜ができます",
+          "できます",
+          "〜られます (Group 2 potential)",
+          "じゆうに (自由に)"
+        ]
+      },
+      {
+        "question": "How do you say 'to use / make use of' in Japanese?",
+        "answer": "りようします (利用します)",
+        "options": [
+          "できます",
+          "〜られます (Group 2 potential)",
+          "りようします (利用します)",
+          "〜ができます"
+        ]
+      },
+      {
+        "question": "How do you say 'to use (a thing)' in Japanese?",
+        "answer": "つかいます (使います)",
+        "options": [
+          "できます",
+          "つかいます (使います)",
+          "〜ができます",
+          "〜られます (Group 2 potential)"
+        ]
+      },
+      {
+        "question": "How do you say 'swimming pool' in Japanese?",
+        "answer": "プール",
+        "options": [
+          "〜られます (Group 2 potential)",
+          "できます",
+          "〜ができます",
+          "プール"
+        ]
+      },
+      {
+        "question": "How do you say 'English (language)' in Japanese?",
+        "answer": "えいご (英語)",
+        "options": [
+          "〜ができます",
+          "できます",
+          "〜られます (Group 2 potential)",
+          "えいご (英語)"
+        ]
+      },
+      {
+        "question": "How do you say 'Japanese (language)' in Japanese?",
+        "answer": "にほんご (日本語)",
+        "options": [
+          "〜られます (Group 2 potential)",
+          "〜ができます",
+          "できます",
+          "にほんご (日本語)"
+        ]
+      },
+      {
+        "question": "How do you say 'sport(s)' in Japanese?",
+        "answer": "スポーツ",
+        "options": [
+          "スポーツ",
+          "できます",
+          "〜ができます",
+          "〜られます (Group 2 potential)"
+        ]
+      }
+    ]
+  }
+}

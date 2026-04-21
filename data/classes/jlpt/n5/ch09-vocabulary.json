@@ -1,0 +1,422 @@
+{
+  "id": "ch09-vocabulary",
+  "meta": {
+    "title": "Lesson 9: 買い物をします — Vocabulary",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "ch09-vocabulary",
+    "subtopic": "Shopping",
+    "description": "Vocabulary for Minna no Nihongo Lesson 9: Shopping",
+    "icon": "🛍️",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "Frequency adverbs",
+        "back": "よく = often\nたいてい = usually\nときどき = sometimes\nあまり〜ない = not very often\nぜんぜん〜ない = not at all\n\nImportant: あまり and ぜんぜん MUST be followed by a NEGATIVE verb!"
+      },
+      {
+        "front": "Counters: flat things (〜枚)",
+        "back": "1枚 = いちまい\n2枚 = にまい\n3枚 = さんまい\n4枚 = よんまい\n5枚 = ごまい\n\nUsed for: paper, shirts, CDs, stamps, sliced bread, tickets"
+      },
+      {
+        "front": "Counters: long thin things (〜本)",
+        "back": "1本 = いっぽん\n2本 = にほん\n3本 = さんぼん\n4本 = よんほん\n5本 = ごほん\n6本 = ろっぽん\n\nUsed for: pens, bottles, bananas, rivers, roads, movies"
+      },
+      {
+        "front": "Counters: machines (〜台)",
+        "back": "1台 = いちだい\n2台 = にだい\n3台 = さんだい\n\nUsed for: cars, computers, washing machines, TVs, bicycles\n\nどのくらいかかりますか = How long/how much does it take?"
+      },
+      {
+        "front": "Counters: cups & books",
+        "back": "〜杯 (はい/ばい/ぱい) = cups/glasses/bowls\n1杯=いっぱい / 2杯=にはい / 3杯=さんばい\n\n〜冊 (さつ) = books/notebooks\n1冊=いっさつ / 2冊=にさつ / 3冊=さんさつ"
+      },
+      {
+        "front": "Counters: small animals (〜匹)",
+        "back": "〜匹 (ひき/びき/ぴき) = small animals (cats, dogs, fish)\n1匹=いっぴき / 2匹=にひき / 3匹=さんびき\n\nLarge animals use 〜頭 (とう):\n1頭=いっとう / 2頭=にとう (for elephants, horses, cows)\n\nBirds use 〜羽 (わ): 1羽=いちわ"
+      },
+      {
+        "front": "どのくらい / 〜かかります",
+        "back": "どのくらいかかりますか。\n= How long does it take? / How much does it cost?\n\n〜時間かかります = it takes ~ hours\n〜分かかります = it takes ~ minutes\n〜円かかります = it costs ~ yen\n\n東京から大阪まで新幹線で2時間半かかります。"
+      },
+      {
+        "front": "Buying & borrowing verbs",
+        "back": "買います (かいます) = to buy\n売ります (うります) = to sell\n借ります (かります) = to borrow/rent\n返します (かえします) = to return\n貸します (かします) = to lend\n\nNote: 借ります vs 貸します — easy to confuse!\n借りる = you receive / 貸す = you give"
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "vocab",
+    "config": {
+      "answerMode": "mcq",
+      "optionsCount": 4,
+      "timeLimit": 20,
+      "questionsCount": 15
+    },
+    "items": [
+      {
+        "question": "よく",
+        "answer": "often / frequently",
+        "options": [
+          "never",
+          "often / frequently",
+          "rarely",
+          "sometimes"
+        ]
+      },
+      {
+        "question": "たいてい",
+        "answer": "usually / generally",
+        "options": [
+          "rarely",
+          "sometimes",
+          "never",
+          "usually / generally"
+        ]
+      },
+      {
+        "question": "ときどき (時々)",
+        "answer": "sometimes",
+        "options": [
+          "usually",
+          "never",
+          "sometimes",
+          "always"
+        ]
+      },
+      {
+        "question": "あまり〜ない",
+        "answer": "not very often (with negative)",
+        "options": [
+          "usually",
+          "always",
+          "not very often (with negative)",
+          "sometimes"
+        ]
+      },
+      {
+        "question": "ぜんぜん〜ない (全然〜ない)",
+        "answer": "not at all (with negative)",
+        "options": [
+          "always",
+          "not at all (with negative)",
+          "sometimes",
+          "often"
+        ]
+      },
+      {
+        "question": "まい〜 (毎〜)",
+        "answer": "every ~ (prefix)",
+        "options": [
+          "rarely",
+          "every ~ (prefix)",
+          "sometimes",
+          "never"
+        ]
+      },
+      {
+        "question": "〜まい (〜枚)",
+        "answer": "counter: flat things (paper, shirts)",
+        "options": [
+          "counter for long things",
+          "counter: flat things (paper, shirts)",
+          "counter for machines",
+          "counter for small things"
+        ]
+      },
+      {
+        "question": "〜ほん/ぼん/ぽん (〜本)",
+        "answer": "counter: long thin things (pens, bottles)",
+        "options": [
+          "counter for books",
+          "counter: long thin things (pens, bottles)",
+          "counter for machines",
+          "counter for flat things"
+        ]
+      },
+      {
+        "question": "〜だい (〜台)",
+        "answer": "counter: machines/vehicles",
+        "options": [
+          "counter for books",
+          "counter for flat things",
+          "counter for long things",
+          "counter: machines/vehicles"
+        ]
+      },
+      {
+        "question": "〜こ (〜個)",
+        "answer": "counter: small round things",
+        "options": [
+          "counter: small round things",
+          "counter for long things",
+          "counter for machines",
+          "counter for flat things"
+        ]
+      },
+      {
+        "question": "〜さつ (〜冊)",
+        "answer": "counter: books/notebooks",
+        "options": [
+          "counter for machines",
+          "counter for long things",
+          "counter: books/notebooks",
+          "counter for flat things"
+        ]
+      },
+      {
+        "question": "〜はい/ばい/ぱい (〜杯)",
+        "answer": "counter: cups/glasses/bowls",
+        "options": [
+          "counter for bottles",
+          "counter for flat things",
+          "counter: cups/glasses/bowls",
+          "counter for plates"
+        ]
+      },
+      {
+        "question": "〜ひき/びき/ぴき (〜匹)",
+        "answer": "counter: small animals",
+        "options": [
+          "counter for birds",
+          "counter for large animals",
+          "counter: small animals",
+          "counter for fish"
+        ]
+      },
+      {
+        "question": "どのくらい",
+        "answer": "how long / how much / how many (extent)",
+        "options": [
+          "how much (price)",
+          "how many (exact)",
+          "how long / how much / how many (extent)",
+          "when?"
+        ]
+      },
+      {
+        "question": "〜かかります",
+        "answer": "it takes ~ (time/money)",
+        "options": [
+          "it takes ~ (time/money)",
+          "it needs ~",
+          "it costs ~",
+          "it gives ~"
+        ]
+      },
+      {
+        "question": "かいもの (買い物)",
+        "answer": "shopping",
+        "options": [
+          "cooking",
+          "shopping",
+          "gardening",
+          "cleaning"
+        ]
+      },
+      {
+        "question": "かいます (買います)",
+        "answer": "to buy",
+        "options": [
+          "to sell",
+          "to borrow",
+          "to buy",
+          "to lend"
+        ]
+      },
+      {
+        "question": "うります (売ります)",
+        "answer": "to sell",
+        "options": [
+          "to borrow",
+          "to sell",
+          "to give",
+          "to buy"
+        ]
+      },
+      {
+        "question": "かります (借ります)",
+        "answer": "to borrow / rent",
+        "options": [
+          "to buy",
+          "to borrow / rent",
+          "to lend",
+          "to return"
+        ]
+      },
+      {
+        "question": "かえします (返します)",
+        "answer": "to return (something)",
+        "options": [
+          "to borrow",
+          "to buy",
+          "to return (something)",
+          "to lend"
+        ]
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "vocab",
+    "config": {
+      "answerMode": "mcq",
+      "optionsCount": 4,
+      "timeLimit": 10,
+      "questionsCount": 15
+    },
+    "items": [
+      {
+        "question": "How do you say 'often / frequently' in Japanese?",
+        "answer": "よく",
+        "options": [
+          "ときどき (時々)",
+          "たいてい",
+          "あまり〜ない",
+          "よく"
+        ]
+      },
+      {
+        "question": "How do you say 'usually / generally' in Japanese?",
+        "answer": "たいてい",
+        "options": [
+          "たいてい",
+          "ときどき (時々)",
+          "よく",
+          "あまり〜ない"
+        ]
+      },
+      {
+        "question": "How do you say 'sometimes' in Japanese?",
+        "answer": "ときどき (時々)",
+        "options": [
+          "たいてい",
+          "よく",
+          "ときどき (時々)",
+          "あまり〜ない"
+        ]
+      },
+      {
+        "question": "How do you say 'not very often (with negative)' in Japanese?",
+        "answer": "あまり〜ない",
+        "options": [
+          "よく",
+          "たいてい",
+          "あまり〜ない",
+          "ときどき (時々)"
+        ]
+      },
+      {
+        "question": "How do you say 'not at all (with negative)' in Japanese?",
+        "answer": "ぜんぜん〜ない (全然〜ない)",
+        "options": [
+          "ときどき (時々)",
+          "ぜんぜん〜ない (全然〜ない)",
+          "たいてい",
+          "よく"
+        ]
+      },
+      {
+        "question": "How do you say 'every ~ (prefix)' in Japanese?",
+        "answer": "まい〜 (毎〜)",
+        "options": [
+          "まい〜 (毎〜)",
+          "よく",
+          "たいてい",
+          "ときどき (時々)"
+        ]
+      },
+      {
+        "question": "How do you say 'counter: flat things (paper, shirts)' in Japanese?",
+        "answer": "〜まい (〜枚)",
+        "options": [
+          "よく",
+          "ときどき (時々)",
+          "たいてい",
+          "〜まい (〜枚)"
+        ]
+      },
+      {
+        "question": "How do you say 'counter: long thin things (pens, bottles)' in Japanese?",
+        "answer": "〜ほん/ぼん/ぽん (〜本)",
+        "options": [
+          "たいてい",
+          "よく",
+          "〜ほん/ぼん/ぽん (〜本)",
+          "ときどき (時々)"
+        ]
+      },
+      {
+        "question": "How do you say 'counter: machines/vehicles' in Japanese?",
+        "answer": "〜だい (〜台)",
+        "options": [
+          "よく",
+          "たいてい",
+          "〜だい (〜台)",
+          "ときどき (時々)"
+        ]
+      },
+      {
+        "question": "How do you say 'counter: small round things' in Japanese?",
+        "answer": "〜こ (〜個)",
+        "options": [
+          "よく",
+          "〜こ (〜個)",
+          "たいてい",
+          "ときどき (時々)"
+        ]
+      },
+      {
+        "question": "How do you say 'counter: books/notebooks' in Japanese?",
+        "answer": "〜さつ (〜冊)",
+        "options": [
+          "よく",
+          "たいてい",
+          "ときどき (時々)",
+          "〜さつ (〜冊)"
+        ]
+      },
+      {
+        "question": "How do you say 'counter: cups/glasses/bowls' in Japanese?",
+        "answer": "〜はい/ばい/ぱい (〜杯)",
+        "options": [
+          "たいてい",
+          "ときどき (時々)",
+          "〜はい/ばい/ぱい (〜杯)",
+          "よく"
+        ]
+      },
+      {
+        "question": "How do you say 'counter: small animals' in Japanese?",
+        "answer": "〜ひき/びき/ぴき (〜匹)",
+        "options": [
+          "よく",
+          "たいてい",
+          "ときどき (時々)",
+          "〜ひき/びき/ぴき (〜匹)"
+        ]
+      },
+      {
+        "question": "How do you say 'how long / how much / how many (extent)' in Japanese?",
+        "answer": "どのくらい",
+        "options": [
+          "よく",
+          "どのくらい",
+          "ときどき (時々)",
+          "たいてい"
+        ]
+      },
+      {
+        "question": "How do you say 'it takes ~ (time/money)' in Japanese?",
+        "answer": "〜かかります",
+        "options": [
+          "〜かかります",
+          "たいてい",
+          "ときどき (時々)",
+          "よく"
+        ]
+      }
+    ]
+  }
+}

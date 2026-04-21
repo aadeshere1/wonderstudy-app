@@ -7,6 +7,8 @@ export interface QuestionDisplayProps {
   size?: 'sm' | 'md' | 'lg';
   isAnimating?: boolean;
   onSpeak?: () => void;
+  /** Inline SVG markup from the geometry plugin — rendered as a diagram above the question */
+  svgDiagram?: string;
 }
 
 /**
@@ -48,12 +50,27 @@ export const QuestionDisplay = ({
   icon,
   isAnimating = false,
   onSpeak,
+  svgDiagram,
 }: QuestionDisplayProps) => {
   return (
     <div className={`flex flex-col items-center gap-4 ${isAnimating ? 'animate-fadeUp' : ''}`}>
       {/* Optional icon above the question */}
       {icon && (
         <div className={`text-5xl ${isAnimating ? 'animate-bounce' : ''}`}>{icon}</div>
+      )}
+
+      {/* Geometry SVG diagram */}
+      {svgDiagram && (
+        <div
+          className="w-full max-w-xs mx-auto rounded-2xl overflow-hidden"
+          style={{
+            background: 'var(--ws-card2)',
+            border: '1.5px solid var(--ws-border)',
+            padding: '12px 8px 8px',
+            boxShadow: '0 4px 16px rgba(99,102,241,0.12)',
+          }}
+          dangerouslySetInnerHTML={{ __html: svgDiagram }}
+        />
       )}
 
       {/* Main question */}

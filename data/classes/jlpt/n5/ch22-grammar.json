@@ -1,0 +1,160 @@
+{
+  "id": "ch22-grammar",
+  "meta": {
+    "title": "Lesson 22: 日本に来たばかりです — Grammar",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "ch22-grammar",
+    "subtopic": "I Just Came to Japan",
+    "description": "Grammar patterns for Minna no Nihongo Lesson 22: I Just Came to Japan",
+    "icon": "🌸",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "〜たばかりです — Just did",
+        "back": "[verb た-form] + ばかりです = just did (very recently)\n\n日本に来たばかりです。\n= I just came to Japan.\n\nひるごはんを食べたばかりです。\n= I just ate lunch.\n\nImplies very recent action."
+      },
+      {
+        "front": "〜たことがあります — Have done before",
+        "back": "[verb た-form] + ことがあります = have done before\n\n富士山に登ったことがあります。\n= I have climbed Mt. Fuji before.\n\nすしを食べたことがありますか。\n= Have you ever eaten sushi?\n\nNegative: 〜たことがありません = have never done"
+      },
+      {
+        "front": "Comparing: ばかり vs ことがある",
+        "back": "〜たばかり = JUST did (very recent, specific past)\nさっき食べたばかりです。= I just ate a moment ago.\n\n〜たことがある = have experience of (anytime in the past)\n子どものとき、食べたことがあります。\n= I've eaten it before (as a child)."
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 25,
+      "questionsCount": 5
+    },
+    "items": [
+      {
+        "question": "日本に来た ___ です。(I just came to Japan.)",
+        "answer": "ばかり",
+        "options": [
+          "ばかり",
+          "ことがあります",
+          "ていません",
+          "てあります"
+        ],
+        "explanation": "〜たばかりです = just did. 来た (came, past) + ばかりです = just came."
+      },
+      {
+        "question": "富士山に登った ___ があります。(I have climbed Mt. Fuji before.)",
+        "answer": "こと",
+        "options": [
+          "こと",
+          "ばかり",
+          "まで",
+          "から"
+        ],
+        "explanation": "〜たことがあります = have done before. 登った (climbed) + ことがあります = have climbed."
+      },
+      {
+        "question": "A: すしを食べたことがありますか。B: いいえ、___ 。(No, I've never eaten it.)",
+        "answer": "たことがありません",
+        "options": [
+          "たことがありません",
+          "たばかりです",
+          "ていません",
+          "ませんでした"
+        ],
+        "explanation": "〜たことがありません = have never done. Negative experience form."
+      },
+      {
+        "question": "はじめて日本に来ました。This means:",
+        "answer": "I came to Japan for the first time.",
+        "options": [
+          "I came to Japan for the first time.",
+          "I just came to Japan.",
+          "I came to Japan again.",
+          "I have been to Japan before."
+        ],
+        "explanation": "はじめて = for the first time. はじめて日本に来ました = came to Japan for the first time."
+      },
+      {
+        "question": "I've visited Kyoto several times. Which is correct?",
+        "answer": "京都に何度か行ったことがあります。",
+        "options": [
+          "京都に何度か行ったことがあります。",
+          "京都に何度か行ったばかりです。",
+          "京都に何度かいきました。",
+          "京都に何度かいったことがありません。"
+        ],
+        "explanation": "〜たことがあります = have done before. 何度か = several times. 行った = went (past)."
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 12,
+      "questionsCount": 5
+    },
+    "items": [
+      {
+        "question": "日本に来た ___ です。(I just came to Japan.)",
+        "answer": "ばかり",
+        "options": [
+          "ばかり",
+          "ことがあります",
+          "ていません",
+          "てあります"
+        ],
+        "explanation": "〜たばかりです = just did. 来た (came, past) + ばかりです = just came."
+      },
+      {
+        "question": "富士山に登った ___ があります。(I have climbed Mt. Fuji before.)",
+        "answer": "こと",
+        "options": [
+          "こと",
+          "ばかり",
+          "まで",
+          "から"
+        ],
+        "explanation": "〜たことがあります = have done before. 登った (climbed) + ことがあります = have climbed."
+      },
+      {
+        "question": "A: すしを食べたことがありますか。B: いいえ、___ 。(No, I've never eaten it.)",
+        "answer": "たことがありません",
+        "options": [
+          "たことがありません",
+          "たばかりです",
+          "ていません",
+          "ませんでした"
+        ],
+        "explanation": "〜たことがありません = have never done. Negative experience form."
+      },
+      {
+        "question": "はじめて日本に来ました。This means:",
+        "answer": "I came to Japan for the first time.",
+        "options": [
+          "I came to Japan for the first time.",
+          "I just came to Japan.",
+          "I came to Japan again.",
+          "I have been to Japan before."
+        ],
+        "explanation": "はじめて = for the first time. はじめて日本に来ました = came to Japan for the first time."
+      },
+      {
+        "question": "I've visited Kyoto several times. Which is correct?",
+        "answer": "京都に何度か行ったことがあります。",
+        "options": [
+          "京都に何度か行ったことがあります。",
+          "京都に何度か行ったばかりです。",
+          "京都に何度かいきました。",
+          "京都に何度かいったことがありません。"
+        ],
+        "explanation": "〜たことがあります = have done before. 何度か = several times. 行った = went (past)."
+      }
+    ]
+  }
+}

@@ -1,0 +1,334 @@
+{
+  "id": "ch06-grammar",
+  "meta": {
+    "title": "Lesson 6: 富士山に登りましょう — Grammar",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "ch06-grammar",
+    "subtopic": "Let's Climb Mt. Fuji",
+    "description": "Grammar patterns for Minna no Nihongo Lesson 6: Let's Climb Mt. Fuji",
+    "icon": "🗻",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "Transportation",
+        "back": "でんしゃ (電車) = electric train\nバス = bus\nちかてつ (地下鉄) = subway\nタクシー = taxi\nひこうき (飛行機) = airplane\nふね (船) = ship\nくるま (車) = car\nじてんしゃ (自転車) = bicycle"
+      },
+      {
+        "front": "Transport verbs",
+        "back": "のります (乗ります) = to board/ride\nおります (降ります) = to get off\nあるきます (歩きます) = to walk\nのぼります (登ります) = to climb\n\nで = by (means): でんしゃで = by train\nに = onto: でんしゃに乗ります = board the train"
+      },
+      {
+        "front": "Invitation patterns",
+        "back": "〜ませんか = Won't you ~? (inviting someone)\n一緒に映画を見ませんか。\n= Won't you watch a movie together?\n\n〜ましょう = Let's ~! (agreement/suggestion)\n行きましょう！= Let's go!"
+      },
+      {
+        "front": "〜ましょうか",
+        "back": "〜ましょうか = Shall I ~? / Shall we ~?\n\nOffering help:\nかばんを持ちましょうか。\n= Shall I carry your bag?\n\nSuggesting together:\n一緒に行きましょうか。= Shall we go together?"
+      },
+      {
+        "front": "Soft refusals with ちょっと",
+        "back": "ちょっと... is used to politely decline invitations\nwithout saying NO directly.\n\nA: 映画を見ませんか。\nB: すみません、ちょっと...\n\nA: Won't you watch a movie?\nB: I'm sorry, it's a bit... (implying no)"
+      },
+      {
+        "front": "でから = and then / after doing",
+        "back": "[Verb て-form]から + [next action]\n\nでんしゃに乗ってから、バスに乗ります。\n= After taking the train, I take the bus.\n\nCan also use 〜てから for 'after doing':\n食べてから、歯を磨きます。\n= After eating, I brush my teeth."
+      },
+      {
+        "front": "て-form basics",
+        "back": "て-form is used to connect actions and make requests.\n\nGroup 1 (u-verbs): 〜って / 〜いて / 〜して\n飲む → 飲んで\n書く → 書いて\n\nGroup 2 (ru-verbs): 〜て\n食べる → 食べて\n見る → 見て\n\nIrregular:\nする → して\nくる → きて"
+      },
+      {
+        "front": "Key phrases for invitations",
+        "back": "一緒に〜ませんか。= Won't you ~ together?\nいいですね！= That sounds great!\nいいですよ。= That's fine / Sure.\nすみません、ちょっと... = Sorry, a bit difficult...\nまた今度。= Another time.\nぜひ！= By all means! / Definitely!"
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 25,
+      "questionsCount": 12
+    },
+    "items": [
+      {
+        "question": "一緒に映画を見 ___ か。(Won't you watch a movie with me?)",
+        "answer": "ません",
+        "options": [
+          "ません",
+          "ます",
+          "ましょう",
+          "ませんでした"
+        ],
+        "explanation": "〜ませんか = invitation 'Won't you ~?' Polite and indirect way to invite someone."
+      },
+      {
+        "question": "A: 行きませんか。B: ___！(Let's go!)",
+        "answer": "ええ、行きましょう",
+        "options": [
+          "ええ、行きましょう",
+          "いいえ、行きません",
+          "はい、行きました",
+          "いいえ、ちがいます"
+        ],
+        "explanation": "ましょう = Let's ~. Used to accept an invitation or make a suggestion."
+      },
+      {
+        "question": "でんしゃ ___ 行きます。(I go by train.)",
+        "answer": "で",
+        "options": [
+          "で",
+          "に",
+          "を",
+          "は"
+        ],
+        "explanation": "で marks the means of transport. でんしゃで = by train. Do not confuse with に which marks the destination."
+      },
+      {
+        "question": "えき ___ 電車に乗ります。(I board the train at the station.)",
+        "answer": "で",
+        "options": [
+          "で",
+          "に",
+          "を",
+          "から"
+        ],
+        "explanation": "で marks the location of an action. えきで = at the station (where the action of boarding happens)."
+      },
+      {
+        "question": "かばんを持ち ___ か。(Shall I carry your bag?)",
+        "answer": "ましょう",
+        "options": [
+          "ましょう",
+          "ません",
+          "ます",
+          "ました"
+        ],
+        "explanation": "〜ましょうか = Shall I ~? / Shall we ~? Used to offer help or make suggestions."
+      },
+      {
+        "question": "A: 映画を見ませんか。B: すみません、___... (soft refusal)",
+        "answer": "ちょっと",
+        "options": [
+          "ちょっと",
+          "たくさん",
+          "とても",
+          "よく"
+        ],
+        "explanation": "ちょっと... (trailing off) is the Japanese polite way to decline. Saying a direct 'no' can seem rude."
+      },
+      {
+        "question": "食べて ___ 、歯を磨きます。(After eating, I brush my teeth.)",
+        "answer": "から",
+        "options": [
+          "から",
+          "まで",
+          "に",
+          "で"
+        ],
+        "explanation": "〜てから = after doing ~. [Verb て-form] + から = after doing that action."
+      },
+      {
+        "question": "Which て-form is correct for 飲む (to drink)?",
+        "answer": "飲んで",
+        "options": [
+          "飲んで",
+          "飲いて",
+          "飲って",
+          "飲て"
+        ],
+        "explanation": "む → んで is one of the て-form rules. む/ぬ/ぶ → んで. So 飲む → 飲んで."
+      },
+      {
+        "question": "Which て-form is correct for 書く (to write)?",
+        "answer": "書いて",
+        "options": [
+          "書いて",
+          "書って",
+          "書んで",
+          "書て"
+        ],
+        "explanation": "く → いて is the て-form rule for く-ending verbs. 書く → 書いて. Exception: 行く → 行って (not 行いて)!"
+      },
+      {
+        "question": "Which て-form is correct for 食べる (to eat)?",
+        "answer": "食べて",
+        "options": [
+          "食べて",
+          "食べって",
+          "食べんで",
+          "食べいて"
+        ],
+        "explanation": "Group 2 (ru-verbs): just replace る with て. 食べる → 食べて. Simple!"
+      },
+      {
+        "question": "How do you say 'by bicycle'?",
+        "answer": "じてんしゃで",
+        "options": [
+          "じてんしゃで",
+          "じてんしゃに",
+          "じてんしゃを",
+          "じてんしゃが"
+        ],
+        "explanation": "で marks means of transport. じてんしゃで = by bicycle."
+      },
+      {
+        "question": "一緒に食事しませんか → You want to accept. What do you say?",
+        "answer": "ぜひ！一緒に食事しましょう！",
+        "options": [
+          "ぜひ！一緒に食事しましょう！",
+          "いいえ、ちょっと...",
+          "また今度。",
+          "すみません。"
+        ],
+        "explanation": "ぜひ = by all means / definitely! + ましょう = let's. Express enthusiasm when accepting invitations."
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 12,
+      "questionsCount": 12
+    },
+    "items": [
+      {
+        "question": "一緒に映画を見 ___ か。(Won't you watch a movie with me?)",
+        "answer": "ません",
+        "options": [
+          "ません",
+          "ます",
+          "ましょう",
+          "ませんでした"
+        ],
+        "explanation": "〜ませんか = invitation 'Won't you ~?' Polite and indirect way to invite someone."
+      },
+      {
+        "question": "A: 行きませんか。B: ___！(Let's go!)",
+        "answer": "ええ、行きましょう",
+        "options": [
+          "ええ、行きましょう",
+          "いいえ、行きません",
+          "はい、行きました",
+          "いいえ、ちがいます"
+        ],
+        "explanation": "ましょう = Let's ~. Used to accept an invitation or make a suggestion."
+      },
+      {
+        "question": "でんしゃ ___ 行きます。(I go by train.)",
+        "answer": "で",
+        "options": [
+          "で",
+          "に",
+          "を",
+          "は"
+        ],
+        "explanation": "で marks the means of transport. でんしゃで = by train. Do not confuse with に which marks the destination."
+      },
+      {
+        "question": "えき ___ 電車に乗ります。(I board the train at the station.)",
+        "answer": "で",
+        "options": [
+          "で",
+          "に",
+          "を",
+          "から"
+        ],
+        "explanation": "で marks the location of an action. えきで = at the station (where the action of boarding happens)."
+      },
+      {
+        "question": "かばんを持ち ___ か。(Shall I carry your bag?)",
+        "answer": "ましょう",
+        "options": [
+          "ましょう",
+          "ません",
+          "ます",
+          "ました"
+        ],
+        "explanation": "〜ましょうか = Shall I ~? / Shall we ~? Used to offer help or make suggestions."
+      },
+      {
+        "question": "A: 映画を見ませんか。B: すみません、___... (soft refusal)",
+        "answer": "ちょっと",
+        "options": [
+          "ちょっと",
+          "たくさん",
+          "とても",
+          "よく"
+        ],
+        "explanation": "ちょっと... (trailing off) is the Japanese polite way to decline. Saying a direct 'no' can seem rude."
+      },
+      {
+        "question": "食べて ___ 、歯を磨きます。(After eating, I brush my teeth.)",
+        "answer": "から",
+        "options": [
+          "から",
+          "まで",
+          "に",
+          "で"
+        ],
+        "explanation": "〜てから = after doing ~. [Verb て-form] + から = after doing that action."
+      },
+      {
+        "question": "Which て-form is correct for 飲む (to drink)?",
+        "answer": "飲んで",
+        "options": [
+          "飲んで",
+          "飲いて",
+          "飲って",
+          "飲て"
+        ],
+        "explanation": "む → んで is one of the て-form rules. む/ぬ/ぶ → んで. So 飲む → 飲んで."
+      },
+      {
+        "question": "Which て-form is correct for 書く (to write)?",
+        "answer": "書いて",
+        "options": [
+          "書いて",
+          "書って",
+          "書んで",
+          "書て"
+        ],
+        "explanation": "く → いて is the て-form rule for く-ending verbs. 書く → 書いて. Exception: 行く → 行って (not 行いて)!"
+      },
+      {
+        "question": "Which て-form is correct for 食べる (to eat)?",
+        "answer": "食べて",
+        "options": [
+          "食べて",
+          "食べって",
+          "食べんで",
+          "食べいて"
+        ],
+        "explanation": "Group 2 (ru-verbs): just replace る with て. 食べる → 食べて. Simple!"
+      },
+      {
+        "question": "How do you say 'by bicycle'?",
+        "answer": "じてんしゃで",
+        "options": [
+          "じてんしゃで",
+          "じてんしゃに",
+          "じてんしゃを",
+          "じてんしゃが"
+        ],
+        "explanation": "で marks means of transport. じてんしゃで = by bicycle."
+      },
+      {
+        "question": "一緒に食事しませんか → You want to accept. What do you say?",
+        "answer": "ぜひ！一緒に食事しましょう！",
+        "options": [
+          "ぜひ！一緒に食事しましょう！",
+          "いいえ、ちょっと...",
+          "また今度。",
+          "すみません。"
+        ],
+        "explanation": "ぜひ = by all means / definitely! + ましょう = let's. Express enthusiasm when accepting invitations."
+      }
+    ]
+  }
+}

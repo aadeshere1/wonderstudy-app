@@ -1,0 +1,160 @@
+{
+  "id": "ch15-grammar",
+  "meta": {
+    "title": "Lesson 15: 少し疲れました — Grammar",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "ch15-grammar",
+    "subtopic": "I'm a Little Tired",
+    "description": "Grammar patterns for Minna no Nihongo Lesson 15: I'm a Little Tired",
+    "icon": "😴",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "〜てしまいました — Regret or completion",
+        "back": "〜てしまいました = unfortunately did / ended up doing\n\nかぎをわすれてしまいました。\n= I unfortunately forgot my key.\n\nお金をぜんぶつかってしまいました。\n= I ended up spending all my money.\n\nExpresses regret or that something is completely done (sometimes unwanted)."
+      },
+      {
+        "front": "〜なければなりません — Must / Have to",
+        "back": "〜なければなりません = must do (obligation)\n\nVerb negative stem + なければなりません\n行く → 行かなければなりません\n= must go\n\nShort form (spoken): 〜なきゃ\n行かなきゃ = I gotta go"
+      },
+      {
+        "front": "〜なくてもいいです — Don't have to",
+        "back": "〜なくてもいいです = don't have to do\n\nVerb neg て-form + もいいです\n行かなくてもいいです = don't have to go\n\nCompare:\n〜なければなりません = MUST do\n〜なくてもいいです = DON'T have to"
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 25,
+      "questionsCount": 5
+    },
+    "items": [
+      {
+        "question": "まいにちくすりを飲ま ___ ならない。(I must take medicine every day.)",
+        "answer": "なければ",
+        "options": [
+          "なければ",
+          "なくて",
+          "ないで",
+          "なくても"
+        ],
+        "explanation": "〜なければなりません = must do. Verb neg. stem: 飲む → 飲まない → 飲まなければなりません."
+      },
+      {
+        "question": "あしたはこなく ___ いいです。(You don't have to come tomorrow.)",
+        "answer": "ても",
+        "options": [
+          "ても",
+          "ては",
+          "てから",
+          "てきて"
+        ],
+        "explanation": "〜なくてもいいです = don't have to. こない → こなくても + いいです."
+      },
+      {
+        "question": "かぎをわすれて ___ 。(I unfortunately forgot my key.)",
+        "answer": "しまいました",
+        "options": [
+          "しまいました",
+          "ください",
+          "もいいです",
+          "おきました"
+        ],
+        "explanation": "〜てしまいました = unfortunately did / ended up doing (with regret)."
+      },
+      {
+        "question": "かぜをひい ___ 。(I caught a cold.)",
+        "answer": "てしまいました",
+        "options": [
+          "てしまいました",
+          "てください",
+          "てもいいです",
+          "ておきます"
+        ],
+        "explanation": "かぜをひく → ひいてしまいました. てしまいました expresses the unwanted result (catching a cold)."
+      },
+      {
+        "question": "Which means 'You don't have to eat'?",
+        "answer": "たべなくてもいいです",
+        "options": [
+          "たべなくてもいいです",
+          "たべなければなりません",
+          "たべてはいけません",
+          "たべてください"
+        ],
+        "explanation": "〜なくてもいいです = don't have to do. たべなくても = even without eating."
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 12,
+      "questionsCount": 5
+    },
+    "items": [
+      {
+        "question": "まいにちくすりを飲ま ___ ならない。(I must take medicine every day.)",
+        "answer": "なければ",
+        "options": [
+          "なければ",
+          "なくて",
+          "ないで",
+          "なくても"
+        ],
+        "explanation": "〜なければなりません = must do. Verb neg. stem: 飲む → 飲まない → 飲まなければなりません."
+      },
+      {
+        "question": "あしたはこなく ___ いいです。(You don't have to come tomorrow.)",
+        "answer": "ても",
+        "options": [
+          "ても",
+          "ては",
+          "てから",
+          "てきて"
+        ],
+        "explanation": "〜なくてもいいです = don't have to. こない → こなくても + いいです."
+      },
+      {
+        "question": "かぎをわすれて ___ 。(I unfortunately forgot my key.)",
+        "answer": "しまいました",
+        "options": [
+          "しまいました",
+          "ください",
+          "もいいです",
+          "おきました"
+        ],
+        "explanation": "〜てしまいました = unfortunately did / ended up doing (with regret)."
+      },
+      {
+        "question": "かぜをひい ___ 。(I caught a cold.)",
+        "answer": "てしまいました",
+        "options": [
+          "てしまいました",
+          "てください",
+          "てもいいです",
+          "ておきます"
+        ],
+        "explanation": "かぜをひく → ひいてしまいました. てしまいました expresses the unwanted result (catching a cold)."
+      },
+      {
+        "question": "Which means 'You don't have to eat'?",
+        "answer": "たべなくてもいいです",
+        "options": [
+          "たべなくてもいいです",
+          "たべなければなりません",
+          "たべてはいけません",
+          "たべてください"
+        ],
+        "explanation": "〜なくてもいいです = don't have to do. たべなくても = even without eating."
+      }
+    ]
+  }
+}

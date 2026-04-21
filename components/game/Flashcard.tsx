@@ -15,11 +15,76 @@ export interface FlashcardProps {
 /** Pick a font-size that fits the text length comfortably in the card. */
 function pickFontSize(text: string): string {
   const len = text.length;
-  if (len > 200) return 'clamp(0.85rem,2.5vw,1.1rem)';
-  if (len > 100) return 'clamp(1rem,3vw,1.4rem)';
+  if (len > 200) return 'clamp(0.85rem,2.5vw,1.05rem)';
+  if (len > 100) return 'clamp(1rem,3vw,1.3rem)';
   if (len > 50)  return 'clamp(1.2rem,4vw,1.8rem)';
   if (len > 20)  return 'clamp(1.5rem,5vw,2.4rem)';
   return 'clamp(2rem,7vw,3.5rem)';
+}
+
+/**
+ * Render flashcard text with nice formatting:
+ * - Lines starting with "•" → styled bullet rows
+ * - Lines starting with "Tip:" → dimmed italic note
+ * - Everything else → normal paragraph
+ * - Plain text (no bullets) → white-space pre-line, centred
+ */
+function FlashcardText({ text, fontSize }: { text: string; fontSize: string }) {
+  const lines = text.split('\n').map(l => l.trim()).filter(Boolean);
+  const hasBullets = lines.some(l => l.startsWith('•'));
+
+  if (!hasBullets) {
+    return (
+      <p style={{ fontSize, whiteSpace: 'pre-line', textAlign: 'center', lineHeight: 1.5, margin: 0 }}>
+        {text}
+      </p>
+    );
+  }
+
+  return (
+    <div style={{ fontSize, width: '100%', display: 'flex', flexDirection: 'column', gap: 6 }}>
+      {lines.map((line, i) => {
+        if (line.startsWith('•')) {
+          const content = line.slice(1).trim();
+          return (
+            <div
+              key={i}
+              style={{
+                display: 'flex',
+                alignItems: 'baseline',
+                gap: 8,
+                padding: '5px 10px',
+                borderRadius: 8,
+                background: 'rgba(99,102,241,0.08)',
+                lineHeight: 1.45,
+              }}
+            >
+              <span style={{ color: '#a78bfa', flexShrink: 0, fontSize: '0.9em' }}>●</span>
+              <span style={{ color: 'var(--ws-text)' }}>{content}</span>
+            </div>
+          );
+        }
+        // Tip / section note
+        const isTip = line.toLowerCase().startsWith('tip:') || line.toLowerCase().startsWith('note:');
+        return (
+          <p
+            key={i}
+            style={{
+              margin: '4px 0 0',
+              lineHeight: 1.5,
+              fontSize: '0.88em',
+              color: isTip ? 'var(--ws-text-muted)' : 'var(--ws-text)',
+              fontStyle: isTip ? 'italic' : 'normal',
+              textAlign: 'center',
+              padding: isTip ? '4px 8px' : undefined,
+            }}
+          >
+            {line}
+          </p>
+        );
+      })}
+    </div>
+  );
 }
 
 export const Flashcard = ({
@@ -115,10 +180,10 @@ export const Flashcard = ({
 
             {/* scrollable content */}
             <div
-              className="w-full overflow-y-auto text-center font-display text-theme leading-snug"
-              style={{ fontSize: pickFontSize(front), maxHeight: '100%' }}
+              className="w-full overflow-y-auto font-display text-theme"
+              style={{ maxHeight: '100%' }}
             >
-              {front}
+              <FlashcardText text={front} fontSize={pickFontSize(front)} />
             </div>
 
             {hint && (
@@ -141,7 +206,7 @@ export const Flashcard = ({
 
           {/* ── BACK ── */}
           <div
-            className="absolute inset-0 rounded-2xl flex flex-col items-center justify-center p-6 overflow-hidden"
+            className="absolute inset-0 rounded-2xl flex flex-col p-6 overflow-hidden"
             style={{
               backfaceVisibility: 'hidden',
               transform: 'rotateY(180deg)',
@@ -152,7 +217,7 @@ export const Flashcard = ({
           >
             {/* label */}
             <div
-              className="absolute top-3 left-4 text-xs font-bold uppercase tracking-widest px-2 py-0.5 rounded-full"
+              className="text-xs font-bold uppercase tracking-widest px-2 py-0.5 rounded-full self-start mb-3 flex-shrink-0"
               style={{ background: 'rgba(52,211,153,0.2)', color: '#34d399' }}
             >
               Answer
@@ -160,15 +225,15 @@ export const Flashcard = ({
 
             {/* scrollable content */}
             <div
-              className="w-full overflow-y-auto text-center font-display text-theme leading-snug"
-              style={{ fontSize: pickFontSize(back), maxHeight: '100%' }}
+              className="w-full flex-1 overflow-y-auto font-display text-theme"
+              style={{ minHeight: 0 }}
             >
-              {back}
+              <FlashcardText text={back} fontSize={pickFontSize(back)} />
             </div>
 
             {/* tap hint */}
             <div
-              className="absolute bottom-3 right-4 text-xs"
+              className="flex-shrink-0 text-right text-xs mt-2"
               style={{ color: 'var(--ws-text-dim)' }}
             >
               Tap to flip ↑

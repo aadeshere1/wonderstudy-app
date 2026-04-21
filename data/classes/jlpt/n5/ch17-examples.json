@@ -1,0 +1,116 @@
+{
+  "id": "ch17-examples",
+  "meta": {
+    "title": "Lesson 17: ちょっと待ってください — Dialogue & Examples",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "ch17-examples",
+    "subtopic": "Please Wait a Moment",
+    "description": "Practical dialogues and sentences for Lesson 17: Please Wait a Moment",
+    "icon": "✋",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "Polite requests: 〜ていただけませんか",
+        "back": "Very polite request: could you please ~?\n\nもう一度言っていただけませんか。\n= Could you please say it one more time?\n\nゆっくり話していただけませんか。\n= Could you please speak slowly?\n\nMore formal than 〜てください"
+      },
+      {
+        "front": "〜てくれませんか (friendly request)",
+        "back": "Friendly/casual request: won't you ~ for me?\n\nちょっと待ってくれませんか。\n= Won't you wait a moment?\n\nLess formal than 〜ていただけませんか\nMore personal/direct"
+      },
+      {
+        "front": "Communication adverbs",
+        "back": "ゆっくり = slowly\nはっきり = clearly\nもう一度 = one more time\nもう少し = a little more\n大きい声で = in a loud voice\n小さい声で = in a quiet voice\n日本語で = in Japanese"
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 25,
+      "questionsCount": 3
+    },
+    "items": [
+      {
+        "question": "In a meeting, you didn't understand. What do you say?",
+        "answer": "もう一度言っていただけませんか。",
+        "options": [
+          "もう一度言っていただけませんか。",
+          "もう一度いってください。",
+          "もう一度いいですか。",
+          "わかりません。"
+        ],
+        "explanation": "〜ていただけませんか is the most polite way to request repetition in formal settings."
+      },
+      {
+        "question": "A friend is speaking too fast. What do you ask?",
+        "answer": "もう少しゆっくり話してくれませんか。",
+        "options": [
+          "もう少しゆっくり話してくれませんか。",
+          "もう少しゆっくり話していただけませんか。",
+          "もう少しゆっくり話してください。",
+          "All are possible depending on relationship"
+        ],
+        "explanation": "All three work! くれませんか = casual (with friends), いただけませんか = formal, ください = neutral."
+      },
+      {
+        "question": "What does はっきり言ってください mean?",
+        "answer": "Please say it clearly.",
+        "options": [
+          "Please say it clearly.",
+          "Please say it slowly.",
+          "Please say it again.",
+          "Please say it quietly."
+        ],
+        "explanation": "はっきり = clearly/distinctly. はっきり言う = say clearly. はっきり言ってください = please say it clearly."
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 12,
+      "questionsCount": 3
+    },
+    "items": [
+      {
+        "question": "In a meeting, you didn't understand. What do you say?",
+        "answer": "もう一度言っていただけませんか。",
+        "options": [
+          "もう一度言っていただけませんか。",
+          "もう一度いってください。",
+          "もう一度いいですか。",
+          "わかりません。"
+        ],
+        "explanation": "〜ていただけませんか is the most polite way to request repetition in formal settings."
+      },
+      {
+        "question": "A friend is speaking too fast. What do you ask?",
+        "answer": "もう少しゆっくり話してくれませんか。",
+        "options": [
+          "もう少しゆっくり話してくれませんか。",
+          "もう少しゆっくり話していただけませんか。",
+          "もう少しゆっくり話してください。",
+          "All are possible depending on relationship"
+        ],
+        "explanation": "All three work! くれませんか = casual (with friends), いただけませんか = formal, ください = neutral."
+      },
+      {
+        "question": "What does はっきり言ってください mean?",
+        "answer": "Please say it clearly.",
+        "options": [
+          "Please say it clearly.",
+          "Please say it slowly.",
+          "Please say it again.",
+          "Please say it quietly."
+        ],
+        "explanation": "はっきり = clearly/distinctly. はっきり言う = say clearly. はっきり言ってください = please say it clearly."
+      }
+    ]
+  }
+}

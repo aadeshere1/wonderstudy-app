@@ -1,0 +1,116 @@
+{
+  "id": "ch20-examples",
+  "meta": {
+    "title": "Lesson 20: 道を教えてください — Dialogue & Examples",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "ch20-examples",
+    "subtopic": "Please Tell Me the Way",
+    "description": "Practical dialogues and sentences for Lesson 20: Please Tell Me the Way",
+    "icon": "🗺️",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "Giving directions with て-form",
+        "back": "Chain directions with て-form:\nまっすぐ行って、\n= Go straight, then\nかどを右に曲がって、\n= turn right at the corner, then\nはしをわたると、右手にあります。\n= cross the bridge and it's on the right."
+      },
+      {
+        "front": "〜と、〜 (when you do X, Y happens)",
+        "back": "[action] + と + [result/discovery]\n\nこのみちをまっすぐ行くと、えきがあります。\n= If you go straight on this road, you'll find the station.\n\nかどを曲がると、すぐ見えます。\n= When you turn the corner, you can see it right away."
+      },
+      {
+        "front": "Directional phrases",
+        "back": "Right side: みぎ / 右て (みぎて)\nLeft side: ひだり / 左て (ひだりて)\nStraight: まっすぐ\nOver there: むこう\n\nDistance:\n〜メートル先 = ~ metres ahead\n〜分ぐらい = about ~ minutes (walking)"
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 25,
+      "questionsCount": 3
+    },
+    "items": [
+      {
+        "question": "Someone asks you where the station is. Give directions: 'Go straight and turn left at the corner.'",
+        "answer": "まっすぐ行って、かどをひだりに曲がってください。",
+        "options": [
+          "まっすぐ行って、かどをひだりに曲がってください。",
+          "まっすぐ行って、かどをみぎに曲がってください。",
+          "まっすぐ行きます、かどをひだりに曲がります。",
+          "かどをひだりに曲がって、まっすぐ行ってください。"
+        ],
+        "explanation": "Te-form chain: 行って + 曲がってください. Left = ひだり. を marks what you turn at."
+      },
+      {
+        "question": "How do you ask 'Is it far from here?'",
+        "answer": "ここからとおいですか。",
+        "options": [
+          "ここからとおいですか。",
+          "ここにとおいですか。",
+          "ここでとおいですか。",
+          "ここをとおいですか。"
+        ],
+        "explanation": "から marks starting point. ここから = from here. とおいですか = is it far?"
+      },
+      {
+        "question": "The bank is 200 metres from the station. How do you describe this?",
+        "answer": "えきから200メートルのところにぎんこうがあります。",
+        "options": [
+          "えきから200メートルのところにぎんこうがあります。",
+          "えきに200メートルのところにぎんこうがあります。",
+          "えきで200メートルのところにぎんこうがあります。",
+          "えきまで200メートルのところにぎんこうがあります。"
+        ],
+        "explanation": "から marks distance from a point. 〜のところに = at the place of ~. あります = there is."
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 12,
+      "questionsCount": 3
+    },
+    "items": [
+      {
+        "question": "Someone asks you where the station is. Give directions: 'Go straight and turn left at the corner.'",
+        "answer": "まっすぐ行って、かどをひだりに曲がってください。",
+        "options": [
+          "まっすぐ行って、かどをひだりに曲がってください。",
+          "まっすぐ行って、かどをみぎに曲がってください。",
+          "まっすぐ行きます、かどをひだりに曲がります。",
+          "かどをひだりに曲がって、まっすぐ行ってください。"
+        ],
+        "explanation": "Te-form chain: 行って + 曲がってください. Left = ひだり. を marks what you turn at."
+      },
+      {
+        "question": "How do you ask 'Is it far from here?'",
+        "answer": "ここからとおいですか。",
+        "options": [
+          "ここからとおいですか。",
+          "ここにとおいですか。",
+          "ここでとおいですか。",
+          "ここをとおいですか。"
+        ],
+        "explanation": "から marks starting point. ここから = from here. とおいですか = is it far?"
+      },
+      {
+        "question": "The bank is 200 metres from the station. How do you describe this?",
+        "answer": "えきから200メートルのところにぎんこうがあります。",
+        "options": [
+          "えきから200メートルのところにぎんこうがあります。",
+          "えきに200メートルのところにぎんこうがあります。",
+          "えきで200メートルのところにぎんこうがあります。",
+          "えきまで200メートルのところにぎんこうがあります。"
+        ],
+        "explanation": "から marks distance from a point. 〜のところに = at the place of ~. あります = there is."
+      }
+    ]
+  }
+}

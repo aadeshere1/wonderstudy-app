@@ -1,0 +1,352 @@
+{
+  "id": "ch19-vocabulary",
+  "meta": {
+    "title": "Lesson 19: 旅行はどうでしたか — Vocabulary",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "ch19-vocabulary",
+    "subtopic": "How Was Your Trip?",
+    "description": "Vocabulary for Minna no Nihongo Lesson 19: How Was Your Trip?",
+    "icon": "✈️",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "い-adjective past tense",
+        "back": "Positive past: drop い + かった + です\nおいしい → おいしかったです (was delicious)\nたのしい → たのしかったです (was fun)\n\nNegative past: drop い + くなかった + です\nたかい → たかくなかったです (was not expensive)\n\nException: いい → よかったです (was good)"
+      },
+      {
+        "front": "な-adjective / noun past tense",
+        "back": "Positive past: Nでした / な-adjadj + でした\nきれいでした (was beautiful)\nしずかでした (was quiet)\n\nNegative past: じゃなかったです / ではなかったです\nきれいじゃなかったです (was not beautiful)\n\nNoun: 学生でした (was a student)"
+      },
+      {
+        "front": "Talking about past experiences",
+        "back": "どうでしたか = how was it?\n→ とてもよかったです！= It was very good!\n→ まあまあでした。= It was so-so.\n→ あまりよくなかったです。= Not very good.\n\nかんそうはどうですか = What are your thoughts?"
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "vocab",
+    "config": {
+      "answerMode": "mcq",
+      "optionsCount": 4,
+      "timeLimit": 20,
+      "questionsCount": 15
+    },
+    "items": [
+      {
+        "question": "どうでしたか",
+        "answer": "how was it?",
+        "options": [
+          "how is it?",
+          "where is it?",
+          "how was it?",
+          "what is it?"
+        ]
+      },
+      {
+        "question": "〜かったです",
+        "answer": "was ~ (い-adjective past positive)",
+        "options": [
+          "will be ~",
+          "was not ~",
+          "was ~ (い-adjective past positive)",
+          "is ~"
+        ]
+      },
+      {
+        "question": "〜くなかったです",
+        "answer": "was not ~ (い-adj past negative)",
+        "options": [
+          "will be ~",
+          "is ~",
+          "was ~",
+          "was not ~ (い-adj past negative)"
+        ]
+      },
+      {
+        "question": "〜でした",
+        "answer": "was ~ (noun/な-adj past positive)",
+        "options": [
+          "is ~",
+          "will be ~",
+          "was ~ (noun/な-adj past positive)",
+          "was not ~"
+        ]
+      },
+      {
+        "question": "〜じゃなかったです",
+        "answer": "was not ~ (noun/な-adj past negative)",
+        "options": [
+          "is ~",
+          "was ~",
+          "was not ~ (noun/な-adj past negative)",
+          "will be ~"
+        ]
+      },
+      {
+        "question": "りょこう (旅行)",
+        "answer": "trip / travel",
+        "options": [
+          "stay",
+          "walk",
+          "trip / travel",
+          "commute"
+        ]
+      },
+      {
+        "question": "かんそう (感想)",
+        "answer": "impression / thoughts",
+        "options": [
+          "schedule",
+          "result",
+          "impression / thoughts",
+          "plan"
+        ]
+      },
+      {
+        "question": "たのしかった (楽しかった)",
+        "answer": "was fun / enjoyable (past)",
+        "options": [
+          "will be fun",
+          "not fun",
+          "was fun / enjoyable (past)",
+          "is fun"
+        ]
+      },
+      {
+        "question": "すばらしかった (素晴らしかった)",
+        "answer": "was wonderful / magnificent",
+        "options": [
+          "was wonderful / magnificent",
+          "was boring",
+          "was ordinary",
+          "was bad"
+        ]
+      },
+      {
+        "question": "きれいでした",
+        "answer": "was beautiful / clean (past)",
+        "options": [
+          "is beautiful",
+          "was beautiful / clean (past)",
+          "was dirty",
+          "will be beautiful"
+        ]
+      },
+      {
+        "question": "にぎやかでした",
+        "answer": "was lively / bustling (past)",
+        "options": [
+          "was fun",
+          "was quiet",
+          "was beautiful",
+          "was lively / bustling (past)"
+        ]
+      },
+      {
+        "question": "しずかでした (静かでした)",
+        "answer": "was quiet / peaceful (past)",
+        "options": [
+          "was noisy",
+          "was busy",
+          "was quiet / peaceful (past)",
+          "was lively"
+        ]
+      },
+      {
+        "question": "てんきがよかった (天気がよかった)",
+        "answer": "the weather was good",
+        "options": [
+          "the weather was bad",
+          "the weather was hot",
+          "the weather was cold",
+          "the weather was good"
+        ]
+      },
+      {
+        "question": "たべもの (食べ物)",
+        "answer": "food",
+        "options": [
+          "drink",
+          "food",
+          "snack",
+          "dessert"
+        ]
+      },
+      {
+        "question": "おもいで (思い出)",
+        "answer": "memory / recollection",
+        "options": [
+          "memory / recollection",
+          "future",
+          "plan",
+          "schedule"
+        ]
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "vocab",
+    "config": {
+      "answerMode": "mcq",
+      "optionsCount": 4,
+      "timeLimit": 10,
+      "questionsCount": 15
+    },
+    "items": [
+      {
+        "question": "How do you say 'how was it?' in Japanese?",
+        "answer": "どうでしたか",
+        "options": [
+          "〜くなかったです",
+          "どうでしたか",
+          "〜でした",
+          "〜かったです"
+        ]
+      },
+      {
+        "question": "How do you say 'was ~ (い-adjective past positive)' in Japanese?",
+        "answer": "〜かったです",
+        "options": [
+          "〜くなかったです",
+          "どうでしたか",
+          "〜かったです",
+          "〜でした"
+        ]
+      },
+      {
+        "question": "How do you say 'was not ~ (い-adj past negative)' in Japanese?",
+        "answer": "〜くなかったです",
+        "options": [
+          "どうでしたか",
+          "〜でした",
+          "〜かったです",
+          "〜くなかったです"
+        ]
+      },
+      {
+        "question": "How do you say 'was ~ (noun/な-adj past positive)' in Japanese?",
+        "answer": "〜でした",
+        "options": [
+          "どうでしたか",
+          "〜くなかったです",
+          "〜かったです",
+          "〜でした"
+        ]
+      },
+      {
+        "question": "How do you say 'was not ~ (noun/な-adj past negative)' in Japanese?",
+        "answer": "〜じゃなかったです",
+        "options": [
+          "〜かったです",
+          "〜くなかったです",
+          "〜じゃなかったです",
+          "どうでしたか"
+        ]
+      },
+      {
+        "question": "How do you say 'trip / travel' in Japanese?",
+        "answer": "りょこう (旅行)",
+        "options": [
+          "りょこう (旅行)",
+          "〜くなかったです",
+          "〜かったです",
+          "どうでしたか"
+        ]
+      },
+      {
+        "question": "How do you say 'impression / thoughts' in Japanese?",
+        "answer": "かんそう (感想)",
+        "options": [
+          "〜かったです",
+          "どうでしたか",
+          "かんそう (感想)",
+          "〜くなかったです"
+        ]
+      },
+      {
+        "question": "How do you say 'was fun / enjoyable (past)' in Japanese?",
+        "answer": "たのしかった (楽しかった)",
+        "options": [
+          "たのしかった (楽しかった)",
+          "どうでしたか",
+          "〜かったです",
+          "〜くなかったです"
+        ]
+      },
+      {
+        "question": "How do you say 'was wonderful / magnificent' in Japanese?",
+        "answer": "すばらしかった (素晴らしかった)",
+        "options": [
+          "〜かったです",
+          "すばらしかった (素晴らしかった)",
+          "〜くなかったです",
+          "どうでしたか"
+        ]
+      },
+      {
+        "question": "How do you say 'was beautiful / clean (past)' in Japanese?",
+        "answer": "きれいでした",
+        "options": [
+          "どうでしたか",
+          "〜くなかったです",
+          "きれいでした",
+          "〜かったです"
+        ]
+      },
+      {
+        "question": "How do you say 'was lively / bustling (past)' in Japanese?",
+        "answer": "にぎやかでした",
+        "options": [
+          "〜くなかったです",
+          "〜かったです",
+          "どうでしたか",
+          "にぎやかでした"
+        ]
+      },
+      {
+        "question": "How do you say 'was quiet / peaceful (past)' in Japanese?",
+        "answer": "しずかでした (静かでした)",
+        "options": [
+          "〜かったです",
+          "しずかでした (静かでした)",
+          "どうでしたか",
+          "〜くなかったです"
+        ]
+      },
+      {
+        "question": "How do you say 'the weather was good' in Japanese?",
+        "answer": "てんきがよかった (天気がよかった)",
+        "options": [
+          "てんきがよかった (天気がよかった)",
+          "〜くなかったです",
+          "どうでしたか",
+          "〜かったです"
+        ]
+      },
+      {
+        "question": "How do you say 'food' in Japanese?",
+        "answer": "たべもの (食べ物)",
+        "options": [
+          "〜かったです",
+          "どうでしたか",
+          "たべもの (食べ物)",
+          "〜くなかったです"
+        ]
+      },
+      {
+        "question": "How do you say 'memory / recollection' in Japanese?",
+        "answer": "おもいで (思い出)",
+        "options": [
+          "どうでしたか",
+          "〜くなかったです",
+          "〜かったです",
+          "おもいで (思い出)"
+        ]
+      }
+    ]
+  }
+}

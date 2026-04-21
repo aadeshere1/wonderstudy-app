@@ -1,0 +1,238 @@
+{
+  "id": "ch03-examples",
+  "meta": {
+    "title": "Lesson 3: ここはどこですか — Dialogue & Examples",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "ch03-examples",
+    "subtopic": "Where Is This Place?",
+    "description": "Practical dialogues and sentences for Lesson 3: Where Is This Place?",
+    "icon": "🏢",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "Asking directions inside a building",
+        "back": "A: すみません、エレベーターはどこですか。\nB: あちらです。\n\nA: Excuse me, where is the elevator?\nB: It's over there. (polite)"
+      },
+      {
+        "front": "Department store floor guide",
+        "back": "B1 = ちかいっかい (food hall / しょくひんかん)\n1F = いっかい (accessories / accessories)\n2F = にかい (women's clothing)\n3F = さんかい (men's clothing)\n4F = よんかい (furniture)"
+      },
+      {
+        "front": "Asking price",
+        "back": "A: すみません、これはいくらですか。\nB: それは3,500円です。\n\nA: Excuse me, how much is this?\nB: That's 3,500 yen.\n(さんぜんごひゃくえん)"
+      },
+      {
+        "front": "Location dialogue",
+        "back": "A: ゆうびんきょくはどこですか。\nB: ぎんこうのとなりです。\n\nA: Where is the post office?\nB: It's next to the bank.\n\nとなり = next to / neighbor"
+      },
+      {
+        "front": "Key location phrases",
+        "back": "〜はどこですか。= Where is ~?\nNは〜にあります。= N is at ~.\nこちらへどうぞ。= Please come this way.\nすぐそこです。= It's right there."
+      },
+      {
+        "front": "Numbers & Money",
+        "back": "100円 = ひゃくえん\n500円 = ごひゃくえん\n1,000円 = せんえん\n5,000円 = ごせんえん\n10,000円 = いちまんえん\n\nお金 (おかね) = money"
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 25,
+      "questionsCount": 8
+    },
+    "items": [
+      {
+        "question": "You're in a department store. How do you ask where the restroom is?",
+        "answer": "すみません、トイレはどこですか。",
+        "options": [
+          "すみません、トイレはどこですか。",
+          "すみません、トイレがどこですか。",
+          "すみません、トイレをどこですか。",
+          "すみません、どこはトイレですか。"
+        ],
+        "explanation": "NはどこですかWhere is N? は marks the topic (what you're asking about)."
+      },
+      {
+        "question": "Something costs 1,500 yen. How do you say this?",
+        "answer": "せんごひゃくえん",
+        "options": [
+          "せんごひゃくえん",
+          "ひゃくごじゅうえん",
+          "いちごひゃくえん",
+          "せんいつえん"
+        ],
+        "explanation": "1500 = せん (1000) + ごひゃく (500) = せんごひゃくえん."
+      },
+      {
+        "question": "The elevator is on the right. How do you tell someone?",
+        "answer": "エレベーターはみぎにあります。",
+        "options": [
+          "エレベーターはみぎにあります。",
+          "エレベーターでみぎにあります。",
+          "エレベーターをみぎにあります。",
+          "エレベーターがみぎにあります。"
+        ],
+        "explanation": "Location with あります: Nは[place]にあります. に marks location of existence."
+      },
+      {
+        "question": "A staff member says こちらへどうぞ。What should you do?",
+        "answer": "Follow them in the direction they indicate",
+        "options": [
+          "Follow them in the direction they indicate",
+          "Wait where you are",
+          "Say thank you and leave",
+          "Ask for the price"
+        ],
+        "explanation": "こちらへどうぞ = Please come this way. Staff use this to guide customers."
+      },
+      {
+        "question": "You want to find the bank. What do you ask?",
+        "answer": "ぎんこうはどこですか。",
+        "options": [
+          "ぎんこうはどこですか。",
+          "ぎんこうがどこですか。",
+          "ぎんこうにどこですか。",
+          "ぎんこうをどこですか。"
+        ],
+        "explanation": "Nはどこですか = Where is N? Simple and direct question for location."
+      },
+      {
+        "question": "The library is on the 3rd floor. Which is correct?",
+        "answer": "としょかんはさんかいにあります。",
+        "options": [
+          "としょかんはさんかいにあります。",
+          "としょかんはさんかいであります。",
+          "としょかんをさんかいにあります。",
+          "としょかんにさんかいあります。"
+        ],
+        "explanation": "Nは[floor]にあります = N is on [floor]. に marks the location."
+      },
+      {
+        "question": "How do you say 'It's right over there'?",
+        "answer": "あそこです。/ すぐあそこです。",
+        "options": [
+          "あそこです。/ すぐあそこです。",
+          "ここです。",
+          "そこです。",
+          "どこです。"
+        ],
+        "explanation": "あそこ = over there (far from both speakers). すぐ = immediately/right (すぐあそこ = right over there)."
+      },
+      {
+        "question": "A: レストランはなんかいですか。B: ___かいです。(6th floor)",
+        "answer": "ろく",
+        "options": [
+          "ろく",
+          "ご",
+          "なな",
+          "はち"
+        ],
+        "explanation": "6th floor = ろっかい (or ろくかい). ろく = 6."
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 12,
+      "questionsCount": 8
+    },
+    "items": [
+      {
+        "question": "You're in a department store. How do you ask where the restroom is?",
+        "answer": "すみません、トイレはどこですか。",
+        "options": [
+          "すみません、トイレはどこですか。",
+          "すみません、トイレがどこですか。",
+          "すみません、トイレをどこですか。",
+          "すみません、どこはトイレですか。"
+        ],
+        "explanation": "NはどこですかWhere is N? は marks the topic (what you're asking about)."
+      },
+      {
+        "question": "Something costs 1,500 yen. How do you say this?",
+        "answer": "せんごひゃくえん",
+        "options": [
+          "せんごひゃくえん",
+          "ひゃくごじゅうえん",
+          "いちごひゃくえん",
+          "せんいつえん"
+        ],
+        "explanation": "1500 = せん (1000) + ごひゃく (500) = せんごひゃくえん."
+      },
+      {
+        "question": "The elevator is on the right. How do you tell someone?",
+        "answer": "エレベーターはみぎにあります。",
+        "options": [
+          "エレベーターはみぎにあります。",
+          "エレベーターでみぎにあります。",
+          "エレベーターをみぎにあります。",
+          "エレベーターがみぎにあります。"
+        ],
+        "explanation": "Location with あります: Nは[place]にあります. に marks location of existence."
+      },
+      {
+        "question": "A staff member says こちらへどうぞ。What should you do?",
+        "answer": "Follow them in the direction they indicate",
+        "options": [
+          "Follow them in the direction they indicate",
+          "Wait where you are",
+          "Say thank you and leave",
+          "Ask for the price"
+        ],
+        "explanation": "こちらへどうぞ = Please come this way. Staff use this to guide customers."
+      },
+      {
+        "question": "You want to find the bank. What do you ask?",
+        "answer": "ぎんこうはどこですか。",
+        "options": [
+          "ぎんこうはどこですか。",
+          "ぎんこうがどこですか。",
+          "ぎんこうにどこですか。",
+          "ぎんこうをどこですか。"
+        ],
+        "explanation": "Nはどこですか = Where is N? Simple and direct question for location."
+      },
+      {
+        "question": "The library is on the 3rd floor. Which is correct?",
+        "answer": "としょかんはさんかいにあります。",
+        "options": [
+          "としょかんはさんかいにあります。",
+          "としょかんはさんかいであります。",
+          "としょかんをさんかいにあります。",
+          "としょかんにさんかいあります。"
+        ],
+        "explanation": "Nは[floor]にあります = N is on [floor]. に marks the location."
+      },
+      {
+        "question": "How do you say 'It's right over there'?",
+        "answer": "あそこです。/ すぐあそこです。",
+        "options": [
+          "あそこです。/ すぐあそこです。",
+          "ここです。",
+          "そこです。",
+          "どこです。"
+        ],
+        "explanation": "あそこ = over there (far from both speakers). すぐ = immediately/right (すぐあそこ = right over there)."
+      },
+      {
+        "question": "A: レストランはなんかいですか。B: ___かいです。(6th floor)",
+        "answer": "ろく",
+        "options": [
+          "ろく",
+          "ご",
+          "なな",
+          "はち"
+        ],
+        "explanation": "6th floor = ろっかい (or ろくかい). ろく = 6."
+      }
+    ]
+  }
+}

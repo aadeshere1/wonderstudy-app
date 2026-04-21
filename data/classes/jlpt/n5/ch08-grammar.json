@@ -1,0 +1,290 @@
+{
+  "id": "ch08-grammar",
+  "meta": {
+    "title": "Lesson 8: 町をあるきます — Grammar",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "ch08-grammar",
+    "subtopic": "Walking Around Town",
+    "description": "Grammar patterns for Minna no Nihongo Lesson 8: Walking Around Town",
+    "icon": "🚶",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "Request: てください",
+        "back": "〜て + ください = Please do ~\n\nみてください。= Please look.\nきいてください。= Please listen.\nまってください。= Please wait.\nはなしてください。= Please speak.\n\nPolite command/request form."
+      },
+      {
+        "front": "Permission: てもいいです",
+        "back": "〜て + もいいです = It's OK to ~ / You may ~\n\nここにすわってもいいですか。\n= May I sit here?\n→ はい、どうぞ。= Yes, please go ahead.\n→ すみません、ちょっと... = Sorry, it's a bit..."
+      },
+      {
+        "front": "Prohibition: てはいけません",
+        "back": "〜て + はいけません = You must not ~\n\nここでたばこを吸ってはいけません。\n= You must not smoke here.\nここに入ってはいけません。\n= You must not enter here.\n\nUsed for rules, signs, warnings."
+      },
+      {
+        "front": "Direction verbs",
+        "back": "曲がります (まがります) = to turn\nわたります = to cross\nとまります = to stop\nまっすぐ行きます = go straight\n\nみぎに曲がります = turn right\nひだりに曲がります = turn left\nしんごうをわたります = cross the traffic light"
+      },
+      {
+        "front": "On/off verbs",
+        "back": "あけます = to open\nしめます = to close\nつけます = to turn on\nけします = to turn off/erase\n\nまどを開けてください。\n= Please open the window.\nでんきを消してください。\n= Please turn off the light."
+      },
+      {
+        "front": "Town vocabulary",
+        "back": "まち (町) = town / neighbourhood\nしんごう (信号) = traffic light\nかど (角) = corner\nはし (橋) = bridge\nこうさてん (交差点) = intersection\nみち (道) = road / path"
+      },
+      {
+        "front": "て-form review: Group 1 rules",
+        "back": "〜う / 〜つ / 〜る → って\n買う→買って / 待つ→待って / 切る→切って\n\n〜む / 〜ぬ / 〜ぶ → んで\n飲む→飲んで / 死ぬ→死んで / 遊ぶ→遊んで\n\n〜く → いて (行く → 行って exception!)\n〜ぐ → いで\n〜す → して"
+      },
+      {
+        "front": "Key lesson 8 phrases",
+        "back": "ちょっと待ってください。= Please wait a moment.\nもう一度言ってください。= Please say it again.\nゆっくり話してください。= Please speak slowly.\nここに名前を書いてください。= Please write your name here."
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 25,
+      "questionsCount": 10
+    },
+    "items": [
+      {
+        "question": "ちょっと待っ ___ 。(Please wait a moment.)",
+        "answer": "てください",
+        "options": [
+          "てください",
+          "てもいいです",
+          "てはいけません",
+          "てから"
+        ],
+        "explanation": "〜てください = Please do ~. It's a polite request. 待つ → 待って + ください = Please wait."
+      },
+      {
+        "question": "ここでたばこを吸っ ___ 。(You must not smoke here.)",
+        "answer": "てはいけません",
+        "options": [
+          "てはいけません",
+          "てもいいです",
+          "てください",
+          "てから"
+        ],
+        "explanation": "〜てはいけません = you must not ~. Used for rules and prohibitions."
+      },
+      {
+        "question": "写真を撮っ ___ か。(May I take a photo?)",
+        "answer": "てもいいです",
+        "options": [
+          "てもいいです",
+          "てはいけません",
+          "てください",
+          "てから"
+        ],
+        "explanation": "〜てもいいですか = May I ~? / Is it okay to ~? Permission question."
+      },
+      {
+        "question": "しんごうを ___ 、みぎに曲がってください。(Cross the traffic light, then turn right.)",
+        "answer": "わたって",
+        "options": [
+          "わたって",
+          "まがって",
+          "とまって",
+          "きって"
+        ],
+        "explanation": "わたります (to cross) → わたって (て-form). Instructions sequence: [action1]て、[action2]。"
+      },
+      {
+        "question": "でんきを ___ 。(Please turn off the light.)",
+        "answer": "けしてください",
+        "options": [
+          "けしてください",
+          "つけてください",
+          "あけてください",
+          "しめてください"
+        ],
+        "explanation": "消します (けします) = to turn off/erase. → けして + ください = Please turn off."
+      },
+      {
+        "question": "まどを ___ てもいいですか。(May I open the window?)",
+        "answer": "あけ",
+        "options": [
+          "あけ",
+          "しめ",
+          "けし",
+          "つけ"
+        ],
+        "explanation": "開けます (あけます) = to open. て-form: 開けて (group 2 verb). あけてもいいですか = May I open (it)?"
+      },
+      {
+        "question": "Which て-form is correct for 切る (to cut)?",
+        "answer": "切って",
+        "options": [
+          "切って",
+          "切いて",
+          "切んで",
+          "切て"
+        ],
+        "explanation": "切る follows the 〜る → って rule for Group 1 verbs (not Group 2, which simply drops る). 切る → 切って."
+      },
+      {
+        "question": "Which て-form is correct for 送る (to send)?",
+        "answer": "送って",
+        "options": [
+          "送って",
+          "送て",
+          "送いて",
+          "送んで"
+        ],
+        "explanation": "送る → 送って. Group 1 verb (ends in 〜る but the syllable before is a consonant-row): 〜る → って."
+      },
+      {
+        "question": "How do you say 'Please don't smoke here'? (using てはいけません)",
+        "answer": "ここでたばこを吸ってはいけません。",
+        "options": [
+          "ここでたばこを吸ってはいけません。",
+          "ここでたばこを吸ってください。",
+          "ここでたばこを吸ってもいいです。",
+          "ここでたばこを吸ってから。"
+        ],
+        "explanation": "〜てはいけません = you must not ~. て-form of 吸う (to smoke) = 吸って + はいけません."
+      },
+      {
+        "question": "ここにすわってもいいですか → answer: はい、___。",
+        "answer": "どうぞ",
+        "options": [
+          "どうぞ",
+          "ちがいます",
+          "いけません",
+          "はいけません"
+        ],
+        "explanation": "はい、どうぞ = Yes, please go ahead. Standard response when granting permission."
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 12,
+      "questionsCount": 10
+    },
+    "items": [
+      {
+        "question": "ちょっと待っ ___ 。(Please wait a moment.)",
+        "answer": "てください",
+        "options": [
+          "てください",
+          "てもいいです",
+          "てはいけません",
+          "てから"
+        ],
+        "explanation": "〜てください = Please do ~. It's a polite request. 待つ → 待って + ください = Please wait."
+      },
+      {
+        "question": "ここでたばこを吸っ ___ 。(You must not smoke here.)",
+        "answer": "てはいけません",
+        "options": [
+          "てはいけません",
+          "てもいいです",
+          "てください",
+          "てから"
+        ],
+        "explanation": "〜てはいけません = you must not ~. Used for rules and prohibitions."
+      },
+      {
+        "question": "写真を撮っ ___ か。(May I take a photo?)",
+        "answer": "てもいいです",
+        "options": [
+          "てもいいです",
+          "てはいけません",
+          "てください",
+          "てから"
+        ],
+        "explanation": "〜てもいいですか = May I ~? / Is it okay to ~? Permission question."
+      },
+      {
+        "question": "しんごうを ___ 、みぎに曲がってください。(Cross the traffic light, then turn right.)",
+        "answer": "わたって",
+        "options": [
+          "わたって",
+          "まがって",
+          "とまって",
+          "きって"
+        ],
+        "explanation": "わたります (to cross) → わたって (て-form). Instructions sequence: [action1]て、[action2]。"
+      },
+      {
+        "question": "でんきを ___ 。(Please turn off the light.)",
+        "answer": "けしてください",
+        "options": [
+          "けしてください",
+          "つけてください",
+          "あけてください",
+          "しめてください"
+        ],
+        "explanation": "消します (けします) = to turn off/erase. → けして + ください = Please turn off."
+      },
+      {
+        "question": "まどを ___ てもいいですか。(May I open the window?)",
+        "answer": "あけ",
+        "options": [
+          "あけ",
+          "しめ",
+          "けし",
+          "つけ"
+        ],
+        "explanation": "開けます (あけます) = to open. て-form: 開けて (group 2 verb). あけてもいいですか = May I open (it)?"
+      },
+      {
+        "question": "Which て-form is correct for 切る (to cut)?",
+        "answer": "切って",
+        "options": [
+          "切って",
+          "切いて",
+          "切んで",
+          "切て"
+        ],
+        "explanation": "切る follows the 〜る → って rule for Group 1 verbs (not Group 2, which simply drops る). 切る → 切って."
+      },
+      {
+        "question": "Which て-form is correct for 送る (to send)?",
+        "answer": "送って",
+        "options": [
+          "送って",
+          "送て",
+          "送いて",
+          "送んで"
+        ],
+        "explanation": "送る → 送って. Group 1 verb (ends in 〜る but the syllable before is a consonant-row): 〜る → って."
+      },
+      {
+        "question": "How do you say 'Please don't smoke here'? (using てはいけません)",
+        "answer": "ここでたばこを吸ってはいけません。",
+        "options": [
+          "ここでたばこを吸ってはいけません。",
+          "ここでたばこを吸ってください。",
+          "ここでたばこを吸ってもいいです。",
+          "ここでたばこを吸ってから。"
+        ],
+        "explanation": "〜てはいけません = you must not ~. て-form of 吸う (to smoke) = 吸って + はいけません."
+      },
+      {
+        "question": "ここにすわってもいいですか → answer: はい、___。",
+        "answer": "どうぞ",
+        "options": [
+          "どうぞ",
+          "ちがいます",
+          "いけません",
+          "はいけません"
+        ],
+        "explanation": "はい、どうぞ = Yes, please go ahead. Standard response when granting permission."
+      }
+    ]
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "id": "ch20-grammar",
+  "meta": {
+    "title": "Lesson 20: 道を教えてください — Grammar",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "ch20-grammar",
+    "subtopic": "Please Tell Me the Way",
+    "description": "Grammar patterns for Minna no Nihongo Lesson 20: Please Tell Me the Way",
+    "icon": "🗺️",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "Giving directions with て-form",
+        "back": "Chain directions with て-form:\nまっすぐ行って、\n= Go straight, then\nかどを右に曲がって、\n= turn right at the corner, then\nはしをわたると、右手にあります。\n= cross the bridge and it's on the right."
+      },
+      {
+        "front": "〜と、〜 (when you do X, Y happens)",
+        "back": "[action] + と + [result/discovery]\n\nこのみちをまっすぐ行くと、えきがあります。\n= If you go straight on this road, you'll find the station.\n\nかどを曲がると、すぐ見えます。\n= When you turn the corner, you can see it right away."
+      },
+      {
+        "front": "Directional phrases",
+        "back": "Right side: みぎ / 右て (みぎて)\nLeft side: ひだり / 左て (ひだりて)\nStraight: まっすぐ\nOver there: むこう\n\nDistance:\n〜メートル先 = ~ metres ahead\n〜分ぐらい = about ~ minutes (walking)"
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 25,
+      "questionsCount": 5
+    },
+    "items": [
+      {
+        "question": "まっすぐ行っ ___ 、右に曲がってください。(Go straight, then turn right.)",
+        "answer": "て",
+        "options": [
+          "て",
+          "から",
+          "まで",
+          "に"
+        ],
+        "explanation": "て-form chains instructions: 行って = go (and then). て connects sequential directions."
+      },
+      {
+        "question": "このみちをまっすぐ行く ___ 、えきがあります。(If you go straight, there's the station.)",
+        "answer": "と",
+        "options": [
+          "と",
+          "から",
+          "ので",
+          "から"
+        ],
+        "explanation": "〜と = when/if (natural sequence). 行くと = when you go. Used for directional 'when you do X, Y happens'."
+      },
+      {
+        "question": "えきはここから ___ ですか。(Is the station near here?)",
+        "answer": "ちかい",
+        "options": [
+          "ちかい",
+          "とおい",
+          "おおきい",
+          "あたらしい"
+        ],
+        "explanation": "ちかい = near/close. とおい = far. 〜からちかいですか = is it close from ~?"
+      },
+      {
+        "question": "しんごうを ___ 、ひだりに曲がります。(Cross the traffic light, then turn left.)",
+        "answer": "わたって",
+        "options": [
+          "わたって",
+          "まがって",
+          "とまって",
+          "きって"
+        ],
+        "explanation": "わたる → わたって (て-form). を marks the thing being crossed: しんごうをわたる = cross the traffic light."
+      },
+      {
+        "question": "Directions: '3rd traffic light, turn right' — what is 3rd?",
+        "answer": "みっつめの",
+        "options": [
+          "みっつめの",
+          "さんばんめの",
+          "さんこめの",
+          "さんにちめの"
+        ],
+        "explanation": "〜つめ counts ordinal things: ひとつめ (1st), ふたつめ (2nd), みっつめ (3rd). みっつめのしんごう = the 3rd traffic light."
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 12,
+      "questionsCount": 5
+    },
+    "items": [
+      {
+        "question": "まっすぐ行っ ___ 、右に曲がってください。(Go straight, then turn right.)",
+        "answer": "て",
+        "options": [
+          "て",
+          "から",
+          "まで",
+          "に"
+        ],
+        "explanation": "て-form chains instructions: 行って = go (and then). て connects sequential directions."
+      },
+      {
+        "question": "このみちをまっすぐ行く ___ 、えきがあります。(If you go straight, there's the station.)",
+        "answer": "と",
+        "options": [
+          "と",
+          "から",
+          "ので",
+          "から"
+        ],
+        "explanation": "〜と = when/if (natural sequence). 行くと = when you go. Used for directional 'when you do X, Y happens'."
+      },
+      {
+        "question": "えきはここから ___ ですか。(Is the station near here?)",
+        "answer": "ちかい",
+        "options": [
+          "ちかい",
+          "とおい",
+          "おおきい",
+          "あたらしい"
+        ],
+        "explanation": "ちかい = near/close. とおい = far. 〜からちかいですか = is it close from ~?"
+      },
+      {
+        "question": "しんごうを ___ 、ひだりに曲がります。(Cross the traffic light, then turn left.)",
+        "answer": "わたって",
+        "options": [
+          "わたって",
+          "まがって",
+          "とまって",
+          "きって"
+        ],
+        "explanation": "わたる → わたって (て-form). を marks the thing being crossed: しんごうをわたる = cross the traffic light."
+      },
+      {
+        "question": "Directions: '3rd traffic light, turn right' — what is 3rd?",
+        "answer": "みっつめの",
+        "options": [
+          "みっつめの",
+          "さんばんめの",
+          "さんこめの",
+          "さんにちめの"
+        ],
+        "explanation": "〜つめ counts ordinal things: ひとつめ (1st), ふたつめ (2nd), みっつめ (3rd). みっつめのしんごう = the 3rd traffic light."
+      }
+    ]
+  }
+}

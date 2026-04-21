@@ -1,0 +1,160 @@
+{
+  "id": "ch19-grammar",
+  "meta": {
+    "title": "Lesson 19: 旅行はどうでしたか — Grammar",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "ch19-grammar",
+    "subtopic": "How Was Your Trip?",
+    "description": "Grammar patterns for Minna no Nihongo Lesson 19: How Was Your Trip?",
+    "icon": "✈️",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "い-adjective past tense",
+        "back": "Positive past: drop い + かった + です\nおいしい → おいしかったです (was delicious)\nたのしい → たのしかったです (was fun)\n\nNegative past: drop い + くなかった + です\nたかい → たかくなかったです (was not expensive)\n\nException: いい → よかったです (was good)"
+      },
+      {
+        "front": "な-adjective / noun past tense",
+        "back": "Positive past: Nでした / な-adjadj + でした\nきれいでした (was beautiful)\nしずかでした (was quiet)\n\nNegative past: じゃなかったです / ではなかったです\nきれいじゃなかったです (was not beautiful)\n\nNoun: 学生でした (was a student)"
+      },
+      {
+        "front": "Talking about past experiences",
+        "back": "どうでしたか = how was it?\n→ とてもよかったです！= It was very good!\n→ まあまあでした。= It was so-so.\n→ あまりよくなかったです。= Not very good.\n\nかんそうはどうですか = What are your thoughts?"
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 25,
+      "questionsCount": 5
+    },
+    "items": [
+      {
+        "question": "旅行はどうでし ___ か。(How was the trip?)",
+        "answer": "た",
+        "options": [
+          "た",
+          "ます",
+          "ました",
+          "て"
+        ],
+        "explanation": "どうでしたか = how was it? です past = でした. でした + か = でしたか (question)."
+      },
+      {
+        "question": "ホテルはきれい ___ 。(The hotel was beautiful.)",
+        "answer": "でした",
+        "options": [
+          "でした",
+          "かったです",
+          "でありました",
+          "じゃなかったです"
+        ],
+        "explanation": "きれい is a な-adjective. Past = きれいでした (not きれいかった!)."
+      },
+      {
+        "question": "たべものはおいし ___ 。(The food was delicious.)",
+        "answer": "かったです",
+        "options": [
+          "かったです",
+          "でした",
+          "くなかったです",
+          "じゃなかったです"
+        ],
+        "explanation": "おいしい is an い-adjective. Past = おいしかったです (drop い + かった + です)."
+      },
+      {
+        "question": "てんきはあまりよく ___ 。(The weather was not very good.)",
+        "answer": "なかったです",
+        "options": [
+          "なかったです",
+          "かったです",
+          "じゃなかったです",
+          "ありませんでした"
+        ],
+        "explanation": "いい → negative past: よくなかったです (not いくなかった!). いい is irregular."
+      },
+      {
+        "question": "にぎやかじゃ ___ です。(It was not lively.)",
+        "answer": "なかった",
+        "options": [
+          "なかった",
+          "くなかった",
+          "ありませんでした",
+          "いません"
+        ],
+        "explanation": "な-adjective negative past: 〜じゃなかったです. にぎやか (lively) is な-adjective → じゃなかったです."
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 12,
+      "questionsCount": 5
+    },
+    "items": [
+      {
+        "question": "旅行はどうでし ___ か。(How was the trip?)",
+        "answer": "た",
+        "options": [
+          "た",
+          "ます",
+          "ました",
+          "て"
+        ],
+        "explanation": "どうでしたか = how was it? です past = でした. でした + か = でしたか (question)."
+      },
+      {
+        "question": "ホテルはきれい ___ 。(The hotel was beautiful.)",
+        "answer": "でした",
+        "options": [
+          "でした",
+          "かったです",
+          "でありました",
+          "じゃなかったです"
+        ],
+        "explanation": "きれい is a な-adjective. Past = きれいでした (not きれいかった!)."
+      },
+      {
+        "question": "たべものはおいし ___ 。(The food was delicious.)",
+        "answer": "かったです",
+        "options": [
+          "かったです",
+          "でした",
+          "くなかったです",
+          "じゃなかったです"
+        ],
+        "explanation": "おいしい is an い-adjective. Past = おいしかったです (drop い + かった + です)."
+      },
+      {
+        "question": "てんきはあまりよく ___ 。(The weather was not very good.)",
+        "answer": "なかったです",
+        "options": [
+          "なかったです",
+          "かったです",
+          "じゃなかったです",
+          "ありませんでした"
+        ],
+        "explanation": "いい → negative past: よくなかったです (not いくなかった!). いい is irregular."
+      },
+      {
+        "question": "にぎやかじゃ ___ です。(It was not lively.)",
+        "answer": "なかった",
+        "options": [
+          "なかった",
+          "くなかった",
+          "ありませんでした",
+          "いません"
+        ],
+        "explanation": "な-adjective negative past: 〜じゃなかったです. にぎやか (lively) is な-adjective → じゃなかったです."
+      }
+    ]
+  }
+}

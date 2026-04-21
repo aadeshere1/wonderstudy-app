@@ -1,0 +1,832 @@
+{
+  "level": "n5",
+  "title": "JLPT N5 — Minna no Nihongo",
+  "description": "Complete 25-chapter course covering all JLPT N5 vocabulary, grammar, and dialogue.",
+  "lessons": [
+    {
+      "id": "ch01-vocabulary",
+      "title": "Ch1: Vocabulary – Meeting people",
+      "icon": "📚",
+      "subtopics": [
+        "はじめまして",
+        "New words",
+        "Reading practice"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch01-grammar",
+      "title": "Ch1: Grammar – Meeting people",
+      "icon": "📝",
+      "subtopics": [
+        "はじめまして",
+        "Patterns",
+        "Sentence structure"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch01-examples",
+      "title": "Ch1: Dialogue – Meeting people",
+      "icon": "👋",
+      "subtopics": [
+        "はじめまして",
+        "Conversation",
+        "Real-life usage"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch02-vocabulary",
+      "title": "Ch2: Vocabulary – What is this?",
+      "icon": "📚",
+      "subtopics": [
+        "これはなんですか",
+        "New words",
+        "Reading practice"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch02-grammar",
+      "title": "Ch2: Grammar – What is this?",
+      "icon": "📝",
+      "subtopics": [
+        "これはなんですか",
+        "Patterns",
+        "Sentence structure"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch02-examples",
+      "title": "Ch2: Dialogue – What is this?",
+      "icon": "❓",
+      "subtopics": [
+        "これはなんですか",
+        "Conversation",
+        "Real-life usage"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch03-vocabulary",
+      "title": "Ch3: Vocabulary – Where is this?",
+      "icon": "📚",
+      "subtopics": [
+        "ここはどこですか",
+        "New words",
+        "Reading practice"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch03-grammar",
+      "title": "Ch3: Grammar – Where is this?",
+      "icon": "📝",
+      "subtopics": [
+        "ここはどこですか",
+        "Patterns",
+        "Sentence structure"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch03-examples",
+      "title": "Ch3: Dialogue – Where is this?",
+      "icon": "🗺️",
+      "subtopics": [
+        "ここはどこですか",
+        "Conversation",
+        "Real-life usage"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch04-vocabulary",
+      "title": "Ch4: Vocabulary – Daily schedule",
+      "icon": "📚",
+      "subtopics": [
+        "毎日何時に起きますか",
+        "New words",
+        "Reading practice"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch04-grammar",
+      "title": "Ch4: Grammar – Daily schedule",
+      "icon": "📝",
+      "subtopics": [
+        "毎日何時に起きますか",
+        "Patterns",
+        "Sentence structure"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch04-examples",
+      "title": "Ch4: Dialogue – Daily schedule",
+      "icon": "🕐",
+      "subtopics": [
+        "毎日何時に起きますか",
+        "Conversation",
+        "Real-life usage"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch05-vocabulary",
+      "title": "Ch5: Vocabulary – Dates & birthdays",
+      "icon": "📚",
+      "subtopics": [
+        "誕生日はいつですか",
+        "New words",
+        "Reading practice"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch05-grammar",
+      "title": "Ch5: Grammar – Dates & birthdays",
+      "icon": "📝",
+      "subtopics": [
+        "誕生日はいつですか",
+        "Patterns",
+        "Sentence structure"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch05-examples",
+      "title": "Ch5: Dialogue – Dates & birthdays",
+      "icon": "🎂",
+      "subtopics": [
+        "誕生日はいつですか",
+        "Conversation",
+        "Real-life usage"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch06-vocabulary",
+      "title": "Ch6: Vocabulary – Invitations & transport",
+      "icon": "📚",
+      "subtopics": [
+        "富士山に登りましょう",
+        "New words",
+        "Reading practice"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch06-grammar",
+      "title": "Ch6: Grammar – Invitations & transport",
+      "icon": "📝",
+      "subtopics": [
+        "富士山に登りましょう",
+        "Patterns",
+        "Sentence structure"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch06-examples",
+      "title": "Ch6: Dialogue – Invitations & transport",
+      "icon": "🚃",
+      "subtopics": [
+        "富士山に登りましょう",
+        "Conversation",
+        "Real-life usage"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch07-vocabulary",
+      "title": "Ch7: Vocabulary – Adjectives",
+      "icon": "📚",
+      "subtopics": [
+        "日本語の授業",
+        "New words",
+        "Reading practice"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch07-grammar",
+      "title": "Ch7: Grammar – Adjectives",
+      "icon": "📝",
+      "subtopics": [
+        "日本語の授業",
+        "Patterns",
+        "Sentence structure"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch07-examples",
+      "title": "Ch7: Dialogue – Adjectives",
+      "icon": "✨",
+      "subtopics": [
+        "日本語の授業",
+        "Conversation",
+        "Real-life usage"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch08-vocabulary",
+      "title": "Ch8: Vocabulary – Requests & permissions",
+      "icon": "📚",
+      "subtopics": [
+        "町をあるきます",
+        "New words",
+        "Reading practice"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch08-grammar",
+      "title": "Ch8: Grammar – Requests & permissions",
+      "icon": "📝",
+      "subtopics": [
+        "町をあるきます",
+        "Patterns",
+        "Sentence structure"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch08-examples",
+      "title": "Ch8: Dialogue – Requests & permissions",
+      "icon": "🏙️",
+      "subtopics": [
+        "町をあるきます",
+        "Conversation",
+        "Real-life usage"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch09-vocabulary",
+      "title": "Ch9: Vocabulary – Shopping & counters",
+      "icon": "📚",
+      "subtopics": [
+        "買い物をします",
+        "New words",
+        "Reading practice"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch09-grammar",
+      "title": "Ch9: Grammar – Shopping & counters",
+      "icon": "📝",
+      "subtopics": [
+        "買い物をします",
+        "Patterns",
+        "Sentence structure"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch09-examples",
+      "title": "Ch9: Dialogue – Shopping & counters",
+      "icon": "🛍️",
+      "subtopics": [
+        "買い物をします",
+        "Conversation",
+        "Real-life usage"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch10-vocabulary",
+      "title": "Ch10: Vocabulary – Comparisons",
+      "icon": "📚",
+      "subtopics": [
+        "富士山より高い山",
+        "New words",
+        "Reading practice"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch10-grammar",
+      "title": "Ch10: Grammar – Comparisons",
+      "icon": "📝",
+      "subtopics": [
+        "富士山より高い山",
+        "Patterns",
+        "Sentence structure"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch10-examples",
+      "title": "Ch10: Dialogue – Comparisons",
+      "icon": "⛰️",
+      "subtopics": [
+        "富士山より高い山",
+        "Conversation",
+        "Real-life usage"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch11-vocabulary",
+      "title": "Ch11: Vocabulary – Past tense & indefinites",
+      "icon": "📚",
+      "subtopics": [
+        "どこかへ行きましたか",
+        "New words",
+        "Reading practice"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch11-grammar",
+      "title": "Ch11: Grammar – Past tense & indefinites",
+      "icon": "📝",
+      "subtopics": [
+        "どこかへ行きましたか",
+        "Patterns",
+        "Sentence structure"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch11-examples",
+      "title": "Ch11: Dialogue – Past tense & indefinites",
+      "icon": "📍",
+      "subtopics": [
+        "どこかへ行きましたか",
+        "Conversation",
+        "Real-life usage"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch12-vocabulary",
+      "title": "Ch12: Vocabulary – もう・まだ & te-forms",
+      "icon": "📚",
+      "subtopics": [
+        "もう昼ごはんを食べた",
+        "New words",
+        "Reading practice"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch12-grammar",
+      "title": "Ch12: Grammar – もう・まだ & te-forms",
+      "icon": "📝",
+      "subtopics": [
+        "もう昼ごはんを食べた",
+        "Patterns",
+        "Sentence structure"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch12-examples",
+      "title": "Ch12: Dialogue – もう・まだ & te-forms",
+      "icon": "🍱",
+      "subtopics": [
+        "もう昼ごはんを食べた",
+        "Conversation",
+        "Real-life usage"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch13-vocabulary",
+      "title": "Ch13: Vocabulary – Past experiences",
+      "icon": "📚",
+      "subtopics": [
+        "先週映画を見ました",
+        "New words",
+        "Reading practice"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch13-grammar",
+      "title": "Ch13: Grammar – Past experiences",
+      "icon": "📝",
+      "subtopics": [
+        "先週映画を見ました",
+        "Patterns",
+        "Sentence structure"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch13-examples",
+      "title": "Ch13: Dialogue – Past experiences",
+      "icon": "🎬",
+      "subtopics": [
+        "先週映画を見ました",
+        "Conversation",
+        "Real-life usage"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch14-vocabulary",
+      "title": "Ch14: Vocabulary – Progressive ています",
+      "icon": "📚",
+      "subtopics": [
+        "今何をしていますか",
+        "New words",
+        "Reading practice"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch14-grammar",
+      "title": "Ch14: Grammar – Progressive ています",
+      "icon": "📝",
+      "subtopics": [
+        "今何をしていますか",
+        "Patterns",
+        "Sentence structure"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch14-examples",
+      "title": "Ch14: Dialogue – Progressive ています",
+      "icon": "📞",
+      "subtopics": [
+        "今何をしていますか",
+        "Conversation",
+        "Real-life usage"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch15-vocabulary",
+      "title": "Ch15: Vocabulary – Must・need not",
+      "icon": "📚",
+      "subtopics": [
+        "少し疲れました",
+        "New words",
+        "Reading practice"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch15-grammar",
+      "title": "Ch15: Grammar – Must・need not",
+      "icon": "📝",
+      "subtopics": [
+        "少し疲れました",
+        "Patterns",
+        "Sentence structure"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch15-examples",
+      "title": "Ch15: Dialogue – Must・need not",
+      "icon": "😴",
+      "subtopics": [
+        "少し疲れました",
+        "Conversation",
+        "Real-life usage"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch16-vocabulary",
+      "title": "Ch16: Vocabulary – Want to たい",
+      "icon": "📚",
+      "subtopics": [
+        "荷物を送りたい",
+        "New words",
+        "Reading practice"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch16-grammar",
+      "title": "Ch16: Grammar – Want to たい",
+      "icon": "📝",
+      "subtopics": [
+        "荷物を送りたい",
+        "Patterns",
+        "Sentence structure"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch16-examples",
+      "title": "Ch16: Dialogue – Want to たい",
+      "icon": "📦",
+      "subtopics": [
+        "荷物を送りたい",
+        "Conversation",
+        "Real-life usage"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch17-vocabulary",
+      "title": "Ch17: Vocabulary – Polite requests",
+      "icon": "📚",
+      "subtopics": [
+        "ちょっと待って",
+        "New words",
+        "Reading practice"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch17-grammar",
+      "title": "Ch17: Grammar – Polite requests",
+      "icon": "📝",
+      "subtopics": [
+        "ちょっと待って",
+        "Patterns",
+        "Sentence structure"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch17-examples",
+      "title": "Ch17: Dialogue – Polite requests",
+      "icon": "🙏",
+      "subtopics": [
+        "ちょっと待って",
+        "Conversation",
+        "Real-life usage"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch18-vocabulary",
+      "title": "Ch18: Vocabulary – Reasons から",
+      "icon": "📚",
+      "subtopics": [
+        "来週パーティー",
+        "New words",
+        "Reading practice"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch18-grammar",
+      "title": "Ch18: Grammar – Reasons から",
+      "icon": "📝",
+      "subtopics": [
+        "来週パーティー",
+        "Patterns",
+        "Sentence structure"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch18-examples",
+      "title": "Ch18: Dialogue – Reasons から",
+      "icon": "🎉",
+      "subtopics": [
+        "来週パーティー",
+        "Conversation",
+        "Real-life usage"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch19-vocabulary",
+      "title": "Ch19: Vocabulary – Past adjectives",
+      "icon": "📚",
+      "subtopics": [
+        "旅行はどうでしたか",
+        "New words",
+        "Reading practice"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch19-grammar",
+      "title": "Ch19: Grammar – Past adjectives",
+      "icon": "📝",
+      "subtopics": [
+        "旅行はどうでしたか",
+        "Patterns",
+        "Sentence structure"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch19-examples",
+      "title": "Ch19: Dialogue – Past adjectives",
+      "icon": "✈️",
+      "subtopics": [
+        "旅行はどうでしたか",
+        "Conversation",
+        "Real-life usage"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch20-vocabulary",
+      "title": "Ch20: Vocabulary – Directions",
+      "icon": "📚",
+      "subtopics": [
+        "道を教えてください",
+        "New words",
+        "Reading practice"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch20-grammar",
+      "title": "Ch20: Grammar – Directions",
+      "icon": "📝",
+      "subtopics": [
+        "道を教えてください",
+        "Patterns",
+        "Sentence structure"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch20-examples",
+      "title": "Ch20: Dialogue – Directions",
+      "icon": "🗺️",
+      "subtopics": [
+        "道を教えてください",
+        "Conversation",
+        "Real-life usage"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch21-vocabulary",
+      "title": "Ch21: Vocabulary – Potential form",
+      "icon": "📚",
+      "subtopics": [
+        "誰でも利用できます",
+        "New words",
+        "Reading practice"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch21-grammar",
+      "title": "Ch21: Grammar – Potential form",
+      "icon": "📝",
+      "subtopics": [
+        "誰でも利用できます",
+        "Patterns",
+        "Sentence structure"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch21-examples",
+      "title": "Ch21: Dialogue – Potential form",
+      "icon": "💪",
+      "subtopics": [
+        "誰でも利用できます",
+        "Conversation",
+        "Real-life usage"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch22-vocabulary",
+      "title": "Ch22: Vocabulary – Just did たばかり",
+      "icon": "📚",
+      "subtopics": [
+        "日本に来たばかり",
+        "New words",
+        "Reading practice"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch22-grammar",
+      "title": "Ch22: Grammar – Just did たばかり",
+      "icon": "📝",
+      "subtopics": [
+        "日本に来たばかり",
+        "Patterns",
+        "Sentence structure"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch22-examples",
+      "title": "Ch22: Dialogue – Just did たばかり",
+      "icon": "🌸",
+      "subtopics": [
+        "日本に来たばかり",
+        "Conversation",
+        "Real-life usage"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch23-vocabulary",
+      "title": "Ch23: Vocabulary – Can do potential",
+      "icon": "📚",
+      "subtopics": [
+        "日本語が少し話せます",
+        "New words",
+        "Reading practice"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch23-grammar",
+      "title": "Ch23: Grammar – Can do potential",
+      "icon": "📝",
+      "subtopics": [
+        "日本語が少し話せます",
+        "Patterns",
+        "Sentence structure"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch23-examples",
+      "title": "Ch23: Dialogue – Can do potential",
+      "icon": "🗣️",
+      "subtopics": [
+        "日本語が少し話せます",
+        "Conversation",
+        "Real-life usage"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch24-vocabulary",
+      "title": "Ch24: Vocabulary – Adverbs & changes",
+      "icon": "📚",
+      "subtopics": [
+        "もっとゆっくり話して",
+        "New words",
+        "Reading practice"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch24-grammar",
+      "title": "Ch24: Grammar – Adverbs & changes",
+      "icon": "📝",
+      "subtopics": [
+        "もっとゆっくり話して",
+        "Patterns",
+        "Sentence structure"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch24-examples",
+      "title": "Ch24: Dialogue – Adverbs & changes",
+      "icon": "📢",
+      "subtopics": [
+        "もっとゆっくり話して",
+        "Conversation",
+        "Real-life usage"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch25-vocabulary",
+      "title": "Ch25: Vocabulary – Review & wrap-up",
+      "icon": "📚",
+      "subtopics": [
+        "お正月",
+        "New words",
+        "Reading practice"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch25-grammar",
+      "title": "Ch25: Grammar – Review & wrap-up",
+      "icon": "📝",
+      "subtopics": [
+        "お正月",
+        "Patterns",
+        "Sentence structure"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ch25-examples",
+      "title": "Ch25: Dialogue – Review & wrap-up",
+      "icon": "🎍",
+      "subtopics": [
+        "お正月",
+        "Conversation",
+        "Real-life usage"
+      ],
+      "difficulty": "beginner"
+    }
+  ]
+}

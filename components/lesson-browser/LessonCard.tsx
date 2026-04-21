@@ -5,7 +5,7 @@ export interface LessonCardProps {
   title: string;
   description?: string;
   icon?: string;
-  classNum?: number;
+  classNum?: string | number;
   subject?: string;
   difficulty?: 'beginner' | 'intermediate' | 'advanced';
 }

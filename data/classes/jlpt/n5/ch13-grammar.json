@@ -1,0 +1,160 @@
+{
+  "id": "ch13-grammar",
+  "meta": {
+    "title": "Lesson 13: 先週映画を見ました — Grammar",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "ch13-grammar",
+    "subtopic": "Last Week I Watched a Movie",
+    "description": "Grammar patterns for Minna no Nihongo Lesson 13: Last Week I Watched a Movie",
+    "icon": "🎬",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "Time reference: 〜まえに vs 〜あとで",
+        "back": "〜まえに = before ~ (noun/verb dictionary form)\nたべるまえに = before eating\nじゅぎょうのまえに = before class\n\n〜あとで = after ~ (verb た-form/noun)\nたべたあとで = after eating\nじゅぎょうのあとで = after class"
+      },
+      {
+        "front": "Past tense review",
+        "back": "Group 1 (u-verbs): 〜った / 〜んだ / 〜いた\n飲む → 飲んだ\n書く → 書いた\n\nGroup 2 (ru-verbs): 〜た\n食べる → 食べた\n\nPolite past: + です → ました\nたべる → たべました"
+      },
+      {
+        "front": "Past time expressions",
+        "back": "昨日 (きのう) = yesterday\n先週 (せんしゅう) = last week\n先月 (せんげつ) = last month\n去年 (きょねん) = last year\n〜日前 (〜にちまえ) = ~ days ago\n〜週間前 (〜しゅうかんまえ) = ~ weeks ago"
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 25,
+      "questionsCount": 5
+    },
+    "items": [
+      {
+        "question": "たべる ___ 、歯を磨いてください。(Before eating, brush your teeth.)",
+        "answer": "まえに",
+        "options": [
+          "まえに",
+          "あとで",
+          "ながら",
+          "てから"
+        ],
+        "explanation": "〜まえに = before. Verb dictionary form + まえに: たべるまえに = before eating."
+      },
+      {
+        "question": "じゅぎょうの ___ 、コーヒーを飲みます。(After class, I drink coffee.)",
+        "answer": "あとで",
+        "options": [
+          "あとで",
+          "まえに",
+          "ながら",
+          "から"
+        ],
+        "explanation": "〜あとで = after. Noun + のあとで: じゅぎょうのあとで = after class."
+      },
+      {
+        "question": "先週、どこかへ行き ___ か。(Did you go somewhere last week?)",
+        "answer": "ました",
+        "options": [
+          "ました",
+          "ます",
+          "ました",
+          "ていません"
+        ],
+        "explanation": "Past question: 〜ましたか. 先週 (last week) indicates past time."
+      },
+      {
+        "question": "先月、おみやげを ___ 。(Last month, I bought souvenirs.)",
+        "answer": "かいました",
+        "options": [
+          "かいました",
+          "かいます",
+          "かっています",
+          "かっていました"
+        ],
+        "explanation": "先月 (last month) + かいました (bought, past) = last month I bought."
+      },
+      {
+        "question": "How do you say '3 days ago'?",
+        "answer": "みっかまえ",
+        "options": [
+          "みっかまえ",
+          "さんにちまえ",
+          "みっかあとで",
+          "さんにちあとで"
+        ],
+        "explanation": "〜日前 = ~ days ago. 3日前 = みっかまえ (using the special reading for 3 days: みっか)."
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 12,
+      "questionsCount": 5
+    },
+    "items": [
+      {
+        "question": "たべる ___ 、歯を磨いてください。(Before eating, brush your teeth.)",
+        "answer": "まえに",
+        "options": [
+          "まえに",
+          "あとで",
+          "ながら",
+          "てから"
+        ],
+        "explanation": "〜まえに = before. Verb dictionary form + まえに: たべるまえに = before eating."
+      },
+      {
+        "question": "じゅぎょうの ___ 、コーヒーを飲みます。(After class, I drink coffee.)",
+        "answer": "あとで",
+        "options": [
+          "あとで",
+          "まえに",
+          "ながら",
+          "から"
+        ],
+        "explanation": "〜あとで = after. Noun + のあとで: じゅぎょうのあとで = after class."
+      },
+      {
+        "question": "先週、どこかへ行き ___ か。(Did you go somewhere last week?)",
+        "answer": "ました",
+        "options": [
+          "ました",
+          "ます",
+          "ました",
+          "ていません"
+        ],
+        "explanation": "Past question: 〜ましたか. 先週 (last week) indicates past time."
+      },
+      {
+        "question": "先月、おみやげを ___ 。(Last month, I bought souvenirs.)",
+        "answer": "かいました",
+        "options": [
+          "かいました",
+          "かいます",
+          "かっています",
+          "かっていました"
+        ],
+        "explanation": "先月 (last month) + かいました (bought, past) = last month I bought."
+      },
+      {
+        "question": "How do you say '3 days ago'?",
+        "answer": "みっかまえ",
+        "options": [
+          "みっかまえ",
+          "さんにちまえ",
+          "みっかあとで",
+          "さんにちあとで"
+        ],
+        "explanation": "〜日前 = ~ days ago. 3日前 = みっかまえ (using the special reading for 3 days: みっか)."
+      }
+    ]
+  }
+}

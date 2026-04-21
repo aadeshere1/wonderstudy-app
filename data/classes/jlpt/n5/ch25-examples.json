@@ -1,0 +1,138 @@
+{
+  "id": "ch25-examples",
+  "meta": {
+    "title": "Lesson 25: お正月はどこへも行きませんでした — Dialogue & Examples",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "ch25-examples",
+    "subtopic": "I Didn't Go Anywhere on New Year's",
+    "description": "Practical dialogues and sentences for Lesson 25: I Didn't Go Anywhere on New Year's",
+    "icon": "🎍",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "どこへも/なにも/だれも + negative",
+        "back": "Negative universal expressions:\nどこへも行きません = don't go anywhere\nなにも食べません = don't eat anything\nだれにも会いません = don't meet anyone\n\nWith motion verbs: へも\nWith other verbs: も\n\nどこへも行きませんでした。\n= I didn't go anywhere."
+      },
+      {
+        "front": "〜ばよかったです — I wish I had done",
+        "back": "Expressing regret about the past:\n[verb ば-form] + よかったです\n\n行く → 行けばよかったです\n= I wish I had gone.\n\n食べる → 食べればよかったです\n= I wish I had eaten.\n\nUsed to express hindsight regret."
+      },
+      {
+        "front": "〜なければよかったです — I wish I hadn't",
+        "back": "Regret about something you DID do:\n[verb neg. ば-form] + よかったです\n\n食べなければよかったです。\n= I wish I hadn't eaten. (regretting eating)\n\nいいすぎなければよかったです。\n= I wish I hadn't said too much."
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 25,
+      "questionsCount": 4
+    },
+    "items": [
+      {
+        "question": "On New Year's, you stayed home all day. How do you say 'I didn't go anywhere'?",
+        "answer": "どこへも行きませんでした。",
+        "options": [
+          "どこへも行きませんでした。",
+          "どこかへ行きませんでした。",
+          "どこにも行きませんでした。",
+          "どこへ行きませんでした。"
+        ],
+        "explanation": "どこへも + negative = didn't go anywhere. へも is used with motion verbs (行く, 来る, etc.)."
+      },
+      {
+        "question": "You regret not going to the festival. How do you express this?",
+        "answer": "まつりに行けばよかったです。",
+        "options": [
+          "まつりに行けばよかったです。",
+          "まつりに行かなければよかったです。",
+          "まつりに行きたかったです。",
+          "まつりに行かなければなりません。"
+        ],
+        "explanation": "〜ばよかったです = I wish I had. 行く → 行けば + よかったです = I wish I had gone."
+      },
+      {
+        "question": "What is お盆?",
+        "answer": "Buddhist memorial festival in August for ancestors",
+        "options": [
+          "Buddhist memorial festival in August for ancestors",
+          "New Year's celebration",
+          "Cherry blossom festival in spring",
+          "Summer fireworks festival"
+        ],
+        "explanation": "お盆 (おぼん) is an important Japanese Buddhist festival in mid-August when families honor their ancestors."
+      },
+      {
+        "question": "You ate too much on New Year's and regret it. How do you say this?",
+        "answer": "食べすぎなければよかったです。",
+        "options": [
+          "食べすぎなければよかったです。",
+          "食べすぎればよかったです。",
+          "食べすぎなくてよかったです。",
+          "食べすぎてよかったです。"
+        ],
+        "explanation": "〜なければよかったです = I wish I hadn't. 食べすぎる (eat too much) → 食べすぎなければよかった."
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 12,
+      "questionsCount": 4
+    },
+    "items": [
+      {
+        "question": "On New Year's, you stayed home all day. How do you say 'I didn't go anywhere'?",
+        "answer": "どこへも行きませんでした。",
+        "options": [
+          "どこへも行きませんでした。",
+          "どこかへ行きませんでした。",
+          "どこにも行きませんでした。",
+          "どこへ行きませんでした。"
+        ],
+        "explanation": "どこへも + negative = didn't go anywhere. へも is used with motion verbs (行く, 来る, etc.)."
+      },
+      {
+        "question": "You regret not going to the festival. How do you express this?",
+        "answer": "まつりに行けばよかったです。",
+        "options": [
+          "まつりに行けばよかったです。",
+          "まつりに行かなければよかったです。",
+          "まつりに行きたかったです。",
+          "まつりに行かなければなりません。"
+        ],
+        "explanation": "〜ばよかったです = I wish I had. 行く → 行けば + よかったです = I wish I had gone."
+      },
+      {
+        "question": "What is お盆?",
+        "answer": "Buddhist memorial festival in August for ancestors",
+        "options": [
+          "Buddhist memorial festival in August for ancestors",
+          "New Year's celebration",
+          "Cherry blossom festival in spring",
+          "Summer fireworks festival"
+        ],
+        "explanation": "お盆 (おぼん) is an important Japanese Buddhist festival in mid-August when families honor their ancestors."
+      },
+      {
+        "question": "You ate too much on New Year's and regret it. How do you say this?",
+        "answer": "食べすぎなければよかったです。",
+        "options": [
+          "食べすぎなければよかったです。",
+          "食べすぎればよかったです。",
+          "食べすぎなくてよかったです。",
+          "食べすぎてよかったです。"
+        ],
+        "explanation": "〜なければよかったです = I wish I hadn't. 食べすぎる (eat too much) → 食べすぎなければよかった."
+      }
+    ]
+  }
+}

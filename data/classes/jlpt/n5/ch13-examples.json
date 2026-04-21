@@ -1,0 +1,116 @@
+{
+  "id": "ch13-examples",
+  "meta": {
+    "title": "Lesson 13: 先週映画を見ました — Dialogue & Examples",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "ch13-examples",
+    "subtopic": "Last Week I Watched a Movie",
+    "description": "Practical dialogues and sentences for Lesson 13: Last Week I Watched a Movie",
+    "icon": "🎬",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "Talking about a past trip",
+        "back": "A: 先週はどこかへ行きましたか。\nB: はい、京都へ行きました。\nA: どうでしたか。\nB: とても楽しかったです！お寺がきれいでした。\n\nA: Did you go anywhere last week?\nB: Yes, I went to Kyoto.\nA: How was it?\nB: It was very fun! The temples were beautiful."
+      },
+      {
+        "front": "Before and after activities",
+        "back": "ねるまえに、はをみがきます。\n= Before sleeping, I brush my teeth.\n\nたべたあとで、さんぽします。\n= After eating, I take a walk.\n\nしごとのまえに、コーヒーをのみます。\n= Before work, I drink coffee."
+      },
+      {
+        "front": "Souvenir shopping",
+        "back": "A: どこでおみやげをかいましたか。\nB: 浅草でかいました。\nA: なにをかいましたか。\nB: ようかんとせんべいをかいました。\n\nようかん = sweet bean jelly\nせんべい = rice crackers"
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 25,
+      "questionsCount": 3
+    },
+    "items": [
+      {
+        "question": "A: 先月どこへ行きましたか。B: ___ へ行きました。(To Osaka.)",
+        "answer": "大阪",
+        "options": [
+          "大阪",
+          "東京",
+          "京都",
+          "北海道"
+        ],
+        "explanation": "大阪 (おおさか) = Osaka. 先月大阪へ行きました = I went to Osaka last month."
+      },
+      {
+        "question": "Before sleeping, I read a book. Which is correct?",
+        "answer": "ねるまえに、本をよみます。",
+        "options": [
+          "ねるまえに、本をよみます。",
+          "ねたあとで、本をよみます。",
+          "ねながら、本をよみます。",
+          "ねてから、本をよみます。"
+        ],
+        "explanation": "〜まえに = before. ねる (dictionary form) + まえに = before sleeping."
+      },
+      {
+        "question": "I went sightseeing in Kyoto last year. How do you say this?",
+        "answer": "きょねん、京都でかんこうしました。",
+        "options": [
+          "きょねん、京都でかんこうしました。",
+          "らいねん、京都でかんこうします。",
+          "きょねん、京都にかんこうしました。",
+          "せんしゅう、京都でかんこうしました。"
+        ],
+        "explanation": "去年 (きょねん) = last year. で = location of action. かんこうしました = went sightseeing (past)."
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 12,
+      "questionsCount": 3
+    },
+    "items": [
+      {
+        "question": "A: 先月どこへ行きましたか。B: ___ へ行きました。(To Osaka.)",
+        "answer": "大阪",
+        "options": [
+          "大阪",
+          "東京",
+          "京都",
+          "北海道"
+        ],
+        "explanation": "大阪 (おおさか) = Osaka. 先月大阪へ行きました = I went to Osaka last month."
+      },
+      {
+        "question": "Before sleeping, I read a book. Which is correct?",
+        "answer": "ねるまえに、本をよみます。",
+        "options": [
+          "ねるまえに、本をよみます。",
+          "ねたあとで、本をよみます。",
+          "ねながら、本をよみます。",
+          "ねてから、本をよみます。"
+        ],
+        "explanation": "〜まえに = before. ねる (dictionary form) + まえに = before sleeping."
+      },
+      {
+        "question": "I went sightseeing in Kyoto last year. How do you say this?",
+        "answer": "きょねん、京都でかんこうしました。",
+        "options": [
+          "きょねん、京都でかんこうしました。",
+          "らいねん、京都でかんこうします。",
+          "きょねん、京都にかんこうしました。",
+          "せんしゅう、京都でかんこうしました。"
+        ],
+        "explanation": "去年 (きょねん) = last year. で = location of action. かんこうしました = went sightseeing (past)."
+      }
+    ]
+  }
+}

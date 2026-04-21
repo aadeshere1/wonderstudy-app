@@ -1,0 +1,160 @@
+{
+  "id": "ch18-grammar",
+  "meta": {
+    "title": "Lesson 18: 来週パーティーをするんですが — Grammar",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "ch18-grammar",
+    "subtopic": "I'm Having a Party Next Week",
+    "description": "Grammar patterns for Minna no Nihongo Lesson 18: I'm Having a Party Next Week",
+    "icon": "🎉",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "〜から — Giving reasons",
+        "back": "〜から = because ~ (reason)\n\n[reason sentence]から、[result]\n\nつかれたから、はやく寝ます。\n= Because I'm tired, I'll sleep early.\n\n〜から can come in the middle or at end:\nはやく寝ます。つかれたから。\n= I'll sleep early. Because I'm tired."
+      },
+      {
+        "front": "Bringing things: きます/いきます",
+        "back": "〜てきます = come/go and bring back:\n→ きます: action done and come back here\nかってきます = go buy and come back\n\n〜ていきます = go and do:\n→ いきます: action done while going\nもっていきます = take (to go)\n\nもってきます = bring (here)\nもっていきます = take (there)"
+      },
+      {
+        "front": "Inviting and scheduling",
+        "back": "つごうはどうですか。= How's your schedule?\nよていはありますか。= Do you have plans?\nこんどのどようびはどうですか。= How about this Saturday?\n\nぜひきてください。= Please do come.\nぜひ！= By all means!"
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 25,
+      "questionsCount": 5
+    },
+    "items": [
+      {
+        "question": "あたまがいたい ___ 、かいしゃをやすみます。(Because I have a headache, I'll take the day off.)",
+        "answer": "から",
+        "options": [
+          "から",
+          "ので",
+          "が",
+          "でも"
+        ],
+        "explanation": "〜から = because (subjective reason). あたまがいたいから = because my head hurts."
+      },
+      {
+        "question": "パーティーに ___ てきてください。(Please bring your friend to the party.)",
+        "answer": "ともだちをつれ",
+        "options": [
+          "ともだちをつれ",
+          "ともだちをもっ",
+          "ともだちとき",
+          "ともだちにき"
+        ],
+        "explanation": "つれてきます = to bring (a person). ともだちをつれてくる = to bring a friend."
+      },
+      {
+        "question": "What does もっていきます mean?",
+        "answer": "To take (something) to another place",
+        "options": [
+          "To take (something) to another place",
+          "To bring (something) here",
+          "To send (something)",
+          "To buy (something)"
+        ],
+        "explanation": "持っていきます = take (thing) away (away from here). Contrast: 持ってきます = bring (here)."
+      },
+      {
+        "question": "しゅうまつはつごうがいい ___ 。(The weekend works for me.)",
+        "answer": "です",
+        "options": [
+          "です",
+          "ました",
+          "ます",
+          "ています"
+        ],
+        "explanation": "都合がいいです = it's convenient / works for me. A common scheduling expression."
+      },
+      {
+        "question": "A: パーティーにきませんか。B: ___！(By all means!)",
+        "answer": "ぜひ",
+        "options": [
+          "ぜひ",
+          "ちょっと",
+          "また今度",
+          "すみません"
+        ],
+        "explanation": "ぜひ = by all means / definitely! The most enthusiastic way to accept an invitation."
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 12,
+      "questionsCount": 5
+    },
+    "items": [
+      {
+        "question": "あたまがいたい ___ 、かいしゃをやすみます。(Because I have a headache, I'll take the day off.)",
+        "answer": "から",
+        "options": [
+          "から",
+          "ので",
+          "が",
+          "でも"
+        ],
+        "explanation": "〜から = because (subjective reason). あたまがいたいから = because my head hurts."
+      },
+      {
+        "question": "パーティーに ___ てきてください。(Please bring your friend to the party.)",
+        "answer": "ともだちをつれ",
+        "options": [
+          "ともだちをつれ",
+          "ともだちをもっ",
+          "ともだちとき",
+          "ともだちにき"
+        ],
+        "explanation": "つれてきます = to bring (a person). ともだちをつれてくる = to bring a friend."
+      },
+      {
+        "question": "What does もっていきます mean?",
+        "answer": "To take (something) to another place",
+        "options": [
+          "To take (something) to another place",
+          "To bring (something) here",
+          "To send (something)",
+          "To buy (something)"
+        ],
+        "explanation": "持っていきます = take (thing) away (away from here). Contrast: 持ってきます = bring (here)."
+      },
+      {
+        "question": "しゅうまつはつごうがいい ___ 。(The weekend works for me.)",
+        "answer": "です",
+        "options": [
+          "です",
+          "ました",
+          "ます",
+          "ています"
+        ],
+        "explanation": "都合がいいです = it's convenient / works for me. A common scheduling expression."
+      },
+      {
+        "question": "A: パーティーにきませんか。B: ___！(By all means!)",
+        "answer": "ぜひ",
+        "options": [
+          "ぜひ",
+          "ちょっと",
+          "また今度",
+          "すみません"
+        ],
+        "explanation": "ぜひ = by all means / definitely! The most enthusiastic way to accept an invitation."
+      }
+    ]
+  }
+}

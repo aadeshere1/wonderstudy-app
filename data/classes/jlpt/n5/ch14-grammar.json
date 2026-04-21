@@ -1,0 +1,182 @@
+{
+  "id": "ch14-grammar",
+  "meta": {
+    "title": "Lesson 14: 今何をしていますか — Grammar",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "ch14-grammar",
+    "subtopic": "What Are You Doing Now?",
+    "description": "Grammar patterns for Minna no Nihongo Lesson 14: What Are You Doing Now?",
+    "icon": "📞",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "〜ています — Progressive",
+        "back": "て-form + います = is doing (right now)\n\n今なにをしていますか。= What are you doing now?\n→ テレビをみています。= I'm watching TV.\n→ ごはんをたべています。= I'm eating.\n\nUse for ongoing actions happening right now."
+      },
+      {
+        "front": "〜ています — Habitual state",
+        "back": "〜ています also expresses habits or ongoing situations:\n\n東京にすんでいます。= I live in Tokyo.\n(ongoing state of living)\n\nかいしゃにつとめています。= I work at a company.\n(ongoing job situation)\n\nThis is different from present progressive!"
+      },
+      {
+        "front": "Phone conversation phrases",
+        "back": "もしもし = hello? (phone)\nAのBでございます。= This is B from A. (formal)\nAさんはいらっしゃいますか。= Is Mr./Ms. A there?\nしょうしょうおまちください。= Please hold a moment. (formal)\nまたあとでおかけします。= I'll call back later."
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 25,
+      "questionsCount": 6
+    },
+    "items": [
+      {
+        "question": "今なにをし ___ か。(What are you doing now?)",
+        "answer": "ていますか",
+        "options": [
+          "ていますか",
+          "ましたか",
+          "ますか",
+          "てありますか"
+        ],
+        "explanation": "〜ています = progressive (ongoing action). 今 = now. していますか = are you doing?"
+      },
+      {
+        "question": "テレビをみ ___ 。(I'm watching TV.)",
+        "answer": "ています",
+        "options": [
+          "ています",
+          "ました",
+          "ます",
+          "てありました"
+        ],
+        "explanation": "〜ています = is doing (right now). みています = am watching."
+      },
+      {
+        "question": "東京にすん ___ 。(I live in Tokyo.)",
+        "answer": "でいます",
+        "options": [
+          "でいます",
+          "でいました",
+          "でいません",
+          "でおきます"
+        ],
+        "explanation": "すんでいます = am living (ongoing state). 住む (すむ) → 住んで + います."
+      },
+      {
+        "question": "でんわで ___ 。(I'm talking on the phone.)",
+        "answer": "はなしています",
+        "options": [
+          "はなしています",
+          "きいています",
+          "かいています",
+          "よんでいます"
+        ],
+        "explanation": "でんわで = on the phone (by means of phone). はなしています = am talking/speaking."
+      },
+      {
+        "question": "Phone answer: もしもし、___ です。(Hello, this is Tanaka.)",
+        "answer": "田中",
+        "options": [
+          "田中",
+          "はじめまして",
+          "よろしく",
+          "おはよう"
+        ],
+        "explanation": "もしもし、[name]です = Hello, this is [name]. Standard phone greeting."
+      },
+      {
+        "question": "〜に住んでいます means:",
+        "answer": "I live in ~ (ongoing state)",
+        "options": [
+          "I live in ~ (ongoing state)",
+          "I went to ~",
+          "I visited ~",
+          "I am going to ~"
+        ],
+        "explanation": "住む (すむ) + でいます = ongoing state of living. 〜に住んでいます = live in ~."
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 12,
+      "questionsCount": 6
+    },
+    "items": [
+      {
+        "question": "今なにをし ___ か。(What are you doing now?)",
+        "answer": "ていますか",
+        "options": [
+          "ていますか",
+          "ましたか",
+          "ますか",
+          "てありますか"
+        ],
+        "explanation": "〜ています = progressive (ongoing action). 今 = now. していますか = are you doing?"
+      },
+      {
+        "question": "テレビをみ ___ 。(I'm watching TV.)",
+        "answer": "ています",
+        "options": [
+          "ています",
+          "ました",
+          "ます",
+          "てありました"
+        ],
+        "explanation": "〜ています = is doing (right now). みています = am watching."
+      },
+      {
+        "question": "東京にすん ___ 。(I live in Tokyo.)",
+        "answer": "でいます",
+        "options": [
+          "でいます",
+          "でいました",
+          "でいません",
+          "でおきます"
+        ],
+        "explanation": "すんでいます = am living (ongoing state). 住む (すむ) → 住んで + います."
+      },
+      {
+        "question": "でんわで ___ 。(I'm talking on the phone.)",
+        "answer": "はなしています",
+        "options": [
+          "はなしています",
+          "きいています",
+          "かいています",
+          "よんでいます"
+        ],
+        "explanation": "でんわで = on the phone (by means of phone). はなしています = am talking/speaking."
+      },
+      {
+        "question": "Phone answer: もしもし、___ です。(Hello, this is Tanaka.)",
+        "answer": "田中",
+        "options": [
+          "田中",
+          "はじめまして",
+          "よろしく",
+          "おはよう"
+        ],
+        "explanation": "もしもし、[name]です = Hello, this is [name]. Standard phone greeting."
+      },
+      {
+        "question": "〜に住んでいます means:",
+        "answer": "I live in ~ (ongoing state)",
+        "options": [
+          "I live in ~ (ongoing state)",
+          "I went to ~",
+          "I visited ~",
+          "I am going to ~"
+        ],
+        "explanation": "住む (すむ) + でいます = ongoing state of living. 〜に住んでいます = live in ~."
+      }
+    ]
+  }
+}

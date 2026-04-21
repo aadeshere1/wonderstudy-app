@@ -1,0 +1,290 @@
+{
+  "id": "ch09-grammar",
+  "meta": {
+    "title": "Lesson 9: 買い物をします — Grammar",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "ch09-grammar",
+    "subtopic": "Shopping",
+    "description": "Grammar patterns for Minna no Nihongo Lesson 9: Shopping",
+    "icon": "🛍️",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "Frequency adverbs",
+        "back": "よく = often\nたいてい = usually\nときどき = sometimes\nあまり〜ない = not very often\nぜんぜん〜ない = not at all\n\nImportant: あまり and ぜんぜん MUST be followed by a NEGATIVE verb!"
+      },
+      {
+        "front": "Counters: flat things (〜枚)",
+        "back": "1枚 = いちまい\n2枚 = にまい\n3枚 = さんまい\n4枚 = よんまい\n5枚 = ごまい\n\nUsed for: paper, shirts, CDs, stamps, sliced bread, tickets"
+      },
+      {
+        "front": "Counters: long thin things (〜本)",
+        "back": "1本 = いっぽん\n2本 = にほん\n3本 = さんぼん\n4本 = よんほん\n5本 = ごほん\n6本 = ろっぽん\n\nUsed for: pens, bottles, bananas, rivers, roads, movies"
+      },
+      {
+        "front": "Counters: machines (〜台)",
+        "back": "1台 = いちだい\n2台 = にだい\n3台 = さんだい\n\nUsed for: cars, computers, washing machines, TVs, bicycles\n\nどのくらいかかりますか = How long/how much does it take?"
+      },
+      {
+        "front": "Counters: cups & books",
+        "back": "〜杯 (はい/ばい/ぱい) = cups/glasses/bowls\n1杯=いっぱい / 2杯=にはい / 3杯=さんばい\n\n〜冊 (さつ) = books/notebooks\n1冊=いっさつ / 2冊=にさつ / 3冊=さんさつ"
+      },
+      {
+        "front": "Counters: small animals (〜匹)",
+        "back": "〜匹 (ひき/びき/ぴき) = small animals (cats, dogs, fish)\n1匹=いっぴき / 2匹=にひき / 3匹=さんびき\n\nLarge animals use 〜頭 (とう):\n1頭=いっとう / 2頭=にとう (for elephants, horses, cows)\n\nBirds use 〜羽 (わ): 1羽=いちわ"
+      },
+      {
+        "front": "どのくらい / 〜かかります",
+        "back": "どのくらいかかりますか。\n= How long does it take? / How much does it cost?\n\n〜時間かかります = it takes ~ hours\n〜分かかります = it takes ~ minutes\n〜円かかります = it costs ~ yen\n\n東京から大阪まで新幹線で2時間半かかります。"
+      },
+      {
+        "front": "Buying & borrowing verbs",
+        "back": "買います (かいます) = to buy\n売ります (うります) = to sell\n借ります (かります) = to borrow/rent\n返します (かえします) = to return\n貸します (かします) = to lend\n\nNote: 借ります vs 貸します — easy to confuse!\n借りる = you receive / 貸す = you give"
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 25,
+      "questionsCount": 10
+    },
+    "items": [
+      {
+        "question": "よく ___ か。(Do you often go shopping?)",
+        "answer": "かいものをしますか",
+        "options": [
+          "かいものをしますか",
+          "かいものをしません",
+          "かいものをしました",
+          "かいものします"
+        ],
+        "explanation": "よく = often. Used with positive verb forms. よくかいものをしますか = Do you often go shopping?"
+      },
+      {
+        "question": "ぜんぜん ___ 。(I don't drink alcohol at all.)",
+        "answer": "おさけを飲みません",
+        "options": [
+          "おさけを飲みません",
+          "おさけを飲みます",
+          "おさけをよく飲みます",
+          "おさけをときどき飲みます"
+        ],
+        "explanation": "ぜんぜん must be followed by a NEGATIVE verb. ぜんぜん〜ません = not at all."
+      },
+      {
+        "question": "A shirt costs 2,500 yen. How do you say this?",
+        "answer": "シャツはにせんごひゃくえんです。",
+        "options": [
+          "シャツはにせんごひゃくえんです。",
+          "シャツはごひゃくにせんえんです。",
+          "シャツはにせんえんごひゃくです。",
+          "シャツがにせんごひゃくえんです。"
+        ],
+        "explanation": "2500 = にせんごひゃく. 2000 = にせん + 500 = ごひゃく = 2500えん."
+      },
+      {
+        "question": "3本のビール (3 bottles of beer) → how do you say '3 bottles'?",
+        "answer": "さんぼん",
+        "options": [
+          "さんぼん",
+          "さんほん",
+          "さんぽん",
+          "みほん"
+        ],
+        "explanation": "3本 = さんぼん. Note the voiced consonant: 3=さんぼん, 6=ろっぽん, 1=いっぽん."
+      },
+      {
+        "question": "How do you ask 'How many stamps do you want?'",
+        "answer": "きってを何枚ほしいですか。",
+        "options": [
+          "きってを何枚ほしいですか。",
+          "きってを何本ほしいですか。",
+          "きってを何個ほしいですか。",
+          "きってを何台ほしいですか。"
+        ],
+        "explanation": "切手 (きって) = stamps. Stamps are flat → use 〜枚 (まい). 何枚 (なんまい) = how many (flat things)."
+      },
+      {
+        "question": "東京から大阪まで新幹線で ___ かかりますか。(How long does it take?)",
+        "answer": "どのくらい",
+        "options": [
+          "どのくらい",
+          "いくら",
+          "なんじ",
+          "なんにち"
+        ],
+        "explanation": "どのくらいかかりますか = How long does it take? どのくらい = how much/how long (extent)."
+      },
+      {
+        "question": "本を3冊買いました。What does 3冊 count?",
+        "answer": "3 books",
+        "options": [
+          "3 books",
+          "3 flat papers",
+          "3 bottles",
+          "3 machines"
+        ],
+        "explanation": "〜冊 (さつ) is the counter for books and notebooks. 3冊 = さんさつ = 3 books."
+      },
+      {
+        "question": "ときどき映画を見ます。How often does this person watch movies?",
+        "answer": "Sometimes",
+        "options": [
+          "Sometimes",
+          "Always",
+          "Never",
+          "Very often"
+        ],
+        "explanation": "ときどき = sometimes. Frequency scale: よく > たいてい > ときどき > あまり〜ない > ぜんぜん〜ない."
+      },
+      {
+        "question": "I have 2 cats. Which counter is correct?",
+        "answer": "2匹 (にひき)",
+        "options": [
+          "2匹 (にひき)",
+          "2台 (にだい)",
+          "2枚 (にまい)",
+          "2冊 (にさつ)"
+        ],
+        "explanation": "〜匹 (ひき/びき/ぴき) is used for small animals. 2匹 = にひき. (1匹=いっぴき, 3匹=さんびき)"
+      },
+      {
+        "question": "本を友達に貸します vs 本を友達から借ります. Which means 'I borrow a book from a friend'?",
+        "answer": "本を友達から借ります",
+        "options": [
+          "本を友達から借ります",
+          "本を友達に貸します",
+          "Both mean the same",
+          "Neither is correct"
+        ],
+        "explanation": "借ります (かります) = to borrow (you receive). から = from. 貸します (かします) = to lend (you give). に = to."
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 12,
+      "questionsCount": 10
+    },
+    "items": [
+      {
+        "question": "よく ___ か。(Do you often go shopping?)",
+        "answer": "かいものをしますか",
+        "options": [
+          "かいものをしますか",
+          "かいものをしません",
+          "かいものをしました",
+          "かいものします"
+        ],
+        "explanation": "よく = often. Used with positive verb forms. よくかいものをしますか = Do you often go shopping?"
+      },
+      {
+        "question": "ぜんぜん ___ 。(I don't drink alcohol at all.)",
+        "answer": "おさけを飲みません",
+        "options": [
+          "おさけを飲みません",
+          "おさけを飲みます",
+          "おさけをよく飲みます",
+          "おさけをときどき飲みます"
+        ],
+        "explanation": "ぜんぜん must be followed by a NEGATIVE verb. ぜんぜん〜ません = not at all."
+      },
+      {
+        "question": "A shirt costs 2,500 yen. How do you say this?",
+        "answer": "シャツはにせんごひゃくえんです。",
+        "options": [
+          "シャツはにせんごひゃくえんです。",
+          "シャツはごひゃくにせんえんです。",
+          "シャツはにせんえんごひゃくです。",
+          "シャツがにせんごひゃくえんです。"
+        ],
+        "explanation": "2500 = にせんごひゃく. 2000 = にせん + 500 = ごひゃく = 2500えん."
+      },
+      {
+        "question": "3本のビール (3 bottles of beer) → how do you say '3 bottles'?",
+        "answer": "さんぼん",
+        "options": [
+          "さんぼん",
+          "さんほん",
+          "さんぽん",
+          "みほん"
+        ],
+        "explanation": "3本 = さんぼん. Note the voiced consonant: 3=さんぼん, 6=ろっぽん, 1=いっぽん."
+      },
+      {
+        "question": "How do you ask 'How many stamps do you want?'",
+        "answer": "きってを何枚ほしいですか。",
+        "options": [
+          "きってを何枚ほしいですか。",
+          "きってを何本ほしいですか。",
+          "きってを何個ほしいですか。",
+          "きってを何台ほしいですか。"
+        ],
+        "explanation": "切手 (きって) = stamps. Stamps are flat → use 〜枚 (まい). 何枚 (なんまい) = how many (flat things)."
+      },
+      {
+        "question": "東京から大阪まで新幹線で ___ かかりますか。(How long does it take?)",
+        "answer": "どのくらい",
+        "options": [
+          "どのくらい",
+          "いくら",
+          "なんじ",
+          "なんにち"
+        ],
+        "explanation": "どのくらいかかりますか = How long does it take? どのくらい = how much/how long (extent)."
+      },
+      {
+        "question": "本を3冊買いました。What does 3冊 count?",
+        "answer": "3 books",
+        "options": [
+          "3 books",
+          "3 flat papers",
+          "3 bottles",
+          "3 machines"
+        ],
+        "explanation": "〜冊 (さつ) is the counter for books and notebooks. 3冊 = さんさつ = 3 books."
+      },
+      {
+        "question": "ときどき映画を見ます。How often does this person watch movies?",
+        "answer": "Sometimes",
+        "options": [
+          "Sometimes",
+          "Always",
+          "Never",
+          "Very often"
+        ],
+        "explanation": "ときどき = sometimes. Frequency scale: よく > たいてい > ときどき > あまり〜ない > ぜんぜん〜ない."
+      },
+      {
+        "question": "I have 2 cats. Which counter is correct?",
+        "answer": "2匹 (にひき)",
+        "options": [
+          "2匹 (にひき)",
+          "2台 (にだい)",
+          "2枚 (にまい)",
+          "2冊 (にさつ)"
+        ],
+        "explanation": "〜匹 (ひき/びき/ぴき) is used for small animals. 2匹 = にひき. (1匹=いっぴき, 3匹=さんびき)"
+      },
+      {
+        "question": "本を友達に貸します vs 本を友達から借ります. Which means 'I borrow a book from a friend'?",
+        "answer": "本を友達から借ります",
+        "options": [
+          "本を友達から借ります",
+          "本を友達に貸します",
+          "Both mean the same",
+          "Neither is correct"
+        ],
+        "explanation": "借ります (かります) = to borrow (you receive). から = from. 貸します (かします) = to lend (you give). に = to."
+      }
+    ]
+  }
+}

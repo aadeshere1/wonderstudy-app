@@ -1,0 +1,238 @@
+{
+  "id": "ch07-examples",
+  "meta": {
+    "title": "Lesson 7: 日本語の授業は楽しいですか — Dialogue & Examples",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "ch07-examples",
+    "subtopic": "Is Japanese Class Fun?",
+    "description": "Practical dialogues and sentences for Lesson 7: Is Japanese Class Fun?",
+    "icon": "📚",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "Describing your Japanese class",
+        "back": "A: 日本語の授業はどうですか。\nB: とても楽しいです。でも、少しむずかしいです。\n\nA: How is your Japanese class?\nB: It's very fun. But it's a little difficult."
+      },
+      {
+        "front": "Describing food",
+        "back": "このすしはおいしいですか。\n→ はい、とてもおいしいです。\n→ いいえ、あまりおいしくないです。\n\nIs this sushi delicious?\n→ Yes, it's very delicious.\n→ No, it's not very delicious."
+      },
+      {
+        "front": "Weather conversation",
+        "back": "A: 今日はどうですか。\nB: とても寒いです！\nA: そうですね。昨日はあたたかかったですね。\nB: ええ、今日のほうが寒いですね。\n\n昨日はあたたかかった = Yesterday was warm (past tense)"
+      },
+      {
+        "front": "Shopping: comparing prices",
+        "back": "A: このかばんはたかいですか。\nB: はい、ちょっとたかいです。でもいいですよ。\nA: あちらのかばんは？\nB: あちらのほうがやすいですよ。\n\nA: Is this bag expensive?\nB: Yes, a little expensive. But it's good.\nA: That bag over there?\nB: That one is cheaper."
+      },
+      {
+        "front": "い-adjective past tense",
+        "back": "Past positive: い → かった + です\nおいしい → おいしかったです (was delicious)\nたのしい → たのしかったです (was fun)\n\nPast negative: い → くなかった + です\nたかい → たかくなかったです (was not expensive)\n\n昨日のパーティーはたのしかったです！\n= Yesterday's party was fun!"
+      },
+      {
+        "front": "What is it like? どうですか",
+        "back": "どうですか = How is it? / What is it like?\n\nUsed to ask for opinions/evaluations:\n日本語はどうですか。= How is Japanese?\n新しい仕事はどうですか。= How is the new job?\n\nCan answer with any い-adjective!"
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 25,
+      "questionsCount": 8
+    },
+    "items": [
+      {
+        "question": "A: 日本はどうですか。B: ___ です。(It's very interesting!)",
+        "answer": "とてもおもしろい",
+        "options": [
+          "とてもおもしろい",
+          "あまりおもしろくない",
+          "すこしつまらない",
+          "とてもつまらない"
+        ],
+        "explanation": "どうですか = how is it? Answer with an adjective. とてもおもしろい = very interesting."
+      },
+      {
+        "question": "Yesterday's test was difficult. How do you say this?",
+        "answer": "昨日のテストはむずかしかったです。",
+        "options": [
+          "昨日のテストはむずかしかったです。",
+          "昨日のテストはむずかしいです。",
+          "昨日のテストはむずかしくないです。",
+          "昨日のテストはむずかしかったじゃないです。"
+        ],
+        "explanation": "い-adjective past: drop い + かった + です. むずかしい → むずかしかったです."
+      },
+      {
+        "question": "The movie wasn't very interesting. Which is correct?",
+        "answer": "映画はあまりおもしろくなかったです。",
+        "options": [
+          "映画はあまりおもしろくなかったです。",
+          "映画はとてもおもしろくなかったです。",
+          "映画はあまりおもしろかったです。",
+          "映画はあまりおもしろくないです。"
+        ],
+        "explanation": "Past negative: drop い + くなかった + です. おもしろい → おもしろくなかった. あまり goes with negative form."
+      },
+      {
+        "question": "How do you say 'This restaurant is cheap and delicious'?",
+        "answer": "このレストランはやすくておいしいです。",
+        "options": [
+          "このレストランはやすくておいしいです。",
+          "このレストランはやすいでおいしいです。",
+          "このレストランはやすいとおいしいです。",
+          "このレストランはやすいておいしいです。"
+        ],
+        "explanation": "Connecting い-adjectives: drop い + くて. やすい → やすくて + おいしい = やすくておいしい."
+      },
+      {
+        "question": "What does どうですか mean?",
+        "answer": "How is it? / What is it like?",
+        "options": [
+          "How is it? / What is it like?",
+          "Where is it?",
+          "When is it?",
+          "Who is it?"
+        ],
+        "explanation": "どうですか = How is it? Used to ask for someone's impression or evaluation of something."
+      },
+      {
+        "question": "How do you say 'The weather is warm today'?",
+        "answer": "今日はあたたかいです。",
+        "options": [
+          "今日はあたたかいです。",
+          "今日はあたたかくないです。",
+          "今日はあついです。",
+          "今日はさむいです。"
+        ],
+        "explanation": "あたたかい = warm. Note: あつい (hot) = stronger heat. あたたかい = pleasantly warm."
+      },
+      {
+        "question": "Which is correct: 'The city is not very busy'?",
+        "answer": "まちはあまりいそがしくないです。",
+        "options": [
+          "まちはあまりいそがしくないです。",
+          "まちはとてもいそがしくないです。",
+          "まちはあまりいそがしいです。",
+          "まちはとてもいそがしいです。"
+        ],
+        "explanation": "あまり must be followed by a negative form. いそがしい → いそがしくない. あまりいそがしくない = not very busy."
+      },
+      {
+        "question": "How do you connect 'new' and 'cheap' to describe a car?",
+        "answer": "新しくて、安いくるまです。",
+        "options": [
+          "新しくて、安いくるまです。",
+          "新しいで、安いくるまです。",
+          "新しいと、安いくるまです。",
+          "新しいて、安いくるまです。"
+        ],
+        "explanation": "い-adj て-form: drop い + くて. 新しい → 新しくて. This connects to the next adjective."
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 12,
+      "questionsCount": 8
+    },
+    "items": [
+      {
+        "question": "A: 日本はどうですか。B: ___ です。(It's very interesting!)",
+        "answer": "とてもおもしろい",
+        "options": [
+          "とてもおもしろい",
+          "あまりおもしろくない",
+          "すこしつまらない",
+          "とてもつまらない"
+        ],
+        "explanation": "どうですか = how is it? Answer with an adjective. とてもおもしろい = very interesting."
+      },
+      {
+        "question": "Yesterday's test was difficult. How do you say this?",
+        "answer": "昨日のテストはむずかしかったです。",
+        "options": [
+          "昨日のテストはむずかしかったです。",
+          "昨日のテストはむずかしいです。",
+          "昨日のテストはむずかしくないです。",
+          "昨日のテストはむずかしかったじゃないです。"
+        ],
+        "explanation": "い-adjective past: drop い + かった + です. むずかしい → むずかしかったです."
+      },
+      {
+        "question": "The movie wasn't very interesting. Which is correct?",
+        "answer": "映画はあまりおもしろくなかったです。",
+        "options": [
+          "映画はあまりおもしろくなかったです。",
+          "映画はとてもおもしろくなかったです。",
+          "映画はあまりおもしろかったです。",
+          "映画はあまりおもしろくないです。"
+        ],
+        "explanation": "Past negative: drop い + くなかった + です. おもしろい → おもしろくなかった. あまり goes with negative form."
+      },
+      {
+        "question": "How do you say 'This restaurant is cheap and delicious'?",
+        "answer": "このレストランはやすくておいしいです。",
+        "options": [
+          "このレストランはやすくておいしいです。",
+          "このレストランはやすいでおいしいです。",
+          "このレストランはやすいとおいしいです。",
+          "このレストランはやすいておいしいです。"
+        ],
+        "explanation": "Connecting い-adjectives: drop い + くて. やすい → やすくて + おいしい = やすくておいしい."
+      },
+      {
+        "question": "What does どうですか mean?",
+        "answer": "How is it? / What is it like?",
+        "options": [
+          "How is it? / What is it like?",
+          "Where is it?",
+          "When is it?",
+          "Who is it?"
+        ],
+        "explanation": "どうですか = How is it? Used to ask for someone's impression or evaluation of something."
+      },
+      {
+        "question": "How do you say 'The weather is warm today'?",
+        "answer": "今日はあたたかいです。",
+        "options": [
+          "今日はあたたかいです。",
+          "今日はあたたかくないです。",
+          "今日はあついです。",
+          "今日はさむいです。"
+        ],
+        "explanation": "あたたかい = warm. Note: あつい (hot) = stronger heat. あたたかい = pleasantly warm."
+      },
+      {
+        "question": "Which is correct: 'The city is not very busy'?",
+        "answer": "まちはあまりいそがしくないです。",
+        "options": [
+          "まちはあまりいそがしくないです。",
+          "まちはとてもいそがしくないです。",
+          "まちはあまりいそがしいです。",
+          "まちはとてもいそがしいです。"
+        ],
+        "explanation": "あまり must be followed by a negative form. いそがしい → いそがしくない. あまりいそがしくない = not very busy."
+      },
+      {
+        "question": "How do you connect 'new' and 'cheap' to describe a car?",
+        "answer": "新しくて、安いくるまです。",
+        "options": [
+          "新しくて、安いくるまです。",
+          "新しいで、安いくるまです。",
+          "新しいと、安いくるまです。",
+          "新しいて、安いくるまです。"
+        ],
+        "explanation": "い-adj て-form: drop い + くて. 新しい → 新しくて. This connects to the next adjective."
+      }
+    ]
+  }
+}

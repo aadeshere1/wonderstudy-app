@@ -1,0 +1,442 @@
+{
+  "id": "ch01-vocabulary",
+  "meta": {
+    "title": "Lesson 1: はじめまして — Vocabulary",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "ch01-vocabulary",
+    "subtopic": "Nice to Meet You",
+    "description": "Vocabulary for Minna no Nihongo Lesson 1: Nice to Meet You",
+    "icon": "👋",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "わたし",
+        "back": "I / me (私)\nFormal in speech; use in all polite situations.\nExample: わたしは田中です。= I am Tanaka."
+      },
+      {
+        "front": "せんせい / がくせい",
+        "back": "先生 = teacher\n学生 = student\nThese are the two most common roles in MNN Lesson 1."
+      },
+      {
+        "front": "かいしゃいん / いしゃ",
+        "back": "会社員 = company employee\n医者 = doctor\nCommon occupations introduced in Lesson 1."
+      },
+      {
+        "front": "〜じん vs 〜ご",
+        "back": "〜人 (じん) = nationality\n日本人 (にほんじん) = Japanese person\n\n〜語 (ご) = language\n日本語 (にほんご) = Japanese language"
+      },
+      {
+        "front": "〜さん",
+        "back": "A polite suffix used after names.\nNever use it with your own name!\n田中さん = Mr./Ms. Tanaka"
+      },
+      {
+        "front": "はじめまして",
+        "back": "Said when meeting someone for the first time.\nAlways followed by よろしくおねがいします.\nMeans: 'How do you do' / 'Nice to meet you'"
+      },
+      {
+        "front": "Nationalities",
+        "back": "日本 → 日本人 (Japanese)\nアメリカ → アメリカ人 (American)\nイギリス → イギリス人 (British)\nちゅうごく → ちゅうごく人 (Chinese)\nフランス → フランス人 (French)"
+      },
+      {
+        "front": "よろしくおねがいします",
+        "back": "Used at the end of self-introductions.\nMeans: 'I'm in your care' / 'Please treat me well'\nEssential phrase for first meetings!"
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "vocab",
+    "config": {
+      "answerMode": "mcq",
+      "optionsCount": 4,
+      "timeLimit": 20,
+      "questionsCount": 15
+    },
+    "items": [
+      {
+        "question": "わたし (私)",
+        "answer": "I / me",
+        "options": [
+          "they",
+          "I / me",
+          "you",
+          "he/she"
+        ]
+      },
+      {
+        "question": "あなた",
+        "answer": "you",
+        "options": [
+          "he/she",
+          "you",
+          "I / me",
+          "we"
+        ]
+      },
+      {
+        "question": "このかた (この方)",
+        "answer": "this person (polite)",
+        "options": [
+          "that person",
+          "this person (polite)",
+          "everyone",
+          "who?"
+        ]
+      },
+      {
+        "question": "〜さん",
+        "answer": "Mr. / Ms. (honorific suffix)",
+        "options": [
+          "Mr. / Ms. (honorific suffix)",
+          "teacher",
+          "friend",
+          "colleague"
+        ]
+      },
+      {
+        "question": "せんせい (先生)",
+        "answer": "teacher",
+        "options": [
+          "teacher",
+          "student",
+          "doctor",
+          "engineer"
+        ]
+      },
+      {
+        "question": "がくせい (学生)",
+        "answer": "student",
+        "options": [
+          "teacher",
+          "researcher",
+          "student",
+          "company employee"
+        ]
+      },
+      {
+        "question": "かいしゃいん (会社員)",
+        "answer": "company employee",
+        "options": [
+          "doctor",
+          "teacher",
+          "company employee",
+          "student"
+        ]
+      },
+      {
+        "question": "いしゃ (医者)",
+        "answer": "doctor / physician",
+        "options": [
+          "student",
+          "doctor / physician",
+          "engineer",
+          "teacher"
+        ]
+      },
+      {
+        "question": "けんきゅうしゃ (研究者)",
+        "answer": "researcher",
+        "options": [
+          "researcher",
+          "teacher",
+          "student",
+          "doctor"
+        ]
+      },
+      {
+        "question": "エンジニア",
+        "answer": "engineer",
+        "options": [
+          "engineer",
+          "doctor",
+          "researcher",
+          "company employee"
+        ]
+      },
+      {
+        "question": "にほん (日本)",
+        "answer": "Japan",
+        "options": [
+          "America",
+          "Japan",
+          "Korea",
+          "China"
+        ]
+      },
+      {
+        "question": "アメリカ",
+        "answer": "America / USA",
+        "options": [
+          "Japan",
+          "Germany",
+          "America / USA",
+          "France"
+        ]
+      },
+      {
+        "question": "イギリス",
+        "answer": "United Kingdom",
+        "options": [
+          "Germany",
+          "Australia",
+          "United Kingdom",
+          "France"
+        ]
+      },
+      {
+        "question": "ちゅうごく (中国)",
+        "answer": "China",
+        "options": [
+          "China",
+          "Japan",
+          "Korea",
+          "America"
+        ]
+      },
+      {
+        "question": "かんこく (韓国)",
+        "answer": "South Korea",
+        "options": [
+          "Japan",
+          "America",
+          "China",
+          "South Korea"
+        ]
+      },
+      {
+        "question": "フランス",
+        "answer": "France",
+        "options": [
+          "Italy",
+          "France",
+          "Germany",
+          "Spain"
+        ]
+      },
+      {
+        "question": "ドイツ",
+        "answer": "Germany",
+        "options": [
+          "Germany",
+          "Italy",
+          "UK",
+          "France"
+        ]
+      },
+      {
+        "question": "〜じん (〜人)",
+        "answer": "person from ~ / nationality suffix",
+        "options": [
+          "language suffix",
+          "job suffix",
+          "person from ~ / nationality suffix",
+          "place suffix"
+        ]
+      },
+      {
+        "question": "〜ご (〜語)",
+        "answer": "language of ~",
+        "options": [
+          "nationality suffix",
+          "country suffix",
+          "job suffix",
+          "language of ~"
+        ]
+      },
+      {
+        "question": "なんさい (何歳)",
+        "answer": "how old?",
+        "options": [
+          "how old?",
+          "how many?",
+          "how much?",
+          "what time?"
+        ]
+      },
+      {
+        "question": "よろしくおねがいします",
+        "answer": "pleased to meet you / nice to meet you",
+        "options": [
+          "excuse me",
+          "pleased to meet you / nice to meet you",
+          "thank you",
+          "goodbye"
+        ]
+      },
+      {
+        "question": "はじめまして",
+        "answer": "how do you do / nice to meet you (first meeting)",
+        "options": [
+          "good morning",
+          "how do you do / nice to meet you (first meeting)",
+          "thank you",
+          "goodbye"
+        ]
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "vocab",
+    "config": {
+      "answerMode": "mcq",
+      "optionsCount": 4,
+      "timeLimit": 10,
+      "questionsCount": 15
+    },
+    "items": [
+      {
+        "question": "How do you say 'I / me' in Japanese?",
+        "answer": "わたし (私)",
+        "options": [
+          "わたし (私)",
+          "〜さん",
+          "あなた",
+          "このかた (この方)"
+        ]
+      },
+      {
+        "question": "How do you say 'you' in Japanese?",
+        "answer": "あなた",
+        "options": [
+          "わたし (私)",
+          "〜さん",
+          "あなた",
+          "このかた (この方)"
+        ]
+      },
+      {
+        "question": "How do you say 'this person (polite)' in Japanese?",
+        "answer": "このかた (この方)",
+        "options": [
+          "あなた",
+          "わたし (私)",
+          "〜さん",
+          "このかた (この方)"
+        ]
+      },
+      {
+        "question": "How do you say 'Mr. / Ms. (honorific suffix)' in Japanese?",
+        "answer": "〜さん",
+        "options": [
+          "このかた (この方)",
+          "〜さん",
+          "あなた",
+          "わたし (私)"
+        ]
+      },
+      {
+        "question": "How do you say 'teacher' in Japanese?",
+        "answer": "せんせい (先生)",
+        "options": [
+          "わたし (私)",
+          "せんせい (先生)",
+          "このかた (この方)",
+          "あなた"
+        ]
+      },
+      {
+        "question": "How do you say 'student' in Japanese?",
+        "answer": "がくせい (学生)",
+        "options": [
+          "わたし (私)",
+          "このかた (この方)",
+          "がくせい (学生)",
+          "あなた"
+        ]
+      },
+      {
+        "question": "How do you say 'company employee' in Japanese?",
+        "answer": "かいしゃいん (会社員)",
+        "options": [
+          "あなた",
+          "かいしゃいん (会社員)",
+          "わたし (私)",
+          "このかた (この方)"
+        ]
+      },
+      {
+        "question": "How do you say 'doctor / physician' in Japanese?",
+        "answer": "いしゃ (医者)",
+        "options": [
+          "いしゃ (医者)",
+          "わたし (私)",
+          "あなた",
+          "このかた (この方)"
+        ]
+      },
+      {
+        "question": "How do you say 'researcher' in Japanese?",
+        "answer": "けんきゅうしゃ (研究者)",
+        "options": [
+          "あなた",
+          "このかた (この方)",
+          "わたし (私)",
+          "けんきゅうしゃ (研究者)"
+        ]
+      },
+      {
+        "question": "How do you say 'engineer' in Japanese?",
+        "answer": "エンジニア",
+        "options": [
+          "あなた",
+          "エンジニア",
+          "わたし (私)",
+          "このかた (この方)"
+        ]
+      },
+      {
+        "question": "How do you say 'Japan' in Japanese?",
+        "answer": "にほん (日本)",
+        "options": [
+          "あなた",
+          "このかた (この方)",
+          "にほん (日本)",
+          "わたし (私)"
+        ]
+      },
+      {
+        "question": "How do you say 'America / USA' in Japanese?",
+        "answer": "アメリカ",
+        "options": [
+          "アメリカ",
+          "あなた",
+          "わたし (私)",
+          "このかた (この方)"
+        ]
+      },
+      {
+        "question": "How do you say 'United Kingdom' in Japanese?",
+        "answer": "イギリス",
+        "options": [
+          "あなた",
+          "わたし (私)",
+          "イギリス",
+          "このかた (この方)"
+        ]
+      },
+      {
+        "question": "How do you say 'China' in Japanese?",
+        "answer": "ちゅうごく (中国)",
+        "options": [
+          "このかた (この方)",
+          "ちゅうごく (中国)",
+          "あなた",
+          "わたし (私)"
+        ]
+      },
+      {
+        "question": "How do you say 'South Korea' in Japanese?",
+        "answer": "かんこく (韓国)",
+        "options": [
+          "あなた",
+          "このかた (この方)",
+          "わたし (私)",
+          "かんこく (韓国)"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "id": "ch19-examples",
+  "meta": {
+    "title": "Lesson 19: 旅行はどうでしたか — Dialogue & Examples",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "ch19-examples",
+    "subtopic": "How Was Your Trip?",
+    "description": "Practical dialogues and sentences for Lesson 19: How Was Your Trip?",
+    "icon": "✈️",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "い-adjective past tense",
+        "back": "Positive past: drop い + かった + です\nおいしい → おいしかったです (was delicious)\nたのしい → たのしかったです (was fun)\n\nNegative past: drop い + くなかった + です\nたかい → たかくなかったです (was not expensive)\n\nException: いい → よかったです (was good)"
+      },
+      {
+        "front": "な-adjective / noun past tense",
+        "back": "Positive past: Nでした / な-adjadj + でした\nきれいでした (was beautiful)\nしずかでした (was quiet)\n\nNegative past: じゃなかったです / ではなかったです\nきれいじゃなかったです (was not beautiful)\n\nNoun: 学生でした (was a student)"
+      },
+      {
+        "front": "Talking about past experiences",
+        "back": "どうでしたか = how was it?\n→ とてもよかったです！= It was very good!\n→ まあまあでした。= It was so-so.\n→ あまりよくなかったです。= Not very good.\n\nかんそうはどうですか = What are your thoughts?"
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 25,
+      "questionsCount": 3
+    },
+    "items": [
+      {
+        "question": "Your trip to Kyoto was wonderful. How do you express this?",
+        "answer": "京都の旅行はすばらしかったです！",
+        "options": [
+          "京都の旅行はすばらしかったです！",
+          "京都の旅行はすばらしいでした！",
+          "京都の旅行はすばらしくなかったです！",
+          "京都の旅行はすばらしでした！"
+        ],
+        "explanation": "すばらしい is an い-adjective. Past = すばらしかったです (drop い + かった + です)."
+      },
+      {
+        "question": "The hotel was not quiet. How do you say this?",
+        "answer": "ホテルはしずかじゃなかったです。",
+        "options": [
+          "ホテルはしずかじゃなかったです。",
+          "ホテルはしずかくなかったです。",
+          "ホテルはしずかでした。",
+          "ホテルはしずかじゃないです。"
+        ],
+        "explanation": "しずか is a な-adjective. Past negative = じゃなかったです. (not くなかった!)"
+      },
+      {
+        "question": "Someone asks どうでしたか about your holiday. You say 'It was very fun!'",
+        "answer": "とてもたのしかったです！",
+        "options": [
+          "とてもたのしかったです！",
+          "とてもたのしいでした！",
+          "とてもたのしくなかったです！",
+          "とてもたのしいです！"
+        ],
+        "explanation": "Past of い-adjective: たのしい → たのしかったです. とても = very."
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 12,
+      "questionsCount": 3
+    },
+    "items": [
+      {
+        "question": "Your trip to Kyoto was wonderful. How do you express this?",
+        "answer": "京都の旅行はすばらしかったです！",
+        "options": [
+          "京都の旅行はすばらしかったです！",
+          "京都の旅行はすばらしいでした！",
+          "京都の旅行はすばらしくなかったです！",
+          "京都の旅行はすばらしでした！"
+        ],
+        "explanation": "すばらしい is an い-adjective. Past = すばらしかったです (drop い + かった + です)."
+      },
+      {
+        "question": "The hotel was not quiet. How do you say this?",
+        "answer": "ホテルはしずかじゃなかったです。",
+        "options": [
+          "ホテルはしずかじゃなかったです。",
+          "ホテルはしずかくなかったです。",
+          "ホテルはしずかでした。",
+          "ホテルはしずかじゃないです。"
+        ],
+        "explanation": "しずか is a な-adjective. Past negative = じゃなかったです. (not くなかった!)"
+      },
+      {
+        "question": "Someone asks どうでしたか about your holiday. You say 'It was very fun!'",
+        "answer": "とてもたのしかったです！",
+        "options": [
+          "とてもたのしかったです！",
+          "とてもたのしいでした！",
+          "とてもたのしくなかったです！",
+          "とてもたのしいです！"
+        ],
+        "explanation": "Past of い-adjective: たのしい → たのしかったです. とても = very."
+      }
+    ]
+  }
+}

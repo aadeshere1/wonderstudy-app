@@ -301,6 +301,7 @@ export default function GameRunnerClient({ type, initialLesson }: GameRunnerClie
             <QuestionDisplay
               displayText={displayText}
               spokenText={spokenText}
+              svgDiagram={q?.svg}
               onSpeak={() => voiceManager?.speak(spokenText)}
             />
 

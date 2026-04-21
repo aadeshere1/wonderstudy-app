@@ -17,6 +17,7 @@ import {
   trueFalsePlugin,
   vocabPlugin,
   wordMeaningPlugin,
+  geometryPlugin,
 } from "@/lib/engine/plugins";
 import { shuffleArray } from "@/lib/utils/helpers";
 
@@ -436,6 +437,7 @@ export class GameEngine extends EventTarget {
       "mcq-facts": mcqFactsPlugin,
       "true-false": trueFalsePlugin,
       "word-meaning": wordMeaningPlugin,
+      geometry: geometryPlugin,
     };
 
     return plugins[gameType];

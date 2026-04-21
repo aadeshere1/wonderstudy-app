@@ -1,0 +1,290 @@
+{
+  "id": "ch07-grammar",
+  "meta": {
+    "title": "Lesson 7: 日本語の授業は楽しいですか — Grammar",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "ch07-grammar",
+    "subtopic": "Is Japanese Class Fun?",
+    "description": "Grammar patterns for Minna no Nihongo Lesson 7: Is Japanese Class Fun?",
+    "icon": "📚",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "い-adjectives: size & age",
+        "back": "大きい (おおきい) = big\n小さい (ちいさい) = small\n新しい (あたらしい) = new\n古い (ふるい) = old (things)\n長い (ながい) = long\n短い (みじかい) = short"
+      },
+      {
+        "front": "い-adjectives: price & height",
+        "back": "高い (たかい) = expensive / tall\n安い (やすい) = cheap / inexpensive\n広い (ひろい) = wide / spacious\n狭い (せまい) = narrow / cramped\n\nNote: 高い can mean BOTH expensive AND tall!"
+      },
+      {
+        "front": "い-adjectives: temperature",
+        "back": "暑い (あつい) = hot (weather/air)\n熱い (あつい) = hot (objects/food)\n寒い (さむい) = cold (weather)\n冷たい (つめたい) = cold (touch/drinks)\n暖かい (あたたかい) = warm"
+      },
+      {
+        "front": "い-adjectives: feeling/evaluation",
+        "back": "おいしい = delicious\nまずい = bad-tasting\nおもしろい = interesting/funny\nつまらない = boring\nたのしい = fun\nむずかしい = difficult\nやさしい = easy / kind\nいそがしい = busy"
+      },
+      {
+        "front": "い-adjective grammar: positive",
+        "back": "い-adj + です = polite statement\nおいしいです。= It is delicious.\nたかいです。= It is expensive.\n\nい-adj + N = modifying a noun\nおいしいラーメン = delicious ramen\nたかいくつ = expensive shoes"
+      },
+      {
+        "front": "い-adjective grammar: negative",
+        "back": "Drop い, add くない\n\nおいしい → おいしくない (not delicious)\nたかい → たかくない (not expensive)\nむずかしい → むずかしくない (not difficult)\n\nPolite: 〜くないです or 〜くありません\nたかくないです = It is not expensive."
+      },
+      {
+        "front": "Degree adverbs",
+        "back": "とても = very (positive adjectives)\nあまり = not very (+ negative form)\n\nとても おいしいです。= Very delicious.\nあまり おいしくないです。= Not very delicious.\n\nNever say: あまり おいしいです ✗ (あまり needs negative!)"
+      },
+      {
+        "front": "Special adjective: いい",
+        "back": "いい = good (base form)\nよい = good (formal/written)\n\nNegative: よくない (NOT いくない ✗)\nPolite neg: よくないです / よくありません\n\nExample: あまりよくないです。\n= Not very good."
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 25,
+      "questionsCount": 10
+    },
+    "items": [
+      {
+        "question": "富士山は ___ です。(Mt. Fuji is tall.)",
+        "answer": "たかい",
+        "options": [
+          "たかい",
+          "やすい",
+          "むずかしい",
+          "ふるい"
+        ],
+        "explanation": "高い (たかい) = tall / high / expensive. Mt. Fuji is famous for being tall (3,776m)."
+      },
+      {
+        "question": "このレストランは ___ です。(This restaurant is delicious.)",
+        "answer": "おいしい",
+        "options": [
+          "おいしい",
+          "まずい",
+          "つまらない",
+          "いそがしい"
+        ],
+        "explanation": "おいしい = delicious. To say a restaurant is good, use おいしい (for food) or いい (for the place generally)."
+      },
+      {
+        "question": "日本語はむずかし ___ です。(Japanese is difficult.)",
+        "answer": "い",
+        "options": [
+          "い",
+          "く",
+          "な",
+          "の"
+        ],
+        "explanation": "い-adjectives keep their い before です. むずかしい + です = むずかしいです."
+      },
+      {
+        "question": "このかばんはあまりたか ___ 。(This bag is not very expensive.)",
+        "answer": "くないです",
+        "options": [
+          "くないです",
+          "いないです",
+          "じゃないです",
+          "くあります"
+        ],
+        "explanation": "い-adj negative: drop い + くない. たかい → たかくない. + です for polite form."
+      },
+      {
+        "question": "とても ___ と あまり ___ (correct combination)",
+        "answer": "とても + positive adj / あまり + negative adj",
+        "options": [
+          "とても + positive adj / あまり + negative adj",
+          "とても + negative adj / あまり + positive adj",
+          "Both with positive adj",
+          "Both with negative adj"
+        ],
+        "explanation": "とても = very (used with positive forms). あまり = not very (MUST be used with negative ~くない/~くありません)."
+      },
+      {
+        "question": "いい → negative form is:",
+        "answer": "よくない",
+        "options": [
+          "よくない",
+          "いくない",
+          "いじゃない",
+          "いくありません"
+        ],
+        "explanation": "いい is irregular! Negative: よくない (not いくない). All other conjugations also use よ-: よくて、よかった、よければ."
+      },
+      {
+        "question": "大きい + N = ? (big + car)",
+        "answer": "大きいくるま",
+        "options": [
+          "大きいくるま",
+          "大きくるま",
+          "大きなくるま",
+          "大きのくるま"
+        ],
+        "explanation": "い-adjectives directly modify nouns: い-adj + N. 大きい + くるま = 大きいくるま (no change needed). Note: 大きな is also used colloquially but 大きい is standard."
+      },
+      {
+        "question": "今日はあつ ___ 。(Today is not hot.)",
+        "answer": "くないです",
+        "options": [
+          "くないです",
+          "いないです",
+          "じゃないです",
+          "くありませんです"
+        ],
+        "explanation": "Negative of い-adjective: drop い + くない + です. あつい → あつくない → あつくないです."
+      },
+      {
+        "question": "このえいがはとてもおもしろ ___ 。(This movie is very interesting.)",
+        "answer": "いです",
+        "options": [
+          "いです",
+          "くないです",
+          "じゃないです",
+          "いじゃない"
+        ],
+        "explanation": "Positive statement: keep い + です. おもしろい + です = おもしろいです."
+      },
+      {
+        "question": "How do you say 'Japanese is not very difficult'?",
+        "answer": "日本語はあまりむずかしくないです。",
+        "options": [
+          "日本語はあまりむずかしくないです。",
+          "日本語はとてもむずかしくないです。",
+          "日本語はあまりむずかしいです。",
+          "日本語はとてもむずかしいです。"
+        ],
+        "explanation": "あまり = not very (used with negative form). あまり + むずかしくない = not very difficult."
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 12,
+      "questionsCount": 10
+    },
+    "items": [
+      {
+        "question": "富士山は ___ です。(Mt. Fuji is tall.)",
+        "answer": "たかい",
+        "options": [
+          "たかい",
+          "やすい",
+          "むずかしい",
+          "ふるい"
+        ],
+        "explanation": "高い (たかい) = tall / high / expensive. Mt. Fuji is famous for being tall (3,776m)."
+      },
+      {
+        "question": "このレストランは ___ です。(This restaurant is delicious.)",
+        "answer": "おいしい",
+        "options": [
+          "おいしい",
+          "まずい",
+          "つまらない",
+          "いそがしい"
+        ],
+        "explanation": "おいしい = delicious. To say a restaurant is good, use おいしい (for food) or いい (for the place generally)."
+      },
+      {
+        "question": "日本語はむずかし ___ です。(Japanese is difficult.)",
+        "answer": "い",
+        "options": [
+          "い",
+          "く",
+          "な",
+          "の"
+        ],
+        "explanation": "い-adjectives keep their い before です. むずかしい + です = むずかしいです."
+      },
+      {
+        "question": "このかばんはあまりたか ___ 。(This bag is not very expensive.)",
+        "answer": "くないです",
+        "options": [
+          "くないです",
+          "いないです",
+          "じゃないです",
+          "くあります"
+        ],
+        "explanation": "い-adj negative: drop い + くない. たかい → たかくない. + です for polite form."
+      },
+      {
+        "question": "とても ___ と あまり ___ (correct combination)",
+        "answer": "とても + positive adj / あまり + negative adj",
+        "options": [
+          "とても + positive adj / あまり + negative adj",
+          "とても + negative adj / あまり + positive adj",
+          "Both with positive adj",
+          "Both with negative adj"
+        ],
+        "explanation": "とても = very (used with positive forms). あまり = not very (MUST be used with negative ~くない/~くありません)."
+      },
+      {
+        "question": "いい → negative form is:",
+        "answer": "よくない",
+        "options": [
+          "よくない",
+          "いくない",
+          "いじゃない",
+          "いくありません"
+        ],
+        "explanation": "いい is irregular! Negative: よくない (not いくない). All other conjugations also use よ-: よくて、よかった、よければ."
+      },
+      {
+        "question": "大きい + N = ? (big + car)",
+        "answer": "大きいくるま",
+        "options": [
+          "大きいくるま",
+          "大きくるま",
+          "大きなくるま",
+          "大きのくるま"
+        ],
+        "explanation": "い-adjectives directly modify nouns: い-adj + N. 大きい + くるま = 大きいくるま (no change needed). Note: 大きな is also used colloquially but 大きい is standard."
+      },
+      {
+        "question": "今日はあつ ___ 。(Today is not hot.)",
+        "answer": "くないです",
+        "options": [
+          "くないです",
+          "いないです",
+          "じゃないです",
+          "くありませんです"
+        ],
+        "explanation": "Negative of い-adjective: drop い + くない + です. あつい → あつくない → あつくないです."
+      },
+      {
+        "question": "このえいがはとてもおもしろ ___ 。(This movie is very interesting.)",
+        "answer": "いです",
+        "options": [
+          "いです",
+          "くないです",
+          "じゃないです",
+          "いじゃない"
+        ],
+        "explanation": "Positive statement: keep い + です. おもしろい + です = おもしろいです."
+      },
+      {
+        "question": "How do you say 'Japanese is not very difficult'?",
+        "answer": "日本語はあまりむずかしくないです。",
+        "options": [
+          "日本語はあまりむずかしくないです。",
+          "日本語はとてもむずかしくないです。",
+          "日本語はあまりむずかしいです。",
+          "日本語はとてもむずかしいです。"
+        ],
+        "explanation": "あまり = not very (used with negative form). あまり + むずかしくない = not very difficult."
+      }
+    ]
+  }
+}

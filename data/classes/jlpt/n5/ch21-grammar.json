@@ -1,0 +1,160 @@
+{
+  "id": "ch21-grammar",
+  "meta": {
+    "title": "Lesson 21: 誰でも利用できます — Grammar",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "ch21-grammar",
+    "subtopic": "Anyone Can Use It",
+    "description": "Grammar patterns for Minna no Nihongo Lesson 21: Anyone Can Use It",
+    "icon": "✅",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "Potential form — Group 2 (ru-verbs)",
+        "back": "Replace る with られる:\n食べる → 食べられる (can eat)\n見る → 見られる (can see)\n起きる → 起きられる (can wake up)\n\nPolite: 食べられます (can eat)\nNegative: 食べられません (cannot eat)"
+      },
+      {
+        "front": "Potential form — Group 1 (u-verbs)",
+        "back": "Replace the u-sound with e-sound + る:\n書く (ku) → 書ける (keru) = can write\n読む (mu) → 読める (meru) = can read\n飲む → 飲める (can drink)\n話す → 話せる (can speak)\n\nPolite: 書けます (can write)"
+      },
+      {
+        "front": "Irregular potential forms",
+        "back": "する → できる (can do)\n来る → 来られる (korareru, can come)\n\nNote: できる is the most common!\n日本語ができます = can do Japanese = can speak Japanese\nスポーツができます = can do sports"
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 25,
+      "questionsCount": 5
+    },
+    "items": [
+      {
+        "question": "日本語 ___ 話せます。(I can speak Japanese.)",
+        "answer": "が",
+        "options": [
+          "が",
+          "を",
+          "は",
+          "で"
+        ],
+        "explanation": "Potential verbs often take が for the object: 日本語が話せます. (を is also acceptable in modern usage.)"
+      },
+      {
+        "question": "食べる → potential form is:",
+        "answer": "食べられます",
+        "options": [
+          "食べられます",
+          "食べれます",
+          "食べます",
+          "食べえます"
+        ],
+        "explanation": "Group 2 potential: 食べる → 食べられる → 食べられます. Replace る with られる."
+      },
+      {
+        "question": "書く → potential form is:",
+        "answer": "書けます",
+        "options": [
+          "書けます",
+          "書かれます",
+          "書きます",
+          "書られます"
+        ],
+        "explanation": "Group 1 potential: k(u) → k(e)ru. 書く → 書ける → 書けます."
+      },
+      {
+        "question": "する → potential form is:",
+        "answer": "できます",
+        "options": [
+          "できます",
+          "されます",
+          "しられます",
+          "しえます"
+        ],
+        "explanation": "する is irregular. Potential = できる → できます. 日本語ができます = can speak Japanese."
+      },
+      {
+        "question": "だれでも ___ できます。(Anyone can use it.)",
+        "answer": "りよう",
+        "options": [
+          "りよう",
+          "しよう",
+          "りよ",
+          "よう"
+        ],
+        "explanation": "利用できます = can use / is available for use. だれでも = anyone. だれでも利用できます."
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 12,
+      "questionsCount": 5
+    },
+    "items": [
+      {
+        "question": "日本語 ___ 話せます。(I can speak Japanese.)",
+        "answer": "が",
+        "options": [
+          "が",
+          "を",
+          "は",
+          "で"
+        ],
+        "explanation": "Potential verbs often take が for the object: 日本語が話せます. (を is also acceptable in modern usage.)"
+      },
+      {
+        "question": "食べる → potential form is:",
+        "answer": "食べられます",
+        "options": [
+          "食べられます",
+          "食べれます",
+          "食べます",
+          "食べえます"
+        ],
+        "explanation": "Group 2 potential: 食べる → 食べられる → 食べられます. Replace る with られる."
+      },
+      {
+        "question": "書く → potential form is:",
+        "answer": "書けます",
+        "options": [
+          "書けます",
+          "書かれます",
+          "書きます",
+          "書られます"
+        ],
+        "explanation": "Group 1 potential: k(u) → k(e)ru. 書く → 書ける → 書けます."
+      },
+      {
+        "question": "する → potential form is:",
+        "answer": "できます",
+        "options": [
+          "できます",
+          "されます",
+          "しられます",
+          "しえます"
+        ],
+        "explanation": "する is irregular. Potential = できる → できます. 日本語ができます = can speak Japanese."
+      },
+      {
+        "question": "だれでも ___ できます。(Anyone can use it.)",
+        "answer": "りよう",
+        "options": [
+          "りよう",
+          "しよう",
+          "りよ",
+          "よう"
+        ],
+        "explanation": "利用できます = can use / is available for use. だれでも = anyone. だれでも利用できます."
+      }
+    ]
+  }
+}

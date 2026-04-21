@@ -1,0 +1,334 @@
+{
+  "id": "ch03-grammar",
+  "meta": {
+    "title": "Lesson 3: ここはどこですか — Grammar",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "ch03-grammar",
+    "subtopic": "Where Is This Place?",
+    "description": "Grammar patterns for Minna no Nihongo Lesson 3: Where Is This Place?",
+    "icon": "🏢",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "Location words: ここ / そこ / あそこ / どこ",
+        "back": "ここ = here (near me)\nそこ = there (near you)\nあそこ = over there (far from both)\nどこ = where?\n\nPolite versions: こちら / そちら / あちら / どちら"
+      },
+      {
+        "front": "Shops & Places",
+        "back": "デパート = department store\nスーパー = supermarket\nレストラン = restaurant\nしょくどう (食堂) = cafeteria\nびょういん (病院) = hospital"
+      },
+      {
+        "front": "Public facilities",
+        "back": "ゆうびんきょく (郵便局) = post office\nぎんこう (銀行) = bank\nとしょかん (図書館) = library\nがっこう (学校) = school\nびょういん (病院) = hospital"
+      },
+      {
+        "front": "〜かい (〜階) = floor",
+        "back": "いっかい = 1st floor\nにかい = 2nd floor\nさんかい / さんがい = 3rd floor\nよんかい = 4th floor\nなんかい = which floor?\nちかいっかい = basement 1"
+      },
+      {
+        "front": "いくら = how much?",
+        "back": "いくらですか。= How much is it?\n〜えん (〜円) = ~ yen\n\n500円 → ごひゃくえん\n1000円 → せんえん\n2000円 → にせんえん"
+      },
+      {
+        "front": "Direction words",
+        "back": "うえ (上) = above / top\nした (下) = below / bottom\nみぎ (右) = right\nhidari (左) = left\nまえ (前) = front / before\nうしろ (後ろ) = behind"
+      },
+      {
+        "front": "Asking location: Nはどこですか",
+        "back": "Nはどこですか。= Where is N?\nトイレはどこですか。= Where is the restroom?\nデパートはどこですか。= Where is the department store?\n\nAnswer: 〜にあります / 〜です"
+      },
+      {
+        "front": "Existence: あります vs います",
+        "back": "あります = there is (non-living things)\nエレベーターはあそこにあります。\n= The elevator is over there.\n\nいます = there is (living things — covered in L4!)"
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 25,
+      "questionsCount": 12
+    },
+    "items": [
+      {
+        "question": "トイレは ___ ですか。(Where is the restroom?)",
+        "answer": "どこ",
+        "options": [
+          "どこ",
+          "ここ",
+          "そこ",
+          "どちら"
+        ],
+        "explanation": "どこ = where? Used in questions about location. どちら is the polite version."
+      },
+      {
+        "question": "エレベーターはあそこ ___ あります。(The elevator is over there.)",
+        "answer": "に",
+        "options": [
+          "に",
+          "で",
+          "は",
+          "を"
+        ],
+        "explanation": "に marks the location of existence (where something is). あります = exists (non-living things)."
+      },
+      {
+        "question": "デパートは ___ かいですか。(Which floor is the department store on?)",
+        "answer": "なん",
+        "options": [
+          "なん",
+          "どこ",
+          "いくら",
+          "なに"
+        ],
+        "explanation": "なんかい = which floor? なん + かい (floor counter) = which floor?"
+      },
+      {
+        "question": "レストランはにかいです。Where is the restaurant?",
+        "answer": "2nd floor",
+        "options": [
+          "2nd floor",
+          "1st floor",
+          "3rd floor",
+          "basement"
+        ],
+        "explanation": "にかい = 2nd floor. に = 2, かい = floor counter. いっかい = 1F, さんかい/さんがい = 3F."
+      },
+      {
+        "question": "これはいくら ___ か。(How much is this?)",
+        "answer": "です",
+        "options": [
+          "です",
+          "ます",
+          "でした",
+          "でしょう"
+        ],
+        "explanation": "いくらですか = How much is it? です + か = polite question."
+      },
+      {
+        "question": "500円は ___ ですか。(How do you say 500 yen?)",
+        "answer": "ごひゃくえん",
+        "options": [
+          "ごひゃくえん",
+          "いつえん",
+          "ごじゅうえん",
+          "ごひゃくえんです"
+        ],
+        "explanation": "500 = ごひゃく (5 × 100). 百 = ひゃく. 500円 = ごひゃくえん."
+      },
+      {
+        "question": "ゆうびんきょくはどこですか → ___にあります。(It's in front of the bank.)",
+        "answer": "ぎんこうのまえ",
+        "options": [
+          "ぎんこうのまえ",
+          "ぎんこうのうしろ",
+          "びょういんのまえ",
+          "デパートのなか"
+        ],
+        "explanation": "まえ = front/before. ぎんこうのまえ = in front of the bank. の connects place to direction."
+      },
+      {
+        "question": "エレベーターはあります。What does this sentence lack to be complete?",
+        "answer": "A location (にあります)",
+        "options": [
+          "A location (にあります)",
+          "A subject marker",
+          "A question mark",
+          "Nothing — it's complete"
+        ],
+        "explanation": "あります needs a location: Nは[place]にあります. Without the location, the sentence is incomplete."
+      },
+      {
+        "question": "どちらへどうぞ。What does this phrase mean?",
+        "answer": "This way, please.",
+        "options": [
+          "This way, please.",
+          "Where are you going?",
+          "Please wait here.",
+          "Which floor?"
+        ],
+        "explanation": "どちらへどうぞ = 'Please go this way.' どちら = polite 'which way/where', へ = direction particle, どうぞ = please."
+      },
+      {
+        "question": "こちら = ?",
+        "answer": "This way / here (polite)",
+        "options": [
+          "This way / here (polite)",
+          "That way (near you, polite)",
+          "Over there (polite)",
+          "Which way? (polite)"
+        ],
+        "explanation": "こちら is the polite form of ここ/こっち. Used in formal or service situations."
+      },
+      {
+        "question": "としょかんはなんかいですか → ___ かいです。(It's on the 4th floor.)",
+        "answer": "よん",
+        "options": [
+          "よん",
+          "し",
+          "よ",
+          "ふ"
+        ],
+        "explanation": "4th floor = よんかい. よん is preferred over し for floor numbers to avoid confusion."
+      },
+      {
+        "question": "The food hall is in the basement. How do you say 'basement 1'?",
+        "answer": "ちかいっかい",
+        "options": [
+          "ちかいっかい",
+          "したかい",
+          "いちかい",
+          "ちかわん"
+        ],
+        "explanation": "ちか (地下) = underground/basement. ちかいっかい = B1 (basement 1st floor)."
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 12,
+      "questionsCount": 12
+    },
+    "items": [
+      {
+        "question": "トイレは ___ ですか。(Where is the restroom?)",
+        "answer": "どこ",
+        "options": [
+          "どこ",
+          "ここ",
+          "そこ",
+          "どちら"
+        ],
+        "explanation": "どこ = where? Used in questions about location. どちら is the polite version."
+      },
+      {
+        "question": "エレベーターはあそこ ___ あります。(The elevator is over there.)",
+        "answer": "に",
+        "options": [
+          "に",
+          "で",
+          "は",
+          "を"
+        ],
+        "explanation": "に marks the location of existence (where something is). あります = exists (non-living things)."
+      },
+      {
+        "question": "デパートは ___ かいですか。(Which floor is the department store on?)",
+        "answer": "なん",
+        "options": [
+          "なん",
+          "どこ",
+          "いくら",
+          "なに"
+        ],
+        "explanation": "なんかい = which floor? なん + かい (floor counter) = which floor?"
+      },
+      {
+        "question": "レストランはにかいです。Where is the restaurant?",
+        "answer": "2nd floor",
+        "options": [
+          "2nd floor",
+          "1st floor",
+          "3rd floor",
+          "basement"
+        ],
+        "explanation": "にかい = 2nd floor. に = 2, かい = floor counter. いっかい = 1F, さんかい/さんがい = 3F."
+      },
+      {
+        "question": "これはいくら ___ か。(How much is this?)",
+        "answer": "です",
+        "options": [
+          "です",
+          "ます",
+          "でした",
+          "でしょう"
+        ],
+        "explanation": "いくらですか = How much is it? です + か = polite question."
+      },
+      {
+        "question": "500円は ___ ですか。(How do you say 500 yen?)",
+        "answer": "ごひゃくえん",
+        "options": [
+          "ごひゃくえん",
+          "いつえん",
+          "ごじゅうえん",
+          "ごひゃくえんです"
+        ],
+        "explanation": "500 = ごひゃく (5 × 100). 百 = ひゃく. 500円 = ごひゃくえん."
+      },
+      {
+        "question": "ゆうびんきょくはどこですか → ___にあります。(It's in front of the bank.)",
+        "answer": "ぎんこうのまえ",
+        "options": [
+          "ぎんこうのまえ",
+          "ぎんこうのうしろ",
+          "びょういんのまえ",
+          "デパートのなか"
+        ],
+        "explanation": "まえ = front/before. ぎんこうのまえ = in front of the bank. の connects place to direction."
+      },
+      {
+        "question": "エレベーターはあります。What does this sentence lack to be complete?",
+        "answer": "A location (にあります)",
+        "options": [
+          "A location (にあります)",
+          "A subject marker",
+          "A question mark",
+          "Nothing — it's complete"
+        ],
+        "explanation": "あります needs a location: Nは[place]にあります. Without the location, the sentence is incomplete."
+      },
+      {
+        "question": "どちらへどうぞ。What does this phrase mean?",
+        "answer": "This way, please.",
+        "options": [
+          "This way, please.",
+          "Where are you going?",
+          "Please wait here.",
+          "Which floor?"
+        ],
+        "explanation": "どちらへどうぞ = 'Please go this way.' どちら = polite 'which way/where', へ = direction particle, どうぞ = please."
+      },
+      {
+        "question": "こちら = ?",
+        "answer": "This way / here (polite)",
+        "options": [
+          "This way / here (polite)",
+          "That way (near you, polite)",
+          "Over there (polite)",
+          "Which way? (polite)"
+        ],
+        "explanation": "こちら is the polite form of ここ/こっち. Used in formal or service situations."
+      },
+      {
+        "question": "としょかんはなんかいですか → ___ かいです。(It's on the 4th floor.)",
+        "answer": "よん",
+        "options": [
+          "よん",
+          "し",
+          "よ",
+          "ふ"
+        ],
+        "explanation": "4th floor = よんかい. よん is preferred over し for floor numbers to avoid confusion."
+      },
+      {
+        "question": "The food hall is in the basement. How do you say 'basement 1'?",
+        "answer": "ちかいっかい",
+        "options": [
+          "ちかいっかい",
+          "したかい",
+          "いちかい",
+          "ちかわん"
+        ],
+        "explanation": "ちか (地下) = underground/basement. ちかいっかい = B1 (basement 1st floor)."
+      }
+    ]
+  }
+}

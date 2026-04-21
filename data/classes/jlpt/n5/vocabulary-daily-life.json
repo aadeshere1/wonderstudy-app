@@ -1,0 +1,293 @@
+{
+  "id": "jlpt-n5-vocabulary-daily-life",
+  "meta": {
+    "title": "N5 Vocabulary: Daily Life",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "JLPT N5",
+    "subtopic": "Food, Places, Body Parts, Colors & Basic Verbs",
+    "description": "Learn the everyday Japanese words for food, locations, body parts, colors and common actions.",
+    "icon": "🍱",
+    "difficulty": "beginner"
+  },
+
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "🍱 Food & Drink Vocabulary",
+        "back": "Essential food words:\n• みず / 水 (mizu) — water\n• おちゃ / お茶 (ocha) — tea\n• ごはん / ご飯 (gohan) — rice / meal\n• パン (pan) — bread\n• にく / 肉 (niku) — meat\n• さかな / 魚 (sakana) — fish\n• やさい / 野菜 (yasai) — vegetable(s)\n• くだもの / 果物 (kudamono) — fruit\n• たまご / 卵 (tamago) — egg\n• コーヒー (koohii) — coffee",
+        "hint": "ご飯 (gohan) literally means 'honourable rice' but refers to any meal!"
+      },
+      {
+        "front": "Ordering Food in Japanese",
+        "back": "Useful phrases at a restaurant:\n\n「これをください。」\n(Kore wo kudasai.) — I'll have this, please.\n\n「おすすめは何ですか？」\n(Osusume wa nan desu ka?) — What do you recommend?\n\n「おいしい！」\n(Oishii!) — Delicious!\n\n「おかわりください。」\n(Okawari kudasai.) — Another serving, please.",
+        "hint": "おいしい is one of the most useful words in Japan!"
+      },
+      {
+        "front": "🏙️ Places in the City",
+        "back": "• うち / 家 (uchi) — house / home\n• がっこう / 学校 (gakkou) — school\n• えき / 駅 (eki) — train station\n• びょういん / 病院 (byouin) — hospital\n• としょかん / 図書館 (toshokan) — library\n• スーパー (suupaa) — supermarket\n• レストラン (resutoran) — restaurant\n\nTip: Many places in Japan are near えき (train stations) — the station is the heart of Japanese cities!",
+        "hint": "Japan's train network is famous — えき is very important!"
+      },
+      {
+        "front": "🏥 Emergency Phrase",
+        "back": "If you need help:\n\n「びょういんはどこですか？」\n(Byouin wa doko desu ka?)\n= Where is the hospital?\n\n「たすけてください！」\n(Tasukete kudasai!) = Please help me!\n\n「きゅうきゅうしゃをよんでください。」\n(Kyuukyuusha wo yonde kudasai.)\n= Please call an ambulance.",
+        "hint": "Memorise びょういん — hospital — for emergencies."
+      },
+      {
+        "front": "🧑 Body Parts",
+        "back": "• あたま / 頭 (atama) — head\n• め / 目 (me) — eye(s)\n• みみ / 耳 (mimi) — ear(s)\n• はな / 鼻 (hana) — nose\n• くち / 口 (kuchi) — mouth\n• て / 手 (te) — hand(s)\n• あし / 足 (ashi) — foot / leg\n\nUseful: 「ここが痛いです。」\n(Koko ga itai desu.) = It hurts here.",
+        "hint": "あし can mean both 'foot' and 'leg' depending on context."
+      },
+      {
+        "front": "🎨 Colors in Japanese",
+        "back": "い-adjective colors (conjugate like adjectives):\n• あかい / 赤い (akai) — red\n• あおい / 青い (aoi) — blue / green\n• しろい / 白い (shiroi) — white\n• くろい / 黒い (kuroi) — black\n• きいろい / 黄色い (kiiroi) — yellow\n\nNon-adjective colors (use の before nouns):\n• みどり / 緑 (midori) — green\n• オレンジ (orenji) — orange\n• ピンク (pinku) — pink\n\nNote: あお (blue) also refers to green in some contexts (traffic lights, vegetables)!",
+        "hint": "あお (blue/green) — Japanese traditionally grouped these together!"
+      },
+      {
+        "front": "🏃 Basic Action Verbs (ます-form)",
+        "back": "• たべます / 食べます (tabemasu) — to eat\n• のみます / 飲みます (nomimasu) — to drink\n• みます / 見ます (mimasu) — to see / watch\n• きます / 来ます (kimasu) — to come\n• いきます / 行きます (ikimasu) — to go\n• よみます / 読みます (yomimasu) — to read\n• かきます / 書きます (kakimasu) — to write\n• はなします / 話します (hanashimasu) — to speak\n\nAll ます-form verbs are polite present/future tense.",
+        "hint": "ます-form = polite. Drop ます and add ません for negative."
+      },
+      {
+        "front": "Simple Sentence Practice",
+        "back": "Try building these sentences!\n\n「私はご飯を食べます。」\n(Watashi wa gohan wo tabemasu.)\n= I eat rice.\n\n「水を飲みます。」\n(Mizu wo nomimasu.)\n= I drink water.\n\n「学校に行きます。」\n(Gakkou ni ikimasu.)\n= I go to school.\n\nPattern: [Subject]は [Object]を [Verb]ます",
+        "hint": "は marks topic, を marks object, に marks direction/destination!"
+      }
+    ]
+  },
+
+  "practice": {
+    "gameType": "vocab",
+    "config": {
+      "answerMode": "mcq",
+      "optionsCount": 4,
+      "timeLimit": 0,
+      "questionsCount": 30
+    },
+    "items": [
+      {
+        "question": "みず / 水 (mizu)",
+        "answer": "water",
+        "options": ["water", "tea", "juice", "milk"],
+        "hint": "Essential — Japan has delicious tap water!"
+      },
+      {
+        "question": "おちゃ / お茶 (ocha)",
+        "answer": "tea",
+        "options": ["tea", "water", "coffee", "juice"],
+        "hint": "お is an honorific prefix — お茶 = honourable tea"
+      },
+      {
+        "question": "ごはん / ご飯 (gohan)",
+        "answer": "rice / meal",
+        "options": ["rice / meal", "bread", "noodles", "soup"],
+        "hint": "ご飯 can mean both a bowl of rice or a full meal"
+      },
+      {
+        "question": "パン (pan)",
+        "answer": "bread",
+        "options": ["bread", "rice", "cake", "cookie"],
+        "hint": "Borrowed from Portuguese 'pão' — Japan makes amazing bread!"
+      },
+      {
+        "question": "にく / 肉 (niku)",
+        "answer": "meat",
+        "options": ["meat", "fish", "egg", "vegetable"],
+        "hint": "肉 appears in 牛肉 (beef), 豚肉 (pork), 鶏肉 (chicken)"
+      },
+      {
+        "question": "さかな / 魚 (sakana)",
+        "answer": "fish",
+        "options": ["fish", "meat", "chicken", "shrimp"],
+        "hint": "Japan is surrounded by ocean — fish is central to Japanese cuisine"
+      },
+      {
+        "question": "やさい / 野菜 (yasai)",
+        "answer": "vegetable(s)",
+        "options": ["vegetable", "fruit", "grain", "herb"],
+        "hint": "野 = field, 菜 = greens"
+      },
+      {
+        "question": "くだもの / 果物 (kudamono)",
+        "answer": "fruit",
+        "options": ["fruit", "vegetable", "dessert", "snack"],
+        "hint": "Japanese fruits are famous for their sweetness and quality"
+      },
+      {
+        "question": "たまご / 卵 (tamago)",
+        "answer": "egg",
+        "options": ["egg", "milk", "butter", "cheese"],
+        "hint": "Japanese eggs (玉子) are often eaten raw — they're very fresh!"
+      },
+      {
+        "question": "コーヒー (koohii)",
+        "answer": "coffee",
+        "options": ["coffee", "tea", "juice", "water"],
+        "hint": "Borrowed from English — Japan has an amazing coffee culture"
+      },
+      {
+        "question": "うち / 家 (uchi)",
+        "answer": "house / home",
+        "options": ["house / home", "school", "hospital", "shop"],
+        "hint": "うち also means 'our group / us' in casual speech"
+      },
+      {
+        "question": "がっこう / 学校 (gakkou)",
+        "answer": "school",
+        "options": ["school", "library", "hospital", "station"],
+        "hint": "学 = study, 校 = institution"
+      },
+      {
+        "question": "えき / 駅 (eki)",
+        "answer": "train station",
+        "options": ["train station", "bus stop", "airport", "port"],
+        "hint": "Japan's train system is world-famous for punctuality"
+      },
+      {
+        "question": "びょういん / 病院 (byouin)",
+        "answer": "hospital",
+        "options": ["hospital", "school", "pharmacy", "clinic"],
+        "hint": "病 = illness, 院 = institution"
+      },
+      {
+        "question": "としょかん / 図書館 (toshokan)",
+        "answer": "library",
+        "options": ["library", "bookshop", "school", "office"],
+        "hint": "図書 = books/documents, 館 = building/hall"
+      },
+      {
+        "question": "スーパー (suupaa)",
+        "answer": "supermarket",
+        "options": ["supermarket", "restaurant", "convenience store", "market"],
+        "hint": "Short for スーパーマーケット (suupaamaaketto)"
+      },
+      {
+        "question": "レストラン (resutoran)",
+        "answer": "restaurant",
+        "options": ["restaurant", "café", "supermarket", "hotel"],
+        "hint": "From the French 'restaurant' — Japan loves French cuisine!"
+      },
+      {
+        "question": "め / 目 (me)",
+        "answer": "eye(s)",
+        "options": ["eye", "ear", "nose", "mouth"],
+        "hint": "目 also means 'number/order' in counting contexts"
+      },
+      {
+        "question": "みみ / 耳 (mimi)",
+        "answer": "ear(s)",
+        "options": ["ear", "eye", "nose", "hand"],
+        "hint": "The kanji 耳 looks like an ear from the side!"
+      },
+      {
+        "question": "くち / 口 (kuchi)",
+        "answer": "mouth",
+        "options": ["mouth", "nose", "eye", "ear"],
+        "hint": "口 appears in words like 出口 (exit) and 入口 (entrance)"
+      },
+      {
+        "question": "て / 手 (te)",
+        "answer": "hand(s)",
+        "options": ["hand", "foot", "head", "arm"],
+        "hint": "手 appears in 上手 (skilled) and 下手 (unskilled)"
+      },
+      {
+        "question": "あし / 足 (ashi)",
+        "answer": "foot / leg",
+        "options": ["foot / leg", "hand", "arm", "head"],
+        "hint": "あし covers both foot and leg — context tells you which"
+      },
+      {
+        "question": "あたま / 頭 (atama)",
+        "answer": "head",
+        "options": ["head", "face", "body", "back"],
+        "hint": "頭がいい (atama ga ii) = smart / clever (good head)"
+      },
+      {
+        "question": "あか / 赤 (aka)",
+        "answer": "red",
+        "options": ["red", "blue", "yellow", "green"],
+        "hint": "Japan's flag features 赤 (red) and 白 (white)"
+      },
+      {
+        "question": "あお / 青 (ao)",
+        "answer": "blue",
+        "options": ["blue", "red", "green", "purple"],
+        "hint": "あお can also mean green in some contexts (traffic light, etc.)"
+      },
+      {
+        "question": "しろ / 白 (shiro)",
+        "answer": "white",
+        "options": ["white", "black", "grey", "red"],
+        "hint": "白 also appears in 白ご飯 (plain white rice)"
+      },
+      {
+        "question": "くろ / 黒 (kuro)",
+        "answer": "black",
+        "options": ["black", "white", "grey", "brown"],
+        "hint": "黒 appears in 黒板 (blackboard)"
+      },
+      {
+        "question": "たべます / 食べます (tabemasu)",
+        "answer": "to eat",
+        "options": ["to eat", "to drink", "to cook", "to buy"],
+        "hint": "食 = food. 食べません = I don't eat"
+      },
+      {
+        "question": "のみます / 飲みます (nomimasu)",
+        "answer": "to drink",
+        "options": ["to drink", "to eat", "to pour", "to buy"],
+        "hint": "飲 = drink/swallow. 飲み物 (nomimono) = beverage"
+      },
+      {
+        "question": "みます / 見ます (mimasu)",
+        "answer": "to watch / to see",
+        "options": ["to watch / see", "to listen", "to read", "to speak"],
+        "hint": "見 = see/look. テレビを見ます (I watch TV)"
+      }
+    ]
+  },
+
+  "challenge": {
+    "gameType": "vocab",
+    "config": {
+      "answerMode": "mcq",
+      "optionsCount": 4,
+      "timeLimit": 180,
+      "questionsCount": 999
+    },
+    "items": [
+      { "question": "みず / 水 (mizu)", "answer": "water", "options": ["water", "tea", "juice", "milk"] },
+      { "question": "おちゃ / お茶 (ocha)", "answer": "tea", "options": ["tea", "water", "coffee", "juice"] },
+      { "question": "ごはん / ご飯 (gohan)", "answer": "rice / meal", "options": ["rice / meal", "bread", "noodles", "soup"] },
+      { "question": "パン (pan)", "answer": "bread", "options": ["bread", "rice", "cake", "cookie"] },
+      { "question": "にく / 肉 (niku)", "answer": "meat", "options": ["meat", "fish", "egg", "vegetable"] },
+      { "question": "さかな / 魚 (sakana)", "answer": "fish", "options": ["fish", "meat", "chicken", "shrimp"] },
+      { "question": "やさい / 野菜 (yasai)", "answer": "vegetable(s)", "options": ["vegetable", "fruit", "grain", "herb"] },
+      { "question": "くだもの / 果物 (kudamono)", "answer": "fruit", "options": ["fruit", "vegetable", "dessert", "snack"] },
+      { "question": "たまご / 卵 (tamago)", "answer": "egg", "options": ["egg", "milk", "butter", "cheese"] },
+      { "question": "コーヒー (koohii)", "answer": "coffee", "options": ["coffee", "tea", "juice", "water"] },
+      { "question": "うち / 家 (uchi)", "answer": "house / home", "options": ["house / home", "school", "hospital", "shop"] },
+      { "question": "がっこう / 学校 (gakkou)", "answer": "school", "options": ["school", "library", "hospital", "station"] },
+      { "question": "えき / 駅 (eki)", "answer": "train station", "options": ["train station", "bus stop", "airport", "port"] },
+      { "question": "びょういん / 病院 (byouin)", "answer": "hospital", "options": ["hospital", "school", "pharmacy", "clinic"] },
+      { "question": "としょかん / 図書館 (toshokan)", "answer": "library", "options": ["library", "bookshop", "school", "office"] },
+      { "question": "スーパー (suupaa)", "answer": "supermarket", "options": ["supermarket", "restaurant", "convenience store", "market"] },
+      { "question": "レストラン (resutoran)", "answer": "restaurant", "options": ["restaurant", "café", "supermarket", "hotel"] },
+      { "question": "め / 目 (me)", "answer": "eye(s)", "options": ["eye", "ear", "nose", "mouth"] },
+      { "question": "みみ / 耳 (mimi)", "answer": "ear(s)", "options": ["ear", "eye", "nose", "hand"] },
+      { "question": "くち / 口 (kuchi)", "answer": "mouth", "options": ["mouth", "nose", "eye", "ear"] },
+      { "question": "て / 手 (te)", "answer": "hand(s)", "options": ["hand", "foot", "head", "arm"] },
+      { "question": "あし / 足 (ashi)", "answer": "foot / leg", "options": ["foot / leg", "hand", "arm", "head"] },
+      { "question": "あたま / 頭 (atama)", "answer": "head", "options": ["head", "face", "body", "back"] },
+      { "question": "あか / 赤 (aka)", "answer": "red", "options": ["red", "blue", "yellow", "green"] },
+      { "question": "あお / 青 (ao)", "answer": "blue", "options": ["blue", "red", "green", "purple"] },
+      { "question": "しろ / 白 (shiro)", "answer": "white", "options": ["white", "black", "grey", "red"] },
+      { "question": "くろ / 黒 (kuro)", "answer": "black", "options": ["black", "white", "grey", "brown"] },
+      { "question": "たべます / 食べます (tabemasu)", "answer": "to eat", "options": ["to eat", "to drink", "to cook", "to buy"] },
+      { "question": "のみます / 飲みます (nomimasu)", "answer": "to drink", "options": ["to drink", "to eat", "to pour", "to buy"] },
+      { "question": "みます / 見ます (mimasu)", "answer": "to watch / to see", "options": ["to watch / see", "to listen", "to read", "to speak"] }
+    ]
+  }
+}

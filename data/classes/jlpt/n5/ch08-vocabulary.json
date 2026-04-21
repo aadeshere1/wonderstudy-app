@@ -1,0 +1,422 @@
+{
+  "id": "ch08-vocabulary",
+  "meta": {
+    "title": "Lesson 8: 町をあるきます — Vocabulary",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "ch08-vocabulary",
+    "subtopic": "Walking Around Town",
+    "description": "Vocabulary for Minna no Nihongo Lesson 8: Walking Around Town",
+    "icon": "🚶",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "Request: てください",
+        "back": "〜て + ください = Please do ~\n\nみてください。= Please look.\nきいてください。= Please listen.\nまってください。= Please wait.\nはなしてください。= Please speak.\n\nPolite command/request form."
+      },
+      {
+        "front": "Permission: てもいいです",
+        "back": "〜て + もいいです = It's OK to ~ / You may ~\n\nここにすわってもいいですか。\n= May I sit here?\n→ はい、どうぞ。= Yes, please go ahead.\n→ すみません、ちょっと... = Sorry, it's a bit..."
+      },
+      {
+        "front": "Prohibition: てはいけません",
+        "back": "〜て + はいけません = You must not ~\n\nここでたばこを吸ってはいけません。\n= You must not smoke here.\nここに入ってはいけません。\n= You must not enter here.\n\nUsed for rules, signs, warnings."
+      },
+      {
+        "front": "Direction verbs",
+        "back": "曲がります (まがります) = to turn\nわたります = to cross\nとまります = to stop\nまっすぐ行きます = go straight\n\nみぎに曲がります = turn right\nひだりに曲がります = turn left\nしんごうをわたります = cross the traffic light"
+      },
+      {
+        "front": "On/off verbs",
+        "back": "あけます = to open\nしめます = to close\nつけます = to turn on\nけします = to turn off/erase\n\nまどを開けてください。\n= Please open the window.\nでんきを消してください。\n= Please turn off the light."
+      },
+      {
+        "front": "Town vocabulary",
+        "back": "まち (町) = town / neighbourhood\nしんごう (信号) = traffic light\nかど (角) = corner\nはし (橋) = bridge\nこうさてん (交差点) = intersection\nみち (道) = road / path"
+      },
+      {
+        "front": "て-form review: Group 1 rules",
+        "back": "〜う / 〜つ / 〜る → って\n買う→買って / 待つ→待って / 切る→切って\n\n〜む / 〜ぬ / 〜ぶ → んで\n飲む→飲んで / 死ぬ→死んで / 遊ぶ→遊んで\n\n〜く → いて (行く → 行って exception!)\n〜ぐ → いで\n〜す → して"
+      },
+      {
+        "front": "Key lesson 8 phrases",
+        "back": "ちょっと待ってください。= Please wait a moment.\nもう一度言ってください。= Please say it again.\nゆっくり話してください。= Please speak slowly.\nここに名前を書いてください。= Please write your name here."
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "vocab",
+    "config": {
+      "answerMode": "mcq",
+      "optionsCount": 4,
+      "timeLimit": 20,
+      "questionsCount": 15
+    },
+    "items": [
+      {
+        "question": "〜てください",
+        "answer": "please do ~ (request)",
+        "options": [
+          "please don't ~",
+          "I want to ~",
+          "let's ~",
+          "please do ~ (request)"
+        ]
+      },
+      {
+        "question": "〜てもいいです",
+        "answer": "it's okay to ~ / you may ~",
+        "options": [
+          "please do ~",
+          "let's ~",
+          "you must not ~",
+          "it's okay to ~ / you may ~"
+        ]
+      },
+      {
+        "question": "〜てはいけません",
+        "answer": "you must not ~ / it's not okay to ~",
+        "options": [
+          "you must not ~ / it's not okay to ~",
+          "let's ~",
+          "please do ~",
+          "you may ~"
+        ]
+      },
+      {
+        "question": "まがります (曲がります)",
+        "answer": "to turn",
+        "options": [
+          "to cross",
+          "to stop",
+          "to turn",
+          "to go straight"
+        ]
+      },
+      {
+        "question": "わたります (渡ります)",
+        "answer": "to cross (a road/bridge)",
+        "options": [
+          "to walk",
+          "to turn",
+          "to cross (a road/bridge)",
+          "to stop"
+        ]
+      },
+      {
+        "question": "とまります (止まります)",
+        "answer": "to stop",
+        "options": [
+          "to cross",
+          "to stop",
+          "to turn",
+          "to go"
+        ]
+      },
+      {
+        "question": "きります (切ります)",
+        "answer": "to cut",
+        "options": [
+          "to open",
+          "to close",
+          "to paste",
+          "to cut"
+        ]
+      },
+      {
+        "question": "おくります (送ります)",
+        "answer": "to send",
+        "options": [
+          "to return",
+          "to send",
+          "to buy",
+          "to receive"
+        ]
+      },
+      {
+        "question": "あけます (開けます)",
+        "answer": "to open (something)",
+        "options": [
+          "to carry",
+          "to cut",
+          "to open (something)",
+          "to close"
+        ]
+      },
+      {
+        "question": "しめます (閉めます)",
+        "answer": "to close (something)",
+        "options": [
+          "to turn on",
+          "to turn off",
+          "to close (something)",
+          "to open"
+        ]
+      },
+      {
+        "question": "つけます (付けます)",
+        "answer": "to turn on (lights/devices)",
+        "options": [
+          "to turn on (lights/devices)",
+          "to close",
+          "to open",
+          "to turn off"
+        ]
+      },
+      {
+        "question": "けします (消します)",
+        "answer": "to turn off / erase",
+        "options": [
+          "to turn off / erase",
+          "to write",
+          "to open",
+          "to turn on"
+        ]
+      },
+      {
+        "question": "みぎ (右)",
+        "answer": "right (direction)",
+        "options": [
+          "back",
+          "left",
+          "straight",
+          "right (direction)"
+        ]
+      },
+      {
+        "question": "ひだり (左)",
+        "answer": "left (direction)",
+        "options": [
+          "right",
+          "forward",
+          "straight",
+          "left (direction)"
+        ]
+      },
+      {
+        "question": "まっすぐ",
+        "answer": "straight ahead",
+        "options": [
+          "turn left",
+          "straight ahead",
+          "turn right",
+          "go back"
+        ]
+      },
+      {
+        "question": "しんごう (信号)",
+        "answer": "traffic light",
+        "options": [
+          "traffic light",
+          "corner",
+          "intersection",
+          "crosswalk"
+        ]
+      },
+      {
+        "question": "かど (角)",
+        "answer": "corner",
+        "options": [
+          "corner",
+          "bridge",
+          "intersection",
+          "traffic light"
+        ]
+      },
+      {
+        "question": "はし (橋)",
+        "answer": "bridge",
+        "options": [
+          "tunnel",
+          "road",
+          "corner",
+          "bridge"
+        ]
+      },
+      {
+        "question": "まち (町/街)",
+        "answer": "town / city / neighbourhood",
+        "options": [
+          "mountain",
+          "countryside",
+          "town / city / neighbourhood",
+          "sea"
+        ]
+      },
+      {
+        "question": "でんき (電気)",
+        "answer": "electricity / electric light",
+        "options": [
+          "electricity / electric light",
+          "water",
+          "air",
+          "gas"
+        ]
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "vocab",
+    "config": {
+      "answerMode": "mcq",
+      "optionsCount": 4,
+      "timeLimit": 10,
+      "questionsCount": 15
+    },
+    "items": [
+      {
+        "question": "How do you say 'please do ~ (request)' in Japanese?",
+        "answer": "〜てください",
+        "options": [
+          "〜てはいけません",
+          "〜てもいいです",
+          "〜てください",
+          "まがります (曲がります)"
+        ]
+      },
+      {
+        "question": "How do you say 'it's okay to ~ / you may ~' in Japanese?",
+        "answer": "〜てもいいです",
+        "options": [
+          "〜てください",
+          "〜てはいけません",
+          "まがります (曲がります)",
+          "〜てもいいです"
+        ]
+      },
+      {
+        "question": "How do you say 'you must not ~ / it's not okay to ~' in Japanese?",
+        "answer": "〜てはいけません",
+        "options": [
+          "まがります (曲がります)",
+          "〜てはいけません",
+          "〜てください",
+          "〜てもいいです"
+        ]
+      },
+      {
+        "question": "How do you say 'to turn' in Japanese?",
+        "answer": "まがります (曲がります)",
+        "options": [
+          "まがります (曲がります)",
+          "〜てはいけません",
+          "〜てもいいです",
+          "〜てください"
+        ]
+      },
+      {
+        "question": "How do you say 'to cross (a road/bridge)' in Japanese?",
+        "answer": "わたります (渡ります)",
+        "options": [
+          "〜てはいけません",
+          "〜てもいいです",
+          "わたります (渡ります)",
+          "〜てください"
+        ]
+      },
+      {
+        "question": "How do you say 'to stop' in Japanese?",
+        "answer": "とまります (止まります)",
+        "options": [
+          "とまります (止まります)",
+          "〜てはいけません",
+          "〜てもいいです",
+          "〜てください"
+        ]
+      },
+      {
+        "question": "How do you say 'to cut' in Japanese?",
+        "answer": "きります (切ります)",
+        "options": [
+          "〜てください",
+          "〜てもいいです",
+          "きります (切ります)",
+          "〜てはいけません"
+        ]
+      },
+      {
+        "question": "How do you say 'to send' in Japanese?",
+        "answer": "おくります (送ります)",
+        "options": [
+          "〜てもいいです",
+          "おくります (送ります)",
+          "〜てはいけません",
+          "〜てください"
+        ]
+      },
+      {
+        "question": "How do you say 'to open (something)' in Japanese?",
+        "answer": "あけます (開けます)",
+        "options": [
+          "〜てもいいです",
+          "〜てください",
+          "あけます (開けます)",
+          "〜てはいけません"
+        ]
+      },
+      {
+        "question": "How do you say 'to close (something)' in Japanese?",
+        "answer": "しめます (閉めます)",
+        "options": [
+          "〜てください",
+          "しめます (閉めます)",
+          "〜てはいけません",
+          "〜てもいいです"
+        ]
+      },
+      {
+        "question": "How do you say 'to turn on (lights/devices)' in Japanese?",
+        "answer": "つけます (付けます)",
+        "options": [
+          "〜てください",
+          "つけます (付けます)",
+          "〜てもいいです",
+          "〜てはいけません"
+        ]
+      },
+      {
+        "question": "How do you say 'to turn off / erase' in Japanese?",
+        "answer": "けします (消します)",
+        "options": [
+          "〜てはいけません",
+          "けします (消します)",
+          "〜てください",
+          "〜てもいいです"
+        ]
+      },
+      {
+        "question": "How do you say 'right (direction)' in Japanese?",
+        "answer": "みぎ (右)",
+        "options": [
+          "〜てください",
+          "〜てはいけません",
+          "〜てもいいです",
+          "みぎ (右)"
+        ]
+      },
+      {
+        "question": "How do you say 'left (direction)' in Japanese?",
+        "answer": "ひだり (左)",
+        "options": [
+          "〜てもいいです",
+          "ひだり (左)",
+          "〜てください",
+          "〜てはいけません"
+        ]
+      },
+      {
+        "question": "How do you say 'straight ahead' in Japanese?",
+        "answer": "まっすぐ",
+        "options": [
+          "〜てはいけません",
+          "〜てください",
+          "〜てもいいです",
+          "まっすぐ"
+        ]
+      }
+    ]
+  }
+}

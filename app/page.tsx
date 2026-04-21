@@ -32,6 +32,37 @@ export type LessonEntry = {
 // Map of classNum → subject → lessons
 export type ClassLessonsMap = Record<string, Record<string, LessonEntry[]>>;
 
+// Map of JLPT level (e.g. "n5") → lessons array
+export type JapaneseLessonsMap = Record<string, LessonEntry[]>;
+
+function loadJapaneseLessons(): JapaneseLessonsMap {
+  const result: JapaneseLessonsMap = {};
+  const jlptDir = join(process.cwd(), 'data', 'classes', 'jlpt');
+  if (!existsSync(jlptDir)) return result;
+
+  try {
+    const levels = readdirSync(jlptDir);
+    for (const level of levels) {
+      const indexPath = join(jlptDir, level, 'index.json');
+      if (!existsSync(indexPath)) continue;
+      try {
+        const raw = JSON.parse(readFileSync(indexPath, 'utf-8')) as {
+          lessons: Array<{ id: string; title: string; icon: string; subtopics?: string[] }>;
+        };
+        result[level] = raw.lessons.map((l) => ({
+          id: l.id,
+          title: l.title,
+          icon: l.icon,
+          description: l.subtopics?.join(' · ') ?? '',
+          difficulty: 'beginner' as const,
+        }));
+      } catch { /* skip bad index */ }
+    }
+  } catch { /* skip if jlpt dir unreadable */ }
+
+  return result;
+}
+
 function loadClassLessons(): ClassLessonsMap {
   const result: ClassLessonsMap = {};
   const classesDir = join(process.cwd(), 'data', 'classes');
@@ -97,6 +128,7 @@ export default function Page() {
   }
 
   const classLessons = loadClassLessons();
+  const japaneseLessons = loadJapaneseLessons();
 
-  return <HomePage games={games} classLessons={classLessons} />;
+  return <HomePage games={games} classLessons={classLessons} japaneseLessons={japaneseLessons} />;
 }

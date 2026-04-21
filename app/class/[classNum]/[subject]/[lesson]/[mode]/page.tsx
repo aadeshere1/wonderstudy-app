@@ -5,9 +5,13 @@ import { gameSchema } from '@/components/seo/SchemaMarkup';
 import type { LessonData } from '@/lib/engine/types';
 import GameLoader from './GameLoader';
 
+function classFolder(classNum: string) {
+  return classNum === 'jlpt' ? 'jlpt' : `class-${classNum}`;
+}
+
 function loadLesson(classNum: string, subject: string, lesson: string): LessonData | null {
   try {
-    const filePath = join(process.cwd(), 'data', 'classes', `class-${classNum}`, subject, `${lesson}.json`);
+    const filePath = join(process.cwd(), 'data', 'classes', classFolder(classNum), subject, `${lesson}.json`);
     return JSON.parse(readFileSync(filePath, 'utf-8')) as LessonData;
   } catch {
     return null;
@@ -15,21 +19,26 @@ function loadLesson(classNum: string, subject: string, lesson: string): LessonDa
 }
 
 export async function generateStaticParams() {
-  const lessons = [
-    { classNum: '1', subject: 'science', lesson: 'living-nonliving' },
-    { classNum: '1', subject: 'math', lesson: 'addition-subtraction' },
-    { classNum: '1', subject: 'english', lesson: 'animals-vocabulary' },
-    { classNum: '6', subject: 'math', lesson: 'sets-introduction' },
-    { classNum: '6', subject: 'math', lesson: 'whole-numbers' },
-  ];
+  const { readdirSync, existsSync } = await import('fs');
+  const { join } = await import('path');
+  const lessons: { classNum: string; subject: string; lesson: string }[] = [];
+  const classesDir = join(process.cwd(), 'data', 'classes');
+  if (existsSync(classesDir)) {
+    for (const classFolder of readdirSync(classesDir)) {
+      const classNum = classFolder.replace('class-', '');
+      const classPath = join(classesDir, classFolder);
+      for (const subject of readdirSync(classPath)) {
+        const subjectPath = join(classPath, subject);
+        for (const file of readdirSync(subjectPath)) {
+          if (file.endsWith('.json') && file !== 'index.json') {
+            lessons.push({ classNum, subject, lesson: file.replace('.json', '') });
+          }
+        }
+      }
+    }
+  }
   const modes = ['teach', 'practice', 'challenge'];
-
-  return lessons.flatMap((lesson) =>
-    modes.map((mode) => ({
-      ...lesson,
-      mode,
-    }))
-  );
+  return lessons.flatMap((l) => modes.map((mode) => ({ ...l, mode })));
 }
 
 export async function generateMetadata({

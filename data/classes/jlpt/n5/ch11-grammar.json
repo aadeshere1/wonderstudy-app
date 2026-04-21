@@ -1,0 +1,282 @@
+{
+  "id": "ch11-grammar",
+  "meta": {
+    "title": "Lesson 11: どこかへ行きましたか — Grammar",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "ch11-grammar",
+    "subtopic": "Did You Go Anywhere?",
+    "description": "Grammar patterns for Minna no Nihongo Lesson 11: Did You Go Anywhere?",
+    "icon": "🗓️",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "Indefinite pronouns: どこか / なにか / だれか",
+        "back": "どこか = somewhere / anywhere\nなにか = something / anything\nだれか = someone / anyone\n\nUsed in POSITIVE sentences:\nどこかへ行きましたか。= Did you go somewhere?\nなにかたべましたか。= Did you eat something?"
+      },
+      {
+        "front": "Negative indefinite: どこも / なにも / だれも",
+        "back": "どこも〜ない = nowhere\nなにも〜ない = nothing\nだれも〜ない = no one\n\nUsed with NEGATIVE verbs:\nどこもいきませんでした。= I didn't go anywhere.\nなにもたべませんでした。= I didn't eat anything."
+      },
+      {
+        "front": "Past tense: 〜ました / 〜ませんでした",
+        "back": "Present: 食べます (eat)\nPast positive: 食べました (ate)\nPast negative: 食べませんでした (didn't eat)\n\nPresent: 行きます (go)\nPast positive: 行きました (went)\nPast negative: 行きませんでした (didn't go)"
+      },
+      {
+        "front": "Weekend conversation starters",
+        "back": "しゅうまつはどうでしたか。= How was your weekend?\nどこかへ行きましたか。= Did you go somewhere?\nなにをしましたか。= What did you do?\n\nつまらなかったです。= It was boring.\nたのしかったです。= It was fun."
+      },
+      {
+        "front": "Movement verbs — past tense",
+        "back": "行きます → 行きました (went)\n来ます → 来ました (came)\n帰ります → 帰りました (returned)\n会います → 会いました (met)\n\nToday: 行きます\nYesterday: 行きました\nLast week: 先週行きました"
+      },
+      {
+        "front": "週末の活動 (Weekend activities)",
+        "back": "映画を見ました = watched a movie\n友達に会いました = met a friend\n家で休みました = rested at home\nどこもいきませんでした = didn't go anywhere\nゆっくりしました = relaxed / took it easy"
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 25,
+      "questionsCount": 10
+    },
+    "items": [
+      {
+        "question": "しゅうまつにどこか ___ か。(Did you go somewhere on the weekend?)",
+        "answer": "へ行きました",
+        "options": [
+          "へ行きました",
+          "へ行きます",
+          "に行きました",
+          "で行きました"
+        ],
+        "explanation": "へ marks direction of movement. どこかへ行きましたか = Did you go somewhere? Past = 〜ました."
+      },
+      {
+        "question": "いいえ、どこ ___ いきませんでした。(No, I didn't go anywhere.)",
+        "answer": "も",
+        "options": [
+          "も",
+          "か",
+          "が",
+          "を"
+        ],
+        "explanation": "どこも (with negative) = nowhere. どこもいきませんでした = I didn't go anywhere."
+      },
+      {
+        "question": "なにか ___ ましたか。(Did you eat something?)",
+        "answer": "たべ",
+        "options": [
+          "たべ",
+          "のみ",
+          "かい",
+          "み"
+        ],
+        "explanation": "なにかたべましたか = Did you eat something? なにか in questions = something/anything."
+      },
+      {
+        "question": "A: だれかに会いましたか。B: いいえ、___ に会いませんでした。",
+        "answer": "だれも",
+        "options": [
+          "だれも",
+          "だれか",
+          "なにも",
+          "どこも"
+        ],
+        "explanation": "だれも (with negative) = no one. だれにも会いませんでした = I didn't meet anyone."
+      },
+      {
+        "question": "先週のしゅうまつはどうでしたか → とても ___ 。(It was very fun.)",
+        "answer": "たのしかったです",
+        "options": [
+          "たのしかったです",
+          "たのしいです",
+          "たのしくないです",
+          "たのしかった"
+        ],
+        "explanation": "い-adjective past: たのしい → たのしかった + です. Polite past = たのしかったです."
+      },
+      {
+        "question": "映画を ___ ましたか。(Did you watch a movie?)",
+        "answer": "み",
+        "options": [
+          "み",
+          "たべ",
+          "のみ",
+          "かい"
+        ],
+        "explanation": "見ます (みます) → 見ました (みました). み + ましたか = did you watch?"
+      },
+      {
+        "question": "家で ___ 。(I rested at home.)",
+        "answer": "やすみました",
+        "options": [
+          "やすみました",
+          "はたらきました",
+          "べんきょうしました",
+          "たべました"
+        ],
+        "explanation": "休みます (やすみます) → 休みました (やすみました). Past of 'rest' = やすみました."
+      },
+      {
+        "question": "友達と ___ 映画を見ました。(I watched a movie with a friend.)",
+        "answer": "いっしょに",
+        "options": [
+          "いっしょに",
+          "ひとりで",
+          "ふたりで",
+          "みんなで"
+        ],
+        "explanation": "一緒に (いっしょに) = together (with someone). いっしょに + action = doing it together."
+      },
+      {
+        "question": "なにもしませんでした。What does this mean?",
+        "answer": "I didn't do anything.",
+        "options": [
+          "I didn't do anything.",
+          "I did something.",
+          "I did nothing special.",
+          "I did everything."
+        ],
+        "explanation": "なにも (with negative) = nothing. なにもしませんでした = didn't do anything."
+      },
+      {
+        "question": "How do you say 'I bought a souvenir in Kyoto'?",
+        "answer": "京都でおみやげをかいました。",
+        "options": [
+          "京都でおみやげをかいました。",
+          "京都におみやげをかいました。",
+          "京都からおみやげをかいました。",
+          "京都がおみやげをかいました。"
+        ],
+        "explanation": "で marks location of action. 京都で = in Kyoto. を marks object. かいました = bought (past)."
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 12,
+      "questionsCount": 10
+    },
+    "items": [
+      {
+        "question": "しゅうまつにどこか ___ か。(Did you go somewhere on the weekend?)",
+        "answer": "へ行きました",
+        "options": [
+          "へ行きました",
+          "へ行きます",
+          "に行きました",
+          "で行きました"
+        ],
+        "explanation": "へ marks direction of movement. どこかへ行きましたか = Did you go somewhere? Past = 〜ました."
+      },
+      {
+        "question": "いいえ、どこ ___ いきませんでした。(No, I didn't go anywhere.)",
+        "answer": "も",
+        "options": [
+          "も",
+          "か",
+          "が",
+          "を"
+        ],
+        "explanation": "どこも (with negative) = nowhere. どこもいきませんでした = I didn't go anywhere."
+      },
+      {
+        "question": "なにか ___ ましたか。(Did you eat something?)",
+        "answer": "たべ",
+        "options": [
+          "たべ",
+          "のみ",
+          "かい",
+          "み"
+        ],
+        "explanation": "なにかたべましたか = Did you eat something? なにか in questions = something/anything."
+      },
+      {
+        "question": "A: だれかに会いましたか。B: いいえ、___ に会いませんでした。",
+        "answer": "だれも",
+        "options": [
+          "だれも",
+          "だれか",
+          "なにも",
+          "どこも"
+        ],
+        "explanation": "だれも (with negative) = no one. だれにも会いませんでした = I didn't meet anyone."
+      },
+      {
+        "question": "先週のしゅうまつはどうでしたか → とても ___ 。(It was very fun.)",
+        "answer": "たのしかったです",
+        "options": [
+          "たのしかったです",
+          "たのしいです",
+          "たのしくないです",
+          "たのしかった"
+        ],
+        "explanation": "い-adjective past: たのしい → たのしかった + です. Polite past = たのしかったです."
+      },
+      {
+        "question": "映画を ___ ましたか。(Did you watch a movie?)",
+        "answer": "み",
+        "options": [
+          "み",
+          "たべ",
+          "のみ",
+          "かい"
+        ],
+        "explanation": "見ます (みます) → 見ました (みました). み + ましたか = did you watch?"
+      },
+      {
+        "question": "家で ___ 。(I rested at home.)",
+        "answer": "やすみました",
+        "options": [
+          "やすみました",
+          "はたらきました",
+          "べんきょうしました",
+          "たべました"
+        ],
+        "explanation": "休みます (やすみます) → 休みました (やすみました). Past of 'rest' = やすみました."
+      },
+      {
+        "question": "友達と ___ 映画を見ました。(I watched a movie with a friend.)",
+        "answer": "いっしょに",
+        "options": [
+          "いっしょに",
+          "ひとりで",
+          "ふたりで",
+          "みんなで"
+        ],
+        "explanation": "一緒に (いっしょに) = together (with someone). いっしょに + action = doing it together."
+      },
+      {
+        "question": "なにもしませんでした。What does this mean?",
+        "answer": "I didn't do anything.",
+        "options": [
+          "I didn't do anything.",
+          "I did something.",
+          "I did nothing special.",
+          "I did everything."
+        ],
+        "explanation": "なにも (with negative) = nothing. なにもしませんでした = didn't do anything."
+      },
+      {
+        "question": "How do you say 'I bought a souvenir in Kyoto'?",
+        "answer": "京都でおみやげをかいました。",
+        "options": [
+          "京都でおみやげをかいました。",
+          "京都におみやげをかいました。",
+          "京都からおみやげをかいました。",
+          "京都がおみやげをかいました。"
+        ],
+        "explanation": "で marks location of action. 京都で = in Kyoto. を marks object. かいました = bought (past)."
+      }
+    ]
+  }
+}

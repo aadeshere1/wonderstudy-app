@@ -5,7 +5,8 @@ export type GameType =
   | "spelling"
   | "mcq-facts"
   | "true-false"
-  | "word-meaning";
+  | "word-meaning"
+  | "geometry";
 export type Operation = "multiply" | "divide" | "add" | "subtract" | "mixed";
 export type ArithmeticAnswerMode = "quiz" | "type";
 export type VocabAnswerMode = "mcq" | "type";
@@ -14,7 +15,7 @@ export type Direction = "word-to-meaning" | "meaning-to-word";
 // Lesson Metadata
 export interface LessonMeta {
   title: string;
-  subject: "math" | "english" | "science" | "general";
+  subject: "math" | "english" | "science" | "general" | "japanese";
   class: number | null;
   lesson: string | null;
   subtopic: string;
@@ -68,13 +69,20 @@ export interface WordMeaningConfig {
   questionsCount: number;
 }
 
+export interface GeometryConfig {
+  shuffleOptions: boolean;
+  timeLimit: number;
+  questionsCount: number;
+}
+
 export type GameConfig =
   | ArithmeticConfig
   | VocabConfig
   | SpellingConfig
   | MCQFactsConfig
   | TrueFalseConfig
-  | WordMeaningConfig;
+  | WordMeaningConfig
+  | GeometryConfig;
 
 // Question Items
 export interface BaseQuestion {
@@ -128,13 +136,47 @@ export interface WordMeaningQuestion extends BaseQuestion {
   image?: string;
 }
 
+/**
+ * Describes a geometric shape — stored in lesson JSON items.
+ * The geometry plugin reads this to generate an SVG diagram at runtime.
+ */
+export interface GeometryShape {
+  type: "rectangle" | "square" | "triangle" | "circle";
+  /** Rectangle */
+  width?: number;
+  height?: number;
+  /** Square */
+  side?: number;
+  /** Triangle — right-angled when base + triHeight are present */
+  base?: number;
+  triHeight?: number;
+  sideA?: number; // bottom / first side label
+  sideB?: number; // left  / second side label
+  sideC?: number; // hypotenuse / third side label
+  /** Circle */
+  radius?: number;
+  /** Unit displayed alongside numbers, e.g. "cm" */
+  unit: string;
+}
+
+export interface GeometryQuestion extends BaseQuestion {
+  question: string;
+  answer: string;
+  options: string[];
+  shape: GeometryShape;
+  /** Inline SVG markup — populated at runtime by the geometry plugin */
+  svg?: string;
+  explanation?: string;
+}
+
 export type Question =
   | ArithmeticQuestion
   | VocabQuestion
   | SpellingQuestion
   | MCQFactsQuestion
   | TrueFalseQuestion
-  | WordMeaningQuestion;
+  | WordMeaningQuestion
+  | GeometryQuestion;
 
 // Teach/Practice/Challenge Sections
 export interface FlashcardItem {

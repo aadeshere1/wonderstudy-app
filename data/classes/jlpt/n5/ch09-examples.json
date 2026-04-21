@@ -1,0 +1,238 @@
+{
+  "id": "ch09-examples",
+  "meta": {
+    "title": "Lesson 9: 買い物をします — Dialogue & Examples",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "ch09-examples",
+    "subtopic": "Shopping",
+    "description": "Practical dialogues and sentences for Lesson 9: Shopping",
+    "icon": "🛍️",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "Shopping conversation",
+        "back": "A: いらっしゃいませ。\nB: このシャツを2枚ください。\nA: 色は何色がいいですか。\nB: 白と青をください。\nA: かしこまりました。\n\nB: I'd like 2 of these shirts.\nA: What color would you like?"
+      },
+      {
+        "front": "Asking how long it takes",
+        "back": "A: ここから東京まで電車でどのくらいかかりますか。\nB: だいたい30分かかります。\n\nA: How long does it take from here to Tokyo by train?\nB: About 30 minutes.\n\nだいたい = approximately / roughly"
+      },
+      {
+        "front": "Frequency in conversation",
+        "back": "A: よく映画を見ますか。\nB: ええ、週に1回ぐらい見ます。\nA: どんな映画が好きですか。\nB: アクション映画が好きです。\n\n週に1回 = once a week\n月に2回 = twice a month"
+      },
+      {
+        "front": "Counting in context",
+        "back": "りんごを3個ください。= 3 apples please.\nビールを2本ください。= 2 beers please.\nコピーを5枚ください。= 5 copies please.\n本を1冊かしてください。= Please lend me 1 book.\nねこが3匹います。= There are 3 cats."
+      },
+      {
+        "front": "〜週に〜回 (times per week)",
+        "back": "週に3回 (しゅうにさんかい) = 3 times a week\n月に1回 (つきにいっかい) = once a month\n年に2回 (ねんににかい) = twice a year\n\nA: どのくらい運動しますか。\nB: 週に3回ジムに行きます。= I go to the gym 3x/week."
+      },
+      {
+        "front": "Borrowing and returning",
+        "back": "A: この本を貸してもいいですか。\nB: いいですよ。いつ返しますか。\nA: 来週返します。\nB: じゃ、どうぞ。\n\nA: May I borrow this book?\nB: Sure. When will you return it?\nA: I'll return it next week.\nB: Then, please (take it)."
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 25,
+      "questionsCount": 8
+    },
+    "items": [
+      {
+        "question": "You want to say you 'rarely' eat meat. Which is correct?",
+        "answer": "あまりにくを食べません。",
+        "options": [
+          "あまりにくを食べません。",
+          "あまりにくを食べます。",
+          "ぜんぜんにくを食べます。",
+          "よくにくを食べません。"
+        ],
+        "explanation": "あまり requires negative form: あまり〜ません = not very often/rarely."
+      },
+      {
+        "question": "You want 3 apples. What do you say in a shop?",
+        "answer": "りんごを3個ください。",
+        "options": [
+          "りんごを3個ください。",
+          "りんごを3枚ください。",
+          "りんごを3本ください。",
+          "りんごを3冊ください。"
+        ],
+        "explanation": "Individual round items use 〜個 (こ). りんご (apple) = 個. 3個 = みっこ or さんこ."
+      },
+      {
+        "question": "How do you ask 'How long does it take to get to the station?'",
+        "answer": "えきまでどのくらいかかりますか。",
+        "options": [
+          "えきまでどのくらいかかりますか。",
+          "えきまでいくらかかりますか。",
+          "えきまでなんじかかりますか。",
+          "えきまでなんかいかかりますか。"
+        ],
+        "explanation": "どのくらいかかりますか = how long does it take? Use this for duration of travel."
+      },
+      {
+        "question": "I watch TV every day. Which frequency word is best?",
+        "answer": "まいにち",
+        "options": [
+          "まいにち",
+          "よく",
+          "ときどき",
+          "あまり"
+        ],
+        "explanation": "毎日 (まいにち) = every day. This is the strongest frequency (100%). よく = often (but not every day)."
+      },
+      {
+        "question": "4本のジュース (4 juices). How do you read 4本?",
+        "answer": "よんほん",
+        "options": [
+          "よんほん",
+          "よんぼん",
+          "よんぽん",
+          "しほん"
+        ],
+        "explanation": "4本 = よんほん. The counter 本 changes: 1=いっぽん, 3=さんぼん, 4=よんほん, 6=ろっぽん."
+      },
+      {
+        "question": "A friend asks to borrow your dictionary. How do they ask?",
+        "answer": "じしょを貸してもいいですか。",
+        "options": [
+          "じしょを貸してもいいですか。",
+          "じしょを借りてもいいですか。",
+          "じしょを返してもいいですか。",
+          "じしょを買ってもいいですか。"
+        ],
+        "explanation": "貸す (かす) = to lend. The friend is asking YOU to lend, so they use 貸してもいいですか (may you lend me?). Note: they could also say じしょを借りてもいいですか (may I borrow?)."
+      },
+      {
+        "question": "I go to the gym twice a week. How do you say this?",
+        "answer": "週に2回ジムに行きます。",
+        "options": [
+          "週に2回ジムに行きます。",
+          "月に2回ジムに行きます。",
+          "日に2回ジムに行きます。",
+          "年に2回ジムに行きます。"
+        ],
+        "explanation": "週に〜回 = ~ times per week. 2回 = にかい = 2 times."
+      },
+      {
+        "question": "You never eat sushi. Which is correct?",
+        "answer": "ぜんぜんすしを食べません。",
+        "options": [
+          "ぜんぜんすしを食べません。",
+          "ぜんぜんすしを食べます。",
+          "あまりすしを食べません。",
+          "ぜんぜんすしを食べましょう。"
+        ],
+        "explanation": "ぜんぜん = not at all. Must be followed by negative: ぜんぜん〜ません. Stronger than あまり."
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 12,
+      "questionsCount": 8
+    },
+    "items": [
+      {
+        "question": "You want to say you 'rarely' eat meat. Which is correct?",
+        "answer": "あまりにくを食べません。",
+        "options": [
+          "あまりにくを食べません。",
+          "あまりにくを食べます。",
+          "ぜんぜんにくを食べます。",
+          "よくにくを食べません。"
+        ],
+        "explanation": "あまり requires negative form: あまり〜ません = not very often/rarely."
+      },
+      {
+        "question": "You want 3 apples. What do you say in a shop?",
+        "answer": "りんごを3個ください。",
+        "options": [
+          "りんごを3個ください。",
+          "りんごを3枚ください。",
+          "りんごを3本ください。",
+          "りんごを3冊ください。"
+        ],
+        "explanation": "Individual round items use 〜個 (こ). りんご (apple) = 個. 3個 = みっこ or さんこ."
+      },
+      {
+        "question": "How do you ask 'How long does it take to get to the station?'",
+        "answer": "えきまでどのくらいかかりますか。",
+        "options": [
+          "えきまでどのくらいかかりますか。",
+          "えきまでいくらかかりますか。",
+          "えきまでなんじかかりますか。",
+          "えきまでなんかいかかりますか。"
+        ],
+        "explanation": "どのくらいかかりますか = how long does it take? Use this for duration of travel."
+      },
+      {
+        "question": "I watch TV every day. Which frequency word is best?",
+        "answer": "まいにち",
+        "options": [
+          "まいにち",
+          "よく",
+          "ときどき",
+          "あまり"
+        ],
+        "explanation": "毎日 (まいにち) = every day. This is the strongest frequency (100%). よく = often (but not every day)."
+      },
+      {
+        "question": "4本のジュース (4 juices). How do you read 4本?",
+        "answer": "よんほん",
+        "options": [
+          "よんほん",
+          "よんぼん",
+          "よんぽん",
+          "しほん"
+        ],
+        "explanation": "4本 = よんほん. The counter 本 changes: 1=いっぽん, 3=さんぼん, 4=よんほん, 6=ろっぽん."
+      },
+      {
+        "question": "A friend asks to borrow your dictionary. How do they ask?",
+        "answer": "じしょを貸してもいいですか。",
+        "options": [
+          "じしょを貸してもいいですか。",
+          "じしょを借りてもいいですか。",
+          "じしょを返してもいいですか。",
+          "じしょを買ってもいいですか。"
+        ],
+        "explanation": "貸す (かす) = to lend. The friend is asking YOU to lend, so they use 貸してもいいですか (may you lend me?). Note: they could also say じしょを借りてもいいですか (may I borrow?)."
+      },
+      {
+        "question": "I go to the gym twice a week. How do you say this?",
+        "answer": "週に2回ジムに行きます。",
+        "options": [
+          "週に2回ジムに行きます。",
+          "月に2回ジムに行きます。",
+          "日に2回ジムに行きます。",
+          "年に2回ジムに行きます。"
+        ],
+        "explanation": "週に〜回 = ~ times per week. 2回 = にかい = 2 times."
+      },
+      {
+        "question": "You never eat sushi. Which is correct?",
+        "answer": "ぜんぜんすしを食べません。",
+        "options": [
+          "ぜんぜんすしを食べません。",
+          "ぜんぜんすしを食べます。",
+          "あまりすしを食べません。",
+          "ぜんぜんすしを食べましょう。"
+        ],
+        "explanation": "ぜんぜん = not at all. Must be followed by negative: ぜんぜん〜ません. Stronger than あまり."
+      }
+    ]
+  }
+}

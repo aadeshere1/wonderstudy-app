@@ -563,6 +563,7 @@ export default function GameRunnerClient({
             <QuestionDisplay
               displayText={displayText}
               spokenText={spokenText}
+              svgDiagram={q?.svg}
               onSpeak={() => voiceManager?.speak(spokenText)}
             />
 

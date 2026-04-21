@@ -1,0 +1,352 @@
+{
+  "id": "ch24-vocabulary",
+  "meta": {
+    "title": "Lesson 24: もっとゆっくり話してください — Vocabulary",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "ch24-vocabulary",
+    "subtopic": "Please Speak More Slowly",
+    "description": "Vocabulary for Minna no Nihongo Lesson 24: Please Speak More Slowly",
+    "icon": "🗣️",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "Adverb forms of adjectives",
+        "back": "い-adjective → adverb: drop い + く\nはやい → はやく (quickly)\nおおきい → おおきく (in a big way)\n\nな-adjective → adverb: drop な + に\nじょうずな → じょうずに (skillfully)\nきれいな → きれいに (beautifully)\n\nThink: -ly in English!"
+      },
+      {
+        "front": "〜すぎます — Too much",
+        "back": "い-adj: drop い + すぎます\nたかすぎます = too expensive\nむずかしすぎます = too difficult\n\nな-adj: drop な + すぎます\nしずかすぎます = too quiet\n\nVerb stem + すぎます:\n食べすぎます = eat too much"
+      },
+      {
+        "front": "Becoming: 〜くなります / 〜になります",
+        "back": "い-adj: drop い + くなります\nさむくなります = becomes cold\nよくなります = gets better\n\nな-adj / Noun: 〜になります\nげんきになります = become well\n医者になります = become a doctor\n\nExpresses a change of state."
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "vocab",
+    "config": {
+      "answerMode": "mcq",
+      "optionsCount": 4,
+      "timeLimit": 20,
+      "questionsCount": 15
+    },
+    "items": [
+      {
+        "question": "もっと",
+        "answer": "more / even more",
+        "options": [
+          "a little",
+          "less",
+          "much",
+          "more / even more"
+        ]
+      },
+      {
+        "question": "ずっと",
+        "answer": "all along / much more / continuously",
+        "options": [
+          "little by little",
+          "all along / much more / continuously",
+          "briefly",
+          "occasionally"
+        ]
+      },
+      {
+        "question": "〜すぎます",
+        "answer": "too ~ / excessively ~",
+        "options": [
+          "too ~ / excessively ~",
+          "not enough ~",
+          "a little ~",
+          "just right ~"
+        ]
+      },
+      {
+        "question": "〜くなります (い-adj)",
+        "answer": "to become ~ (い-adjective change)",
+        "options": [
+          "to make ~ (transitive)",
+          "to become ~ (い-adjective change)",
+          "to stop being ~",
+          "to be ~"
+        ]
+      },
+      {
+        "question": "〜になります (な-adj/N)",
+        "answer": "to become ~ (な-adj or noun change)",
+        "options": [
+          "to be ~",
+          "to stop being ~",
+          "to make ~ (transitive)",
+          "to become ~ (な-adj or noun change)"
+        ]
+      },
+      {
+        "question": "〜くします (い-adj)",
+        "answer": "to make something ~ (transitive)",
+        "options": [
+          "to be ~",
+          "to become ~",
+          "to stop ~",
+          "to make something ~ (transitive)"
+        ]
+      },
+      {
+        "question": "〜にします (な-adj/N)",
+        "answer": "to decide on ~ / make something ~",
+        "options": [
+          "to suggest ~",
+          "to become ~",
+          "to decide on ~ / make something ~",
+          "to stop ~"
+        ]
+      },
+      {
+        "question": "はやく",
+        "answer": "quickly / early (adverb of 速い/早い)",
+        "options": [
+          "quickly / early (adverb of 速い/早い)",
+          "quietly",
+          "late",
+          "slowly"
+        ]
+      },
+      {
+        "question": "おそく",
+        "answer": "slowly / late (adverb of 遅い)",
+        "options": [
+          "slowly / late (adverb of 遅い)",
+          "quickly",
+          "clearly",
+          "early"
+        ]
+      },
+      {
+        "question": "おおきく",
+        "answer": "in a big way / largely (adverb)",
+        "options": [
+          "quickly",
+          "in a small way",
+          "in a big way / largely (adverb)",
+          "quietly"
+        ]
+      },
+      {
+        "question": "ちいさく",
+        "answer": "in a small way (adverb)",
+        "options": [
+          "in a small way (adverb)",
+          "quietly",
+          "in a big way",
+          "quickly"
+        ]
+      },
+      {
+        "question": "きれいに",
+        "answer": "beautifully / cleanly (adverb of きれい)",
+        "options": [
+          "dirtily",
+          "roughly",
+          "carelessly",
+          "beautifully / cleanly (adverb of きれい)"
+        ]
+      },
+      {
+        "question": "じょうずに",
+        "answer": "skillfully (adverb of 上手)",
+        "options": [
+          "poorly",
+          "slowly",
+          "carelessly",
+          "skillfully (adverb of 上手)"
+        ]
+      },
+      {
+        "question": "〜ほど〜ない",
+        "answer": "not as ~ as ~",
+        "options": [
+          "more ~ than ~",
+          "not as ~ as ~",
+          "as ~ as ~",
+          "equally ~"
+        ]
+      },
+      {
+        "question": "あまり〜ない",
+        "answer": "not very ~ (with negative)",
+        "options": [
+          "quite ~",
+          "not very ~ (with negative)",
+          "very ~",
+          "extremely ~"
+        ]
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "vocab",
+    "config": {
+      "answerMode": "mcq",
+      "optionsCount": 4,
+      "timeLimit": 10,
+      "questionsCount": 15
+    },
+    "items": [
+      {
+        "question": "How do you say 'more / even more' in Japanese?",
+        "answer": "もっと",
+        "options": [
+          "もっと",
+          "〜すぎます",
+          "ずっと",
+          "〜くなります (い-adj)"
+        ]
+      },
+      {
+        "question": "How do you say 'all along / much more / continuously' in Japanese?",
+        "answer": "ずっと",
+        "options": [
+          "〜くなります (い-adj)",
+          "〜すぎます",
+          "ずっと",
+          "もっと"
+        ]
+      },
+      {
+        "question": "How do you say 'too ~ / excessively ~' in Japanese?",
+        "answer": "〜すぎます",
+        "options": [
+          "〜すぎます",
+          "ずっと",
+          "〜くなります (い-adj)",
+          "もっと"
+        ]
+      },
+      {
+        "question": "How do you say 'to become ~ (い-adjective change)' in Japanese?",
+        "answer": "〜くなります (い-adj)",
+        "options": [
+          "〜すぎます",
+          "ずっと",
+          "〜くなります (い-adj)",
+          "もっと"
+        ]
+      },
+      {
+        "question": "How do you say 'to become ~ (な-adj or noun change)' in Japanese?",
+        "answer": "〜になります (な-adj/N)",
+        "options": [
+          "もっと",
+          "〜すぎます",
+          "ずっと",
+          "〜になります (な-adj/N)"
+        ]
+      },
+      {
+        "question": "How do you say 'to make something ~ (transitive)' in Japanese?",
+        "answer": "〜くします (い-adj)",
+        "options": [
+          "ずっと",
+          "もっと",
+          "〜すぎます",
+          "〜くします (い-adj)"
+        ]
+      },
+      {
+        "question": "How do you say 'to decide on ~ / make something ~' in Japanese?",
+        "answer": "〜にします (な-adj/N)",
+        "options": [
+          "もっと",
+          "〜にします (な-adj/N)",
+          "〜すぎます",
+          "ずっと"
+        ]
+      },
+      {
+        "question": "How do you say 'quickly / early (adverb of 速い/早い)' in Japanese?",
+        "answer": "はやく",
+        "options": [
+          "もっと",
+          "ずっと",
+          "はやく",
+          "〜すぎます"
+        ]
+      },
+      {
+        "question": "How do you say 'slowly / late (adverb of 遅い)' in Japanese?",
+        "answer": "おそく",
+        "options": [
+          "ずっと",
+          "〜すぎます",
+          "おそく",
+          "もっと"
+        ]
+      },
+      {
+        "question": "How do you say 'in a big way / largely (adverb)' in Japanese?",
+        "answer": "おおきく",
+        "options": [
+          "おおきく",
+          "もっと",
+          "ずっと",
+          "〜すぎます"
+        ]
+      },
+      {
+        "question": "How do you say 'in a small way (adverb)' in Japanese?",
+        "answer": "ちいさく",
+        "options": [
+          "ずっと",
+          "ちいさく",
+          "もっと",
+          "〜すぎます"
+        ]
+      },
+      {
+        "question": "How do you say 'beautifully / cleanly (adverb of きれい)' in Japanese?",
+        "answer": "きれいに",
+        "options": [
+          "きれいに",
+          "ずっと",
+          "〜すぎます",
+          "もっと"
+        ]
+      },
+      {
+        "question": "How do you say 'skillfully (adverb of 上手)' in Japanese?",
+        "answer": "じょうずに",
+        "options": [
+          "じょうずに",
+          "もっと",
+          "ずっと",
+          "〜すぎます"
+        ]
+      },
+      {
+        "question": "How do you say 'not as ~ as ~' in Japanese?",
+        "answer": "〜ほど〜ない",
+        "options": [
+          "〜ほど〜ない",
+          "〜すぎます",
+          "ずっと",
+          "もっと"
+        ]
+      },
+      {
+        "question": "How do you say 'not very ~ (with negative)' in Japanese?",
+        "answer": "あまり〜ない",
+        "options": [
+          "〜すぎます",
+          "ずっと",
+          "もっと",
+          "あまり〜ない"
+        ]
+      }
+    ]
+  }
+}

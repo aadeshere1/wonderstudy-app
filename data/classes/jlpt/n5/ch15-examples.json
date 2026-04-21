@@ -1,0 +1,116 @@
+{
+  "id": "ch15-examples",
+  "meta": {
+    "title": "Lesson 15: 少し疲れました — Dialogue & Examples",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "ch15-examples",
+    "subtopic": "I'm a Little Tired",
+    "description": "Practical dialogues and sentences for Lesson 15: I'm a Little Tired",
+    "icon": "😴",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "〜てしまいました — Regret or completion",
+        "back": "〜てしまいました = unfortunately did / ended up doing\n\nかぎをわすれてしまいました。\n= I unfortunately forgot my key.\n\nお金をぜんぶつかってしまいました。\n= I ended up spending all my money.\n\nExpresses regret or that something is completely done (sometimes unwanted)."
+      },
+      {
+        "front": "〜なければなりません — Must / Have to",
+        "back": "〜なければなりません = must do (obligation)\n\nVerb negative stem + なければなりません\n行く → 行かなければなりません\n= must go\n\nShort form (spoken): 〜なきゃ\n行かなきゃ = I gotta go"
+      },
+      {
+        "front": "〜なくてもいいです — Don't have to",
+        "back": "〜なくてもいいです = don't have to do\n\nVerb neg て-form + もいいです\n行かなくてもいいです = don't have to go\n\nCompare:\n〜なければなりません = MUST do\n〜なくてもいいです = DON'T have to"
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 25,
+      "questionsCount": 3
+    },
+    "items": [
+      {
+        "question": "You forgot your umbrella. How do you express this with regret?",
+        "answer": "かさをわすれてしまいました。",
+        "options": [
+          "かさをわすれてしまいました。",
+          "かさをわすれました。",
+          "かさをわすれてください。",
+          "かさをわすれなければなりません。"
+        ],
+        "explanation": "〜てしまいました expresses the regret of forgetting. Plain ました is just stating a fact."
+      },
+      {
+        "question": "You have a headache. How do you say 'I have a headache'?",
+        "answer": "あたまがいたいです。",
+        "options": [
+          "あたまがいたいです。",
+          "はがいたいです。",
+          "ねつがあります。",
+          "つかれました。"
+        ],
+        "explanation": "あたまがいたいです = my head hurts (headache). いたい = painful/hurts."
+      },
+      {
+        "question": "Doctor says you don't have to rest today. How does the doctor say this?",
+        "answer": "きょうはやすまなくてもいいです。",
+        "options": [
+          "きょうはやすまなくてもいいです。",
+          "きょうはやすまなければなりません。",
+          "きょうはやすんでください。",
+          "きょうはやすんではいけません。"
+        ],
+        "explanation": "〜なくてもいいです = don't have to. やすむ → やすまない → やすまなくてもいいです."
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 12,
+      "questionsCount": 3
+    },
+    "items": [
+      {
+        "question": "You forgot your umbrella. How do you express this with regret?",
+        "answer": "かさをわすれてしまいました。",
+        "options": [
+          "かさをわすれてしまいました。",
+          "かさをわすれました。",
+          "かさをわすれてください。",
+          "かさをわすれなければなりません。"
+        ],
+        "explanation": "〜てしまいました expresses the regret of forgetting. Plain ました is just stating a fact."
+      },
+      {
+        "question": "You have a headache. How do you say 'I have a headache'?",
+        "answer": "あたまがいたいです。",
+        "options": [
+          "あたまがいたいです。",
+          "はがいたいです。",
+          "ねつがあります。",
+          "つかれました。"
+        ],
+        "explanation": "あたまがいたいです = my head hurts (headache). いたい = painful/hurts."
+      },
+      {
+        "question": "Doctor says you don't have to rest today. How does the doctor say this?",
+        "answer": "きょうはやすまなくてもいいです。",
+        "options": [
+          "きょうはやすまなくてもいいです。",
+          "きょうはやすまなければなりません。",
+          "きょうはやすんでください。",
+          "きょうはやすんではいけません。"
+        ],
+        "explanation": "〜なくてもいいです = don't have to. やすむ → やすまない → やすまなくてもいいです."
+      }
+    ]
+  }
+}
