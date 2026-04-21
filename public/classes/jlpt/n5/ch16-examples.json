@@ -1,0 +1,116 @@
+{
+  "id": "ch16-examples",
+  "meta": {
+    "title": "Lesson 16: 荷物を送りたいんですが — Dialogue & Examples",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "ch16-examples",
+    "subtopic": "I'd Like to Send Some Luggage",
+    "description": "Practical dialogues and sentences for Lesson 16: I'd Like to Send Some Luggage",
+    "icon": "📦",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "〜たい — Want to do",
+        "back": "Verb stem + たい = want to do ~\n\n食べたい = want to eat\n行きたい = want to go\n見たい = want to see\n\nPolite: 〜たいです\nNegative: 〜たくないです\nPast: 〜たかったです"
+      },
+      {
+        "front": "〜たいと思っています",
+        "back": "〜たい + と思っています = am thinking of ~ing / I'm planning to ~\n\n日本語を勉強したいと思っています。\n= I'm thinking of studying Japanese.\n\nMore tentative than たいです. Often used for future plans."
+      },
+      {
+        "front": "〜んですが — Context giving",
+        "back": "〜んですが = It's that ~ (giving background before a request)\n\n荷物を送りたいんですが...\n= I'd like to send luggage... (so could you help?)\n\nImplies that what follows is a request or question.\nVery natural and polite in Japanese!"
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 25,
+      "questionsCount": 3
+    },
+    "items": [
+      {
+        "question": "At the post office, you want to send a parcel. How do you start?",
+        "answer": "こづつみをおくりたいんですが。",
+        "options": [
+          "こづつみをおくりたいんですが。",
+          "こづつみをおくってください。",
+          "こづつみをおくりますか。",
+          "こづつみをおくりたいから。"
+        ],
+        "explanation": "〜たいんですが = I'd like to ~ (polite request opener). Natural at the post office counter."
+      },
+      {
+        "question": "You want to buy 5 stamps. What do you say?",
+        "answer": "きってを5枚ください。",
+        "options": [
+          "きってを5枚ください。",
+          "きってを5本ください。",
+          "きってを5個ください。",
+          "きってを5冊ください。"
+        ],
+        "explanation": "Stamps are flat → use 枚 (まい). きって (切手) = stamp. 5枚 = ごまい."
+      },
+      {
+        "question": "How long does this package take to arrive?",
+        "answer": "このこづつみはどのくらいでとどきますか。",
+        "options": [
+          "このこづつみはどのくらいでとどきますか。",
+          "このこづつみはどのくらいかかりますか。",
+          "このこづつみはいつにとどきますか。",
+          "All of these are natural"
+        ],
+        "explanation": "All three are natural! どのくらいでとどきますか = how long until it arrives? とどきます = to be delivered."
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 12,
+      "questionsCount": 3
+    },
+    "items": [
+      {
+        "question": "At the post office, you want to send a parcel. How do you start?",
+        "answer": "こづつみをおくりたいんですが。",
+        "options": [
+          "こづつみをおくりたいんですが。",
+          "こづつみをおくってください。",
+          "こづつみをおくりますか。",
+          "こづつみをおくりたいから。"
+        ],
+        "explanation": "〜たいんですが = I'd like to ~ (polite request opener). Natural at the post office counter."
+      },
+      {
+        "question": "You want to buy 5 stamps. What do you say?",
+        "answer": "きってを5枚ください。",
+        "options": [
+          "きってを5枚ください。",
+          "きってを5本ください。",
+          "きってを5個ください。",
+          "きってを5冊ください。"
+        ],
+        "explanation": "Stamps are flat → use 枚 (まい). きって (切手) = stamp. 5枚 = ごまい."
+      },
+      {
+        "question": "How long does this package take to arrive?",
+        "answer": "このこづつみはどのくらいでとどきますか。",
+        "options": [
+          "このこづつみはどのくらいでとどきますか。",
+          "このこづつみはどのくらいかかりますか。",
+          "このこづつみはいつにとどきますか。",
+          "All of these are natural"
+        ],
+        "explanation": "All three are natural! どのくらいでとどきますか = how long until it arrives? とどきます = to be delivered."
+      }
+    ]
+  }
+}

@@ -1,0 +1,352 @@
+{
+  "id": "ch13-vocabulary",
+  "meta": {
+    "title": "Lesson 13: 先週映画を見ました — Vocabulary",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "ch13-vocabulary",
+    "subtopic": "Last Week I Watched a Movie",
+    "description": "Vocabulary for Minna no Nihongo Lesson 13: Last Week I Watched a Movie",
+    "icon": "🎬",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "Time reference: 〜まえに vs 〜あとで",
+        "back": "〜まえに = before ~ (noun/verb dictionary form)\nたべるまえに = before eating\nじゅぎょうのまえに = before class\n\n〜あとで = after ~ (verb た-form/noun)\nたべたあとで = after eating\nじゅぎょうのあとで = after class"
+      },
+      {
+        "front": "Past tense review",
+        "back": "Group 1 (u-verbs): 〜った / 〜んだ / 〜いた\n飲む → 飲んだ\n書く → 書いた\n\nGroup 2 (ru-verbs): 〜た\n食べる → 食べた\n\nPolite past: + です → ました\nたべる → たべました"
+      },
+      {
+        "front": "Past time expressions",
+        "back": "昨日 (きのう) = yesterday\n先週 (せんしゅう) = last week\n先月 (せんげつ) = last month\n去年 (きょねん) = last year\n〜日前 (〜にちまえ) = ~ days ago\n〜週間前 (〜しゅうかんまえ) = ~ weeks ago"
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "vocab",
+    "config": {
+      "answerMode": "mcq",
+      "optionsCount": 4,
+      "timeLimit": 20,
+      "questionsCount": 15
+    },
+    "items": [
+      {
+        "question": "せんしゅう (先週)",
+        "answer": "last week",
+        "options": [
+          "next week",
+          "last week",
+          "yesterday",
+          "this week"
+        ]
+      },
+      {
+        "question": "せんげつ (先月)",
+        "answer": "last month",
+        "options": [
+          "last year",
+          "last month",
+          "this month",
+          "next month"
+        ]
+      },
+      {
+        "question": "きょねん (去年)",
+        "answer": "last year",
+        "options": [
+          "next year",
+          "this year",
+          "last year",
+          "last month"
+        ]
+      },
+      {
+        "question": "〜まえに (〜前に)",
+        "answer": "before ~ / ~ ago",
+        "options": [
+          "during ~",
+          "after ~",
+          "before ~ / ~ ago",
+          "since ~"
+        ]
+      },
+      {
+        "question": "〜あとで (〜後で)",
+        "answer": "after doing ~",
+        "options": [
+          "while ~",
+          "after doing ~",
+          "during ~",
+          "before ~"
+        ]
+      },
+      {
+        "question": "えいが (映画)",
+        "answer": "movie / film",
+        "options": [
+          "drama",
+          "anime",
+          "documentary",
+          "movie / film"
+        ]
+      },
+      {
+        "question": "えんそう (演奏)",
+        "answer": "musical performance",
+        "options": [
+          "drama",
+          "movie",
+          "musical performance",
+          "lecture"
+        ]
+      },
+      {
+        "question": "しゃしん (写真)",
+        "answer": "photo / photograph",
+        "options": [
+          "poster",
+          "picture (drawing)",
+          "movie",
+          "photo / photograph"
+        ]
+      },
+      {
+        "question": "たびをします (旅をします)",
+        "answer": "to travel",
+        "options": [
+          "to rest",
+          "to stay",
+          "to return",
+          "to travel"
+        ]
+      },
+      {
+        "question": "かんこうします (観光します)",
+        "answer": "to sightsee",
+        "options": [
+          "to sightsee",
+          "to travel",
+          "to shop",
+          "to stay"
+        ]
+      },
+      {
+        "question": "おみやげ",
+        "answer": "souvenir",
+        "options": [
+          "souvenir",
+          "letter",
+          "gift",
+          "money"
+        ]
+      },
+      {
+        "question": "かぶき (歌舞伎)",
+        "answer": "Kabuki (traditional Japanese theatre)",
+        "options": [
+          "Kabuki (traditional Japanese theatre)",
+          "Noh",
+          "opera",
+          "ballet"
+        ]
+      },
+      {
+        "question": "びじゅつかん (美術館)",
+        "answer": "art museum",
+        "options": [
+          "movie theater",
+          "library",
+          "art museum",
+          "science museum"
+        ]
+      },
+      {
+        "question": "こうえん (公園)",
+        "answer": "park",
+        "options": [
+          "garden",
+          "museum",
+          "square",
+          "park"
+        ]
+      },
+      {
+        "question": "はくぶつかん (博物館)",
+        "answer": "museum (general)",
+        "options": [
+          "zoo",
+          "art museum",
+          "library",
+          "museum (general)"
+        ]
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "vocab",
+    "config": {
+      "answerMode": "mcq",
+      "optionsCount": 4,
+      "timeLimit": 10,
+      "questionsCount": 15
+    },
+    "items": [
+      {
+        "question": "How do you say 'last week' in Japanese?",
+        "answer": "せんしゅう (先週)",
+        "options": [
+          "〜まえに (〜前に)",
+          "せんしゅう (先週)",
+          "せんげつ (先月)",
+          "きょねん (去年)"
+        ]
+      },
+      {
+        "question": "How do you say 'last month' in Japanese?",
+        "answer": "せんげつ (先月)",
+        "options": [
+          "せんしゅう (先週)",
+          "せんげつ (先月)",
+          "〜まえに (〜前に)",
+          "きょねん (去年)"
+        ]
+      },
+      {
+        "question": "How do you say 'last year' in Japanese?",
+        "answer": "きょねん (去年)",
+        "options": [
+          "〜まえに (〜前に)",
+          "せんげつ (先月)",
+          "きょねん (去年)",
+          "せんしゅう (先週)"
+        ]
+      },
+      {
+        "question": "How do you say 'before ~ / ~ ago' in Japanese?",
+        "answer": "〜まえに (〜前に)",
+        "options": [
+          "〜まえに (〜前に)",
+          "せんげつ (先月)",
+          "せんしゅう (先週)",
+          "きょねん (去年)"
+        ]
+      },
+      {
+        "question": "How do you say 'after doing ~' in Japanese?",
+        "answer": "〜あとで (〜後で)",
+        "options": [
+          "きょねん (去年)",
+          "せんしゅう (先週)",
+          "せんげつ (先月)",
+          "〜あとで (〜後で)"
+        ]
+      },
+      {
+        "question": "How do you say 'movie / film' in Japanese?",
+        "answer": "えいが (映画)",
+        "options": [
+          "きょねん (去年)",
+          "せんしゅう (先週)",
+          "えいが (映画)",
+          "せんげつ (先月)"
+        ]
+      },
+      {
+        "question": "How do you say 'musical performance' in Japanese?",
+        "answer": "えんそう (演奏)",
+        "options": [
+          "せんげつ (先月)",
+          "きょねん (去年)",
+          "えんそう (演奏)",
+          "せんしゅう (先週)"
+        ]
+      },
+      {
+        "question": "How do you say 'photo / photograph' in Japanese?",
+        "answer": "しゃしん (写真)",
+        "options": [
+          "せんげつ (先月)",
+          "しゃしん (写真)",
+          "きょねん (去年)",
+          "せんしゅう (先週)"
+        ]
+      },
+      {
+        "question": "How do you say 'to travel' in Japanese?",
+        "answer": "たびをします (旅をします)",
+        "options": [
+          "きょねん (去年)",
+          "たびをします (旅をします)",
+          "せんげつ (先月)",
+          "せんしゅう (先週)"
+        ]
+      },
+      {
+        "question": "How do you say 'to sightsee' in Japanese?",
+        "answer": "かんこうします (観光します)",
+        "options": [
+          "かんこうします (観光します)",
+          "せんしゅう (先週)",
+          "きょねん (去年)",
+          "せんげつ (先月)"
+        ]
+      },
+      {
+        "question": "How do you say 'souvenir' in Japanese?",
+        "answer": "おみやげ",
+        "options": [
+          "きょねん (去年)",
+          "おみやげ",
+          "せんげつ (先月)",
+          "せんしゅう (先週)"
+        ]
+      },
+      {
+        "question": "How do you say 'Kabuki (traditional Japanese theatre)' in Japanese?",
+        "answer": "かぶき (歌舞伎)",
+        "options": [
+          "かぶき (歌舞伎)",
+          "せんげつ (先月)",
+          "せんしゅう (先週)",
+          "きょねん (去年)"
+        ]
+      },
+      {
+        "question": "How do you say 'art museum' in Japanese?",
+        "answer": "びじゅつかん (美術館)",
+        "options": [
+          "びじゅつかん (美術館)",
+          "きょねん (去年)",
+          "せんげつ (先月)",
+          "せんしゅう (先週)"
+        ]
+      },
+      {
+        "question": "How do you say 'park' in Japanese?",
+        "answer": "こうえん (公園)",
+        "options": [
+          "こうえん (公園)",
+          "せんげつ (先月)",
+          "きょねん (去年)",
+          "せんしゅう (先週)"
+        ]
+      },
+      {
+        "question": "How do you say 'museum (general)' in Japanese?",
+        "answer": "はくぶつかん (博物館)",
+        "options": [
+          "きょねん (去年)",
+          "はくぶつかん (博物館)",
+          "せんしゅう (先週)",
+          "せんげつ (先月)"
+        ]
+      }
+    ]
+  }
+}

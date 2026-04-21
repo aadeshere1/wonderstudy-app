@@ -1,0 +1,334 @@
+{
+  "id": "ch05-grammar",
+  "meta": {
+    "title": "Lesson 5: 誕生日はいつですか — Grammar",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "ch05-grammar",
+    "subtopic": "When Is Your Birthday?",
+    "description": "Grammar patterns for Minna no Nihongo Lesson 5: When Is Your Birthday?",
+    "icon": "🎂",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "Months (〜月)",
+        "back": "1月 = いちがつ (January)\n2月 = にがつ (February)\n3月 = さんがつ (March)\n4月 = しがつ (April)\n5月 = ごがつ (May)\n6月 = ろくがつ (June)\n7月 = しちがつ (July)\n8月 = はちがつ (August)\n9月 = くがつ (September)\n10月 = じゅうがつ (October)\n11月 = じゅういちがつ (November)\n12月 = じゅうにがつ (December)"
+      },
+      {
+        "front": "Tricky dates (1st–10th)",
+        "back": "1日 = ついたち\n2日 = ふつか\n3日 = みっか\n4日 = よっか\n5日 = いつか\n6日 = むいか\n7日 = なのか\n8日 = ようか\n9日 = ここのか\n10日 = とおか\n14日 = じゅうよっか\n20日 = はつか\n24日 = にじゅうよっか"
+      },
+      {
+        "front": "Relative time: days",
+        "back": "おととい = the day before yesterday\nきのう (昨日) = yesterday\nきょう (今日) = today\nあした (明日) = tomorrow\nあさって = the day after tomorrow"
+      },
+      {
+        "front": "Relative time: weeks/months/years",
+        "back": "せんしゅう / こんしゅう / らいしゅう = last/this/next week\nせんげつ / こんげつ / らいげつ = last/this/next month\nきょねん / ことし / らいねん = last/this/next year"
+      },
+      {
+        "front": "Asking about dates",
+        "back": "いつですか。= When is it?\n何月何日ですか。= What is the month and day?\n何曜日ですか。= What day of the week?\n\nExample:\nA: たんじょうびはいつですか。\nB: 4月14日です。(しがつじゅうよっかです)"
+      },
+      {
+        "front": "Days of the week",
+        "back": "月曜日 (げつようび) = Monday\n火曜日 (かようび) = Tuesday\n水曜日 (すいようび) = Wednesday\n木曜日 (もくようび) = Thursday\n金曜日 (きんようび) = Friday\n土曜日 (どようび) = Saturday\n日曜日 (にちようび) = Sunday"
+      },
+      {
+        "front": "Saying the year",
+        "back": "2024年 = にせんにじゅうよねん\n1990年 = せんきゅうひゃくきゅうじゅうねん\n\nJapanese era years (令和/Reiwa):\n令和6年 = れいわろくねん = 2024\n\nGenerally use Western years in conversation."
+      },
+      {
+        "front": "Birthday conversation",
+        "back": "A: たんじょうびはいつですか。\nB: 5月3日です。\nA: そうですか。もうすぐですね！\n\nA: When is your birthday?\nB: May 3rd.\nA: Is that so. It's coming up soon!"
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 25,
+      "questionsCount": 12
+    },
+    "items": [
+      {
+        "question": "たんじょうびは ___ ですか。(When is your birthday?)",
+        "answer": "いつ",
+        "options": [
+          "いつ",
+          "なに",
+          "どこ",
+          "だれ"
+        ],
+        "explanation": "いつ = when? Used to ask about time/dates. (なに = what, どこ = where, だれ = who)"
+      },
+      {
+        "question": "How do you say 'May 3rd'?",
+        "answer": "ごがつみっか",
+        "options": [
+          "ごがつみっか",
+          "ごがつさんにち",
+          "ごがつさんか",
+          "ごがつみか"
+        ],
+        "explanation": "5月 = ごがつ. 3日 = みっか (irregular reading). These special date readings must be memorized!"
+      },
+      {
+        "question": "How do you say 'January 1st'?",
+        "answer": "いちがつついたち",
+        "options": [
+          "いちがつついたち",
+          "いちがつちいたち",
+          "いちがついちにち",
+          "いちがつひとにち"
+        ],
+        "explanation": "1月 = いちがつ. 1日 = ついたち (irregular — must memorize!). Not いちにち."
+      },
+      {
+        "question": "How do you say 'next month'?",
+        "answer": "らいげつ",
+        "options": [
+          "らいげつ",
+          "こんげつ",
+          "せんげつ",
+          "つぎつき"
+        ],
+        "explanation": "来月 (らいげつ) = next month. 今月 (こんげつ) = this month. 先月 (せんげつ) = last month."
+      },
+      {
+        "question": "What day is 20日?",
+        "answer": "はつか",
+        "options": [
+          "はつか",
+          "にじゅうにち",
+          "はっか",
+          "にじゅうか"
+        ],
+        "explanation": "20日 = はつか. Irregular reading — must memorize! 14日 = じゅうよっか, 24日 = にじゅうよっか are also irregular."
+      },
+      {
+        "question": "What is the month for 9月?",
+        "answer": "September",
+        "options": [
+          "September",
+          "July",
+          "October",
+          "August"
+        ],
+        "explanation": "9月 = くがつ = September. Months in order: 1=Jan, 4=Apr, 7=Jul, 9=Sep, 12=Dec."
+      },
+      {
+        "question": "How do you say 'What month and day is it?'",
+        "answer": "なんがつなんにちですか",
+        "options": [
+          "なんがつなんにちですか",
+          "なんじなんぷんですか",
+          "なんようびですか",
+          "いつですか"
+        ],
+        "explanation": "何月何日ですか = What month and day is it? なんがつ = which month, なんにち = which day."
+      },
+      {
+        "question": "きょう is 月曜日. What day is らいしゅうの月曜日?",
+        "answer": "Next Monday",
+        "options": [
+          "Next Monday",
+          "Last Monday",
+          "This Monday",
+          "Yesterday's Monday"
+        ],
+        "explanation": "来週 (らいしゅう) = next week. 来週の月曜日 = next Monday (Monday of next week)."
+      },
+      {
+        "question": "How do you say 'the day after tomorrow'?",
+        "answer": "あさって",
+        "options": [
+          "あさって",
+          "あした",
+          "きのう",
+          "おととい"
+        ],
+        "explanation": "あさって = the day after tomorrow. あした = tomorrow. きのう = yesterday. おととい = the day before yesterday."
+      },
+      {
+        "question": "What is 14日 read as?",
+        "answer": "じゅうよっか",
+        "options": [
+          "じゅうよっか",
+          "じゅうしにち",
+          "じゅうよんにち",
+          "じゅうよにち"
+        ],
+        "explanation": "14日 = じゅうよっか. The よっ (4) part is irregular in dates. Also applies to 24日 = にじゅうよっか."
+      },
+      {
+        "question": "How do you say 'August 8th'?",
+        "answer": "はちがつようか",
+        "options": [
+          "はちがつようか",
+          "はちがつはちにち",
+          "はちがつようにち",
+          "はちがつはちか"
+        ],
+        "explanation": "8月 = はちがつ. 8日 = ようか (irregular). Both 8月 and 8日 have special readings."
+      },
+      {
+        "question": "What year is にせんにじゅうよねん?",
+        "answer": "2024",
+        "options": [
+          "2024",
+          "2014",
+          "2004",
+          "2040"
+        ],
+        "explanation": "2000 = にせん, 2024 = にせんにじゅうよ. に(2) + せん(000) + に(2) + じゅう(10) + よ(4) = 2024."
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 12,
+      "questionsCount": 12
+    },
+    "items": [
+      {
+        "question": "たんじょうびは ___ ですか。(When is your birthday?)",
+        "answer": "いつ",
+        "options": [
+          "いつ",
+          "なに",
+          "どこ",
+          "だれ"
+        ],
+        "explanation": "いつ = when? Used to ask about time/dates. (なに = what, どこ = where, だれ = who)"
+      },
+      {
+        "question": "How do you say 'May 3rd'?",
+        "answer": "ごがつみっか",
+        "options": [
+          "ごがつみっか",
+          "ごがつさんにち",
+          "ごがつさんか",
+          "ごがつみか"
+        ],
+        "explanation": "5月 = ごがつ. 3日 = みっか (irregular reading). These special date readings must be memorized!"
+      },
+      {
+        "question": "How do you say 'January 1st'?",
+        "answer": "いちがつついたち",
+        "options": [
+          "いちがつついたち",
+          "いちがつちいたち",
+          "いちがついちにち",
+          "いちがつひとにち"
+        ],
+        "explanation": "1月 = いちがつ. 1日 = ついたち (irregular — must memorize!). Not いちにち."
+      },
+      {
+        "question": "How do you say 'next month'?",
+        "answer": "らいげつ",
+        "options": [
+          "らいげつ",
+          "こんげつ",
+          "せんげつ",
+          "つぎつき"
+        ],
+        "explanation": "来月 (らいげつ) = next month. 今月 (こんげつ) = this month. 先月 (せんげつ) = last month."
+      },
+      {
+        "question": "What day is 20日?",
+        "answer": "はつか",
+        "options": [
+          "はつか",
+          "にじゅうにち",
+          "はっか",
+          "にじゅうか"
+        ],
+        "explanation": "20日 = はつか. Irregular reading — must memorize! 14日 = じゅうよっか, 24日 = にじゅうよっか are also irregular."
+      },
+      {
+        "question": "What is the month for 9月?",
+        "answer": "September",
+        "options": [
+          "September",
+          "July",
+          "October",
+          "August"
+        ],
+        "explanation": "9月 = くがつ = September. Months in order: 1=Jan, 4=Apr, 7=Jul, 9=Sep, 12=Dec."
+      },
+      {
+        "question": "How do you say 'What month and day is it?'",
+        "answer": "なんがつなんにちですか",
+        "options": [
+          "なんがつなんにちですか",
+          "なんじなんぷんですか",
+          "なんようびですか",
+          "いつですか"
+        ],
+        "explanation": "何月何日ですか = What month and day is it? なんがつ = which month, なんにち = which day."
+      },
+      {
+        "question": "きょう is 月曜日. What day is らいしゅうの月曜日?",
+        "answer": "Next Monday",
+        "options": [
+          "Next Monday",
+          "Last Monday",
+          "This Monday",
+          "Yesterday's Monday"
+        ],
+        "explanation": "来週 (らいしゅう) = next week. 来週の月曜日 = next Monday (Monday of next week)."
+      },
+      {
+        "question": "How do you say 'the day after tomorrow'?",
+        "answer": "あさって",
+        "options": [
+          "あさって",
+          "あした",
+          "きのう",
+          "おととい"
+        ],
+        "explanation": "あさって = the day after tomorrow. あした = tomorrow. きのう = yesterday. おととい = the day before yesterday."
+      },
+      {
+        "question": "What is 14日 read as?",
+        "answer": "じゅうよっか",
+        "options": [
+          "じゅうよっか",
+          "じゅうしにち",
+          "じゅうよんにち",
+          "じゅうよにち"
+        ],
+        "explanation": "14日 = じゅうよっか. The よっ (4) part is irregular in dates. Also applies to 24日 = にじゅうよっか."
+      },
+      {
+        "question": "How do you say 'August 8th'?",
+        "answer": "はちがつようか",
+        "options": [
+          "はちがつようか",
+          "はちがつはちにち",
+          "はちがつようにち",
+          "はちがつはちか"
+        ],
+        "explanation": "8月 = はちがつ. 8日 = ようか (irregular). Both 8月 and 8日 have special readings."
+      },
+      {
+        "question": "What year is にせんにじゅうよねん?",
+        "answer": "2024",
+        "options": [
+          "2024",
+          "2014",
+          "2004",
+          "2040"
+        ],
+        "explanation": "2000 = にせん, 2024 = にせんにじゅうよ. に(2) + せん(000) + に(2) + じゅう(10) + よ(4) = 2024."
+      }
+    ]
+  }
+}

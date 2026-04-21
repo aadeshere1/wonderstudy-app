@@ -1,0 +1,238 @@
+{
+  "id": "ch08-examples",
+  "meta": {
+    "title": "Lesson 8: 町をあるきます — Dialogue & Examples",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "ch08-examples",
+    "subtopic": "Walking Around Town",
+    "description": "Practical dialogues and sentences for Lesson 8: Walking Around Town",
+    "icon": "🚶",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "Asking permission in a cafe",
+        "back": "A: すみません、ここにすわってもいいですか。\nB: はい、どうぞ。\n\nA: Excuse me, may I sit here?\nB: Yes, please go ahead.\n\nOr if no:\nB: すみません、そこはちょっと..."
+      },
+      {
+        "front": "Classroom instructions",
+        "back": "教科書を開けてください。= Please open your textbook.\n〇ページを見てください。= Please look at page X.\nペアで練習してください。= Please practice in pairs.\nわかりましたか。= Did you understand?"
+      },
+      {
+        "front": "Public signs: prohibitions",
+        "back": "はいってはいけません。= No entry.\nさわってはいけません。= Do not touch.\nたばこを吸ってはいけません。= No smoking.\nしゃしんをとってはいけません。= No photography.\nごみをすててはいけません。= No littering."
+      },
+      {
+        "front": "Giving directions (て-form chain)",
+        "back": "まっすぐ行って、\nかどを右に曲がって、\nはしをわたると、\n右手にあります。\n\nGo straight,\nturn right at the corner,\ncross the bridge,\nit's on your right."
+      },
+      {
+        "front": "Requesting repetition",
+        "back": "もう一度言ってください。= Please say it one more time.\nゆっくり話してください。= Please speak slowly.\nもう少し大きい声で。= A little louder please.\nにほんごで言ってください。= Please say it in Japanese."
+      },
+      {
+        "front": "て-form requests chain",
+        "back": "You can chain multiple actions with て-form:\nたって、前に出て、ここに名前を書いてください。\n= Please stand up, come forward, and write your name here.\n\nEach action uses て except the last, which gets ください."
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 25,
+      "questionsCount": 8
+    },
+    "items": [
+      {
+        "question": "A student asks: 日本語で話してもいいですか。What are they asking?",
+        "answer": "May I speak in Japanese?",
+        "options": [
+          "May I speak in Japanese?",
+          "Please speak in Japanese.",
+          "You must not speak in Japanese.",
+          "Let's speak in Japanese."
+        ],
+        "explanation": "〜てもいいですか = May I ~? Permission question. 話す → 話して + もいいですか = may I speak?"
+      },
+      {
+        "question": "There's a 'No Entry' sign. How do you read it in Japanese?",
+        "answer": "はいってはいけません",
+        "options": [
+          "はいってはいけません",
+          "はいってください",
+          "はいってもいいです",
+          "はいってから"
+        ],
+        "explanation": "はいってはいけません = You must not enter. て-form of 入る (はいる) = 入って + はいけません."
+      },
+      {
+        "question": "Your teacher says もう一度言ってください。What do you do?",
+        "answer": "Say it again",
+        "options": [
+          "Say it again",
+          "Stop speaking",
+          "Speak louder",
+          "Sit down"
+        ],
+        "explanation": "もう一度 = one more time. 言ってください = please say. So もう一度言ってください = Please say it one more time."
+      },
+      {
+        "question": "How do you ask 'May I take a photo here?'",
+        "answer": "ここで写真を撮ってもいいですか。",
+        "options": [
+          "ここで写真を撮ってもいいですか。",
+          "ここで写真を撮ってはいけませんか。",
+          "ここで写真を撮ってください。",
+          "ここで写真を撮りましょう。"
+        ],
+        "explanation": "撮る (とる) = to take (photo) → 撮って + もいいですか = May I take?"
+      },
+      {
+        "question": "The light is on and you want someone to turn it off. What do you say?",
+        "answer": "でんきを消してください。",
+        "options": [
+          "でんきを消してください。",
+          "でんきをつけてください。",
+          "でんきをあけてください。",
+          "でんきをしめてください。"
+        ],
+        "explanation": "消します (けします) = turn off/erase. → 消して + ください = Please turn off."
+      },
+      {
+        "question": "To give directions: 'Go straight then turn left at the corner.' Which is correct?",
+        "answer": "まっすぐ行って、かどをひだりに曲がってください。",
+        "options": [
+          "まっすぐ行って、かどをひだりに曲がってください。",
+          "まっすぐ行きます、かどをひだりに曲がります。",
+          "まっすぐ行って、かどにひだりを曲がってください。",
+          "まっすぐ行くから、かどをひだりに曲がってください。"
+        ],
+        "explanation": "Chain directions with て-form: 行って (go) + 曲がってください (please turn). を marks the place you turn at."
+      },
+      {
+        "question": "Which is a correct prohibition sign in Japanese?",
+        "answer": "たばこを吸ってはいけません",
+        "options": [
+          "たばこを吸ってはいけません",
+          "たばこを吸ってください",
+          "たばこを吸ってもいいです",
+          "たばこを吸いましょう"
+        ],
+        "explanation": "〜てはいけません = must not ~. This is the form used for rules and prohibitions."
+      },
+      {
+        "question": "How do you tell someone to open the window?",
+        "answer": "まどを開けてください。",
+        "options": [
+          "まどを開けてください。",
+          "まどを閉めてください。",
+          "まどを開けてもいいです。",
+          "まどを開けてはいけません。"
+        ],
+        "explanation": "開けます (あけます) = to open. → 開けて + ください = Please open."
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 12,
+      "questionsCount": 8
+    },
+    "items": [
+      {
+        "question": "A student asks: 日本語で話してもいいですか。What are they asking?",
+        "answer": "May I speak in Japanese?",
+        "options": [
+          "May I speak in Japanese?",
+          "Please speak in Japanese.",
+          "You must not speak in Japanese.",
+          "Let's speak in Japanese."
+        ],
+        "explanation": "〜てもいいですか = May I ~? Permission question. 話す → 話して + もいいですか = may I speak?"
+      },
+      {
+        "question": "There's a 'No Entry' sign. How do you read it in Japanese?",
+        "answer": "はいってはいけません",
+        "options": [
+          "はいってはいけません",
+          "はいってください",
+          "はいってもいいです",
+          "はいってから"
+        ],
+        "explanation": "はいってはいけません = You must not enter. て-form of 入る (はいる) = 入って + はいけません."
+      },
+      {
+        "question": "Your teacher says もう一度言ってください。What do you do?",
+        "answer": "Say it again",
+        "options": [
+          "Say it again",
+          "Stop speaking",
+          "Speak louder",
+          "Sit down"
+        ],
+        "explanation": "もう一度 = one more time. 言ってください = please say. So もう一度言ってください = Please say it one more time."
+      },
+      {
+        "question": "How do you ask 'May I take a photo here?'",
+        "answer": "ここで写真を撮ってもいいですか。",
+        "options": [
+          "ここで写真を撮ってもいいですか。",
+          "ここで写真を撮ってはいけませんか。",
+          "ここで写真を撮ってください。",
+          "ここで写真を撮りましょう。"
+        ],
+        "explanation": "撮る (とる) = to take (photo) → 撮って + もいいですか = May I take?"
+      },
+      {
+        "question": "The light is on and you want someone to turn it off. What do you say?",
+        "answer": "でんきを消してください。",
+        "options": [
+          "でんきを消してください。",
+          "でんきをつけてください。",
+          "でんきをあけてください。",
+          "でんきをしめてください。"
+        ],
+        "explanation": "消します (けします) = turn off/erase. → 消して + ください = Please turn off."
+      },
+      {
+        "question": "To give directions: 'Go straight then turn left at the corner.' Which is correct?",
+        "answer": "まっすぐ行って、かどをひだりに曲がってください。",
+        "options": [
+          "まっすぐ行って、かどをひだりに曲がってください。",
+          "まっすぐ行きます、かどをひだりに曲がります。",
+          "まっすぐ行って、かどにひだりを曲がってください。",
+          "まっすぐ行くから、かどをひだりに曲がってください。"
+        ],
+        "explanation": "Chain directions with て-form: 行って (go) + 曲がってください (please turn). を marks the place you turn at."
+      },
+      {
+        "question": "Which is a correct prohibition sign in Japanese?",
+        "answer": "たばこを吸ってはいけません",
+        "options": [
+          "たばこを吸ってはいけません",
+          "たばこを吸ってください",
+          "たばこを吸ってもいいです",
+          "たばこを吸いましょう"
+        ],
+        "explanation": "〜てはいけません = must not ~. This is the form used for rules and prohibitions."
+      },
+      {
+        "question": "How do you tell someone to open the window?",
+        "answer": "まどを開けてください。",
+        "options": [
+          "まどを開けてください。",
+          "まどを閉めてください。",
+          "まどを開けてもいいです。",
+          "まどを開けてはいけません。"
+        ],
+        "explanation": "開けます (あけます) = to open. → 開けて + ください = Please open."
+      }
+    ]
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "id": "ch02-examples",
+  "meta": {
+    "title": "Lesson 2: これはなんですか — Dialogue & Examples",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "ch02-examples",
+    "subtopic": "What Is This?",
+    "description": "Practical dialogues and sentences for Lesson 2: What Is This?",
+    "icon": "📦",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "Identifying objects",
+        "back": "A: これはなんですか。\nB: それはじしょです。\n\nA: What is this?\nB: That is a dictionary.\n\nNote: これ (A's side) → それ (B's reference)"
+      },
+      {
+        "front": "Lost & Found conversation",
+        "back": "A: すみません、これはだれのかばんですか。\nB: あ、それはわたしのです。ありがとうございます。\n\nA: Excuse me, whose bag is this?\nB: Ah, that's mine. Thank you."
+      },
+      {
+        "front": "Shopping: What is that?",
+        "back": "A: すみません、あれはなんですか。\nB: あれはてちょうです。\nA: いくらですか。\nB: 500円です。\n\nいくら = how much?"
+      },
+      {
+        "front": "Correcting someone",
+        "back": "A: それはかさですか。\nB: いいえ、そうじゃありません。これはかさじゃありません。てんびんです。\n\nA: Is that an umbrella?\nB: No, that's not right. This isn't an umbrella. It's a scale."
+      },
+      {
+        "front": "Whose is it? — Confirming ownership",
+        "back": "A: このノートはだれのですか。\nB: わたしのです。\nA: そうですか。はい、どうぞ。\nB: ありがとうございます。\n\nどうぞ = here you go / please (offering something)"
+      },
+      {
+        "front": "Key phrases for Lesson 2",
+        "back": "• これはなんですか。= What is this?\n• だれのNですか。= Whose N is it?\n• いくらですか。= How much is it?\n• はい、そうです。= Yes, that's right.\n• いいえ、ちがいます。= No, that's wrong."
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 25,
+      "questionsCount": 8
+    },
+    "items": [
+      {
+        "question": "Someone near you points at something far away. Which word should they use?",
+        "answer": "あれ",
+        "options": [
+          "あれ",
+          "これ",
+          "それ",
+          "どれ"
+        ],
+        "explanation": "あれ = that (far from both speaker and listener). これ = near speaker, それ = near listener."
+      },
+      {
+        "question": "You find an umbrella. How do you ask 'Whose umbrella is this?'",
+        "answer": "これはだれのかさですか。",
+        "options": [
+          "これはだれのかさですか。",
+          "これはなんのかさですか。",
+          "これはどれのかさですか。",
+          "これにだれのかさですか。"
+        ],
+        "explanation": "だれの = whose? + の connects to the noun: だれのかさ = whose umbrella."
+      },
+      {
+        "question": "In a shop you see something far away. How do you ask 'What is that?'",
+        "answer": "あれはなんですか。",
+        "options": [
+          "あれはなんですか。",
+          "これはなんですか。",
+          "それはなんですか。",
+          "どれはなんですか。"
+        ],
+        "explanation": "あれ is used for things far from both you and the shopkeeper."
+      },
+      {
+        "question": "You want to say 'That pen is not mine.' Which is correct?",
+        "answer": "そのボールペンはわたしのじゃありません。",
+        "options": [
+          "そのボールペンはわたしのじゃありません。",
+          "そのボールペンはわたしのです。",
+          "そのボールペンにわたしのじゃありません。",
+          "そのボールペンがわたしじゃありません。"
+        ],
+        "explanation": "NはNじゃありません = N is not N. Using の to show it's 'mine/not mine'."
+      },
+      {
+        "question": "The shopkeeper asks: どれがいいですか。What are they asking?",
+        "answer": "Which one would you like?",
+        "options": [
+          "Which one would you like?",
+          "What is this?",
+          "Whose is it?",
+          "How much is it?"
+        ],
+        "explanation": "どれ = which one? どれがいいですか = Which one is good/do you want?"
+      },
+      {
+        "question": "A: それはテレビですか。B: いいえ、___。(No, it's a computer.)",
+        "answer": "パソコンです",
+        "options": [
+          "パソコンです",
+          "テレビです",
+          "かぎです",
+          "かさです"
+        ],
+        "explanation": "When denying, say いいえ + the correct identity. パソコン = computer/laptop."
+      },
+      {
+        "question": "How do you say 'This is the teacher's dictionary'?",
+        "answer": "これはせんせいのじしょです。",
+        "options": [
+          "これはせんせいのじしょです。",
+          "これはじしょのせんせいです。",
+          "これにせんせいのじしょです。",
+          "これがせんせいじしょのです。"
+        ],
+        "explanation": "Owner + の + Object: せんせいの + じしょ = teacher's dictionary."
+      },
+      {
+        "question": "You want to ask 'Is this a magazine?' How do you ask?",
+        "answer": "これはざっしですか。",
+        "options": [
+          "これはざっしですか。",
+          "これにざっしですか。",
+          "これのざっしですか。",
+          "これがざっしです。"
+        ],
+        "explanation": "これはNですか = Is this N? Simple question pattern with は and か."
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 12,
+      "questionsCount": 8
+    },
+    "items": [
+      {
+        "question": "Someone near you points at something far away. Which word should they use?",
+        "answer": "あれ",
+        "options": [
+          "あれ",
+          "これ",
+          "それ",
+          "どれ"
+        ],
+        "explanation": "あれ = that (far from both speaker and listener). これ = near speaker, それ = near listener."
+      },
+      {
+        "question": "You find an umbrella. How do you ask 'Whose umbrella is this?'",
+        "answer": "これはだれのかさですか。",
+        "options": [
+          "これはだれのかさですか。",
+          "これはなんのかさですか。",
+          "これはどれのかさですか。",
+          "これにだれのかさですか。"
+        ],
+        "explanation": "だれの = whose? + の connects to the noun: だれのかさ = whose umbrella."
+      },
+      {
+        "question": "In a shop you see something far away. How do you ask 'What is that?'",
+        "answer": "あれはなんですか。",
+        "options": [
+          "あれはなんですか。",
+          "これはなんですか。",
+          "それはなんですか。",
+          "どれはなんですか。"
+        ],
+        "explanation": "あれ is used for things far from both you and the shopkeeper."
+      },
+      {
+        "question": "You want to say 'That pen is not mine.' Which is correct?",
+        "answer": "そのボールペンはわたしのじゃありません。",
+        "options": [
+          "そのボールペンはわたしのじゃありません。",
+          "そのボールペンはわたしのです。",
+          "そのボールペンにわたしのじゃありません。",
+          "そのボールペンがわたしじゃありません。"
+        ],
+        "explanation": "NはNじゃありません = N is not N. Using の to show it's 'mine/not mine'."
+      },
+      {
+        "question": "The shopkeeper asks: どれがいいですか。What are they asking?",
+        "answer": "Which one would you like?",
+        "options": [
+          "Which one would you like?",
+          "What is this?",
+          "Whose is it?",
+          "How much is it?"
+        ],
+        "explanation": "どれ = which one? どれがいいですか = Which one is good/do you want?"
+      },
+      {
+        "question": "A: それはテレビですか。B: いいえ、___。(No, it's a computer.)",
+        "answer": "パソコンです",
+        "options": [
+          "パソコンです",
+          "テレビです",
+          "かぎです",
+          "かさです"
+        ],
+        "explanation": "When denying, say いいえ + the correct identity. パソコン = computer/laptop."
+      },
+      {
+        "question": "How do you say 'This is the teacher's dictionary'?",
+        "answer": "これはせんせいのじしょです。",
+        "options": [
+          "これはせんせいのじしょです。",
+          "これはじしょのせんせいです。",
+          "これにせんせいのじしょです。",
+          "これがせんせいじしょのです。"
+        ],
+        "explanation": "Owner + の + Object: せんせいの + じしょ = teacher's dictionary."
+      },
+      {
+        "question": "You want to ask 'Is this a magazine?' How do you ask?",
+        "answer": "これはざっしですか。",
+        "options": [
+          "これはざっしですか。",
+          "これにざっしですか。",
+          "これのざっしですか。",
+          "これがざっしです。"
+        ],
+        "explanation": "これはNですか = Is this N? Simple question pattern with は and か."
+      }
+    ]
+  }
+}

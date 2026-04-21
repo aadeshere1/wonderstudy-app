@@ -1,0 +1,160 @@
+{
+  "id": "ch25-grammar",
+  "meta": {
+    "title": "Lesson 25: お正月はどこへも行きませんでした — Grammar",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "ch25-grammar",
+    "subtopic": "I Didn't Go Anywhere on New Year's",
+    "description": "Grammar patterns for Minna no Nihongo Lesson 25: I Didn't Go Anywhere on New Year's",
+    "icon": "🎍",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "どこへも/なにも/だれも + negative",
+        "back": "Negative universal expressions:\nどこへも行きません = don't go anywhere\nなにも食べません = don't eat anything\nだれにも会いません = don't meet anyone\n\nWith motion verbs: へも\nWith other verbs: も\n\nどこへも行きませんでした。\n= I didn't go anywhere."
+      },
+      {
+        "front": "〜ばよかったです — I wish I had done",
+        "back": "Expressing regret about the past:\n[verb ば-form] + よかったです\n\n行く → 行けばよかったです\n= I wish I had gone.\n\n食べる → 食べればよかったです\n= I wish I had eaten.\n\nUsed to express hindsight regret."
+      },
+      {
+        "front": "〜なければよかったです — I wish I hadn't",
+        "back": "Regret about something you DID do:\n[verb neg. ば-form] + よかったです\n\n食べなければよかったです。\n= I wish I hadn't eaten. (regretting eating)\n\nいいすぎなければよかったです。\n= I wish I hadn't said too much."
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 25,
+      "questionsCount": 5
+    },
+    "items": [
+      {
+        "question": "お正月にどこへ ___ 行きませんでした。(I didn't go anywhere on New Year's.)",
+        "answer": "も",
+        "options": [
+          "も",
+          "か",
+          "が",
+          "は"
+        ],
+        "explanation": "どこへも + negative = not go anywhere. も after direction particle へ for universal negative."
+      },
+      {
+        "question": "もっとはやく起きれ ___ よかったです。(I wish I had woken up earlier.)",
+        "answer": "ば",
+        "options": [
+          "ば",
+          "て",
+          "に",
+          "で"
+        ],
+        "explanation": "〜ばよかったです = I wish I had ~. 起きる → 起きれば = ば-conditional form."
+      },
+      {
+        "question": "あのえいがを見なければ ___ です。(I wish I hadn't watched that movie.)",
+        "answer": "よかった",
+        "options": [
+          "よかった",
+          "いけない",
+          "なりません",
+          "できません"
+        ],
+        "explanation": "〜なければよかったです = I wish I hadn't. 見なければ (hadn't watched) + よかったです = wish I hadn't watched."
+      },
+      {
+        "question": "Japanese New Year 'first shrine visit' is called:",
+        "answer": "はつもうで (初詣)",
+        "options": [
+          "はつもうで (初詣)",
+          "おせちりょうり",
+          "ねんがじょう",
+          "おしょうがつ"
+        ],
+        "explanation": "初詣 (はつもうで) = the first shrine or temple visit of the New Year. An important Japanese tradition."
+      },
+      {
+        "question": "How do you say 'I must send New Year's cards'?",
+        "answer": "ねんがじょうをおくらなければなりません。",
+        "options": [
+          "ねんがじょうをおくらなければなりません。",
+          "ねんがじょうをおくりたいです。",
+          "ねんがじょうをおくらなくてもいいです。",
+          "ねんがじょうをおくってください。"
+        ],
+        "explanation": "〜なければなりません = must do. 送る → 送らない → 送らなければなりません = must send."
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 12,
+      "questionsCount": 5
+    },
+    "items": [
+      {
+        "question": "お正月にどこへ ___ 行きませんでした。(I didn't go anywhere on New Year's.)",
+        "answer": "も",
+        "options": [
+          "も",
+          "か",
+          "が",
+          "は"
+        ],
+        "explanation": "どこへも + negative = not go anywhere. も after direction particle へ for universal negative."
+      },
+      {
+        "question": "もっとはやく起きれ ___ よかったです。(I wish I had woken up earlier.)",
+        "answer": "ば",
+        "options": [
+          "ば",
+          "て",
+          "に",
+          "で"
+        ],
+        "explanation": "〜ばよかったです = I wish I had ~. 起きる → 起きれば = ば-conditional form."
+      },
+      {
+        "question": "あのえいがを見なければ ___ です。(I wish I hadn't watched that movie.)",
+        "answer": "よかった",
+        "options": [
+          "よかった",
+          "いけない",
+          "なりません",
+          "できません"
+        ],
+        "explanation": "〜なければよかったです = I wish I hadn't. 見なければ (hadn't watched) + よかったです = wish I hadn't watched."
+      },
+      {
+        "question": "Japanese New Year 'first shrine visit' is called:",
+        "answer": "はつもうで (初詣)",
+        "options": [
+          "はつもうで (初詣)",
+          "おせちりょうり",
+          "ねんがじょう",
+          "おしょうがつ"
+        ],
+        "explanation": "初詣 (はつもうで) = the first shrine or temple visit of the New Year. An important Japanese tradition."
+      },
+      {
+        "question": "How do you say 'I must send New Year's cards'?",
+        "answer": "ねんがじょうをおくらなければなりません。",
+        "options": [
+          "ねんがじょうをおくらなければなりません。",
+          "ねんがじょうをおくりたいです。",
+          "ねんがじょうをおくらなくてもいいです。",
+          "ねんがじょうをおくってください。"
+        ],
+        "explanation": "〜なければなりません = must do. 送る → 送らない → 送らなければなりません = must send."
+      }
+    ]
+  }
+}

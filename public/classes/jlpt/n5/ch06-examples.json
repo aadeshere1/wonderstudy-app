@@ -1,0 +1,238 @@
+{
+  "id": "ch06-examples",
+  "meta": {
+    "title": "Lesson 6: 富士山に登りましょう — Dialogue & Examples",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "ch06-examples",
+    "subtopic": "Let's Climb Mt. Fuji",
+    "description": "Practical dialogues and sentences for Lesson 6: Let's Climb Mt. Fuji",
+    "icon": "🗻",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "Inviting someone out",
+        "back": "A: 今週の土曜日、映画を見ませんか。\nB: いいですね。何時ですか。\nA: 3時はどうですか。\nB: いいですよ。\n\nA: Won't you watch a movie this Saturday?\nB: Sounds good. What time?\nA: How about 3 o'clock?\nB: That works!"
+      },
+      {
+        "front": "Getting around: transport conversation",
+        "back": "A: 大阪まで何で行きますか。\nB: 新幹線で行きます。\nA: どのくらいかかりますか。\nB: 2時間半くらいです。\n\nA: How are you going to Osaka?\nB: By bullet train.\nA: How long does it take?\nB: About 2.5 hours."
+      },
+      {
+        "front": "Offering help",
+        "back": "A: かばんを持ちましょうか。\nB: ありがとうございます。おねがいします。\n\nA: Shall I carry your bag?\nB: Thank you. Please do.\n\n〜ましょうか is very useful for offering help politely!"
+      },
+      {
+        "front": "Declining politely",
+        "back": "A: 一緒に飲みに行きませんか。\nB: すみません、今日はちょっと...\nA: そうですか。また今度。\nB: はい、ぜひ。\n\nA: Won't you go for drinks?\nB: Sorry, today is a bit...\nA: I see. Another time then.\nB: Yes, definitely!"
+      },
+      {
+        "front": "Route planning",
+        "back": "えきまでバスで行きます。\nえきで電車に乗ります。\n〇〇えきで地下鉄に乗り換えます。\n\nI go to the station by bus.\nI board the train at the station.\nI transfer to the subway at XX station.\n\n乗り換えます (のりかえます) = to transfer"
+      },
+      {
+        "front": "Te-form sequence",
+        "back": "シャワーを浴びてから、朝ごはんを食べます。\n= After showering, I eat breakfast.\n\n朝ごはんを食べてから、歯を磨きます。\n= After eating breakfast, I brush my teeth.\n\nUse て-form + から to connect sequential actions."
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 25,
+      "questionsCount": 8
+    },
+    "items": [
+      {
+        "question": "How do you invite someone to have lunch together?",
+        "answer": "一緒に昼ごはんを食べませんか。",
+        "options": [
+          "一緒に昼ごはんを食べませんか。",
+          "一緒に昼ごはんを食べましょう。",
+          "一緒に昼ごはんを食べますか。",
+          "一緒に昼ごはんが食べませんか。"
+        ],
+        "explanation": "〜ませんか = Won't you ~? (invitation to another person). 〜ましょう is used to accept or suggest together."
+      },
+      {
+        "question": "Someone invites you and you want to accept enthusiastically. What do you say?",
+        "answer": "ぜひ！",
+        "options": [
+          "ぜひ！",
+          "ちょっと...",
+          "また今度。",
+          "すみません。"
+        ],
+        "explanation": "ぜひ = by all means / definitely! The most enthusiastic acceptance."
+      },
+      {
+        "question": "You go to work by subway. How do you say this?",
+        "answer": "ちかてつで会社に行きます。",
+        "options": [
+          "ちかてつで会社に行きます。",
+          "ちかてつに会社で行きます。",
+          "ちかてつを会社に行きます。",
+          "ちかてつが会社に行きます。"
+        ],
+        "explanation": "で marks means (ちかてつで = by subway), に marks destination (会社に = to the company)."
+      },
+      {
+        "question": "What does また今度 mean?",
+        "answer": "Another time / Next time",
+        "options": [
+          "Another time / Next time",
+          "Right away",
+          "Never mind",
+          "Definitely yes"
+        ],
+        "explanation": "また今度 = another time / next time. Used as a polite way to postpone or decline an invitation softly."
+      },
+      {
+        "question": "How do you offer to carry someone's luggage?",
+        "answer": "荷物を持ちましょうか。",
+        "options": [
+          "荷物を持ちましょうか。",
+          "荷物を持ちませんか。",
+          "荷物を持ちますか。",
+          "荷物を持ちましょう。"
+        ],
+        "explanation": "〜ましょうか = Shall I ~? (offering help). 〜ませんか = Won't you ~? (inviting the other person to do something)."
+      },
+      {
+        "question": "After showering, I study. How do you express 'after showering'?",
+        "answer": "シャワーを浴びてから",
+        "options": [
+          "シャワーを浴びてから",
+          "シャワーを浴びてまで",
+          "シャワーを浴びてに",
+          "シャワーを浴びてで"
+        ],
+        "explanation": "〜てから = after doing ~. [verb て-form] + から."
+      },
+      {
+        "question": "Which sentence correctly says 'I go to school by bicycle'?",
+        "answer": "じてんしゃで学校に行きます。",
+        "options": [
+          "じてんしゃで学校に行きます。",
+          "じてんしゃに学校で行きます。",
+          "じてんしゃを学校に行きます。",
+          "じてんしゃが学校に行きます。"
+        ],
+        "explanation": "で = by (means), に = to (destination). Two different particles for two different functions."
+      },
+      {
+        "question": "What is the て-form of 行く (to go)?",
+        "answer": "行って",
+        "options": [
+          "行って",
+          "行いて",
+          "行んで",
+          "行て"
+        ],
+        "explanation": "行く is an exception! Although く→いて normally, 行く becomes 行って (not 行いて). Must memorize!"
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 12,
+      "questionsCount": 8
+    },
+    "items": [
+      {
+        "question": "How do you invite someone to have lunch together?",
+        "answer": "一緒に昼ごはんを食べませんか。",
+        "options": [
+          "一緒に昼ごはんを食べませんか。",
+          "一緒に昼ごはんを食べましょう。",
+          "一緒に昼ごはんを食べますか。",
+          "一緒に昼ごはんが食べませんか。"
+        ],
+        "explanation": "〜ませんか = Won't you ~? (invitation to another person). 〜ましょう is used to accept or suggest together."
+      },
+      {
+        "question": "Someone invites you and you want to accept enthusiastically. What do you say?",
+        "answer": "ぜひ！",
+        "options": [
+          "ぜひ！",
+          "ちょっと...",
+          "また今度。",
+          "すみません。"
+        ],
+        "explanation": "ぜひ = by all means / definitely! The most enthusiastic acceptance."
+      },
+      {
+        "question": "You go to work by subway. How do you say this?",
+        "answer": "ちかてつで会社に行きます。",
+        "options": [
+          "ちかてつで会社に行きます。",
+          "ちかてつに会社で行きます。",
+          "ちかてつを会社に行きます。",
+          "ちかてつが会社に行きます。"
+        ],
+        "explanation": "で marks means (ちかてつで = by subway), に marks destination (会社に = to the company)."
+      },
+      {
+        "question": "What does また今度 mean?",
+        "answer": "Another time / Next time",
+        "options": [
+          "Another time / Next time",
+          "Right away",
+          "Never mind",
+          "Definitely yes"
+        ],
+        "explanation": "また今度 = another time / next time. Used as a polite way to postpone or decline an invitation softly."
+      },
+      {
+        "question": "How do you offer to carry someone's luggage?",
+        "answer": "荷物を持ちましょうか。",
+        "options": [
+          "荷物を持ちましょうか。",
+          "荷物を持ちませんか。",
+          "荷物を持ちますか。",
+          "荷物を持ちましょう。"
+        ],
+        "explanation": "〜ましょうか = Shall I ~? (offering help). 〜ませんか = Won't you ~? (inviting the other person to do something)."
+      },
+      {
+        "question": "After showering, I study. How do you express 'after showering'?",
+        "answer": "シャワーを浴びてから",
+        "options": [
+          "シャワーを浴びてから",
+          "シャワーを浴びてまで",
+          "シャワーを浴びてに",
+          "シャワーを浴びてで"
+        ],
+        "explanation": "〜てから = after doing ~. [verb て-form] + から."
+      },
+      {
+        "question": "Which sentence correctly says 'I go to school by bicycle'?",
+        "answer": "じてんしゃで学校に行きます。",
+        "options": [
+          "じてんしゃで学校に行きます。",
+          "じてんしゃに学校で行きます。",
+          "じてんしゃを学校に行きます。",
+          "じてんしゃが学校に行きます。"
+        ],
+        "explanation": "で = by (means), に = to (destination). Two different particles for two different functions."
+      },
+      {
+        "question": "What is the て-form of 行く (to go)?",
+        "answer": "行って",
+        "options": [
+          "行って",
+          "行いて",
+          "行んで",
+          "行て"
+        ],
+        "explanation": "行く is an exception! Although く→いて normally, 行く becomes 行って (not 行いて). Must memorize!"
+      }
+    ]
+  }
+}

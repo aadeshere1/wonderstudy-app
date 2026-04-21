@@ -1,0 +1,238 @@
+{
+  "id": "ch10-examples",
+  "meta": {
+    "title": "Lesson 10: 富士山より高い山はありますか — Dialogue & Examples",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "ch10-examples",
+    "subtopic": "Comparison",
+    "description": "Practical dialogues and sentences for Lesson 10: Comparison",
+    "icon": "⚖️",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "Comparing cities",
+        "back": "A: 東京と大阪とどちらが大きいですか。\nB: 東京のほうが大きいです。\n\nA: Between Tokyo and Osaka, which is bigger?\nB: Tokyo is bigger.\n\nNote: Both cities named with と, answer uses のほうが."
+      },
+      {
+        "front": "Comparing food preferences",
+        "back": "A: すしとラーメンとどちらがすきですか。\nB: う〜ん、どちらもすきです！\n\nA: Do you prefer sushi or ramen?\nB: Hmm, I like both!\n\nどちらも = both. どちらも〜ません = neither."
+      },
+      {
+        "front": "Superlative: best season",
+        "back": "A: 一年の中でいつがいちばんすきですか。\nB: 秋がいちばんすきです。\nA: どうしてですか。\nB: 紅葉がきれいだからです。\n\nA: Which season do you like best?\nB: I like autumn best.\nA: Why?\nB: Because the autumn leaves are beautiful."
+      },
+      {
+        "front": "Comparing transportation",
+        "back": "A: 電車とバスとどちらが便利ですか。\nB: 電車のほうが便利です。でもバスのほうが安いです。\n\nA: Train or bus — which is more convenient?\nB: The train is more convenient. But the bus is cheaper.\n\n便利 (べんり) = convenient (な-adjective)"
+      },
+      {
+        "front": "な-adjectives in comparison",
+        "back": "な-adjectives work the same in comparisons:\n\nAよりBのほうがにぎやかです。\n= B is more lively than A.\n\nいちばんきれいなまち = the most beautiful city\n\nな-adj + な + N (modifying a noun)\nきれいなみち = beautiful road"
+      },
+      {
+        "front": "Expressing similarity",
+        "back": "A: この2つはおなじですか。\nB: はい、おなじです。 / いいえ、ちがいます。\n\nA: Are these two the same?\nB: Yes, they're the same. / No, they're different.\n\nおなじくらい = about the same (degree)\nほぼおなじ = almost the same"
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 25,
+      "questionsCount": 8
+    },
+    "items": [
+      {
+        "question": "How do you say 'Coffee is more expensive than tea'?",
+        "answer": "コーヒーはおちゃより高いです。",
+        "options": [
+          "コーヒーはおちゃより高いです。",
+          "おちゃはコーヒーより高いです。",
+          "コーヒーのほうがおちゃより高いです。",
+          "コーヒーとおちゃはおなじです。"
+        ],
+        "explanation": "AはBより〜: コーヒーはおちゃより高い = Coffee is more expensive than tea. より comes after the comparison point (tea)."
+      },
+      {
+        "question": "What season is most popular in Japan for tourism?",
+        "answer": "春 (はる) — cherry blossoms!",
+        "options": [
+          "春 (はる) — cherry blossoms!",
+          "夏 (なつ) — summer festivals",
+          "秋 (あき) — autumn leaves",
+          "冬 (ふゆ) — winter sports"
+        ],
+        "explanation": "Spring (春) is iconic for 花見 (はなみ = cherry blossom viewing). Though all seasons are popular, spring tops tourist polls."
+      },
+      {
+        "question": "You prefer summer to winter. Which sentence is correct?",
+        "answer": "冬より夏のほうがすきです。",
+        "options": [
+          "冬より夏のほうがすきです。",
+          "夏より冬のほうがすきです。",
+          "冬のほうが夏よりすきです。",
+          "夏は冬がすきです。"
+        ],
+        "explanation": "A より B のほうがすき = I prefer B to A. So 冬より夏のほうがすき = I prefer summer to winter."
+      },
+      {
+        "question": "Among all fruits, you love strawberries the most. How do you say this?",
+        "answer": "くだもののなかでいちばんいちごがすきです。",
+        "options": [
+          "くだもののなかでいちばんいちごがすきです。",
+          "くだもののなかでいちごよりすきです。",
+          "くだもののいちごはいちばんすきです。",
+          "くだもののなかでいちごのほうがすきです。"
+        ],
+        "explanation": "〜の中でいちばん〜 = the most ~ among ~. いちご (strawberry) + が好き = like strawberries."
+      },
+      {
+        "question": "You're comparing two dictionaries. What question do you ask?",
+        "answer": "このじしょとあのじしょとどちらがいいですか。",
+        "options": [
+          "このじしょとあのじしょとどちらがいいですか。",
+          "このじしょとあのじしょのほうがいいですか。",
+          "このじしょとあのじしょはどれがいいですか。",
+          "このじしょはあのじしょよりいいですか。"
+        ],
+        "explanation": "AとBとどちらが〜 = between A and B, which is more ~? Use どちら for two options."
+      },
+      {
+        "question": "Spring and summer are both nice. How do you express 'both are nice'?",
+        "answer": "春も夏もどちらもいいです。",
+        "options": [
+          "春も夏もどちらもいいです。",
+          "春と夏はいちばんいいです。",
+          "春より夏のほうがいいです。",
+          "春と夏はどちらかいいです。"
+        ],
+        "explanation": "どちらも = both. 春も夏もどちらもいいです = Both spring and summer are nice."
+      },
+      {
+        "question": "How do you say 'Mt. Fuji is the highest mountain in Japan'?",
+        "answer": "富士山は日本でいちばん高い山です。",
+        "options": [
+          "富士山は日本でいちばん高い山です。",
+          "富士山は日本より高い山です。",
+          "富士山は日本のほうが高い山です。",
+          "富士山が日本でいちばんの山です。"
+        ],
+        "explanation": "〜でいちばん〜 = the most ~ in ~. いちばん高い = highest. 日本で = in Japan."
+      },
+      {
+        "question": "What does ちがいます mean?",
+        "answer": "It's different / That's wrong",
+        "options": [
+          "It's different / That's wrong",
+          "It's the same",
+          "It's correct",
+          "It's better"
+        ],
+        "explanation": "ちがいます = it's different / that's wrong. Used to politely deny or correct something. (いいえ、ちがいます = No, that's wrong.)"
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 12,
+      "questionsCount": 8
+    },
+    "items": [
+      {
+        "question": "How do you say 'Coffee is more expensive than tea'?",
+        "answer": "コーヒーはおちゃより高いです。",
+        "options": [
+          "コーヒーはおちゃより高いです。",
+          "おちゃはコーヒーより高いです。",
+          "コーヒーのほうがおちゃより高いです。",
+          "コーヒーとおちゃはおなじです。"
+        ],
+        "explanation": "AはBより〜: コーヒーはおちゃより高い = Coffee is more expensive than tea. より comes after the comparison point (tea)."
+      },
+      {
+        "question": "What season is most popular in Japan for tourism?",
+        "answer": "春 (はる) — cherry blossoms!",
+        "options": [
+          "春 (はる) — cherry blossoms!",
+          "夏 (なつ) — summer festivals",
+          "秋 (あき) — autumn leaves",
+          "冬 (ふゆ) — winter sports"
+        ],
+        "explanation": "Spring (春) is iconic for 花見 (はなみ = cherry blossom viewing). Though all seasons are popular, spring tops tourist polls."
+      },
+      {
+        "question": "You prefer summer to winter. Which sentence is correct?",
+        "answer": "冬より夏のほうがすきです。",
+        "options": [
+          "冬より夏のほうがすきです。",
+          "夏より冬のほうがすきです。",
+          "冬のほうが夏よりすきです。",
+          "夏は冬がすきです。"
+        ],
+        "explanation": "A より B のほうがすき = I prefer B to A. So 冬より夏のほうがすき = I prefer summer to winter."
+      },
+      {
+        "question": "Among all fruits, you love strawberries the most. How do you say this?",
+        "answer": "くだもののなかでいちばんいちごがすきです。",
+        "options": [
+          "くだもののなかでいちばんいちごがすきです。",
+          "くだもののなかでいちごよりすきです。",
+          "くだもののいちごはいちばんすきです。",
+          "くだもののなかでいちごのほうがすきです。"
+        ],
+        "explanation": "〜の中でいちばん〜 = the most ~ among ~. いちご (strawberry) + が好き = like strawberries."
+      },
+      {
+        "question": "You're comparing two dictionaries. What question do you ask?",
+        "answer": "このじしょとあのじしょとどちらがいいですか。",
+        "options": [
+          "このじしょとあのじしょとどちらがいいですか。",
+          "このじしょとあのじしょのほうがいいですか。",
+          "このじしょとあのじしょはどれがいいですか。",
+          "このじしょはあのじしょよりいいですか。"
+        ],
+        "explanation": "AとBとどちらが〜 = between A and B, which is more ~? Use どちら for two options."
+      },
+      {
+        "question": "Spring and summer are both nice. How do you express 'both are nice'?",
+        "answer": "春も夏もどちらもいいです。",
+        "options": [
+          "春も夏もどちらもいいです。",
+          "春と夏はいちばんいいです。",
+          "春より夏のほうがいいです。",
+          "春と夏はどちらかいいです。"
+        ],
+        "explanation": "どちらも = both. 春も夏もどちらもいいです = Both spring and summer are nice."
+      },
+      {
+        "question": "How do you say 'Mt. Fuji is the highest mountain in Japan'?",
+        "answer": "富士山は日本でいちばん高い山です。",
+        "options": [
+          "富士山は日本でいちばん高い山です。",
+          "富士山は日本より高い山です。",
+          "富士山は日本のほうが高い山です。",
+          "富士山が日本でいちばんの山です。"
+        ],
+        "explanation": "〜でいちばん〜 = the most ~ in ~. いちばん高い = highest. 日本で = in Japan."
+      },
+      {
+        "question": "What does ちがいます mean?",
+        "answer": "It's different / That's wrong",
+        "options": [
+          "It's different / That's wrong",
+          "It's the same",
+          "It's correct",
+          "It's better"
+        ],
+        "explanation": "ちがいます = it's different / that's wrong. Used to politely deny or correct something. (いいえ、ちがいます = No, that's wrong.)"
+      }
+    ]
+  }
+}

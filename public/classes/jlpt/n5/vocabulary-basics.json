@@ -1,0 +1,293 @@
+{
+  "id": "jlpt-n5-vocabulary-basics",
+  "meta": {
+    "title": "N5 Vocabulary: Basics",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "JLPT N5",
+    "subtopic": "Greetings, Pronouns, Time Expressions & Essential Phrases",
+    "description": "Master the 30 most essential Japanese words for N5 — greetings, pronouns, and everyday expressions.",
+    "icon": "🌸",
+    "difficulty": "beginner"
+  },
+
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "🇯🇵 Welcome to Japanese N5!",
+        "back": "Japanese uses three writing systems:\n• ひらがな (hiragana) — phonetic syllables for Japanese words\n• カタカナ (katakana) — phonetic syllables for foreign words\n• 漢字 (kanji) — characters borrowed from Chinese\n\nN5 is the beginner level of the JLPT exam.",
+        "hint": "You'll learn all three writing systems as you progress!"
+      },
+      {
+        "front": "こんにちは\n(konnichiwa)",
+        "back": "🌞 Hello / Good afternoon\n\nUsed from around 10 AM to 5 PM.\n\nMore formal: こんにちは (always works)\nCasual: やあ (yaa) or ねえ (nee) among friends\n\nExample:\nA: こんにちは！\nB: こんにちは！お元気ですか？\n    (How are you?)",
+        "hint": "The most universal Japanese greeting!"
+      },
+      {
+        "front": "Japanese Greetings by Time of Day",
+        "back": "☀️ おはようございます — Good morning\n   (ohayou gozaimasu) — formal\n   おはよう (ohayou) — casual\n\n🌞 こんにちは — Hello / Good afternoon\n   (konnichiwa)\n\n🌙 こんばんは — Good evening\n   (konbanwa)\n\n🛌 おやすみなさい — Good night\n   (oyasumi nasai)\n   おやすみ (oyasumi) — casual",
+        "hint": "Match your greeting to the time of day!"
+      },
+      {
+        "front": "ありがとうございます\n(arigatou gozaimasu)",
+        "back": "🙏 Thank you (formal / polite)\n\nCasual: ありがとう (arigatou)\nVery casual: どうも (doumo)\n\nResponding to thanks:\n• どういたしまして (dou itashimashite) — You're welcome\n• いえいえ (ie ie) — Not at all\n\nExample:\n「ありがとうございます！」\n「どういたしまして。」",
+        "hint": "Always use ございます with teachers or strangers."
+      },
+      {
+        "front": "Japanese Pronouns",
+        "back": "👤 First person (I / me):\n• わたし / 私 (watashi) — polite\n• ぼく / 僕 (boku) — casual male\n• あたし (atashi) — casual female\n\n👥 Second person (you):\n• あなた (anata) — polite (avoid overusing)\n\n👨 Third person:\n• かれ / 彼 (kare) — he / boyfriend\n• かのじょ / 彼女 (kanojo) — she / girlfriend\n\nTip: Japanese often omits pronouns when the subject is clear from context!",
+        "hint": "Japanese speakers often drop the subject when it's obvious."
+      },
+      {
+        "front": "Time Words: Today, Tomorrow, Yesterday",
+        "back": "📅 Key time expressions:\n\n• きょう / 今日 (kyou) — today\n• あした / 明日 (ashita) — tomorrow\n• きのう / 昨日 (kinou) — yesterday\n• いま / 今 (ima) — now\n• まいにち / 毎日 (mainichi) — every day\n\nParts of the day:\n• あさ / 朝 (asa) — morning\n• ひる / 昼 (hiru) — noon / daytime\n• よる / 夜 (yoru) — night",
+        "hint": "Memorise きょう, あした, きのう as a trio!"
+      },
+      {
+        "front": "はい & いいえ\n(hai & iie)",
+        "back": "✅ はい (hai) — Yes\n❌ いいえ (iie) — No\n\nPolite ways to decline:\n• いいえ、けっこうです (iie, kekkou desu) — No, thank you\n• ちょっと… (chotto…) — A bit difficult… (softer refusal)\n\nNote: In Japanese culture, direct refusal is often avoided. ちょっと (a little / somewhat) is commonly used to politely say no.",
+        "hint": "いいえ can sound blunt — ちょっと is a softer 'no'."
+      },
+      {
+        "front": "すみません & おねがいします\n(sumimasen & onegaishimasu)",
+        "back": "🙇 すみません (sumimasen)\n• Excuse me (to get attention)\n• I'm sorry (mild apology)\n• Used before asking for help\n\n🙏 おねがいします (onegaishimasu)\n• Please (requesting something)\n• More polite than ください (kudasai)\n\nExample:\nすみません、水をおねがいします。\n(Excuse me, please give me water.)",
+        "hint": "すみません + おねがいします is a perfect polite request combo!"
+      }
+    ]
+  },
+
+  "practice": {
+    "gameType": "vocab",
+    "config": {
+      "answerMode": "mcq",
+      "optionsCount": 4,
+      "timeLimit": 0,
+      "questionsCount": 30
+    },
+    "items": [
+      {
+        "question": "こんにちは (konnichiwa)",
+        "answer": "hello / good afternoon",
+        "options": ["hello / good afternoon", "good morning", "good night", "goodbye"],
+        "hint": "Used during daytime — the most common greeting"
+      },
+      {
+        "question": "おはようございます (ohayou gozaimasu)",
+        "answer": "good morning",
+        "options": ["good morning", "good afternoon", "good evening", "good night"],
+        "hint": "The ございます form is polite — say おはよう with friends"
+      },
+      {
+        "question": "こんばんは (konbanwa)",
+        "answer": "good evening",
+        "options": ["good evening", "good morning", "good night", "hello"],
+        "hint": "Used after sunset"
+      },
+      {
+        "question": "おやすみなさい (oyasumi nasai)",
+        "answer": "good night",
+        "options": ["good night", "good evening", "sweet dreams", "goodbye"],
+        "hint": "Said when going to sleep"
+      },
+      {
+        "question": "さようなら (sayounara)",
+        "answer": "goodbye",
+        "options": ["goodbye", "hello", "see you soon", "nice to meet you"],
+        "hint": "A formal goodbye — implies you may not see them for a while"
+      },
+      {
+        "question": "ありがとうございます (arigatou gozaimasu)",
+        "answer": "thank you",
+        "options": ["thank you", "excuse me", "sorry", "you're welcome"],
+        "hint": "The most polite form of 'thank you'"
+      },
+      {
+        "question": "すみません (sumimasen)",
+        "answer": "excuse me / I'm sorry",
+        "options": ["excuse me / I'm sorry", "thank you", "hello", "goodbye"],
+        "hint": "Use it to get someone's attention or apologise gently"
+      },
+      {
+        "question": "はじめまして (hajimemashite)",
+        "answer": "nice to meet you",
+        "options": ["nice to meet you", "how are you", "goodbye", "thank you"],
+        "hint": "Said when meeting someone for the first time"
+      },
+      {
+        "question": "はい (hai)",
+        "answer": "yes",
+        "options": ["yes", "no", "maybe", "please"],
+        "hint": "Simple affirmative — can also show you are listening"
+      },
+      {
+        "question": "いいえ (iie)",
+        "answer": "no",
+        "options": ["no", "yes", "okay", "not yet"],
+        "hint": "Polite negative — Japanese often avoid saying this directly"
+      },
+      {
+        "question": "おねがいします (onegaishimasu)",
+        "answer": "please",
+        "options": ["please", "thank you", "sorry", "excuse me"],
+        "hint": "Used when requesting something — more polite than ください"
+      },
+      {
+        "question": "どうぞ (douzo)",
+        "answer": "please go ahead / here you are",
+        "options": ["please go ahead / here you are", "thank you", "excuse me", "sorry"],
+        "hint": "Said when offering something or giving someone permission"
+      },
+      {
+        "question": "わかりました (wakarimashita)",
+        "answer": "I understand / I got it",
+        "options": ["I understand / I got it", "I don't know", "I forgot", "I agree"],
+        "hint": "Confirming you have understood something"
+      },
+      {
+        "question": "きょう / 今日 (kyou)",
+        "answer": "today",
+        "options": ["today", "tomorrow", "yesterday", "every day"],
+        "hint": "今 = now + 日 = day"
+      },
+      {
+        "question": "あした / 明日 (ashita)",
+        "answer": "tomorrow",
+        "options": ["tomorrow", "today", "yesterday", "next week"],
+        "hint": "明 (bright) + 日 (day) = the bright next day"
+      },
+      {
+        "question": "きのう / 昨日 (kinou)",
+        "answer": "yesterday",
+        "options": ["yesterday", "today", "tomorrow", "last week"],
+        "hint": "The day that has already passed"
+      },
+      {
+        "question": "いま / 今 (ima)",
+        "answer": "now",
+        "options": ["now", "later", "soon", "before"],
+        "hint": "This very moment"
+      },
+      {
+        "question": "まいにち / 毎日 (mainichi)",
+        "answer": "every day",
+        "options": ["every day", "sometimes", "every week", "always"],
+        "hint": "毎 = every + 日 = day"
+      },
+      {
+        "question": "あさ / 朝 (asa)",
+        "answer": "morning",
+        "options": ["morning", "afternoon", "evening", "night"],
+        "hint": "Start of the day — おはよう is said during this time"
+      },
+      {
+        "question": "ひる / 昼 (hiru)",
+        "answer": "noon / daytime",
+        "options": ["noon / daytime", "morning", "evening", "night"],
+        "hint": "Middle of the day"
+      },
+      {
+        "question": "よる / 夜 (yoru)",
+        "answer": "night",
+        "options": ["night", "morning", "noon", "evening"],
+        "hint": "こんばんは is used at the start of this time"
+      },
+      {
+        "question": "わたし / 私 (watashi)",
+        "answer": "I / me",
+        "options": ["I / me", "you", "he / she", "we"],
+        "hint": "The polite, gender-neutral first-person pronoun"
+      },
+      {
+        "question": "あなた (anata)",
+        "answer": "you",
+        "options": ["you", "I", "they", "we"],
+        "hint": "Polite 'you' — in conversation, names are often used instead"
+      },
+      {
+        "question": "かれ / 彼 (kare)",
+        "answer": "he / him",
+        "options": ["he / him", "she / her", "I", "they"],
+        "hint": "Also means 'boyfriend'"
+      },
+      {
+        "question": "かのじょ / 彼女 (kanojo)",
+        "answer": "she / her",
+        "options": ["she / her", "he / him", "I", "they"],
+        "hint": "Also means 'girlfriend'"
+      },
+      {
+        "question": "わたしたち / 私たち (watashitachi)",
+        "answer": "we / us",
+        "options": ["we / us", "you (plural)", "they", "I"],
+        "hint": "たち is added to make pronouns plural"
+      },
+      {
+        "question": "みなさん (minasan)",
+        "answer": "everyone",
+        "options": ["everyone", "someone", "no one", "many people"],
+        "hint": "Used to address a group: みなさん、おはようございます！"
+      },
+      {
+        "question": "ともだち / 友達 (tomodachi)",
+        "answer": "friend(s)",
+        "options": ["friend", "family", "teacher", "classmate"],
+        "hint": "友 = friendship, 達 = people (plural)"
+      },
+      {
+        "question": "せんせい / 先生 (sensei)",
+        "answer": "teacher",
+        "options": ["teacher", "student", "friend", "parent"],
+        "hint": "Also used for doctors, masters, experts"
+      },
+      {
+        "question": "がくせい / 学生 (gakusei)",
+        "answer": "student",
+        "options": ["student", "teacher", "parent", "friend"],
+        "hint": "学 = study, 生 = life/person"
+      }
+    ]
+  },
+
+  "challenge": {
+    "gameType": "vocab",
+    "config": {
+      "answerMode": "mcq",
+      "optionsCount": 4,
+      "timeLimit": 180,
+      "questionsCount": 999
+    },
+    "items": [
+      { "question": "こんにちは (konnichiwa)", "answer": "hello / good afternoon", "options": ["hello / good afternoon", "good morning", "good night", "goodbye"] },
+      { "question": "おはようございます (ohayou gozaimasu)", "answer": "good morning", "options": ["good morning", "good afternoon", "good evening", "good night"] },
+      { "question": "こんばんは (konbanwa)", "answer": "good evening", "options": ["good evening", "good morning", "good night", "hello"] },
+      { "question": "おやすみなさい (oyasumi nasai)", "answer": "good night", "options": ["good night", "good evening", "sweet dreams", "goodbye"] },
+      { "question": "さようなら (sayounara)", "answer": "goodbye", "options": ["goodbye", "hello", "see you soon", "nice to meet you"] },
+      { "question": "ありがとうございます (arigatou gozaimasu)", "answer": "thank you", "options": ["thank you", "excuse me", "sorry", "you're welcome"] },
+      { "question": "すみません (sumimasen)", "answer": "excuse me / I'm sorry", "options": ["excuse me / I'm sorry", "thank you", "hello", "goodbye"] },
+      { "question": "はじめまして (hajimemashite)", "answer": "nice to meet you", "options": ["nice to meet you", "how are you", "goodbye", "thank you"] },
+      { "question": "はい (hai)", "answer": "yes", "options": ["yes", "no", "maybe", "please"] },
+      { "question": "いいえ (iie)", "answer": "no", "options": ["no", "yes", "okay", "not yet"] },
+      { "question": "おねがいします (onegaishimasu)", "answer": "please", "options": ["please", "thank you", "sorry", "excuse me"] },
+      { "question": "どうぞ (douzo)", "answer": "please go ahead / here you are", "options": ["please go ahead / here you are", "thank you", "excuse me", "sorry"] },
+      { "question": "わかりました (wakarimashita)", "answer": "I understand / I got it", "options": ["I understand / I got it", "I don't know", "I forgot", "I agree"] },
+      { "question": "きょう / 今日 (kyou)", "answer": "today", "options": ["today", "tomorrow", "yesterday", "every day"] },
+      { "question": "あした / 明日 (ashita)", "answer": "tomorrow", "options": ["tomorrow", "today", "yesterday", "next week"] },
+      { "question": "きのう / 昨日 (kinou)", "answer": "yesterday", "options": ["yesterday", "today", "tomorrow", "last week"] },
+      { "question": "いま / 今 (ima)", "answer": "now", "options": ["now", "later", "soon", "before"] },
+      { "question": "まいにち / 毎日 (mainichi)", "answer": "every day", "options": ["every day", "sometimes", "every week", "always"] },
+      { "question": "あさ / 朝 (asa)", "answer": "morning", "options": ["morning", "afternoon", "evening", "night"] },
+      { "question": "よる / 夜 (yoru)", "answer": "night", "options": ["night", "morning", "noon", "evening"] },
+      { "question": "わたし / 私 (watashi)", "answer": "I / me", "options": ["I / me", "you", "he / she", "we"] },
+      { "question": "あなた (anata)", "answer": "you", "options": ["you", "I", "they", "we"] },
+      { "question": "かれ / 彼 (kare)", "answer": "he / him", "options": ["he / him", "she / her", "I", "they"] },
+      { "question": "かのじょ / 彼女 (kanojo)", "answer": "she / her", "options": ["she / her", "he / him", "I", "they"] },
+      { "question": "ともだち / 友達 (tomodachi)", "answer": "friend(s)", "options": ["friend", "family", "teacher", "classmate"] },
+      { "question": "せんせい / 先生 (sensei)", "answer": "teacher", "options": ["teacher", "student", "friend", "parent"] },
+      { "question": "がくせい / 学生 (gakusei)", "answer": "student", "options": ["student", "teacher", "parent", "friend"] },
+      { "question": "みなさん (minasan)", "answer": "everyone", "options": ["everyone", "someone", "no one", "many people"] },
+      { "question": "わたしたち / 私たち (watashitachi)", "answer": "we / us", "options": ["we / us", "you (plural)", "they", "I"] },
+      { "question": "ひる / 昼 (hiru)", "answer": "noon / daytime", "options": ["noon / daytime", "morning", "evening", "night"] }
+    ]
+  }
+}

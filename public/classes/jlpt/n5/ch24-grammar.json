@@ -1,0 +1,160 @@
+{
+  "id": "ch24-grammar",
+  "meta": {
+    "title": "Lesson 24: もっとゆっくり話してください — Grammar",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "ch24-grammar",
+    "subtopic": "Please Speak More Slowly",
+    "description": "Grammar patterns for Minna no Nihongo Lesson 24: Please Speak More Slowly",
+    "icon": "🗣️",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "Adverb forms of adjectives",
+        "back": "い-adjective → adverb: drop い + く\nはやい → はやく (quickly)\nおおきい → おおきく (in a big way)\n\nな-adjective → adverb: drop な + に\nじょうずな → じょうずに (skillfully)\nきれいな → きれいに (beautifully)\n\nThink: -ly in English!"
+      },
+      {
+        "front": "〜すぎます — Too much",
+        "back": "い-adj: drop い + すぎます\nたかすぎます = too expensive\nむずかしすぎます = too difficult\n\nな-adj: drop な + すぎます\nしずかすぎます = too quiet\n\nVerb stem + すぎます:\n食べすぎます = eat too much"
+      },
+      {
+        "front": "Becoming: 〜くなります / 〜になります",
+        "back": "い-adj: drop い + くなります\nさむくなります = becomes cold\nよくなります = gets better\n\nな-adj / Noun: 〜になります\nげんきになります = become well\n医者になります = become a doctor\n\nExpresses a change of state."
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 25,
+      "questionsCount": 5
+    },
+    "items": [
+      {
+        "question": "もっとゆっくり ___ てください。(Please speak more slowly.)",
+        "answer": "話し",
+        "options": [
+          "話し",
+          "はなく",
+          "はなに",
+          "はなが"
+        ],
+        "explanation": "もっと = more. ゆっくり = slowly (already an adverb). 話してください = please speak."
+      },
+      {
+        "question": "このへやはしずか ___ ますか。(This room is too quiet?)",
+        "answer": "すぎ",
+        "options": [
+          "すぎ",
+          "すぎに",
+          "くなり",
+          "になり"
+        ],
+        "explanation": "な-adj + すぎます = too ~. しずか (quiet, な-adj) → しずかすぎます = too quiet."
+      },
+      {
+        "question": "はるになると、あたたかく ___ 。(When it becomes spring, it gets warm.)",
+        "answer": "なります",
+        "options": [
+          "なります",
+          "します",
+          "すぎます",
+          "ください"
+        ],
+        "explanation": "〜くなります = to become ~ (い-adj). あたたかい → あたたかく + なります = becomes warm."
+      },
+      {
+        "question": "The adverb form of きれい is:",
+        "answer": "きれいに",
+        "options": [
+          "きれいに",
+          "きれいく",
+          "きれいで",
+          "きれいの"
+        ],
+        "explanation": "な-adj → adverb: drop な + に. きれいな → きれいに (beautifully/cleanly)."
+      },
+      {
+        "question": "食べ ___ ます。(I eat too much.)",
+        "answer": "すぎ",
+        "options": [
+          "すぎ",
+          "すぎに",
+          "くなり",
+          "になり"
+        ],
+        "explanation": "Verb stem + すぎます = do too much. 食べ (stem of 食べる) + すぎます = eat too much."
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 12,
+      "questionsCount": 5
+    },
+    "items": [
+      {
+        "question": "もっとゆっくり ___ てください。(Please speak more slowly.)",
+        "answer": "話し",
+        "options": [
+          "話し",
+          "はなく",
+          "はなに",
+          "はなが"
+        ],
+        "explanation": "もっと = more. ゆっくり = slowly (already an adverb). 話してください = please speak."
+      },
+      {
+        "question": "このへやはしずか ___ ますか。(This room is too quiet?)",
+        "answer": "すぎ",
+        "options": [
+          "すぎ",
+          "すぎに",
+          "くなり",
+          "になり"
+        ],
+        "explanation": "な-adj + すぎます = too ~. しずか (quiet, な-adj) → しずかすぎます = too quiet."
+      },
+      {
+        "question": "はるになると、あたたかく ___ 。(When it becomes spring, it gets warm.)",
+        "answer": "なります",
+        "options": [
+          "なります",
+          "します",
+          "すぎます",
+          "ください"
+        ],
+        "explanation": "〜くなります = to become ~ (い-adj). あたたかい → あたたかく + なります = becomes warm."
+      },
+      {
+        "question": "The adverb form of きれい is:",
+        "answer": "きれいに",
+        "options": [
+          "きれいに",
+          "きれいく",
+          "きれいで",
+          "きれいの"
+        ],
+        "explanation": "な-adj → adverb: drop な + に. きれいな → きれいに (beautifully/cleanly)."
+      },
+      {
+        "question": "食べ ___ ます。(I eat too much.)",
+        "answer": "すぎ",
+        "options": [
+          "すぎ",
+          "すぎに",
+          "くなり",
+          "になり"
+        ],
+        "explanation": "Verb stem + すぎます = do too much. 食べ (stem of 食べる) + すぎます = eat too much."
+      }
+    ]
+  }
+}

@@ -1,0 +1,312 @@
+{
+  "id": "ch04-grammar",
+  "meta": {
+    "title": "Lesson 4: 毎日何時に起きますか — Grammar",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "ch04-grammar",
+    "subtopic": "What Time Do You Get Up?",
+    "description": "Grammar patterns for Minna no Nihongo Lesson 4: What Time Do You Get Up?",
+    "icon": "⏰",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "Telling time: 〜じ〜ふん",
+        "back": "〜時 (じ) = o'clock\n〜分 (ふん/ぷん) = minutes\n\n3:00 = さんじ\n3:30 = さんじはん (half past 3)\n3:15 = さんじじゅうごふん\n\nごぜん = AM, ごご = PM"
+      },
+      {
+        "front": "Tricky minute readings",
+        "back": "1分 = いっぷん\n3分 = さんぷん\n4分 = よんぷん\n6分 = ろっぷん\n8分 = はっぷん\n10分 = じゅっぷん\n\nRule: ふん changes to ぷん after certain numbers!"
+      },
+      {
+        "front": "Daily activity verbs",
+        "back": "起きます (おきます) = wake up\n寝ます (ねます) = sleep\n食べます (たべます) = eat\n飲みます (のみます) = drink\n働きます (はたらきます) = work\n休みます (やすみます) = rest"
+      },
+      {
+        "front": "Study verbs",
+        "back": "勉強します (べんきょうします) = study\n見ます (みます) = watch / see\n聞きます (ききます) = listen / hear\n読みます (よみます) = read\n書きます (かきます) = write"
+      },
+      {
+        "front": "Time particles",
+        "back": "〜に = at (specific time)\n毎朝7時に起きます。= I wake up at 7 every morning.\n\nから = from\nまで = until\n9時から5時まで = from 9 to 5\n\nごろ = around\n7時ごろ = around 7 o'clock"
+      },
+      {
+        "front": "まいにち / まいあさ / まいばん",
+        "back": "毎日 (まいにち) = every day\n毎朝 (まいあさ) = every morning\n毎晩 (まいばん) = every evening\n毎週 (まいしゅう) = every week\n\nNote: These words do NOT use the に particle!"
+      },
+      {
+        "front": "はん = half past",
+        "back": "〜時はん = half past ~\n3時半 = さんじはん = 3:30\n\nCompare:\n3時15分 = さんじじゅうごふん (3:15)\n3時30分 = さんじさんじっぷん = さんじはん (3:30)\n3時45分 = さんじよんじゅうごふん (3:45)"
+      },
+      {
+        "front": "Asking what time",
+        "back": "何時ですか。= What time is it?\n何時に〜しますか。= At what time do you ~?\n\nA: 何時に起きますか。\nB: 7時に起きます。\n\nA: What time do you wake up?\nB: I wake up at 7."
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 25,
+      "questionsCount": 11
+    },
+    "items": [
+      {
+        "question": "毎朝7時 ___ 起きます。(I wake up at 7 every morning.)",
+        "answer": "に",
+        "options": [
+          "に",
+          "で",
+          "は",
+          "を"
+        ],
+        "explanation": "に marks specific time points. 7時に = at 7 o'clock. Note: まいあさ does not take に, but the clock time does."
+      },
+      {
+        "question": "9時 ___ 5時まで働きます。(I work from 9 to 5.)",
+        "answer": "から",
+        "options": [
+          "から",
+          "まで",
+          "に",
+          "で"
+        ],
+        "explanation": "から = from. まで = until/to. 9時から5時まで = from 9 o'clock to 5 o'clock."
+      },
+      {
+        "question": "3:30 in Japanese is:",
+        "answer": "さんじはん",
+        "options": [
+          "さんじはん",
+          "さんじさんじゅっぷん",
+          "さんじごふん",
+          "さんじよんじゅうごふん"
+        ],
+        "explanation": "はん = half. 3時半 (さんじはん) = 3:30. You can also say さんじさんじゅっぷん."
+      },
+      {
+        "question": "毎日 ___ テレビを見ます。Does 毎日 need a particle?",
+        "answer": "No particle needed after 毎日",
+        "options": [
+          "No particle needed after 毎日",
+          "に after 毎日",
+          "で after 毎日",
+          "を after 毎日"
+        ],
+        "explanation": "Time words like 毎日、毎朝、毎晩 do NOT take the に particle. Just use them directly before the verb."
+      },
+      {
+        "question": "7時 ___ 起きます。(I wake up around 7.)",
+        "answer": "ごろに",
+        "options": [
+          "ごろに",
+          "ごろ",
+          "ごろで",
+          "にごろ"
+        ],
+        "explanation": "ごろ = around/approximately. 7時ごろに = around 7 o'clock. ごろ comes AFTER the time, に comes after ごろ."
+      },
+      {
+        "question": "What time is ごぜん11じ?",
+        "answer": "11 AM",
+        "options": [
+          "11 AM",
+          "11 PM",
+          "23:00",
+          "1 AM"
+        ],
+        "explanation": "ごぜん = AM (morning). ごご = PM (afternoon). ごぜん11じ = 11 o'clock in the morning."
+      },
+      {
+        "question": "How do you say '1 minute' in Japanese?",
+        "answer": "いっぷん",
+        "options": [
+          "いっぷん",
+          "いちふん",
+          "いちぷん",
+          "いっふん"
+        ],
+        "explanation": "1分 = いっぷん. Special reading! 1/3/6/8/10 change ふん to ぷん (いっぷん、さんぷん、ろっぷん、はっぷん、じゅっぷん)."
+      },
+      {
+        "question": "A: 何時間べんきょうしますか。B: ___じかんです。(3 hours)",
+        "answer": "さん",
+        "options": [
+          "さん",
+          "み",
+          "みっ",
+          "みつ"
+        ],
+        "explanation": "Hours: 何時間 = how many hours. さんじかん = 3 hours. (1時間=いちじかん, 2時間=にじかん, 3時間=さんじかん)"
+      },
+      {
+        "question": "シュミットさんは ___ 働きますか。(When does Schmidt-san work?)",
+        "answer": "なんじから なんじまで",
+        "options": [
+          "なんじから なんじまで",
+          "なんじに",
+          "どこで",
+          "なんじごろ"
+        ],
+        "explanation": "To ask 'from what time to what time', use なんじから なんじまで."
+      },
+      {
+        "question": "毎晩 ___ 寝ますか。(What time do you go to bed every night?)",
+        "answer": "何時に",
+        "options": [
+          "何時に",
+          "何時から",
+          "何時まで",
+          "何時ごろ"
+        ],
+        "explanation": "Asking for a specific time uses なんじに. Answer: 11時に寝ます (I sleep at 11)."
+      },
+      {
+        "question": "6:00 in Japanese:",
+        "answer": "ろくじ",
+        "options": [
+          "ろくじ",
+          "むじ",
+          "むっつじ",
+          "ろっじ"
+        ],
+        "explanation": "6:00 = ろくじ. Numbers for hours: 1=いち, 2=に, 3=さん, 4=よ, 5=ご, 6=ろく, 7=しち, 8=はち, 9=く, 10=じゅう, 11=じゅういち, 12=じゅうに."
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 12,
+      "questionsCount": 11
+    },
+    "items": [
+      {
+        "question": "毎朝7時 ___ 起きます。(I wake up at 7 every morning.)",
+        "answer": "に",
+        "options": [
+          "に",
+          "で",
+          "は",
+          "を"
+        ],
+        "explanation": "に marks specific time points. 7時に = at 7 o'clock. Note: まいあさ does not take に, but the clock time does."
+      },
+      {
+        "question": "9時 ___ 5時まで働きます。(I work from 9 to 5.)",
+        "answer": "から",
+        "options": [
+          "から",
+          "まで",
+          "に",
+          "で"
+        ],
+        "explanation": "から = from. まで = until/to. 9時から5時まで = from 9 o'clock to 5 o'clock."
+      },
+      {
+        "question": "3:30 in Japanese is:",
+        "answer": "さんじはん",
+        "options": [
+          "さんじはん",
+          "さんじさんじゅっぷん",
+          "さんじごふん",
+          "さんじよんじゅうごふん"
+        ],
+        "explanation": "はん = half. 3時半 (さんじはん) = 3:30. You can also say さんじさんじゅっぷん."
+      },
+      {
+        "question": "毎日 ___ テレビを見ます。Does 毎日 need a particle?",
+        "answer": "No particle needed after 毎日",
+        "options": [
+          "No particle needed after 毎日",
+          "に after 毎日",
+          "で after 毎日",
+          "を after 毎日"
+        ],
+        "explanation": "Time words like 毎日、毎朝、毎晩 do NOT take the に particle. Just use them directly before the verb."
+      },
+      {
+        "question": "7時 ___ 起きます。(I wake up around 7.)",
+        "answer": "ごろに",
+        "options": [
+          "ごろに",
+          "ごろ",
+          "ごろで",
+          "にごろ"
+        ],
+        "explanation": "ごろ = around/approximately. 7時ごろに = around 7 o'clock. ごろ comes AFTER the time, に comes after ごろ."
+      },
+      {
+        "question": "What time is ごぜん11じ?",
+        "answer": "11 AM",
+        "options": [
+          "11 AM",
+          "11 PM",
+          "23:00",
+          "1 AM"
+        ],
+        "explanation": "ごぜん = AM (morning). ごご = PM (afternoon). ごぜん11じ = 11 o'clock in the morning."
+      },
+      {
+        "question": "How do you say '1 minute' in Japanese?",
+        "answer": "いっぷん",
+        "options": [
+          "いっぷん",
+          "いちふん",
+          "いちぷん",
+          "いっふん"
+        ],
+        "explanation": "1分 = いっぷん. Special reading! 1/3/6/8/10 change ふん to ぷん (いっぷん、さんぷん、ろっぷん、はっぷん、じゅっぷん)."
+      },
+      {
+        "question": "A: 何時間べんきょうしますか。B: ___じかんです。(3 hours)",
+        "answer": "さん",
+        "options": [
+          "さん",
+          "み",
+          "みっ",
+          "みつ"
+        ],
+        "explanation": "Hours: 何時間 = how many hours. さんじかん = 3 hours. (1時間=いちじかん, 2時間=にじかん, 3時間=さんじかん)"
+      },
+      {
+        "question": "シュミットさんは ___ 働きますか。(When does Schmidt-san work?)",
+        "answer": "なんじから なんじまで",
+        "options": [
+          "なんじから なんじまで",
+          "なんじに",
+          "どこで",
+          "なんじごろ"
+        ],
+        "explanation": "To ask 'from what time to what time', use なんじから なんじまで."
+      },
+      {
+        "question": "毎晩 ___ 寝ますか。(What time do you go to bed every night?)",
+        "answer": "何時に",
+        "options": [
+          "何時に",
+          "何時から",
+          "何時まで",
+          "何時ごろ"
+        ],
+        "explanation": "Asking for a specific time uses なんじに. Answer: 11時に寝ます (I sleep at 11)."
+      },
+      {
+        "question": "6:00 in Japanese:",
+        "answer": "ろくじ",
+        "options": [
+          "ろくじ",
+          "むじ",
+          "むっつじ",
+          "ろっじ"
+        ],
+        "explanation": "6:00 = ろくじ. Numbers for hours: 1=いち, 2=に, 3=さん, 4=よ, 5=ご, 6=ろく, 7=しち, 8=はち, 9=く, 10=じゅう, 11=じゅういち, 12=じゅうに."
+      }
+    ]
+  }
+}

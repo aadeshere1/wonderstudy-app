@@ -1,0 +1,310 @@
+{
+  "id": "grammar-n5",
+  "meta": {
+    "title": "JLPT N5 Grammar",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "grammar-n5",
+    "subtopic": "N5 Grammar Patterns",
+    "description": "Master essential N5 grammar patterns — particles, verb forms, sentence structure, and common expressions.",
+    "icon": "📝",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "Particles は and が",
+        "back": "は (wa) marks the topic: 私は学生です。(I am a student.)\nが (ga) marks the subject: 猫がいます。(There is a cat.)\nTip: は sets the topic; が emphasizes the subject."
+      },
+      {
+        "front": "Particle を (o)",
+        "back": "を marks the direct object of an action.\n水を飲みます。= I drink water.\nテレビを見ます。= I watch TV.\nを always comes after the noun being acted upon."
+      },
+      {
+        "front": "Particle に (ni)",
+        "back": "に has several uses:\n1. Direction: 学校に行きます。(I go to school.)\n2. Time: 三時に起きます。(I wake up at 3 o'clock.)\n3. Location of existence: 公園にいます。(I am in the park.)"
+      },
+      {
+        "front": "Particle で (de)",
+        "back": "で has two main uses:\n1. Location of action: 学校で勉強します。(I study at school.)\n2. Means/method: バスで行きます。(I go by bus.)\nNote: で = action location; に = existence location."
+      },
+      {
+        "front": "です and ます forms",
+        "back": "です makes nouns/adjectives polite:\n学生です。= (I) am a student.\nます makes verbs polite:\n食べます = eat  /  飲みます = drink\nNegative: ません  /  Past: ました  /  Neg. Past: ませんでした"
+      },
+      {
+        "front": "ある vs いる — Existence",
+        "back": "あります = there is (non-living things)\n本があります。= There is a book.\nいます = there is (living things)\n猫がいます。= There is a cat.\n先生がいます。= There is a teacher."
+      },
+      {
+        "front": "Question words (疑問詞)",
+        "back": "何 (なに/なん) = what\nどこ = where\nだれ / どなた = who (formal)\nいつ = when\nどう = how\nなぜ / どうして = why\nいくら = how much  /  いくつ = how many"
+      },
+      {
+        "front": "Adjective types: い vs な",
+        "back": "い-adjectives end in い: 大きい (big), 小さい (small)\nNegative: 大きくない (not big)\nPast: 大きかった (was big)\n\nな-adjectives use な before nouns: きれいな花 (pretty flower)\nNegative: きれいじゃない\nPast: きれいだった"
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 25,
+      "questionsCount": 20
+    },
+    "items": [
+      {
+        "question": "私 ___ 学生です。(I am a student.)\nWhich particle fills the blank?",
+        "answer": "は",
+        "options": ["は", "が", "を", "に"],
+        "explanation": "は (wa) marks the topic of the sentence. 私は = 'as for me' / 'I (topic)'."
+      },
+      {
+        "question": "水 ___ 飲みます。(I drink water.)\nWhich particle fills the blank?",
+        "answer": "を",
+        "options": ["を", "は", "に", "で"],
+        "explanation": "を marks the direct object. 水を飲みます = I drink water."
+      },
+      {
+        "question": "学校 ___ 行きます。(I go to school.)\nWhich particle fills the blank?",
+        "answer": "に",
+        "options": ["に", "で", "を", "は"],
+        "explanation": "に marks direction/destination. 学校に行きます = I go to school."
+      },
+      {
+        "question": "図書館 ___ 勉強します。(I study at the library.)\nWhich particle fills the blank?",
+        "answer": "で",
+        "options": ["で", "に", "は", "を"],
+        "explanation": "で marks the location of an action. 図書館で = at the library (while doing something)."
+      },
+      {
+        "question": "テーブルの上に本 ___ あります。(There is a book on the table.)\nWhich particle fills the blank?",
+        "answer": "が",
+        "options": ["が", "は", "を", "で"],
+        "explanation": "が marks the subject in existence sentences with あります/います."
+      },
+      {
+        "question": "公園に猫 ___ います。(There is a cat in the park.)\nWhich particle fills the blank?",
+        "answer": "が",
+        "options": ["が", "は", "を", "に"],
+        "explanation": "が marks the subject with います. Cats are living, so います is used."
+      },
+      {
+        "question": "Which word do you use to say there is a (non-living) thing?",
+        "answer": "あります",
+        "options": ["あります", "います", "です", "ます"],
+        "explanation": "あります is used for non-living things: 本があります (there is a book), 椅子があります (there is a chair)."
+      },
+      {
+        "question": "Which word do you use to say there is a (living) being?",
+        "answer": "います",
+        "options": ["います", "あります", "です", "いきます"],
+        "explanation": "います is used for living things: 犬がいます (there is a dog), 先生がいます (the teacher is here)."
+      },
+      {
+        "question": "三時 ___ 起きます。(I wake up at 3 o'clock.)\nWhich particle fills the blank?",
+        "answer": "に",
+        "options": ["に", "で", "は", "を"],
+        "explanation": "に marks specific points in time. 三時に = at 3 o'clock."
+      },
+      {
+        "question": "バス ___ 行きます。(I go by bus.)\nWhich particle fills the blank?",
+        "answer": "で",
+        "options": ["で", "に", "を", "が"],
+        "explanation": "で marks the means or method of doing something. バスで = by bus."
+      },
+      {
+        "question": "これは ___ ですか？(What is this?)\nWhich question word fills the blank?",
+        "answer": "なん",
+        "options": ["なん", "どこ", "だれ", "いつ"],
+        "explanation": "なん/なに means 'what'. これはなんですか = What is this?"
+      },
+      {
+        "question": "トイレは ___ ですか？(Where is the restroom?)\nWhich question word fills the blank?",
+        "answer": "どこ",
+        "options": ["どこ", "なに", "だれ", "いつ"],
+        "explanation": "どこ means 'where'. トイレはどこですか = Where is the restroom?"
+      },
+      {
+        "question": "あれは ___ の本ですか？(Whose book is that?)\nWhich question word fills the blank?",
+        "answer": "だれ",
+        "options": ["だれ", "なに", "どこ", "いつ"],
+        "explanation": "だれ means 'who'. だれの = whose."
+      },
+      {
+        "question": "これはいくら ___？(How much is this?)\nHow do you complete this politely?",
+        "answer": "ですか",
+        "options": ["ですか", "ますか", "でした", "ません"],
+        "explanation": "いくらですか = How much is it? です makes the sentence polite, か makes it a question."
+      },
+      {
+        "question": "大きい — What is the negative form?",
+        "answer": "大きくない",
+        "options": ["大きくない", "大きじゃない", "大きない", "大きくじゃない"],
+        "explanation": "い-adjectives: drop い, add くない for negative. 大きい → 大きくない (not big)."
+      },
+      {
+        "question": "きれいな — This is what type of adjective?",
+        "answer": "な-adjective",
+        "options": ["な-adjective", "い-adjective", "verb", "noun"],
+        "explanation": "きれい (pretty/clean) is a な-adjective. It uses な before nouns: きれいな花 (pretty flower)."
+      },
+      {
+        "question": "食べます → negative form is?",
+        "answer": "食べません",
+        "options": ["食べません", "食べないます", "食べくない", "食べじゃない"],
+        "explanation": "Verb negative: replace ます with ません. 食べます (eat) → 食べません (don't eat)."
+      },
+      {
+        "question": "飲みます → past tense is?",
+        "answer": "飲みました",
+        "options": ["飲みました", "飲みます", "飲みでした", "飲みた"],
+        "explanation": "Verb past tense: replace ます with ました. 飲みます (drink) → 飲みました (drank)."
+      },
+      {
+        "question": "Which sentence is correct for 'I eat breakfast at home'?",
+        "answer": "うちで朝ごはんを食べます。",
+        "options": ["うちで朝ごはんを食べます。", "うちに朝ごはんを食べます。", "うちを朝ごはんで食べます。", "うちが朝ごはんは食べます。"],
+        "explanation": "で marks action location (うちで = at home), を marks the object (朝ごはんを = breakfast)."
+      },
+      {
+        "question": "の is used to show possession. Which is correct for 'Tanaka's book'?",
+        "answer": "田中さんの本",
+        "options": ["田中さんの本", "田中さんは本", "田中さんを本", "田中さんに本"],
+        "explanation": "の shows possession/relationship: 田中さんの本 = Tanaka's book. Similar to 's in English."
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 15,
+      "questionsCount": 20
+    },
+    "items": [
+      {
+        "question": "私はりんご___ 好きです。(I like apples.)\nWhich particle?",
+        "answer": "が",
+        "options": ["が", "を", "は", "に"],
+        "explanation": "好き (like) takes が for what is liked: りんごが好きです = I like apples."
+      },
+      {
+        "question": "日本語 ___ 話せますか？(Can you speak Japanese?)\nWhich particle?",
+        "answer": "が",
+        "options": ["が", "を", "は", "で"],
+        "explanation": "Potential verbs (～できます/～られます) often take が for the object: 日本語が話せます."
+      },
+      {
+        "question": "明日、友達 ___ 会います。(Tomorrow I'll meet a friend.)\nWhich particle?",
+        "answer": "に",
+        "options": ["に", "を", "で", "と"],
+        "explanation": "会います (meet) takes に: 友達に会います = meet a friend."
+      },
+      {
+        "question": "電車 ___ 大学まで行きます。(I go to university by train.)\nWhich particle?",
+        "answer": "で",
+        "options": ["で", "に", "を", "が"],
+        "explanation": "で marks the means of transport: 電車で = by train."
+      },
+      {
+        "question": "今日は学校 ___ 休みです。(Today school is a holiday.)\nWhich particle makes this correct?",
+        "answer": "は",
+        "options": ["は", "が", "を", "で"],
+        "explanation": "学校は休みです marks 学校 as the topic — as for school, it's a holiday."
+      },
+      {
+        "question": "お母さん ___ どこにいますか？(Where is your mother?)\nWhich particle?",
+        "answer": "は",
+        "options": ["は", "が", "を", "に"],
+        "explanation": "は marks the topic: お母さんは = as for your mother... / where is she?"
+      },
+      {
+        "question": "この映画はとても ___ です。(This movie is very interesting.)\nWhich word fits?",
+        "answer": "おもしろい",
+        "options": ["おもしろい", "おもしろな", "おもしろく", "おもしろ"],
+        "explanation": "おもしろい is an い-adjective and keeps its い before です: おもしろいです = is interesting."
+      },
+      {
+        "question": "昨日、映画を ___ 。(Yesterday I watched a movie.)\nCorrect past form?",
+        "answer": "見ました",
+        "options": ["見ました", "見ます", "見ません", "見た"],
+        "explanation": "Past polite form: 見ます → 見ました. 昨日 (yesterday) signals past tense."
+      },
+      {
+        "question": "子供のとき、よく公園 ___ 遊びました。(As a child, I often played in the park.)\nWhich particle?",
+        "answer": "で",
+        "options": ["で", "に", "を", "は"],
+        "explanation": "で marks where an action takes place: 公園で遊ぶ = play in the park."
+      },
+      {
+        "question": "コーヒー ___ 紅茶、どちらが好きですか？(Do you prefer coffee or tea?)\nWhich word fills the blank?",
+        "answer": "と",
+        "options": ["と", "か", "や", "も"],
+        "explanation": "と lists items exhaustively: コーヒーと紅茶 = coffee and tea (and only those two)."
+      },
+      {
+        "question": "私 ___ 弟がいます。(I have a younger brother.)\nWhich particle shows possession here?",
+        "answer": "には",
+        "options": ["には", "のが", "はの", "をは"],
+        "explanation": "私には (lit. 'to/for me') is natural with います to indicate 'I have': 私には弟がいます."
+      },
+      {
+        "question": "明日、雨が降る ___ もしれません。(It might rain tomorrow.)\nWhich expression?",
+        "answer": "かも",
+        "options": ["かも", "でも", "ても", "から"],
+        "explanation": "かもしれません = might / maybe. 雨が降るかもしれません = It might rain."
+      },
+      {
+        "question": "もう少し ___ 話してください。(Please speak a little more slowly.)\nWhich adverb?",
+        "answer": "ゆっくり",
+        "options": ["ゆっくり", "はやく", "すこし", "たくさん"],
+        "explanation": "ゆっくり means slowly. ゆっくり話してください = Please speak slowly."
+      },
+      {
+        "question": "先生 ___ 質問があります。(I have a question for the teacher.)\nWhich particle?",
+        "answer": "に",
+        "options": ["に", "は", "を", "が"],
+        "explanation": "に marks the recipient: 先生に質問 = a question to/for the teacher."
+      },
+      {
+        "question": "日本語は難し ___ 、おもしろいです。(Japanese is difficult but interesting.)\nWhich form connects the clauses?",
+        "answer": "くて",
+        "options": ["くて", "いて", "けど", "でも"],
+        "explanation": "い-adjective て-form: drop い, add くて. 難しい → 難しくて = difficult and..."
+      },
+      {
+        "question": "毎朝、七時に起き ___ 。(Every morning I wake up at 7.)\nCorrect polite ending?",
+        "answer": "ます",
+        "options": ["ます", "です", "ました", "ません"],
+        "explanation": "毎朝 (every morning) is a habitual action — present/habitual = ます. 起きます = wake up."
+      },
+      {
+        "question": "この店は何時 ___ 閉まりますか？(What time does this shop close?)\nWhich particle?",
+        "answer": "に",
+        "options": ["に", "で", "が", "を"],
+        "explanation": "に marks specific times: 何時に = at what time? 閉まります = closes."
+      },
+      {
+        "question": "田中さん ___ 本を貸しました。(I lent a book to Tanaka-san.)\nWhich particle?",
+        "answer": "に",
+        "options": ["に", "を", "が", "で"],
+        "explanation": "に marks the recipient of giving/lending: 田中さんに = to Tanaka-san. 本を = the book (object)."
+      },
+      {
+        "question": "これは私のじゃ ___。(This is not mine.)\nHow to complete the negative?",
+        "answer": "ありません",
+        "options": ["ありません", "ません", "ないです", "じゃない"],
+        "explanation": "じゃありません is the polite negative of です: 私のじゃありません = is not mine."
+      },
+      {
+        "question": "すみません、トイレはどこ ___？(Excuse me, where is the restroom?)\nCorrect polite ending?",
+        "answer": "ですか",
+        "options": ["ですか", "ますか", "でしょう", "ですね"],
+        "explanation": "どこですか = Where is it? ですか = polite question ending. The most natural way to ask location."
+      }
+    ]
+  }
+}

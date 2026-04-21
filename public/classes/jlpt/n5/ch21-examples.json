@@ -1,0 +1,116 @@
+{
+  "id": "ch21-examples",
+  "meta": {
+    "title": "Lesson 21: 誰でも利用できます — Dialogue & Examples",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "ch21-examples",
+    "subtopic": "Anyone Can Use It",
+    "description": "Practical dialogues and sentences for Lesson 21: Anyone Can Use It",
+    "icon": "✅",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "Potential form — Group 2 (ru-verbs)",
+        "back": "Replace る with られる:\n食べる → 食べられる (can eat)\n見る → 見られる (can see)\n起きる → 起きられる (can wake up)\n\nPolite: 食べられます (can eat)\nNegative: 食べられません (cannot eat)"
+      },
+      {
+        "front": "Potential form — Group 1 (u-verbs)",
+        "back": "Replace the u-sound with e-sound + る:\n書く (ku) → 書ける (keru) = can write\n読む (mu) → 読める (meru) = can read\n飲む → 飲める (can drink)\n話す → 話せる (can speak)\n\nPolite: 書けます (can write)"
+      },
+      {
+        "front": "Irregular potential forms",
+        "back": "する → できる (can do)\n来る → 来られる (korareru, can come)\n\nNote: できる is the most common!\n日本語ができます = can do Japanese = can speak Japanese\nスポーツができます = can do sports"
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 25,
+      "questionsCount": 3
+    },
+    "items": [
+      {
+        "question": "How do you say 'I can read kanji'?",
+        "answer": "漢字が読めます。",
+        "options": [
+          "漢字が読めます。",
+          "漢字を読めます。",
+          "漢字が読まれます。",
+          "漢字が読みます。"
+        ],
+        "explanation": "読む → 読める (potential, Group 1). 漢字が読めます = can read kanji. が marks the object of potential."
+      },
+      {
+        "question": "What does だれでも入れます mean?",
+        "answer": "Anyone can enter.",
+        "options": [
+          "Anyone can enter.",
+          "No one can enter.",
+          "Someone can enter.",
+          "Everyone entered."
+        ],
+        "explanation": "だれでも = anyone. 入る (はいる) → 入れる (potential) = can enter. だれでも入れます = anyone can enter."
+      },
+      {
+        "question": "You can't swim. How do you say this?",
+        "answer": "泳げません。",
+        "options": [
+          "泳げません。",
+          "泳がれません。",
+          "泳きません。",
+          "泳むません。"
+        ],
+        "explanation": "泳ぐ (およぐ) is Group 1: g(u) → g(e)ru. 泳ぐ → 泳げる → 泳げません (cannot swim)."
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 12,
+      "questionsCount": 3
+    },
+    "items": [
+      {
+        "question": "How do you say 'I can read kanji'?",
+        "answer": "漢字が読めます。",
+        "options": [
+          "漢字が読めます。",
+          "漢字を読めます。",
+          "漢字が読まれます。",
+          "漢字が読みます。"
+        ],
+        "explanation": "読む → 読める (potential, Group 1). 漢字が読めます = can read kanji. が marks the object of potential."
+      },
+      {
+        "question": "What does だれでも入れます mean?",
+        "answer": "Anyone can enter.",
+        "options": [
+          "Anyone can enter.",
+          "No one can enter.",
+          "Someone can enter.",
+          "Everyone entered."
+        ],
+        "explanation": "だれでも = anyone. 入る (はいる) → 入れる (potential) = can enter. だれでも入れます = anyone can enter."
+      },
+      {
+        "question": "You can't swim. How do you say this?",
+        "answer": "泳げません。",
+        "options": [
+          "泳げません。",
+          "泳がれません。",
+          "泳きません。",
+          "泳むません。"
+        ],
+        "explanation": "泳ぐ (およぐ) is Group 1: g(u) → g(e)ru. 泳ぐ → 泳げる → 泳げません (cannot swim)."
+      }
+    ]
+  }
+}

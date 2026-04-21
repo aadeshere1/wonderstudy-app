@@ -1,0 +1,352 @@
+{
+  "id": "ch17-vocabulary",
+  "meta": {
+    "title": "Lesson 17: ちょっと待ってください — Vocabulary",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "ch17-vocabulary",
+    "subtopic": "Please Wait a Moment",
+    "description": "Vocabulary for Minna no Nihongo Lesson 17: Please Wait a Moment",
+    "icon": "✋",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "Polite requests: 〜ていただけませんか",
+        "back": "Very polite request: could you please ~?\n\nもう一度言っていただけませんか。\n= Could you please say it one more time?\n\nゆっくり話していただけませんか。\n= Could you please speak slowly?\n\nMore formal than 〜てください"
+      },
+      {
+        "front": "〜てくれませんか (friendly request)",
+        "back": "Friendly/casual request: won't you ~ for me?\n\nちょっと待ってくれませんか。\n= Won't you wait a moment?\n\nLess formal than 〜ていただけませんか\nMore personal/direct"
+      },
+      {
+        "front": "Communication adverbs",
+        "back": "ゆっくり = slowly\nはっきり = clearly\nもう一度 = one more time\nもう少し = a little more\n大きい声で = in a loud voice\n小さい声で = in a quiet voice\n日本語で = in Japanese"
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "vocab",
+    "config": {
+      "answerMode": "mcq",
+      "optionsCount": 4,
+      "timeLimit": 20,
+      "questionsCount": 15
+    },
+    "items": [
+      {
+        "question": "〜ていただけませんか",
+        "answer": "could you please ~ (very polite)",
+        "options": [
+          "could you please ~ (very polite)",
+          "may I ~",
+          "let's ~",
+          "please do ~"
+        ]
+      },
+      {
+        "question": "〜てくれませんか",
+        "answer": "won't you ~ for me? (less formal)",
+        "options": [
+          "please don't ~",
+          "won't you ~ for me? (less formal)",
+          "let's ~",
+          "may I ~"
+        ]
+      },
+      {
+        "question": "もうすこし",
+        "answer": "a little more",
+        "options": [
+          "enough",
+          "a little less",
+          "a lot more",
+          "a little more"
+        ]
+      },
+      {
+        "question": "もう一度 (もういちど)",
+        "answer": "one more time / again",
+        "options": [
+          "sometimes",
+          "one more time / again",
+          "always",
+          "for the first time"
+        ]
+      },
+      {
+        "question": "ゆっくり",
+        "answer": "slowly",
+        "options": [
+          "loudly",
+          "slowly",
+          "quietly",
+          "quickly"
+        ]
+      },
+      {
+        "question": "はっきり",
+        "answer": "clearly / distinctly",
+        "options": [
+          "clearly / distinctly",
+          "quietly",
+          "vaguely",
+          "slowly"
+        ]
+      },
+      {
+        "question": "おおきいこえで",
+        "answer": "in a loud voice",
+        "options": [
+          "quietly",
+          "slowly",
+          "in a loud voice",
+          "softly"
+        ]
+      },
+      {
+        "question": "ちいさいこえで",
+        "answer": "in a quiet voice",
+        "options": [
+          "loudly",
+          "in a quiet voice",
+          "quickly",
+          "clearly"
+        ]
+      },
+      {
+        "question": "にほんごで",
+        "answer": "in Japanese",
+        "options": [
+          "in Korean",
+          "in Japanese",
+          "in English",
+          "in Chinese"
+        ]
+      },
+      {
+        "question": "えいごで",
+        "answer": "in English",
+        "options": [
+          "in English",
+          "in Japanese",
+          "in Chinese",
+          "in French"
+        ]
+      },
+      {
+        "question": "かんじ (漢字)",
+        "answer": "kanji (Chinese characters)",
+        "options": [
+          "katakana",
+          "hiragana",
+          "romaji",
+          "kanji (Chinese characters)"
+        ]
+      },
+      {
+        "question": "ひらがな",
+        "answer": "hiragana (Japanese script)",
+        "options": [
+          "katakana",
+          "romaji",
+          "kanji",
+          "hiragana (Japanese script)"
+        ]
+      },
+      {
+        "question": "かたかな",
+        "answer": "katakana (Japanese script)",
+        "options": [
+          "kanji",
+          "romaji",
+          "hiragana",
+          "katakana (Japanese script)"
+        ]
+      },
+      {
+        "question": "けいご (敬語)",
+        "answer": "polite/formal Japanese",
+        "options": [
+          "casual Japanese",
+          "polite/formal Japanese",
+          "dialect",
+          "written Japanese"
+        ]
+      },
+      {
+        "question": "くだけたことば",
+        "answer": "casual/informal speech",
+        "options": [
+          "polite speech",
+          "formal speech",
+          "written language",
+          "casual/informal speech"
+        ]
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "vocab",
+    "config": {
+      "answerMode": "mcq",
+      "optionsCount": 4,
+      "timeLimit": 10,
+      "questionsCount": 15
+    },
+    "items": [
+      {
+        "question": "How do you say 'could you please ~ (very polite)' in Japanese?",
+        "answer": "〜ていただけませんか",
+        "options": [
+          "〜てくれませんか",
+          "もう一度 (もういちど)",
+          "〜ていただけませんか",
+          "もうすこし"
+        ]
+      },
+      {
+        "question": "How do you say 'won't you ~ for me? (less formal)' in Japanese?",
+        "answer": "〜てくれませんか",
+        "options": [
+          "〜ていただけませんか",
+          "もう一度 (もういちど)",
+          "もうすこし",
+          "〜てくれませんか"
+        ]
+      },
+      {
+        "question": "How do you say 'a little more' in Japanese?",
+        "answer": "もうすこし",
+        "options": [
+          "〜てくれませんか",
+          "もうすこし",
+          "〜ていただけませんか",
+          "もう一度 (もういちど)"
+        ]
+      },
+      {
+        "question": "How do you say 'one more time / again' in Japanese?",
+        "answer": "もう一度 (もういちど)",
+        "options": [
+          "もうすこし",
+          "もう一度 (もういちど)",
+          "〜ていただけませんか",
+          "〜てくれませんか"
+        ]
+      },
+      {
+        "question": "How do you say 'slowly' in Japanese?",
+        "answer": "ゆっくり",
+        "options": [
+          "もうすこし",
+          "〜てくれませんか",
+          "〜ていただけませんか",
+          "ゆっくり"
+        ]
+      },
+      {
+        "question": "How do you say 'clearly / distinctly' in Japanese?",
+        "answer": "はっきり",
+        "options": [
+          "はっきり",
+          "〜てくれませんか",
+          "〜ていただけませんか",
+          "もうすこし"
+        ]
+      },
+      {
+        "question": "How do you say 'in a loud voice' in Japanese?",
+        "answer": "おおきいこえで",
+        "options": [
+          "〜ていただけませんか",
+          "もうすこし",
+          "〜てくれませんか",
+          "おおきいこえで"
+        ]
+      },
+      {
+        "question": "How do you say 'in a quiet voice' in Japanese?",
+        "answer": "ちいさいこえで",
+        "options": [
+          "もうすこし",
+          "〜ていただけませんか",
+          "ちいさいこえで",
+          "〜てくれませんか"
+        ]
+      },
+      {
+        "question": "How do you say 'in Japanese' in Japanese?",
+        "answer": "にほんごで",
+        "options": [
+          "もうすこし",
+          "〜ていただけませんか",
+          "にほんごで",
+          "〜てくれませんか"
+        ]
+      },
+      {
+        "question": "How do you say 'in English' in Japanese?",
+        "answer": "えいごで",
+        "options": [
+          "〜てくれませんか",
+          "〜ていただけませんか",
+          "もうすこし",
+          "えいごで"
+        ]
+      },
+      {
+        "question": "How do you say 'kanji (Chinese characters)' in Japanese?",
+        "answer": "かんじ (漢字)",
+        "options": [
+          "〜てくれませんか",
+          "かんじ (漢字)",
+          "〜ていただけませんか",
+          "もうすこし"
+        ]
+      },
+      {
+        "question": "How do you say 'hiragana (Japanese script)' in Japanese?",
+        "answer": "ひらがな",
+        "options": [
+          "ひらがな",
+          "〜てくれませんか",
+          "もうすこし",
+          "〜ていただけませんか"
+        ]
+      },
+      {
+        "question": "How do you say 'katakana (Japanese script)' in Japanese?",
+        "answer": "かたかな",
+        "options": [
+          "〜ていただけませんか",
+          "〜てくれませんか",
+          "もうすこし",
+          "かたかな"
+        ]
+      },
+      {
+        "question": "How do you say 'polite/formal Japanese' in Japanese?",
+        "answer": "けいご (敬語)",
+        "options": [
+          "けいご (敬語)",
+          "もうすこし",
+          "〜てくれませんか",
+          "〜ていただけませんか"
+        ]
+      },
+      {
+        "question": "How do you say 'casual/informal speech' in Japanese?",
+        "answer": "くだけたことば",
+        "options": [
+          "もうすこし",
+          "くだけたことば",
+          "〜てくれませんか",
+          "〜ていただけませんか"
+        ]
+      }
+    ]
+  }
+}

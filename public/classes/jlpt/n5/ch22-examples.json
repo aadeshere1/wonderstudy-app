@@ -1,0 +1,116 @@
+{
+  "id": "ch22-examples",
+  "meta": {
+    "title": "Lesson 22: 日本に来たばかりです — Dialogue & Examples",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "ch22-examples",
+    "subtopic": "I Just Came to Japan",
+    "description": "Practical dialogues and sentences for Lesson 22: I Just Came to Japan",
+    "icon": "🌸",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "〜たばかりです — Just did",
+        "back": "[verb た-form] + ばかりです = just did (very recently)\n\n日本に来たばかりです。\n= I just came to Japan.\n\nひるごはんを食べたばかりです。\n= I just ate lunch.\n\nImplies very recent action."
+      },
+      {
+        "front": "〜たことがあります — Have done before",
+        "back": "[verb た-form] + ことがあります = have done before\n\n富士山に登ったことがあります。\n= I have climbed Mt. Fuji before.\n\nすしを食べたことがありますか。\n= Have you ever eaten sushi?\n\nNegative: 〜たことがありません = have never done"
+      },
+      {
+        "front": "Comparing: ばかり vs ことがある",
+        "back": "〜たばかり = JUST did (very recent, specific past)\nさっき食べたばかりです。= I just ate a moment ago.\n\n〜たことがある = have experience of (anytime in the past)\n子どものとき、食べたことがあります。\n= I've eaten it before (as a child)."
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 25,
+      "questionsCount": 3
+    },
+    "items": [
+      {
+        "question": "You just ate lunch. How do you say 'I just ate lunch'?",
+        "answer": "ひるごはんを食べたばかりです。",
+        "options": [
+          "ひるごはんを食べたばかりです。",
+          "ひるごはんを食べたことがあります。",
+          "ひるごはんを食べていません。",
+          "ひるごはんを食べました。"
+        ],
+        "explanation": "〜たばかりです = just did (very recently). 食べた = ate (past) + ばかりです."
+      },
+      {
+        "question": "Have you ever eaten natto? No, never.",
+        "answer": "なっとうを食べたことがありません。",
+        "options": [
+          "なっとうを食べたことがありません。",
+          "なっとうを食べたばかりです。",
+          "なっとうを食べたことがあります。",
+          "なっとうをまだ食べていません。"
+        ],
+        "explanation": "〜たことがありません = have never done. 食べた + ことがありません = have never eaten."
+      },
+      {
+        "question": "Someone asks if you've seen Kabuki before. You have, once. How do you reply?",
+        "answer": "はい、一度見たことがあります。",
+        "options": [
+          "はい、一度見たことがあります。",
+          "はい、一度見たばかりです。",
+          "はい、一度見ていません。",
+          "はい、一度見ます。"
+        ],
+        "explanation": "〜たことがあります = have done before. 一度 = once. 見た = saw (past) + ことがあります."
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 12,
+      "questionsCount": 3
+    },
+    "items": [
+      {
+        "question": "You just ate lunch. How do you say 'I just ate lunch'?",
+        "answer": "ひるごはんを食べたばかりです。",
+        "options": [
+          "ひるごはんを食べたばかりです。",
+          "ひるごはんを食べたことがあります。",
+          "ひるごはんを食べていません。",
+          "ひるごはんを食べました。"
+        ],
+        "explanation": "〜たばかりです = just did (very recently). 食べた = ate (past) + ばかりです."
+      },
+      {
+        "question": "Have you ever eaten natto? No, never.",
+        "answer": "なっとうを食べたことがありません。",
+        "options": [
+          "なっとうを食べたことがありません。",
+          "なっとうを食べたばかりです。",
+          "なっとうを食べたことがあります。",
+          "なっとうをまだ食べていません。"
+        ],
+        "explanation": "〜たことがありません = have never done. 食べた + ことがありません = have never eaten."
+      },
+      {
+        "question": "Someone asks if you've seen Kabuki before. You have, once. How do you reply?",
+        "answer": "はい、一度見たことがあります。",
+        "options": [
+          "はい、一度見たことがあります。",
+          "はい、一度見たばかりです。",
+          "はい、一度見ていません。",
+          "はい、一度見ます。"
+        ],
+        "explanation": "〜たことがあります = have done before. 一度 = once. 見た = saw (past) + ことがあります."
+      }
+    ]
+  }
+}

@@ -1,0 +1,260 @@
+{
+  "id": "ch12-grammar",
+  "meta": {
+    "title": "Lesson 12: もう昼ごはんを食べましたか — Grammar",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "ch12-grammar",
+    "subtopic": "Already / Not Yet",
+    "description": "Grammar patterns for Minna no Nihongo Lesson 12: Already / Not Yet",
+    "icon": "⌚",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "もう vs まだ",
+        "back": "もう + positive verb = already done\nもうたべました。= I already ate.\n\nまだ + 〜ていません = not yet\nまだたべていません。= I haven't eaten yet.\n\nKey: もう with positive past; まだ with 〜ていません!"
+      },
+      {
+        "front": "〜ていません (not yet / haven't done)",
+        "back": "て-form + いません = have not done\n(negative of て-form + います)\n\nまだたべていません。= Haven't eaten yet.\nまだかいていません。= Haven't written yet.\nまだよんでいません。= Haven't read yet.\n\nFor ongoing 'not yet' situations."
+      },
+      {
+        "front": "Q&A: もう〜ましたか",
+        "back": "Q: もう〜ましたか。= Have you already ~?\n\nA (yes): はい、もう〜ました。= Yes, already.\nA (not yet): いいえ、まだです。= No, not yet.\n   or: いいえ、まだ〜ていません。= No, haven't yet."
+      },
+      {
+        "front": "〜てあります (done in preparation)",
+        "back": "て-form + あります = has been done (in preparation)\n\nきっぷを買ってあります。\n= The ticket has been bought (in readiness).\n\nNote: てあります focuses on the resulting state,\noften implying someone did it intentionally."
+      },
+      {
+        "front": "〜ておきます (do in advance)",
+        "back": "て-form + おきます = do in advance / for a purpose\n\nパーティーの前にりょうりをしておきます。\n= I'll cook in advance of the party.\n\nImplication: doing now to be ready later."
+      },
+      {
+        "front": "Common 'have you done' questions",
+        "back": "もうしゅくだいをしましたか。= Have you done homework?\nもうレポートをかきましたか。= Have you written the report?\nもうばんごはんをたべましたか。= Have you eaten dinner?\n\nUse もう to ask if someone has ALREADY done something."
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 25,
+      "questionsCount": 9
+    },
+    "items": [
+      {
+        "question": "もう昼ごはんを食べ ___ か。(Have you already eaten lunch?)",
+        "answer": "ました",
+        "options": [
+          "ました",
+          "ます",
+          "ていません",
+          "ていた"
+        ],
+        "explanation": "もう + ました = already done. もう食べましたか = Have you already eaten?"
+      },
+      {
+        "question": "いいえ、___ たべていません。(No, I haven't eaten yet.)",
+        "answer": "まだ",
+        "options": [
+          "まだ",
+          "もう",
+          "ぜんぜん",
+          "あまり"
+        ],
+        "explanation": "まだ + negative (〜ていません) = not yet. まだたべていません = haven't eaten yet."
+      },
+      {
+        "question": "しゅくだいをしましたか → はい、___ しました。(Yes, already done.)",
+        "answer": "もう",
+        "options": [
+          "もう",
+          "まだ",
+          "まだ〜ていません",
+          "ぜんぜん"
+        ],
+        "explanation": "はい、もう〜ました = Yes, I've already done it. もう with positive past tense."
+      },
+      {
+        "question": "A: もうレポートをかきましたか。B: いいえ、___。(No, not yet.)",
+        "answer": "まだです",
+        "options": [
+          "まだです",
+          "もうです",
+          "もうしました",
+          "ぜんぜんです"
+        ],
+        "explanation": "Short answer for 'not yet': いいえ、まだです. (まだ = not yet, as a standalone response)"
+      },
+      {
+        "question": "切符を買っ ___ 。(The ticket has been bought [in preparation].)",
+        "answer": "てあります",
+        "options": [
+          "てあります",
+          "ています",
+          "ておきます",
+          "てください"
+        ],
+        "explanation": "〜てあります = has been done (resultant state, intentional). 買ってあります = it's been bought."
+      },
+      {
+        "question": "パーティーの前に、りょうりをし ___ 。(I'll cook in advance for the party.)",
+        "answer": "ておきます",
+        "options": [
+          "ておきます",
+          "てあります",
+          "ています",
+          "てください"
+        ],
+        "explanation": "〜ておきます = do in advance for a future purpose. しておきます = will do (it) in preparation."
+      },
+      {
+        "question": "I haven't read the textbook yet. Which is correct?",
+        "answer": "まだきょうかしょをよんでいません。",
+        "options": [
+          "まだきょうかしょをよんでいません。",
+          "もうきょうかしょをよんでいません。",
+          "まだきょうかしょをよみませんでした。",
+          "もうきょうかしょをよんでいません。"
+        ],
+        "explanation": "まだ + 〜ていません = haven't done yet. よむ → よんで (て-form) + いません."
+      },
+      {
+        "question": "A: もうかきましたか。B: いいえ、まだかいて ___。(No, I haven't written yet.)",
+        "answer": "いません",
+        "options": [
+          "いません",
+          "います",
+          "ました",
+          "ありません"
+        ],
+        "explanation": "まだ〜ていません = haven't done yet. かいて + いません (negative of ています)."
+      },
+      {
+        "question": "What does まだです mean when answering もう〜ましたか?",
+        "answer": "Not yet",
+        "options": [
+          "Not yet",
+          "Already",
+          "Never",
+          "Sometimes"
+        ],
+        "explanation": "まだです as a short answer = 'not yet'. Full form: まだ〜ていません."
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 12,
+      "questionsCount": 9
+    },
+    "items": [
+      {
+        "question": "もう昼ごはんを食べ ___ か。(Have you already eaten lunch?)",
+        "answer": "ました",
+        "options": [
+          "ました",
+          "ます",
+          "ていません",
+          "ていた"
+        ],
+        "explanation": "もう + ました = already done. もう食べましたか = Have you already eaten?"
+      },
+      {
+        "question": "いいえ、___ たべていません。(No, I haven't eaten yet.)",
+        "answer": "まだ",
+        "options": [
+          "まだ",
+          "もう",
+          "ぜんぜん",
+          "あまり"
+        ],
+        "explanation": "まだ + negative (〜ていません) = not yet. まだたべていません = haven't eaten yet."
+      },
+      {
+        "question": "しゅくだいをしましたか → はい、___ しました。(Yes, already done.)",
+        "answer": "もう",
+        "options": [
+          "もう",
+          "まだ",
+          "まだ〜ていません",
+          "ぜんぜん"
+        ],
+        "explanation": "はい、もう〜ました = Yes, I've already done it. もう with positive past tense."
+      },
+      {
+        "question": "A: もうレポートをかきましたか。B: いいえ、___。(No, not yet.)",
+        "answer": "まだです",
+        "options": [
+          "まだです",
+          "もうです",
+          "もうしました",
+          "ぜんぜんです"
+        ],
+        "explanation": "Short answer for 'not yet': いいえ、まだです. (まだ = not yet, as a standalone response)"
+      },
+      {
+        "question": "切符を買っ ___ 。(The ticket has been bought [in preparation].)",
+        "answer": "てあります",
+        "options": [
+          "てあります",
+          "ています",
+          "ておきます",
+          "てください"
+        ],
+        "explanation": "〜てあります = has been done (resultant state, intentional). 買ってあります = it's been bought."
+      },
+      {
+        "question": "パーティーの前に、りょうりをし ___ 。(I'll cook in advance for the party.)",
+        "answer": "ておきます",
+        "options": [
+          "ておきます",
+          "てあります",
+          "ています",
+          "てください"
+        ],
+        "explanation": "〜ておきます = do in advance for a future purpose. しておきます = will do (it) in preparation."
+      },
+      {
+        "question": "I haven't read the textbook yet. Which is correct?",
+        "answer": "まだきょうかしょをよんでいません。",
+        "options": [
+          "まだきょうかしょをよんでいません。",
+          "もうきょうかしょをよんでいません。",
+          "まだきょうかしょをよみませんでした。",
+          "もうきょうかしょをよんでいません。"
+        ],
+        "explanation": "まだ + 〜ていません = haven't done yet. よむ → よんで (て-form) + いません."
+      },
+      {
+        "question": "A: もうかきましたか。B: いいえ、まだかいて ___。(No, I haven't written yet.)",
+        "answer": "いません",
+        "options": [
+          "いません",
+          "います",
+          "ました",
+          "ありません"
+        ],
+        "explanation": "まだ〜ていません = haven't done yet. かいて + いません (negative of ています)."
+      },
+      {
+        "question": "What does まだです mean when answering もう〜ましたか?",
+        "answer": "Not yet",
+        "options": [
+          "Not yet",
+          "Already",
+          "Never",
+          "Sometimes"
+        ],
+        "explanation": "まだです as a short answer = 'not yet'. Full form: まだ〜ていません."
+      }
+    ]
+  }
+}

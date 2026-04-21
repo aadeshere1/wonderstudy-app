@@ -1,0 +1,352 @@
+{
+  "id": "ch20-vocabulary",
+  "meta": {
+    "title": "Lesson 20: 道を教えてください — Vocabulary",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "ch20-vocabulary",
+    "subtopic": "Please Tell Me the Way",
+    "description": "Vocabulary for Minna no Nihongo Lesson 20: Please Tell Me the Way",
+    "icon": "🗺️",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "Giving directions with て-form",
+        "back": "Chain directions with て-form:\nまっすぐ行って、\n= Go straight, then\nかどを右に曲がって、\n= turn right at the corner, then\nはしをわたると、右手にあります。\n= cross the bridge and it's on the right."
+      },
+      {
+        "front": "〜と、〜 (when you do X, Y happens)",
+        "back": "[action] + と + [result/discovery]\n\nこのみちをまっすぐ行くと、えきがあります。\n= If you go straight on this road, you'll find the station.\n\nかどを曲がると、すぐ見えます。\n= When you turn the corner, you can see it right away."
+      },
+      {
+        "front": "Directional phrases",
+        "back": "Right side: みぎ / 右て (みぎて)\nLeft side: ひだり / 左て (ひだりて)\nStraight: まっすぐ\nOver there: むこう\n\nDistance:\n〜メートル先 = ~ metres ahead\n〜分ぐらい = about ~ minutes (walking)"
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "vocab",
+    "config": {
+      "answerMode": "mcq",
+      "optionsCount": 4,
+      "timeLimit": 20,
+      "questionsCount": 15
+    },
+    "items": [
+      {
+        "question": "みちをおしえます (道を教えます)",
+        "answer": "to give directions",
+        "options": [
+          "to get lost",
+          "to ask for directions",
+          "to give directions",
+          "to walk"
+        ]
+      },
+      {
+        "question": "まっすぐ",
+        "answer": "straight ahead",
+        "options": [
+          "turn back",
+          "turn right",
+          "straight ahead",
+          "turn left"
+        ]
+      },
+      {
+        "question": "みぎ (右)",
+        "answer": "right",
+        "options": [
+          "straight",
+          "right",
+          "back",
+          "left"
+        ]
+      },
+      {
+        "question": "ひだり (左)",
+        "answer": "left",
+        "options": [
+          "right",
+          "straight",
+          "left",
+          "back"
+        ]
+      },
+      {
+        "question": "まがります (曲がります)",
+        "answer": "to turn",
+        "options": [
+          "to go straight",
+          "to turn",
+          "to cross",
+          "to stop"
+        ]
+      },
+      {
+        "question": "わたります (渡ります)",
+        "answer": "to cross",
+        "options": [
+          "to turn",
+          "to cross",
+          "to stop",
+          "to walk"
+        ]
+      },
+      {
+        "question": "しんごう (信号)",
+        "answer": "traffic light",
+        "options": [
+          "bridge",
+          "corner",
+          "crosswalk",
+          "traffic light"
+        ]
+      },
+      {
+        "question": "かど (角)",
+        "answer": "corner",
+        "options": [
+          "traffic light",
+          "bridge",
+          "corner",
+          "intersection"
+        ]
+      },
+      {
+        "question": "こうさてん (交差点)",
+        "answer": "intersection",
+        "options": [
+          "intersection",
+          "corner",
+          "bridge",
+          "tunnel"
+        ]
+      },
+      {
+        "question": "はし (橋)",
+        "answer": "bridge",
+        "options": [
+          "corner",
+          "tunnel",
+          "intersection",
+          "bridge"
+        ]
+      },
+      {
+        "question": "ちかい (近い)",
+        "answer": "near / close",
+        "options": [
+          "short",
+          "near / close",
+          "long",
+          "far"
+        ]
+      },
+      {
+        "question": "とおい (遠い)",
+        "answer": "far / distant",
+        "options": [
+          "near",
+          "far / distant",
+          "long",
+          "short"
+        ]
+      },
+      {
+        "question": "〜メートル",
+        "answer": "~ metres",
+        "options": [
+          "~ steps",
+          "~ kilometres",
+          "~ metres",
+          "~ floors"
+        ]
+      },
+      {
+        "question": "〜キロ",
+        "answer": "~ kilometres",
+        "options": [
+          "~ miles",
+          "~ kilometres",
+          "~ steps",
+          "~ metres"
+        ]
+      },
+      {
+        "question": "むこう (向こう)",
+        "answer": "over there / the other side",
+        "options": [
+          "over there / the other side",
+          "this side",
+          "here",
+          "nearby"
+        ]
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "vocab",
+    "config": {
+      "answerMode": "mcq",
+      "optionsCount": 4,
+      "timeLimit": 10,
+      "questionsCount": 15
+    },
+    "items": [
+      {
+        "question": "How do you say 'to give directions' in Japanese?",
+        "answer": "みちをおしえます (道を教えます)",
+        "options": [
+          "みちをおしえます (道を教えます)",
+          "まっすぐ",
+          "みぎ (右)",
+          "ひだり (左)"
+        ]
+      },
+      {
+        "question": "How do you say 'straight ahead' in Japanese?",
+        "answer": "まっすぐ",
+        "options": [
+          "みちをおしえます (道を教えます)",
+          "まっすぐ",
+          "みぎ (右)",
+          "ひだり (左)"
+        ]
+      },
+      {
+        "question": "How do you say 'right' in Japanese?",
+        "answer": "みぎ (右)",
+        "options": [
+          "まっすぐ",
+          "みぎ (右)",
+          "ひだり (左)",
+          "みちをおしえます (道を教えます)"
+        ]
+      },
+      {
+        "question": "How do you say 'left' in Japanese?",
+        "answer": "ひだり (左)",
+        "options": [
+          "みちをおしえます (道を教えます)",
+          "まっすぐ",
+          "ひだり (左)",
+          "みぎ (右)"
+        ]
+      },
+      {
+        "question": "How do you say 'to turn' in Japanese?",
+        "answer": "まがります (曲がります)",
+        "options": [
+          "みぎ (右)",
+          "まっすぐ",
+          "みちをおしえます (道を教えます)",
+          "まがります (曲がります)"
+        ]
+      },
+      {
+        "question": "How do you say 'to cross' in Japanese?",
+        "answer": "わたります (渡ります)",
+        "options": [
+          "みちをおしえます (道を教えます)",
+          "みぎ (右)",
+          "わたります (渡ります)",
+          "まっすぐ"
+        ]
+      },
+      {
+        "question": "How do you say 'traffic light' in Japanese?",
+        "answer": "しんごう (信号)",
+        "options": [
+          "まっすぐ",
+          "しんごう (信号)",
+          "みぎ (右)",
+          "みちをおしえます (道を教えます)"
+        ]
+      },
+      {
+        "question": "How do you say 'corner' in Japanese?",
+        "answer": "かど (角)",
+        "options": [
+          "かど (角)",
+          "まっすぐ",
+          "みちをおしえます (道を教えます)",
+          "みぎ (右)"
+        ]
+      },
+      {
+        "question": "How do you say 'intersection' in Japanese?",
+        "answer": "こうさてん (交差点)",
+        "options": [
+          "みぎ (右)",
+          "まっすぐ",
+          "みちをおしえます (道を教えます)",
+          "こうさてん (交差点)"
+        ]
+      },
+      {
+        "question": "How do you say 'bridge' in Japanese?",
+        "answer": "はし (橋)",
+        "options": [
+          "まっすぐ",
+          "はし (橋)",
+          "みちをおしえます (道を教えます)",
+          "みぎ (右)"
+        ]
+      },
+      {
+        "question": "How do you say 'near / close' in Japanese?",
+        "answer": "ちかい (近い)",
+        "options": [
+          "まっすぐ",
+          "みちをおしえます (道を教えます)",
+          "ちかい (近い)",
+          "みぎ (右)"
+        ]
+      },
+      {
+        "question": "How do you say 'far / distant' in Japanese?",
+        "answer": "とおい (遠い)",
+        "options": [
+          "とおい (遠い)",
+          "まっすぐ",
+          "みちをおしえます (道を教えます)",
+          "みぎ (右)"
+        ]
+      },
+      {
+        "question": "How do you say '~ metres' in Japanese?",
+        "answer": "〜メートル",
+        "options": [
+          "みぎ (右)",
+          "まっすぐ",
+          "みちをおしえます (道を教えます)",
+          "〜メートル"
+        ]
+      },
+      {
+        "question": "How do you say '~ kilometres' in Japanese?",
+        "answer": "〜キロ",
+        "options": [
+          "みぎ (右)",
+          "みちをおしえます (道を教えます)",
+          "〜キロ",
+          "まっすぐ"
+        ]
+      },
+      {
+        "question": "How do you say 'over there / the other side' in Japanese?",
+        "answer": "むこう (向こう)",
+        "options": [
+          "まっすぐ",
+          "むこう (向こう)",
+          "みちをおしえます (道を教えます)",
+          "みぎ (右)"
+        ]
+      }
+    ]
+  }
+}

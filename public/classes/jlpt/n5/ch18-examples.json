@@ -1,0 +1,116 @@
+{
+  "id": "ch18-examples",
+  "meta": {
+    "title": "Lesson 18: 来週パーティーをするんですが — Dialogue & Examples",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "ch18-examples",
+    "subtopic": "I'm Having a Party Next Week",
+    "description": "Practical dialogues and sentences for Lesson 18: I'm Having a Party Next Week",
+    "icon": "🎉",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "〜から — Giving reasons",
+        "back": "〜から = because ~ (reason)\n\n[reason sentence]から、[result]\n\nつかれたから、はやく寝ます。\n= Because I'm tired, I'll sleep early.\n\n〜から can come in the middle or at end:\nはやく寝ます。つかれたから。\n= I'll sleep early. Because I'm tired."
+      },
+      {
+        "front": "Bringing things: きます/いきます",
+        "back": "〜てきます = come/go and bring back:\n→ きます: action done and come back here\nかってきます = go buy and come back\n\n〜ていきます = go and do:\n→ いきます: action done while going\nもっていきます = take (to go)\n\nもってきます = bring (here)\nもっていきます = take (there)"
+      },
+      {
+        "front": "Inviting and scheduling",
+        "back": "つごうはどうですか。= How's your schedule?\nよていはありますか。= Do you have plans?\nこんどのどようびはどうですか。= How about this Saturday?\n\nぜひきてください。= Please do come.\nぜひ！= By all means!"
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 25,
+      "questionsCount": 3
+    },
+    "items": [
+      {
+        "question": "You're planning a party and inviting a friend. How do you start?",
+        "answer": "らいしゅうパーティーをするんですが、きませんか。",
+        "options": [
+          "らいしゅうパーティーをするんですが、きませんか。",
+          "らいしゅうパーティーをします。きてください。",
+          "らいしゅうパーティーがありますから、きませんか。",
+          "らいしゅうパーティーをするから、きてください。"
+        ],
+        "explanation": "〜んですが + request = natural way to make invitations. Sets up context before the invitation."
+      },
+      {
+        "question": "You're going on a picnic. What do you bring?",
+        "answer": "ピクニックにおべんとうをもっていきます。",
+        "options": [
+          "ピクニックにおべんとうをもっていきます。",
+          "ピクニックにおべんとうをもってきます。",
+          "ピクニックにおべんとうをつれていきます。",
+          "ピクニックにおべんとうをつれてきます。"
+        ],
+        "explanation": "もっていきます = take (something) to another place. Bringing food TO the picnic = もっていく."
+      },
+      {
+        "question": "Why can't you come to the party? Give a reason using から.",
+        "answer": "よていがあるから、いけません。",
+        "options": [
+          "よていがあるから、いけません。",
+          "よていがあるので、いけません。",
+          "よていがあるが、いけません。",
+          "よていがあるけど、いけません。"
+        ],
+        "explanation": "〜から = because. よていがあるから = because I have plans. Natural reason for declining."
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 12,
+      "questionsCount": 3
+    },
+    "items": [
+      {
+        "question": "You're planning a party and inviting a friend. How do you start?",
+        "answer": "らいしゅうパーティーをするんですが、きませんか。",
+        "options": [
+          "らいしゅうパーティーをするんですが、きませんか。",
+          "らいしゅうパーティーをします。きてください。",
+          "らいしゅうパーティーがありますから、きませんか。",
+          "らいしゅうパーティーをするから、きてください。"
+        ],
+        "explanation": "〜んですが + request = natural way to make invitations. Sets up context before the invitation."
+      },
+      {
+        "question": "You're going on a picnic. What do you bring?",
+        "answer": "ピクニックにおべんとうをもっていきます。",
+        "options": [
+          "ピクニックにおべんとうをもっていきます。",
+          "ピクニックにおべんとうをもってきます。",
+          "ピクニックにおべんとうをつれていきます。",
+          "ピクニックにおべんとうをつれてきます。"
+        ],
+        "explanation": "もっていきます = take (something) to another place. Bringing food TO the picnic = もっていく."
+      },
+      {
+        "question": "Why can't you come to the party? Give a reason using から.",
+        "answer": "よていがあるから、いけません。",
+        "options": [
+          "よていがあるから、いけません。",
+          "よていがあるので、いけません。",
+          "よていがあるが、いけません。",
+          "よていがあるけど、いけません。"
+        ],
+        "explanation": "〜から = because. よていがあるから = because I have plans. Natural reason for declining."
+      }
+    ]
+  }
+}

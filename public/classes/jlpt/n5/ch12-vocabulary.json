@@ -1,0 +1,414 @@
+{
+  "id": "ch12-vocabulary",
+  "meta": {
+    "title": "Lesson 12: もう昼ごはんを食べましたか — Vocabulary",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "ch12-vocabulary",
+    "subtopic": "Already / Not Yet",
+    "description": "Vocabulary for Minna no Nihongo Lesson 12: Already / Not Yet",
+    "icon": "⌚",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "もう vs まだ",
+        "back": "もう + positive verb = already done\nもうたべました。= I already ate.\n\nまだ + 〜ていません = not yet\nまだたべていません。= I haven't eaten yet.\n\nKey: もう with positive past; まだ with 〜ていません!"
+      },
+      {
+        "front": "〜ていません (not yet / haven't done)",
+        "back": "て-form + いません = have not done\n(negative of て-form + います)\n\nまだたべていません。= Haven't eaten yet.\nまだかいていません。= Haven't written yet.\nまだよんでいません。= Haven't read yet.\n\nFor ongoing 'not yet' situations."
+      },
+      {
+        "front": "Q&A: もう〜ましたか",
+        "back": "Q: もう〜ましたか。= Have you already ~?\n\nA (yes): はい、もう〜ました。= Yes, already.\nA (not yet): いいえ、まだです。= No, not yet.\n   or: いいえ、まだ〜ていません。= No, haven't yet."
+      },
+      {
+        "front": "〜てあります (done in preparation)",
+        "back": "て-form + あります = has been done (in preparation)\n\nきっぷを買ってあります。\n= The ticket has been bought (in readiness).\n\nNote: てあります focuses on the resulting state,\noften implying someone did it intentionally."
+      },
+      {
+        "front": "〜ておきます (do in advance)",
+        "back": "て-form + おきます = do in advance / for a purpose\n\nパーティーの前にりょうりをしておきます。\n= I'll cook in advance of the party.\n\nImplication: doing now to be ready later."
+      },
+      {
+        "front": "Common 'have you done' questions",
+        "back": "もうしゅくだいをしましたか。= Have you done homework?\nもうレポートをかきましたか。= Have you written the report?\nもうばんごはんをたべましたか。= Have you eaten dinner?\n\nUse もう to ask if someone has ALREADY done something."
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "vocab",
+    "config": {
+      "answerMode": "mcq",
+      "optionsCount": 4,
+      "timeLimit": 20,
+      "questionsCount": 15
+    },
+    "items": [
+      {
+        "question": "もう",
+        "answer": "already / soon",
+        "options": [
+          "not yet",
+          "just",
+          "already / soon",
+          "never"
+        ]
+      },
+      {
+        "question": "まだ",
+        "answer": "not yet / still",
+        "options": [
+          "soon",
+          "already",
+          "not yet / still",
+          "just"
+        ]
+      },
+      {
+        "question": "〜ていません",
+        "answer": "have not done ~ yet (negative progressive)",
+        "options": [
+          "have not done ~ yet (negative progressive)",
+          "was doing",
+          "will do",
+          "have already done"
+        ]
+      },
+      {
+        "question": "〜てあります",
+        "answer": "has been done (resultant state)",
+        "options": [
+          "has been done (resultant state)",
+          "is being done",
+          "will be done",
+          "hasn't been done"
+        ]
+      },
+      {
+        "question": "〜ておきます",
+        "answer": "to do in advance / for later",
+        "options": [
+          "to undo",
+          "to do in advance / for later",
+          "to forget",
+          "to delay"
+        ]
+      },
+      {
+        "question": "じゅんびします (準備します)",
+        "answer": "to prepare",
+        "options": [
+          "to rest",
+          "to finish",
+          "to cancel",
+          "to prepare"
+        ]
+      },
+      {
+        "question": "かきます (書きます)",
+        "answer": "to write",
+        "options": [
+          "to listen",
+          "to read",
+          "to speak",
+          "to write"
+        ]
+      },
+      {
+        "question": "よみます (読みます)",
+        "answer": "to read",
+        "options": [
+          "to write",
+          "to speak",
+          "to listen",
+          "to read"
+        ]
+      },
+      {
+        "question": "はなします (話します)",
+        "answer": "to speak / talk",
+        "options": [
+          "to listen",
+          "to write",
+          "to read",
+          "to speak / talk"
+        ]
+      },
+      {
+        "question": "わかります (分かります)",
+        "answer": "to understand / know",
+        "options": [
+          "to forget",
+          "to not know",
+          "to understand / know",
+          "to remember"
+        ]
+      },
+      {
+        "question": "おぼえます (覚えます)",
+        "answer": "to memorise / remember",
+        "options": [
+          "to memorise / remember",
+          "to study",
+          "to forget",
+          "to understand"
+        ]
+      },
+      {
+        "question": "わすれます (忘れます)",
+        "answer": "to forget",
+        "options": [
+          "to forget",
+          "to remember",
+          "to understand",
+          "to know"
+        ]
+      },
+      {
+        "question": "ちゅうしょく (昼食) / ひるごはん",
+        "answer": "lunch",
+        "options": [
+          "snack",
+          "dinner",
+          "lunch",
+          "breakfast"
+        ]
+      },
+      {
+        "question": "ちょうしょく / あさごはん (朝ごはん)",
+        "answer": "breakfast",
+        "options": [
+          "snack",
+          "breakfast",
+          "lunch",
+          "dinner"
+        ]
+      },
+      {
+        "question": "ゆうしょく / ばんごはん (晩ごはん)",
+        "answer": "dinner / evening meal",
+        "options": [
+          "breakfast",
+          "snack",
+          "lunch",
+          "dinner / evening meal"
+        ]
+      },
+      {
+        "question": "レポート",
+        "answer": "report / essay",
+        "options": [
+          "homework",
+          "report / essay",
+          "test",
+          "textbook"
+        ]
+      },
+      {
+        "question": "しゅくだい (宿題)",
+        "answer": "homework",
+        "options": [
+          "test",
+          "homework",
+          "textbook",
+          "report"
+        ]
+      },
+      {
+        "question": "テスト",
+        "answer": "test / exam",
+        "options": [
+          "essay",
+          "test / exam",
+          "textbook",
+          "homework"
+        ]
+      },
+      {
+        "question": "けっか (結果)",
+        "answer": "result / outcome",
+        "options": [
+          "process",
+          "plan",
+          "beginning",
+          "result / outcome"
+        ]
+      },
+      {
+        "question": "しめきり (締め切り)",
+        "answer": "deadline",
+        "options": [
+          "beginning",
+          "result",
+          "deadline",
+          "extension"
+        ]
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "vocab",
+    "config": {
+      "answerMode": "mcq",
+      "optionsCount": 4,
+      "timeLimit": 10,
+      "questionsCount": 15
+    },
+    "items": [
+      {
+        "question": "How do you say 'already / soon' in Japanese?",
+        "answer": "もう",
+        "options": [
+          "〜ていません",
+          "〜てあります",
+          "まだ",
+          "もう"
+        ]
+      },
+      {
+        "question": "How do you say 'not yet / still' in Japanese?",
+        "answer": "まだ",
+        "options": [
+          "もう",
+          "まだ",
+          "〜ていません",
+          "〜てあります"
+        ]
+      },
+      {
+        "question": "How do you say 'have not done ~ yet (negative progressive)' in Japanese?",
+        "answer": "〜ていません",
+        "options": [
+          "まだ",
+          "〜ていません",
+          "もう",
+          "〜てあります"
+        ]
+      },
+      {
+        "question": "How do you say 'has been done (resultant state)' in Japanese?",
+        "answer": "〜てあります",
+        "options": [
+          "〜ていません",
+          "もう",
+          "〜てあります",
+          "まだ"
+        ]
+      },
+      {
+        "question": "How do you say 'to do in advance / for later' in Japanese?",
+        "answer": "〜ておきます",
+        "options": [
+          "もう",
+          "〜ておきます",
+          "〜ていません",
+          "まだ"
+        ]
+      },
+      {
+        "question": "How do you say 'to prepare' in Japanese?",
+        "answer": "じゅんびします (準備します)",
+        "options": [
+          "まだ",
+          "もう",
+          "〜ていません",
+          "じゅんびします (準備します)"
+        ]
+      },
+      {
+        "question": "How do you say 'to write' in Japanese?",
+        "answer": "かきます (書きます)",
+        "options": [
+          "かきます (書きます)",
+          "もう",
+          "まだ",
+          "〜ていません"
+        ]
+      },
+      {
+        "question": "How do you say 'to read' in Japanese?",
+        "answer": "よみます (読みます)",
+        "options": [
+          "〜ていません",
+          "まだ",
+          "よみます (読みます)",
+          "もう"
+        ]
+      },
+      {
+        "question": "How do you say 'to speak / talk' in Japanese?",
+        "answer": "はなします (話します)",
+        "options": [
+          "はなします (話します)",
+          "もう",
+          "〜ていません",
+          "まだ"
+        ]
+      },
+      {
+        "question": "How do you say 'to understand / know' in Japanese?",
+        "answer": "わかります (分かります)",
+        "options": [
+          "わかります (分かります)",
+          "もう",
+          "まだ",
+          "〜ていません"
+        ]
+      },
+      {
+        "question": "How do you say 'to memorise / remember' in Japanese?",
+        "answer": "おぼえます (覚えます)",
+        "options": [
+          "〜ていません",
+          "もう",
+          "おぼえます (覚えます)",
+          "まだ"
+        ]
+      },
+      {
+        "question": "How do you say 'to forget' in Japanese?",
+        "answer": "わすれます (忘れます)",
+        "options": [
+          "まだ",
+          "もう",
+          "〜ていません",
+          "わすれます (忘れます)"
+        ]
+      },
+      {
+        "question": "How do you say 'lunch' in Japanese?",
+        "answer": "ちゅうしょく (昼食) / ひるごはん",
+        "options": [
+          "〜ていません",
+          "もう",
+          "まだ",
+          "ちゅうしょく (昼食) / ひるごはん"
+        ]
+      },
+      {
+        "question": "How do you say 'breakfast' in Japanese?",
+        "answer": "ちょうしょく / あさごはん (朝ごはん)",
+        "options": [
+          "ちょうしょく / あさごはん (朝ごはん)",
+          "〜ていません",
+          "もう",
+          "まだ"
+        ]
+      },
+      {
+        "question": "How do you say 'dinner / evening meal' in Japanese?",
+        "answer": "ゆうしょく / ばんごはん (晩ごはん)",
+        "options": [
+          "〜ていません",
+          "ゆうしょく / ばんごはん (晩ごはん)",
+          "もう",
+          "まだ"
+        ]
+      }
+    ]
+  }
+}

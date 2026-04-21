@@ -1,0 +1,116 @@
+{
+  "id": "ch14-examples",
+  "meta": {
+    "title": "Lesson 14: 今何をしていますか — Dialogue & Examples",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "ch14-examples",
+    "subtopic": "What Are You Doing Now?",
+    "description": "Practical dialogues and sentences for Lesson 14: What Are You Doing Now?",
+    "icon": "📞",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "〜ています — Progressive",
+        "back": "て-form + います = is doing (right now)\n\n今なにをしていますか。= What are you doing now?\n→ テレビをみています。= I'm watching TV.\n→ ごはんをたべています。= I'm eating.\n\nUse for ongoing actions happening right now."
+      },
+      {
+        "front": "〜ています — Habitual state",
+        "back": "〜ています also expresses habits or ongoing situations:\n\n東京にすんでいます。= I live in Tokyo.\n(ongoing state of living)\n\nかいしゃにつとめています。= I work at a company.\n(ongoing job situation)\n\nThis is different from present progressive!"
+      },
+      {
+        "front": "Phone conversation phrases",
+        "back": "もしもし = hello? (phone)\nAのBでございます。= This is B from A. (formal)\nAさんはいらっしゃいますか。= Is Mr./Ms. A there?\nしょうしょうおまちください。= Please hold a moment. (formal)\nまたあとでおかけします。= I'll call back later."
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 25,
+      "questionsCount": 3
+    },
+    "items": [
+      {
+        "question": "You call a friend and they answer. What is the first thing said?",
+        "answer": "もしもし",
+        "options": [
+          "もしもし",
+          "はじめまして",
+          "おはようございます",
+          "よろしくおねがいします"
+        ],
+        "explanation": "もしもし = hello? (used only on the phone, not in person)."
+      },
+      {
+        "question": "Your friend is eating when you call. How do they describe what they're doing?",
+        "answer": "ごはんをたべています。",
+        "options": [
+          "ごはんをたべています。",
+          "ごはんをたべました。",
+          "ごはんをたべます。",
+          "ごはんをたべていました。"
+        ],
+        "explanation": "〜ています = ongoing action. たべています = am eating (right now)."
+      },
+      {
+        "question": "You want to ask 'Do you live in Tokyo?' How do you ask?",
+        "answer": "東京にすんでいますか。",
+        "options": [
+          "東京にすんでいますか。",
+          "東京にすみますか。",
+          "東京でたんでいますか。",
+          "東京をすんでいますか。"
+        ],
+        "explanation": "に marks location for living: 〜に住んでいます. すんでいますか = do you live?"
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 12,
+      "questionsCount": 3
+    },
+    "items": [
+      {
+        "question": "You call a friend and they answer. What is the first thing said?",
+        "answer": "もしもし",
+        "options": [
+          "もしもし",
+          "はじめまして",
+          "おはようございます",
+          "よろしくおねがいします"
+        ],
+        "explanation": "もしもし = hello? (used only on the phone, not in person)."
+      },
+      {
+        "question": "Your friend is eating when you call. How do they describe what they're doing?",
+        "answer": "ごはんをたべています。",
+        "options": [
+          "ごはんをたべています。",
+          "ごはんをたべました。",
+          "ごはんをたべます。",
+          "ごはんをたべていました。"
+        ],
+        "explanation": "〜ています = ongoing action. たべています = am eating (right now)."
+      },
+      {
+        "question": "You want to ask 'Do you live in Tokyo?' How do you ask?",
+        "answer": "東京にすんでいますか。",
+        "options": [
+          "東京にすんでいますか。",
+          "東京にすみますか。",
+          "東京でたんでいますか。",
+          "東京をすんでいますか。"
+        ],
+        "explanation": "に marks location for living: 〜に住んでいます. すんでいますか = do you live?"
+      }
+    ]
+  }
+}

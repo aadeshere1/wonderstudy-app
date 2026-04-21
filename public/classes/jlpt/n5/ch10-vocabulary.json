@@ -1,0 +1,422 @@
+{
+  "id": "ch10-vocabulary",
+  "meta": {
+    "title": "Lesson 10: 富士山より高い山はありますか — Vocabulary",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "ch10-vocabulary",
+    "subtopic": "Comparison",
+    "description": "Vocabulary for Minna no Nihongo Lesson 10: Comparison",
+    "icon": "⚖️",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "Comparison: AはBより〜",
+        "back": "A は B より [adjective] です。\n= A is more [adj] than B.\n\n富士山はエベレストより低いです。\n= Mt. Fuji is lower than Everest.\n\nNote: より comes AFTER the comparison point (B)."
+      },
+      {
+        "front": "Comparison: AよりBのほうが〜",
+        "back": "A より B のほうが [adjective] です。\n= B is more [adj] than A.\n\nバスより電車のほうが速いです。\n= The train is faster than the bus.\n\nのほうが = 'on the side of' (more natural for comparisons)"
+      },
+      {
+        "front": "Asking comparison: どちらが〜",
+        "back": "AとBとどちらが〜ですか。\n= Between A and B, which is more ~?\n\nすしとてんぷらとどちらがすきですか。\n= Do you like sushi or tempura better?\n\n→ すしのほうがすきです。= I prefer sushi."
+      },
+      {
+        "front": "Superlative: いちばん〜",
+        "back": "〜の中でいちばん〜 = the most ~ among ~\n\nクラスの中でだれがいちばん背が高いですか。\n= Who is the tallest in the class?\n\n日本でいちばん高い山は富士山です。\n= The highest mountain in Japan is Mt. Fuji."
+      },
+      {
+        "front": "Seasons",
+        "back": "春 (はる) = spring (March-May)\n夏 (なつ) = summer (June-August)\n秋 (あき) = autumn (September-November)\n冬 (ふゆ) = winter (December-February)\n\nQuestion: 一年の中でいつがいちばん好きですか。\n= Which season do you like best?"
+      },
+      {
+        "front": "おなじ vs ちがう",
+        "back": "同じ (おなじ) = same / identical\n違う (ちがう) = different\n\nこれとそれはおなじですか。\n= Are these the same?\n→ はい、おなじです。/ いいえ、ちがいます。\n\nNote: おなじ doesn't take な before a noun: おなじくるま (not おなじなくるま)"
+      },
+      {
+        "front": "〜くらい (approximately)",
+        "back": "〜くらい / 〜ぐらい = about / approximately\n\n30分くらいかかります。\n= It takes about 30 minutes.\n\nおなじくらい = about the same\n\nどのくらい = how much? / how long?"
+      },
+      {
+        "front": "Key question patterns for comparison",
+        "back": "1. どちらが〜ですか。= Which is more ~?\n2. 〜の中でいちばん〜のは何ですか。= What is the most ~ in ~?\n3. どれがいちばん〜ですか。= Which is the most ~?\n4. AとBはどちらがすきですか。= Do you prefer A or B?"
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "vocab",
+    "config": {
+      "answerMode": "mcq",
+      "optionsCount": 4,
+      "timeLimit": 20,
+      "questionsCount": 15
+    },
+    "items": [
+      {
+        "question": "〜より",
+        "answer": "more than ~ / compared to ~",
+        "options": [
+          "less than ~",
+          "as much as ~",
+          "more than ~ / compared to ~",
+          "same as ~"
+        ]
+      },
+      {
+        "question": "〜のほうが",
+        "answer": "~ is more (comparing two things)",
+        "options": [
+          "~ is not",
+          "~ is less",
+          "~ is more (comparing two things)",
+          "~ is the same"
+        ]
+      },
+      {
+        "question": "どちら / どっち",
+        "answer": "which one (of two)?",
+        "options": [
+          "which one (of two)?",
+          "which one (of many)",
+          "how?",
+          "where?"
+        ]
+      },
+      {
+        "question": "いちばん (一番)",
+        "answer": "the most / number one / best",
+        "options": [
+          "least",
+          "second most",
+          "worst",
+          "the most / number one / best"
+        ]
+      },
+      {
+        "question": "〜の中で (〜のなかで)",
+        "answer": "among ~ / within ~",
+        "options": [
+          "compared to ~",
+          "outside of ~",
+          "next to ~",
+          "among ~ / within ~"
+        ]
+      },
+      {
+        "question": "どれ",
+        "answer": "which one (of three or more)?",
+        "options": [
+          "where?",
+          "which one (of three or more)?",
+          "which of two?",
+          "how?"
+        ]
+      },
+      {
+        "question": "〜と〜とどちらが",
+        "answer": "between ~ and ~, which is more ~?",
+        "options": [
+          "how much more?",
+          "between ~ and ~, which is more ~?",
+          "how are they different?",
+          "which is best of all?"
+        ]
+      },
+      {
+        "question": "〜くらい/〜ぐらい",
+        "answer": "approximately ~ / about ~",
+        "options": [
+          "less than ~",
+          "exactly ~",
+          "approximately ~ / about ~",
+          "more than ~"
+        ]
+      },
+      {
+        "question": "おなじ (同じ)",
+        "answer": "the same / identical",
+        "options": [
+          "opposite",
+          "different",
+          "the same / identical",
+          "similar"
+        ]
+      },
+      {
+        "question": "ちがいます (違います)",
+        "answer": "different / wrong / to differ",
+        "options": [
+          "similar",
+          "correct",
+          "same",
+          "different / wrong / to differ"
+        ]
+      },
+      {
+        "question": "きせつ (季節)",
+        "answer": "season",
+        "options": [
+          "month",
+          "weather",
+          "holiday",
+          "season"
+        ]
+      },
+      {
+        "question": "はる (春)",
+        "answer": "spring",
+        "options": [
+          "winter",
+          "spring",
+          "summer",
+          "autumn"
+        ]
+      },
+      {
+        "question": "なつ (夏)",
+        "answer": "summer",
+        "options": [
+          "autumn",
+          "spring",
+          "winter",
+          "summer"
+        ]
+      },
+      {
+        "question": "あき (秋)",
+        "answer": "autumn / fall",
+        "options": [
+          "winter",
+          "spring",
+          "summer",
+          "autumn / fall"
+        ]
+      },
+      {
+        "question": "ふゆ (冬)",
+        "answer": "winter",
+        "options": [
+          "autumn",
+          "spring",
+          "winter",
+          "summer"
+        ]
+      },
+      {
+        "question": "やま (山)",
+        "answer": "mountain",
+        "options": [
+          "river",
+          "mountain",
+          "forest",
+          "sea"
+        ]
+      },
+      {
+        "question": "うみ (海)",
+        "answer": "sea / ocean",
+        "options": [
+          "lake",
+          "mountain",
+          "sea / ocean",
+          "river"
+        ]
+      },
+      {
+        "question": "かわ (川)",
+        "answer": "river",
+        "options": [
+          "lake",
+          "sea",
+          "mountain",
+          "river"
+        ]
+      },
+      {
+        "question": "しぜん (自然)",
+        "answer": "nature",
+        "options": [
+          "road",
+          "building",
+          "city",
+          "nature"
+        ]
+      },
+      {
+        "question": "すき (好き)",
+        "answer": "like / fond of (な-adjective)",
+        "options": [
+          "dislike",
+          "hate",
+          "like / fond of (な-adjective)",
+          "neutral"
+        ]
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "vocab",
+    "config": {
+      "answerMode": "mcq",
+      "optionsCount": 4,
+      "timeLimit": 10,
+      "questionsCount": 15
+    },
+    "items": [
+      {
+        "question": "How do you say 'more than ~ / compared to ~' in Japanese?",
+        "answer": "〜より",
+        "options": [
+          "〜のほうが",
+          "〜より",
+          "いちばん (一番)",
+          "どちら / どっち"
+        ]
+      },
+      {
+        "question": "How do you say '~ is more (comparing two things)' in Japanese?",
+        "answer": "〜のほうが",
+        "options": [
+          "〜のほうが",
+          "〜より",
+          "どちら / どっち",
+          "いちばん (一番)"
+        ]
+      },
+      {
+        "question": "How do you say 'which one (of two)?' in Japanese?",
+        "answer": "どちら / どっち",
+        "options": [
+          "〜のほうが",
+          "いちばん (一番)",
+          "どちら / どっち",
+          "〜より"
+        ]
+      },
+      {
+        "question": "How do you say 'the most / number one / best' in Japanese?",
+        "answer": "いちばん (一番)",
+        "options": [
+          "〜より",
+          "〜のほうが",
+          "いちばん (一番)",
+          "どちら / どっち"
+        ]
+      },
+      {
+        "question": "How do you say 'among ~ / within ~' in Japanese?",
+        "answer": "〜の中で (〜のなかで)",
+        "options": [
+          "どちら / どっち",
+          "〜より",
+          "〜の中で (〜のなかで)",
+          "〜のほうが"
+        ]
+      },
+      {
+        "question": "How do you say 'which one (of three or more)?' in Japanese?",
+        "answer": "どれ",
+        "options": [
+          "〜のほうが",
+          "どちら / どっち",
+          "〜より",
+          "どれ"
+        ]
+      },
+      {
+        "question": "How do you say 'between ~ and ~, which is more ~?' in Japanese?",
+        "answer": "〜と〜とどちらが",
+        "options": [
+          "〜と〜とどちらが",
+          "〜より",
+          "〜のほうが",
+          "どちら / どっち"
+        ]
+      },
+      {
+        "question": "How do you say 'approximately ~ / about ~' in Japanese?",
+        "answer": "〜くらい/〜ぐらい",
+        "options": [
+          "〜くらい/〜ぐらい",
+          "どちら / どっち",
+          "〜のほうが",
+          "〜より"
+        ]
+      },
+      {
+        "question": "How do you say 'the same / identical' in Japanese?",
+        "answer": "おなじ (同じ)",
+        "options": [
+          "〜のほうが",
+          "どちら / どっち",
+          "〜より",
+          "おなじ (同じ)"
+        ]
+      },
+      {
+        "question": "How do you say 'different / wrong / to differ' in Japanese?",
+        "answer": "ちがいます (違います)",
+        "options": [
+          "〜のほうが",
+          "ちがいます (違います)",
+          "〜より",
+          "どちら / どっち"
+        ]
+      },
+      {
+        "question": "How do you say 'season' in Japanese?",
+        "answer": "きせつ (季節)",
+        "options": [
+          "きせつ (季節)",
+          "〜より",
+          "どちら / どっち",
+          "〜のほうが"
+        ]
+      },
+      {
+        "question": "How do you say 'spring' in Japanese?",
+        "answer": "はる (春)",
+        "options": [
+          "〜のほうが",
+          "〜より",
+          "はる (春)",
+          "どちら / どっち"
+        ]
+      },
+      {
+        "question": "How do you say 'summer' in Japanese?",
+        "answer": "なつ (夏)",
+        "options": [
+          "〜より",
+          "なつ (夏)",
+          "どちら / どっち",
+          "〜のほうが"
+        ]
+      },
+      {
+        "question": "How do you say 'autumn / fall' in Japanese?",
+        "answer": "あき (秋)",
+        "options": [
+          "どちら / どっち",
+          "〜より",
+          "〜のほうが",
+          "あき (秋)"
+        ]
+      },
+      {
+        "question": "How do you say 'winter' in Japanese?",
+        "answer": "ふゆ (冬)",
+        "options": [
+          "〜のほうが",
+          "〜より",
+          "ふゆ (冬)",
+          "どちら / どっち"
+        ]
+      }
+    ]
+  }
+}

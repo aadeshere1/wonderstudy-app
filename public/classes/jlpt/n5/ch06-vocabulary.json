@@ -1,0 +1,422 @@
+{
+  "id": "ch06-vocabulary",
+  "meta": {
+    "title": "Lesson 6: 富士山に登りましょう — Vocabulary",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "ch06-vocabulary",
+    "subtopic": "Let's Climb Mt. Fuji",
+    "description": "Vocabulary for Minna no Nihongo Lesson 6: Let's Climb Mt. Fuji",
+    "icon": "🗻",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "Transportation",
+        "back": "でんしゃ (電車) = electric train\nバス = bus\nちかてつ (地下鉄) = subway\nタクシー = taxi\nひこうき (飛行機) = airplane\nふね (船) = ship\nくるま (車) = car\nじてんしゃ (自転車) = bicycle"
+      },
+      {
+        "front": "Transport verbs",
+        "back": "のります (乗ります) = to board/ride\nおります (降ります) = to get off\nあるきます (歩きます) = to walk\nのぼります (登ります) = to climb\n\nで = by (means): でんしゃで = by train\nに = onto: でんしゃに乗ります = board the train"
+      },
+      {
+        "front": "Invitation patterns",
+        "back": "〜ませんか = Won't you ~? (inviting someone)\n一緒に映画を見ませんか。\n= Won't you watch a movie together?\n\n〜ましょう = Let's ~! (agreement/suggestion)\n行きましょう！= Let's go!"
+      },
+      {
+        "front": "〜ましょうか",
+        "back": "〜ましょうか = Shall I ~? / Shall we ~?\n\nOffering help:\nかばんを持ちましょうか。\n= Shall I carry your bag?\n\nSuggesting together:\n一緒に行きましょうか。= Shall we go together?"
+      },
+      {
+        "front": "Soft refusals with ちょっと",
+        "back": "ちょっと... is used to politely decline invitations\nwithout saying NO directly.\n\nA: 映画を見ませんか。\nB: すみません、ちょっと...\n\nA: Won't you watch a movie?\nB: I'm sorry, it's a bit... (implying no)"
+      },
+      {
+        "front": "でから = and then / after doing",
+        "back": "[Verb て-form]から + [next action]\n\nでんしゃに乗ってから、バスに乗ります。\n= After taking the train, I take the bus.\n\nCan also use 〜てから for 'after doing':\n食べてから、歯を磨きます。\n= After eating, I brush my teeth."
+      },
+      {
+        "front": "て-form basics",
+        "back": "て-form is used to connect actions and make requests.\n\nGroup 1 (u-verbs): 〜って / 〜いて / 〜して\n飲む → 飲んで\n書く → 書いて\n\nGroup 2 (ru-verbs): 〜て\n食べる → 食べて\n見る → 見て\n\nIrregular:\nする → して\nくる → きて"
+      },
+      {
+        "front": "Key phrases for invitations",
+        "back": "一緒に〜ませんか。= Won't you ~ together?\nいいですね！= That sounds great!\nいいですよ。= That's fine / Sure.\nすみません、ちょっと... = Sorry, a bit difficult...\nまた今度。= Another time.\nぜひ！= By all means! / Definitely!"
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "vocab",
+    "config": {
+      "answerMode": "mcq",
+      "optionsCount": 4,
+      "timeLimit": 20,
+      "questionsCount": 15
+    },
+    "items": [
+      {
+        "question": "のります (乗ります)",
+        "answer": "to ride / board (transport)",
+        "options": [
+          "to get off",
+          "to drive",
+          "to walk",
+          "to ride / board (transport)"
+        ]
+      },
+      {
+        "question": "おります (降ります)",
+        "answer": "to get off (transport)",
+        "options": [
+          "to drive",
+          "to board",
+          "to walk",
+          "to get off (transport)"
+        ]
+      },
+      {
+        "question": "あるきます (歩きます)",
+        "answer": "to walk",
+        "options": [
+          "to fly",
+          "to ride",
+          "to walk",
+          "to run"
+        ]
+      },
+      {
+        "question": "のぼります (登ります)",
+        "answer": "to climb",
+        "options": [
+          "to climb",
+          "to walk",
+          "to swim",
+          "to descend"
+        ]
+      },
+      {
+        "question": "でんしゃ (電車)",
+        "answer": "electric train",
+        "options": [
+          "electric train",
+          "bus",
+          "taxi",
+          "airplane"
+        ]
+      },
+      {
+        "question": "バス",
+        "answer": "bus",
+        "options": [
+          "bicycle",
+          "taxi",
+          "train",
+          "bus"
+        ]
+      },
+      {
+        "question": "ちかてつ (地下鉄)",
+        "answer": "subway / underground",
+        "options": [
+          "bus",
+          "taxi",
+          "subway / underground",
+          "train"
+        ]
+      },
+      {
+        "question": "タクシー",
+        "answer": "taxi",
+        "options": [
+          "train",
+          "taxi",
+          "bicycle",
+          "bus"
+        ]
+      },
+      {
+        "question": "ひこうき (飛行機)",
+        "answer": "airplane",
+        "options": [
+          "airplane",
+          "bus",
+          "train",
+          "ship"
+        ]
+      },
+      {
+        "question": "ふね (船)",
+        "answer": "ship / boat",
+        "options": [
+          "train",
+          "ship / boat",
+          "bus",
+          "airplane"
+        ]
+      },
+      {
+        "question": "くるま (車)",
+        "answer": "car",
+        "options": [
+          "car",
+          "truck",
+          "bicycle",
+          "motorcycle"
+        ]
+      },
+      {
+        "question": "じてんしゃ (自転車)",
+        "answer": "bicycle",
+        "options": [
+          "bus",
+          "motorcycle",
+          "car",
+          "bicycle"
+        ]
+      },
+      {
+        "question": "〜ませんか",
+        "answer": "Won't you ~? / Shall we ~? (invitation)",
+        "options": [
+          "I want to ~",
+          "Let's ~!",
+          "Won't you ~? / Shall we ~? (invitation)",
+          "Please do ~"
+        ]
+      },
+      {
+        "question": "〜ましょう",
+        "answer": "Let's ~ (suggestion/invitation)",
+        "options": [
+          "I don't want to ~",
+          "Let's ~ (suggestion/invitation)",
+          "Won't you ~?",
+          "Please ~"
+        ]
+      },
+      {
+        "question": "〜ましょうか",
+        "answer": "Shall I ~? / Shall we ~?",
+        "options": [
+          "I must ~",
+          "Shall I ~? / Shall we ~?",
+          "Let's ~",
+          "Won't you ~?"
+        ]
+      },
+      {
+        "question": "いっしょに (一緒に)",
+        "answer": "together",
+        "options": [
+          "each other",
+          "separately",
+          "alone",
+          "together"
+        ]
+      },
+      {
+        "question": "ちょっと",
+        "answer": "a little / a moment / (soft refusal)",
+        "options": [
+          "a little / a moment / (soft refusal)",
+          "never",
+          "always",
+          "a lot"
+        ]
+      },
+      {
+        "question": "でも",
+        "answer": "but / however (sentence-initial)",
+        "options": [
+          "but / however (sentence-initial)",
+          "so",
+          "and",
+          "because"
+        ]
+      },
+      {
+        "question": "〜てから",
+        "answer": "after doing ~ / and then",
+        "options": [
+          "before doing ~",
+          "without doing ~",
+          "after doing ~ / and then",
+          "while doing ~"
+        ]
+      },
+      {
+        "question": "はじめに (初めに)",
+        "answer": "first of all / to begin with",
+        "options": [
+          "first of all / to begin with",
+          "finally",
+          "then",
+          "next"
+        ]
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "vocab",
+    "config": {
+      "answerMode": "mcq",
+      "optionsCount": 4,
+      "timeLimit": 10,
+      "questionsCount": 15
+    },
+    "items": [
+      {
+        "question": "How do you say 'to ride / board (transport)' in Japanese?",
+        "answer": "のります (乗ります)",
+        "options": [
+          "おります (降ります)",
+          "のぼります (登ります)",
+          "のります (乗ります)",
+          "あるきます (歩きます)"
+        ]
+      },
+      {
+        "question": "How do you say 'to get off (transport)' in Japanese?",
+        "answer": "おります (降ります)",
+        "options": [
+          "のぼります (登ります)",
+          "のります (乗ります)",
+          "おります (降ります)",
+          "あるきます (歩きます)"
+        ]
+      },
+      {
+        "question": "How do you say 'to walk' in Japanese?",
+        "answer": "あるきます (歩きます)",
+        "options": [
+          "のぼります (登ります)",
+          "のります (乗ります)",
+          "おります (降ります)",
+          "あるきます (歩きます)"
+        ]
+      },
+      {
+        "question": "How do you say 'to climb' in Japanese?",
+        "answer": "のぼります (登ります)",
+        "options": [
+          "のぼります (登ります)",
+          "のります (乗ります)",
+          "おります (降ります)",
+          "あるきます (歩きます)"
+        ]
+      },
+      {
+        "question": "How do you say 'electric train' in Japanese?",
+        "answer": "でんしゃ (電車)",
+        "options": [
+          "おります (降ります)",
+          "でんしゃ (電車)",
+          "のります (乗ります)",
+          "あるきます (歩きます)"
+        ]
+      },
+      {
+        "question": "How do you say 'bus' in Japanese?",
+        "answer": "バス",
+        "options": [
+          "のります (乗ります)",
+          "おります (降ります)",
+          "あるきます (歩きます)",
+          "バス"
+        ]
+      },
+      {
+        "question": "How do you say 'subway / underground' in Japanese?",
+        "answer": "ちかてつ (地下鉄)",
+        "options": [
+          "のります (乗ります)",
+          "あるきます (歩きます)",
+          "おります (降ります)",
+          "ちかてつ (地下鉄)"
+        ]
+      },
+      {
+        "question": "How do you say 'taxi' in Japanese?",
+        "answer": "タクシー",
+        "options": [
+          "あるきます (歩きます)",
+          "おります (降ります)",
+          "タクシー",
+          "のります (乗ります)"
+        ]
+      },
+      {
+        "question": "How do you say 'airplane' in Japanese?",
+        "answer": "ひこうき (飛行機)",
+        "options": [
+          "おります (降ります)",
+          "あるきます (歩きます)",
+          "のります (乗ります)",
+          "ひこうき (飛行機)"
+        ]
+      },
+      {
+        "question": "How do you say 'ship / boat' in Japanese?",
+        "answer": "ふね (船)",
+        "options": [
+          "あるきます (歩きます)",
+          "ふね (船)",
+          "のります (乗ります)",
+          "おります (降ります)"
+        ]
+      },
+      {
+        "question": "How do you say 'car' in Japanese?",
+        "answer": "くるま (車)",
+        "options": [
+          "あるきます (歩きます)",
+          "のります (乗ります)",
+          "おります (降ります)",
+          "くるま (車)"
+        ]
+      },
+      {
+        "question": "How do you say 'bicycle' in Japanese?",
+        "answer": "じてんしゃ (自転車)",
+        "options": [
+          "じてんしゃ (自転車)",
+          "あるきます (歩きます)",
+          "のります (乗ります)",
+          "おります (降ります)"
+        ]
+      },
+      {
+        "question": "How do you say 'Won't you ~? / Shall we ~? (invitation)' in Japanese?",
+        "answer": "〜ませんか",
+        "options": [
+          "のります (乗ります)",
+          "おります (降ります)",
+          "〜ませんか",
+          "あるきます (歩きます)"
+        ]
+      },
+      {
+        "question": "How do you say 'Let's ~ (suggestion/invitation)' in Japanese?",
+        "answer": "〜ましょう",
+        "options": [
+          "〜ましょう",
+          "あるきます (歩きます)",
+          "おります (降ります)",
+          "のります (乗ります)"
+        ]
+      },
+      {
+        "question": "How do you say 'Shall I ~? / Shall we ~?' in Japanese?",
+        "answer": "〜ましょうか",
+        "options": [
+          "あるきます (歩きます)",
+          "おります (降ります)",
+          "〜ましょうか",
+          "のります (乗ります)"
+        ]
+      }
+    ]
+  }
+}

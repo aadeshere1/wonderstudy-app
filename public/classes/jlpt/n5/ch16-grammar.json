@@ -1,0 +1,160 @@
+{
+  "id": "ch16-grammar",
+  "meta": {
+    "title": "Lesson 16: 荷物を送りたいんですが — Grammar",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "ch16-grammar",
+    "subtopic": "I'd Like to Send Some Luggage",
+    "description": "Grammar patterns for Minna no Nihongo Lesson 16: I'd Like to Send Some Luggage",
+    "icon": "📦",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "〜たい — Want to do",
+        "back": "Verb stem + たい = want to do ~\n\n食べたい = want to eat\n行きたい = want to go\n見たい = want to see\n\nPolite: 〜たいです\nNegative: 〜たくないです\nPast: 〜たかったです"
+      },
+      {
+        "front": "〜たいと思っています",
+        "back": "〜たい + と思っています = am thinking of ~ing / I'm planning to ~\n\n日本語を勉強したいと思っています。\n= I'm thinking of studying Japanese.\n\nMore tentative than たいです. Often used for future plans."
+      },
+      {
+        "front": "〜んですが — Context giving",
+        "back": "〜んですが = It's that ~ (giving background before a request)\n\n荷物を送りたいんですが...\n= I'd like to send luggage... (so could you help?)\n\nImplies that what follows is a request or question.\nVery natural and polite in Japanese!"
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 25,
+      "questionsCount": 5
+    },
+    "items": [
+      {
+        "question": "にほんへ行き ___ です。(I want to go to Japan.)",
+        "answer": "たい",
+        "options": [
+          "たい",
+          "ます",
+          "ました",
+          "ています"
+        ],
+        "explanation": "Verb stem + たい = want to do. 行く → 行き + たい = want to go."
+      },
+      {
+        "question": "にほんごをべんきょうし ___ と思っています。(I'm thinking of studying Japanese.)",
+        "answer": "たい",
+        "options": [
+          "たい",
+          "て",
+          "ます",
+          "ました"
+        ],
+        "explanation": "〜たいと思っています = am thinking of ~ing. たい + と思っています."
+      },
+      {
+        "question": "てがみをおく ___ んですが。(It's that I'd like to send a letter.)",
+        "answer": "りたい",
+        "options": [
+          "りたい",
+          "ります",
+          "りました",
+          "っています"
+        ],
+        "explanation": "送る + たい = 送りたい. + んですが adds context/background before a request."
+      },
+      {
+        "question": "〜んですが is used to:",
+        "answer": "Give context before making a request",
+        "options": [
+          "Give context before making a request",
+          "Deny something",
+          "Ask a direct question",
+          "Give a reason with から"
+        ],
+        "explanation": "〜んですが sets up background information, implying a request follows. Very natural in service situations."
+      },
+      {
+        "question": "I don't want to go. Which is correct?",
+        "answer": "行きたくないです",
+        "options": [
+          "行きたくないです",
+          "行きたいじゃないです",
+          "行きたないです",
+          "行きくないです"
+        ],
+        "explanation": "Negative of たい: たい → たくない + です. 行きたくないです = don't want to go."
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 12,
+      "questionsCount": 5
+    },
+    "items": [
+      {
+        "question": "にほんへ行き ___ です。(I want to go to Japan.)",
+        "answer": "たい",
+        "options": [
+          "たい",
+          "ます",
+          "ました",
+          "ています"
+        ],
+        "explanation": "Verb stem + たい = want to do. 行く → 行き + たい = want to go."
+      },
+      {
+        "question": "にほんごをべんきょうし ___ と思っています。(I'm thinking of studying Japanese.)",
+        "answer": "たい",
+        "options": [
+          "たい",
+          "て",
+          "ます",
+          "ました"
+        ],
+        "explanation": "〜たいと思っています = am thinking of ~ing. たい + と思っています."
+      },
+      {
+        "question": "てがみをおく ___ んですが。(It's that I'd like to send a letter.)",
+        "answer": "りたい",
+        "options": [
+          "りたい",
+          "ります",
+          "りました",
+          "っています"
+        ],
+        "explanation": "送る + たい = 送りたい. + んですが adds context/background before a request."
+      },
+      {
+        "question": "〜んですが is used to:",
+        "answer": "Give context before making a request",
+        "options": [
+          "Give context before making a request",
+          "Deny something",
+          "Ask a direct question",
+          "Give a reason with から"
+        ],
+        "explanation": "〜んですが sets up background information, implying a request follows. Very natural in service situations."
+      },
+      {
+        "question": "I don't want to go. Which is correct?",
+        "answer": "行きたくないです",
+        "options": [
+          "行きたくないです",
+          "行きたいじゃないです",
+          "行きたないです",
+          "行きくないです"
+        ],
+        "explanation": "Negative of たい: たい → たくない + です. 行きたくないです = don't want to go."
+      }
+    ]
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "id": "ch04-examples",
+  "meta": {
+    "title": "Lesson 4: 毎日何時に起きますか — Dialogue & Examples",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "ch04-examples",
+    "subtopic": "What Time Do You Get Up?",
+    "description": "Practical dialogues and sentences for Lesson 4: What Time Do You Get Up?",
+    "icon": "⏰",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "Talking about daily schedule",
+        "back": "毎朝6時に起きます。= I wake up at 6 every morning.\n7時から8時まで勉強します。= I study from 7 to 8.\nごご5時まで働きます。= I work until 5 PM."
+      },
+      {
+        "front": "Asking about someone's schedule",
+        "back": "A: 毎朝何時に起きますか。\nB: 6時半に起きます。\n\nA: What time do you wake up every morning?\nB: I wake up at 6:30."
+      },
+      {
+        "front": "Japanese time format",
+        "back": "Japan uses 24-hour and 12-hour formats.\nごぜん (午前) = AM\nごご (午後) = PM\n\n13:00 = ごご1じ (1 PM)\n18:30 = ごご6じはん (6:30 PM)\n\nOfficial notices often use 13時, 18時 etc."
+      },
+      {
+        "front": "Verb dictionary form → ます form",
+        "back": "おきる → おきます (wake up)\nねる → ねます (sleep)\nたべる → たべます (eat)\nのむ → のみます (drink)\nはたらく → はたらきます (work)\n\nます form = polite present/habitual tense"
+      },
+      {
+        "front": "Negative: 〜ません",
+        "back": "Replace ます with ません for negative.\n起きます → 起きません (don't wake up)\n食べます → 食べません (don't eat)\n\nExample: あさごはんを食べません。\n= I don't eat breakfast."
+      },
+      {
+        "front": "Key question: 何時間〜ますか",
+        "back": "A: 毎日何時間べんきょうしますか。\nB: ２時間べんきょうします。\n\nA: How many hours do you study every day?\nB: I study for 2 hours.\n\n〜時間 (じかん) = ~ hours"
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 25,
+      "questionsCount": 8
+    },
+    "items": [
+      {
+        "question": "How do you say 'I wake up at 6:30 every morning'?",
+        "answer": "毎朝6時半に起きます。",
+        "options": [
+          "毎朝6時半に起きます。",
+          "毎朝6時半で起きます。",
+          "毎朝に6時半起きます。",
+          "毎朝6時半から起きます。"
+        ],
+        "explanation": "Specific time uses に: 6時半に起きます. まいあさ doesn't need に, but the clock time does."
+      },
+      {
+        "question": "You work from 9AM to 6PM. How do you say this?",
+        "answer": "ごぜん9時からごご6時まではたらきます。",
+        "options": [
+          "ごぜん9時からごご6時まではたらきます。",
+          "ごぜん9時にごご6時まではたらきます。",
+          "ごぜん9時からごご6時にはたらきます。",
+          "ごぜん9時ごろごご6時まではたらきます。"
+        ],
+        "explanation": "から〜まで = from〜to. ごぜん = AM, ごご = PM."
+      },
+      {
+        "question": "A: 毎晩何時に寝ますか。B: 11時ごろに寝ます。What does ごろ mean here?",
+        "answer": "Around / approximately",
+        "options": [
+          "Around / approximately",
+          "Exactly",
+          "Before",
+          "After"
+        ],
+        "explanation": "ごろ = around/approximately. 11時ごろに = around 11 o'clock (not exactly)."
+      },
+      {
+        "question": "You don't eat breakfast. How do you say this?",
+        "answer": "あさごはんを食べません。",
+        "options": [
+          "あさごはんを食べません。",
+          "あさごはんが食べません。",
+          "あさごはんは食べません。",
+          "あさごはんで食べません。"
+        ],
+        "explanation": "を marks the direct object of eating. Negative: 食べません. (Note: は can also be used for contrast.)"
+      },
+      {
+        "question": "What time is 7:15?",
+        "answer": "しちじじゅうごふん",
+        "options": [
+          "しちじじゅうごふん",
+          "ななじじゅうごふん",
+          "しちじごじゅっぷん",
+          "ごじじゅうなな"
+        ],
+        "explanation": "7:15 = しちじじゅうごふん. Hours use しち (7), minutes use regular numbers + ふん."
+      },
+      {
+        "question": "How do you ask 'How many hours do you work?'",
+        "answer": "なんじかんはたらきますか。",
+        "options": [
+          "なんじかんはたらきますか。",
+          "なんじにはたらきますか。",
+          "なんじまではたらきますか。",
+          "なんじからはたらきますか。"
+        ],
+        "explanation": "何時間 (なんじかん) = how many hours? This asks duration, not the clock time."
+      },
+      {
+        "question": "You study from 8PM to 10PM. How do you express this?",
+        "answer": "ごご8時から10時まで勉強します。",
+        "options": [
+          "ごご8時から10時まで勉強します。",
+          "ごご8時に10時まで勉強します。",
+          "ごご8時から10時に勉強します。",
+          "ごご8時まで10時から勉強します。"
+        ],
+        "explanation": "から = from, まで = until/to. 8時から10時まで = from 8 to 10."
+      },
+      {
+        "question": "What does まいばん mean?",
+        "answer": "Every evening / every night",
+        "options": [
+          "Every evening / every night",
+          "Every morning",
+          "Every week",
+          "Every day"
+        ],
+        "explanation": "毎晩 (まいばん) = every evening/night. 毎朝 (まいあさ) = every morning. 毎日 (まいにち) = every day."
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 12,
+      "questionsCount": 8
+    },
+    "items": [
+      {
+        "question": "How do you say 'I wake up at 6:30 every morning'?",
+        "answer": "毎朝6時半に起きます。",
+        "options": [
+          "毎朝6時半に起きます。",
+          "毎朝6時半で起きます。",
+          "毎朝に6時半起きます。",
+          "毎朝6時半から起きます。"
+        ],
+        "explanation": "Specific time uses に: 6時半に起きます. まいあさ doesn't need に, but the clock time does."
+      },
+      {
+        "question": "You work from 9AM to 6PM. How do you say this?",
+        "answer": "ごぜん9時からごご6時まではたらきます。",
+        "options": [
+          "ごぜん9時からごご6時まではたらきます。",
+          "ごぜん9時にごご6時まではたらきます。",
+          "ごぜん9時からごご6時にはたらきます。",
+          "ごぜん9時ごろごご6時まではたらきます。"
+        ],
+        "explanation": "から〜まで = from〜to. ごぜん = AM, ごご = PM."
+      },
+      {
+        "question": "A: 毎晩何時に寝ますか。B: 11時ごろに寝ます。What does ごろ mean here?",
+        "answer": "Around / approximately",
+        "options": [
+          "Around / approximately",
+          "Exactly",
+          "Before",
+          "After"
+        ],
+        "explanation": "ごろ = around/approximately. 11時ごろに = around 11 o'clock (not exactly)."
+      },
+      {
+        "question": "You don't eat breakfast. How do you say this?",
+        "answer": "あさごはんを食べません。",
+        "options": [
+          "あさごはんを食べません。",
+          "あさごはんが食べません。",
+          "あさごはんは食べません。",
+          "あさごはんで食べません。"
+        ],
+        "explanation": "を marks the direct object of eating. Negative: 食べません. (Note: は can also be used for contrast.)"
+      },
+      {
+        "question": "What time is 7:15?",
+        "answer": "しちじじゅうごふん",
+        "options": [
+          "しちじじゅうごふん",
+          "ななじじゅうごふん",
+          "しちじごじゅっぷん",
+          "ごじじゅうなな"
+        ],
+        "explanation": "7:15 = しちじじゅうごふん. Hours use しち (7), minutes use regular numbers + ふん."
+      },
+      {
+        "question": "How do you ask 'How many hours do you work?'",
+        "answer": "なんじかんはたらきますか。",
+        "options": [
+          "なんじかんはたらきますか。",
+          "なんじにはたらきますか。",
+          "なんじまではたらきますか。",
+          "なんじからはたらきますか。"
+        ],
+        "explanation": "何時間 (なんじかん) = how many hours? This asks duration, not the clock time."
+      },
+      {
+        "question": "You study from 8PM to 10PM. How do you express this?",
+        "answer": "ごご8時から10時まで勉強します。",
+        "options": [
+          "ごご8時から10時まで勉強します。",
+          "ごご8時に10時まで勉強します。",
+          "ごご8時から10時に勉強します。",
+          "ごご8時まで10時から勉強します。"
+        ],
+        "explanation": "から = from, まで = until/to. 8時から10時まで = from 8 to 10."
+      },
+      {
+        "question": "What does まいばん mean?",
+        "answer": "Every evening / every night",
+        "options": [
+          "Every evening / every night",
+          "Every morning",
+          "Every week",
+          "Every day"
+        ],
+        "explanation": "毎晩 (まいばん) = every evening/night. 毎朝 (まいあさ) = every morning. 毎日 (まいにち) = every day."
+      }
+    ]
+  }
+}

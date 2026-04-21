@@ -1,0 +1,116 @@
+{
+  "id": "ch23-examples",
+  "meta": {
+    "title": "Lesson 23: 日本語が少し話せます — Dialogue & Examples",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "ch23-examples",
+    "subtopic": "I Can Speak a Little Japanese",
+    "description": "Practical dialogues and sentences for Lesson 23: I Can Speak a Little Japanese",
+    "icon": "💬",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "Potential form review (all groups)",
+        "back": "Group 1: 書く → 書ける / 読む → 読める\nGroup 2: 食べる → 食べられる / 見る → 見られる\nIrregular:\nする → できる\n来る → 来られる\n\nObject: が (or を in casual)\nパソコンが使えます = can use a computer"
+      },
+      {
+        "front": "Embedded questions with 〜か",
+        "back": "[question word] + [verb] + か + わかりません\n\nどこに行けばいいかわかりません。\n= I don't know where I should go.\n\nなんじにくるかおしえてください。\n= Please tell me what time you're coming.\n\nか = 'whether/if' in indirect questions"
+      },
+      {
+        "front": "Expressing ability level",
+        "back": "少し〜できます = can ~ a little\nすこしにほんごが話せます = can speak Japanese a little\n\nとても上手です = very skilled\nあまり上手じゃないです = not very skilled\nぜんぜんできません = can't do at all"
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 25,
+      "questionsCount": 3
+    },
+    "items": [
+      {
+        "question": "Someone asks if you can use a computer. You can. What do you say?",
+        "answer": "はい、パソコンが使えます。",
+        "options": [
+          "はい、パソコンが使えます。",
+          "はい、パソコンができます。",
+          "はい、パソコンが使います。",
+          "A and B are both correct"
+        ],
+        "explanation": "使う → 使える (potential). パソコンが使えます OR パソコンができます both work."
+      },
+      {
+        "question": "You can speak Japanese a little. How do you say this modestly?",
+        "answer": "すこし日本語が話せます。",
+        "options": [
+          "すこし日本語が話せます。",
+          "日本語がとても上手です。",
+          "日本語ができません。",
+          "日本語がぜんぜん話せません。"
+        ],
+        "explanation": "少し + potential = can do a little. 少し日本語が話せます = can speak Japanese a little."
+      },
+      {
+        "question": "You don't know whether the shop is open. How do you express this?",
+        "answer": "みせが開いているかどうかわかりません。",
+        "options": [
+          "みせが開いているかどうかわかりません。",
+          "みせが開いているかわかりません。",
+          "みせが開いているからわかりません。",
+          "Both A and B are natural"
+        ],
+        "explanation": "〜かどうかわかりません = don't know whether ~ or not. 〜かわかりません is also natural."
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 12,
+      "questionsCount": 3
+    },
+    "items": [
+      {
+        "question": "Someone asks if you can use a computer. You can. What do you say?",
+        "answer": "はい、パソコンが使えます。",
+        "options": [
+          "はい、パソコンが使えます。",
+          "はい、パソコンができます。",
+          "はい、パソコンが使います。",
+          "A and B are both correct"
+        ],
+        "explanation": "使う → 使える (potential). パソコンが使えます OR パソコンができます both work."
+      },
+      {
+        "question": "You can speak Japanese a little. How do you say this modestly?",
+        "answer": "すこし日本語が話せます。",
+        "options": [
+          "すこし日本語が話せます。",
+          "日本語がとても上手です。",
+          "日本語ができません。",
+          "日本語がぜんぜん話せません。"
+        ],
+        "explanation": "少し + potential = can do a little. 少し日本語が話せます = can speak Japanese a little."
+      },
+      {
+        "question": "You don't know whether the shop is open. How do you express this?",
+        "answer": "みせが開いているかどうかわかりません。",
+        "options": [
+          "みせが開いているかどうかわかりません。",
+          "みせが開いているかわかりません。",
+          "みせが開いているからわかりません。",
+          "Both A and B are natural"
+        ],
+        "explanation": "〜かどうかわかりません = don't know whether ~ or not. 〜かわかりません is also natural."
+      }
+    ]
+  }
+}

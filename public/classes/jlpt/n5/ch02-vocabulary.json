@@ -1,0 +1,442 @@
+{
+  "id": "ch02-vocabulary",
+  "meta": {
+    "title": "Lesson 2: これはなんですか — Vocabulary",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "ch02-vocabulary",
+    "subtopic": "What Is This?",
+    "description": "Vocabulary for Minna no Nihongo Lesson 2: What Is This?",
+    "icon": "📦",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "これ / それ / あれ / どれ",
+        "back": "これ = this (near ME)\nそれ = that (near YOU)\nあれ = that (far from BOTH of us)\nどれ = which one?\n\nTip: Think of the distance between speakers!"
+      },
+      {
+        "front": "Stationery vocabulary",
+        "back": "えんぴつ = pencil\nボールペン = ballpoint pen\nノート = notebook\nてちょう = pocket planner\nじしょ = dictionary"
+      },
+      {
+        "front": "Everyday objects",
+        "back": "かぎ = key\nとけい = watch/clock\nかさ = umbrella\nかばん = bag\nめいし = business card"
+      },
+      {
+        "front": "Reading material",
+        "back": "ほん (本) = book\nざっし (雑誌) = magazine\nしんぶん (新聞) = newspaper\nじしょ (辞書) = dictionary"
+      },
+      {
+        "front": "Question words",
+        "back": "なん / なに = what?\nだれ = who?\nどれ = which one?\nいくら = how much?\n\nAll question words go where the answer would be!"
+      },
+      {
+        "front": "〜の (possession)",
+        "back": "〜の connects owner to object:\nわたしの かばん = my bag\nせんせいの ほん = the teacher's book\nIMCの ミラーさん = Mr. Miller of IMC"
+      },
+      {
+        "front": "そうです / そうじゃありません",
+        "back": "そうです = Yes, that's right\nそうじゃありません = That's not right\n\nUsed to confirm or deny identity:\nA: これはとけいですか。\nB: はい、そうです。"
+      },
+      {
+        "front": "Asking 'whose'",
+        "back": "これはだれのNですか。\n= Whose N is this?\n\nA: これはだれのかさですか。\nB: それはわたしのかさです。"
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "vocab",
+    "config": {
+      "answerMode": "mcq",
+      "optionsCount": 4,
+      "timeLimit": 20,
+      "questionsCount": 15
+    },
+    "items": [
+      {
+        "question": "これ",
+        "answer": "this (near speaker)",
+        "options": [
+          "this (near speaker)",
+          "which one?",
+          "that (far away)",
+          "that (near you)"
+        ]
+      },
+      {
+        "question": "それ",
+        "answer": "that (near listener)",
+        "options": [
+          "that (near listener)",
+          "which one?",
+          "that (far away)",
+          "this (near me)"
+        ]
+      },
+      {
+        "question": "あれ",
+        "answer": "that (far from both)",
+        "options": [
+          "this (near me)",
+          "that (far from both)",
+          "that (near you)",
+          "which one?"
+        ]
+      },
+      {
+        "question": "どれ",
+        "answer": "which one?",
+        "options": [
+          "that",
+          "this",
+          "which one?",
+          "those"
+        ]
+      },
+      {
+        "question": "ほん (本)",
+        "answer": "book",
+        "options": [
+          "book",
+          "magazine",
+          "notebook",
+          "dictionary"
+        ]
+      },
+      {
+        "question": "じしょ (辞書)",
+        "answer": "dictionary",
+        "options": [
+          "notebook",
+          "magazine",
+          "dictionary",
+          "book"
+        ]
+      },
+      {
+        "question": "ざっし (雑誌)",
+        "answer": "magazine",
+        "options": [
+          "book",
+          "magazine",
+          "dictionary",
+          "newspaper"
+        ]
+      },
+      {
+        "question": "しんぶん (新聞)",
+        "answer": "newspaper",
+        "options": [
+          "newspaper",
+          "magazine",
+          "book",
+          "dictionary"
+        ]
+      },
+      {
+        "question": "ノート",
+        "answer": "notebook",
+        "options": [
+          "dictionary",
+          "notebook",
+          "magazine",
+          "book"
+        ]
+      },
+      {
+        "question": "てちょう (手帳)",
+        "answer": "pocket planner / organiser",
+        "options": [
+          "book",
+          "pocket planner / organiser",
+          "magazine",
+          "notebook"
+        ]
+      },
+      {
+        "question": "えんぴつ (鉛筆)",
+        "answer": "pencil",
+        "options": [
+          "pencil",
+          "ballpoint pen",
+          "key",
+          "eraser"
+        ]
+      },
+      {
+        "question": "ボールペン",
+        "answer": "ballpoint pen",
+        "options": [
+          "ballpoint pen",
+          "key",
+          "marker",
+          "pencil"
+        ]
+      },
+      {
+        "question": "かぎ (鍵)",
+        "answer": "key",
+        "options": [
+          "bag",
+          "key",
+          "umbrella",
+          "watch"
+        ]
+      },
+      {
+        "question": "とけい (時計)",
+        "answer": "watch / clock",
+        "options": [
+          "key",
+          "umbrella",
+          "watch / clock",
+          "bag"
+        ]
+      },
+      {
+        "question": "かさ (傘)",
+        "answer": "umbrella",
+        "options": [
+          "watch",
+          "umbrella",
+          "bag",
+          "key"
+        ]
+      },
+      {
+        "question": "かばん (鞄)",
+        "answer": "bag",
+        "options": [
+          "key",
+          "bag",
+          "umbrella",
+          "watch"
+        ]
+      },
+      {
+        "question": "めいし (名刺)",
+        "answer": "business card",
+        "options": [
+          "notebook",
+          "business card",
+          "card",
+          "book"
+        ]
+      },
+      {
+        "question": "テレビ",
+        "answer": "television",
+        "options": [
+          "television",
+          "computer",
+          "radio",
+          "camera"
+        ]
+      },
+      {
+        "question": "パソコン",
+        "answer": "computer / laptop",
+        "options": [
+          "television",
+          "computer / laptop",
+          "radio",
+          "camera"
+        ]
+      },
+      {
+        "question": "だれ (誰)",
+        "answer": "who?",
+        "options": [
+          "where?",
+          "what?",
+          "when?",
+          "who?"
+        ]
+      },
+      {
+        "question": "〜の",
+        "answer": "apostrophe-s / belonging marker",
+        "options": [
+          "object marker",
+          "topic marker",
+          "direction marker",
+          "apostrophe-s / belonging marker"
+        ]
+      },
+      {
+        "question": "なん / なに (何)",
+        "answer": "what?",
+        "options": [
+          "who?",
+          "what?",
+          "when?",
+          "where?"
+        ]
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "vocab",
+    "config": {
+      "answerMode": "mcq",
+      "optionsCount": 4,
+      "timeLimit": 10,
+      "questionsCount": 15
+    },
+    "items": [
+      {
+        "question": "How do you say 'this (near speaker)' in Japanese?",
+        "answer": "これ",
+        "options": [
+          "どれ",
+          "これ",
+          "それ",
+          "あれ"
+        ]
+      },
+      {
+        "question": "How do you say 'that (near listener)' in Japanese?",
+        "answer": "それ",
+        "options": [
+          "どれ",
+          "これ",
+          "それ",
+          "あれ"
+        ]
+      },
+      {
+        "question": "How do you say 'that (far from both)' in Japanese?",
+        "answer": "あれ",
+        "options": [
+          "あれ",
+          "どれ",
+          "これ",
+          "それ"
+        ]
+      },
+      {
+        "question": "How do you say 'which one?' in Japanese?",
+        "answer": "どれ",
+        "options": [
+          "これ",
+          "どれ",
+          "あれ",
+          "それ"
+        ]
+      },
+      {
+        "question": "How do you say 'book' in Japanese?",
+        "answer": "ほん (本)",
+        "options": [
+          "あれ",
+          "それ",
+          "これ",
+          "ほん (本)"
+        ]
+      },
+      {
+        "question": "How do you say 'dictionary' in Japanese?",
+        "answer": "じしょ (辞書)",
+        "options": [
+          "これ",
+          "それ",
+          "じしょ (辞書)",
+          "あれ"
+        ]
+      },
+      {
+        "question": "How do you say 'magazine' in Japanese?",
+        "answer": "ざっし (雑誌)",
+        "options": [
+          "あれ",
+          "ざっし (雑誌)",
+          "これ",
+          "それ"
+        ]
+      },
+      {
+        "question": "How do you say 'newspaper' in Japanese?",
+        "answer": "しんぶん (新聞)",
+        "options": [
+          "これ",
+          "それ",
+          "あれ",
+          "しんぶん (新聞)"
+        ]
+      },
+      {
+        "question": "How do you say 'notebook' in Japanese?",
+        "answer": "ノート",
+        "options": [
+          "あれ",
+          "それ",
+          "これ",
+          "ノート"
+        ]
+      },
+      {
+        "question": "How do you say 'pocket planner / organiser' in Japanese?",
+        "answer": "てちょう (手帳)",
+        "options": [
+          "これ",
+          "てちょう (手帳)",
+          "それ",
+          "あれ"
+        ]
+      },
+      {
+        "question": "How do you say 'pencil' in Japanese?",
+        "answer": "えんぴつ (鉛筆)",
+        "options": [
+          "えんぴつ (鉛筆)",
+          "これ",
+          "それ",
+          "あれ"
+        ]
+      },
+      {
+        "question": "How do you say 'ballpoint pen' in Japanese?",
+        "answer": "ボールペン",
+        "options": [
+          "これ",
+          "ボールペン",
+          "それ",
+          "あれ"
+        ]
+      },
+      {
+        "question": "How do you say 'key' in Japanese?",
+        "answer": "かぎ (鍵)",
+        "options": [
+          "かぎ (鍵)",
+          "これ",
+          "それ",
+          "あれ"
+        ]
+      },
+      {
+        "question": "How do you say 'watch / clock' in Japanese?",
+        "answer": "とけい (時計)",
+        "options": [
+          "これ",
+          "あれ",
+          "それ",
+          "とけい (時計)"
+        ]
+      },
+      {
+        "question": "How do you say 'umbrella' in Japanese?",
+        "answer": "かさ (傘)",
+        "options": [
+          "これ",
+          "あれ",
+          "かさ (傘)",
+          "それ"
+        ]
+      }
+    ]
+  }
+}

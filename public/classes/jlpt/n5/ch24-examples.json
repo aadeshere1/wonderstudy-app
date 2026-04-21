@@ -1,0 +1,116 @@
+{
+  "id": "ch24-examples",
+  "meta": {
+    "title": "Lesson 24: もっとゆっくり話してください — Dialogue & Examples",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "ch24-examples",
+    "subtopic": "Please Speak More Slowly",
+    "description": "Practical dialogues and sentences for Lesson 24: Please Speak More Slowly",
+    "icon": "🗣️",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "Adverb forms of adjectives",
+        "back": "い-adjective → adverb: drop い + く\nはやい → はやく (quickly)\nおおきい → おおきく (in a big way)\n\nな-adjective → adverb: drop な + に\nじょうずな → じょうずに (skillfully)\nきれいな → きれいに (beautifully)\n\nThink: -ly in English!"
+      },
+      {
+        "front": "〜すぎます — Too much",
+        "back": "い-adj: drop い + すぎます\nたかすぎます = too expensive\nむずかしすぎます = too difficult\n\nな-adj: drop な + すぎます\nしずかすぎます = too quiet\n\nVerb stem + すぎます:\n食べすぎます = eat too much"
+      },
+      {
+        "front": "Becoming: 〜くなります / 〜になります",
+        "back": "い-adj: drop い + くなります\nさむくなります = becomes cold\nよくなります = gets better\n\nな-adj / Noun: 〜になります\nげんきになります = become well\n医者になります = become a doctor\n\nExpresses a change of state."
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 25,
+      "questionsCount": 3
+    },
+    "items": [
+      {
+        "question": "The music is too loud. How do you express this?",
+        "answer": "おんがくがうるさすぎます。",
+        "options": [
+          "おんがくがうるさすぎます。",
+          "おんがくがうるさすぎません。",
+          "おんがくがうるさくなります。",
+          "おんがくがうるさいです。"
+        ],
+        "explanation": "うるさい (noisy) + すぎます = too noisy. い-adj: drop い + すぎます."
+      },
+      {
+        "question": "You want to become a doctor. How do you say this?",
+        "answer": "いしゃになりたいです。",
+        "options": [
+          "いしゃになりたいです。",
+          "いしゃにすぎます。",
+          "いしゃになります。",
+          "いしゃをなりたいです。"
+        ],
+        "explanation": "になる = to become. いしゃになりたいです = I want to become a doctor. に marks what you become."
+      },
+      {
+        "question": "How do you say 'please write more neatly'?",
+        "answer": "もっときれいにかいてください。",
+        "options": [
+          "もっときれいにかいてください。",
+          "もっときれいくかいてください。",
+          "もっときれいのかいてください。",
+          "もっときれいをかいてください。"
+        ],
+        "explanation": "きれいに = adverb form of きれい (な-adj). もっときれいに = more neatly/beautifully."
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 12,
+      "questionsCount": 3
+    },
+    "items": [
+      {
+        "question": "The music is too loud. How do you express this?",
+        "answer": "おんがくがうるさすぎます。",
+        "options": [
+          "おんがくがうるさすぎます。",
+          "おんがくがうるさすぎません。",
+          "おんがくがうるさくなります。",
+          "おんがくがうるさいです。"
+        ],
+        "explanation": "うるさい (noisy) + すぎます = too noisy. い-adj: drop い + すぎます."
+      },
+      {
+        "question": "You want to become a doctor. How do you say this?",
+        "answer": "いしゃになりたいです。",
+        "options": [
+          "いしゃになりたいです。",
+          "いしゃにすぎます。",
+          "いしゃになります。",
+          "いしゃをなりたいです。"
+        ],
+        "explanation": "になる = to become. いしゃになりたいです = I want to become a doctor. に marks what you become."
+      },
+      {
+        "question": "How do you say 'please write more neatly'?",
+        "answer": "もっときれいにかいてください。",
+        "options": [
+          "もっときれいにかいてください。",
+          "もっときれいくかいてください。",
+          "もっときれいのかいてください。",
+          "もっときれいをかいてください。"
+        ],
+        "explanation": "きれいに = adverb form of きれい (な-adj). もっときれいに = more neatly/beautifully."
+      }
+    ]
+  }
+}

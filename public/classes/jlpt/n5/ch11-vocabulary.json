@@ -1,0 +1,414 @@
+{
+  "id": "ch11-vocabulary",
+  "meta": {
+    "title": "Lesson 11: どこかへ行きましたか — Vocabulary",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "ch11-vocabulary",
+    "subtopic": "Did You Go Anywhere?",
+    "description": "Vocabulary for Minna no Nihongo Lesson 11: Did You Go Anywhere?",
+    "icon": "🗓️",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "Indefinite pronouns: どこか / なにか / だれか",
+        "back": "どこか = somewhere / anywhere\nなにか = something / anything\nだれか = someone / anyone\n\nUsed in POSITIVE sentences:\nどこかへ行きましたか。= Did you go somewhere?\nなにかたべましたか。= Did you eat something?"
+      },
+      {
+        "front": "Negative indefinite: どこも / なにも / だれも",
+        "back": "どこも〜ない = nowhere\nなにも〜ない = nothing\nだれも〜ない = no one\n\nUsed with NEGATIVE verbs:\nどこもいきませんでした。= I didn't go anywhere.\nなにもたべませんでした。= I didn't eat anything."
+      },
+      {
+        "front": "Past tense: 〜ました / 〜ませんでした",
+        "back": "Present: 食べます (eat)\nPast positive: 食べました (ate)\nPast negative: 食べませんでした (didn't eat)\n\nPresent: 行きます (go)\nPast positive: 行きました (went)\nPast negative: 行きませんでした (didn't go)"
+      },
+      {
+        "front": "Weekend conversation starters",
+        "back": "しゅうまつはどうでしたか。= How was your weekend?\nどこかへ行きましたか。= Did you go somewhere?\nなにをしましたか。= What did you do?\n\nつまらなかったです。= It was boring.\nたのしかったです。= It was fun."
+      },
+      {
+        "front": "Movement verbs — past tense",
+        "back": "行きます → 行きました (went)\n来ます → 来ました (came)\n帰ります → 帰りました (returned)\n会います → 会いました (met)\n\nToday: 行きます\nYesterday: 行きました\nLast week: 先週行きました"
+      },
+      {
+        "front": "週末の活動 (Weekend activities)",
+        "back": "映画を見ました = watched a movie\n友達に会いました = met a friend\n家で休みました = rested at home\nどこもいきませんでした = didn't go anywhere\nゆっくりしました = relaxed / took it easy"
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "vocab",
+    "config": {
+      "answerMode": "mcq",
+      "optionsCount": 4,
+      "timeLimit": 20,
+      "questionsCount": 15
+    },
+    "items": [
+      {
+        "question": "どこか",
+        "answer": "somewhere / anywhere",
+        "options": [
+          "nowhere",
+          "everywhere",
+          "here",
+          "somewhere / anywhere"
+        ]
+      },
+      {
+        "question": "なにか (何か)",
+        "answer": "something / anything",
+        "options": [
+          "nothing",
+          "something / anything",
+          "what?",
+          "everything"
+        ]
+      },
+      {
+        "question": "だれか (誰か)",
+        "answer": "someone / anyone",
+        "options": [
+          "everyone",
+          "who?",
+          "no one",
+          "someone / anyone"
+        ]
+      },
+      {
+        "question": "どこも〜ない",
+        "answer": "nowhere (with negative)",
+        "options": [
+          "everywhere",
+          "somewhere",
+          "nowhere (with negative)",
+          "anywhere"
+        ]
+      },
+      {
+        "question": "なにも〜ない (何も〜ない)",
+        "answer": "nothing (with negative)",
+        "options": [
+          "nothing (with negative)",
+          "something",
+          "everything",
+          "anything"
+        ]
+      },
+      {
+        "question": "だれも〜ない (誰も〜ない)",
+        "answer": "no one (with negative)",
+        "options": [
+          "someone",
+          "everyone",
+          "no one (with negative)",
+          "anyone"
+        ]
+      },
+      {
+        "question": "きました (来ました)",
+        "answer": "came (past of 来ます)",
+        "options": [
+          "came (past of 来ます)",
+          "returned",
+          "stayed",
+          "went"
+        ]
+      },
+      {
+        "question": "いきました (行きました)",
+        "answer": "went (past of 行きます)",
+        "options": [
+          "returned",
+          "stayed",
+          "went (past of 行きます)",
+          "came"
+        ]
+      },
+      {
+        "question": "かえりました (帰りました)",
+        "answer": "returned home (past)",
+        "options": [
+          "went out",
+          "stayed",
+          "returned home (past)",
+          "came"
+        ]
+      },
+      {
+        "question": "あいました (会いました)",
+        "answer": "met (past of 会います)",
+        "options": [
+          "saw",
+          "separated",
+          "called",
+          "met (past of 会います)"
+        ]
+      },
+      {
+        "question": "みました (見ました)",
+        "answer": "watched/saw (past)",
+        "options": [
+          "ate",
+          "heard",
+          "bought",
+          "watched/saw (past)"
+        ]
+      },
+      {
+        "question": "たべました (食べました)",
+        "answer": "ate (past of 食べます)",
+        "options": [
+          "bought",
+          "cooked",
+          "drank",
+          "ate (past of 食べます)"
+        ]
+      },
+      {
+        "question": "のみました (飲みました)",
+        "answer": "drank (past of 飲みます)",
+        "options": [
+          "drank (past of 飲みます)",
+          "cooked",
+          "ate",
+          "bought"
+        ]
+      },
+      {
+        "question": "かいました (買いました)",
+        "answer": "bought (past of 買います)",
+        "options": [
+          "sold",
+          "borrowed",
+          "returned",
+          "bought (past of 買います)"
+        ]
+      },
+      {
+        "question": "おわります (終わります)",
+        "answer": "to end / finish",
+        "options": [
+          "to end / finish",
+          "to continue",
+          "to rest",
+          "to start"
+        ]
+      },
+      {
+        "question": "はじまります (始まります)",
+        "answer": "to begin / start (intransitive)",
+        "options": [
+          "to begin / start (intransitive)",
+          "to continue",
+          "to end",
+          "to pause"
+        ]
+      },
+      {
+        "question": "〜ました",
+        "answer": "past tense (positive)",
+        "options": [
+          "past tense (positive)",
+          "negative present",
+          "negative past",
+          "present tense"
+        ]
+      },
+      {
+        "question": "〜ませんでした",
+        "answer": "past tense (negative)",
+        "options": [
+          "past tense positive",
+          "past tense (negative)",
+          "present negative",
+          "present positive"
+        ]
+      },
+      {
+        "question": "しゅうまつ (週末)",
+        "answer": "weekend",
+        "options": [
+          "weekend",
+          "weekday",
+          "holiday",
+          "vacation"
+        ]
+      },
+      {
+        "question": "やすみ (休み)",
+        "answer": "holiday / day off / rest",
+        "options": [
+          "overtime",
+          "working day",
+          "holiday / day off / rest",
+          "busy day"
+        ]
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "vocab",
+    "config": {
+      "answerMode": "mcq",
+      "optionsCount": 4,
+      "timeLimit": 10,
+      "questionsCount": 15
+    },
+    "items": [
+      {
+        "question": "How do you say 'somewhere / anywhere' in Japanese?",
+        "answer": "どこか",
+        "options": [
+          "どこか",
+          "どこも〜ない",
+          "なにか (何か)",
+          "だれか (誰か)"
+        ]
+      },
+      {
+        "question": "How do you say 'something / anything' in Japanese?",
+        "answer": "なにか (何か)",
+        "options": [
+          "どこか",
+          "だれか (誰か)",
+          "なにか (何か)",
+          "どこも〜ない"
+        ]
+      },
+      {
+        "question": "How do you say 'someone / anyone' in Japanese?",
+        "answer": "だれか (誰か)",
+        "options": [
+          "どこも〜ない",
+          "なにか (何か)",
+          "どこか",
+          "だれか (誰か)"
+        ]
+      },
+      {
+        "question": "How do you say 'nowhere (with negative)' in Japanese?",
+        "answer": "どこも〜ない",
+        "options": [
+          "だれか (誰か)",
+          "どこか",
+          "なにか (何か)",
+          "どこも〜ない"
+        ]
+      },
+      {
+        "question": "How do you say 'nothing (with negative)' in Japanese?",
+        "answer": "なにも〜ない (何も〜ない)",
+        "options": [
+          "だれか (誰か)",
+          "どこか",
+          "なにか (何か)",
+          "なにも〜ない (何も〜ない)"
+        ]
+      },
+      {
+        "question": "How do you say 'no one (with negative)' in Japanese?",
+        "answer": "だれも〜ない (誰も〜ない)",
+        "options": [
+          "だれか (誰か)",
+          "どこか",
+          "なにか (何か)",
+          "だれも〜ない (誰も〜ない)"
+        ]
+      },
+      {
+        "question": "How do you say 'came (past of 来ます)' in Japanese?",
+        "answer": "きました (来ました)",
+        "options": [
+          "だれか (誰か)",
+          "どこか",
+          "きました (来ました)",
+          "なにか (何か)"
+        ]
+      },
+      {
+        "question": "How do you say 'went (past of 行きます)' in Japanese?",
+        "answer": "いきました (行きました)",
+        "options": [
+          "いきました (行きました)",
+          "だれか (誰か)",
+          "なにか (何か)",
+          "どこか"
+        ]
+      },
+      {
+        "question": "How do you say 'returned home (past)' in Japanese?",
+        "answer": "かえりました (帰りました)",
+        "options": [
+          "なにか (何か)",
+          "かえりました (帰りました)",
+          "だれか (誰か)",
+          "どこか"
+        ]
+      },
+      {
+        "question": "How do you say 'met (past of 会います)' in Japanese?",
+        "answer": "あいました (会いました)",
+        "options": [
+          "あいました (会いました)",
+          "だれか (誰か)",
+          "なにか (何か)",
+          "どこか"
+        ]
+      },
+      {
+        "question": "How do you say 'watched/saw (past)' in Japanese?",
+        "answer": "みました (見ました)",
+        "options": [
+          "どこか",
+          "だれか (誰か)",
+          "なにか (何か)",
+          "みました (見ました)"
+        ]
+      },
+      {
+        "question": "How do you say 'ate (past of 食べます)' in Japanese?",
+        "answer": "たべました (食べました)",
+        "options": [
+          "だれか (誰か)",
+          "たべました (食べました)",
+          "どこか",
+          "なにか (何か)"
+        ]
+      },
+      {
+        "question": "How do you say 'drank (past of 飲みます)' in Japanese?",
+        "answer": "のみました (飲みました)",
+        "options": [
+          "だれか (誰か)",
+          "どこか",
+          "のみました (飲みました)",
+          "なにか (何か)"
+        ]
+      },
+      {
+        "question": "How do you say 'bought (past of 買います)' in Japanese?",
+        "answer": "かいました (買いました)",
+        "options": [
+          "だれか (誰か)",
+          "どこか",
+          "かいました (買いました)",
+          "なにか (何か)"
+        ]
+      },
+      {
+        "question": "How do you say 'to end / finish' in Japanese?",
+        "answer": "おわります (終わります)",
+        "options": [
+          "なにか (何か)",
+          "だれか (誰か)",
+          "どこか",
+          "おわります (終わります)"
+        ]
+      }
+    ]
+  }
+}

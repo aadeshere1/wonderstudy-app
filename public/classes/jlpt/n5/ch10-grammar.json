@@ -1,0 +1,312 @@
+{
+  "id": "ch10-grammar",
+  "meta": {
+    "title": "Lesson 10: 富士山より高い山はありますか — Grammar",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "ch10-grammar",
+    "subtopic": "Comparison",
+    "description": "Grammar patterns for Minna no Nihongo Lesson 10: Comparison",
+    "icon": "⚖️",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "Comparison: AはBより〜",
+        "back": "A は B より [adjective] です。\n= A is more [adj] than B.\n\n富士山はエベレストより低いです。\n= Mt. Fuji is lower than Everest.\n\nNote: より comes AFTER the comparison point (B)."
+      },
+      {
+        "front": "Comparison: AよりBのほうが〜",
+        "back": "A より B のほうが [adjective] です。\n= B is more [adj] than A.\n\nバスより電車のほうが速いです。\n= The train is faster than the bus.\n\nのほうが = 'on the side of' (more natural for comparisons)"
+      },
+      {
+        "front": "Asking comparison: どちらが〜",
+        "back": "AとBとどちらが〜ですか。\n= Between A and B, which is more ~?\n\nすしとてんぷらとどちらがすきですか。\n= Do you like sushi or tempura better?\n\n→ すしのほうがすきです。= I prefer sushi."
+      },
+      {
+        "front": "Superlative: いちばん〜",
+        "back": "〜の中でいちばん〜 = the most ~ among ~\n\nクラスの中でだれがいちばん背が高いですか。\n= Who is the tallest in the class?\n\n日本でいちばん高い山は富士山です。\n= The highest mountain in Japan is Mt. Fuji."
+      },
+      {
+        "front": "Seasons",
+        "back": "春 (はる) = spring (March-May)\n夏 (なつ) = summer (June-August)\n秋 (あき) = autumn (September-November)\n冬 (ふゆ) = winter (December-February)\n\nQuestion: 一年の中でいつがいちばん好きですか。\n= Which season do you like best?"
+      },
+      {
+        "front": "おなじ vs ちがう",
+        "back": "同じ (おなじ) = same / identical\n違う (ちがう) = different\n\nこれとそれはおなじですか。\n= Are these the same?\n→ はい、おなじです。/ いいえ、ちがいます。\n\nNote: おなじ doesn't take な before a noun: おなじくるま (not おなじなくるま)"
+      },
+      {
+        "front": "〜くらい (approximately)",
+        "back": "〜くらい / 〜ぐらい = about / approximately\n\n30分くらいかかります。\n= It takes about 30 minutes.\n\nおなじくらい = about the same\n\nどのくらい = how much? / how long?"
+      },
+      {
+        "front": "Key question patterns for comparison",
+        "back": "1. どちらが〜ですか。= Which is more ~?\n2. 〜の中でいちばん〜のは何ですか。= What is the most ~ in ~?\n3. どれがいちばん〜ですか。= Which is the most ~?\n4. AとBはどちらがすきですか。= Do you prefer A or B?"
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 25,
+      "questionsCount": 11
+    },
+    "items": [
+      {
+        "question": "東京は大阪 ___ 大きいです。(Tokyo is bigger than Osaka.)",
+        "answer": "より",
+        "options": [
+          "より",
+          "のほうが",
+          "いちばん",
+          "ぐらい"
+        ],
+        "explanation": "A は B より adj = A is more adj than B. より comes after the comparison point B."
+      },
+      {
+        "question": "バス ___ 電車のほうが速いです。(The train is faster than the bus.)",
+        "answer": "より",
+        "options": [
+          "より",
+          "が",
+          "と",
+          "に"
+        ],
+        "explanation": "AよりBのほうが = B is more ~ than A. より follows the thing being compared against (A=bus)."
+      },
+      {
+        "question": "A: すしとさしみとどちらがすきですか。B: ___のほうがすきです。(I prefer sushi.)",
+        "answer": "すし",
+        "options": [
+          "すし",
+          "さしみ",
+          "どちらも",
+          "りょうほう"
+        ],
+        "explanation": "どちらが〜ですか = which do you prefer? Answer with [choice] + のほうがすきです."
+      },
+      {
+        "question": "日本で ___ 高い山は富士山です。(The highest mountain in Japan is Mt. Fuji.)",
+        "answer": "いちばん",
+        "options": [
+          "いちばん",
+          "より",
+          "のほうが",
+          "ぐらい"
+        ],
+        "explanation": "いちばん = the most / number one. 〜でいちばん〜 = the most ~ in ~."
+      },
+      {
+        "question": "クラスの ___ でだれがいちばん背が高いですか。(Who is tallest in the class?)",
+        "answer": "中",
+        "options": [
+          "中",
+          "上",
+          "下",
+          "外"
+        ],
+        "explanation": "〜の中で = among ~ / within ~. の中で marks the scope of comparison."
+      },
+      {
+        "question": "春と夏とどちらがすきですか → 夏 ___ すきです。(I prefer summer.)",
+        "answer": "のほうが",
+        "options": [
+          "のほうが",
+          "より",
+          "いちばん",
+          "ぐらい"
+        ],
+        "explanation": "Answer to どちらが: [choice] + のほうが + すきです. Literally 'summer's side is more liked'."
+      },
+      {
+        "question": "これとそれは ___ です。(These are the same.)",
+        "answer": "おなじ",
+        "options": [
+          "おなじ",
+          "ちがい",
+          "よく",
+          "いちばん"
+        ],
+        "explanation": "おなじ = same. Used as a な-adjective but without な before nouns: おなじくるま (same car)."
+      },
+      {
+        "question": "東京と大阪はどちらが ___ ですか。(Which is bigger, Tokyo or Osaka?)",
+        "answer": "大きい",
+        "options": [
+          "大きい",
+          "大きくない",
+          "大きさ",
+          "大きく"
+        ],
+        "explanation": "どちらが〜ですか asks for a comparison. Use the plain adjective form (大きい)."
+      },
+      {
+        "question": "3つの中でどれがいちばん ___ ですか。(Which of the three is cheapest?)",
+        "answer": "安い",
+        "options": [
+          "安い",
+          "安く",
+          "安さ",
+          "安いの"
+        ],
+        "explanation": "いちばん〜 = the most ~. Use the plain adjective form: いちばん安い = cheapest."
+      },
+      {
+        "question": "新幹線と飛行機はどちらが ___ ですか。(Which is faster, the shinkansen or airplane?)",
+        "answer": "速い (はやい)",
+        "options": [
+          "速い (はやい)",
+          "高い (たかい)",
+          "安い (やすい)",
+          "大きい (おおきい)"
+        ],
+        "explanation": "速い (はやい) = fast. This comparison question asks about speed of transport."
+      },
+      {
+        "question": "How do you ask 'What is the most delicious food in Japan?'",
+        "answer": "日本でいちばんおいしいたべものはなんですか。",
+        "options": [
+          "日本でいちばんおいしいたべものはなんですか。",
+          "日本よりおいしいたべものはなんですか。",
+          "日本のほうがおいしいたべものはなんですか。",
+          "日本にいちばんおいしいたべものはなんですか。"
+        ],
+        "explanation": "〜でいちばん〜 = the most ~ in ~. で marks the scope (in Japan). いちばん + adjective for superlative."
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 12,
+      "questionsCount": 11
+    },
+    "items": [
+      {
+        "question": "東京は大阪 ___ 大きいです。(Tokyo is bigger than Osaka.)",
+        "answer": "より",
+        "options": [
+          "より",
+          "のほうが",
+          "いちばん",
+          "ぐらい"
+        ],
+        "explanation": "A は B より adj = A is more adj than B. より comes after the comparison point B."
+      },
+      {
+        "question": "バス ___ 電車のほうが速いです。(The train is faster than the bus.)",
+        "answer": "より",
+        "options": [
+          "より",
+          "が",
+          "と",
+          "に"
+        ],
+        "explanation": "AよりBのほうが = B is more ~ than A. より follows the thing being compared against (A=bus)."
+      },
+      {
+        "question": "A: すしとさしみとどちらがすきですか。B: ___のほうがすきです。(I prefer sushi.)",
+        "answer": "すし",
+        "options": [
+          "すし",
+          "さしみ",
+          "どちらも",
+          "りょうほう"
+        ],
+        "explanation": "どちらが〜ですか = which do you prefer? Answer with [choice] + のほうがすきです."
+      },
+      {
+        "question": "日本で ___ 高い山は富士山です。(The highest mountain in Japan is Mt. Fuji.)",
+        "answer": "いちばん",
+        "options": [
+          "いちばん",
+          "より",
+          "のほうが",
+          "ぐらい"
+        ],
+        "explanation": "いちばん = the most / number one. 〜でいちばん〜 = the most ~ in ~."
+      },
+      {
+        "question": "クラスの ___ でだれがいちばん背が高いですか。(Who is tallest in the class?)",
+        "answer": "中",
+        "options": [
+          "中",
+          "上",
+          "下",
+          "外"
+        ],
+        "explanation": "〜の中で = among ~ / within ~. の中で marks the scope of comparison."
+      },
+      {
+        "question": "春と夏とどちらがすきですか → 夏 ___ すきです。(I prefer summer.)",
+        "answer": "のほうが",
+        "options": [
+          "のほうが",
+          "より",
+          "いちばん",
+          "ぐらい"
+        ],
+        "explanation": "Answer to どちらが: [choice] + のほうが + すきです. Literally 'summer's side is more liked'."
+      },
+      {
+        "question": "これとそれは ___ です。(These are the same.)",
+        "answer": "おなじ",
+        "options": [
+          "おなじ",
+          "ちがい",
+          "よく",
+          "いちばん"
+        ],
+        "explanation": "おなじ = same. Used as a な-adjective but without な before nouns: おなじくるま (same car)."
+      },
+      {
+        "question": "東京と大阪はどちらが ___ ですか。(Which is bigger, Tokyo or Osaka?)",
+        "answer": "大きい",
+        "options": [
+          "大きい",
+          "大きくない",
+          "大きさ",
+          "大きく"
+        ],
+        "explanation": "どちらが〜ですか asks for a comparison. Use the plain adjective form (大きい)."
+      },
+      {
+        "question": "3つの中でどれがいちばん ___ ですか。(Which of the three is cheapest?)",
+        "answer": "安い",
+        "options": [
+          "安い",
+          "安く",
+          "安さ",
+          "安いの"
+        ],
+        "explanation": "いちばん〜 = the most ~. Use the plain adjective form: いちばん安い = cheapest."
+      },
+      {
+        "question": "新幹線と飛行機はどちらが ___ ですか。(Which is faster, the shinkansen or airplane?)",
+        "answer": "速い (はやい)",
+        "options": [
+          "速い (はやい)",
+          "高い (たかい)",
+          "安い (やすい)",
+          "大きい (おおきい)"
+        ],
+        "explanation": "速い (はやい) = fast. This comparison question asks about speed of transport."
+      },
+      {
+        "question": "How do you ask 'What is the most delicious food in Japan?'",
+        "answer": "日本でいちばんおいしいたべものはなんですか。",
+        "options": [
+          "日本でいちばんおいしいたべものはなんですか。",
+          "日本よりおいしいたべものはなんですか。",
+          "日本のほうがおいしいたべものはなんですか。",
+          "日本にいちばんおいしいたべものはなんですか。"
+        ],
+        "explanation": "〜でいちばん〜 = the most ~ in ~. で marks the scope (in Japan). いちばん + adjective for superlative."
+      }
+    ]
+  }
+}

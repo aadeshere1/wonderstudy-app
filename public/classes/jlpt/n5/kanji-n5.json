@@ -1,0 +1,340 @@
+{
+  "id": "kanji-n5",
+  "meta": {
+    "title": "JLPT N5 Kanji",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "kanji-n5",
+    "subtopic": "Essential N5 Kanji",
+    "description": "Learn 25 essential kanji for JLPT N5 — readings, meanings, and example words.",
+    "icon": "🀄",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "日",
+        "back": "ひ / にち / じつ — Sun / Day\nExample: 日曜日 (にちようび) = Sunday"
+      },
+      {
+        "front": "月",
+        "back": "つき / げつ / がつ — Moon / Month\nExample: 月曜日 (げつようび) = Monday"
+      },
+      {
+        "front": "火",
+        "back": "ひ / か — Fire\nExample: 火曜日 (かようび) = Tuesday"
+      },
+      {
+        "front": "水",
+        "back": "みず / すい — Water\nExample: 水曜日 (すいようび) = Wednesday"
+      },
+      {
+        "front": "木",
+        "back": "き / もく — Tree / Wood\nExample: 木曜日 (もくようび) = Thursday"
+      },
+      {
+        "front": "金",
+        "back": "きん / かね — Gold / Money\nExample: 金曜日 (きんようび) = Friday"
+      },
+      {
+        "front": "土",
+        "back": "つち / ど — Earth / Soil\nExample: 土曜日 (どようび) = Saturday"
+      },
+      {
+        "front": "山・川・田",
+        "back": "やま (mountain) · かわ (river) · た/でん (rice field)\nThese are common nature kanji found in many place names!"
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 20,
+      "questionsCount": 20
+    },
+    "items": [
+      {
+        "question": "日 — What is the reading and meaning?",
+        "answer": "ひ / にち — Sun / Day",
+        "options": ["ひ / にち — Sun / Day", "つき / げつ — Moon / Month", "ひ / か — Fire", "みず / すい — Water"],
+        "explanation": "日 appears in days of the week: 日曜日 (Sunday) and words like 今日 (きょう, today)."
+      },
+      {
+        "question": "月 — What is the reading and meaning?",
+        "answer": "つき / げつ — Moon / Month",
+        "options": ["つき / げつ — Moon / Month", "ひ / にち — Sun / Day", "き / もく — Tree / Wood", "きん / かね — Gold / Money"],
+        "explanation": "月 appears in 月曜日 (Monday) and 一月 (いちがつ, January)."
+      },
+      {
+        "question": "火 — What is the reading and meaning?",
+        "answer": "ひ / か — Fire",
+        "options": ["ひ / か — Fire", "みず / すい — Water", "つき / げつ — Moon", "つち / ど — Earth"],
+        "explanation": "火 appears in 火曜日 (Tuesday). 火事 (かじ) means 'fire (disaster)'."
+      },
+      {
+        "question": "水 — What is the reading and meaning?",
+        "answer": "みず / すい — Water",
+        "options": ["みず / すい — Water", "ひ / か — Fire", "き / もく — Tree", "やま / さん — Mountain"],
+        "explanation": "水 appears in 水曜日 (Wednesday) and お水 (おみず, water)."
+      },
+      {
+        "question": "木 — What is the reading and meaning?",
+        "answer": "き / もく — Tree / Wood",
+        "options": ["き / もく — Tree / Wood", "きん / かね — Gold / Money", "つち / ど — Earth", "ひ / にち — Sun"],
+        "explanation": "木 appears in 木曜日 (Thursday). 木 alone means a tree."
+      },
+      {
+        "question": "金 — What is the reading and meaning?",
+        "answer": "きん / かね — Gold / Money",
+        "options": ["きん / かね — Gold / Money", "き / もく — Tree / Wood", "ひ / か — Fire", "つき / げつ — Moon"],
+        "explanation": "金 appears in 金曜日 (Friday) and お金 (おかね, money)."
+      },
+      {
+        "question": "土 — What is the reading and meaning?",
+        "answer": "つち / ど — Earth / Soil",
+        "options": ["つち / ど — Earth / Soil", "きん / かね — Gold", "みず / すい — Water", "き / もく — Wood"],
+        "explanation": "土 appears in 土曜日 (Saturday). 土地 (とち) means 'land'."
+      },
+      {
+        "question": "山 — What is the reading and meaning?",
+        "answer": "やま / さん — Mountain",
+        "options": ["やま / さん — Mountain", "かわ / せん — River", "もり / しん — Forest", "いし / せき — Stone"],
+        "explanation": "山 is used in 富士山 (ふじさん, Mt. Fuji). やま means mountain in everyday speech."
+      },
+      {
+        "question": "川 — What is the reading and meaning?",
+        "answer": "かわ / せん — River",
+        "options": ["かわ / せん — River", "やま / さん — Mountain", "うみ / かい — Sea", "みず / すい — Water"],
+        "explanation": "川 means river. 川口 (かわぐち) is a place name meaning 'river mouth'."
+      },
+      {
+        "question": "田 — What is the reading and meaning?",
+        "answer": "た / でん — Rice field",
+        "options": ["た / でん — Rice field", "やま / さん — Mountain", "はた / はく — Flag", "いえ / か — House"],
+        "explanation": "田 appears in many Japanese surnames like 田中 (たなか) and 山田 (やまだ)."
+      },
+      {
+        "question": "人 — What is the reading and meaning?",
+        "answer": "ひと / じん / にん — Person",
+        "options": ["ひと / じん / にん — Person", "め / もく — Eye", "て / しゅ — Hand", "ち / けつ — Blood"],
+        "explanation": "人 means person. 日本人 (にほんじん) means Japanese person."
+      },
+      {
+        "question": "口 — What is the reading and meaning?",
+        "answer": "くち / こう / ぐち — Mouth",
+        "options": ["くち / こう / ぐち — Mouth", "め / もく — Eye", "て / しゅ — Hand", "ひと / じん — Person"],
+        "explanation": "口 means mouth. 入口 (いりぐち) means entrance, 出口 (でぐち) means exit."
+      },
+      {
+        "question": "目 — What is the reading and meaning?",
+        "answer": "め / もく — Eye",
+        "options": ["め / もく — Eye", "くち / こう — Mouth", "みみ / じ — Ear", "て / しゅ — Hand"],
+        "explanation": "目 means eye. 目的 (もくてき) means purpose/goal."
+      },
+      {
+        "question": "手 — What is the reading and meaning?",
+        "answer": "て / しゅ — Hand",
+        "options": ["て / しゅ — Hand", "あし / そく — Foot/Leg", "くち / こう — Mouth", "め / もく — Eye"],
+        "explanation": "手 means hand. 上手 (じょうず) means skilled, 下手 (へた) means unskilled."
+      },
+      {
+        "question": "大 — What is the reading and meaning?",
+        "answer": "おお / だい / たい — Big / Large",
+        "options": ["おお / だい / たい — Big / Large", "ちい / しょう — Small", "なか / ちゅう — Middle", "うえ / じょう — Above"],
+        "explanation": "大 means big/large. 大学 (だいがく) means university, 大丈夫 (だいじょうぶ) means OK/fine."
+      },
+      {
+        "question": "小 — What is the reading and meaning?",
+        "answer": "ちい / こ / しょう — Small",
+        "options": ["ちい / こ / しょう — Small", "おお / だい — Big", "なか / ちゅう — Middle", "した / か — Below"],
+        "explanation": "小 means small. 小学校 (しょうがっこう) means elementary school."
+      },
+      {
+        "question": "上 — What is the reading and meaning?",
+        "answer": "うえ / じょう — Above / Up",
+        "options": ["うえ / じょう — Above / Up", "した / か — Below / Down", "なか / ちゅう — Middle", "そと / がい — Outside"],
+        "explanation": "上 means above/up. 上手 (じょうず) means skillful; 上 alone means 'top' or 'above'."
+      },
+      {
+        "question": "下 — What is the reading and meaning?",
+        "answer": "した / か / げ — Below / Down",
+        "options": ["した / か / げ — Below / Down", "うえ / じょう — Above", "なか / ちゅう — Middle", "まえ / ぜん — Before"],
+        "explanation": "下 means below/down. 地下 (ちか) means underground; 下手 (へた) means unskillful."
+      },
+      {
+        "question": "中 — What is the reading and meaning?",
+        "answer": "なか / ちゅう / じゅう — Middle / Inside",
+        "options": ["なか / ちゅう / じゅう — Middle / Inside", "そと / がい — Outside", "うえ / じょう — Above", "した / か — Below"],
+        "explanation": "中 means middle or inside. 中国 (ちゅうごく) is China; 中 alone means inside."
+      },
+      {
+        "question": "一 — What is the reading and meaning?",
+        "answer": "いち / ひと — One",
+        "options": ["いち / ひと — One", "に / ふた — Two", "さん / み — Three", "し / よ — Four"],
+        "explanation": "一 is the kanji for 1. 一月 (いちがつ) is January; 一人 (ひとり) means one person."
+      },
+      {
+        "question": "二 — What is the reading and meaning?",
+        "answer": "に / ふた — Two",
+        "options": ["に / ふた — Two", "いち / ひと — One", "さん / み — Three", "し / よ — Four"],
+        "explanation": "二 is the kanji for 2. 二月 (にがつ) is February; 二人 (ふたり) means two people."
+      },
+      {
+        "question": "三 — What is the reading and meaning?",
+        "answer": "さん / み — Three",
+        "options": ["さん / み — Three", "に / ふた — Two", "し / よ — Four", "ご — Five"],
+        "explanation": "三 is the kanji for 3. 三月 (さんがつ) is March; 三つ (みっつ) means three things."
+      },
+      {
+        "question": "百 — What is the reading and meaning?",
+        "answer": "ひゃく / びゃく — Hundred",
+        "options": ["ひゃく / びゃく — Hundred", "せん / ぜん — Thousand", "まん — Ten thousand", "じゅう / とお — Ten"],
+        "explanation": "百 means 100. 三百 (さんびゃく) = 300; 百円 (ひゃくえん) = 100 yen."
+      },
+      {
+        "question": "年 — What is the reading and meaning?",
+        "answer": "ねん / とし — Year",
+        "options": ["ねん / とし — Year", "つき / げつ — Month", "ひ / にち — Day", "じかん — Time/Hour"],
+        "explanation": "年 means year. 今年 (ことし) = this year; 来年 (らいねん) = next year."
+      },
+      {
+        "question": "本 — What is the reading and meaning?",
+        "answer": "ほん / もと — Book / Origin",
+        "options": ["ほん / もと — Book / Origin", "し / じ — Character / Letter", "がく / まな — Study / Learning", "ご / かた — Language / Word"],
+        "explanation": "本 means book or origin. 日本 (にほん) = Japan; 本 alone means book."
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 12,
+      "questionsCount": 20
+    },
+    "items": [
+      {
+        "question": "Which kanji means 'fire'?",
+        "answer": "火",
+        "options": ["火", "水", "木", "土"],
+        "explanation": "火 (ひ/か) means fire. It appears in 火曜日 (Tuesday)."
+      },
+      {
+        "question": "Which kanji means 'water'?",
+        "answer": "水",
+        "options": ["水", "火", "金", "土"],
+        "explanation": "水 (みず/すい) means water. It appears in 水曜日 (Wednesday)."
+      },
+      {
+        "question": "Which kanji means 'mountain'?",
+        "answer": "山",
+        "options": ["山", "川", "田", "木"],
+        "explanation": "山 (やま/さん) means mountain. 富士山 is the famous Mt. Fuji."
+      },
+      {
+        "question": "Which kanji means 'river'?",
+        "answer": "川",
+        "options": ["川", "山", "水", "海"],
+        "explanation": "川 (かわ/せん) means river. It appears in many Japanese place names."
+      },
+      {
+        "question": "What does 大 mean?",
+        "answer": "Big / Large",
+        "options": ["Big / Large", "Small", "Many / Much", "Long"],
+        "explanation": "大 (おお/だい) means big or large. 大学 = university."
+      },
+      {
+        "question": "What does 小 mean?",
+        "answer": "Small",
+        "options": ["Small", "Big / Large", "Short", "Few"],
+        "explanation": "小 (ちい/こ/しょう) means small. 小学校 = elementary school."
+      },
+      {
+        "question": "What does 上 mean?",
+        "answer": "Above / Up",
+        "options": ["Above / Up", "Below / Down", "Left", "Right"],
+        "explanation": "上 (うえ/じょう) means above or up. 上手 (じょうず) = skillful."
+      },
+      {
+        "question": "What does 中 mean?",
+        "answer": "Middle / Inside",
+        "options": ["Middle / Inside", "Outside", "Above", "Below"],
+        "explanation": "中 (なか/ちゅう) means middle or inside. 中国 = China."
+      },
+      {
+        "question": "How do you read 日本?",
+        "answer": "にほん",
+        "options": ["にほん", "ひもと", "じつほん", "にちほん"],
+        "explanation": "日本 (にほん or にっぽん) means Japan. 日 = sun/day, 本 = origin."
+      },
+      {
+        "question": "How do you read 今日?",
+        "answer": "きょう",
+        "options": ["きょう", "こんにち", "いまひ", "こんひ"],
+        "explanation": "今日 (きょう) means 'today'. It's a common irregular reading."
+      },
+      {
+        "question": "How do you read 入口?",
+        "answer": "いりぐち",
+        "options": ["いりぐち", "にゅうこう", "はいくち", "いりこう"],
+        "explanation": "入口 (いりぐち) means entrance. 入 = enter, 口 = mouth/opening."
+      },
+      {
+        "question": "How do you read 出口?",
+        "answer": "でぐち",
+        "options": ["でぐち", "しゅつこう", "でこう", "しゅつぐち"],
+        "explanation": "出口 (でぐち) means exit. 出 = exit, 口 = mouth/opening."
+      },
+      {
+        "question": "How do you read お金?",
+        "answer": "おかね",
+        "options": ["おかね", "おきん", "おかね", "おこん"],
+        "explanation": "お金 (おかね) means money. 金 (かね) = gold/money."
+      },
+      {
+        "question": "What is the kanji for 'person'?",
+        "answer": "人",
+        "options": ["人", "口", "目", "手"],
+        "explanation": "人 (ひと/じん/にん) means person. 日本人 = Japanese person."
+      },
+      {
+        "question": "What is the kanji for 'eye'?",
+        "answer": "目",
+        "options": ["目", "口", "耳", "手"],
+        "explanation": "目 (め/もく) means eye. 目的 (もくてき) = purpose/goal."
+      },
+      {
+        "question": "What is the kanji for 'hand'?",
+        "answer": "手",
+        "options": ["手", "足", "目", "口"],
+        "explanation": "手 (て/しゅ) means hand. 上手 (じょうず) = skillful."
+      },
+      {
+        "question": "How do you read 百円?",
+        "answer": "ひゃくえん",
+        "options": ["ひゃくえん", "ももえん", "ひゃくいん", "はくえん"],
+        "explanation": "百円 (ひゃくえん) = 100 yen. 百 = hundred, 円 = yen/circle."
+      },
+      {
+        "question": "How do you read 来年?",
+        "answer": "らいねん",
+        "options": ["らいねん", "きねん", "らいとし", "こねん"],
+        "explanation": "来年 (らいねん) means next year. 来 = come/next, 年 = year."
+      },
+      {
+        "question": "What does 本 mean when used alone?",
+        "answer": "Book",
+        "options": ["Book", "Tree", "Origin only", "Person"],
+        "explanation": "本 (ほん) means book when used alone. It also means origin (as in 日本, Japan)."
+      },
+      {
+        "question": "How do you read 三人?",
+        "answer": "さんにん",
+        "options": ["さんにん", "みたり", "さんじん", "みにん"],
+        "explanation": "三人 (さんにん) means three people. 三 = three, 人 = person."
+      }
+    ]
+  }
+}

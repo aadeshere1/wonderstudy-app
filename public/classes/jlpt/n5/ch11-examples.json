@@ -1,0 +1,172 @@
+{
+  "id": "ch11-examples",
+  "meta": {
+    "title": "Lesson 11: どこかへ行きましたか — Dialogue & Examples",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "ch11-examples",
+    "subtopic": "Did You Go Anywhere?",
+    "description": "Practical dialogues and sentences for Lesson 11: Did You Go Anywhere?",
+    "icon": "🗓️",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "Indefinite pronouns: どこか / なにか / だれか",
+        "back": "どこか = somewhere / anywhere\nなにか = something / anything\nだれか = someone / anyone\n\nUsed in POSITIVE sentences:\nどこかへ行きましたか。= Did you go somewhere?\nなにかたべましたか。= Did you eat something?"
+      },
+      {
+        "front": "Negative indefinite: どこも / なにも / だれも",
+        "back": "どこも〜ない = nowhere\nなにも〜ない = nothing\nだれも〜ない = no one\n\nUsed with NEGATIVE verbs:\nどこもいきませんでした。= I didn't go anywhere.\nなにもたべませんでした。= I didn't eat anything."
+      },
+      {
+        "front": "Past tense: 〜ました / 〜ませんでした",
+        "back": "Present: 食べます (eat)\nPast positive: 食べました (ate)\nPast negative: 食べませんでした (didn't eat)\n\nPresent: 行きます (go)\nPast positive: 行きました (went)\nPast negative: 行きませんでした (didn't go)"
+      },
+      {
+        "front": "Weekend conversation starters",
+        "back": "しゅうまつはどうでしたか。= How was your weekend?\nどこかへ行きましたか。= Did you go somewhere?\nなにをしましたか。= What did you do?\n\nつまらなかったです。= It was boring.\nたのしかったです。= It was fun."
+      },
+      {
+        "front": "Movement verbs — past tense",
+        "back": "行きます → 行きました (went)\n来ます → 来ました (came)\n帰ります → 帰りました (returned)\n会います → 会いました (met)\n\nToday: 行きます\nYesterday: 行きました\nLast week: 先週行きました"
+      },
+      {
+        "front": "週末の活動 (Weekend activities)",
+        "back": "映画を見ました = watched a movie\n友達に会いました = met a friend\n家で休みました = rested at home\nどこもいきませんでした = didn't go anywhere\nゆっくりしました = relaxed / took it easy"
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 25,
+      "questionsCount": 5
+    },
+    "items": [
+      {
+        "question": "A: しゅうまつはどこかへ行きましたか。B: ___ 。(No, I stayed home.)",
+        "answer": "いいえ、どこもいきませんでした。うちにいました。",
+        "options": [
+          "いいえ、どこもいきませんでした。うちにいました。",
+          "はい、どこもいきました。",
+          "いいえ、どこかいきませんでした。",
+          "はい、どこかいませんでした。"
+        ],
+        "explanation": "Negative answer uses どこも (nowhere) + ませんでした. うちにいました = was at home (いました = was there, for living things)."
+      },
+      {
+        "question": "You ate sushi last night. How do you say this?",
+        "answer": "昨日の夜、すしをたべました。",
+        "options": [
+          "昨日の夜、すしをたべました。",
+          "昨日の夜、すしをたべます。",
+          "昨日の夜、すしをたべませんでした。",
+          "明日の夜、すしをたべました。"
+        ],
+        "explanation": "Past positive: 食べます → 食べました. 昨日の夜 = last night."
+      },
+      {
+        "question": "Someone asks なにかのみましたか. You had nothing. What do you say?",
+        "answer": "いいえ、なにものみませんでした。",
+        "options": [
+          "いいえ、なにものみませんでした。",
+          "いいえ、なにかのみませんでした。",
+          "はい、なにものみました。",
+          "いいえ、どこものみませんでした。"
+        ],
+        "explanation": "なにも (nothing) + negative verb. なにものみませんでした = didn't drink anything."
+      },
+      {
+        "question": "You met a colleague yesterday. How do you say this?",
+        "answer": "昨日、どうりょうに会いました。",
+        "options": [
+          "昨日、どうりょうに会いました。",
+          "昨日、どうりょうと会いました。",
+          "昨日、どうりょうで会いました。",
+          "昨日、どうりょうを会いました。"
+        ],
+        "explanation": "会います (to meet) takes に: 〜に会います = meet someone. Past: 会いました."
+      },
+      {
+        "question": "How do you ask about someone's weekend?",
+        "answer": "しゅうまつはどうでしたか。",
+        "options": [
+          "しゅうまつはどうでしたか。",
+          "しゅうまつはなにをしましたか。",
+          "しゅうまつはどこへいきましたか。",
+          "All of the above are natural"
+        ],
+        "explanation": "All three are natural ways to ask. どうでしたか = how was it? なにをしましたか = what did you do? どこへいきましたか = where did you go?"
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 12,
+      "questionsCount": 5
+    },
+    "items": [
+      {
+        "question": "A: しゅうまつはどこかへ行きましたか。B: ___ 。(No, I stayed home.)",
+        "answer": "いいえ、どこもいきませんでした。うちにいました。",
+        "options": [
+          "いいえ、どこもいきませんでした。うちにいました。",
+          "はい、どこもいきました。",
+          "いいえ、どこかいきませんでした。",
+          "はい、どこかいませんでした。"
+        ],
+        "explanation": "Negative answer uses どこも (nowhere) + ませんでした. うちにいました = was at home (いました = was there, for living things)."
+      },
+      {
+        "question": "You ate sushi last night. How do you say this?",
+        "answer": "昨日の夜、すしをたべました。",
+        "options": [
+          "昨日の夜、すしをたべました。",
+          "昨日の夜、すしをたべます。",
+          "昨日の夜、すしをたべませんでした。",
+          "明日の夜、すしをたべました。"
+        ],
+        "explanation": "Past positive: 食べます → 食べました. 昨日の夜 = last night."
+      },
+      {
+        "question": "Someone asks なにかのみましたか. You had nothing. What do you say?",
+        "answer": "いいえ、なにものみませんでした。",
+        "options": [
+          "いいえ、なにものみませんでした。",
+          "いいえ、なにかのみませんでした。",
+          "はい、なにものみました。",
+          "いいえ、どこものみませんでした。"
+        ],
+        "explanation": "なにも (nothing) + negative verb. なにものみませんでした = didn't drink anything."
+      },
+      {
+        "question": "You met a colleague yesterday. How do you say this?",
+        "answer": "昨日、どうりょうに会いました。",
+        "options": [
+          "昨日、どうりょうに会いました。",
+          "昨日、どうりょうと会いました。",
+          "昨日、どうりょうで会いました。",
+          "昨日、どうりょうを会いました。"
+        ],
+        "explanation": "会います (to meet) takes に: 〜に会います = meet someone. Past: 会いました."
+      },
+      {
+        "question": "How do you ask about someone's weekend?",
+        "answer": "しゅうまつはどうでしたか。",
+        "options": [
+          "しゅうまつはどうでしたか。",
+          "しゅうまつはなにをしましたか。",
+          "しゅうまつはどこへいきましたか。",
+          "All of the above are natural"
+        ],
+        "explanation": "All three are natural ways to ask. どうでしたか = how was it? なにをしましたか = what did you do? どこへいきましたか = where did you go?"
+      }
+    ]
+  }
+}

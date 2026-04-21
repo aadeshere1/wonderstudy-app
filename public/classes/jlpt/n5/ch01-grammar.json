@@ -1,0 +1,400 @@
+{
+  "id": "ch01-grammar",
+  "meta": {
+    "title": "Lesson 1: はじめまして — Grammar",
+    "subject": "japanese",
+    "class": null,
+    "lesson": "ch01-grammar",
+    "subtopic": "Nice to Meet You",
+    "description": "Grammar patterns for Minna no Nihongo Lesson 1: Nice to Meet You",
+    "icon": "👋",
+    "difficulty": "beginner"
+  },
+  "teach": {
+    "type": "flashcard",
+    "items": [
+      {
+        "front": "Pattern: NはNです",
+        "back": "N は N です — N is N\nわたしは田中です。= I am Tanaka.\nは (wa) marks the topic; です = polite 'is'."
+      },
+      {
+        "front": "Pattern: NもNです",
+        "back": "N も N です — N is also N\nサントスさんもブラジル人です。\n= Mr. Santos is also Brazilian.\nも (mo) replaces は to mean 'also/too'."
+      },
+      {
+        "front": "Pattern: NはNじゃありません",
+        "back": "Negative: N is not N\nわたしは学生じゃありません。\n= I am not a student.\nじゃありません = polite negative of です."
+      },
+      {
+        "front": "Pattern: NのN",
+        "back": "N の N — N's N (possession/affiliation)\nIMCのミラーさん = Mr. Miller of IMC\nわたしの本 = my book\nの connects owner → object."
+      },
+      {
+        "front": "Making questions: 〜ですか",
+        "back": "Add か to any statement to make a question.\n学生ですか。= Are you a student?\nアメリカ人ですか。= Are you American?\nAnswer: はい (yes) or いいえ (no)."
+      },
+      {
+        "front": "Responding: はい/いいえ",
+        "back": "はい、そうです。= Yes, that's right.\nいいえ、ちがいます。= No, that's different/wrong.\nいいえ、〜じゃありません。= No, I'm not ~."
+      },
+      {
+        "front": "Asking age: 〜さいですか",
+        "back": "なんさいですか。= How old are you?\n〜さいです。= I am ~ years old.\n23さい → にじゅうさんさい\n(Numbers review: いち、に、さん、し、ご...)"
+      },
+      {
+        "front": "Asking occupation",
+        "back": "おしごとは？= What is your job?\nしごとはなんですか。= What do you do for work?\n→ 〜です。(I am a ~)"
+      }
+    ]
+  },
+  "practice": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 25,
+      "questionsCount": 15
+    },
+    "items": [
+      {
+        "question": "わたし ___ 田中です。(I am Tanaka.)",
+        "answer": "は",
+        "options": [
+          "は",
+          "が",
+          "を",
+          "も"
+        ],
+        "explanation": "は (wa) is the topic marker. NはNです = 'N is N'."
+      },
+      {
+        "question": "サントスさん ___ ブラジル人です。(Mr. Santos is also Brazilian.)",
+        "answer": "も",
+        "options": [
+          "も",
+          "は",
+          "が",
+          "で"
+        ],
+        "explanation": "も (mo) means 'also/too' and replaces は in this pattern."
+      },
+      {
+        "question": "わたしは学生 ___ ありません。(I am not a student.)",
+        "answer": "じゃ",
+        "options": [
+          "じゃ",
+          "では",
+          "が",
+          "は"
+        ],
+        "explanation": "じゃありません is the polite negative of です. (でもありません is also correct but less common in speech.)"
+      },
+      {
+        "question": "これはIMC ___ ミラーさんです。(This is Mr. Miller of IMC.)",
+        "answer": "の",
+        "options": [
+          "の",
+          "は",
+          "が",
+          "を"
+        ],
+        "explanation": "の connects two nouns: company の person = person of the company."
+      },
+      {
+        "question": "がくせい ___ (Are you a student?)",
+        "answer": "ですか",
+        "options": [
+          "ですか",
+          "ですね",
+          "でしょう",
+          "ですよ"
+        ],
+        "explanation": "か at the end of a です sentence makes it a yes/no question."
+      },
+      {
+        "question": "ミラーさんはアメリカ___ です。(Mr. Miller is American.)",
+        "answer": "じん (人)",
+        "options": [
+          "じん (人)",
+          "ご (語)",
+          "さん",
+          "の"
+        ],
+        "explanation": "〜人 (じん) is the nationality suffix. アメリカ人 = American person."
+      },
+      {
+        "question": "にほん___ はにほんごです。(The language of Japan is Japanese.)",
+        "answer": "ご (語)",
+        "options": [
+          "ご (語)",
+          "じん (人)",
+          "の",
+          "は"
+        ],
+        "explanation": "〜語 (ご) is the language suffix. 日本語 = Japanese language."
+      },
+      {
+        "question": "はい、___ です。(Yes, that's right.)",
+        "answer": "そう",
+        "options": [
+          "そう",
+          "これ",
+          "どれ",
+          "だれ"
+        ],
+        "explanation": "はい、そうです = Yes, that's right. そう = 'so/that way'."
+      },
+      {
+        "question": "わたしはかいしゃいんじゃ ___ 。(I am not a company employee.)",
+        "answer": "ありません",
+        "options": [
+          "ありません",
+          "います",
+          "です",
+          "ません"
+        ],
+        "explanation": "じゃありません = polite negative. じゃ + ありません (not exist/be)."
+      },
+      {
+        "question": "Q: おしごとは？A: ___ です。(I am a teacher.)",
+        "answer": "せんせい",
+        "options": [
+          "せんせい",
+          "がくせい",
+          "かいしゃいん",
+          "エンジニア"
+        ],
+        "explanation": "せんせい (先生) = teacher. おしごとは = what is your job?"
+      },
+      {
+        "question": "田中さん ___ ちゅうごく人ですか。(Is Mr. Tanaka Chinese?)",
+        "answer": "は",
+        "options": [
+          "は",
+          "も",
+          "が",
+          "の"
+        ],
+        "explanation": "は marks 田中さん as the topic of this question."
+      },
+      {
+        "question": "A: フランス人ですか。B: いいえ、___ 。",
+        "answer": "ちがいます",
+        "options": [
+          "ちがいます",
+          "そうです",
+          "います",
+          "あります"
+        ],
+        "explanation": "ちがいます = 'that's different/wrong'. Used to politely deny something."
+      },
+      {
+        "question": "なんさいですか → ___ さいです。(I am 25 years old.)",
+        "answer": "にじゅうご (25)",
+        "options": [
+          "にじゅうご (25)",
+          "じゅうに (12)",
+          "さんじゅう (30)",
+          "よんじゅう (40)"
+        ],
+        "explanation": "25 = にじゅうご. に (2) + じゅう (10) + ご (5) = 25."
+      },
+      {
+        "question": "はじめまして, followed by what phrase?",
+        "answer": "よろしくおねがいします",
+        "options": [
+          "よろしくおねがいします",
+          "ありがとうございます",
+          "すみません",
+          "おやすみなさい"
+        ],
+        "explanation": "はじめまして always pairs with よろしくおねがいします at the end of a first introduction."
+      },
+      {
+        "question": "〜さん is used after:",
+        "answer": "Other people's names (not your own)",
+        "options": [
+          "Other people's names (not your own)",
+          "Your own name",
+          "Place names",
+          "Job titles only"
+        ],
+        "explanation": "〜さん is a respectful suffix. Never attach it to your own name — that's considered rude."
+      }
+    ]
+  },
+  "challenge": {
+    "gameType": "mcq-facts",
+    "config": {
+      "shuffleOptions": true,
+      "timeLimit": 12,
+      "questionsCount": 15
+    },
+    "items": [
+      {
+        "question": "わたし ___ 田中です。(I am Tanaka.)",
+        "answer": "は",
+        "options": [
+          "は",
+          "が",
+          "を",
+          "も"
+        ],
+        "explanation": "は (wa) is the topic marker. NはNです = 'N is N'."
+      },
+      {
+        "question": "サントスさん ___ ブラジル人です。(Mr. Santos is also Brazilian.)",
+        "answer": "も",
+        "options": [
+          "も",
+          "は",
+          "が",
+          "で"
+        ],
+        "explanation": "も (mo) means 'also/too' and replaces は in this pattern."
+      },
+      {
+        "question": "わたしは学生 ___ ありません。(I am not a student.)",
+        "answer": "じゃ",
+        "options": [
+          "じゃ",
+          "では",
+          "が",
+          "は"
+        ],
+        "explanation": "じゃありません is the polite negative of です. (でもありません is also correct but less common in speech.)"
+      },
+      {
+        "question": "これはIMC ___ ミラーさんです。(This is Mr. Miller of IMC.)",
+        "answer": "の",
+        "options": [
+          "の",
+          "は",
+          "が",
+          "を"
+        ],
+        "explanation": "の connects two nouns: company の person = person of the company."
+      },
+      {
+        "question": "がくせい ___ (Are you a student?)",
+        "answer": "ですか",
+        "options": [
+          "ですか",
+          "ですね",
+          "でしょう",
+          "ですよ"
+        ],
+        "explanation": "か at the end of a です sentence makes it a yes/no question."
+      },
+      {
+        "question": "ミラーさんはアメリカ___ です。(Mr. Miller is American.)",
+        "answer": "じん (人)",
+        "options": [
+          "じん (人)",
+          "ご (語)",
+          "さん",
+          "の"
+        ],
+        "explanation": "〜人 (じん) is the nationality suffix. アメリカ人 = American person."
+      },
+      {
+        "question": "にほん___ はにほんごです。(The language of Japan is Japanese.)",
+        "answer": "ご (語)",
+        "options": [
+          "ご (語)",
+          "じん (人)",
+          "の",
+          "は"
+        ],
+        "explanation": "〜語 (ご) is the language suffix. 日本語 = Japanese language."
+      },
+      {
+        "question": "はい、___ です。(Yes, that's right.)",
+        "answer": "そう",
+        "options": [
+          "そう",
+          "これ",
+          "どれ",
+          "だれ"
+        ],
+        "explanation": "はい、そうです = Yes, that's right. そう = 'so/that way'."
+      },
+      {
+        "question": "わたしはかいしゃいんじゃ ___ 。(I am not a company employee.)",
+        "answer": "ありません",
+        "options": [
+          "ありません",
+          "います",
+          "です",
+          "ません"
+        ],
+        "explanation": "じゃありません = polite negative. じゃ + ありません (not exist/be)."
+      },
+      {
+        "question": "Q: おしごとは？A: ___ です。(I am a teacher.)",
+        "answer": "せんせい",
+        "options": [
+          "せんせい",
+          "がくせい",
+          "かいしゃいん",
+          "エンジニア"
+        ],
+        "explanation": "せんせい (先生) = teacher. おしごとは = what is your job?"
+      },
+      {
+        "question": "田中さん ___ ちゅうごく人ですか。(Is Mr. Tanaka Chinese?)",
+        "answer": "は",
+        "options": [
+          "は",
+          "も",
+          "が",
+          "の"
+        ],
+        "explanation": "は marks 田中さん as the topic of this question."
+      },
+      {
+        "question": "A: フランス人ですか。B: いいえ、___ 。",
+        "answer": "ちがいます",
+        "options": [
+          "ちがいます",
+          "そうです",
+          "います",
+          "あります"
+        ],
+        "explanation": "ちがいます = 'that's different/wrong'. Used to politely deny something."
+      },
+      {
+        "question": "なんさいですか → ___ さいです。(I am 25 years old.)",
+        "answer": "にじゅうご (25)",
+        "options": [
+          "にじゅうご (25)",
+          "じゅうに (12)",
+          "さんじゅう (30)",
+          "よんじゅう (40)"
+        ],
+        "explanation": "25 = にじゅうご. に (2) + じゅう (10) + ご (5) = 25."
+      },
+      {
+        "question": "はじめまして, followed by what phrase?",
+        "answer": "よろしくおねがいします",
+        "options": [
+          "よろしくおねがいします",
+          "ありがとうございます",
+          "すみません",
+          "おやすみなさい"
+        ],
+        "explanation": "はじめまして always pairs with よろしくおねがいします at the end of a first introduction."
+      },
+      {
+        "question": "〜さん is used after:",
+        "answer": "Other people's names (not your own)",
+        "options": [
+          "Other people's names (not your own)",
+          "Your own name",
+          "Place names",
+          "Job titles only"
+        ],
+        "explanation": "〜さん is a respectful suffix. Never attach it to your own name — that's considered rude."
+      }
+    ]
+  }
+}
