@@ -265,7 +265,7 @@ export default function ReviewClient({ classNum, subject, lesson, initialLesson 
       </div>
 
       {/* Progress bar */}
-      <div className="flex-shrink-0 h-1.5 mx-4 mt-1 rounded-full overflow-hidden" style={{ background: 'rgba(255,255,255,0.07)' }}>
+      <div className="flex-shrink-0 h-1.5 mx-4 mt-1 rounded-full overflow-hidden" style={{ background: 'var(--ws-border)' }}>
         <div className="h-full rounded-full transition-all duration-500"
           style={{ width: `${progress}%`, background: 'linear-gradient(90deg,#a78bfa,#34d399)' }} />
       </div>

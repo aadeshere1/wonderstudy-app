@@ -3,6 +3,7 @@
 /* ── Theme CSS Variables ──────────────────────────────────────────────────── */
 
 :root {
+  color-scheme: light;
   /* LIGHT THEME (default — bright & kid-friendly) */
   --ws-bg:          #f5f0ff;
   --ws-surface:     #ffffff;
@@ -23,6 +24,7 @@
 }
 
 [data-theme="dark"] {
+  color-scheme: dark;
   /* DARK THEME */
   --ws-bg:          #0d0d1a;
   --ws-surface:     #161628;

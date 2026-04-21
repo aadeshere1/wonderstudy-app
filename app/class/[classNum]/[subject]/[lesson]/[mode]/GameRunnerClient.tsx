@@ -415,7 +415,7 @@ export default function GameRunnerClient({
         </div>
 
         {/* ── Progress bar ── */}
-        <div className="flex-shrink-0 h-1.5 mx-4 mt-1 rounded-full overflow-hidden" style={{ background: 'rgba(255,255,255,0.07)' }}>
+        <div className="flex-shrink-0 h-1.5 mx-4 mt-1 rounded-full overflow-hidden" style={{ background: 'var(--ws-border)' }}>
           <div
             className="h-full rounded-full transition-all duration-500"
             style={{ width: `${progressPct}%`, background: 'linear-gradient(90deg,#a78bfa,#34d399)' }}
@@ -549,7 +549,7 @@ export default function GameRunnerClient({
       </div>
 
       {/* ── Progress bar ── */}
-      <div className="flex-shrink-0 h-1.5 mx-4 my-1 rounded-full overflow-hidden" style={{ background: 'rgba(255,255,255,0.07)' }}>
+      <div className="flex-shrink-0 h-1.5 mx-4 my-1 rounded-full overflow-hidden" style={{ background: 'var(--ws-border)' }}>
         <div
           className="h-full rounded-full transition-all duration-500"
           style={{ width: `${progressPct}%`, background: 'linear-gradient(90deg,#a78bfa,#f87171)' }}
@@ -594,7 +594,7 @@ export default function GameRunnerClient({
             padding: '7px 18px',
             borderRadius: '10px',
             background: 'var(--ws-card2)',
-            border: '1px solid rgba(255,255,255,0.1)',
+            border: '1px solid var(--ws-border)',
             color: 'var(--ws-text-muted)',
             fontFamily: 'var(--font-nunito),sans-serif',
             fontWeight: 800,

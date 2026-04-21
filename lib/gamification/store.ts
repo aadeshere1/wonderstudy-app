@@ -1,5 +1,5 @@
-import { getFirestore, doc, getDoc, setDoc } from 'firebase/firestore';
-import app from '@/lib/firebase/config';
+import { doc, getDoc, setDoc } from 'firebase/firestore';
+import fdb from '@/lib/firebase/firestore';
 import type { GamificationData } from './types';
 import { DEFAULT_GAMIFICATION } from './types';
 import { getLevelForXP } from './levels';
@@ -27,7 +27,7 @@ function localSave(data: GamificationData) {
 // ── Firestore helpers ─────────────────────────────────────────────────────
 
 function gamRef(uid: string) {
-  return doc(getFirestore(app), 'users', uid, 'gamification', 'data');
+  return doc(fdb, 'users', uid, 'gamification', 'data');
 }
 
 async function firestoreLoad(uid: string): Promise<GamificationData> {

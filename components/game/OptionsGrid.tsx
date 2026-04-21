@@ -93,7 +93,7 @@ export const OptionsGrid = ({
             onMouseLeave={(e) => {
               if (!disabled && !isCorrect && !isWrong) {
                 const el = e.currentTarget;
-                el.style.borderColor = 'rgba(255,255,255,0.1)';
+                el.style.borderColor = 'var(--ws-border)';
                 el.style.transform = 'translateY(0)';
                 el.style.boxShadow = 'none';
               }

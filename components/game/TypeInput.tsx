@@ -44,8 +44,8 @@ export const TypeInput = ({
   };
 
   // Border & text colour feedback
-  let borderColor = 'rgba(255,255,255,0.12)';
-  let textColor = 'white';
+  let borderColor = 'var(--ws-border)';
+  let textColor = 'var(--ws-text)';
   if (isCorrect === true)  { borderColor = '#34d399'; textColor = '#34d399'; }
   if (isCorrect === false) { borderColor = '#f87171'; textColor = '#f87171'; }
 
@@ -73,7 +73,7 @@ export const TypeInput = ({
           placeholder={placeholder}
           style={{
             flex: 1,
-            background: '#1e1e38',
+            background: 'var(--ws-card)',
             border: `3px solid ${borderColor}`,
             borderRadius: '16px',
             color: textColor,

@@ -11,7 +11,7 @@ export function AuthButton() {
     return (
       <div style={{
         width: 36, height: 36, borderRadius: '50%',
-        background: 'rgba(255,255,255,0.07)', animation: 'pulse 1.5s infinite',
+        background: 'var(--ws-card2)', animation: 'pulse 1.5s infinite',
       }} />
     );
   }
@@ -46,9 +46,9 @@ export function AuthButton() {
           style={{
             padding: '5px 12px',
             borderRadius: 10,
-            border: '1px solid rgba(255,255,255,0.12)',
-            background: 'rgba(255,255,255,0.05)',
-            color: 'rgba(240,244,255,0.55)',
+            border: '1px solid var(--ws-border)',
+            background: 'var(--ws-card2)',
+            color: 'var(--ws-text-muted)',
             fontSize: '0.75rem',
             fontWeight: 800,
             fontFamily: 'var(--font-nunito),sans-serif',

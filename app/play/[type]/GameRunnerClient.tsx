@@ -156,7 +156,7 @@ export default function GameRunnerClient({ type, initialLesson }: GameRunnerClie
   // ── Loading ──────────────────────────────────────────────────────────
   if (phase === 'loading') {
     return (
-      <div className="fixed inset-0 flex items-center justify-center" style={{ background: '#0d0d1a' }}>
+      <div className="fixed inset-0 flex items-center justify-center" style={{ background: 'var(--ws-bg)' }}>
         <div className="text-center">
           <div className="text-6xl mb-4 animate-bounce">⭐</div>
           <div className="font-display text-2xl" style={{ color: '#fbbf24' }}>Loading…</div>
@@ -188,10 +188,10 @@ export default function GameRunnerClient({ type, initialLesson }: GameRunnerClie
   if (loadError || !gameEngine || !gameState || !lesson) {
     const msg = loadError || 'Game failed to load';
     return (
-      <div className="fixed inset-0 flex items-center justify-center p-4" style={{ background: '#0d0d1a' }}>
+      <div className="fixed inset-0 flex items-center justify-center p-4" style={{ background: 'var(--ws-bg)' }}>
         <div className="text-center max-w-md">
           <div className="text-5xl mb-4">😬</div>
-          <div className="font-display text-2xl text-white mb-3">{msg}</div>
+          <div className="font-display text-2xl text-theme mb-3">{msg}</div>
           <button
             onClick={() => router.back()}
             style={{ padding: '12px 28px', borderRadius: '14px', background: 'linear-gradient(135deg,#a78bfa,#f87171)', border: 'none', color: 'white', fontFamily: 'var(--font-fredoka-one),cursive', fontSize: '1rem', cursor: 'pointer' }}
@@ -208,7 +208,7 @@ export default function GameRunnerClient({ type, initialLesson }: GameRunnerClie
   // ── Game Over ────────────────────────────────────────────────────────
   if (!gameState.running) {
     return (
-      <div className="fixed inset-0 overflow-y-auto" style={{ background: '#0d0d1a' }}>
+      <div className="fixed inset-0 overflow-y-auto" style={{ background: 'var(--ws-bg)' }}>
         {gameState.players.length > 1 ? (
           <div className="min-h-full py-8">
             <Podium
@@ -246,13 +246,13 @@ export default function GameRunnerClient({ type, initialLesson }: GameRunnerClie
   const progressPct = Math.min(100, Math.round(((gameState.questionNumber || 0) / (gameState.totalQuestions || 20)) * 100));
 
   return (
-    <div className="fixed inset-0 flex flex-col overflow-hidden" style={{ background: '#0d0d1a' }}>
+    <div className="fixed inset-0 flex flex-col overflow-hidden" style={{ background: 'var(--ws-bg)' }}>
       <ConfettiOverlay active={showConfetti} />
 
       {/* ── Score | Timer | Streak ── */}
-      <div className="flex items-center justify-between flex-shrink-0" style={{ background: '#161628', borderBottom: '1px solid rgba(255,255,255,0.06)' }}>
+      <div className="flex items-center justify-between flex-shrink-0" style={{ background: 'var(--ws-surface)', borderBottom: '1px solid var(--ws-border)' }}>
         <div className="text-center px-5 py-2 min-w-[80px]">
-          <div className="text-xs uppercase tracking-widest mb-0.5" style={{ color: 'rgba(240,244,255,0.4)' }}>Score</div>
+          <div className="text-xs uppercase tracking-widest mb-0.5" style={{ color: 'var(--ws-text-dim)' }}>Score</div>
           <div className="font-display text-3xl" style={{ color: '#fbbf24' }}>{currentPlayer?.score || 0}</div>
         </div>
 
@@ -270,7 +270,7 @@ export default function GameRunnerClient({ type, initialLesson }: GameRunnerClie
         )}
 
         <div className="text-center px-5 py-2 min-w-[80px]">
-          <div className="text-xs uppercase tracking-widest mb-0.5" style={{ color: 'rgba(240,244,255,0.4)' }}>Streak</div>
+          <div className="text-xs uppercase tracking-widest mb-0.5" style={{ color: 'var(--ws-text-dim)' }}>Streak</div>
           <div className="font-display text-3xl" style={{ color: '#34d399' }}>
             {(currentPlayer?.streak || 0) > 0 ? `🔥${currentPlayer?.streak}` : '0'}
           </div>
@@ -278,7 +278,7 @@ export default function GameRunnerClient({ type, initialLesson }: GameRunnerClie
       </div>
 
       {/* ── Progress bar ── */}
-      <div className="flex-shrink-0 h-1.5 mx-4 my-1 rounded-full overflow-hidden" style={{ background: 'rgba(255,255,255,0.07)' }}>
+      <div className="flex-shrink-0 h-1.5 mx-4 my-1 rounded-full overflow-hidden" style={{ background: 'var(--ws-border)' }}>
         <div
           className="h-full rounded-full transition-all duration-500"
           style={{ width: `${progressPct}%`, background: 'linear-gradient(90deg,#a78bfa,#f87171)' }}
@@ -360,8 +360,8 @@ export default function GameRunnerClient({ type, initialLesson }: GameRunnerClie
           onClick={() => gameEngine.endGame('manual')}
           style={{
             padding: '7px 16px', borderRadius: '10px',
-            background: '#252545', border: '1px solid rgba(255,255,255,0.1)',
-            color: 'rgba(240,244,255,0.5)', fontFamily: 'var(--font-nunito),sans-serif',
+            background: 'var(--ws-card2)', border: '1px solid var(--ws-border)',
+            color: 'var(--ws-text-muted)', fontFamily: 'var(--font-nunito),sans-serif',
             fontWeight: 800, fontSize: '0.8rem', cursor: 'pointer',
           }}
         >

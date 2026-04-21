@@ -57,7 +57,7 @@ export const TableSelector = ({
       >
         <button
           onClick={onBack}
-          style={{ background: 'none', border: 'none', color: 'rgba(240,244,255,0.45)', fontWeight: 800, fontSize: '0.85rem', cursor: 'pointer', fontFamily: 'var(--font-nunito),sans-serif' }}
+          style={{ background: 'none', border: 'none', color: 'var(--ws-text-muted)', fontWeight: 800, fontSize: '0.85rem', cursor: 'pointer', fontFamily: 'var(--font-nunito),sans-serif' }}
         >
           ← Back
         </button>
@@ -84,7 +84,7 @@ export const TableSelector = ({
               {title}
             </h1>
             {description && (
-              <p className="text-sm" style={{ color: 'rgba(240,244,255,0.4)' }}>{description}</p>
+              <p className="text-sm" style={{ color: 'var(--ws-text-muted)' }}>{description}</p>
             )}
           </div>
 
@@ -97,7 +97,7 @@ export const TableSelector = ({
             <div className="flex items-center justify-between mb-4">
               <div>
                 <div className="font-black text-theme text-sm">Choose Tables</div>
-                <div className="text-xs mt-0.5" style={{ color: 'rgba(240,244,255,0.4)' }}>
+                <div className="text-xs mt-0.5" style={{ color: 'var(--ws-text-muted)' }}>
                   {selected.size === 0
                     ? 'Pick at least one'
                     : selected.size === maxTable
@@ -156,8 +156,8 @@ export const TableSelector = ({
                       border: active ? '2px solid #34d399' : '2px solid var(--ws-border)',
                       background: active
                         ? 'linear-gradient(135deg,#34d399,#0891b2)'
-                        : '#252545',
-                      color: 'white',
+                        : 'var(--ws-card2)',
+                      color: 'var(--ws-text)',
                       fontFamily: 'var(--font-fredoka-one),cursive',
                       fontSize: '1.1rem',
                       cursor: 'pointer',
@@ -200,7 +200,7 @@ export const TableSelector = ({
 
             {/* Quick-picks row */}
             <div className="flex flex-wrap gap-2 mt-4 pt-4" style={{ borderTop: '1px solid var(--ws-border)' }}>
-              <span className="text-xs font-bold self-center" style={{ color: 'rgba(240,244,255,0.35)' }}>Quick pick:</span>
+              <span className="text-xs font-bold self-center" style={{ color: 'var(--ws-text-dim)' }}>Quick pick:</span>
               {[
                 { label: 'Easy', tables: [2, 5, 10] },
                 { label: 'Medium', tables: [3, 4, 6, 7, 8] },
@@ -222,7 +222,7 @@ export const TableSelector = ({
                     transition: 'all 0.15s',
                   }}
                   onMouseEnter={(e) => { e.currentTarget.style.borderColor = '#a78bfa'; e.currentTarget.style.color = '#a78bfa'; }}
-                  onMouseLeave={(e) => { e.currentTarget.style.borderColor = 'var(--ws-border)'; e.currentTarget.style.color = 'rgba(240,244,255,0.55)'; }}
+                  onMouseLeave={(e) => { e.currentTarget.style.borderColor = 'var(--ws-border)'; e.currentTarget.style.color = 'var(--ws-text-muted)'; }}
                 >
                   {preset.label}
                 </button>
@@ -232,7 +232,7 @@ export const TableSelector = ({
 
           {/* Preview of selected */}
           {selected.size > 0 && (
-            <div className="text-center text-sm" style={{ color: 'rgba(240,244,255,0.4)' }}>
+            <div className="text-center text-sm" style={{ color: 'var(--ws-text-muted)' }}>
               Practising:{' '}
               <span className="font-black" style={{ color: '#34d399' }}>
                 {Array.from(selected).sort((a, b) => a - b).map((n) => `${opSymbol}${n}`).join(', ')}

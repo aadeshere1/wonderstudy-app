@@ -139,7 +139,7 @@ function QuestionModal({ q, item, formatLessonId, onClose }: ModalProps) {
                       width: 20, height: 20, borderRadius: '50%', flexShrink: 0,
                       display: 'flex', alignItems: 'center', justifyContent: 'center',
                       fontSize: '0.7rem', fontWeight: 900,
-                      background: isCorrect ? 'rgba(52,211,153,0.2)' : 'rgba(255,255,255,0.05)',
+                      background: isCorrect ? 'rgba(52,211,153,0.2)' : 'var(--ws-card2)',
                       color: isCorrect ? '#34d399' : 'var(--ws-text-muted)',
                     }}>
                       {isCorrect ? '✓' : ''}

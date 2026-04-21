@@ -78,7 +78,7 @@ export const Timer = ({
         <circle
           cx="45" cy="45" r={r}
           fill="none"
-          stroke="rgba(255,255,255,0.08)"
+          style={{ stroke: 'var(--ws-border)' }}
           strokeWidth="6"
         />
         {/* progress arc */}

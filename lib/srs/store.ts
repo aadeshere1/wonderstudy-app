@@ -14,9 +14,9 @@ import { applyAnswer, newCard, isDue } from './algorithm';
 
 // ── Lazy Firestore imports (avoids SSR issues) ────────────────────────────────
 async function fs() {
-  const { getFirestore: gf, doc, getDoc, setDoc } = await import('firebase/firestore');
-  const app = (await import('@/lib/firebase/config')).default;
-  return { db: gf(app), doc, getDoc, setDoc };
+  const { doc, getDoc, setDoc } = await import('firebase/firestore');
+  const { default: db } = await import('@/lib/firebase/firestore');
+  return { db, doc, getDoc, setDoc };
 }
 
 // ── In-memory cache ───────────────────────────────────────────────────────────

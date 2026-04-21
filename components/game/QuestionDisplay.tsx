@@ -24,10 +24,10 @@ function MathQuestion({ text }: { text: string }) {
         style={{ fontFamily: 'var(--font-fredoka-one), cursive', fontSize: 'clamp(2.4rem,10vw,4.2rem)' }}
       >
         <span style={{ color: '#fbbf24' }}>{a}</span>
-        <span style={{ color: 'rgba(255,255,255,0.3)', fontSize: '0.6em' }}> {op} </span>
+        <span style={{ color: 'var(--ws-text-dim)', fontSize: '0.6em' }}> {op} </span>
         <span style={{ color: '#f87171' }}>{b}</span>
-        <span style={{ color: 'rgba(255,255,255,0.3)', fontSize: '0.6em' }}> = </span>
-        <span style={{ color: 'rgba(255,255,255,0.2)' }}>{ans}</span>
+        <span style={{ color: 'var(--ws-text-dim)', fontSize: '0.6em' }}> = </span>
+        <span style={{ color: 'var(--ws-text-muted)' }}>{ans}</span>
       </div>
     );
   }
@@ -68,8 +68,8 @@ export const QuestionDisplay = ({
             width: 52,
             height: 52,
             borderRadius: '50%',
-            background: '#252545',
-            border: '2px solid rgba(255,255,255,0.1)',
+            background: 'var(--ws-card2)',
+            border: '2px solid var(--ws-border)',
             fontSize: '1.4rem',
             cursor: 'pointer',
             transition: 'all 0.2s',
@@ -82,7 +82,7 @@ export const QuestionDisplay = ({
             e.currentTarget.style.transform = 'scale(1.1)';
           }}
           onMouseLeave={(e) => {
-            e.currentTarget.style.borderColor = 'rgba(255,255,255,0.1)';
+            e.currentTarget.style.borderColor = 'var(--ws-border)';
             e.currentTarget.style.transform = 'scale(1)';
           }}
         >

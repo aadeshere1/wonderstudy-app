@@ -47,7 +47,7 @@ export const Flashcard = ({
       {/* ── Card counter ── */}
       {progress && (
         <div className="flex items-center gap-2">
-          <span className="text-xs uppercase tracking-widest font-bold" style={{ color: 'rgba(240,244,255,0.4)' }}>
+          <span className="text-xs uppercase tracking-widest font-bold" style={{ color: 'var(--ws-text-muted)' }}>
             Card {progress}
           </span>
           {/* dot-track */}
@@ -61,7 +61,7 @@ export const Flashcard = ({
                   height: 6,
                   background: i === index
                     ? 'linear-gradient(90deg,#a78bfa,#f87171)'
-                    : 'rgba(255,255,255,0.15)',
+                    : 'var(--ws-border)',
                 }}
               />
             ))}
@@ -133,7 +133,7 @@ export const Flashcard = ({
             {/* tap hint */}
             <div
               className="absolute bottom-3 right-4 text-xs"
-              style={{ color: 'rgba(240,244,255,0.3)' }}
+              style={{ color: 'var(--ws-text-dim)' }}
             >
               Tap to flip ↓
             </div>
@@ -169,7 +169,7 @@ export const Flashcard = ({
             {/* tap hint */}
             <div
               className="absolute bottom-3 right-4 text-xs"
-              style={{ color: 'rgba(240,244,255,0.3)' }}
+              style={{ color: 'var(--ws-text-dim)' }}
             >
               Tap to flip ↑
             </div>

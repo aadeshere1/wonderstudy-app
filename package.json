@@ -7,9 +7,17 @@
     "sync-public": "cp -r data/classes/. public/classes/ && cp -r data/general/. public/general/",
     "build": "npm run sync-public && next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "build:mobile": "npm run build && npx cap sync",
+    "cap:sync": "npx cap sync",
+    "cap:android": "npx cap open android",
+    "cap:ios": "npx cap open ios"
   },
   "dependencies": {
+    "@capacitor/android": "^8.3.1",
+    "@capacitor/cli": "^8.3.1",
+    "@capacitor/core": "^8.3.1",
+    "@capacitor/ios": "^8.3.1",
     "firebase": "^12.12.0",
     "next": "16.2.2",
     "react": "19.2.4",

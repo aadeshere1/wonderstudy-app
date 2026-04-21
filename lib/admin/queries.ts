@@ -4,13 +4,13 @@
  * authenticated user (per Firestore security rules in firestore.rules).
  */
 
-import { getFirestore, collection, onSnapshot, doc, getDoc } from 'firebase/firestore';
+import { collection, onSnapshot, doc, getDoc } from 'firebase/firestore';
 import type { User } from 'firebase/auth';
-import app from '@/lib/firebase/config';
+import fdb from '@/lib/firebase/firestore';
 import type { StudentSummary, QuestionProgressMap } from './types';
 
 function db() {
-  return getFirestore(app);
+  return fdb;
 }
 
 function docToStudentSummary(id: string, raw: Record<string, unknown>): StudentSummary {
@@ -107,10 +107,9 @@ export async function recordQuestionProgress(
   try {
     await user.getIdToken(); // ensure Firestore auth token is ready
 
-    const { getFirestore: gf, doc, writeBatch, increment, arrayUnion } =
+    const { doc, writeBatch, increment, arrayUnion } =
       await import('firebase/firestore');
-    const { default: firebaseApp } = await import('@/lib/firebase/config');
-    const fdb = gf(firebaseApp);
+    const { default: fdb } = await import('@/lib/firebase/firestore');
     const cardId = `${lessonId}_${section}_${index}`;
     const now = new Date().toISOString();
 

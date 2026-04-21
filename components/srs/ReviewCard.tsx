@@ -30,8 +30,8 @@ export default function ReviewCard({ classNum, subject, lesson, lessonId }: Prop
       className="block group"
     >
       <div
-        className="rounded-2xl border border-white/10 p-px transition-all duration-200 group-hover:-translate-y-0.5"
-        style={{ boxShadow: '0 4px 20px rgba(99,102,241,0.3)' }}
+        className="rounded-2xl p-px transition-all duration-200 group-hover:-translate-y-0.5"
+        style={{ border: '1px solid var(--ws-border)', boxShadow: '0 4px 20px rgba(99,102,241,0.3)' }}
       >
         <div
           className="rounded-2xl flex items-center gap-5 px-6 py-5"
@@ -77,7 +77,7 @@ export default function ReviewCard({ classNum, subject, lesson, lessonId }: Prop
                 </span>
               )}
             </div>
-            <p className="text-xs" style={{ color: 'rgba(240,244,255,0.45)' }}>
+            <p className="text-xs" style={{ color: 'var(--ws-text-muted)' }}>
               Revisit cards using spaced repetition
             </p>
           </div>
@@ -85,7 +85,7 @@ export default function ReviewCard({ classNum, subject, lesson, lessonId }: Prop
           {/* Arrow */}
           <div
             className="flex-shrink-0 font-display text-xl transition-transform duration-200 group-hover:translate-x-1"
-            style={{ color: 'rgba(240,244,255,0.3)' }}
+            style={{ color: 'var(--ws-text-dim)' }}
           >
             →
           </div>

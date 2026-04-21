@@ -32,9 +32,9 @@ export const Button = ({
     primary:
       "bg-gradient-to-r from-purple to-coral text-white shadow-glow hover:shadow-lg hover:scale-105 disabled:hover:scale-100",
     secondary:
-      "bg-card2 text-white border border-white/10 hover:border-purple hover:text-purple disabled:hover:text-white disabled:hover:border-white/10",
+      "bg-card2 text-theme border border-border hover:border-purple hover:text-purple disabled:hover:text-theme disabled:hover:border-border",
     gold: "bg-gradient-to-r from-gold to-orange-400 text-black font-black hover:shadow-lg hover:scale-105 disabled:hover:scale-100",
-    ghost: "bg-transparent text-white hover:bg-white/10 disabled:hover:bg-transparent",
+    ghost: "bg-transparent text-theme hover:bg-black/5 dark:hover:bg-white/10 disabled:hover:bg-transparent",
   };
 
   return (
