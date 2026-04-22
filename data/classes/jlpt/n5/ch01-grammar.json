@@ -51,7 +51,7 @@
     "gameType": "mcq-facts",
     "config": {
       "shuffleOptions": true,
-      "timeLimit": 25,
+      "timeLimit": 0,
       "questionsCount": 15
     },
     "items": [

@@ -44,7 +44,7 @@
     "config": {
       "answerMode": "mcq",
       "optionsCount": 4,
-      "timeLimit": 20,
+      "timeLimit": 0,
       "questionsCount": 15
     },
     "items": [
