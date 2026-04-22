@@ -32,7 +32,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 0,
-      "questionsCount": 3
+      "questionsCount": 20
     },
     "items": [
       {
@@ -67,6 +67,91 @@
           "もっときれいをかいてください。"
         ],
         "explanation": "きれいに = adverb form of きれい (な-adj). もっときれいに = more neatly/beautifully."
+      },
+      {
+        "question": "The coffee is too hot to drink. Express this in Japanese.",
+        "answer": "コーヒーがあつすぎて、のめません。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I slept too much yesterday'?",
+        "answer": "きのうはねすぎました。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Translate: 'Please write more carefully.'",
+        "answer": "もっとていねいにかいてください。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'It's getting cold'?",
+        "answer": "さむくなってきました。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Translate: 'This bag is too expensive.'",
+        "answer": "このかばんはたかすぎます。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'She became a teacher'?",
+        "answer": "かのじょはせんせいになりました。",
+        "type": "short_answer"
+      },
+      {
+        "question": "The room became dirty. Express this.",
+        "answer": "へやがきたなくなりました。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Translate: 'Please speak Japanese more slowly.'",
+        "answer": "もっとゆっくり日本語をはなしてください。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I worked too much this week'?",
+        "answer": "こんしゅうはたらきすぎました。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'The test became easy'?",
+        "answer": "テストがやさしくなりました。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Translate: 'Please do your homework more carefully.'",
+        "answer": "もっとていねいにしゅくだいをやってください。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I want to become fluent in Japanese'?",
+        "answer": "日本語がじょうずになりたいです。",
+        "type": "short_answer"
+      },
+      {
+        "question": "The city became lively after the festival. Express this.",
+        "answer": "まつりのあと、まちがにぎやかになりました。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'The portion was too small'?",
+        "answer": "りょうがすくなすぎました。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Translate: 'Please explain it more simply.'",
+        "answer": "もっとかんたんにせつめいしてください。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'Don't drink too much alcohol'?",
+        "answer": "おさけをのみすぎないでください。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'It has become dark outside'?",
+        "answer": "そとがくらくなりました。",
+        "type": "short_answer"
       }
     ]
   },
@@ -75,7 +160,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 12,
-      "questionsCount": 3
+      "questionsCount": 20
     },
     "items": [
       {
@@ -110,6 +195,91 @@
           "もっときれいをかいてください。"
         ],
         "explanation": "きれいに = adverb form of きれい (な-adj). もっときれいに = more neatly/beautifully."
+      },
+      {
+        "question": "The coffee is too hot to drink. Express this in Japanese.",
+        "answer": "コーヒーがあつすぎて、のめません。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I slept too much yesterday'?",
+        "answer": "きのうはねすぎました。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Translate: 'Please write more carefully.'",
+        "answer": "もっとていねいにかいてください。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'It's getting cold'?",
+        "answer": "さむくなってきました。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Translate: 'This bag is too expensive.'",
+        "answer": "このかばんはたかすぎます。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'She became a teacher'?",
+        "answer": "かのじょはせんせいになりました。",
+        "type": "short_answer"
+      },
+      {
+        "question": "The room became dirty. Express this.",
+        "answer": "へやがきたなくなりました。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Translate: 'Please speak Japanese more slowly.'",
+        "answer": "もっとゆっくり日本語をはなしてください。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I worked too much this week'?",
+        "answer": "こんしゅうはたらきすぎました。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'The test became easy'?",
+        "answer": "テストがやさしくなりました。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Translate: 'Please do your homework more carefully.'",
+        "answer": "もっとていねいにしゅくだいをやってください。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I want to become fluent in Japanese'?",
+        "answer": "日本語がじょうずになりたいです。",
+        "type": "short_answer"
+      },
+      {
+        "question": "The city became lively after the festival. Express this.",
+        "answer": "まつりのあと、まちがにぎやかになりました。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'The portion was too small'?",
+        "answer": "りょうがすくなすぎました。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Translate: 'Please explain it more simply.'",
+        "answer": "もっとかんたんにせつめいしてください。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'Don't drink too much alcohol'?",
+        "answer": "おさけをのみすぎないでください。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'It has become dark outside'?",
+        "answer": "そとがくらくなりました。",
+        "type": "short_answer"
       }
     ]
   }

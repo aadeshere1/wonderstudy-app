@@ -32,7 +32,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 0,
-      "questionsCount": 3
+      "questionsCount": 20
     },
     "items": [
       {
@@ -67,6 +67,91 @@
           "えきまで200メートルのところにぎんこうがあります。"
         ],
         "explanation": "から marks distance from a point. 〜のところに = at the place of ~. あります = there is."
+      },
+      {
+        "question": "A stranger asks how to get to the post office. Tell them: 'Go straight and it's on the right.'",
+        "answer": "まっすぐ行って、みぎがわにあります。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you ask 'Is it far from the station?'",
+        "answer": "えきからとおいですか。",
+        "type": "short_answer"
+      },
+      {
+        "question": "The supermarket is near the school. Describe this.",
+        "answer": "スーパーはがっこうのちかくにあります。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Give directions: 'Turn left at the second corner.'",
+        "answer": "ふたつめのかどをひだりにまがってください。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'Cross the bridge and go straight'?",
+        "answer": "はしをわたって、まっすぐ行ってください。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Translate: 'The bookstore is between the bank and the post office.'",
+        "answer": "ほんやはぎんこうとゆうびんきょくのあいだにあります。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you ask 'How many minutes on foot from here?'",
+        "answer": "ここからあるいてなんぷんですか。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Give directions: 'Turn right at the traffic light.'",
+        "answer": "しんごうをみぎにまがってください。",
+        "type": "short_answer"
+      },
+      {
+        "question": "You're lost. How do you ask 'Where is the nearest station?'",
+        "answer": "いちばんちかいえきはどこですか。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Translate: 'If you go straight, you will find a convenience store on the left.'",
+        "answer": "まっすぐ行くと、ひだりにコンビニがあります。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'The hospital is about 10 minutes by car from here'?",
+        "answer": "びょういんはここからくるまで10ぷんぐらいです。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Translate: 'Please go back the way you came.'",
+        "answer": "きたみちをもどってください。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'It is right in front of you'?",
+        "answer": "すぐまえにあります。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Describe: 'There is a café next to the library.'",
+        "answer": "としょかんのとなりにカフェがあります。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you ask someone to repeat the directions?",
+        "answer": "もういちどいってください。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Translate: 'Go up the stairs and turn right.'",
+        "answer": "かいだんをのぼって、みぎにまがってください。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'It is about 500 metres from here'?",
+        "answer": "ここから500メートルぐらいです。",
+        "type": "short_answer"
       }
     ]
   },
@@ -75,7 +160,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 12,
-      "questionsCount": 3
+      "questionsCount": 20
     },
     "items": [
       {
@@ -110,6 +195,91 @@
           "えきまで200メートルのところにぎんこうがあります。"
         ],
         "explanation": "から marks distance from a point. 〜のところに = at the place of ~. あります = there is."
+      },
+      {
+        "question": "A stranger asks how to get to the post office. Tell them: 'Go straight and it's on the right.'",
+        "answer": "まっすぐ行って、みぎがわにあります。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you ask 'Is it far from the station?'",
+        "answer": "えきからとおいですか。",
+        "type": "short_answer"
+      },
+      {
+        "question": "The supermarket is near the school. Describe this.",
+        "answer": "スーパーはがっこうのちかくにあります。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Give directions: 'Turn left at the second corner.'",
+        "answer": "ふたつめのかどをひだりにまがってください。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'Cross the bridge and go straight'?",
+        "answer": "はしをわたって、まっすぐ行ってください。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Translate: 'The bookstore is between the bank and the post office.'",
+        "answer": "ほんやはぎんこうとゆうびんきょくのあいだにあります。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you ask 'How many minutes on foot from here?'",
+        "answer": "ここからあるいてなんぷんですか。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Give directions: 'Turn right at the traffic light.'",
+        "answer": "しんごうをみぎにまがってください。",
+        "type": "short_answer"
+      },
+      {
+        "question": "You're lost. How do you ask 'Where is the nearest station?'",
+        "answer": "いちばんちかいえきはどこですか。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Translate: 'If you go straight, you will find a convenience store on the left.'",
+        "answer": "まっすぐ行くと、ひだりにコンビニがあります。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'The hospital is about 10 minutes by car from here'?",
+        "answer": "びょういんはここからくるまで10ぷんぐらいです。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Translate: 'Please go back the way you came.'",
+        "answer": "きたみちをもどってください。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'It is right in front of you'?",
+        "answer": "すぐまえにあります。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Describe: 'There is a café next to the library.'",
+        "answer": "としょかんのとなりにカフェがあります。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you ask someone to repeat the directions?",
+        "answer": "もういちどいってください。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Translate: 'Go up the stairs and turn right.'",
+        "answer": "かいだんをのぼって、みぎにまがってください。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'It is about 500 metres from here'?",
+        "answer": "ここから500メートルぐらいです。",
+        "type": "short_answer"
       }
     ]
   }

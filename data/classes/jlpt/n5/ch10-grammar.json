@@ -52,7 +52,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 0,
-      "questionsCount": 11
+      "questionsCount": 20
     },
     "items": [
       {
@@ -175,6 +175,105 @@
           "日本にいちばんおいしいたべものはなんですか。"
         ],
         "explanation": "〜でいちばん〜 = the most ~ in ~. で marks the scope (in Japan). いちばん + adjective for superlative."
+      },
+      {
+        "question": "とうきょうと おおさかと、どちらが _____ですか。(Which is bigger, Tokyo or Osaka?)",
+        "answer": "おおきい",
+        "options": [
+          "おおきい",
+          "たかい",
+          "ひろい",
+          "うつくしい"
+        ],
+        "explanation": "AとBとどちらが〜ですか = Which is more ~ , A or B?"
+      },
+      {
+        "question": "にほんで _____たかい やまは ふじさんです。(The tallest mountain in Japan is Mt Fuji.)",
+        "answer": "いちばん",
+        "options": [
+          "いちばん",
+          "もっと",
+          "より",
+          "ほど"
+        ],
+        "explanation": "いちばん+adjective = the most ~. Superlative form."
+      },
+      {
+        "question": "バスより でんしゃの ほうが _____です。(Trains are faster than buses.)",
+        "answer": "はやい",
+        "options": [
+          "はやい",
+          "おそい",
+          "やすい",
+          "たかい"
+        ],
+        "explanation": "AよりBのほうが〜 = B is more ~ than A."
+      },
+      {
+        "question": "なかで なにが _____すきですか。(What do you like the most?)",
+        "answer": "いちばん",
+        "options": [
+          "いちばん",
+          "もっと",
+          "より",
+          "ほど"
+        ],
+        "explanation": "〜の中でなにがいちばん〜ですか = What is the most ~ among ~?"
+      },
+      {
+        "question": "りんごと みかんと どちらが _____ですか。——どちらも すきです。",
+        "answer": "すき",
+        "options": [
+          "すき",
+          "きらい",
+          "おいしい",
+          "たかい"
+        ],
+        "explanation": "どちらも+affirmative = both. I like both (apple and orange)."
+      },
+      {
+        "question": "この みせは あの みせ_____ やすいです。(This store is cheaper than that store.)",
+        "answer": "より",
+        "options": [
+          "より",
+          "ほど",
+          "ほうが",
+          "いちばん"
+        ],
+        "explanation": "AはBより〜 = A is more ~ than B. より = than (comparison)."
+      },
+      {
+        "question": "クラスの なかで だれが _____せが たかいですか。(Who is the tallest in the class?)",
+        "answer": "いちばん",
+        "options": [
+          "いちばん",
+          "もっとも",
+          "より",
+          "ほど"
+        ],
+        "explanation": "だれがいちばん〜 = who is the most ~. Superlative with person."
+      },
+      {
+        "question": "あついより _____ほうが すきです。(I prefer cold to hot.)",
+        "answer": "さむい",
+        "options": [
+          "さむい",
+          "あつい",
+          "すずしい",
+          "あたたかい"
+        ],
+        "explanation": "AよりBのほうが = prefer B over A. さむい = cold."
+      },
+      {
+        "question": "このクラスで にほんごが いちばん _____のは だれですか。(Who is best at Japanese in this class?)",
+        "answer": "じょうず",
+        "options": [
+          "じょうず",
+          "へた",
+          "すき",
+          "きらい"
+        ],
+        "explanation": "じょうず = skilled/good at. いちばんじょうずな = the most skilled."
       }
     ]
   },
@@ -183,7 +282,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 12,
-      "questionsCount": 11
+      "questionsCount": 20
     },
     "items": [
       {
@@ -306,6 +405,105 @@
           "日本にいちばんおいしいたべものはなんですか。"
         ],
         "explanation": "〜でいちばん〜 = the most ~ in ~. で marks the scope (in Japan). いちばん + adjective for superlative."
+      },
+      {
+        "question": "とうきょうと おおさかと、どちらが _____ですか。(Which is bigger, Tokyo or Osaka?)",
+        "answer": "おおきい",
+        "options": [
+          "おおきい",
+          "たかい",
+          "ひろい",
+          "うつくしい"
+        ],
+        "explanation": "AとBとどちらが〜ですか = Which is more ~ , A or B?"
+      },
+      {
+        "question": "にほんで _____たかい やまは ふじさんです。(The tallest mountain in Japan is Mt Fuji.)",
+        "answer": "いちばん",
+        "options": [
+          "いちばん",
+          "もっと",
+          "より",
+          "ほど"
+        ],
+        "explanation": "いちばん+adjective = the most ~. Superlative form."
+      },
+      {
+        "question": "バスより でんしゃの ほうが _____です。(Trains are faster than buses.)",
+        "answer": "はやい",
+        "options": [
+          "はやい",
+          "おそい",
+          "やすい",
+          "たかい"
+        ],
+        "explanation": "AよりBのほうが〜 = B is more ~ than A."
+      },
+      {
+        "question": "なかで なにが _____すきですか。(What do you like the most?)",
+        "answer": "いちばん",
+        "options": [
+          "いちばん",
+          "もっと",
+          "より",
+          "ほど"
+        ],
+        "explanation": "〜の中でなにがいちばん〜ですか = What is the most ~ among ~?"
+      },
+      {
+        "question": "りんごと みかんと どちらが _____ですか。——どちらも すきです。",
+        "answer": "すき",
+        "options": [
+          "すき",
+          "きらい",
+          "おいしい",
+          "たかい"
+        ],
+        "explanation": "どちらも+affirmative = both. I like both (apple and orange)."
+      },
+      {
+        "question": "この みせは あの みせ_____ やすいです。(This store is cheaper than that store.)",
+        "answer": "より",
+        "options": [
+          "より",
+          "ほど",
+          "ほうが",
+          "いちばん"
+        ],
+        "explanation": "AはBより〜 = A is more ~ than B. より = than (comparison)."
+      },
+      {
+        "question": "クラスの なかで だれが _____せが たかいですか。(Who is the tallest in the class?)",
+        "answer": "いちばん",
+        "options": [
+          "いちばん",
+          "もっとも",
+          "より",
+          "ほど"
+        ],
+        "explanation": "だれがいちばん〜 = who is the most ~. Superlative with person."
+      },
+      {
+        "question": "あついより _____ほうが すきです。(I prefer cold to hot.)",
+        "answer": "さむい",
+        "options": [
+          "さむい",
+          "あつい",
+          "すずしい",
+          "あたたかい"
+        ],
+        "explanation": "AよりBのほうが = prefer B over A. さむい = cold."
+      },
+      {
+        "question": "このクラスで にほんごが いちばん _____のは だれですか。(Who is best at Japanese in this class?)",
+        "answer": "じょうず",
+        "options": [
+          "じょうず",
+          "へた",
+          "すき",
+          "きらい"
+        ],
+        "explanation": "じょうず = skilled/good at. いちばんじょうずな = the most skilled."
       }
     ]
   }

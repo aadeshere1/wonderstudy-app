@@ -32,7 +32,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 0,
-      "questionsCount": 4
+      "questionsCount": 20
     },
     "items": [
       {
@@ -78,6 +78,86 @@
           "食べすぎてよかったです。"
         ],
         "explanation": "〜なければよかったです = I wish I hadn't. 食べすぎる (eat too much) → 食べすぎなければよかった."
+      },
+      {
+        "question": "You missed a great concert. Express your regret.",
+        "answer": "コンサートに行けばよかったです。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I didn't buy anything'?",
+        "answer": "なにもかいませんでした。",
+        "type": "short_answer"
+      },
+      {
+        "question": "You said something rude and regret it. Express this.",
+        "answer": "そんなことをいわなければよかったです。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Translate: 'Nobody was at home.'",
+        "answer": "だれもいえにいませんでした。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I wish I had started studying Japanese earlier'?",
+        "answer": "もっとはやく日本語のべんきょうをはじめればよかったです。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Translate: 'I didn't go anywhere over the holidays.'",
+        "answer": "やすみにどこへもいきませんでした。",
+        "type": "short_answer"
+      },
+      {
+        "question": "You didn't bring an umbrella and it rained. Express regret.",
+        "answer": "かさをもってくればよかったです。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Translate: 'Nothing happened.'",
+        "answer": "なにもおきませんでした。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I wish I hadn't stayed up so late'?",
+        "answer": "そんなにおそくまでおきていなければよかったです。",
+        "type": "short_answer"
+      },
+      {
+        "question": "You saw はつもうで on TV. Explain what it is in Japanese.",
+        "answer": "はつもうでは、しょうがつにはじめてじんじゃやおてらにおまいりすることです。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I didn't understand anything'?",
+        "answer": "なにもわかりませんでした。",
+        "type": "short_answer"
+      },
+      {
+        "question": "I regret not saving money last year. Express this.",
+        "answer": "きょねんおかねをためればよかったです。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Translate: 'I didn't meet anyone at the party.'",
+        "answer": "パーティーでだれにもあいませんでした。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I wish I had taken more photos'?",
+        "answer": "もっとしゃしんをとればよかったです。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Describe お盆 in simple Japanese.",
+        "answer": "お盆は、なくなったそせんをむかえるおまつりです。8がつにあります。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'Nothing was left on the table'?",
+        "answer": "テーブルになにものこっていませんでした。",
+        "type": "short_answer"
       }
     ]
   },
@@ -86,7 +166,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 12,
-      "questionsCount": 4
+      "questionsCount": 20
     },
     "items": [
       {
@@ -132,6 +212,86 @@
           "食べすぎてよかったです。"
         ],
         "explanation": "〜なければよかったです = I wish I hadn't. 食べすぎる (eat too much) → 食べすぎなければよかった."
+      },
+      {
+        "question": "You missed a great concert. Express your regret.",
+        "answer": "コンサートに行けばよかったです。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I didn't buy anything'?",
+        "answer": "なにもかいませんでした。",
+        "type": "short_answer"
+      },
+      {
+        "question": "You said something rude and regret it. Express this.",
+        "answer": "そんなことをいわなければよかったです。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Translate: 'Nobody was at home.'",
+        "answer": "だれもいえにいませんでした。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I wish I had started studying Japanese earlier'?",
+        "answer": "もっとはやく日本語のべんきょうをはじめればよかったです。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Translate: 'I didn't go anywhere over the holidays.'",
+        "answer": "やすみにどこへもいきませんでした。",
+        "type": "short_answer"
+      },
+      {
+        "question": "You didn't bring an umbrella and it rained. Express regret.",
+        "answer": "かさをもってくればよかったです。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Translate: 'Nothing happened.'",
+        "answer": "なにもおきませんでした。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I wish I hadn't stayed up so late'?",
+        "answer": "そんなにおそくまでおきていなければよかったです。",
+        "type": "short_answer"
+      },
+      {
+        "question": "You saw はつもうで on TV. Explain what it is in Japanese.",
+        "answer": "はつもうでは、しょうがつにはじめてじんじゃやおてらにおまいりすることです。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I didn't understand anything'?",
+        "answer": "なにもわかりませんでした。",
+        "type": "short_answer"
+      },
+      {
+        "question": "I regret not saving money last year. Express this.",
+        "answer": "きょねんおかねをためればよかったです。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Translate: 'I didn't meet anyone at the party.'",
+        "answer": "パーティーでだれにもあいませんでした。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I wish I had taken more photos'?",
+        "answer": "もっとしゃしんをとればよかったです。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Describe お盆 in simple Japanese.",
+        "answer": "お盆は、なくなったそせんをむかえるおまつりです。8がつにあります。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'Nothing was left on the table'?",
+        "answer": "テーブルになにものこっていませんでした。",
+        "type": "short_answer"
       }
     ]
   }

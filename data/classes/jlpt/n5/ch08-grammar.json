@@ -52,7 +52,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 0,
-      "questionsCount": 10
+      "questionsCount": 20
     },
     "items": [
       {
@@ -164,6 +164,116 @@
           "はいけません"
         ],
         "explanation": "はい、どうぞ = Yes, please go ahead. Standard response when granting permission."
+      },
+      {
+        "question": "ここで しゃしんを とっても _____ですか。(May I take photos here?)",
+        "answer": "いい",
+        "options": [
+          "いい",
+          "わるい",
+          "だめ",
+          "いけない"
+        ],
+        "explanation": "〜てもいいですか = Is it okay if I ~? Permission request. いい = good/OK."
+      },
+      {
+        "question": "ここで タバコを すっては _____。(You must not smoke here.)",
+        "answer": "いけません",
+        "options": [
+          "いけません",
+          "いいです",
+          "だいじょうぶです",
+          "かまいません"
+        ],
+        "explanation": "〜てはいけません = must not / is not allowed to."
+      },
+      {
+        "question": "エアコンを _____ ください。(Please turn off the AC.)",
+        "answer": "けして",
+        "options": [
+          "けして",
+          "つけて",
+          "あけて",
+          "しめて"
+        ],
+        "explanation": "けす = to turn off. て-form: けして. 〜てください = please do ~."
+      },
+      {
+        "question": "じしょを つかっても _____か。(May I use a dictionary?)",
+        "answer": "いい",
+        "options": [
+          "いい",
+          "だめ",
+          "わるい",
+          "いけない"
+        ],
+        "explanation": "〜てもいいですか = may I ~? Response: いいですよ or だめです."
+      },
+      {
+        "question": "ここに くるまを とめては _____。(You may not park here.)",
+        "answer": "いけません",
+        "options": [
+          "いけません",
+          "かまいません",
+          "いいです",
+          "だいじょうぶです"
+        ],
+        "explanation": "〜てはいけません = prohibited / must not."
+      },
+      {
+        "question": "すみません、ちょっと _____ていただけませんか。(Excuse me, could you wait a moment?)",
+        "answer": "まっ",
+        "options": [
+          "まっ",
+          "みて",
+          "きて",
+          "いって"
+        ],
+        "explanation": "まつ → まって (て-form: wait). 〜ていただけませんか = Could you please ~? (very polite)"
+      },
+      {
+        "question": "かばんを _____もいいですか。(May I open the bag?)",
+        "answer": "あけて",
+        "options": [
+          "あけて",
+          "しめて",
+          "もって",
+          "おいて"
+        ],
+        "explanation": "あける = to open. て-form: あけて. てもいいですか = permission request."
+      },
+      {
+        "question": "ここに ゴミを すては _____。(Don't throw trash here.)",
+        "answer": "いけません",
+        "options": [
+          "いけません",
+          "いいです",
+          "かまいません",
+          "だいじょうぶ"
+        ],
+        "explanation": "〜てはいけません = prohibition. ゴミを すてる = to throw away trash."
+      },
+      {
+        "question": "でんわを かけても _____か。—— はい、どうぞ。(May I make a phone call? — Please go ahead.)",
+        "answer": "いい",
+        "options": [
+          "いい",
+          "わるい",
+          "だめ",
+          "いけない"
+        ],
+        "explanation": "いいですか = Is it okay? どうぞ = Please go ahead / be my guest."
+      },
+      {
+        "question": "しずかに _____ください。(Please be quiet.)",
+        "answer": "して",
+        "options": [
+          "して",
+          "しなくて",
+          "しないで",
+          "します"
+        ],
+        "explanation": "しずかにする = to be quiet. て-form: しずかにして. 〜てください = please do ~."
       }
     ]
   },
@@ -172,7 +282,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 12,
-      "questionsCount": 10
+      "questionsCount": 20
     },
     "items": [
       {
@@ -284,6 +394,116 @@
           "はいけません"
         ],
         "explanation": "はい、どうぞ = Yes, please go ahead. Standard response when granting permission."
+      },
+      {
+        "question": "ここで しゃしんを とっても _____ですか。(May I take photos here?)",
+        "answer": "いい",
+        "options": [
+          "いい",
+          "わるい",
+          "だめ",
+          "いけない"
+        ],
+        "explanation": "〜てもいいですか = Is it okay if I ~? Permission request. いい = good/OK."
+      },
+      {
+        "question": "ここで タバコを すっては _____。(You must not smoke here.)",
+        "answer": "いけません",
+        "options": [
+          "いけません",
+          "いいです",
+          "だいじょうぶです",
+          "かまいません"
+        ],
+        "explanation": "〜てはいけません = must not / is not allowed to."
+      },
+      {
+        "question": "エアコンを _____ ください。(Please turn off the AC.)",
+        "answer": "けして",
+        "options": [
+          "けして",
+          "つけて",
+          "あけて",
+          "しめて"
+        ],
+        "explanation": "けす = to turn off. て-form: けして. 〜てください = please do ~."
+      },
+      {
+        "question": "じしょを つかっても _____か。(May I use a dictionary?)",
+        "answer": "いい",
+        "options": [
+          "いい",
+          "だめ",
+          "わるい",
+          "いけない"
+        ],
+        "explanation": "〜てもいいですか = may I ~? Response: いいですよ or だめです."
+      },
+      {
+        "question": "ここに くるまを とめては _____。(You may not park here.)",
+        "answer": "いけません",
+        "options": [
+          "いけません",
+          "かまいません",
+          "いいです",
+          "だいじょうぶです"
+        ],
+        "explanation": "〜てはいけません = prohibited / must not."
+      },
+      {
+        "question": "すみません、ちょっと _____ていただけませんか。(Excuse me, could you wait a moment?)",
+        "answer": "まっ",
+        "options": [
+          "まっ",
+          "みて",
+          "きて",
+          "いって"
+        ],
+        "explanation": "まつ → まって (て-form: wait). 〜ていただけませんか = Could you please ~? (very polite)"
+      },
+      {
+        "question": "かばんを _____もいいですか。(May I open the bag?)",
+        "answer": "あけて",
+        "options": [
+          "あけて",
+          "しめて",
+          "もって",
+          "おいて"
+        ],
+        "explanation": "あける = to open. て-form: あけて. てもいいですか = permission request."
+      },
+      {
+        "question": "ここに ゴミを すては _____。(Don't throw trash here.)",
+        "answer": "いけません",
+        "options": [
+          "いけません",
+          "いいです",
+          "かまいません",
+          "だいじょうぶ"
+        ],
+        "explanation": "〜てはいけません = prohibition. ゴミを すてる = to throw away trash."
+      },
+      {
+        "question": "でんわを かけても _____か。—— はい、どうぞ。(May I make a phone call? — Please go ahead.)",
+        "answer": "いい",
+        "options": [
+          "いい",
+          "わるい",
+          "だめ",
+          "いけない"
+        ],
+        "explanation": "いいですか = Is it okay? どうぞ = Please go ahead / be my guest."
+      },
+      {
+        "question": "しずかに _____ください。(Please be quiet.)",
+        "answer": "して",
+        "options": [
+          "して",
+          "しなくて",
+          "しないで",
+          "します"
+        ],
+        "explanation": "しずかにする = to be quiet. て-form: しずかにして. 〜てください = please do ~."
       }
     ]
   }

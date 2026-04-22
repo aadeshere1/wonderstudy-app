@@ -52,7 +52,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 0,
-      "questionsCount": 11
+      "questionsCount": 20
     },
     "items": [
       {
@@ -175,6 +175,105 @@
           "ろっじ"
         ],
         "explanation": "6:00 = ろくじ. Numbers for hours: 1=いち, 2=に, 3=さん, 4=よ, 5=ご, 6=ろく, 7=しち, 8=はち, 9=く, 10=じゅう, 11=じゅういち, 12=じゅうに."
+      },
+      {
+        "question": "まいあさ 7じ_____ おきます。(I wake up at 7 every morning.)",
+        "answer": "に",
+        "options": [
+          "に",
+          "は",
+          "で",
+          "が"
+        ],
+        "explanation": "Time+に = at [time]. に marks specific time point."
+      },
+      {
+        "question": "としょかんは なんじから なんじ_____ あいていますか。(What hours is the library open?)",
+        "answer": "まで",
+        "options": [
+          "まで",
+          "から",
+          "に",
+          "で"
+        ],
+        "explanation": "から〜まで = from〜to. まで = until/up to."
+      },
+      {
+        "question": "きのう べんきょう _____。(I didn't study yesterday.)",
+        "answer": "しませんでした",
+        "options": [
+          "しませんでした",
+          "しません",
+          "しました",
+          "します"
+        ],
+        "explanation": "〜ませんでした = did not do (past negative)."
+      },
+      {
+        "question": "ごぜん 9じから ごご 5じ_____ はたらきます。(I work from 9am to 5pm.)",
+        "answer": "まで",
+        "options": [
+          "まで",
+          "から",
+          "に",
+          "まで に"
+        ],
+        "explanation": "から〜まで = from ~ to (time range)."
+      },
+      {
+        "question": "やすみは なんようびですか。_____ ようびです。(What day is your day off? It is Sunday.)",
+        "answer": "にちようび",
+        "options": [
+          "にちようび",
+          "もくようび",
+          "かようび",
+          "すいようび"
+        ],
+        "explanation": "にちようび = Sunday. Days: 月火水木金土日."
+      },
+      {
+        "question": "まいばん 12じごろ _____。(I sleep at around midnight every night.)",
+        "answer": "ねます",
+        "options": [
+          "ねます",
+          "おきます",
+          "たべます",
+          "のみます"
+        ],
+        "explanation": "ねます = to sleep. ごろ = around (approximate time)."
+      },
+      {
+        "question": "でんしゃは 3じ_____ きます。(The train comes at 3 o'clock.)",
+        "answer": "に",
+        "options": [
+          "に",
+          "で",
+          "が",
+          "は"
+        ],
+        "explanation": "Specific time+に. でんしゃ = train, きます = to come."
+      },
+      {
+        "question": "ひるごはんは ___ じかんぐらい たべますか。(About how long do you eat lunch?)",
+        "answer": "どのくらい",
+        "options": [
+          "どのくらい",
+          "なんじ",
+          "いつ",
+          "なんようび"
+        ],
+        "explanation": "どのくらい = how long/how much. Used for duration."
+      },
+      {
+        "question": "かいぎは ごご 2じから _____。(The meeting starts from 2pm.)",
+        "answer": "から",
+        "options": [
+          "から",
+          "まで",
+          "に",
+          "で"
+        ],
+        "explanation": "Time+から = from [time]. Starting point of action."
       }
     ]
   },
@@ -183,7 +282,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 12,
-      "questionsCount": 11
+      "questionsCount": 20
     },
     "items": [
       {
@@ -306,6 +405,105 @@
           "ろっじ"
         ],
         "explanation": "6:00 = ろくじ. Numbers for hours: 1=いち, 2=に, 3=さん, 4=よ, 5=ご, 6=ろく, 7=しち, 8=はち, 9=く, 10=じゅう, 11=じゅういち, 12=じゅうに."
+      },
+      {
+        "question": "まいあさ 7じ_____ おきます。(I wake up at 7 every morning.)",
+        "answer": "に",
+        "options": [
+          "に",
+          "は",
+          "で",
+          "が"
+        ],
+        "explanation": "Time+に = at [time]. に marks specific time point."
+      },
+      {
+        "question": "としょかんは なんじから なんじ_____ あいていますか。(What hours is the library open?)",
+        "answer": "まで",
+        "options": [
+          "まで",
+          "から",
+          "に",
+          "で"
+        ],
+        "explanation": "から〜まで = from〜to. まで = until/up to."
+      },
+      {
+        "question": "きのう べんきょう _____。(I didn't study yesterday.)",
+        "answer": "しませんでした",
+        "options": [
+          "しませんでした",
+          "しません",
+          "しました",
+          "します"
+        ],
+        "explanation": "〜ませんでした = did not do (past negative)."
+      },
+      {
+        "question": "ごぜん 9じから ごご 5じ_____ はたらきます。(I work from 9am to 5pm.)",
+        "answer": "まで",
+        "options": [
+          "まで",
+          "から",
+          "に",
+          "まで に"
+        ],
+        "explanation": "から〜まで = from ~ to (time range)."
+      },
+      {
+        "question": "やすみは なんようびですか。_____ ようびです。(What day is your day off? It is Sunday.)",
+        "answer": "にちようび",
+        "options": [
+          "にちようび",
+          "もくようび",
+          "かようび",
+          "すいようび"
+        ],
+        "explanation": "にちようび = Sunday. Days: 月火水木金土日."
+      },
+      {
+        "question": "まいばん 12じごろ _____。(I sleep at around midnight every night.)",
+        "answer": "ねます",
+        "options": [
+          "ねます",
+          "おきます",
+          "たべます",
+          "のみます"
+        ],
+        "explanation": "ねます = to sleep. ごろ = around (approximate time)."
+      },
+      {
+        "question": "でんしゃは 3じ_____ きます。(The train comes at 3 o'clock.)",
+        "answer": "に",
+        "options": [
+          "に",
+          "で",
+          "が",
+          "は"
+        ],
+        "explanation": "Specific time+に. でんしゃ = train, きます = to come."
+      },
+      {
+        "question": "ひるごはんは ___ じかんぐらい たべますか。(About how long do you eat lunch?)",
+        "answer": "どのくらい",
+        "options": [
+          "どのくらい",
+          "なんじ",
+          "いつ",
+          "なんようび"
+        ],
+        "explanation": "どのくらい = how long/how much. Used for duration."
+      },
+      {
+        "question": "かいぎは ごご 2じから _____。(The meeting starts from 2pm.)",
+        "answer": "から",
+        "options": [
+          "から",
+          "まで",
+          "に",
+          "で"
+        ],
+        "explanation": "Time+から = from [time]. Starting point of action."
       }
     ]
   }

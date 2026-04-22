@@ -53,7 +53,7 @@
       "answerMode": "mcq",
       "optionsCount": 4,
       "timeLimit": 0,
-      "questionsCount": 15
+      "questionsCount": 35
     },
     "items": [
       {
@@ -255,6 +255,156 @@
           "full hour",
           "minute"
         ]
+      },
+      {
+        "question": "How do you say 'what time?' in Japanese?",
+        "answer": "なんじ (何時)",
+        "options": [
+          "〜じ (〜時)",
+          "なんじ (何時)",
+          "ごぜん (午前)",
+          "〜ふん/ぷん (〜分)"
+        ]
+      },
+      {
+        "question": "How do you say 'o'clock (time counter)' in Japanese?",
+        "answer": "〜じ (〜時)",
+        "options": [
+          "〜じ (〜時)",
+          "なんじ (何時)",
+          "ごぜん (午前)",
+          "〜ふん/ぷん (〜分)"
+        ]
+      },
+      {
+        "question": "How do you say 'minutes' in Japanese?",
+        "answer": "〜ふん/ぷん (〜分)",
+        "options": [
+          "〜ふん/ぷん (〜分)",
+          "ごぜん (午前)",
+          "〜じ (〜時)",
+          "なんじ (何時)"
+        ]
+      },
+      {
+        "question": "How do you say 'AM / morning' in Japanese?",
+        "answer": "ごぜん (午前)",
+        "options": [
+          "ごぜん (午前)",
+          "なんじ (何時)",
+          "〜じ (〜時)",
+          "〜ふん/ぷん (〜分)"
+        ]
+      },
+      {
+        "question": "How do you say 'PM / afternoon' in Japanese?",
+        "answer": "ごご (午後)",
+        "options": [
+          "ごご (午後)",
+          "〜ふん/ぷん (〜分)",
+          "〜じ (〜時)",
+          "なんじ (何時)"
+        ]
+      },
+      {
+        "question": "How do you say 'to wake up / get up' in Japanese?",
+        "answer": "おきます (起きます)",
+        "options": [
+          "〜じ (〜時)",
+          "なんじ (何時)",
+          "〜ふん/ぷん (〜分)",
+          "おきます (起きます)"
+        ]
+      },
+      {
+        "question": "How do you say 'to sleep / go to bed' in Japanese?",
+        "answer": "ねます (寝ます)",
+        "options": [
+          "〜じ (〜時)",
+          "ねます (寝ます)",
+          "なんじ (何時)",
+          "〜ふん/ぷん (〜分)"
+        ]
+      },
+      {
+        "question": "How do you say 'to work' in Japanese?",
+        "answer": "はたらきます (働きます)",
+        "options": [
+          "〜じ (〜時)",
+          "はたらきます (働きます)",
+          "なんじ (何時)",
+          "〜ふん/ぷん (〜分)"
+        ]
+      },
+      {
+        "question": "How do you say 'to rest / take a day off' in Japanese?",
+        "answer": "やすみます (休みます)",
+        "options": [
+          "〜じ (〜時)",
+          "なんじ (何時)",
+          "〜ふん/ぷん (〜分)",
+          "やすみます (休みます)"
+        ]
+      },
+      {
+        "question": "How do you say 'to study' in Japanese?",
+        "answer": "べんきょうします (勉強します)",
+        "options": [
+          "なんじ (何時)",
+          "〜じ (〜時)",
+          "〜ふん/ぷん (〜分)",
+          "べんきょうします (勉強します)"
+        ]
+      },
+      {
+        "question": "How do you say 'to eat' in Japanese?",
+        "answer": "たべます (食べます)",
+        "options": [
+          "なんじ (何時)",
+          "〜じ (〜時)",
+          "たべます (食べます)",
+          "〜ふん/ぷん (〜分)"
+        ]
+      },
+      {
+        "question": "How do you say 'to drink' in Japanese?",
+        "answer": "のみます (飲みます)",
+        "options": [
+          "なんじ (何時)",
+          "〜じ (〜時)",
+          "〜ふん/ぷん (〜分)",
+          "のみます (飲みます)"
+        ]
+      },
+      {
+        "question": "How do you say 'to watch / see / look' in Japanese?",
+        "answer": "みます (見ます)",
+        "options": [
+          "みます (見ます)",
+          "なんじ (何時)",
+          "〜ふん/ぷん (〜分)",
+          "〜じ (〜時)"
+        ]
+      },
+      {
+        "question": "How do you say 'to listen / hear / ask' in Japanese?",
+        "answer": "ききます (聞きます)",
+        "options": [
+          "〜じ (〜時)",
+          "なんじ (何時)",
+          "〜ふん/ぷん (〜分)",
+          "ききます (聞きます)"
+        ]
+      },
+      {
+        "question": "How do you say 'every day' in Japanese?",
+        "answer": "まいにち (毎日)",
+        "options": [
+          "なんじ (何時)",
+          "まいにち (毎日)",
+          "〜じ (〜時)",
+          "〜ふん/ぷん (〜分)"
+        ]
       }
     ]
   },
@@ -264,9 +414,209 @@
       "answerMode": "mcq",
       "optionsCount": 4,
       "timeLimit": 10,
-      "questionsCount": 15
+      "questionsCount": 35
     },
     "items": [
+      {
+        "question": "なんじ (何時)",
+        "answer": "what time?",
+        "options": [
+          "how many?",
+          "what time?",
+          "which floor?",
+          "how much?"
+        ]
+      },
+      {
+        "question": "〜じ (〜時)",
+        "answer": "o'clock (time counter)",
+        "options": [
+          "minute counter",
+          "o'clock (time counter)",
+          "day counter",
+          "floor counter"
+        ]
+      },
+      {
+        "question": "〜ふん/ぷん (〜分)",
+        "answer": "minutes",
+        "options": [
+          "days",
+          "seconds",
+          "hours",
+          "minutes"
+        ]
+      },
+      {
+        "question": "ごぜん (午前)",
+        "answer": "AM / morning",
+        "options": [
+          "PM / afternoon",
+          "evening",
+          "AM / morning",
+          "midnight"
+        ]
+      },
+      {
+        "question": "ごご (午後)",
+        "answer": "PM / afternoon",
+        "options": [
+          "evening",
+          "PM / afternoon",
+          "midnight",
+          "AM / morning"
+        ]
+      },
+      {
+        "question": "おきます (起きます)",
+        "answer": "to wake up / get up",
+        "options": [
+          "to wake up / get up",
+          "to sleep",
+          "to eat",
+          "to go"
+        ]
+      },
+      {
+        "question": "ねます (寝ます)",
+        "answer": "to sleep / go to bed",
+        "options": [
+          "to wake up",
+          "to work",
+          "to eat",
+          "to sleep / go to bed"
+        ]
+      },
+      {
+        "question": "はたらきます (働きます)",
+        "answer": "to work",
+        "options": [
+          "to play",
+          "to sleep",
+          "to study",
+          "to work"
+        ]
+      },
+      {
+        "question": "やすみます (休みます)",
+        "answer": "to rest / take a day off",
+        "options": [
+          "to work",
+          "to wake up",
+          "to rest / take a day off",
+          "to study"
+        ]
+      },
+      {
+        "question": "べんきょうします (勉強します)",
+        "answer": "to study",
+        "options": [
+          "to study",
+          "to eat",
+          "to rest",
+          "to work"
+        ]
+      },
+      {
+        "question": "たべます (食べます)",
+        "answer": "to eat",
+        "options": [
+          "to sleep",
+          "to drink",
+          "to eat",
+          "to study"
+        ]
+      },
+      {
+        "question": "のみます (飲みます)",
+        "answer": "to drink",
+        "options": [
+          "to sleep",
+          "to drink",
+          "to work",
+          "to eat"
+        ]
+      },
+      {
+        "question": "みます (見ます)",
+        "answer": "to watch / see / look",
+        "options": [
+          "to listen",
+          "to speak",
+          "to read",
+          "to watch / see / look"
+        ]
+      },
+      {
+        "question": "ききます (聞きます)",
+        "answer": "to listen / hear / ask",
+        "options": [
+          "to speak",
+          "to read",
+          "to watch",
+          "to listen / hear / ask"
+        ]
+      },
+      {
+        "question": "まいにち (毎日)",
+        "answer": "every day",
+        "options": [
+          "every day",
+          "every week",
+          "sometimes",
+          "every month"
+        ]
+      },
+      {
+        "question": "から",
+        "answer": "from (starting point)",
+        "options": [
+          "because",
+          "to (ending point)",
+          "from (starting point)",
+          "and"
+        ]
+      },
+      {
+        "question": "まで",
+        "answer": "until / to (ending point)",
+        "options": [
+          "and",
+          "from",
+          "until / to (ending point)",
+          "but"
+        ]
+      },
+      {
+        "question": "ごろ",
+        "answer": "around / about (approximate time)",
+        "options": [
+          "before",
+          "exactly",
+          "after",
+          "around / about (approximate time)"
+        ]
+      },
+      {
+        "question": "なんじかん (何時間)",
+        "answer": "how many hours?",
+        "options": [
+          "how many days?",
+          "how many hours?",
+          "what time?",
+          "how many minutes?"
+        ]
+      },
+      {
+        "question": "はん (半)",
+        "answer": "half (30 minutes)",
+        "options": [
+          "quarter",
+          "half (30 minutes)",
+          "full hour",
+          "minute"
+        ]
+      },
       {
         "question": "How do you say 'what time?' in Japanese?",
         "answer": "なんじ (何時)",

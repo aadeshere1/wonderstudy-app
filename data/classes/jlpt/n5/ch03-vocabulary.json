@@ -53,7 +53,7 @@
       "answerMode": "mcq",
       "optionsCount": 4,
       "timeLimit": 0,
-      "questionsCount": 15
+      "questionsCount": 37
     },
     "items": [
       {
@@ -275,6 +275,156 @@
           "yen (Japanese currency)",
           "pound"
         ]
+      },
+      {
+        "question": "How do you say 'here / this place' in Japanese?",
+        "answer": "ここ",
+        "options": [
+          "ここ",
+          "あそこ",
+          "どこ",
+          "そこ"
+        ]
+      },
+      {
+        "question": "How do you say 'there / that place (near you)' in Japanese?",
+        "answer": "そこ",
+        "options": [
+          "そこ",
+          "ここ",
+          "どこ",
+          "あそこ"
+        ]
+      },
+      {
+        "question": "How do you say 'over there (far from both)' in Japanese?",
+        "answer": "あそこ",
+        "options": [
+          "あそこ",
+          "どこ",
+          "そこ",
+          "ここ"
+        ]
+      },
+      {
+        "question": "How do you say 'where?' in Japanese?",
+        "answer": "どこ",
+        "options": [
+          "そこ",
+          "ここ",
+          "あそこ",
+          "どこ"
+        ]
+      },
+      {
+        "question": "How do you say 'this way / here (polite)' in Japanese?",
+        "answer": "こちら",
+        "options": [
+          "ここ",
+          "あそこ",
+          "こちら",
+          "そこ"
+        ]
+      },
+      {
+        "question": "How do you say 'that way / there (polite)' in Japanese?",
+        "answer": "そちら",
+        "options": [
+          "そちら",
+          "あそこ",
+          "ここ",
+          "そこ"
+        ]
+      },
+      {
+        "question": "How do you say 'that way over there (polite)' in Japanese?",
+        "answer": "あちら",
+        "options": [
+          "そこ",
+          "あそこ",
+          "あちら",
+          "ここ"
+        ]
+      },
+      {
+        "question": "How do you say 'which way? / where? (polite)' in Japanese?",
+        "answer": "どちら",
+        "options": [
+          "あそこ",
+          "ここ",
+          "そこ",
+          "どちら"
+        ]
+      },
+      {
+        "question": "How do you say 'department store' in Japanese?",
+        "answer": "デパート",
+        "options": [
+          "ここ",
+          "そこ",
+          "デパート",
+          "あそこ"
+        ]
+      },
+      {
+        "question": "How do you say 'supermarket' in Japanese?",
+        "answer": "スーパー",
+        "options": [
+          "ここ",
+          "あそこ",
+          "そこ",
+          "スーパー"
+        ]
+      },
+      {
+        "question": "How do you say 'restaurant' in Japanese?",
+        "answer": "レストラン",
+        "options": [
+          "あそこ",
+          "レストラン",
+          "ここ",
+          "そこ"
+        ]
+      },
+      {
+        "question": "How do you say 'cafeteria / dining hall' in Japanese?",
+        "answer": "しょくどう (食堂)",
+        "options": [
+          "そこ",
+          "あそこ",
+          "しょくどう (食堂)",
+          "ここ"
+        ]
+      },
+      {
+        "question": "How do you say 'hospital' in Japanese?",
+        "answer": "びょういん (病院)",
+        "options": [
+          "そこ",
+          "あそこ",
+          "びょういん (病院)",
+          "ここ"
+        ]
+      },
+      {
+        "question": "How do you say 'post office' in Japanese?",
+        "answer": "ゆうびんきょく (郵便局)",
+        "options": [
+          "あそこ",
+          "ゆうびんきょく (郵便局)",
+          "ここ",
+          "そこ"
+        ]
+      },
+      {
+        "question": "How do you say 'bank' in Japanese?",
+        "answer": "ぎんこう (銀行)",
+        "options": [
+          "ここ",
+          "あそこ",
+          "そこ",
+          "ぎんこう (銀行)"
+        ]
       }
     ]
   },
@@ -284,9 +434,229 @@
       "answerMode": "mcq",
       "optionsCount": 4,
       "timeLimit": 10,
-      "questionsCount": 15
+      "questionsCount": 37
     },
     "items": [
+      {
+        "question": "ここ",
+        "answer": "here / this place",
+        "options": [
+          "over there",
+          "here / this place",
+          "where?",
+          "there"
+        ]
+      },
+      {
+        "question": "そこ",
+        "answer": "there / that place (near you)",
+        "options": [
+          "over there",
+          "here",
+          "there / that place (near you)",
+          "where?"
+        ]
+      },
+      {
+        "question": "あそこ",
+        "answer": "over there (far from both)",
+        "options": [
+          "over there (far from both)",
+          "where?",
+          "here",
+          "there"
+        ]
+      },
+      {
+        "question": "どこ",
+        "answer": "where?",
+        "options": [
+          "there",
+          "here",
+          "where?",
+          "over there"
+        ]
+      },
+      {
+        "question": "こちら",
+        "answer": "this way / here (polite)",
+        "options": [
+          "that way",
+          "which way?",
+          "over there",
+          "this way / here (polite)"
+        ]
+      },
+      {
+        "question": "そちら",
+        "answer": "that way / there (polite)",
+        "options": [
+          "that way / there (polite)",
+          "over there",
+          "which way?",
+          "this way"
+        ]
+      },
+      {
+        "question": "あちら",
+        "answer": "that way over there (polite)",
+        "options": [
+          "this way",
+          "which way?",
+          "that way",
+          "that way over there (polite)"
+        ]
+      },
+      {
+        "question": "どちら",
+        "answer": "which way? / where? (polite)",
+        "options": [
+          "which way? / where? (polite)",
+          "over there",
+          "this way",
+          "that way"
+        ]
+      },
+      {
+        "question": "デパート",
+        "answer": "department store",
+        "options": [
+          "department store",
+          "hospital",
+          "supermarket",
+          "restaurant"
+        ]
+      },
+      {
+        "question": "スーパー",
+        "answer": "supermarket",
+        "options": [
+          "hospital",
+          "supermarket",
+          "department store",
+          "restaurant"
+        ]
+      },
+      {
+        "question": "レストラン",
+        "answer": "restaurant",
+        "options": [
+          "hospital",
+          "restaurant",
+          "supermarket",
+          "library"
+        ]
+      },
+      {
+        "question": "しょくどう (食堂)",
+        "answer": "cafeteria / dining hall",
+        "options": [
+          "library",
+          "hospital",
+          "restaurant",
+          "cafeteria / dining hall"
+        ]
+      },
+      {
+        "question": "びょういん (病院)",
+        "answer": "hospital",
+        "options": [
+          "library",
+          "pharmacy",
+          "clinic",
+          "hospital"
+        ]
+      },
+      {
+        "question": "ゆうびんきょく (郵便局)",
+        "answer": "post office",
+        "options": [
+          "library",
+          "post office",
+          "hospital",
+          "bank"
+        ]
+      },
+      {
+        "question": "ぎんこう (銀行)",
+        "answer": "bank",
+        "options": [
+          "bank",
+          "hospital",
+          "library",
+          "post office"
+        ]
+      },
+      {
+        "question": "としょかん (図書館)",
+        "answer": "library",
+        "options": [
+          "library",
+          "bank",
+          "school",
+          "hospital"
+        ]
+      },
+      {
+        "question": "〜かい (〜階)",
+        "answer": "floor / story (counter)",
+        "options": [
+          "〜個",
+          "〜本",
+          "〜枚",
+          "floor / story (counter)"
+        ]
+      },
+      {
+        "question": "なんかい (何階)",
+        "answer": "which floor?",
+        "options": [
+          "how much?",
+          "how many?",
+          "which floor?",
+          "what time?"
+        ]
+      },
+      {
+        "question": "うえ (上)",
+        "answer": "above / up / top",
+        "options": [
+          "below",
+          "above / up / top",
+          "right",
+          "left"
+        ]
+      },
+      {
+        "question": "した (下)",
+        "answer": "below / down / bottom",
+        "options": [
+          "below / down / bottom",
+          "right",
+          "left",
+          "above"
+        ]
+      },
+      {
+        "question": "いくら",
+        "answer": "how much?",
+        "options": [
+          "which floor?",
+          "how many?",
+          "what time?",
+          "how much?"
+        ]
+      },
+      {
+        "question": "えん (円)",
+        "answer": "yen (Japanese currency)",
+        "options": [
+          "euro",
+          "dollar",
+          "yen (Japanese currency)",
+          "pound"
+        ]
+      },
       {
         "question": "How do you say 'here / this place' in Japanese?",
         "answer": "ここ",

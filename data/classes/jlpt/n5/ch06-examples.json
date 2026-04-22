@@ -44,7 +44,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 0,
-      "questionsCount": 8
+      "questionsCount": 20
     },
     "items": [
       {
@@ -134,6 +134,138 @@
           "行て"
         ],
         "explanation": "行く is an exception! Although く→いて normally, 行く becomes 行って (not 行いて). Must memorize!"
+      },
+      {
+        "question": "You want to invite a friend to go to a concert.",
+        "answer": "コンサートに いきませんか。",
+        "options": [
+          "コンサートに いきませんか。",
+          "コンサートに いきましょうか。",
+          "コンサートに いきませんね。",
+          "コンサートを いきますか。"
+        ],
+        "explanation": "〜ませんか = Wouldn't you like to ~? (invitation). More polite than ましょう."
+      },
+      {
+        "question": "Suggesting 'Let's take the subway.'",
+        "answer": "ちかてつで いきましょう。",
+        "options": [
+          "ちかてつで いきましょう。",
+          "ちかてつに いきましょう。",
+          "ちかてつが いきましょう。",
+          "ちかてつを いきましょう。"
+        ],
+        "explanation": "ちかてつ = subway. で = by (transport). ましょう = let's."
+      },
+      {
+        "question": "A friend suggests going to karaoke. You agree enthusiastically.",
+        "answer": "ええ、いきましょう！",
+        "options": [
+          "ええ、いきましょう！",
+          "いいえ、いきません。",
+          "ちょっと…。",
+          "どうぞ。"
+        ],
+        "explanation": "ええ = yes (casual). ましょう = let's (agreement)."
+      },
+      {
+        "question": "How long does it take to get to the station?",
+        "answer": "えきまで どのくらい かかりますか。",
+        "options": [
+          "えきまで どのくらい かかりますか。",
+          "えきに どのくらい いきますか。",
+          "えきで どれくらい なりますか。",
+          "えきから どのくらい かかりますか。"
+        ],
+        "explanation": "〜まで どのくらい かかりますか = How long does it take to ~? かかります = it takes."
+      },
+      {
+        "question": "Saying 'It takes about 20 minutes by bus.'",
+        "answer": "バスで にじゅっぷんぐらい かかります。",
+        "options": [
+          "バスで にじゅっぷんぐらい かかります。",
+          "バスに にじゅっぷんぐらい かかります。",
+          "バスが にじゅっぷんぐらい かかります。",
+          "バスで にじゅっぷんごろ かかります。"
+        ],
+        "explanation": "Transport+で+time+ぐらい+かかります = it takes about [time] by [transport]. ぐらい = approximately."
+      },
+      {
+        "question": "Asking someone how they come to work:",
+        "answer": "まいにち どうやって かいしゃに きますか。",
+        "options": [
+          "まいにち どうやって かいしゃに きますか。",
+          "まいにち なんで かいしゃに きますか。",
+          "まいにち どれで かいしゃに きますか。",
+          "まいにち どこで かいしゃに きますか。"
+        ],
+        "explanation": "どうやって = how (method). なんで is also acceptable in casual speech."
+      },
+      {
+        "question": "Saying 'I came to Japan by plane.'",
+        "answer": "ひこうきで にほんに きました。",
+        "options": [
+          "ひこうきで にほんに きました。",
+          "ひこうきに にほんに きました。",
+          "ひこうきを にほんに きました。",
+          "ひこうきが にほんに きました。"
+        ],
+        "explanation": "ひこうき = airplane. で = by (transport). に = destination."
+      },
+      {
+        "question": "Proposing to meet at the station at 3pm.",
+        "answer": "えきで 3じに あいましょう。",
+        "options": [
+          "えきで 3じに あいましょう。",
+          "えきに 3じで あいましょう。",
+          "えきを 3じは あいましょう。",
+          "えきが 3じに あいましょう。"
+        ],
+        "explanation": "Place+で = at place. Time+に. あいましょう = let's meet."
+      },
+      {
+        "question": "You traveled from Tokyo to Osaka. How long did it take by shinkansen?",
+        "answer": "しんかんせんで 2じかんぐらい かかりました。",
+        "options": [
+          "しんかんせんで 2じかんぐらい かかりました。",
+          "しんかんせんに 2じかんぐらい かかりました。",
+          "しんかんせんで 2じかんごろ かかりました。",
+          "しんかんせんが 2じかんぐらい かかりました。"
+        ],
+        "explanation": "しんかんせん = bullet train. で = by. ぐらい = approximately. かかりました = it took."
+      },
+      {
+        "question": "Politely declining an invitation to karaoke.",
+        "answer": "すみません、ちょっと…。",
+        "options": [
+          "すみません、ちょっと…。",
+          "いいえ、いきません。",
+          "けっこうです。",
+          "だめです。"
+        ],
+        "explanation": "ちょっと… (trailing off) is the natural way to politely decline in Japanese. Direct refusals sound rude."
+      },
+      {
+        "question": "Suggesting taking a taxi because it's raining.",
+        "answer": "あめですから、タクシーで いきましょう。",
+        "options": [
+          "あめですから、タクシーで いきましょう。",
+          "あめですから、タクシーに いきましょう。",
+          "あめですが、タクシーで いきましょう。",
+          "あめなので、タクシーを いきましょう。"
+        ],
+        "explanation": "〜から = because. あめ = rain. タクシーで = by taxi."
+      },
+      {
+        "question": "Asking which platform the train to Kyoto departs from.",
+        "answer": "きょうと いきの でんしゃは なんばんせんですか。",
+        "options": [
+          "きょうと いきの でんしゃは なんばんせんですか。",
+          "きょうと いきの でんしゃは どこですか。",
+          "きょうと いきの でんしゃは なんじですか。",
+          "きょうと いきの でんしゃは なんですか。"
+        ],
+        "explanation": "なんばんせん = which platform number. いき = bound for."
       }
     ]
   },
@@ -142,7 +274,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 12,
-      "questionsCount": 8
+      "questionsCount": 20
     },
     "items": [
       {
@@ -232,6 +364,138 @@
           "行て"
         ],
         "explanation": "行く is an exception! Although く→いて normally, 行く becomes 行って (not 行いて). Must memorize!"
+      },
+      {
+        "question": "You want to invite a friend to go to a concert.",
+        "answer": "コンサートに いきませんか。",
+        "options": [
+          "コンサートに いきませんか。",
+          "コンサートに いきましょうか。",
+          "コンサートに いきませんね。",
+          "コンサートを いきますか。"
+        ],
+        "explanation": "〜ませんか = Wouldn't you like to ~? (invitation). More polite than ましょう."
+      },
+      {
+        "question": "Suggesting 'Let's take the subway.'",
+        "answer": "ちかてつで いきましょう。",
+        "options": [
+          "ちかてつで いきましょう。",
+          "ちかてつに いきましょう。",
+          "ちかてつが いきましょう。",
+          "ちかてつを いきましょう。"
+        ],
+        "explanation": "ちかてつ = subway. で = by (transport). ましょう = let's."
+      },
+      {
+        "question": "A friend suggests going to karaoke. You agree enthusiastically.",
+        "answer": "ええ、いきましょう！",
+        "options": [
+          "ええ、いきましょう！",
+          "いいえ、いきません。",
+          "ちょっと…。",
+          "どうぞ。"
+        ],
+        "explanation": "ええ = yes (casual). ましょう = let's (agreement)."
+      },
+      {
+        "question": "How long does it take to get to the station?",
+        "answer": "えきまで どのくらい かかりますか。",
+        "options": [
+          "えきまで どのくらい かかりますか。",
+          "えきに どのくらい いきますか。",
+          "えきで どれくらい なりますか。",
+          "えきから どのくらい かかりますか。"
+        ],
+        "explanation": "〜まで どのくらい かかりますか = How long does it take to ~? かかります = it takes."
+      },
+      {
+        "question": "Saying 'It takes about 20 minutes by bus.'",
+        "answer": "バスで にじゅっぷんぐらい かかります。",
+        "options": [
+          "バスで にじゅっぷんぐらい かかります。",
+          "バスに にじゅっぷんぐらい かかります。",
+          "バスが にじゅっぷんぐらい かかります。",
+          "バスで にじゅっぷんごろ かかります。"
+        ],
+        "explanation": "Transport+で+time+ぐらい+かかります = it takes about [time] by [transport]. ぐらい = approximately."
+      },
+      {
+        "question": "Asking someone how they come to work:",
+        "answer": "まいにち どうやって かいしゃに きますか。",
+        "options": [
+          "まいにち どうやって かいしゃに きますか。",
+          "まいにち なんで かいしゃに きますか。",
+          "まいにち どれで かいしゃに きますか。",
+          "まいにち どこで かいしゃに きますか。"
+        ],
+        "explanation": "どうやって = how (method). なんで is also acceptable in casual speech."
+      },
+      {
+        "question": "Saying 'I came to Japan by plane.'",
+        "answer": "ひこうきで にほんに きました。",
+        "options": [
+          "ひこうきで にほんに きました。",
+          "ひこうきに にほんに きました。",
+          "ひこうきを にほんに きました。",
+          "ひこうきが にほんに きました。"
+        ],
+        "explanation": "ひこうき = airplane. で = by (transport). に = destination."
+      },
+      {
+        "question": "Proposing to meet at the station at 3pm.",
+        "answer": "えきで 3じに あいましょう。",
+        "options": [
+          "えきで 3じに あいましょう。",
+          "えきに 3じで あいましょう。",
+          "えきを 3じは あいましょう。",
+          "えきが 3じに あいましょう。"
+        ],
+        "explanation": "Place+で = at place. Time+に. あいましょう = let's meet."
+      },
+      {
+        "question": "You traveled from Tokyo to Osaka. How long did it take by shinkansen?",
+        "answer": "しんかんせんで 2じかんぐらい かかりました。",
+        "options": [
+          "しんかんせんで 2じかんぐらい かかりました。",
+          "しんかんせんに 2じかんぐらい かかりました。",
+          "しんかんせんで 2じかんごろ かかりました。",
+          "しんかんせんが 2じかんぐらい かかりました。"
+        ],
+        "explanation": "しんかんせん = bullet train. で = by. ぐらい = approximately. かかりました = it took."
+      },
+      {
+        "question": "Politely declining an invitation to karaoke.",
+        "answer": "すみません、ちょっと…。",
+        "options": [
+          "すみません、ちょっと…。",
+          "いいえ、いきません。",
+          "けっこうです。",
+          "だめです。"
+        ],
+        "explanation": "ちょっと… (trailing off) is the natural way to politely decline in Japanese. Direct refusals sound rude."
+      },
+      {
+        "question": "Suggesting taking a taxi because it's raining.",
+        "answer": "あめですから、タクシーで いきましょう。",
+        "options": [
+          "あめですから、タクシーで いきましょう。",
+          "あめですから、タクシーに いきましょう。",
+          "あめですが、タクシーで いきましょう。",
+          "あめなので、タクシーを いきましょう。"
+        ],
+        "explanation": "〜から = because. あめ = rain. タクシーで = by taxi."
+      },
+      {
+        "question": "Asking which platform the train to Kyoto departs from.",
+        "answer": "きょうと いきの でんしゃは なんばんせんですか。",
+        "options": [
+          "きょうと いきの でんしゃは なんばんせんですか。",
+          "きょうと いきの でんしゃは どこですか。",
+          "きょうと いきの でんしゃは なんじですか。",
+          "きょうと いきの でんしゃは なんですか。"
+        ],
+        "explanation": "なんばんせん = which platform number. いき = bound for."
       }
     ]
   }

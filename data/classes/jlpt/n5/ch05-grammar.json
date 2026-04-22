@@ -52,7 +52,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 0,
-      "questionsCount": 12
+      "questionsCount": 20
     },
     "items": [
       {
@@ -186,6 +186,94 @@
           "2040"
         ],
         "explanation": "2000 = にせん, 2024 = にせんにじゅうよ. に(2) + せん(000) + に(2) + じゅう(10) + よ(4) = 2024."
+      },
+      {
+        "question": "たんじょうびは _____ですか。(When is your birthday?)",
+        "answer": "いつ",
+        "options": [
+          "いつ",
+          "なに",
+          "だれ",
+          "どこ"
+        ],
+        "explanation": "いつ = when. Used for time/date questions."
+      },
+      {
+        "question": "こどもの ひは 5がつ _____ にちです。(Children's Day is May 5th.)",
+        "answer": "いつ",
+        "options": [
+          "いつか",
+          "ついたち",
+          "はつか",
+          "みっか"
+        ],
+        "explanation": "5日 = いつか (irregular date reading). Dates 1-10 have special readings."
+      },
+      {
+        "question": "にほんの おしょうがつは _____がつです。(Japanese New Year is in January.)",
+        "answer": "いち",
+        "options": [
+          "いち",
+          "に",
+          "さん",
+          "し"
+        ],
+        "explanation": "1月 = いちがつ. Months are number+がつ."
+      },
+      {
+        "question": "きょうは _____ようびですか。(What day of the week is today?)",
+        "answer": "なん",
+        "options": [
+          "なん",
+          "なに",
+          "どの",
+          "いつ"
+        ],
+        "explanation": "なんようび = what day of the week."
+      },
+      {
+        "question": "3がつ _____ にちは ひなまつりです。(March 3rd is Girls' Day.)",
+        "answer": "みっか",
+        "options": [
+          "みっか",
+          "さんにち",
+          "みか",
+          "さんか"
+        ],
+        "explanation": "3日 = みっか (special irregular reading for the 3rd)."
+      },
+      {
+        "question": "やすみは _____がつ から _____がつ までですか。(What months is the vacation?)",
+        "answer": "なん / なん",
+        "options": [
+          "なん / なん",
+          "いつ / いつ",
+          "なに / なに",
+          "どれ / どれ"
+        ],
+        "explanation": "なんがつ = what month. Counter がつ with question word なん."
+      },
+      {
+        "question": "_____ にちが ミーティングですか。(What date is the meeting?)",
+        "answer": "なん",
+        "options": [
+          "なん",
+          "いつ",
+          "どの",
+          "なに"
+        ],
+        "explanation": "なんにち = what day of the month (date number)."
+      },
+      {
+        "question": "たなかさんの たんじょうびは _____ ですか。—— 4がつ 14にちです。",
+        "answer": "いつ",
+        "options": [
+          "いつ",
+          "なに",
+          "どこ",
+          "どれ"
+        ],
+        "explanation": "いつ = when. たんじょうび = birthday."
       }
     ]
   },
@@ -194,7 +282,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 12,
-      "questionsCount": 12
+      "questionsCount": 20
     },
     "items": [
       {
@@ -328,6 +416,94 @@
           "2040"
         ],
         "explanation": "2000 = にせん, 2024 = にせんにじゅうよ. に(2) + せん(000) + に(2) + じゅう(10) + よ(4) = 2024."
+      },
+      {
+        "question": "たんじょうびは _____ですか。(When is your birthday?)",
+        "answer": "いつ",
+        "options": [
+          "いつ",
+          "なに",
+          "だれ",
+          "どこ"
+        ],
+        "explanation": "いつ = when. Used for time/date questions."
+      },
+      {
+        "question": "こどもの ひは 5がつ _____ にちです。(Children's Day is May 5th.)",
+        "answer": "いつ",
+        "options": [
+          "いつか",
+          "ついたち",
+          "はつか",
+          "みっか"
+        ],
+        "explanation": "5日 = いつか (irregular date reading). Dates 1-10 have special readings."
+      },
+      {
+        "question": "にほんの おしょうがつは _____がつです。(Japanese New Year is in January.)",
+        "answer": "いち",
+        "options": [
+          "いち",
+          "に",
+          "さん",
+          "し"
+        ],
+        "explanation": "1月 = いちがつ. Months are number+がつ."
+      },
+      {
+        "question": "きょうは _____ようびですか。(What day of the week is today?)",
+        "answer": "なん",
+        "options": [
+          "なん",
+          "なに",
+          "どの",
+          "いつ"
+        ],
+        "explanation": "なんようび = what day of the week."
+      },
+      {
+        "question": "3がつ _____ にちは ひなまつりです。(March 3rd is Girls' Day.)",
+        "answer": "みっか",
+        "options": [
+          "みっか",
+          "さんにち",
+          "みか",
+          "さんか"
+        ],
+        "explanation": "3日 = みっか (special irregular reading for the 3rd)."
+      },
+      {
+        "question": "やすみは _____がつ から _____がつ までですか。(What months is the vacation?)",
+        "answer": "なん / なん",
+        "options": [
+          "なん / なん",
+          "いつ / いつ",
+          "なに / なに",
+          "どれ / どれ"
+        ],
+        "explanation": "なんがつ = what month. Counter がつ with question word なん."
+      },
+      {
+        "question": "_____ にちが ミーティングですか。(What date is the meeting?)",
+        "answer": "なん",
+        "options": [
+          "なん",
+          "いつ",
+          "どの",
+          "なに"
+        ],
+        "explanation": "なんにち = what day of the month (date number)."
+      },
+      {
+        "question": "たなかさんの たんじょうびは _____ ですか。—— 4がつ 14にちです。",
+        "answer": "いつ",
+        "options": [
+          "いつ",
+          "なに",
+          "どこ",
+          "どれ"
+        ],
+        "explanation": "いつ = when. たんじょうび = birthday."
       }
     ]
   }

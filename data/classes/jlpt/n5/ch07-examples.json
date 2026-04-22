@@ -44,7 +44,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 0,
-      "questionsCount": 8
+      "questionsCount": 20
     },
     "items": [
       {
@@ -134,6 +134,138 @@
           "新しいて、安いくるまです。"
         ],
         "explanation": "い-adj て-form: drop い + くて. 新しい → 新しくて. This connects to the next adjective."
+      },
+      {
+        "question": "A friend asks how your new apartment is. It is small but cheap.",
+        "answer": "せまいですが、やすいです。",
+        "options": [
+          "せまいですが、やすいです。",
+          "せまくて、やすいです。",
+          "せまいですから、やすいです。",
+          "せまいので、やすいです。"
+        ],
+        "explanation": "〜が = but (contrast). せまい = small/narrow, やすい = cheap."
+      },
+      {
+        "question": "You want to say 'Mt Fuji is tall and beautiful.'",
+        "answer": "ふじさんは たかくて きれいです。",
+        "options": [
+          "ふじさんは たかくて きれいです。",
+          "ふじさんは たかいで きれいです。",
+          "ふじさんは たかいですが きれいです。",
+          "ふじさんは たかく きれいです。"
+        ],
+        "explanation": "い-adj+くて links to the next description. きれい is a な-adj so no change."
+      },
+      {
+        "question": "How do you say 'Yesterday's homework was easy'?",
+        "answer": "きのうの しゅくだいは やさしかったです。",
+        "options": [
+          "きのうの しゅくだいは やさしかったです。",
+          "きのうの しゅくだいは やさしいでした。",
+          "きのうの しゅくだいは やさしくなかったです。",
+          "きのうの しゅくだいは やさしいです。"
+        ],
+        "explanation": "Past of い-adj: drop い, add かったです. やさしい→やさしかった."
+      },
+      {
+        "question": "The new phone is expensive but has good features.",
+        "answer": "あたらしい スマホは たかいですが、きのうが いいです。",
+        "options": [
+          "あたらしい スマホは たかいですが、きのうが いいです。",
+          "あたらしい スマホは たかくて、きのうが いいです。",
+          "あたらしい スマホは たかいので、きのうが いいです。",
+          "あたらしい スマホは たかいから、きのうが いいです。"
+        ],
+        "explanation": "〜が (but) shows contrast. たかい = expensive, きのう = features."
+      },
+      {
+        "question": "Saying 'This bag is not heavy.'",
+        "answer": "このかばんは おもくないです。",
+        "options": [
+          "このかばんは おもくないです。",
+          "このかばんは おもいないです。",
+          "このかばんは おもじゃないです。",
+          "このかばんは おもくありません。"
+        ],
+        "explanation": "Negative: おもい → おもくない(です). Both おもくないです and おもくありません are correct."
+      },
+      {
+        "question": "Your friend's cooking is delicious. How do you compliment it?",
+        "answer": "おいしいですね！",
+        "options": [
+          "おいしいですね！",
+          "おいしかったです！",
+          "おいしくないですね！",
+          "おいしいじゃないですか！"
+        ],
+        "explanation": "おいしい+ですね = It's delicious, isn't it! ね seeks the listener's agreement."
+      },
+      {
+        "question": "Tokyo is a big and lively city.",
+        "answer": "とうきょうは おおきくて にぎやかな まちです。",
+        "options": [
+          "とうきょうは おおきくて にぎやかな まちです。",
+          "とうきょうは おおきいで にぎやかな まちです。",
+          "とうきょうは おおきくて にぎやかまちです。",
+          "とうきょうは おおきいと にぎやかな まちです。"
+        ],
+        "explanation": "おおきい(い-adj)→おおきくて. にぎやか(な-adj)+な before noun."
+      },
+      {
+        "question": "How do you say 'Last year's winter was very cold'?",
+        "answer": "きょねんの ふゆは とても さむかったです。",
+        "options": [
+          "きょねんの ふゆは とても さむかったです。",
+          "きょねんの ふゆは とても さむいでした。",
+          "きょねんの ふゆは とても さむくないです。",
+          "きょねんの ふゆは とても さむいです。"
+        ],
+        "explanation": "Past: さむい→さむかった. とても = very. きょねん = last year."
+      },
+      {
+        "question": "Describing a restaurant: 'The food is good but the service is slow.'",
+        "answer": "りょうりは おいしいですが、サービスが おそいです。",
+        "options": [
+          "りょうりは おいしいですが、サービスが おそいです。",
+          "りょうりは おいしくて、サービスが おそいです。",
+          "りょうりは おいしいので、サービスが おそいです。",
+          "りょうりは おいしいから、サービスが おそいです。"
+        ],
+        "explanation": "が = but (contrast between two clauses). おそい = slow."
+      },
+      {
+        "question": "The room temperature is just right (not hot, not cold).",
+        "answer": "へやの おんどは あつくも さむくも ありません。",
+        "options": [
+          "へやの おんどは あつくも さむくも ありません。",
+          "へやの おんどは あつくて さむくないです。",
+          "へやの おんどは あつくないし さむくないです。",
+          "へやの おんどは あついでも さむいでも ない。"
+        ],
+        "explanation": "〜くも〜くもありません = neither ~ nor ~. Double negative with も."
+      },
+      {
+        "question": "The movie was long but very interesting.",
+        "answer": "えいがは ながかったですが、とても おもしろかったです。",
+        "options": [
+          "えいがは ながかったですが、とても おもしろかったです。",
+          "えいがは ながいでしたが、とても おもしろいでした。",
+          "えいがは ながくて、とても おもしろかったです。",
+          "えいがは ながかったので、とても おもしろかったです。"
+        ],
+        "explanation": "Both adjectives in past tense (〜かった). が = but (contrast)."
+      },
+      {
+        "question": "How do you ask 'Is Japanese difficult?'",
+        "answer": "にほんごは むずかしいですか。",
+        "options": [
+          "にほんごは むずかしいですか。",
+          "にほんごは むずかしくですか。",
+          "にほんごは むずかしかったですか。",
+          "にほんごは むずかしくないですか。"
+        ],
+        "explanation": "い-adj+ですか = Is it [adjective]? Simple present question."
       }
     ]
   },
@@ -142,7 +274,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 12,
-      "questionsCount": 8
+      "questionsCount": 20
     },
     "items": [
       {
@@ -232,6 +364,138 @@
           "新しいて、安いくるまです。"
         ],
         "explanation": "い-adj て-form: drop い + くて. 新しい → 新しくて. This connects to the next adjective."
+      },
+      {
+        "question": "A friend asks how your new apartment is. It is small but cheap.",
+        "answer": "せまいですが、やすいです。",
+        "options": [
+          "せまいですが、やすいです。",
+          "せまくて、やすいです。",
+          "せまいですから、やすいです。",
+          "せまいので、やすいです。"
+        ],
+        "explanation": "〜が = but (contrast). せまい = small/narrow, やすい = cheap."
+      },
+      {
+        "question": "You want to say 'Mt Fuji is tall and beautiful.'",
+        "answer": "ふじさんは たかくて きれいです。",
+        "options": [
+          "ふじさんは たかくて きれいです。",
+          "ふじさんは たかいで きれいです。",
+          "ふじさんは たかいですが きれいです。",
+          "ふじさんは たかく きれいです。"
+        ],
+        "explanation": "い-adj+くて links to the next description. きれい is a な-adj so no change."
+      },
+      {
+        "question": "How do you say 'Yesterday's homework was easy'?",
+        "answer": "きのうの しゅくだいは やさしかったです。",
+        "options": [
+          "きのうの しゅくだいは やさしかったです。",
+          "きのうの しゅくだいは やさしいでした。",
+          "きのうの しゅくだいは やさしくなかったです。",
+          "きのうの しゅくだいは やさしいです。"
+        ],
+        "explanation": "Past of い-adj: drop い, add かったです. やさしい→やさしかった."
+      },
+      {
+        "question": "The new phone is expensive but has good features.",
+        "answer": "あたらしい スマホは たかいですが、きのうが いいです。",
+        "options": [
+          "あたらしい スマホは たかいですが、きのうが いいです。",
+          "あたらしい スマホは たかくて、きのうが いいです。",
+          "あたらしい スマホは たかいので、きのうが いいです。",
+          "あたらしい スマホは たかいから、きのうが いいです。"
+        ],
+        "explanation": "〜が (but) shows contrast. たかい = expensive, きのう = features."
+      },
+      {
+        "question": "Saying 'This bag is not heavy.'",
+        "answer": "このかばんは おもくないです。",
+        "options": [
+          "このかばんは おもくないです。",
+          "このかばんは おもいないです。",
+          "このかばんは おもじゃないです。",
+          "このかばんは おもくありません。"
+        ],
+        "explanation": "Negative: おもい → おもくない(です). Both おもくないです and おもくありません are correct."
+      },
+      {
+        "question": "Your friend's cooking is delicious. How do you compliment it?",
+        "answer": "おいしいですね！",
+        "options": [
+          "おいしいですね！",
+          "おいしかったです！",
+          "おいしくないですね！",
+          "おいしいじゃないですか！"
+        ],
+        "explanation": "おいしい+ですね = It's delicious, isn't it! ね seeks the listener's agreement."
+      },
+      {
+        "question": "Tokyo is a big and lively city.",
+        "answer": "とうきょうは おおきくて にぎやかな まちです。",
+        "options": [
+          "とうきょうは おおきくて にぎやかな まちです。",
+          "とうきょうは おおきいで にぎやかな まちです。",
+          "とうきょうは おおきくて にぎやかまちです。",
+          "とうきょうは おおきいと にぎやかな まちです。"
+        ],
+        "explanation": "おおきい(い-adj)→おおきくて. にぎやか(な-adj)+な before noun."
+      },
+      {
+        "question": "How do you say 'Last year's winter was very cold'?",
+        "answer": "きょねんの ふゆは とても さむかったです。",
+        "options": [
+          "きょねんの ふゆは とても さむかったです。",
+          "きょねんの ふゆは とても さむいでした。",
+          "きょねんの ふゆは とても さむくないです。",
+          "きょねんの ふゆは とても さむいです。"
+        ],
+        "explanation": "Past: さむい→さむかった. とても = very. きょねん = last year."
+      },
+      {
+        "question": "Describing a restaurant: 'The food is good but the service is slow.'",
+        "answer": "りょうりは おいしいですが、サービスが おそいです。",
+        "options": [
+          "りょうりは おいしいですが、サービスが おそいです。",
+          "りょうりは おいしくて、サービスが おそいです。",
+          "りょうりは おいしいので、サービスが おそいです。",
+          "りょうりは おいしいから、サービスが おそいです。"
+        ],
+        "explanation": "が = but (contrast between two clauses). おそい = slow."
+      },
+      {
+        "question": "The room temperature is just right (not hot, not cold).",
+        "answer": "へやの おんどは あつくも さむくも ありません。",
+        "options": [
+          "へやの おんどは あつくも さむくも ありません。",
+          "へやの おんどは あつくて さむくないです。",
+          "へやの おんどは あつくないし さむくないです。",
+          "へやの おんどは あついでも さむいでも ない。"
+        ],
+        "explanation": "〜くも〜くもありません = neither ~ nor ~. Double negative with も."
+      },
+      {
+        "question": "The movie was long but very interesting.",
+        "answer": "えいがは ながかったですが、とても おもしろかったです。",
+        "options": [
+          "えいがは ながかったですが、とても おもしろかったです。",
+          "えいがは ながいでしたが、とても おもしろいでした。",
+          "えいがは ながくて、とても おもしろかったです。",
+          "えいがは ながかったので、とても おもしろかったです。"
+        ],
+        "explanation": "Both adjectives in past tense (〜かった). が = but (contrast)."
+      },
+      {
+        "question": "How do you ask 'Is Japanese difficult?'",
+        "answer": "にほんごは むずかしいですか。",
+        "options": [
+          "にほんごは むずかしいですか。",
+          "にほんごは むずかしくですか。",
+          "にほんごは むずかしかったですか。",
+          "にほんごは むずかしくないですか。"
+        ],
+        "explanation": "い-adj+ですか = Is it [adjective]? Simple present question."
       }
     ]
   }

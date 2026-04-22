@@ -44,7 +44,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 0,
-      "questionsCount": 12
+      "questionsCount": 20
     },
     "items": [
       {
@@ -178,6 +178,94 @@
           "あれ"
         ],
         "explanation": "どれ = which one? Used when asking someone to choose from 3+ options. (どちら = which of two)"
+      },
+      {
+        "question": "これは だれの かばんですか。_____ のです。(Whose bag is this? It is mine.)",
+        "answer": "わたし",
+        "options": [
+          "わたし",
+          "あなた",
+          "かれ",
+          "せんせい"
+        ],
+        "explanation": "の after a noun/pronoun shows possession: わたしの = mine."
+      },
+      {
+        "question": "A: それは なんですか。B: ___ はんです。(It is a handbook.)",
+        "answer": "これ",
+        "options": [
+          "これ",
+          "それ",
+          "あれ",
+          "どれ"
+        ],
+        "explanation": "Speaker uses これ for what is near them even if the listener said それ."
+      },
+      {
+        "question": "その とけいは _____の ですか。(Whose watch is that?)",
+        "answer": "だれ",
+        "options": [
+          "だれ",
+          "なに",
+          "どこ",
+          "どれ"
+        ],
+        "explanation": "だれの = whose. なにの = what's, どこの = from where."
+      },
+      {
+        "question": "あれは テレビ _____。(That over there is a TV.)",
+        "answer": "です",
+        "options": [
+          "です",
+          "ます",
+          "じゃ",
+          "か"
+        ],
+        "explanation": "あれは〜です = That (over there) is ~."
+      },
+      {
+        "question": "こちら_____ スミスさんです。(This is Mr Smith.) (introductions)",
+        "answer": "は",
+        "options": [
+          "は",
+          "が",
+          "の",
+          "を"
+        ],
+        "explanation": "こちらは = This person is. Used when introducing someone."
+      },
+      {
+        "question": "この かばんは _____の ですか。(Whose bag is this?)",
+        "answer": "だれ",
+        "options": [
+          "だれ",
+          "なに",
+          "どれ",
+          "いくら"
+        ],
+        "explanation": "だれの+Noun = whose noun? Asking possession."
+      },
+      {
+        "question": "それは えんぴつ じゃ _____。(That is not a pencil.)",
+        "answer": "ありません",
+        "options": [
+          "ありません",
+          "います",
+          "あります",
+          "ません"
+        ],
+        "explanation": "〜じゃありません = is not [noun]."
+      },
+      {
+        "question": "A: このノートは _____ ですか。B: 500えんです。(How much is this notebook?)",
+        "answer": "いくら",
+        "options": [
+          "いくら",
+          "なに",
+          "だれ",
+          "どこ"
+        ],
+        "explanation": "いくら = how much (price). Used when asking about cost."
       }
     ]
   },
@@ -186,7 +274,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 12,
-      "questionsCount": 12
+      "questionsCount": 20
     },
     "items": [
       {
@@ -320,6 +408,94 @@
           "あれ"
         ],
         "explanation": "どれ = which one? Used when asking someone to choose from 3+ options. (どちら = which of two)"
+      },
+      {
+        "question": "これは だれの かばんですか。_____ のです。(Whose bag is this? It is mine.)",
+        "answer": "わたし",
+        "options": [
+          "わたし",
+          "あなた",
+          "かれ",
+          "せんせい"
+        ],
+        "explanation": "の after a noun/pronoun shows possession: わたしの = mine."
+      },
+      {
+        "question": "A: それは なんですか。B: ___ はんです。(It is a handbook.)",
+        "answer": "これ",
+        "options": [
+          "これ",
+          "それ",
+          "あれ",
+          "どれ"
+        ],
+        "explanation": "Speaker uses これ for what is near them even if the listener said それ."
+      },
+      {
+        "question": "その とけいは _____の ですか。(Whose watch is that?)",
+        "answer": "だれ",
+        "options": [
+          "だれ",
+          "なに",
+          "どこ",
+          "どれ"
+        ],
+        "explanation": "だれの = whose. なにの = what's, どこの = from where."
+      },
+      {
+        "question": "あれは テレビ _____。(That over there is a TV.)",
+        "answer": "です",
+        "options": [
+          "です",
+          "ます",
+          "じゃ",
+          "か"
+        ],
+        "explanation": "あれは〜です = That (over there) is ~."
+      },
+      {
+        "question": "こちら_____ スミスさんです。(This is Mr Smith.) (introductions)",
+        "answer": "は",
+        "options": [
+          "は",
+          "が",
+          "の",
+          "を"
+        ],
+        "explanation": "こちらは = This person is. Used when introducing someone."
+      },
+      {
+        "question": "この かばんは _____の ですか。(Whose bag is this?)",
+        "answer": "だれ",
+        "options": [
+          "だれ",
+          "なに",
+          "どれ",
+          "いくら"
+        ],
+        "explanation": "だれの+Noun = whose noun? Asking possession."
+      },
+      {
+        "question": "それは えんぴつ じゃ _____。(That is not a pencil.)",
+        "answer": "ありません",
+        "options": [
+          "ありません",
+          "います",
+          "あります",
+          "ません"
+        ],
+        "explanation": "〜じゃありません = is not [noun]."
+      },
+      {
+        "question": "A: このノートは _____ ですか。B: 500えんです。(How much is this notebook?)",
+        "answer": "いくら",
+        "options": [
+          "いくら",
+          "なに",
+          "だれ",
+          "どこ"
+        ],
+        "explanation": "いくら = how much (price). Used when asking about cost."
       }
     ]
   }

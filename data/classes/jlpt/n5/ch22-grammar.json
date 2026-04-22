@@ -32,7 +32,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 0,
-      "questionsCount": 5
+      "questionsCount": 20
     },
     "items": [
       {
@@ -89,6 +89,171 @@
           "京都に何度かいったことがありません。"
         ],
         "explanation": "〜たことがあります = have done before. 何度か = several times. 行った = went (past)."
+      },
+      {
+        "question": "To express you've experienced something before, use:",
+        "answer": "〜たことがあります",
+        "options": [
+          "〜たことがあります",
+          "〜ていました",
+          "〜たばかりです",
+          "〜ていません"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "To express you've never done something, use:",
+        "answer": "〜たことがありません",
+        "options": [
+          "〜たことがありません",
+          "〜ていません",
+          "〜ないことがあります",
+          "〜たことはないです"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "すしを食べた ___ があります。(I have eaten sushi before.)",
+        "answer": "こと",
+        "options": [
+          "こと",
+          "ばかり",
+          "ほう",
+          "ため"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "おふろに入った ___ です。(I just took a bath.)",
+        "answer": "ばかり",
+        "options": [
+          "ばかり",
+          "こと",
+          "ところ",
+          "はず"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "はじめて富士山に ___ 。(I climbed Mt. Fuji for the first time.)",
+        "answer": "のぼりました",
+        "options": [
+          "のぼりました",
+          "のぼったことがあります",
+          "のぼったばかりです",
+          "のぼれません"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "What does なんどかあります mean in the context of experience?",
+        "answer": "I have done it several times",
+        "options": [
+          "I have done it several times",
+          "I have done it once",
+          "I have never done it",
+          "I just did it"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "How do you ask 'Have you ever been to Hokkaido?'",
+        "answer": "北海道に行ったことがありますか。",
+        "options": [
+          "北海道に行ったことがありますか。",
+          "北海道に行きましたか。",
+          "北海道に行ったばかりですか。",
+          "北海道に行けますか。"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "ごはんを食べた ___ ですが、またおなかがすきました。(I just ate, but I'm hungry again.)",
+        "answer": "ばかり",
+        "options": [
+          "ばかり",
+          "こと",
+          "ため",
+          "ほど"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "I have seen that movie twice. Which is correct?",
+        "answer": "あのえいがを2かい見たことがあります。",
+        "options": [
+          "あのえいがを2かい見たことがあります。",
+          "あのえいがを2かい見ます。",
+          "あのえいがを2かい見たばかりです。",
+          "あのえいがを2かい見ました。"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "にほんにきた ___ ですから、まだよくわかりません。(I just came to Japan, so I don't understand well yet.)",
+        "answer": "ばかり",
+        "options": [
+          "ばかり",
+          "こと",
+          "ところ",
+          "のみ"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "こうべ牛を食べ ___ ことが ___ ますか。(Have you ever eaten Kobe beef?)",
+        "answer": "た / あり",
+        "options": [
+          "た / あり",
+          "て / あり",
+          "た / い",
+          "て / い"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "She has studied abroad before. Which is correct?",
+        "answer": "かのじょはりゅうがくしたことがあります。",
+        "options": [
+          "かのじょはりゅうがくしたことがあります。",
+          "かのじょはりゅうがくすることがあります。",
+          "かのじょはりゅうがくしたばかりです。",
+          "かのじょはりゅうがくしています。"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "ばかり is used after the ___ form of a verb.",
+        "answer": "た (past plain)",
+        "options": [
+          "た (past plain)",
+          "て (te-form)",
+          "ない (negative)",
+          "dictionary"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "Which word means 'for the first time'?",
+        "answer": "はじめて",
+        "options": [
+          "はじめて",
+          "まえに",
+          "いちど",
+          "このまえ"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "How do you say 'I have never drunk sake before'?",
+        "answer": "おさけをのんだことがありません。",
+        "options": [
+          "おさけをのんだことがありません。",
+          "おさけをのみません。",
+          "おさけはのめません。",
+          "おさけをのんでいません。"
+        ],
+        "type": "multiple_choice"
       }
     ]
   },
@@ -97,7 +262,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 12,
-      "questionsCount": 5
+      "questionsCount": 20
     },
     "items": [
       {
@@ -154,6 +319,171 @@
           "京都に何度かいったことがありません。"
         ],
         "explanation": "〜たことがあります = have done before. 何度か = several times. 行った = went (past)."
+      },
+      {
+        "question": "To express you've experienced something before, use:",
+        "answer": "〜たことがあります",
+        "options": [
+          "〜たことがあります",
+          "〜ていました",
+          "〜たばかりです",
+          "〜ていません"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "To express you've never done something, use:",
+        "answer": "〜たことがありません",
+        "options": [
+          "〜たことがありません",
+          "〜ていません",
+          "〜ないことがあります",
+          "〜たことはないです"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "すしを食べた ___ があります。(I have eaten sushi before.)",
+        "answer": "こと",
+        "options": [
+          "こと",
+          "ばかり",
+          "ほう",
+          "ため"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "おふろに入った ___ です。(I just took a bath.)",
+        "answer": "ばかり",
+        "options": [
+          "ばかり",
+          "こと",
+          "ところ",
+          "はず"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "はじめて富士山に ___ 。(I climbed Mt. Fuji for the first time.)",
+        "answer": "のぼりました",
+        "options": [
+          "のぼりました",
+          "のぼったことがあります",
+          "のぼったばかりです",
+          "のぼれません"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "What does なんどかあります mean in the context of experience?",
+        "answer": "I have done it several times",
+        "options": [
+          "I have done it several times",
+          "I have done it once",
+          "I have never done it",
+          "I just did it"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "How do you ask 'Have you ever been to Hokkaido?'",
+        "answer": "北海道に行ったことがありますか。",
+        "options": [
+          "北海道に行ったことがありますか。",
+          "北海道に行きましたか。",
+          "北海道に行ったばかりですか。",
+          "北海道に行けますか。"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "ごはんを食べた ___ ですが、またおなかがすきました。(I just ate, but I'm hungry again.)",
+        "answer": "ばかり",
+        "options": [
+          "ばかり",
+          "こと",
+          "ため",
+          "ほど"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "I have seen that movie twice. Which is correct?",
+        "answer": "あのえいがを2かい見たことがあります。",
+        "options": [
+          "あのえいがを2かい見たことがあります。",
+          "あのえいがを2かい見ます。",
+          "あのえいがを2かい見たばかりです。",
+          "あのえいがを2かい見ました。"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "にほんにきた ___ ですから、まだよくわかりません。(I just came to Japan, so I don't understand well yet.)",
+        "answer": "ばかり",
+        "options": [
+          "ばかり",
+          "こと",
+          "ところ",
+          "のみ"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "こうべ牛を食べ ___ ことが ___ ますか。(Have you ever eaten Kobe beef?)",
+        "answer": "た / あり",
+        "options": [
+          "た / あり",
+          "て / あり",
+          "た / い",
+          "て / い"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "She has studied abroad before. Which is correct?",
+        "answer": "かのじょはりゅうがくしたことがあります。",
+        "options": [
+          "かのじょはりゅうがくしたことがあります。",
+          "かのじょはりゅうがくすることがあります。",
+          "かのじょはりゅうがくしたばかりです。",
+          "かのじょはりゅうがくしています。"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "ばかり is used after the ___ form of a verb.",
+        "answer": "た (past plain)",
+        "options": [
+          "た (past plain)",
+          "て (te-form)",
+          "ない (negative)",
+          "dictionary"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "Which word means 'for the first time'?",
+        "answer": "はじめて",
+        "options": [
+          "はじめて",
+          "まえに",
+          "いちど",
+          "このまえ"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "How do you say 'I have never drunk sake before'?",
+        "answer": "おさけをのんだことがありません。",
+        "options": [
+          "おさけをのんだことがありません。",
+          "おさけをのみません。",
+          "おさけはのめません。",
+          "おさけをのんでいません。"
+        ],
+        "type": "multiple_choice"
       }
     ]
   }

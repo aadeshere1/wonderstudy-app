@@ -32,7 +32,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 0,
-      "questionsCount": 5
+      "questionsCount": 20
     },
     "items": [
       {
@@ -89,6 +89,171 @@
           "さんにちめの"
         ],
         "explanation": "〜つめ counts ordinal things: ひとつめ (1st), ふたつめ (2nd), みっつめ (3rd). みっつめのしんごう = the 3rd traffic light."
+      },
+      {
+        "question": "みぎに ___ てください。(Please turn right.)",
+        "answer": "まがっ",
+        "options": [
+          "まがっ",
+          "いっ",
+          "もどっ",
+          "すすん"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "かどをひだり ___ 曲がってください。(Turn left at the corner.)",
+        "answer": "に",
+        "options": [
+          "に",
+          "を",
+          "で",
+          "へ"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "まっすぐ行く ___ 、こうばんがあります。(If you go straight, there is a police box.)",
+        "answer": "と",
+        "options": [
+          "と",
+          "から",
+          "ので",
+          "から"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "えきのちか ___ にぎんこうがあります。(Near the station there is a bank.)",
+        "answer": "く",
+        "options": [
+          "く",
+          "に",
+          "で",
+          "を"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "ここから ___ ですか、ちかいですか。(From here, is it far or near?)",
+        "answer": "とおい",
+        "options": [
+          "とおい",
+          "ながい",
+          "ひろい",
+          "ふかい"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "How do you ask 'How do I get to the station?'",
+        "answer": "えきへはどうやっていきますか。",
+        "options": [
+          "えきへはどうやっていきますか。",
+          "えきはどこにありますか。",
+          "えきまでなんぷんですか。",
+          "えきはどうですか。"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "このみちをまっすぐ行っ ___ 、みぎにまがってください。(Go straight along this road, then turn right.)",
+        "answer": "て",
+        "options": [
+          "て",
+          "から",
+          "ので",
+          "と"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "えきのまえ ___ バスていがあります。(In front of the station there is a bus stop.)",
+        "answer": "に",
+        "options": [
+          "に",
+          "で",
+          "を",
+          "が"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "はしを ___ と、こうえんがあります。(If you cross the bridge, there is a park.)",
+        "answer": "わたる",
+        "options": [
+          "わたる",
+          "まがる",
+          "すすむ",
+          "もどる"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "Which direction word means 'straight ahead'?",
+        "answer": "まっすぐ",
+        "options": [
+          "まっすぐ",
+          "みぎ",
+          "ひだり",
+          "うしろ"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "The hospital is on the left side. How do you say this?",
+        "answer": "びょういんはひだりがわにあります。",
+        "options": [
+          "びょういんはひだりがわにあります。",
+          "びょういんはみぎがわにあります。",
+          "びょういんはまえにあります。",
+          "びょういんはそばにあります。"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "From the station, walk for 5 minutes. How do you say this?",
+        "answer": "えきから5ふんあるきます。",
+        "options": [
+          "えきから5ふんあるきます。",
+          "えきまで5ふんあるきます。",
+          "えきを5ふんあるきます。",
+          "えきで5ふんあるきます。"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "かどをまがる ___ 、ゆうびんきょくがあります。(If you turn at the corner, there's a post office.)",
+        "answer": "と",
+        "options": [
+          "と",
+          "から",
+          "ので",
+          "が"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "ひとつめの ___ を右に曲がってください。(Please turn right at the first traffic light.)",
+        "answer": "しんごう",
+        "options": [
+          "しんごう",
+          "かど",
+          "はし",
+          "みち"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "Which particle follows direction words like みぎ、ひだり when giving directions?",
+        "answer": "に",
+        "options": [
+          "に",
+          "を",
+          "で",
+          "へ"
+        ],
+        "type": "multiple_choice"
       }
     ]
   },
@@ -97,7 +262,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 12,
-      "questionsCount": 5
+      "questionsCount": 20
     },
     "items": [
       {
@@ -154,6 +319,171 @@
           "さんにちめの"
         ],
         "explanation": "〜つめ counts ordinal things: ひとつめ (1st), ふたつめ (2nd), みっつめ (3rd). みっつめのしんごう = the 3rd traffic light."
+      },
+      {
+        "question": "みぎに ___ てください。(Please turn right.)",
+        "answer": "まがっ",
+        "options": [
+          "まがっ",
+          "いっ",
+          "もどっ",
+          "すすん"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "かどをひだり ___ 曲がってください。(Turn left at the corner.)",
+        "answer": "に",
+        "options": [
+          "に",
+          "を",
+          "で",
+          "へ"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "まっすぐ行く ___ 、こうばんがあります。(If you go straight, there is a police box.)",
+        "answer": "と",
+        "options": [
+          "と",
+          "から",
+          "ので",
+          "から"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "えきのちか ___ にぎんこうがあります。(Near the station there is a bank.)",
+        "answer": "く",
+        "options": [
+          "く",
+          "に",
+          "で",
+          "を"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "ここから ___ ですか、ちかいですか。(From here, is it far or near?)",
+        "answer": "とおい",
+        "options": [
+          "とおい",
+          "ながい",
+          "ひろい",
+          "ふかい"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "How do you ask 'How do I get to the station?'",
+        "answer": "えきへはどうやっていきますか。",
+        "options": [
+          "えきへはどうやっていきますか。",
+          "えきはどこにありますか。",
+          "えきまでなんぷんですか。",
+          "えきはどうですか。"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "このみちをまっすぐ行っ ___ 、みぎにまがってください。(Go straight along this road, then turn right.)",
+        "answer": "て",
+        "options": [
+          "て",
+          "から",
+          "ので",
+          "と"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "えきのまえ ___ バスていがあります。(In front of the station there is a bus stop.)",
+        "answer": "に",
+        "options": [
+          "に",
+          "で",
+          "を",
+          "が"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "はしを ___ と、こうえんがあります。(If you cross the bridge, there is a park.)",
+        "answer": "わたる",
+        "options": [
+          "わたる",
+          "まがる",
+          "すすむ",
+          "もどる"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "Which direction word means 'straight ahead'?",
+        "answer": "まっすぐ",
+        "options": [
+          "まっすぐ",
+          "みぎ",
+          "ひだり",
+          "うしろ"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "The hospital is on the left side. How do you say this?",
+        "answer": "びょういんはひだりがわにあります。",
+        "options": [
+          "びょういんはひだりがわにあります。",
+          "びょういんはみぎがわにあります。",
+          "びょういんはまえにあります。",
+          "びょういんはそばにあります。"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "From the station, walk for 5 minutes. How do you say this?",
+        "answer": "えきから5ふんあるきます。",
+        "options": [
+          "えきから5ふんあるきます。",
+          "えきまで5ふんあるきます。",
+          "えきを5ふんあるきます。",
+          "えきで5ふんあるきます。"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "かどをまがる ___ 、ゆうびんきょくがあります。(If you turn at the corner, there's a post office.)",
+        "answer": "と",
+        "options": [
+          "と",
+          "から",
+          "ので",
+          "が"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "ひとつめの ___ を右に曲がってください。(Please turn right at the first traffic light.)",
+        "answer": "しんごう",
+        "options": [
+          "しんごう",
+          "かど",
+          "はし",
+          "みち"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "Which particle follows direction words like みぎ、ひだり when giving directions?",
+        "answer": "に",
+        "options": [
+          "に",
+          "を",
+          "で",
+          "へ"
+        ],
+        "type": "multiple_choice"
       }
     ]
   }

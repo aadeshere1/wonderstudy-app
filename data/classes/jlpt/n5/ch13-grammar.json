@@ -32,7 +32,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 0,
-      "questionsCount": 5
+      "questionsCount": 20
     },
     "items": [
       {
@@ -89,6 +89,171 @@
           "さんにちあとで"
         ],
         "explanation": "〜日前 = ~ days ago. 3日前 = みっかまえ (using the special reading for 3 days: みっか)."
+      },
+      {
+        "question": "ごはんを たべる _____に ては を あらいます。(I wash my hands before eating.)",
+        "answer": "まえ",
+        "options": [
+          "まえ",
+          "あと",
+          "とき",
+          "ながら"
+        ],
+        "explanation": "〜まえに = before doing ~. Verb (dict form)+まえに."
+      },
+      {
+        "question": "にほんに きた _____で、ふじさんに のぼりました。(After coming to Japan, I climbed Mt Fuji.)",
+        "answer": "あと",
+        "options": [
+          "あと",
+          "まえ",
+          "とき",
+          "から"
+        ],
+        "explanation": "〜たあとで = after doing ~. Verb (past)+あとで."
+      },
+      {
+        "question": "にほんへ _____ことが ありますか。(Have you ever been to Japan?)",
+        "answer": "いった",
+        "options": [
+          "いった",
+          "いく",
+          "いって",
+          "いき"
+        ],
+        "explanation": "〜たことがある = have ever done ~. Past experience. Verb (past form)+ことがある."
+      },
+      {
+        "question": "かいものを した _____で コーヒーを のみました。(After shopping, I drank coffee.)",
+        "answer": "あと",
+        "options": [
+          "あと",
+          "まえ",
+          "ながら",
+          "から"
+        ],
+        "explanation": "〜したあとで = after doing ~. あとで shows sequence."
+      },
+      {
+        "question": "いちど ピアノを _____たことが あります。(I have played piano once before.)",
+        "answer": "ひい",
+        "options": [
+          "ひい",
+          "ひき",
+          "ひいて",
+          "ひく"
+        ],
+        "explanation": "ひく→ひいた+ことがある. Past tense stem for experience."
+      },
+      {
+        "question": "にほんりょうりを つくった _____が ありますか。(Have you ever cooked Japanese food?)",
+        "answer": "こと",
+        "options": [
+          "こと",
+          "もの",
+          "とき",
+          "ため"
+        ],
+        "explanation": "〜たことがある = have ever done ~. こと nominalizes the verb phrase."
+      },
+      {
+        "question": "ねる まえに はを _____。(I brush my teeth before sleeping.)",
+        "answer": "みがきます",
+        "options": [
+          "みがきます",
+          "みがいて",
+          "みがいた",
+          "みがく"
+        ],
+        "explanation": "Routine habit: ねるまえに+verb (present). はをみがく = brush teeth."
+      },
+      {
+        "question": "しけんが おわった _____、みんなで ごはんを たべました。",
+        "answer": "あと",
+        "options": [
+          "あと",
+          "まえ",
+          "とき",
+          "から"
+        ],
+        "explanation": "〜たあと = after doing ~. Shows sequential past events."
+      },
+      {
+        "question": "にほんご を べんきょうした _____が ありますか。——はい、3ねんぐらい あります。",
+        "answer": "こと",
+        "options": [
+          "こと",
+          "もの",
+          "とき",
+          "ため"
+        ],
+        "explanation": "〜したことがありますか = have you ever done ~? Answer: はい、あります / いいえ、ありません."
+      },
+      {
+        "question": "でかける まえに、でんきを _____ください。(Please turn off the lights before going out.)",
+        "answer": "けして",
+        "options": [
+          "けして",
+          "つけて",
+          "しめて",
+          "あけて"
+        ],
+        "explanation": "けす→けして (て-form: turn off). まえに = before. てください = please."
+      },
+      {
+        "question": "ごはんを たべた _____、はを みがきます。(After eating, I brush my teeth.)",
+        "answer": "あと",
+        "options": [
+          "あと",
+          "まえ",
+          "とき",
+          "ながら"
+        ],
+        "explanation": "たべたあと = after eating. Sequential daily routine."
+      },
+      {
+        "question": "かれは にほんに すんだ _____が あります。(He has lived in Japan before.)",
+        "answer": "こと",
+        "options": [
+          "こと",
+          "もの",
+          "とき",
+          "ため"
+        ],
+        "explanation": "〜たことがある = has done before (experience). すんだ = lived (past of すむ)."
+      },
+      {
+        "question": "べんきょうする _____に、ちょっと やすみましょう。(Before studying, let's take a short break.)",
+        "answer": "まえ",
+        "options": [
+          "まえ",
+          "あと",
+          "から",
+          "とき"
+        ],
+        "explanation": "〜まえに = before doing. Dictionary form + まえに."
+      },
+      {
+        "question": "はじめて にほんりょうりを _____とき、とても おどろきました。",
+        "answer": "たべた",
+        "options": [
+          "たべた",
+          "たべる",
+          "たべて",
+          "たべない"
+        ],
+        "explanation": "〜たとき = when [past]. 〜るとき = when [present/future]. Here past: first time eating."
+      },
+      {
+        "question": "スカイツリーに _____ことが ありますか。——はい、一度あります。",
+        "answer": "のぼった",
+        "options": [
+          "のぼった",
+          "のぼる",
+          "のぼって",
+          "のぼり"
+        ],
+        "explanation": "のぼる(climb)→のぼった+ことがある = have climbed. 一度 = once."
       }
     ]
   },
@@ -97,7 +262,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 12,
-      "questionsCount": 5
+      "questionsCount": 20
     },
     "items": [
       {
@@ -154,6 +319,171 @@
           "さんにちあとで"
         ],
         "explanation": "〜日前 = ~ days ago. 3日前 = みっかまえ (using the special reading for 3 days: みっか)."
+      },
+      {
+        "question": "ごはんを たべる _____に ては を あらいます。(I wash my hands before eating.)",
+        "answer": "まえ",
+        "options": [
+          "まえ",
+          "あと",
+          "とき",
+          "ながら"
+        ],
+        "explanation": "〜まえに = before doing ~. Verb (dict form)+まえに."
+      },
+      {
+        "question": "にほんに きた _____で、ふじさんに のぼりました。(After coming to Japan, I climbed Mt Fuji.)",
+        "answer": "あと",
+        "options": [
+          "あと",
+          "まえ",
+          "とき",
+          "から"
+        ],
+        "explanation": "〜たあとで = after doing ~. Verb (past)+あとで."
+      },
+      {
+        "question": "にほんへ _____ことが ありますか。(Have you ever been to Japan?)",
+        "answer": "いった",
+        "options": [
+          "いった",
+          "いく",
+          "いって",
+          "いき"
+        ],
+        "explanation": "〜たことがある = have ever done ~. Past experience. Verb (past form)+ことがある."
+      },
+      {
+        "question": "かいものを した _____で コーヒーを のみました。(After shopping, I drank coffee.)",
+        "answer": "あと",
+        "options": [
+          "あと",
+          "まえ",
+          "ながら",
+          "から"
+        ],
+        "explanation": "〜したあとで = after doing ~. あとで shows sequence."
+      },
+      {
+        "question": "いちど ピアノを _____たことが あります。(I have played piano once before.)",
+        "answer": "ひい",
+        "options": [
+          "ひい",
+          "ひき",
+          "ひいて",
+          "ひく"
+        ],
+        "explanation": "ひく→ひいた+ことがある. Past tense stem for experience."
+      },
+      {
+        "question": "にほんりょうりを つくった _____が ありますか。(Have you ever cooked Japanese food?)",
+        "answer": "こと",
+        "options": [
+          "こと",
+          "もの",
+          "とき",
+          "ため"
+        ],
+        "explanation": "〜たことがある = have ever done ~. こと nominalizes the verb phrase."
+      },
+      {
+        "question": "ねる まえに はを _____。(I brush my teeth before sleeping.)",
+        "answer": "みがきます",
+        "options": [
+          "みがきます",
+          "みがいて",
+          "みがいた",
+          "みがく"
+        ],
+        "explanation": "Routine habit: ねるまえに+verb (present). はをみがく = brush teeth."
+      },
+      {
+        "question": "しけんが おわった _____、みんなで ごはんを たべました。",
+        "answer": "あと",
+        "options": [
+          "あと",
+          "まえ",
+          "とき",
+          "から"
+        ],
+        "explanation": "〜たあと = after doing ~. Shows sequential past events."
+      },
+      {
+        "question": "にほんご を べんきょうした _____が ありますか。——はい、3ねんぐらい あります。",
+        "answer": "こと",
+        "options": [
+          "こと",
+          "もの",
+          "とき",
+          "ため"
+        ],
+        "explanation": "〜したことがありますか = have you ever done ~? Answer: はい、あります / いいえ、ありません."
+      },
+      {
+        "question": "でかける まえに、でんきを _____ください。(Please turn off the lights before going out.)",
+        "answer": "けして",
+        "options": [
+          "けして",
+          "つけて",
+          "しめて",
+          "あけて"
+        ],
+        "explanation": "けす→けして (て-form: turn off). まえに = before. てください = please."
+      },
+      {
+        "question": "ごはんを たべた _____、はを みがきます。(After eating, I brush my teeth.)",
+        "answer": "あと",
+        "options": [
+          "あと",
+          "まえ",
+          "とき",
+          "ながら"
+        ],
+        "explanation": "たべたあと = after eating. Sequential daily routine."
+      },
+      {
+        "question": "かれは にほんに すんだ _____が あります。(He has lived in Japan before.)",
+        "answer": "こと",
+        "options": [
+          "こと",
+          "もの",
+          "とき",
+          "ため"
+        ],
+        "explanation": "〜たことがある = has done before (experience). すんだ = lived (past of すむ)."
+      },
+      {
+        "question": "べんきょうする _____に、ちょっと やすみましょう。(Before studying, let's take a short break.)",
+        "answer": "まえ",
+        "options": [
+          "まえ",
+          "あと",
+          "から",
+          "とき"
+        ],
+        "explanation": "〜まえに = before doing. Dictionary form + まえに."
+      },
+      {
+        "question": "はじめて にほんりょうりを _____とき、とても おどろきました。",
+        "answer": "たべた",
+        "options": [
+          "たべた",
+          "たべる",
+          "たべて",
+          "たべない"
+        ],
+        "explanation": "〜たとき = when [past]. 〜るとき = when [present/future]. Here past: first time eating."
+      },
+      {
+        "question": "スカイツリーに _____ことが ありますか。——はい、一度あります。",
+        "answer": "のぼった",
+        "options": [
+          "のぼった",
+          "のぼる",
+          "のぼって",
+          "のぼり"
+        ],
+        "explanation": "のぼる(climb)→のぼった+ことがある = have climbed. 一度 = once."
       }
     ]
   }

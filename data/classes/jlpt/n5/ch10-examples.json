@@ -44,7 +44,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 0,
-      "questionsCount": 8
+      "questionsCount": 20
     },
     "items": [
       {
@@ -134,6 +134,138 @@
           "It's better"
         ],
         "explanation": "ちがいます = it's different / that's wrong. Used to politely deny or correct something. (いいえ、ちがいます = No, that's wrong.)"
+      },
+      {
+        "question": "Comparing apples and oranges — you prefer oranges.",
+        "answer": "りんごより みかんのほうが すきです。",
+        "options": [
+          "りんごより みかんのほうが すきです。",
+          "みかんより りんごのほうが すきです。",
+          "りんごも みかんも すきです。",
+          "りんごと みかんと どちらも すきです。"
+        ],
+        "explanation": "AよりBのほうが = prefer B over A."
+      },
+      {
+        "question": "Asking 'Which is more expensive, beef or pork?'",
+        "answer": "ぎゅうにくと ぶたにくと どちらが たかいですか。",
+        "options": [
+          "ぎゅうにくと ぶたにくと どちらが たかいですか。",
+          "ぎゅうにくか ぶたにくか どちらが たかいですか。",
+          "ぎゅうにくより ぶたにくが たかいですか。",
+          "ぎゅうにくと ぶたにくと どれが たかいですか。"
+        ],
+        "explanation": "AとBとどちらが = Which of A and B. どちら = which of two."
+      },
+      {
+        "question": "Among all sports, baseball is the most popular in Japan.",
+        "answer": "スポーツのなかで やきゅうが いちばん にんきです。",
+        "options": [
+          "スポーツのなかで やきゅうが いちばん にんきです。",
+          "スポーツのなかで やきゅうより にんきです。",
+          "スポーツのなかで やきゅうが もっと にんきです。",
+          "スポーツのなかで やきゅうが いちばん にんきでした。"
+        ],
+        "explanation": "〜の中で〜がいちばん〜 = Among ~, ~ is the most ~."
+      },
+      {
+        "question": "Summer is hotter than spring in Japan.",
+        "answer": "はるより なつのほうが あついです。",
+        "options": [
+          "はるより なつのほうが あついです。",
+          "なつより はるのほうが あついです。",
+          "はるも なつも あついです。",
+          "はるは なつより あついです。"
+        ],
+        "explanation": "AよりBのほうが〜 = B is more ~ than A. はる=spring, なつ=summer."
+      },
+      {
+        "question": "What is the cheapest item on the menu?",
+        "answer": "メニューのなかで いちばん やすいのは なんですか。",
+        "options": [
+          "メニューのなかで いちばん やすいのは なんですか。",
+          "メニューのなかで もっと やすいのは なんですか。",
+          "メニューのなかで やすいのより なんですか。",
+          "メニューのなかで いちばん やすいは なんですか。"
+        ],
+        "explanation": "〜の中で〜がいちばん〜のは何ですか = What is the most ~ among ~?"
+      },
+      {
+        "question": "I prefer studying at home rather than at a library.",
+        "answer": "としょかんより うちのほうが べんきょうしやすいです。",
+        "options": [
+          "としょかんより うちのほうが べんきょうしやすいです。",
+          "うちより としょかんのほうが べんきょうしやすいです。",
+          "としょかんも うちも べんきょうしやすいです。",
+          "としょかんか うちか べんきょうしやすいです。"
+        ],
+        "explanation": "AよりBのほうが = B is better/preferred over A. しやすい = easy to do."
+      },
+      {
+        "question": "Which season is the most beautiful in Japan? Many say autumn.",
+        "answer": "にほんで いちばん うつくしい きせつは どれですか。",
+        "options": [
+          "にほんで いちばん うつくしい きせつは どれですか。",
+          "にほんで もっと うつくしい きせつは どれですか。",
+          "にほんで いちばん うつくしい きせつは なんですか。",
+          "にほんで より うつくしい きせつは どれですか。"
+        ],
+        "explanation": "いちばん+adj = superlative. きせつ = season. どれ for choosing among several."
+      },
+      {
+        "question": "The bullet train is faster than the airplane for short trips.",
+        "answer": "みじかい りょこうは ひこうきより しんかんせんのほうが はやいです。",
+        "options": [
+          "みじかい りょこうは ひこうきより しんかんせんのほうが はやいです。",
+          "みじかい りょこうは しんかんせんより ひこうきのほうが はやいです。",
+          "みじかい りょこうは ひこうきと しんかんせんと どちらも はやいです。",
+          "みじかい りょこうは ひこうきほど しんかんせんが はやいです。"
+        ],
+        "explanation": "AよりBのほうが = B is more ~ than A. みじかい = short."
+      },
+      {
+        "question": "Asking 'Who is the most popular singer in Japan right now?'",
+        "answer": "いまの にほんで いちばん にんきの かしゅは だれですか。",
+        "options": [
+          "いまの にほんで いちばん にんきの かしゅは だれですか。",
+          "いまの にほんで もっとも にんきの かしゅは だれですか。",
+          "いまの にほんで いちばん にんきな かしゅは だれですか。",
+          "いまの にほんで いちばん にんきの かしゅは なにですか。"
+        ],
+        "explanation": "いちばん+にんきの = most popular. かしゅ = singer."
+      },
+      {
+        "question": "Coffee is more expensive than tea at this café.",
+        "answer": "このカフェでは おちゃより コーヒーのほうが たかいです。",
+        "options": [
+          "このカフェでは おちゃより コーヒーのほうが たかいです。",
+          "このカフェでは コーヒーより おちゃのほうが たかいです。",
+          "このカフェでは おちゃも コーヒーも たかいです。",
+          "このカフェでは おちゃと コーヒーと どちらが たかいですか。"
+        ],
+        "explanation": "AよりBのほうが = B is more ~ than A."
+      },
+      {
+        "question": "In this class, who studies the hardest?",
+        "answer": "このクラスで いちばん よく べんきょうするのは だれですか。",
+        "options": [
+          "このクラスで いちばん よく べんきょうするのは だれですか。",
+          "このクラスで もっと よく べんきょうするのは だれですか。",
+          "このクラスで いちばん よく べんきょうしたのは だれですか。",
+          "このクラスで いちばん よく べんきょうするは だれですか。"
+        ],
+        "explanation": "いちばんよく〜する = does ~ the most. のは links the verb phrase as noun."
+      },
+      {
+        "question": "Beef is more expensive than chicken, but chicken is healthier.",
+        "answer": "とりにくより ぎゅうにくのほうが たかいですが、とりにくのほうが からだに いいです。",
+        "options": [
+          "とりにくより ぎゅうにくのほうが たかいですが、とりにくのほうが からだに いいです。",
+          "ぎゅうにくより とりにくのほうが たかいですが、ぎゅうにくのほうが からだに いいです。",
+          "とりにくも ぎゅうにくも たかいですが、どちらも からだに いいです。",
+          "とりにくより ぎゅうにくのほうが たかいので、とりにくのほうが からだに いいです。"
+        ],
+        "explanation": "Two comparison clauses joined by が (but). からだにいい = good for the body."
       }
     ]
   },
@@ -142,7 +274,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 12,
-      "questionsCount": 8
+      "questionsCount": 20
     },
     "items": [
       {
@@ -232,6 +364,138 @@
           "It's better"
         ],
         "explanation": "ちがいます = it's different / that's wrong. Used to politely deny or correct something. (いいえ、ちがいます = No, that's wrong.)"
+      },
+      {
+        "question": "Comparing apples and oranges — you prefer oranges.",
+        "answer": "りんごより みかんのほうが すきです。",
+        "options": [
+          "りんごより みかんのほうが すきです。",
+          "みかんより りんごのほうが すきです。",
+          "りんごも みかんも すきです。",
+          "りんごと みかんと どちらも すきです。"
+        ],
+        "explanation": "AよりBのほうが = prefer B over A."
+      },
+      {
+        "question": "Asking 'Which is more expensive, beef or pork?'",
+        "answer": "ぎゅうにくと ぶたにくと どちらが たかいですか。",
+        "options": [
+          "ぎゅうにくと ぶたにくと どちらが たかいですか。",
+          "ぎゅうにくか ぶたにくか どちらが たかいですか。",
+          "ぎゅうにくより ぶたにくが たかいですか。",
+          "ぎゅうにくと ぶたにくと どれが たかいですか。"
+        ],
+        "explanation": "AとBとどちらが = Which of A and B. どちら = which of two."
+      },
+      {
+        "question": "Among all sports, baseball is the most popular in Japan.",
+        "answer": "スポーツのなかで やきゅうが いちばん にんきです。",
+        "options": [
+          "スポーツのなかで やきゅうが いちばん にんきです。",
+          "スポーツのなかで やきゅうより にんきです。",
+          "スポーツのなかで やきゅうが もっと にんきです。",
+          "スポーツのなかで やきゅうが いちばん にんきでした。"
+        ],
+        "explanation": "〜の中で〜がいちばん〜 = Among ~, ~ is the most ~."
+      },
+      {
+        "question": "Summer is hotter than spring in Japan.",
+        "answer": "はるより なつのほうが あついです。",
+        "options": [
+          "はるより なつのほうが あついです。",
+          "なつより はるのほうが あついです。",
+          "はるも なつも あついです。",
+          "はるは なつより あついです。"
+        ],
+        "explanation": "AよりBのほうが〜 = B is more ~ than A. はる=spring, なつ=summer."
+      },
+      {
+        "question": "What is the cheapest item on the menu?",
+        "answer": "メニューのなかで いちばん やすいのは なんですか。",
+        "options": [
+          "メニューのなかで いちばん やすいのは なんですか。",
+          "メニューのなかで もっと やすいのは なんですか。",
+          "メニューのなかで やすいのより なんですか。",
+          "メニューのなかで いちばん やすいは なんですか。"
+        ],
+        "explanation": "〜の中で〜がいちばん〜のは何ですか = What is the most ~ among ~?"
+      },
+      {
+        "question": "I prefer studying at home rather than at a library.",
+        "answer": "としょかんより うちのほうが べんきょうしやすいです。",
+        "options": [
+          "としょかんより うちのほうが べんきょうしやすいです。",
+          "うちより としょかんのほうが べんきょうしやすいです。",
+          "としょかんも うちも べんきょうしやすいです。",
+          "としょかんか うちか べんきょうしやすいです。"
+        ],
+        "explanation": "AよりBのほうが = B is better/preferred over A. しやすい = easy to do."
+      },
+      {
+        "question": "Which season is the most beautiful in Japan? Many say autumn.",
+        "answer": "にほんで いちばん うつくしい きせつは どれですか。",
+        "options": [
+          "にほんで いちばん うつくしい きせつは どれですか。",
+          "にほんで もっと うつくしい きせつは どれですか。",
+          "にほんで いちばん うつくしい きせつは なんですか。",
+          "にほんで より うつくしい きせつは どれですか。"
+        ],
+        "explanation": "いちばん+adj = superlative. きせつ = season. どれ for choosing among several."
+      },
+      {
+        "question": "The bullet train is faster than the airplane for short trips.",
+        "answer": "みじかい りょこうは ひこうきより しんかんせんのほうが はやいです。",
+        "options": [
+          "みじかい りょこうは ひこうきより しんかんせんのほうが はやいです。",
+          "みじかい りょこうは しんかんせんより ひこうきのほうが はやいです。",
+          "みじかい りょこうは ひこうきと しんかんせんと どちらも はやいです。",
+          "みじかい りょこうは ひこうきほど しんかんせんが はやいです。"
+        ],
+        "explanation": "AよりBのほうが = B is more ~ than A. みじかい = short."
+      },
+      {
+        "question": "Asking 'Who is the most popular singer in Japan right now?'",
+        "answer": "いまの にほんで いちばん にんきの かしゅは だれですか。",
+        "options": [
+          "いまの にほんで いちばん にんきの かしゅは だれですか。",
+          "いまの にほんで もっとも にんきの かしゅは だれですか。",
+          "いまの にほんで いちばん にんきな かしゅは だれですか。",
+          "いまの にほんで いちばん にんきの かしゅは なにですか。"
+        ],
+        "explanation": "いちばん+にんきの = most popular. かしゅ = singer."
+      },
+      {
+        "question": "Coffee is more expensive than tea at this café.",
+        "answer": "このカフェでは おちゃより コーヒーのほうが たかいです。",
+        "options": [
+          "このカフェでは おちゃより コーヒーのほうが たかいです。",
+          "このカフェでは コーヒーより おちゃのほうが たかいです。",
+          "このカフェでは おちゃも コーヒーも たかいです。",
+          "このカフェでは おちゃと コーヒーと どちらが たかいですか。"
+        ],
+        "explanation": "AよりBのほうが = B is more ~ than A."
+      },
+      {
+        "question": "In this class, who studies the hardest?",
+        "answer": "このクラスで いちばん よく べんきょうするのは だれですか。",
+        "options": [
+          "このクラスで いちばん よく べんきょうするのは だれですか。",
+          "このクラスで もっと よく べんきょうするのは だれですか。",
+          "このクラスで いちばん よく べんきょうしたのは だれですか。",
+          "このクラスで いちばん よく べんきょうするは だれですか。"
+        ],
+        "explanation": "いちばんよく〜する = does ~ the most. のは links the verb phrase as noun."
+      },
+      {
+        "question": "Beef is more expensive than chicken, but chicken is healthier.",
+        "answer": "とりにくより ぎゅうにくのほうが たかいですが、とりにくのほうが からだに いいです。",
+        "options": [
+          "とりにくより ぎゅうにくのほうが たかいですが、とりにくのほうが からだに いいです。",
+          "ぎゅうにくより とりにくのほうが たかいですが、ぎゅうにくのほうが からだに いいです。",
+          "とりにくも ぎゅうにくも たかいですが、どちらも からだに いいです。",
+          "とりにくより ぎゅうにくのほうが たかいので、とりにくのほうが からだに いいです。"
+        ],
+        "explanation": "Two comparison clauses joined by が (but). からだにいい = good for the body."
       }
     ]
   }

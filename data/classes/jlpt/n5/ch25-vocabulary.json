@@ -33,7 +33,7 @@
       "answerMode": "mcq",
       "optionsCount": 4,
       "timeLimit": 0,
-      "questionsCount": 15
+      "questionsCount": 30
     },
     "items": [
       {
@@ -185,6 +185,156 @@
           "not go anywhere / nowhere (motion verb)",
           "go somewhere"
         ]
+      },
+      {
+        "question": "How do you say 'New Year's (holiday)' in Japanese?",
+        "answer": "おしょうがつ (お正月)",
+        "options": [
+          "おぼん (お盆)",
+          "ねんがじょう (年賀状)",
+          "ゴールデンウィーク",
+          "おしょうがつ (お正月)"
+        ]
+      },
+      {
+        "question": "How do you say 'Golden Week (holiday period)' in Japanese?",
+        "answer": "ゴールデンウィーク",
+        "options": [
+          "ゴールデンウィーク",
+          "ねんがじょう (年賀状)",
+          "おぼん (お盆)",
+          "おしょうがつ (お正月)"
+        ]
+      },
+      {
+        "question": "How do you say 'Obon (Buddhist memorial festival)' in Japanese?",
+        "answer": "おぼん (お盆)",
+        "options": [
+          "ねんがじょう (年賀状)",
+          "おぼん (お盆)",
+          "ゴールデンウィーク",
+          "おしょうがつ (お正月)"
+        ]
+      },
+      {
+        "question": "How do you say 'New Year's card' in Japanese?",
+        "answer": "ねんがじょう (年賀状)",
+        "options": [
+          "おぼん (お盆)",
+          "おしょうがつ (お正月)",
+          "ねんがじょう (年賀状)",
+          "ゴールデンウィーク"
+        ]
+      },
+      {
+        "question": "How do you say 'New Year's traditional food' in Japanese?",
+        "answer": "おせちりょうり",
+        "options": [
+          "おぼん (お盆)",
+          "おせちりょうり",
+          "ゴールデンウィーク",
+          "おしょうがつ (お正月)"
+        ]
+      },
+      {
+        "question": "How do you say 'first shrine/temple visit of New Year' in Japanese?",
+        "answer": "はつもうで (初詣)",
+        "options": [
+          "おしょうがつ (お正月)",
+          "おぼん (お盆)",
+          "ゴールデンウィーク",
+          "はつもうで (初詣)"
+        ]
+      },
+      {
+        "question": "How do you say 'must ~ / have to ~' in Japanese?",
+        "answer": "〜なければなりません",
+        "options": [
+          "おしょうがつ (お正月)",
+          "ゴールデンウィーク",
+          "おぼん (お盆)",
+          "〜なければなりません"
+        ]
+      },
+      {
+        "question": "How do you say 'must ~ (variant form)' in Japanese?",
+        "answer": "〜なくてはなりません",
+        "options": [
+          "〜なくてはなりません",
+          "おぼん (お盆)",
+          "おしょうがつ (お正月)",
+          "ゴールデンウィーク"
+        ]
+      },
+      {
+        "question": "How do you say 'I wish I had ~ / should have ~' in Japanese?",
+        "answer": "〜ばよかったです",
+        "options": [
+          "おぼん (お盆)",
+          "〜ばよかったです",
+          "おしょうがつ (お正月)",
+          "ゴールデンウィーク"
+        ]
+      },
+      {
+        "question": "How do you say 'I wish I hadn't ~ / shouldn't have ~' in Japanese?",
+        "answer": "〜なければよかったです",
+        "options": [
+          "ゴールデンウィーク",
+          "おぼん (お盆)",
+          "〜なければよかったです",
+          "おしょうがつ (お正月)"
+        ]
+      },
+      {
+        "question": "How do you say 'envious / jealous' in Japanese?",
+        "answer": "うらやましい",
+        "options": [
+          "おぼん (お盆)",
+          "ゴールデンウィーク",
+          "うらやましい",
+          "おしょうがつ (お正月)"
+        ]
+      },
+      {
+        "question": "How do you say 'regrettable / unfortunate / what a shame' in Japanese?",
+        "answer": "ざんねん (残念)",
+        "options": [
+          "おぼん (お盆)",
+          "おしょうがつ (お正月)",
+          "ゴールデンウィーク",
+          "ざんねん (残念)"
+        ]
+      },
+      {
+        "question": "How do you say 'good thing / glad' in Japanese?",
+        "answer": "よかった",
+        "options": [
+          "ゴールデンウィーク",
+          "おぼん (お盆)",
+          "おしょうがつ (お正月)",
+          "よかった"
+        ]
+      },
+      {
+        "question": "How do you say 'it was hard/tough' in Japanese?",
+        "answer": "たいへんでした (大変でした)",
+        "options": [
+          "おしょうがつ (お正月)",
+          "たいへんでした (大変でした)",
+          "おぼん (お盆)",
+          "ゴールデンウィーク"
+        ]
+      },
+      {
+        "question": "How do you say 'not go anywhere / nowhere (motion verb)' in Japanese?",
+        "answer": "どこへも〜ない",
+        "options": [
+          "ゴールデンウィーク",
+          "おぼん (お盆)",
+          "どこへも〜ない",
+          "おしょうがつ (お正月)"
+        ]
       }
     ]
   },
@@ -194,9 +344,159 @@
       "answerMode": "mcq",
       "optionsCount": 4,
       "timeLimit": 10,
-      "questionsCount": 15
+      "questionsCount": 30
     },
     "items": [
+      {
+        "question": "おしょうがつ (お正月)",
+        "answer": "New Year's (holiday)",
+        "options": [
+          "New Year's (holiday)",
+          "Golden Week",
+          "Christmas",
+          "Obon"
+        ]
+      },
+      {
+        "question": "ゴールデンウィーク",
+        "answer": "Golden Week (holiday period)",
+        "options": [
+          "New Year's Eve",
+          "Obon",
+          "Golden Week (holiday period)",
+          "New Year's"
+        ]
+      },
+      {
+        "question": "おぼん (お盆)",
+        "answer": "Obon (Buddhist memorial festival)",
+        "options": [
+          "Golden Week",
+          "Obon (Buddhist memorial festival)",
+          "Christmas",
+          "New Year's"
+        ]
+      },
+      {
+        "question": "ねんがじょう (年賀状)",
+        "answer": "New Year's card",
+        "options": [
+          "birthday card",
+          "New Year's card",
+          "Christmas card",
+          "letter"
+        ]
+      },
+      {
+        "question": "おせちりょうり",
+        "answer": "New Year's traditional food",
+        "options": [
+          "festival food",
+          "daily food",
+          "New Year's traditional food",
+          "summer food"
+        ]
+      },
+      {
+        "question": "はつもうで (初詣)",
+        "answer": "first shrine/temple visit of New Year",
+        "options": [
+          "autumn festival",
+          "summer festival",
+          "daily prayer",
+          "first shrine/temple visit of New Year"
+        ]
+      },
+      {
+        "question": "〜なければなりません",
+        "answer": "must ~ / have to ~",
+        "options": [
+          "can ~",
+          "don't have to ~",
+          "must ~ / have to ~",
+          "want to ~"
+        ]
+      },
+      {
+        "question": "〜なくてはなりません",
+        "answer": "must ~ (variant form)",
+        "options": [
+          "don't have to ~",
+          "want to ~",
+          "must ~ (variant form)",
+          "can ~"
+        ]
+      },
+      {
+        "question": "〜ばよかったです",
+        "answer": "I wish I had ~ / should have ~",
+        "options": [
+          "I'm glad I did ~",
+          "I will ~",
+          "I wish I had ~ / should have ~",
+          "I must ~"
+        ]
+      },
+      {
+        "question": "〜なければよかったです",
+        "answer": "I wish I hadn't ~ / shouldn't have ~",
+        "options": [
+          "I'm glad I did ~",
+          "I should have ~",
+          "I wish I hadn't ~ / shouldn't have ~",
+          "I will ~"
+        ]
+      },
+      {
+        "question": "うらやましい",
+        "answer": "envious / jealous",
+        "options": [
+          "indifferent",
+          "happy",
+          "sad",
+          "envious / jealous"
+        ]
+      },
+      {
+        "question": "ざんねん (残念)",
+        "answer": "regrettable / unfortunate / what a shame",
+        "options": [
+          "lucky",
+          "regrettable / unfortunate / what a shame",
+          "happy",
+          "wonderful"
+        ]
+      },
+      {
+        "question": "よかった",
+        "answer": "good thing / glad",
+        "options": [
+          "unfortunate",
+          "what a shame",
+          "too bad",
+          "good thing / glad"
+        ]
+      },
+      {
+        "question": "たいへんでした (大変でした)",
+        "answer": "it was hard/tough",
+        "options": [
+          "it was easy",
+          "it was hard/tough",
+          "it was fine",
+          "it was fun"
+        ]
+      },
+      {
+        "question": "どこへも〜ない",
+        "answer": "not go anywhere / nowhere (motion verb)",
+        "options": [
+          "go anywhere",
+          "go everywhere",
+          "not go anywhere / nowhere (motion verb)",
+          "go somewhere"
+        ]
+      },
       {
         "question": "How do you say 'New Year's (holiday)' in Japanese?",
         "answer": "おしょうがつ (お正月)",

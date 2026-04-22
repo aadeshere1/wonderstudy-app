@@ -33,7 +33,7 @@
       "answerMode": "mcq",
       "optionsCount": 4,
       "timeLimit": 0,
-      "questionsCount": 15
+      "questionsCount": 30
     },
     "items": [
       {
@@ -185,6 +185,156 @@
           "browser",
           "software"
         ]
+      },
+      {
+        "question": "How do you say 'a little / slightly' in Japanese?",
+        "answer": "すこし (少し)",
+        "options": [
+          "とくい (得意)",
+          "へた (下手)",
+          "じょうず (上手)",
+          "すこし (少し)"
+        ]
+      },
+      {
+        "question": "How do you say 'skilled / good at (な-adj)' in Japanese?",
+        "answer": "じょうず (上手)",
+        "options": [
+          "とくい (得意)",
+          "へた (下手)",
+          "じょうず (上手)",
+          "すこし (少し)"
+        ]
+      },
+      {
+        "question": "How do you say 'unskilled / bad at (な-adj)' in Japanese?",
+        "answer": "へた (下手)",
+        "options": [
+          "とくい (得意)",
+          "すこし (少し)",
+          "じょうず (上手)",
+          "へた (下手)"
+        ]
+      },
+      {
+        "question": "How do you say 'one's strong point / good at' in Japanese?",
+        "answer": "とくい (得意)",
+        "options": [
+          "とくい (得意)",
+          "じょうず (上手)",
+          "すこし (少し)",
+          "へた (下手)"
+        ]
+      },
+      {
+        "question": "How do you say 'one's weak point / bad at' in Japanese?",
+        "answer": "にがて (苦手)",
+        "options": [
+          "すこし (少し)",
+          "へた (下手)",
+          "じょうず (上手)",
+          "にがて (苦手)"
+        ]
+      },
+      {
+        "question": "How do you say 'whether ~ / if ~ (indirect question)' in Japanese?",
+        "answer": "〜か (embedded question)",
+        "options": [
+          "〜か (embedded question)",
+          "へた (下手)",
+          "じょうず (上手)",
+          "すこし (少し)"
+        ]
+      },
+      {
+        "question": "How do you say 'I don't know / I don't understand' in Japanese?",
+        "answer": "わかりません",
+        "options": [
+          "へた (下手)",
+          "わかりません",
+          "じょうず (上手)",
+          "すこし (少し)"
+        ]
+      },
+      {
+        "question": "How do you say 'please tell me / please teach me' in Japanese?",
+        "answer": "おしえてください (教えてください)",
+        "options": [
+          "おしえてください (教えてください)",
+          "すこし (少し)",
+          "へた (下手)",
+          "じょうず (上手)"
+        ]
+      },
+      {
+        "question": "How do you say 'to investigate / look up' in Japanese?",
+        "answer": "しらべます (調べます)",
+        "options": [
+          "すこし (少し)",
+          "へた (下手)",
+          "じょうず (上手)",
+          "しらべます (調べます)"
+        ]
+      },
+      {
+        "question": "How do you say 'to confirm / check' in Japanese?",
+        "answer": "かくにんします (確認します)",
+        "options": [
+          "かくにんします (確認します)",
+          "へた (下手)",
+          "すこし (少し)",
+          "じょうず (上手)"
+        ]
+      },
+      {
+        "question": "How do you say 'calculator' in Japanese?",
+        "answer": "でんたく (電卓)",
+        "options": [
+          "へた (下手)",
+          "でんたく (電卓)",
+          "すこし (少し)",
+          "じょうず (上手)"
+        ]
+      },
+      {
+        "question": "How do you say 'internet' in Japanese?",
+        "answer": "インターネット",
+        "options": [
+          "へた (下手)",
+          "すこし (少し)",
+          "じょうず (上手)",
+          "インターネット"
+        ]
+      },
+      {
+        "question": "How do you say 'mobile phone / cell phone' in Japanese?",
+        "answer": "けいたい (携帯)",
+        "options": [
+          "じょうず (上手)",
+          "へた (下手)",
+          "けいたい (携帯)",
+          "すこし (少し)"
+        ]
+      },
+      {
+        "question": "How do you say 'smartphone' in Japanese?",
+        "answer": "スマートフォン / スマホ",
+        "options": [
+          "スマートフォン / スマホ",
+          "すこし (少し)",
+          "へた (下手)",
+          "じょうず (上手)"
+        ]
+      },
+      {
+        "question": "How do you say 'app / application' in Japanese?",
+        "answer": "アプリ",
+        "options": [
+          "すこし (少し)",
+          "へた (下手)",
+          "じょうず (上手)",
+          "アプリ"
+        ]
       }
     ]
   },
@@ -194,9 +344,159 @@
       "answerMode": "mcq",
       "optionsCount": 4,
       "timeLimit": 10,
-      "questionsCount": 15
+      "questionsCount": 30
     },
     "items": [
+      {
+        "question": "すこし (少し)",
+        "answer": "a little / slightly",
+        "options": [
+          "a little / slightly",
+          "a lot",
+          "very",
+          "not at all"
+        ]
+      },
+      {
+        "question": "じょうず (上手)",
+        "answer": "skilled / good at (な-adj)",
+        "options": [
+          "skilled / good at (な-adj)",
+          "unskilled",
+          "novice",
+          "average"
+        ]
+      },
+      {
+        "question": "へた (下手)",
+        "answer": "unskilled / bad at (な-adj)",
+        "options": [
+          "unskilled / bad at (な-adj)",
+          "excellent",
+          "average",
+          "skilled"
+        ]
+      },
+      {
+        "question": "とくい (得意)",
+        "answer": "one's strong point / good at",
+        "options": [
+          "average",
+          "bad at",
+          "one's strong point / good at",
+          "weak point"
+        ]
+      },
+      {
+        "question": "にがて (苦手)",
+        "answer": "one's weak point / bad at",
+        "options": [
+          "average",
+          "one's weak point / bad at",
+          "strong point",
+          "good at"
+        ]
+      },
+      {
+        "question": "〜か (embedded question)",
+        "answer": "whether ~ / if ~ (indirect question)",
+        "options": [
+          "although ~",
+          "because ~",
+          "direct question",
+          "whether ~ / if ~ (indirect question)"
+        ]
+      },
+      {
+        "question": "わかりません",
+        "answer": "I don't know / I don't understand",
+        "options": [
+          "I don't know / I don't understand",
+          "I know",
+          "I understand",
+          "I see"
+        ]
+      },
+      {
+        "question": "おしえてください (教えてください)",
+        "answer": "please tell me / please teach me",
+        "options": [
+          "I know",
+          "please tell me / please teach me",
+          "please don't tell",
+          "I understand"
+        ]
+      },
+      {
+        "question": "しらべます (調べます)",
+        "answer": "to investigate / look up",
+        "options": [
+          "to know",
+          "to find out",
+          "to investigate / look up",
+          "to guess"
+        ]
+      },
+      {
+        "question": "かくにんします (確認します)",
+        "answer": "to confirm / check",
+        "options": [
+          "to ignore",
+          "to guess",
+          "to confirm / check",
+          "to assume"
+        ]
+      },
+      {
+        "question": "でんたく (電卓)",
+        "answer": "calculator",
+        "options": [
+          "clock",
+          "calculator",
+          "telephone",
+          "computer"
+        ]
+      },
+      {
+        "question": "インターネット",
+        "answer": "internet",
+        "options": [
+          "radio",
+          "telephone",
+          "internet",
+          "television"
+        ]
+      },
+      {
+        "question": "けいたい (携帯)",
+        "answer": "mobile phone / cell phone",
+        "options": [
+          "camera",
+          "tablet",
+          "computer",
+          "mobile phone / cell phone"
+        ]
+      },
+      {
+        "question": "スマートフォン / スマホ",
+        "answer": "smartphone",
+        "options": [
+          "computer",
+          "flip phone",
+          "smartphone",
+          "tablet"
+        ]
+      },
+      {
+        "question": "アプリ",
+        "answer": "app / application",
+        "options": [
+          "website",
+          "app / application",
+          "browser",
+          "software"
+        ]
+      },
       {
         "question": "How do you say 'a little / slightly' in Japanese?",
         "answer": "すこし (少し)",

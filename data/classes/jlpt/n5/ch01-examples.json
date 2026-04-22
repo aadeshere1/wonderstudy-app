@@ -44,7 +44,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 0,
-      "questionsCount": 10
+      "questionsCount": 20
     },
     "items": [
       {
@@ -156,6 +156,116 @@
           "にほんさん"
         ],
         "explanation": "〜語 (ご) = language. 日本語 = Japanese language. 日本人 = Japanese person."
+      },
+      {
+        "question": "Someone asks your name. How do you respond?",
+        "answer": "わたしは たなかです。",
+        "options": [
+          "わたしは たなかです。",
+          "わたしが たなかじゃ ない。",
+          "たなかは わたしです。",
+          "わたしを たなかです。"
+        ],
+        "explanation": "わたしは〜です = I am ~. は marks topic."
+      },
+      {
+        "question": "You want to ask if someone is a teacher. What do you say?",
+        "answer": "せんせいですか。",
+        "options": [
+          "せんせいですか。",
+          "せんせいじゃない？",
+          "せんせいでしょう。",
+          "せんせいますか。"
+        ],
+        "explanation": "Add か to the end of a です-sentence to make a yes/no question."
+      },
+      {
+        "question": "You are introducing yourself at a party. First thing you say?",
+        "answer": "はじめまして。",
+        "options": [
+          "はじめまして。",
+          "おはようございます。",
+          "さようなら。",
+          "ありがとう。"
+        ],
+        "explanation": "はじめまして = Nice to meet you (first meeting greeting)."
+      },
+      {
+        "question": "You want to say 'I am also a student.' (like the previous person)",
+        "answer": "わたしも がくせいです。",
+        "options": [
+          "わたしも がくせいです。",
+          "わたしは がくせいじゃない。",
+          "わたしが がくせいです。",
+          "わたしを がくせいです。"
+        ],
+        "explanation": "も replaces は to mean 'also/too'."
+      },
+      {
+        "question": "How do you say 'I work at a company' (I am a company employee)?",
+        "answer": "かいしゃいんです。",
+        "options": [
+          "かいしゃいんです。",
+          "がっこうです。",
+          "せんせいじゃ ありません。",
+          "かいしゃいんじゃ ない。"
+        ],
+        "explanation": "Occupation+です = I am [occupation]. No need for わたしは in casual self-introduction."
+      },
+      {
+        "question": "At the end of a first meeting, you say?",
+        "answer": "どうぞ よろしく おねがいします。",
+        "options": [
+          "どうぞ よろしく おねがいします。",
+          "おやすみなさい。",
+          "いただきます。",
+          "ごちそうさまでした。"
+        ],
+        "explanation": "どうぞよろしくおねがいします = Please treat me well. Standard closing of self-introduction."
+      },
+      {
+        "question": "Someone says はじめまして to you. How do you respond?",
+        "answer": "はじめまして。どうぞ よろしく。",
+        "options": [
+          "はじめまして。どうぞ よろしく。",
+          "はい、そうです。",
+          "いいえ、ちがいます。",
+          "おはようございます。"
+        ],
+        "explanation": "Mirror はじめまして and add どうぞよろしく when meeting for the first time."
+      },
+      {
+        "question": "You want to deny being a doctor. You say:",
+        "answer": "いしゃじゃ ありません。",
+        "options": [
+          "いしゃじゃ ありません。",
+          "いしゃです。",
+          "いしゃも いません。",
+          "いしゃが ありません。"
+        ],
+        "explanation": "〜じゃありません negates a noun predicate."
+      },
+      {
+        "question": "Asking where someone is from (nationality)?",
+        "answer": "〜じんですか。",
+        "options": [
+          "〜じんですか。",
+          "〜からですか。",
+          "〜でしたか。",
+          "〜にですか。"
+        ],
+        "explanation": "Country+じん+ですか = Are you [nationality]?"
+      },
+      {
+        "question": "Your name card says your job is エンジニア. How do you say it?",
+        "answer": "エンジニアです。",
+        "options": [
+          "エンジニアです。",
+          "エンジニアじゃない。",
+          "エンジニアが あります。",
+          "エンジニアに なります。"
+        ],
+        "explanation": "Simply state occupation+です for 'I am a/an [job]'."
       }
     ]
   },
@@ -164,7 +274,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 12,
-      "questionsCount": 10
+      "questionsCount": 20
     },
     "items": [
       {
@@ -276,6 +386,116 @@
           "にほんさん"
         ],
         "explanation": "〜語 (ご) = language. 日本語 = Japanese language. 日本人 = Japanese person."
+      },
+      {
+        "question": "Someone asks your name. How do you respond?",
+        "answer": "わたしは たなかです。",
+        "options": [
+          "わたしは たなかです。",
+          "わたしが たなかじゃ ない。",
+          "たなかは わたしです。",
+          "わたしを たなかです。"
+        ],
+        "explanation": "わたしは〜です = I am ~. は marks topic."
+      },
+      {
+        "question": "You want to ask if someone is a teacher. What do you say?",
+        "answer": "せんせいですか。",
+        "options": [
+          "せんせいですか。",
+          "せんせいじゃない？",
+          "せんせいでしょう。",
+          "せんせいますか。"
+        ],
+        "explanation": "Add か to the end of a です-sentence to make a yes/no question."
+      },
+      {
+        "question": "You are introducing yourself at a party. First thing you say?",
+        "answer": "はじめまして。",
+        "options": [
+          "はじめまして。",
+          "おはようございます。",
+          "さようなら。",
+          "ありがとう。"
+        ],
+        "explanation": "はじめまして = Nice to meet you (first meeting greeting)."
+      },
+      {
+        "question": "You want to say 'I am also a student.' (like the previous person)",
+        "answer": "わたしも がくせいです。",
+        "options": [
+          "わたしも がくせいです。",
+          "わたしは がくせいじゃない。",
+          "わたしが がくせいです。",
+          "わたしを がくせいです。"
+        ],
+        "explanation": "も replaces は to mean 'also/too'."
+      },
+      {
+        "question": "How do you say 'I work at a company' (I am a company employee)?",
+        "answer": "かいしゃいんです。",
+        "options": [
+          "かいしゃいんです。",
+          "がっこうです。",
+          "せんせいじゃ ありません。",
+          "かいしゃいんじゃ ない。"
+        ],
+        "explanation": "Occupation+です = I am [occupation]. No need for わたしは in casual self-introduction."
+      },
+      {
+        "question": "At the end of a first meeting, you say?",
+        "answer": "どうぞ よろしく おねがいします。",
+        "options": [
+          "どうぞ よろしく おねがいします。",
+          "おやすみなさい。",
+          "いただきます。",
+          "ごちそうさまでした。"
+        ],
+        "explanation": "どうぞよろしくおねがいします = Please treat me well. Standard closing of self-introduction."
+      },
+      {
+        "question": "Someone says はじめまして to you. How do you respond?",
+        "answer": "はじめまして。どうぞ よろしく。",
+        "options": [
+          "はじめまして。どうぞ よろしく。",
+          "はい、そうです。",
+          "いいえ、ちがいます。",
+          "おはようございます。"
+        ],
+        "explanation": "Mirror はじめまして and add どうぞよろしく when meeting for the first time."
+      },
+      {
+        "question": "You want to deny being a doctor. You say:",
+        "answer": "いしゃじゃ ありません。",
+        "options": [
+          "いしゃじゃ ありません。",
+          "いしゃです。",
+          "いしゃも いません。",
+          "いしゃが ありません。"
+        ],
+        "explanation": "〜じゃありません negates a noun predicate."
+      },
+      {
+        "question": "Asking where someone is from (nationality)?",
+        "answer": "〜じんですか。",
+        "options": [
+          "〜じんですか。",
+          "〜からですか。",
+          "〜でしたか。",
+          "〜にですか。"
+        ],
+        "explanation": "Country+じん+ですか = Are you [nationality]?"
+      },
+      {
+        "question": "Your name card says your job is エンジニア. How do you say it?",
+        "answer": "エンジニアです。",
+        "options": [
+          "エンジニアです。",
+          "エンジニアじゃない。",
+          "エンジニアが あります。",
+          "エンジニアに なります。"
+        ],
+        "explanation": "Simply state occupation+です for 'I am a/an [job]'."
       }
     ]
   }

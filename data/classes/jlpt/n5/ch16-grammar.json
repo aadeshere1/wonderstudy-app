@@ -32,7 +32,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 0,
-      "questionsCount": 5
+      "questionsCount": 20
     },
     "items": [
       {
@@ -89,6 +89,171 @@
           "行きくないです"
         ],
         "explanation": "Negative of たい: たい → たくない + です. 行きたくないです = don't want to go."
+      },
+      {
+        "question": "にほんへ _____たいです。(I want to go to Japan.)",
+        "answer": "いき",
+        "options": [
+          "いき",
+          "いって",
+          "いく",
+          "いか"
+        ],
+        "explanation": "〜たい = want to do. Verb masu-stem+たい. いきます→いき+たい."
+      },
+      {
+        "question": "なにか のみ_____んですが。(I'd like something to drink.)",
+        "answer": "たい",
+        "options": [
+          "たい",
+          "ます",
+          "ません",
+          "たかった"
+        ],
+        "explanation": "〜たいんですが = I'd like to ~ (soft request). より polite than 〜たいです."
+      },
+      {
+        "question": "ちょっと そうだんが _____んですが。(I have something I'd like to consult about.)",
+        "answer": "ある",
+        "options": [
+          "ある",
+          "ない",
+          "いい",
+          "たい"
+        ],
+        "explanation": "〜があるんですが = I have something [to discuss]. んですが softens the statement."
+      },
+      {
+        "question": "にほんごが じょうず_____なりたいです。(I want to become good at Japanese.)",
+        "answer": "に",
+        "options": [
+          "に",
+          "が",
+          "で",
+          "は"
+        ],
+        "explanation": "〜になりたい = want to become ~. に marks the goal state."
+      },
+      {
+        "question": "すみません、えきへの みちを おし_____んですが。",
+        "answer": "えて いただき たい",
+        "options": [
+          "えて いただき たい",
+          "えて ください",
+          "えて もらいたい",
+          "えましょう"
+        ],
+        "explanation": "〜ていただきたいんですが = I would like you to ~ (polite request using たい)."
+      },
+      {
+        "question": "このにもつを おおさかへ おくり_____んですが。(I'd like to send this luggage to Osaka.)",
+        "answer": "たい",
+        "options": [
+          "たい",
+          "ます",
+          "ません",
+          "たかった"
+        ],
+        "explanation": "〜たいんですが = I want to / I'd like to. おくる = to send."
+      },
+      {
+        "question": "しょうらい せんせいに _____たいと おもっています。(I am thinking of becoming a teacher.)",
+        "answer": "なり",
+        "options": [
+          "なり",
+          "なって",
+          "なれ",
+          "なる"
+        ],
+        "explanation": "〜たいとおもっています = is thinking of wanting to. 〜になりたい = want to become."
+      },
+      {
+        "question": "もっと にほんの ぶんかを し_____たいです。(I want to know more about Japanese culture.)",
+        "answer": "り",
+        "options": [
+          "り",
+          "って",
+          "らない",
+          "る"
+        ],
+        "explanation": "しる→しり+たい. Want to know. Irregular: しる→知りたい not しりたい."
+      },
+      {
+        "question": "いつか ひとりで りょこうが し_____と おもっています。",
+        "answer": "たい",
+        "options": [
+          "たい",
+          "ます",
+          "ません",
+          "なかった"
+        ],
+        "explanation": "〜たいとおもっています = am thinking of wanting to do. ひとりで = alone."
+      },
+      {
+        "question": "なにか れんらく_____ことが あったら、でんわしてください。",
+        "answer": "したい",
+        "options": [
+          "したい",
+          "する",
+          "した",
+          "します"
+        ],
+        "explanation": "〜することがあったら = if there's something to ~. れんらくしたい = want to contact."
+      },
+      {
+        "question": "ちょっと きいて_____んですが、この あたりに ATM は ありますか。",
+        "answer": "いい",
+        "options": [
+          "いい",
+          "たい",
+          "ほしい",
+          "ください"
+        ],
+        "explanation": "きいていいんですが = may I ask? んですが softens the question."
+      },
+      {
+        "question": "かのじょは かいしゃを やめて、りょうりきょうしつを ひらき_____そうです。",
+        "answer": "たい",
+        "options": [
+          "たい",
+          "ます",
+          "ません",
+          "たかった"
+        ],
+        "explanation": "〜たいそうです = I hear she wants to. Hearsay + desire."
+      },
+      {
+        "question": "いちど ぜひ いっしょに たべに_____んですが。",
+        "answer": "いきたい",
+        "options": [
+          "いきたい",
+          "いきます",
+          "いきません",
+          "いきました"
+        ],
+        "explanation": "〜たいんですが = I'd like to. たべにいく = go to eat. Combined with たい."
+      },
+      {
+        "question": "もっと すいみんを とり_____のに、いつも おそくまで おきています。",
+        "answer": "たい",
+        "options": [
+          "たい",
+          "ます",
+          "ません",
+          "ない"
+        ],
+        "explanation": "〜たいのに = even though I want to. Expressing frustration about unmet desire."
+      },
+      {
+        "question": "すみません、こちらの にほんしゅを 2ほん い_____んですが。",
+        "answer": "ただき たい",
+        "options": [
+          "ただき たい",
+          "ください",
+          "もらい たい",
+          "ほしい"
+        ],
+        "explanation": "いただきたいんですが = I would like to receive (polite). にほんしゅ = sake."
       }
     ]
   },
@@ -97,7 +262,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 12,
-      "questionsCount": 5
+      "questionsCount": 20
     },
     "items": [
       {
@@ -154,6 +319,171 @@
           "行きくないです"
         ],
         "explanation": "Negative of たい: たい → たくない + です. 行きたくないです = don't want to go."
+      },
+      {
+        "question": "にほんへ _____たいです。(I want to go to Japan.)",
+        "answer": "いき",
+        "options": [
+          "いき",
+          "いって",
+          "いく",
+          "いか"
+        ],
+        "explanation": "〜たい = want to do. Verb masu-stem+たい. いきます→いき+たい."
+      },
+      {
+        "question": "なにか のみ_____んですが。(I'd like something to drink.)",
+        "answer": "たい",
+        "options": [
+          "たい",
+          "ます",
+          "ません",
+          "たかった"
+        ],
+        "explanation": "〜たいんですが = I'd like to ~ (soft request). より polite than 〜たいです."
+      },
+      {
+        "question": "ちょっと そうだんが _____んですが。(I have something I'd like to consult about.)",
+        "answer": "ある",
+        "options": [
+          "ある",
+          "ない",
+          "いい",
+          "たい"
+        ],
+        "explanation": "〜があるんですが = I have something [to discuss]. んですが softens the statement."
+      },
+      {
+        "question": "にほんごが じょうず_____なりたいです。(I want to become good at Japanese.)",
+        "answer": "に",
+        "options": [
+          "に",
+          "が",
+          "で",
+          "は"
+        ],
+        "explanation": "〜になりたい = want to become ~. に marks the goal state."
+      },
+      {
+        "question": "すみません、えきへの みちを おし_____んですが。",
+        "answer": "えて いただき たい",
+        "options": [
+          "えて いただき たい",
+          "えて ください",
+          "えて もらいたい",
+          "えましょう"
+        ],
+        "explanation": "〜ていただきたいんですが = I would like you to ~ (polite request using たい)."
+      },
+      {
+        "question": "このにもつを おおさかへ おくり_____んですが。(I'd like to send this luggage to Osaka.)",
+        "answer": "たい",
+        "options": [
+          "たい",
+          "ます",
+          "ません",
+          "たかった"
+        ],
+        "explanation": "〜たいんですが = I want to / I'd like to. おくる = to send."
+      },
+      {
+        "question": "しょうらい せんせいに _____たいと おもっています。(I am thinking of becoming a teacher.)",
+        "answer": "なり",
+        "options": [
+          "なり",
+          "なって",
+          "なれ",
+          "なる"
+        ],
+        "explanation": "〜たいとおもっています = is thinking of wanting to. 〜になりたい = want to become."
+      },
+      {
+        "question": "もっと にほんの ぶんかを し_____たいです。(I want to know more about Japanese culture.)",
+        "answer": "り",
+        "options": [
+          "り",
+          "って",
+          "らない",
+          "る"
+        ],
+        "explanation": "しる→しり+たい. Want to know. Irregular: しる→知りたい not しりたい."
+      },
+      {
+        "question": "いつか ひとりで りょこうが し_____と おもっています。",
+        "answer": "たい",
+        "options": [
+          "たい",
+          "ます",
+          "ません",
+          "なかった"
+        ],
+        "explanation": "〜たいとおもっています = am thinking of wanting to do. ひとりで = alone."
+      },
+      {
+        "question": "なにか れんらく_____ことが あったら、でんわしてください。",
+        "answer": "したい",
+        "options": [
+          "したい",
+          "する",
+          "した",
+          "します"
+        ],
+        "explanation": "〜することがあったら = if there's something to ~. れんらくしたい = want to contact."
+      },
+      {
+        "question": "ちょっと きいて_____んですが、この あたりに ATM は ありますか。",
+        "answer": "いい",
+        "options": [
+          "いい",
+          "たい",
+          "ほしい",
+          "ください"
+        ],
+        "explanation": "きいていいんですが = may I ask? んですが softens the question."
+      },
+      {
+        "question": "かのじょは かいしゃを やめて、りょうりきょうしつを ひらき_____そうです。",
+        "answer": "たい",
+        "options": [
+          "たい",
+          "ます",
+          "ません",
+          "たかった"
+        ],
+        "explanation": "〜たいそうです = I hear she wants to. Hearsay + desire."
+      },
+      {
+        "question": "いちど ぜひ いっしょに たべに_____んですが。",
+        "answer": "いきたい",
+        "options": [
+          "いきたい",
+          "いきます",
+          "いきません",
+          "いきました"
+        ],
+        "explanation": "〜たいんですが = I'd like to. たべにいく = go to eat. Combined with たい."
+      },
+      {
+        "question": "もっと すいみんを とり_____のに、いつも おそくまで おきています。",
+        "answer": "たい",
+        "options": [
+          "たい",
+          "ます",
+          "ません",
+          "ない"
+        ],
+        "explanation": "〜たいのに = even though I want to. Expressing frustration about unmet desire."
+      },
+      {
+        "question": "すみません、こちらの にほんしゅを 2ほん い_____んですが。",
+        "answer": "ただき たい",
+        "options": [
+          "ただき たい",
+          "ください",
+          "もらい たい",
+          "ほしい"
+        ],
+        "explanation": "いただきたいんですが = I would like to receive (polite). にほんしゅ = sake."
       }
     ]
   }

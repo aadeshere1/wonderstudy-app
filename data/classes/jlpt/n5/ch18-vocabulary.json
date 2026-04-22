@@ -33,7 +33,7 @@
       "answerMode": "mcq",
       "optionsCount": 4,
       "timeLimit": 0,
-      "questionsCount": 15
+      "questionsCount": 30
     },
     "items": [
       {
@@ -185,6 +185,156 @@
           "difficulty",
           "result"
         ]
+      },
+      {
+        "question": "How do you say 'party' in Japanese?",
+        "answer": "パーティー",
+        "options": [
+          "きます (来ます)",
+          "〜んですが",
+          "〜から",
+          "パーティー"
+        ]
+      },
+      {
+        "question": "How do you say 'it's that ~ (context setting)' in Japanese?",
+        "answer": "〜んですが",
+        "options": [
+          "パーティー",
+          "〜から",
+          "きます (来ます)",
+          "〜んですが"
+        ]
+      },
+      {
+        "question": "How do you say 'because ~ (giving reason)' in Japanese?",
+        "answer": "〜から",
+        "options": [
+          "〜んですが",
+          "きます (来ます)",
+          "〜から",
+          "パーティー"
+        ]
+      },
+      {
+        "question": "How do you say 'to come' in Japanese?",
+        "answer": "きます (来ます)",
+        "options": [
+          "〜から",
+          "〜んですが",
+          "パーティー",
+          "きます (来ます)"
+        ]
+      },
+      {
+        "question": "How do you say 'to bring (a person)' in Japanese?",
+        "answer": "つれてきます (連れてきます)",
+        "options": [
+          "パーティー",
+          "〜んですが",
+          "〜から",
+          "つれてきます (連れてきます)"
+        ]
+      },
+      {
+        "question": "How do you say 'to bring (a thing)' in Japanese?",
+        "answer": "もってきます (持ってきます)",
+        "options": [
+          "〜から",
+          "もってきます (持ってきます)",
+          "パーティー",
+          "〜んですが"
+        ]
+      },
+      {
+        "question": "How do you say 'to take (a thing) somewhere' in Japanese?",
+        "answer": "もっていきます (持っていきます)",
+        "options": [
+          "もっていきます (持っていきます)",
+          "パーティー",
+          "〜んですが",
+          "〜から"
+        ]
+      },
+      {
+        "question": "How do you say 'to take (a person) somewhere' in Japanese?",
+        "answer": "つれていきます (連れていきます)",
+        "options": [
+          "つれていきます (連れていきます)",
+          "パーティー",
+          "〜から",
+          "〜んですが"
+        ]
+      },
+      {
+        "question": "How do you say 'invitation' in Japanese?",
+        "answer": "しょうたい (招待)",
+        "options": [
+          "〜から",
+          "パーティー",
+          "しょうたい (招待)",
+          "〜んですが"
+        ]
+      },
+      {
+        "question": "How do you say 'schedule / plan' in Japanese?",
+        "answer": "よてい (予定)",
+        "options": [
+          "〜んですが",
+          "パーティー",
+          "〜から",
+          "よてい (予定)"
+        ]
+      },
+      {
+        "question": "How do you say 'to have plans' in Japanese?",
+        "answer": "よていがあります",
+        "options": [
+          "パーティー",
+          "〜んですが",
+          "〜から",
+          "よていがあります"
+        ]
+      },
+      {
+        "question": "How do you say 'convenient / good timing' in Japanese?",
+        "answer": "つごうがいい (都合がいい)",
+        "options": [
+          "〜んですが",
+          "〜から",
+          "つごうがいい (都合がいい)",
+          "パーティー"
+        ]
+      },
+      {
+        "question": "How do you say 'inconvenient / bad timing' in Japanese?",
+        "answer": "つごうがわるい (都合が悪い)",
+        "options": [
+          "〜んですが",
+          "〜から",
+          "つごうがわるい (都合が悪い)",
+          "パーティー"
+        ]
+      },
+      {
+        "question": "How do you say 'by all means / definitely' in Japanese?",
+        "answer": "ぜひ",
+        "options": [
+          "ぜひ",
+          "〜んですが",
+          "パーティー",
+          "〜から"
+        ]
+      },
+      {
+        "question": "How do you say 'opportunity / chance' in Japanese?",
+        "answer": "きかい (機会)",
+        "options": [
+          "〜から",
+          "〜んですが",
+          "きかい (機会)",
+          "パーティー"
+        ]
       }
     ]
   },
@@ -194,9 +344,159 @@
       "answerMode": "mcq",
       "optionsCount": 4,
       "timeLimit": 10,
-      "questionsCount": 15
+      "questionsCount": 30
     },
     "items": [
+      {
+        "question": "パーティー",
+        "answer": "party",
+        "options": [
+          "dinner",
+          "gathering",
+          "meeting",
+          "party"
+        ]
+      },
+      {
+        "question": "〜んですが",
+        "answer": "it's that ~ (context setting)",
+        "options": [
+          "because ~",
+          "although ~",
+          "if ~",
+          "it's that ~ (context setting)"
+        ]
+      },
+      {
+        "question": "〜から",
+        "answer": "because ~ (giving reason)",
+        "options": [
+          "because ~ (giving reason)",
+          "if ~",
+          "although ~",
+          "when ~"
+        ]
+      },
+      {
+        "question": "きます (来ます)",
+        "answer": "to come",
+        "options": [
+          "to return",
+          "to go",
+          "to come",
+          "to stay"
+        ]
+      },
+      {
+        "question": "つれてきます (連れてきます)",
+        "answer": "to bring (a person)",
+        "options": [
+          "to take away",
+          "to bring (a person)",
+          "to send",
+          "to leave behind"
+        ]
+      },
+      {
+        "question": "もってきます (持ってきます)",
+        "answer": "to bring (a thing)",
+        "options": [
+          "to leave behind",
+          "to send",
+          "to take away",
+          "to bring (a thing)"
+        ]
+      },
+      {
+        "question": "もっていきます (持っていきます)",
+        "answer": "to take (a thing) somewhere",
+        "options": [
+          "to bring here",
+          "to leave",
+          "to take (a thing) somewhere",
+          "to send"
+        ]
+      },
+      {
+        "question": "つれていきます (連れていきます)",
+        "answer": "to take (a person) somewhere",
+        "options": [
+          "to take (a person) somewhere",
+          "to send",
+          "to leave",
+          "to bring here"
+        ]
+      },
+      {
+        "question": "しょうたい (招待)",
+        "answer": "invitation",
+        "options": [
+          "invitation",
+          "gathering",
+          "visit",
+          "refusal"
+        ]
+      },
+      {
+        "question": "よてい (予定)",
+        "answer": "schedule / plan",
+        "options": [
+          "schedule / plan",
+          "result",
+          "decision",
+          "past"
+        ]
+      },
+      {
+        "question": "よていがあります",
+        "answer": "to have plans",
+        "options": [
+          "to have plans",
+          "to be free",
+          "to cancel",
+          "to have no plans"
+        ]
+      },
+      {
+        "question": "つごうがいい (都合がいい)",
+        "answer": "convenient / good timing",
+        "options": [
+          "impossible",
+          "busy",
+          "inconvenient",
+          "convenient / good timing"
+        ]
+      },
+      {
+        "question": "つごうがわるい (都合が悪い)",
+        "answer": "inconvenient / bad timing",
+        "options": [
+          "inconvenient / bad timing",
+          "free",
+          "convenient",
+          "possible"
+        ]
+      },
+      {
+        "question": "ぜひ",
+        "answer": "by all means / definitely",
+        "options": [
+          "never",
+          "maybe",
+          "by all means / definitely",
+          "perhaps"
+        ]
+      },
+      {
+        "question": "きかい (機会)",
+        "answer": "opportunity / chance",
+        "options": [
+          "plan",
+          "opportunity / chance",
+          "difficulty",
+          "result"
+        ]
+      },
       {
         "question": "How do you say 'party' in Japanese?",
         "answer": "パーティー",

@@ -33,7 +33,7 @@
       "answerMode": "mcq",
       "optionsCount": 4,
       "timeLimit": 0,
-      "questionsCount": 15
+      "questionsCount": 30
     },
     "items": [
       {
@@ -185,6 +185,156 @@
           "to watch",
           "to play"
         ]
+      },
+      {
+        "question": "How do you say 'is doing ~ (progressive/ongoing)' in Japanese?",
+        "answer": "〜ています",
+        "options": [
+          "〜ています",
+          "いまなにを (今何を)",
+          "でんわします",
+          "でんわ (電話)"
+        ]
+      },
+      {
+        "question": "How do you say 'what are you doing now?' in Japanese?",
+        "answer": "いまなにを (今何を)",
+        "options": [
+          "でんわします",
+          "でんわ (電話)",
+          "いまなにを (今何を)",
+          "〜ています"
+        ]
+      },
+      {
+        "question": "How do you say 'telephone / phone call' in Japanese?",
+        "answer": "でんわ (電話)",
+        "options": [
+          "〜ています",
+          "いまなにを (今何を)",
+          "でんわ (電話)",
+          "でんわします"
+        ]
+      },
+      {
+        "question": "How do you say 'to make a phone call' in Japanese?",
+        "answer": "でんわします",
+        "options": [
+          "〜ています",
+          "いまなにを (今何を)",
+          "でんわします",
+          "でんわ (電話)"
+        ]
+      },
+      {
+        "question": "How do you say 'hello? (phone greeting)' in Japanese?",
+        "answer": "もしもし",
+        "options": [
+          "〜ています",
+          "いまなにを (今何を)",
+          "もしもし",
+          "でんわ (電話)"
+        ]
+      },
+      {
+        "question": "How do you say 'for a while / it's been a while' in Japanese?",
+        "answer": "しばらく",
+        "options": [
+          "でんわ (電話)",
+          "いまなにを (今何を)",
+          "しばらく",
+          "〜ています"
+        ]
+      },
+      {
+        "question": "How do you say 'please wait a moment' in Japanese?",
+        "answer": "ちょっとまってください",
+        "options": [
+          "ちょっとまってください",
+          "〜ています",
+          "いまなにを (今何を)",
+          "でんわ (電話)"
+        ]
+      },
+      {
+        "question": "How do you say 'to make a call / hang (something)' in Japanese?",
+        "answer": "かけます (掛けます)",
+        "options": [
+          "〜ています",
+          "かけます (掛けます)",
+          "いまなにを (今何を)",
+          "でんわ (電話)"
+        ]
+      },
+      {
+        "question": "How do you say 'to answer (the phone) / to come out' in Japanese?",
+        "answer": "うけます / でます (出ます)",
+        "options": [
+          "うけます / でます (出ます)",
+          "〜ています",
+          "でんわ (電話)",
+          "いまなにを (今何を)"
+        ]
+      },
+      {
+        "question": "How do you say 'I'll put you through / I'll connect you' in Japanese?",
+        "answer": "おかけします",
+        "options": [
+          "おかけします",
+          "でんわ (電話)",
+          "いまなにを (今何を)",
+          "〜ています"
+        ]
+      },
+      {
+        "question": "How do you say 'to cook' in Japanese?",
+        "answer": "りょうりします (料理します)",
+        "options": [
+          "〜ています",
+          "いまなにを (今何を)",
+          "りょうりします (料理します)",
+          "でんわ (電話)"
+        ]
+      },
+      {
+        "question": "How do you say 'to clean (a room)' in Japanese?",
+        "answer": "そうじします (掃除します)",
+        "options": [
+          "〜ています",
+          "いまなにを (今何を)",
+          "そうじします (掃除します)",
+          "でんわ (電話)"
+        ]
+      },
+      {
+        "question": "How do you say 'to do laundry / wash clothes' in Japanese?",
+        "answer": "せんたくします (洗濯します)",
+        "options": [
+          "いまなにを (今何を)",
+          "せんたくします (洗濯します)",
+          "でんわ (電話)",
+          "〜ています"
+        ]
+      },
+      {
+        "question": "How do you say 'to sing' in Japanese?",
+        "answer": "うたいます (歌います)",
+        "options": [
+          "でんわ (電話)",
+          "うたいます (歌います)",
+          "〜ています",
+          "いまなにを (今何を)"
+        ]
+      },
+      {
+        "question": "How do you say 'to dance' in Japanese?",
+        "answer": "おどります (踊ります)",
+        "options": [
+          "いまなにを (今何を)",
+          "でんわ (電話)",
+          "おどります (踊ります)",
+          "〜ています"
+        ]
       }
     ]
   },
@@ -194,9 +344,159 @@
       "answerMode": "mcq",
       "optionsCount": 4,
       "timeLimit": 10,
-      "questionsCount": 15
+      "questionsCount": 30
     },
     "items": [
+      {
+        "question": "〜ています",
+        "answer": "is doing ~ (progressive/ongoing)",
+        "options": [
+          "has done ~",
+          "did ~",
+          "is doing ~ (progressive/ongoing)",
+          "will do ~"
+        ]
+      },
+      {
+        "question": "いまなにを (今何を)",
+        "answer": "what are you doing now?",
+        "options": [
+          "what did you do?",
+          "what will you do?",
+          "what did you want to do?",
+          "what are you doing now?"
+        ]
+      },
+      {
+        "question": "でんわ (電話)",
+        "answer": "telephone / phone call",
+        "options": [
+          "email",
+          "fax",
+          "telephone / phone call",
+          "letter"
+        ]
+      },
+      {
+        "question": "でんわします",
+        "answer": "to make a phone call",
+        "options": [
+          "to make a phone call",
+          "to email",
+          "to write",
+          "to fax"
+        ]
+      },
+      {
+        "question": "もしもし",
+        "answer": "hello? (phone greeting)",
+        "options": [
+          "excuse me",
+          "sorry",
+          "hello? (phone greeting)",
+          "goodbye"
+        ]
+      },
+      {
+        "question": "しばらく",
+        "answer": "for a while / it's been a while",
+        "options": [
+          "for a while / it's been a while",
+          "immediately",
+          "sometimes",
+          "forever"
+        ]
+      },
+      {
+        "question": "ちょっとまってください",
+        "answer": "please wait a moment",
+        "options": [
+          "please start",
+          "please wait a moment",
+          "please come in",
+          "please sit down"
+        ]
+      },
+      {
+        "question": "かけます (掛けます)",
+        "answer": "to make a call / hang (something)",
+        "options": [
+          "to make a call / hang (something)",
+          "to receive",
+          "to write",
+          "to put down"
+        ]
+      },
+      {
+        "question": "うけます / でます (出ます)",
+        "answer": "to answer (the phone) / to come out",
+        "options": [
+          "to answer (the phone) / to come out",
+          "to hold",
+          "to hang up",
+          "to call"
+        ]
+      },
+      {
+        "question": "おかけします",
+        "answer": "I'll put you through / I'll connect you",
+        "options": [
+          "goodbye",
+          "I'll put you through / I'll connect you",
+          "please hold",
+          "I'll call back"
+        ]
+      },
+      {
+        "question": "りょうりします (料理します)",
+        "answer": "to cook",
+        "options": [
+          "to cook",
+          "to clean",
+          "to eat",
+          "to shop"
+        ]
+      },
+      {
+        "question": "そうじします (掃除します)",
+        "answer": "to clean (a room)",
+        "options": [
+          "to decorate",
+          "to cook",
+          "to clean (a room)",
+          "to wash"
+        ]
+      },
+      {
+        "question": "せんたくします (洗濯します)",
+        "answer": "to do laundry / wash clothes",
+        "options": [
+          "to iron",
+          "to fold",
+          "to clean",
+          "to do laundry / wash clothes"
+        ]
+      },
+      {
+        "question": "うたいます (歌います)",
+        "answer": "to sing",
+        "options": [
+          "to dance",
+          "to play (instrument)",
+          "to sing",
+          "to listen"
+        ]
+      },
+      {
+        "question": "おどります (踊ります)",
+        "answer": "to dance",
+        "options": [
+          "to dance",
+          "to sing",
+          "to watch",
+          "to play"
+        ]
+      },
       {
         "question": "How do you say 'is doing ~ (progressive/ongoing)' in Japanese?",
         "answer": "〜ています",

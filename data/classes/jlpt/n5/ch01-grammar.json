@@ -52,7 +52,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 0,
-      "questionsCount": 15
+      "questionsCount": 20
     },
     "items": [
       {
@@ -219,6 +219,61 @@
           "Job titles only"
         ],
         "explanation": "〜さん is a respectful suffix. Never attach it to your own name — that's considered rude."
+      },
+      {
+        "question": "スミスさんは _____ じん です。(Mr Smith is American.)",
+        "answer": "アメリカ",
+        "options": [
+          "アメリカ",
+          "にほん",
+          "フランス",
+          "ちゅうごく"
+        ],
+        "explanation": "Nationality + じん = person from that country. アメリカじん = American."
+      },
+      {
+        "question": "わたしは かいしゃいん _____。(I am a company employee.)",
+        "answer": "です",
+        "options": [
+          "です",
+          "じゃ",
+          "は",
+          "も"
+        ],
+        "explanation": "NはN+です = X is Y. Polite copula at sentence end."
+      },
+      {
+        "question": "キムさんは がくせい じゃ _____。(Kim is not a student.)",
+        "answer": "ありません",
+        "options": [
+          "ありません",
+          "です",
+          "いません",
+          "ません"
+        ],
+        "explanation": "〜じゃありません is the negative of 〜です. Not X."
+      },
+      {
+        "question": "これは なんですか。 _____ ほんです。",
+        "answer": "これは",
+        "options": [
+          "これは",
+          "それが",
+          "あれも",
+          "どれは"
+        ],
+        "explanation": "Answer to 'what is this?' restates the topic with は."
+      },
+      {
+        "question": "マリアさん_____ せんせいです。(Maria is a teacher.)",
+        "answer": "は",
+        "options": [
+          "は",
+          "が",
+          "を",
+          "の"
+        ],
+        "explanation": "は marks the topic of the sentence. Xは Yです = X is Y."
       }
     ]
   },
@@ -227,7 +282,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 12,
-      "questionsCount": 15
+      "questionsCount": 20
     },
     "items": [
       {
@@ -394,6 +449,61 @@
           "Job titles only"
         ],
         "explanation": "〜さん is a respectful suffix. Never attach it to your own name — that's considered rude."
+      },
+      {
+        "question": "スミスさんは _____ じん です。(Mr Smith is American.)",
+        "answer": "アメリカ",
+        "options": [
+          "アメリカ",
+          "にほん",
+          "フランス",
+          "ちゅうごく"
+        ],
+        "explanation": "Nationality + じん = person from that country. アメリカじん = American."
+      },
+      {
+        "question": "わたしは かいしゃいん _____。(I am a company employee.)",
+        "answer": "です",
+        "options": [
+          "です",
+          "じゃ",
+          "は",
+          "も"
+        ],
+        "explanation": "NはN+です = X is Y. Polite copula at sentence end."
+      },
+      {
+        "question": "キムさんは がくせい じゃ _____。(Kim is not a student.)",
+        "answer": "ありません",
+        "options": [
+          "ありません",
+          "です",
+          "いません",
+          "ません"
+        ],
+        "explanation": "〜じゃありません is the negative of 〜です. Not X."
+      },
+      {
+        "question": "これは なんですか。 _____ ほんです。",
+        "answer": "これは",
+        "options": [
+          "これは",
+          "それが",
+          "あれも",
+          "どれは"
+        ],
+        "explanation": "Answer to 'what is this?' restates the topic with は."
+      },
+      {
+        "question": "マリアさん_____ せんせいです。(Maria is a teacher.)",
+        "answer": "は",
+        "options": [
+          "は",
+          "が",
+          "を",
+          "の"
+        ],
+        "explanation": "は marks the topic of the sentence. Xは Yです = X is Y."
       }
     ]
   }

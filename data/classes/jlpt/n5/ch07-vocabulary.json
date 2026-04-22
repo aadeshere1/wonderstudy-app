@@ -53,7 +53,7 @@
       "answerMode": "mcq",
       "optionsCount": 4,
       "timeLimit": 0,
-      "questionsCount": 15
+      "questionsCount": 35
     },
     "items": [
       {
@@ -255,6 +255,156 @@
           "very",
           "always"
         ]
+      },
+      {
+        "question": "How do you say 'big / large' in Japanese?",
+        "answer": "おおきい (大きい)",
+        "options": [
+          "ふるい (古い)",
+          "おおきい (大きい)",
+          "ちいさい (小さい)",
+          "あたらしい (新しい)"
+        ]
+      },
+      {
+        "question": "How do you say 'small / little' in Japanese?",
+        "answer": "ちいさい (小さい)",
+        "options": [
+          "あたらしい (新しい)",
+          "ふるい (古い)",
+          "ちいさい (小さい)",
+          "おおきい (大きい)"
+        ]
+      },
+      {
+        "question": "How do you say 'new' in Japanese?",
+        "answer": "あたらしい (新しい)",
+        "options": [
+          "あたらしい (新しい)",
+          "ちいさい (小さい)",
+          "おおきい (大きい)",
+          "ふるい (古い)"
+        ]
+      },
+      {
+        "question": "How do you say 'old (things, not people)' in Japanese?",
+        "answer": "ふるい (古い)",
+        "options": [
+          "ふるい (古い)",
+          "おおきい (大きい)",
+          "ちいさい (小さい)",
+          "あたらしい (新しい)"
+        ]
+      },
+      {
+        "question": "How do you say 'expensive / tall / high' in Japanese?",
+        "answer": "たかい (高い)",
+        "options": [
+          "たかい (高い)",
+          "おおきい (大きい)",
+          "あたらしい (新しい)",
+          "ちいさい (小さい)"
+        ]
+      },
+      {
+        "question": "How do you say 'cheap / inexpensive' in Japanese?",
+        "answer": "やすい (安い)",
+        "options": [
+          "おおきい (大きい)",
+          "あたらしい (新しい)",
+          "やすい (安い)",
+          "ちいさい (小さい)"
+        ]
+      },
+      {
+        "question": "How do you say 'delicious / tasty' in Japanese?",
+        "answer": "おいしい (美味しい)",
+        "options": [
+          "あたらしい (新しい)",
+          "ちいさい (小さい)",
+          "おいしい (美味しい)",
+          "おおきい (大きい)"
+        ]
+      },
+      {
+        "question": "How do you say 'bad-tasting / awful (food)' in Japanese?",
+        "answer": "まずい",
+        "options": [
+          "あたらしい (新しい)",
+          "まずい",
+          "おおきい (大きい)",
+          "ちいさい (小さい)"
+        ]
+      },
+      {
+        "question": "How do you say 'hot (weather/thing)' in Japanese?",
+        "answer": "あつい (暑い/熱い)",
+        "options": [
+          "あつい (暑い/熱い)",
+          "おおきい (大きい)",
+          "ちいさい (小さい)",
+          "あたらしい (新しい)"
+        ]
+      },
+      {
+        "question": "How do you say 'cold (weather)' in Japanese?",
+        "answer": "さむい (寒い)",
+        "options": [
+          "さむい (寒い)",
+          "ちいさい (小さい)",
+          "あたらしい (新しい)",
+          "おおきい (大きい)"
+        ]
+      },
+      {
+        "question": "How do you say 'cold (to the touch / drinks)' in Japanese?",
+        "answer": "つめたい (冷たい)",
+        "options": [
+          "つめたい (冷たい)",
+          "おおきい (大きい)",
+          "あたらしい (新しい)",
+          "ちいさい (小さい)"
+        ]
+      },
+      {
+        "question": "How do you say 'warm' in Japanese?",
+        "answer": "あたたかい (暖かい)",
+        "options": [
+          "あたたかい (暖かい)",
+          "ちいさい (小さい)",
+          "あたらしい (新しい)",
+          "おおきい (大きい)"
+        ]
+      },
+      {
+        "question": "How do you say 'interesting / fun / funny' in Japanese?",
+        "answer": "おもしろい (面白い)",
+        "options": [
+          "あたらしい (新しい)",
+          "おもしろい (面白い)",
+          "ちいさい (小さい)",
+          "おおきい (大きい)"
+        ]
+      },
+      {
+        "question": "How do you say 'boring / dull' in Japanese?",
+        "answer": "つまらない",
+        "options": [
+          "つまらない",
+          "あたらしい (新しい)",
+          "ちいさい (小さい)",
+          "おおきい (大きい)"
+        ]
+      },
+      {
+        "question": "How do you say 'difficult / hard' in Japanese?",
+        "answer": "むずかしい (難しい)",
+        "options": [
+          "おおきい (大きい)",
+          "ちいさい (小さい)",
+          "むずかしい (難しい)",
+          "あたらしい (新しい)"
+        ]
       }
     ]
   },
@@ -264,9 +414,209 @@
       "answerMode": "mcq",
       "optionsCount": 4,
       "timeLimit": 10,
-      "questionsCount": 15
+      "questionsCount": 35
     },
     "items": [
+      {
+        "question": "おおきい (大きい)",
+        "answer": "big / large",
+        "options": [
+          "small",
+          "long",
+          "big / large",
+          "heavy"
+        ]
+      },
+      {
+        "question": "ちいさい (小さい)",
+        "answer": "small / little",
+        "options": [
+          "short",
+          "big",
+          "light",
+          "small / little"
+        ]
+      },
+      {
+        "question": "あたらしい (新しい)",
+        "answer": "new",
+        "options": [
+          "old",
+          "used",
+          "modern",
+          "new"
+        ]
+      },
+      {
+        "question": "ふるい (古い)",
+        "answer": "old (things, not people)",
+        "options": [
+          "new",
+          "young",
+          "old (things, not people)",
+          "modern"
+        ]
+      },
+      {
+        "question": "たかい (高い)",
+        "answer": "expensive / tall / high",
+        "options": [
+          "short",
+          "expensive / tall / high",
+          "low",
+          "cheap"
+        ]
+      },
+      {
+        "question": "やすい (安い)",
+        "answer": "cheap / inexpensive",
+        "options": [
+          "costly",
+          "expensive",
+          "free",
+          "cheap / inexpensive"
+        ]
+      },
+      {
+        "question": "おいしい (美味しい)",
+        "answer": "delicious / tasty",
+        "options": [
+          "horrible",
+          "sour",
+          "delicious / tasty",
+          "bland"
+        ]
+      },
+      {
+        "question": "まずい",
+        "answer": "bad-tasting / awful (food)",
+        "options": [
+          "bad-tasting / awful (food)",
+          "delicious",
+          "good",
+          "sweet"
+        ]
+      },
+      {
+        "question": "あつい (暑い/熱い)",
+        "answer": "hot (weather/thing)",
+        "options": [
+          "cold",
+          "hot (weather/thing)",
+          "warm",
+          "cool"
+        ]
+      },
+      {
+        "question": "さむい (寒い)",
+        "answer": "cold (weather)",
+        "options": [
+          "cold (weather)",
+          "cool",
+          "hot",
+          "warm"
+        ]
+      },
+      {
+        "question": "つめたい (冷たい)",
+        "answer": "cold (to the touch / drinks)",
+        "options": [
+          "warm",
+          "cold (to the touch / drinks)",
+          "hot",
+          "lukewarm"
+        ]
+      },
+      {
+        "question": "あたたかい (暖かい)",
+        "answer": "warm",
+        "options": [
+          "warm",
+          "cool",
+          "hot",
+          "cold"
+        ]
+      },
+      {
+        "question": "おもしろい (面白い)",
+        "answer": "interesting / fun / funny",
+        "options": [
+          "sad",
+          "boring",
+          "difficult",
+          "interesting / fun / funny"
+        ]
+      },
+      {
+        "question": "つまらない",
+        "answer": "boring / dull",
+        "options": [
+          "boring / dull",
+          "interesting",
+          "exciting",
+          "fun"
+        ]
+      },
+      {
+        "question": "むずかしい (難しい)",
+        "answer": "difficult / hard",
+        "options": [
+          "fun",
+          "difficult / hard",
+          "simple",
+          "easy"
+        ]
+      },
+      {
+        "question": "やさしい (優しい/易しい)",
+        "answer": "kind / easy",
+        "options": [
+          "hard",
+          "mean",
+          "difficult",
+          "kind / easy"
+        ]
+      },
+      {
+        "question": "たのしい (楽しい)",
+        "answer": "fun / enjoyable",
+        "options": [
+          "sad",
+          "difficult",
+          "boring",
+          "fun / enjoyable"
+        ]
+      },
+      {
+        "question": "いそがしい (忙しい)",
+        "answer": "busy",
+        "options": [
+          "quiet",
+          "free",
+          "relaxed",
+          "busy"
+        ]
+      },
+      {
+        "question": "とても",
+        "answer": "very / extremely",
+        "options": [
+          "very / extremely",
+          "not very",
+          "sometimes",
+          "a little"
+        ]
+      },
+      {
+        "question": "あまり〜ない",
+        "answer": "not very ~ (used with negative)",
+        "options": [
+          "a lot",
+          "not very ~ (used with negative)",
+          "very",
+          "always"
+        ]
+      },
       {
         "question": "How do you say 'big / large' in Japanese?",
         "answer": "おおきい (大きい)",

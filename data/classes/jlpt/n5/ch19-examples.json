@@ -32,7 +32,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 0,
-      "questionsCount": 3
+      "questionsCount": 20
     },
     "items": [
       {
@@ -67,6 +67,91 @@
           "とてもたのしいです！"
         ],
         "explanation": "Past of い-adjective: たのしい → たのしかったです. とても = very."
+      },
+      {
+        "question": "You visited Tokyo last week. Report: 'Tokyo was very lively.'",
+        "answer": "とうきょうはとてもにぎやかでした。",
+        "type": "short_answer"
+      },
+      {
+        "question": "The food in Osaka was really delicious. How do you say this?",
+        "answer": "おおさかのたべものはとてもおいしかったです。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Your hotel room was small and not comfortable. Report this.",
+        "answer": "ホテルのへやはせまくて、あまりよくなかったです。",
+        "type": "short_answer"
+      },
+      {
+        "question": "The trip was tiring. How do you say this?",
+        "answer": "りょこうはつかれました。/ りょこうはたいへんでした。",
+        "type": "short_answer"
+      },
+      {
+        "question": "The weather was not good during the trip. How do you express this?",
+        "answer": "りょこうのてんきはよくなかったです。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you ask a friend 'Was the test difficult?'",
+        "answer": "テストはむずかしかったですか。",
+        "type": "short_answer"
+      },
+      {
+        "question": "The museum was interesting but crowded. Report this.",
+        "answer": "はくぶつかんはおもしろかったですが、こんでいました。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Translate: 'The concert last night was wonderful.'",
+        "answer": "ゆうべのコンサートはすばらしかったです。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'The restaurant was not cheap'?",
+        "answer": "レストランはやすくなかったです。",
+        "type": "short_answer"
+      },
+      {
+        "question": "You met a famous person on your trip. How do you report: 'I met a famous person'?",
+        "answer": "ゆうめいなひとにあいました。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Translate: 'Was the Shinkansen fast?'",
+        "answer": "しんかんせんははやかったですか。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you reply 'Yes, it was very fast' to the above question?",
+        "answer": "はい、とてもはやかったです。",
+        "type": "short_answer"
+      },
+      {
+        "question": "It was your first time in Japan and it was great. How do you express this?",
+        "answer": "はじめての日本でしたが、とてもよかったです。",
+        "type": "short_answer"
+      },
+      {
+        "question": "The park was quiet and beautiful. Describe it in Japanese.",
+        "answer": "こうえんはしずかできれいでした。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I was not busy yesterday'?",
+        "answer": "きのうはいそがしくなかったです。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Ask a friend: 'Was the party fun?'",
+        "answer": "パーティーはたのしかったですか。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Your friend's birthday dinner was not expensive. How do you report this?",
+        "answer": "たんじょうびのよるごはんはたかくなかったです。",
+        "type": "short_answer"
       }
     ]
   },
@@ -75,7 +160,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 12,
-      "questionsCount": 3
+      "questionsCount": 20
     },
     "items": [
       {
@@ -110,6 +195,91 @@
           "とてもたのしいです！"
         ],
         "explanation": "Past of い-adjective: たのしい → たのしかったです. とても = very."
+      },
+      {
+        "question": "You visited Tokyo last week. Report: 'Tokyo was very lively.'",
+        "answer": "とうきょうはとてもにぎやかでした。",
+        "type": "short_answer"
+      },
+      {
+        "question": "The food in Osaka was really delicious. How do you say this?",
+        "answer": "おおさかのたべものはとてもおいしかったです。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Your hotel room was small and not comfortable. Report this.",
+        "answer": "ホテルのへやはせまくて、あまりよくなかったです。",
+        "type": "short_answer"
+      },
+      {
+        "question": "The trip was tiring. How do you say this?",
+        "answer": "りょこうはつかれました。/ りょこうはたいへんでした。",
+        "type": "short_answer"
+      },
+      {
+        "question": "The weather was not good during the trip. How do you express this?",
+        "answer": "りょこうのてんきはよくなかったです。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you ask a friend 'Was the test difficult?'",
+        "answer": "テストはむずかしかったですか。",
+        "type": "short_answer"
+      },
+      {
+        "question": "The museum was interesting but crowded. Report this.",
+        "answer": "はくぶつかんはおもしろかったですが、こんでいました。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Translate: 'The concert last night was wonderful.'",
+        "answer": "ゆうべのコンサートはすばらしかったです。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'The restaurant was not cheap'?",
+        "answer": "レストランはやすくなかったです。",
+        "type": "short_answer"
+      },
+      {
+        "question": "You met a famous person on your trip. How do you report: 'I met a famous person'?",
+        "answer": "ゆうめいなひとにあいました。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Translate: 'Was the Shinkansen fast?'",
+        "answer": "しんかんせんははやかったですか。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you reply 'Yes, it was very fast' to the above question?",
+        "answer": "はい、とてもはやかったです。",
+        "type": "short_answer"
+      },
+      {
+        "question": "It was your first time in Japan and it was great. How do you express this?",
+        "answer": "はじめての日本でしたが、とてもよかったです。",
+        "type": "short_answer"
+      },
+      {
+        "question": "The park was quiet and beautiful. Describe it in Japanese.",
+        "answer": "こうえんはしずかできれいでした。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I was not busy yesterday'?",
+        "answer": "きのうはいそがしくなかったです。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Ask a friend: 'Was the party fun?'",
+        "answer": "パーティーはたのしかったですか。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Your friend's birthday dinner was not expensive. How do you report this?",
+        "answer": "たんじょうびのよるごはんはたかくなかったです。",
+        "type": "short_answer"
       }
     ]
   }

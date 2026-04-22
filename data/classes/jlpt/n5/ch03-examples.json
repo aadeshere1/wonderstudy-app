@@ -44,7 +44,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 0,
-      "questionsCount": 8
+      "questionsCount": 20
     },
     "items": [
       {
@@ -134,6 +134,138 @@
           "はち"
         ],
         "explanation": "6th floor = ろっかい (or ろくかい). ろく = 6."
+      },
+      {
+        "question": "You're lost in a building. How do you ask where the elevator is?",
+        "answer": "エレベーターは どこですか。",
+        "options": [
+          "エレベーターは どこですか。",
+          "エレベーターは なんですか。",
+          "エレベーターは いつですか。",
+          "エレベーターは だれですか。"
+        ],
+        "explanation": "どこ = where. 〜はどこですか = Where is ~?"
+      },
+      {
+        "question": "The receptionist tells you 'The restaurant is on the 3rd floor.' How do they say it?",
+        "answer": "レストランは さんかいに あります。",
+        "options": [
+          "レストランは さんかいに あります。",
+          "レストランは さんかいが います。",
+          "レストランは さんかいで あります。",
+          "レストランを さんかいに あります。"
+        ],
+        "explanation": "Location+に+あります = exists at [location] (for inanimate things)."
+      },
+      {
+        "question": "You want to ask what floor the gift shop is on.",
+        "answer": "みやげもの うりばは なんかいですか。",
+        "options": [
+          "みやげもの うりばは なんかいですか。",
+          "みやげもの うりばは どこですか。",
+          "みやげもの うりばは いくらですか。",
+          "みやげもの うりばは なんですか。"
+        ],
+        "explanation": "なんかい = what floor. Both なんかい and どこ work but なんかい is more specific."
+      },
+      {
+        "question": "Saying 'The post office is over there (far away).'",
+        "answer": "ゆうびんきょくは あそこです。",
+        "options": [
+          "ゆうびんきょくは あそこです。",
+          "ゆうびんきょくは ここです。",
+          "ゆうびんきょくは そこです。",
+          "ゆうびんきょくは どこです。"
+        ],
+        "explanation": "あそこ = over there (far from both speaker and listener)."
+      },
+      {
+        "question": "A hotel room costs 8,000 yen. How do you say it?",
+        "answer": "はちせんえん です。",
+        "options": [
+          "はちせんえん です。",
+          "はっせんえん です。",
+          "やせんえん です。",
+          "はちじゅうえん です。"
+        ],
+        "explanation": "8000 = はっせん (8=はっ before せん). Common Japanese number rule."
+      },
+      {
+        "question": "You want to know if the pharmacy is near the hospital.",
+        "answer": "やっきょくは びょういんの ちかくですか。",
+        "options": [
+          "やっきょくは びょういんの ちかくですか。",
+          "やっきょくは びょういんに ちかいですか。",
+          "やっきょくが びょういんの ちかくですか。",
+          "やっきょくを びょういんの ちかくですか。"
+        ],
+        "explanation": "Noun+の+ちかく = near the noun. AはBのちかくですか = Is A near B?"
+      },
+      {
+        "question": "The convenience store is to the right of the station exit.",
+        "answer": "コンビニは えきの でぐちの みぎです。",
+        "options": [
+          "コンビニは えきの でぐちの みぎです。",
+          "コンビニは えきの ひだりの そとです。",
+          "コンビニは えきに みぎに あります。",
+          "コンビニが えきの みぎで あります。"
+        ],
+        "explanation": "Nの+direction = to the [direction] of N. みぎ=right, ひだり=left."
+      },
+      {
+        "question": "Asking 'Is there a bank nearby?'",
+        "answer": "ちかくに ぎんこうが ありますか。",
+        "options": [
+          "ちかくに ぎんこうが ありますか。",
+          "ちかくに ぎんこうは いますか。",
+          "ちかくで ぎんこうが ありますか。",
+          "ちかくを ぎんこうが ありますか。"
+        ],
+        "explanation": "Location+に+Noun+が+あります = There is [thing] at [location]."
+      },
+      {
+        "question": "You are at the station. How do you say 'I am here (at the station)'?",
+        "answer": "えきに います。",
+        "options": [
+          "えきに います。",
+          "えきに あります。",
+          "えきで います。",
+          "えきが います。"
+        ],
+        "explanation": "います = exists (living things). あります = exists (objects). Use います for yourself."
+      },
+      {
+        "question": "The hospital is between the park and the bank.",
+        "answer": "びょういんは こうえんと ぎんこうの あいだです。",
+        "options": [
+          "びょういんは こうえんと ぎんこうの あいだです。",
+          "びょういんは こうえんか ぎんこうの あいだです。",
+          "びょういんを こうえんと ぎんこうで あいだです。",
+          "びょういんが こうえんと ぎんこうに あいだです。"
+        ],
+        "explanation": "AとBのあいだ = between A and B."
+      },
+      {
+        "question": "A customer asks where the fitting room is. You point to the left.",
+        "answer": "ひだりに あります。",
+        "options": [
+          "ひだりに あります。",
+          "ひだりに います。",
+          "ひだりで あります。",
+          "ひだりが あります。"
+        ],
+        "explanation": "ひだり = left. に+あります = exists at that location."
+      },
+      {
+        "question": "Asking the price of the room per night at a hotel.",
+        "answer": "ひとばん いくらですか。",
+        "options": [
+          "ひとばん いくらですか。",
+          "ひとつ いくらですか。",
+          "いっぱく いくらですか。",
+          "ひとばんは なんえんですか。"
+        ],
+        "explanation": "ひとばん = one night. いくら = how much. Both いっぱく and ひとばん are natural."
       }
     ]
   },
@@ -142,7 +274,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 12,
-      "questionsCount": 8
+      "questionsCount": 20
     },
     "items": [
       {
@@ -232,6 +364,138 @@
           "はち"
         ],
         "explanation": "6th floor = ろっかい (or ろくかい). ろく = 6."
+      },
+      {
+        "question": "You're lost in a building. How do you ask where the elevator is?",
+        "answer": "エレベーターは どこですか。",
+        "options": [
+          "エレベーターは どこですか。",
+          "エレベーターは なんですか。",
+          "エレベーターは いつですか。",
+          "エレベーターは だれですか。"
+        ],
+        "explanation": "どこ = where. 〜はどこですか = Where is ~?"
+      },
+      {
+        "question": "The receptionist tells you 'The restaurant is on the 3rd floor.' How do they say it?",
+        "answer": "レストランは さんかいに あります。",
+        "options": [
+          "レストランは さんかいに あります。",
+          "レストランは さんかいが います。",
+          "レストランは さんかいで あります。",
+          "レストランを さんかいに あります。"
+        ],
+        "explanation": "Location+に+あります = exists at [location] (for inanimate things)."
+      },
+      {
+        "question": "You want to ask what floor the gift shop is on.",
+        "answer": "みやげもの うりばは なんかいですか。",
+        "options": [
+          "みやげもの うりばは なんかいですか。",
+          "みやげもの うりばは どこですか。",
+          "みやげもの うりばは いくらですか。",
+          "みやげもの うりばは なんですか。"
+        ],
+        "explanation": "なんかい = what floor. Both なんかい and どこ work but なんかい is more specific."
+      },
+      {
+        "question": "Saying 'The post office is over there (far away).'",
+        "answer": "ゆうびんきょくは あそこです。",
+        "options": [
+          "ゆうびんきょくは あそこです。",
+          "ゆうびんきょくは ここです。",
+          "ゆうびんきょくは そこです。",
+          "ゆうびんきょくは どこです。"
+        ],
+        "explanation": "あそこ = over there (far from both speaker and listener)."
+      },
+      {
+        "question": "A hotel room costs 8,000 yen. How do you say it?",
+        "answer": "はちせんえん です。",
+        "options": [
+          "はちせんえん です。",
+          "はっせんえん です。",
+          "やせんえん です。",
+          "はちじゅうえん です。"
+        ],
+        "explanation": "8000 = はっせん (8=はっ before せん). Common Japanese number rule."
+      },
+      {
+        "question": "You want to know if the pharmacy is near the hospital.",
+        "answer": "やっきょくは びょういんの ちかくですか。",
+        "options": [
+          "やっきょくは びょういんの ちかくですか。",
+          "やっきょくは びょういんに ちかいですか。",
+          "やっきょくが びょういんの ちかくですか。",
+          "やっきょくを びょういんの ちかくですか。"
+        ],
+        "explanation": "Noun+の+ちかく = near the noun. AはBのちかくですか = Is A near B?"
+      },
+      {
+        "question": "The convenience store is to the right of the station exit.",
+        "answer": "コンビニは えきの でぐちの みぎです。",
+        "options": [
+          "コンビニは えきの でぐちの みぎです。",
+          "コンビニは えきの ひだりの そとです。",
+          "コンビニは えきに みぎに あります。",
+          "コンビニが えきの みぎで あります。"
+        ],
+        "explanation": "Nの+direction = to the [direction] of N. みぎ=right, ひだり=left."
+      },
+      {
+        "question": "Asking 'Is there a bank nearby?'",
+        "answer": "ちかくに ぎんこうが ありますか。",
+        "options": [
+          "ちかくに ぎんこうが ありますか。",
+          "ちかくに ぎんこうは いますか。",
+          "ちかくで ぎんこうが ありますか。",
+          "ちかくを ぎんこうが ありますか。"
+        ],
+        "explanation": "Location+に+Noun+が+あります = There is [thing] at [location]."
+      },
+      {
+        "question": "You are at the station. How do you say 'I am here (at the station)'?",
+        "answer": "えきに います。",
+        "options": [
+          "えきに います。",
+          "えきに あります。",
+          "えきで います。",
+          "えきが います。"
+        ],
+        "explanation": "います = exists (living things). あります = exists (objects). Use います for yourself."
+      },
+      {
+        "question": "The hospital is between the park and the bank.",
+        "answer": "びょういんは こうえんと ぎんこうの あいだです。",
+        "options": [
+          "びょういんは こうえんと ぎんこうの あいだです。",
+          "びょういんは こうえんか ぎんこうの あいだです。",
+          "びょういんを こうえんと ぎんこうで あいだです。",
+          "びょういんが こうえんと ぎんこうに あいだです。"
+        ],
+        "explanation": "AとBのあいだ = between A and B."
+      },
+      {
+        "question": "A customer asks where the fitting room is. You point to the left.",
+        "answer": "ひだりに あります。",
+        "options": [
+          "ひだりに あります。",
+          "ひだりに います。",
+          "ひだりで あります。",
+          "ひだりが あります。"
+        ],
+        "explanation": "ひだり = left. に+あります = exists at that location."
+      },
+      {
+        "question": "Asking the price of the room per night at a hotel.",
+        "answer": "ひとばん いくらですか。",
+        "options": [
+          "ひとばん いくらですか。",
+          "ひとつ いくらですか。",
+          "いっぱく いくらですか。",
+          "ひとばんは なんえんですか。"
+        ],
+        "explanation": "ひとばん = one night. いくら = how much. Both いっぱく and ひとばん are natural."
       }
     ]
   }

@@ -32,7 +32,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 0,
-      "questionsCount": 5
+      "questionsCount": 20
     },
     "items": [
       {
@@ -89,6 +89,171 @@
           "ねんがじょうをおくってください。"
         ],
         "explanation": "〜なければなりません = must do. 送る → 送らない → 送らなければなりません = must send."
+      },
+      {
+        "question": "もっとべんきょうすれ ___ よかったです。(I wish I had studied more.)",
+        "answer": "ば",
+        "options": [
+          "ば",
+          "て",
+          "たら",
+          "なら"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "あのレストランに行か ___ よかったです。(I wish I hadn't gone to that restaurant.)",
+        "answer": "なければ",
+        "options": [
+          "なければ",
+          "ないで",
+          "なくて",
+          "ないば"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "にほんごをもっとれんしゅうすれ ___ 。(I wish I had practised Japanese more.)",
+        "answer": "ばよかったです",
+        "options": [
+          "ばよかったです",
+          "てよかったです",
+          "たらよかったです",
+          "てもよかったです"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "どこにも行きません means:",
+        "answer": "I don't go anywhere.",
+        "options": [
+          "I don't go anywhere.",
+          "I go somewhere.",
+          "I go everywhere.",
+          "I go nowhere sometimes."
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "なにも ___ でした。(I didn't eat anything.)",
+        "answer": "たべません",
+        "options": [
+          "たべません",
+          "たべました",
+          "たべません",
+          "たべませんでした"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "だれも ___ 。(Nobody came.)",
+        "answer": "きませんでした",
+        "options": [
+          "きませんでした",
+          "きました",
+          "きます",
+          "きませんでしたか"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "The verb form before ばよかった is:",
+        "answer": "conditional ば-form",
+        "options": [
+          "conditional ば-form",
+          "て-form",
+          "た-form",
+          "dictionary form"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "I regret eating too much. Which is correct?",
+        "answer": "たべすぎなければよかったです。",
+        "options": [
+          "たべすぎなければよかったです。",
+          "たべすぎればよかったです。",
+          "たべすぎたらよかったです。",
+          "たべすぎてよかったです。"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "もっとはやく ___ ばよかった。(I wish I had come earlier.)",
+        "answer": "くれれ / きれ",
+        "options": [
+          "くれれ / きれ",
+          "きれ",
+          "きた",
+          "きて"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "What is はつもうで?",
+        "answer": "First shrine visit of the New Year",
+        "options": [
+          "First shrine visit of the New Year",
+          "Last shrine visit of the year",
+          "Autumn festival",
+          "Summer fireworks"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "What is お盆?",
+        "answer": "Buddhist memorial festival for ancestors in August",
+        "options": [
+          "Buddhist memorial festival for ancestors in August",
+          "New Year celebration",
+          "Cherry blossom viewing festival",
+          "Children's Day festival"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "何も食べませんでした means:",
+        "answer": "I didn't eat anything.",
+        "options": [
+          "I didn't eat anything.",
+          "I ate everything.",
+          "I didn't eat something.",
+          "I ate nothing special."
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "I wish I had taken a photo. Which is correct?",
+        "answer": "しゃしんをとればよかったです。",
+        "options": [
+          "しゃしんをとればよかったです。",
+          "しゃしんをとったらよかったです。",
+          "しゃしんをとってよかったです。",
+          "しゃしんをとるばよかったです。"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "How do you say 'Nobody knows'?",
+        "answer": "だれもしりません。",
+        "options": [
+          "だれもしりません。",
+          "だれもしります。",
+          "だれかしりません。",
+          "だれもわかる。"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "How do you say 'I wish I hadn't spent all my money'?",
+        "answer": "おかねをぜんぶつかわなければよかったです。",
+        "options": [
+          "おかねをぜんぶつかわなければよかったです。",
+          "おかねをぜんぶつかえばよかったです。",
+          "おかねをぜんぶつかってよかったです。",
+          "おかねをぜんぶつかいたらよかったです。"
+        ],
+        "type": "multiple_choice"
       }
     ]
   },
@@ -97,7 +262,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 12,
-      "questionsCount": 5
+      "questionsCount": 20
     },
     "items": [
       {
@@ -154,6 +319,171 @@
           "ねんがじょうをおくってください。"
         ],
         "explanation": "〜なければなりません = must do. 送る → 送らない → 送らなければなりません = must send."
+      },
+      {
+        "question": "もっとべんきょうすれ ___ よかったです。(I wish I had studied more.)",
+        "answer": "ば",
+        "options": [
+          "ば",
+          "て",
+          "たら",
+          "なら"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "あのレストランに行か ___ よかったです。(I wish I hadn't gone to that restaurant.)",
+        "answer": "なければ",
+        "options": [
+          "なければ",
+          "ないで",
+          "なくて",
+          "ないば"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "にほんごをもっとれんしゅうすれ ___ 。(I wish I had practised Japanese more.)",
+        "answer": "ばよかったです",
+        "options": [
+          "ばよかったです",
+          "てよかったです",
+          "たらよかったです",
+          "てもよかったです"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "どこにも行きません means:",
+        "answer": "I don't go anywhere.",
+        "options": [
+          "I don't go anywhere.",
+          "I go somewhere.",
+          "I go everywhere.",
+          "I go nowhere sometimes."
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "なにも ___ でした。(I didn't eat anything.)",
+        "answer": "たべません",
+        "options": [
+          "たべません",
+          "たべました",
+          "たべません",
+          "たべませんでした"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "だれも ___ 。(Nobody came.)",
+        "answer": "きませんでした",
+        "options": [
+          "きませんでした",
+          "きました",
+          "きます",
+          "きませんでしたか"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "The verb form before ばよかった is:",
+        "answer": "conditional ば-form",
+        "options": [
+          "conditional ば-form",
+          "て-form",
+          "た-form",
+          "dictionary form"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "I regret eating too much. Which is correct?",
+        "answer": "たべすぎなければよかったです。",
+        "options": [
+          "たべすぎなければよかったです。",
+          "たべすぎればよかったです。",
+          "たべすぎたらよかったです。",
+          "たべすぎてよかったです。"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "もっとはやく ___ ばよかった。(I wish I had come earlier.)",
+        "answer": "くれれ / きれ",
+        "options": [
+          "くれれ / きれ",
+          "きれ",
+          "きた",
+          "きて"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "What is はつもうで?",
+        "answer": "First shrine visit of the New Year",
+        "options": [
+          "First shrine visit of the New Year",
+          "Last shrine visit of the year",
+          "Autumn festival",
+          "Summer fireworks"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "What is お盆?",
+        "answer": "Buddhist memorial festival for ancestors in August",
+        "options": [
+          "Buddhist memorial festival for ancestors in August",
+          "New Year celebration",
+          "Cherry blossom viewing festival",
+          "Children's Day festival"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "何も食べませんでした means:",
+        "answer": "I didn't eat anything.",
+        "options": [
+          "I didn't eat anything.",
+          "I ate everything.",
+          "I didn't eat something.",
+          "I ate nothing special."
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "I wish I had taken a photo. Which is correct?",
+        "answer": "しゃしんをとればよかったです。",
+        "options": [
+          "しゃしんをとればよかったです。",
+          "しゃしんをとったらよかったです。",
+          "しゃしんをとってよかったです。",
+          "しゃしんをとるばよかったです。"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "How do you say 'Nobody knows'?",
+        "answer": "だれもしりません。",
+        "options": [
+          "だれもしりません。",
+          "だれもしります。",
+          "だれかしりません。",
+          "だれもわかる。"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "How do you say 'I wish I hadn't spent all my money'?",
+        "answer": "おかねをぜんぶつかわなければよかったです。",
+        "options": [
+          "おかねをぜんぶつかわなければよかったです。",
+          "おかねをぜんぶつかえばよかったです。",
+          "おかねをぜんぶつかってよかったです。",
+          "おかねをぜんぶつかいたらよかったです。"
+        ],
+        "type": "multiple_choice"
       }
     ]
   }

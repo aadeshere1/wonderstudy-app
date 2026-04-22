@@ -32,7 +32,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 0,
-      "questionsCount": 5
+      "questionsCount": 20
     },
     "items": [
       {
@@ -89,6 +89,171 @@
           "いません"
         ],
         "explanation": "な-adjective negative past: 〜じゃなかったです. にぎやか (lively) is な-adjective → じゃなかったです."
+      },
+      {
+        "question": "きのうは ___ でした。(Yesterday was cold.)",
+        "answer": "さむ",
+        "options": [
+          "さむ",
+          "あつ",
+          "しず",
+          "たの"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "えいがはおもしろ ___ でしたか。(Was the movie interesting?)",
+        "answer": "くなかった",
+        "options": [
+          "くなかった",
+          "じゃなかった",
+          "かった",
+          "くない"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "Past negative of きれいです is:",
+        "answer": "きれいじゃなかったです",
+        "options": [
+          "きれいじゃなかったです",
+          "きれいくなかったです",
+          "きれいなかったです",
+          "きれいでなかったです"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "Past negative of おおきいです is:",
+        "answer": "おおきくなかったです",
+        "options": [
+          "おおきくなかったです",
+          "おおきじゃなかったです",
+          "おおきなかったです",
+          "おおきでなかったです"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "りょこうはどう ___ か。(How was the trip?)",
+        "answer": "でした",
+        "options": [
+          "でした",
+          "です",
+          "だった",
+          "ありました"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "The past tense of たのしいです is:",
+        "answer": "たのしかったです",
+        "options": [
+          "たのしかったです",
+          "たのしでした",
+          "たのしいでした",
+          "たのしくないです"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "The past tense of しずかです is:",
+        "answer": "しずかでした",
+        "options": [
+          "しずかでした",
+          "しずかかったです",
+          "しずかくでした",
+          "しずかいでした"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "おてんきはよ ___ ですか。(Was the weather good?)",
+        "answer": "かった",
+        "options": [
+          "かった",
+          "かったじゃない",
+          "じゃなかった",
+          "くなかった"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "ホテルはしずかじゃ ___ 。(The hotel was not quiet.)",
+        "answer": "なかったです",
+        "options": [
+          "なかったです",
+          "ありませんでした",
+          "くなかったです",
+          "なかった"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "How do you say 'The food was not delicious'?",
+        "answer": "たべものはおいしくなかったです。",
+        "options": [
+          "たべものはおいしくなかったです。",
+          "たべものはおいしじゃなかったです。",
+          "たべものはおいしなかったです。",
+          "たべものはおいしくないでした。"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "あそこのみせはやす ___ 。(That shop was cheap.)",
+        "answer": "かったです",
+        "options": [
+          "かったです",
+          "でした",
+          "だったです",
+          "くなかったです"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "How do you ask 'How was Osaka?'",
+        "answer": "おおさかはどうでしたか。",
+        "options": [
+          "おおさかはどうでしたか。",
+          "おおさかはなんでしたか。",
+          "おおさかはいつでしたか。",
+          "おおさかはどこでしたか。"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "むずかし ___ 、よくわかりませんでした。(It was difficult, so I didn't understand well.)",
+        "answer": "かったから",
+        "options": [
+          "かったから",
+          "いから",
+          "なかったから",
+          "でしたから"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "Past tense of いそがしいです:",
+        "answer": "いそがしかったです",
+        "options": [
+          "いそがしかったです",
+          "いそがしでした",
+          "いそがしいでした",
+          "いそがしくでした"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "How do you say 'It was not hot yesterday'?",
+        "answer": "きのうはあつくなかったです。",
+        "options": [
+          "きのうはあつくなかったです。",
+          "きのうはあつじゃなかったです。",
+          "きのうはあつくないでした。",
+          "きのうはあつでなかったです。"
+        ],
+        "type": "multiple_choice"
       }
     ]
   },
@@ -97,7 +262,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 12,
-      "questionsCount": 5
+      "questionsCount": 20
     },
     "items": [
       {
@@ -154,6 +319,171 @@
           "いません"
         ],
         "explanation": "な-adjective negative past: 〜じゃなかったです. にぎやか (lively) is な-adjective → じゃなかったです."
+      },
+      {
+        "question": "きのうは ___ でした。(Yesterday was cold.)",
+        "answer": "さむ",
+        "options": [
+          "さむ",
+          "あつ",
+          "しず",
+          "たの"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "えいがはおもしろ ___ でしたか。(Was the movie interesting?)",
+        "answer": "くなかった",
+        "options": [
+          "くなかった",
+          "じゃなかった",
+          "かった",
+          "くない"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "Past negative of きれいです is:",
+        "answer": "きれいじゃなかったです",
+        "options": [
+          "きれいじゃなかったです",
+          "きれいくなかったです",
+          "きれいなかったです",
+          "きれいでなかったです"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "Past negative of おおきいです is:",
+        "answer": "おおきくなかったです",
+        "options": [
+          "おおきくなかったです",
+          "おおきじゃなかったです",
+          "おおきなかったです",
+          "おおきでなかったです"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "りょこうはどう ___ か。(How was the trip?)",
+        "answer": "でした",
+        "options": [
+          "でした",
+          "です",
+          "だった",
+          "ありました"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "The past tense of たのしいです is:",
+        "answer": "たのしかったです",
+        "options": [
+          "たのしかったです",
+          "たのしでした",
+          "たのしいでした",
+          "たのしくないです"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "The past tense of しずかです is:",
+        "answer": "しずかでした",
+        "options": [
+          "しずかでした",
+          "しずかかったです",
+          "しずかくでした",
+          "しずかいでした"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "おてんきはよ ___ ですか。(Was the weather good?)",
+        "answer": "かった",
+        "options": [
+          "かった",
+          "かったじゃない",
+          "じゃなかった",
+          "くなかった"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "ホテルはしずかじゃ ___ 。(The hotel was not quiet.)",
+        "answer": "なかったです",
+        "options": [
+          "なかったです",
+          "ありませんでした",
+          "くなかったです",
+          "なかった"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "How do you say 'The food was not delicious'?",
+        "answer": "たべものはおいしくなかったです。",
+        "options": [
+          "たべものはおいしくなかったです。",
+          "たべものはおいしじゃなかったです。",
+          "たべものはおいしなかったです。",
+          "たべものはおいしくないでした。"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "あそこのみせはやす ___ 。(That shop was cheap.)",
+        "answer": "かったです",
+        "options": [
+          "かったです",
+          "でした",
+          "だったです",
+          "くなかったです"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "How do you ask 'How was Osaka?'",
+        "answer": "おおさかはどうでしたか。",
+        "options": [
+          "おおさかはどうでしたか。",
+          "おおさかはなんでしたか。",
+          "おおさかはいつでしたか。",
+          "おおさかはどこでしたか。"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "むずかし ___ 、よくわかりませんでした。(It was difficult, so I didn't understand well.)",
+        "answer": "かったから",
+        "options": [
+          "かったから",
+          "いから",
+          "なかったから",
+          "でしたから"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "Past tense of いそがしいです:",
+        "answer": "いそがしかったです",
+        "options": [
+          "いそがしかったです",
+          "いそがしでした",
+          "いそがしいでした",
+          "いそがしくでした"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "How do you say 'It was not hot yesterday'?",
+        "answer": "きのうはあつくなかったです。",
+        "options": [
+          "きのうはあつくなかったです。",
+          "きのうはあつじゃなかったです。",
+          "きのうはあつくないでした。",
+          "きのうはあつでなかったです。"
+        ],
+        "type": "multiple_choice"
       }
     ]
   }

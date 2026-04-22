@@ -33,7 +33,7 @@
       "answerMode": "mcq",
       "optionsCount": 4,
       "timeLimit": 0,
-      "questionsCount": 15
+      "questionsCount": 30
     },
     "items": [
       {
@@ -185,6 +185,156 @@
           "opera",
           "Kabuki theatre"
         ]
+      },
+      {
+        "question": "How do you say 'just did ~ (very recently)' in Japanese?",
+        "answer": "〜たばかりです",
+        "options": [
+          "はじめて (初めて)",
+          "〜たことがあります",
+          "〜たことがありません",
+          "〜たばかりです"
+        ]
+      },
+      {
+        "question": "How do you say 'have done ~ before / have experience of' in Japanese?",
+        "answer": "〜たことがあります",
+        "options": [
+          "〜たことがあります",
+          "はじめて (初めて)",
+          "〜たばかりです",
+          "〜たことがありません"
+        ]
+      },
+      {
+        "question": "How do you say 'have never done ~' in Japanese?",
+        "answer": "〜たことがありません",
+        "options": [
+          "〜たことがありません",
+          "はじめて (初めて)",
+          "〜たことがあります",
+          "〜たばかりです"
+        ]
+      },
+      {
+        "question": "How do you say 'for the first time' in Japanese?",
+        "answer": "はじめて (初めて)",
+        "options": [
+          "〜たことがあります",
+          "〜たことがありません",
+          "〜たばかりです",
+          "はじめて (初めて)"
+        ]
+      },
+      {
+        "question": "How do you say 'experience' in Japanese?",
+        "answer": "けいけん (経験)",
+        "options": [
+          "〜たばかりです",
+          "けいけん (経験)",
+          "〜たことがありません",
+          "〜たことがあります"
+        ]
+      },
+      {
+        "question": "How do you say '~ times (counter)' in Japanese?",
+        "answer": "〜回 (〜かい)",
+        "options": [
+          "〜たことがあります",
+          "〜たことがありません",
+          "〜たばかりです",
+          "〜回 (〜かい)"
+        ]
+      },
+      {
+        "question": "How do you say 'once / one time' in Japanese?",
+        "answer": "いちど (一度)",
+        "options": [
+          "〜たばかりです",
+          "〜たことがあります",
+          "いちど (一度)",
+          "〜たことがありません"
+        ]
+      },
+      {
+        "question": "How do you say 'several times' in Japanese?",
+        "answer": "なんどか (何度か)",
+        "options": [
+          "〜たことがありません",
+          "〜たことがあります",
+          "〜たばかりです",
+          "なんどか (何度か)"
+        ]
+      },
+      {
+        "question": "How do you say 'Mt. Fuji' in Japanese?",
+        "answer": "ふじさん (富士山)",
+        "options": [
+          "ふじさん (富士山)",
+          "〜たばかりです",
+          "〜たことがありません",
+          "〜たことがあります"
+        ]
+      },
+      {
+        "question": "How do you say 'Japanese cuisine' in Japanese?",
+        "answer": "にほんりょうり (日本料理)",
+        "options": [
+          "にほんりょうり (日本料理)",
+          "〜たことがありません",
+          "〜たばかりです",
+          "〜たことがあります"
+        ]
+      },
+      {
+        "question": "How do you say 'cherry blossom' in Japanese?",
+        "answer": "さくら (桜)",
+        "options": [
+          "〜たばかりです",
+          "〜たことがありません",
+          "〜たことがあります",
+          "さくら (桜)"
+        ]
+      },
+      {
+        "question": "How do you say 'cherry blossom viewing' in Japanese?",
+        "answer": "はなみ (花見)",
+        "options": [
+          "〜たことがありません",
+          "はなみ (花見)",
+          "〜たことがあります",
+          "〜たばかりです"
+        ]
+      },
+      {
+        "question": "How do you say 'Japanese food' in Japanese?",
+        "answer": "わしょく (和食)",
+        "options": [
+          "〜たことがあります",
+          "〜たことがありません",
+          "わしょく (和食)",
+          "〜たばかりです"
+        ]
+      },
+      {
+        "question": "How do you say 'Western food' in Japanese?",
+        "answer": "ようしょく (洋食)",
+        "options": [
+          "〜たことがありません",
+          "ようしょく (洋食)",
+          "〜たばかりです",
+          "〜たことがあります"
+        ]
+      },
+      {
+        "question": "How do you say 'Kabuki theatre' in Japanese?",
+        "answer": "かぶき (歌舞伎)",
+        "options": [
+          "〜たばかりです",
+          "〜たことがあります",
+          "かぶき (歌舞伎)",
+          "〜たことがありません"
+        ]
       }
     ]
   },
@@ -194,9 +344,159 @@
       "answerMode": "mcq",
       "optionsCount": 4,
       "timeLimit": 10,
-      "questionsCount": 15
+      "questionsCount": 30
     },
     "items": [
+      {
+        "question": "〜たばかりです",
+        "answer": "just did ~ (very recently)",
+        "options": [
+          "will do ~",
+          "did ~ long ago",
+          "am doing ~",
+          "just did ~ (very recently)"
+        ]
+      },
+      {
+        "question": "〜たことがあります",
+        "answer": "have done ~ before / have experience of",
+        "options": [
+          "will do ~",
+          "have done ~ before / have experience of",
+          "just did ~",
+          "have never done ~"
+        ]
+      },
+      {
+        "question": "〜たことがありません",
+        "answer": "have never done ~",
+        "options": [
+          "just did ~",
+          "have never done ~",
+          "will do ~",
+          "have done ~"
+        ]
+      },
+      {
+        "question": "はじめて (初めて)",
+        "answer": "for the first time",
+        "options": [
+          "again",
+          "as usual",
+          "for the first time",
+          "recently"
+        ]
+      },
+      {
+        "question": "けいけん (経験)",
+        "answer": "experience",
+        "options": [
+          "knowledge",
+          "memory",
+          "skill",
+          "experience"
+        ]
+      },
+      {
+        "question": "〜回 (〜かい)",
+        "answer": "~ times (counter)",
+        "options": [
+          "~ months",
+          "~ times (counter)",
+          "~ days",
+          "~ years"
+        ]
+      },
+      {
+        "question": "いちど (一度)",
+        "answer": "once / one time",
+        "options": [
+          "once / one time",
+          "never",
+          "twice",
+          "many times"
+        ]
+      },
+      {
+        "question": "なんどか (何度か)",
+        "answer": "several times",
+        "options": [
+          "once",
+          "never",
+          "always",
+          "several times"
+        ]
+      },
+      {
+        "question": "ふじさん (富士山)",
+        "answer": "Mt. Fuji",
+        "options": [
+          "Mt. Fuji",
+          "Mt. Everest",
+          "Mt. Aso",
+          "Mt. Fuji"
+        ]
+      },
+      {
+        "question": "にほんりょうり (日本料理)",
+        "answer": "Japanese cuisine",
+        "options": [
+          "Japanese cuisine",
+          "Western food",
+          "Chinese food",
+          "Italian food"
+        ]
+      },
+      {
+        "question": "さくら (桜)",
+        "answer": "cherry blossom",
+        "options": [
+          "plum blossom",
+          "autumn leaves",
+          "cherry blossom",
+          "iris"
+        ]
+      },
+      {
+        "question": "はなみ (花見)",
+        "answer": "cherry blossom viewing",
+        "options": [
+          "autumn leaf viewing",
+          "cherry blossom viewing",
+          "fireworks",
+          "festival"
+        ]
+      },
+      {
+        "question": "わしょく (和食)",
+        "answer": "Japanese food",
+        "options": [
+          "Chinese food",
+          "Western food",
+          "Korean food",
+          "Japanese food"
+        ]
+      },
+      {
+        "question": "ようしょく (洋食)",
+        "answer": "Western food",
+        "options": [
+          "Chinese food",
+          "Western food",
+          "Korean food",
+          "Japanese food"
+        ]
+      },
+      {
+        "question": "かぶき (歌舞伎)",
+        "answer": "Kabuki theatre",
+        "options": [
+          "Bunraku",
+          "Noh theatre",
+          "opera",
+          "Kabuki theatre"
+        ]
+      },
       {
         "question": "How do you say 'just did ~ (very recently)' in Japanese?",
         "answer": "〜たばかりです",

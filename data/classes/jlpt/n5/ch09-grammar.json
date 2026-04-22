@@ -52,7 +52,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 0,
-      "questionsCount": 10
+      "questionsCount": 20
     },
     "items": [
       {
@@ -164,6 +164,116 @@
           "Neither is correct"
         ],
         "explanation": "借ります (かります) = to borrow (you receive). から = from. 貸します (かします) = to lend (you give). に = to."
+      },
+      {
+        "question": "りんごを _____つ ください。(Please give me 5 apples.)",
+        "answer": "いつ",
+        "options": [
+          "いつ",
+          "よっ",
+          "むっ",
+          "なな"
+        ],
+        "explanation": "5つ = いつつ (general counter for things). Japanese native counters: 1=ひとつ, 2=ふたつ, 3=みっつ, 4=よっつ, 5=いつつ."
+      },
+      {
+        "question": "まいにち どのくらい にほんごを べんきょう しますか。——いち_____かん ぐらいです。",
+        "answer": "じ",
+        "options": [
+          "じ",
+          "にち",
+          "かい",
+          "かげつ"
+        ],
+        "explanation": "じかん = hours. いちじかん = one hour. Counter for hours."
+      },
+      {
+        "question": "この ざっしを _____さつ かいましたか。(How many magazines did you buy?)",
+        "answer": "なん",
+        "options": [
+          "なん",
+          "いく",
+          "どの",
+          "なに"
+        ],
+        "explanation": "なんさつ = how many (books/magazines). さつ = counter for bound publications."
+      },
+      {
+        "question": "バナナが _____本 あります。(There are 3 bananas.)",
+        "answer": "さんぼん",
+        "options": [
+          "さんぼん",
+          "さんまい",
+          "みっつ",
+          "さんこ"
+        ],
+        "explanation": "本(ほん/ぼん/ぽん) = counter for long thin objects. 3本 = さんぼん."
+      },
+      {
+        "question": "シャツを _____まい かいました。(I bought 2 shirts.)",
+        "answer": "にまい",
+        "options": [
+          "にまい",
+          "にほん",
+          "ふたつ",
+          "にこ"
+        ],
+        "explanation": "枚(まい) = counter for flat objects (shirts, papers, plates). 2枚 = にまい."
+      },
+      {
+        "question": "コーヒーを _____ぱい のみますか。(How many cups of coffee do you drink?)",
+        "answer": "なん",
+        "options": [
+          "なん",
+          "いく",
+          "どれ",
+          "なに"
+        ],
+        "explanation": "なんばい = how many cups. 杯(はい/ばい/ぱい) = counter for cups/glasses."
+      },
+      {
+        "question": "えんぴつが 6_____あります。(There are 6 pencils.)",
+        "answer": "ぽん",
+        "options": [
+          "ぽん",
+          "まい",
+          "こ",
+          "つ"
+        ],
+        "explanation": "6本 = ろっぽん. 本(ほん/ぼん/ぽん) changes based on number: 6→ろっぽん."
+      },
+      {
+        "question": "よく かいものを しますか。——_____たまに します。(Do you often shop? — I shop occasionally.)",
+        "answer": "たまに",
+        "options": [
+          "たまに",
+          "よく",
+          "あまり",
+          "ぜんぜん"
+        ],
+        "explanation": "たまに = occasionally/sometimes. Frequency adverbs: いつも>よく>たまに>あまり〜ない>ぜんぜん〜ない."
+      },
+      {
+        "question": "ジュースを _____ぽん かいましたか。(How many bottles of juice did you buy?)",
+        "answer": "なんぼん",
+        "options": [
+          "なんぼん",
+          "なんまい",
+          "なんこ",
+          "なんつ"
+        ],
+        "explanation": "なんぼん = how many (long objects). 本 = counter for bottles, pens, etc."
+      },
+      {
+        "question": "にほんごを あまり _____。(I don't study Japanese much.)",
+        "answer": "べんきょうしません",
+        "options": [
+          "べんきょうしません",
+          "べんきょうします",
+          "べんきょうしました",
+          "べんきょうしませんでした"
+        ],
+        "explanation": "あまり〜ません = don't ~ much. Paired negative verb."
       }
     ]
   },
@@ -172,7 +282,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 12,
-      "questionsCount": 10
+      "questionsCount": 20
     },
     "items": [
       {
@@ -284,6 +394,116 @@
           "Neither is correct"
         ],
         "explanation": "借ります (かります) = to borrow (you receive). から = from. 貸します (かします) = to lend (you give). に = to."
+      },
+      {
+        "question": "りんごを _____つ ください。(Please give me 5 apples.)",
+        "answer": "いつ",
+        "options": [
+          "いつ",
+          "よっ",
+          "むっ",
+          "なな"
+        ],
+        "explanation": "5つ = いつつ (general counter for things). Japanese native counters: 1=ひとつ, 2=ふたつ, 3=みっつ, 4=よっつ, 5=いつつ."
+      },
+      {
+        "question": "まいにち どのくらい にほんごを べんきょう しますか。——いち_____かん ぐらいです。",
+        "answer": "じ",
+        "options": [
+          "じ",
+          "にち",
+          "かい",
+          "かげつ"
+        ],
+        "explanation": "じかん = hours. いちじかん = one hour. Counter for hours."
+      },
+      {
+        "question": "この ざっしを _____さつ かいましたか。(How many magazines did you buy?)",
+        "answer": "なん",
+        "options": [
+          "なん",
+          "いく",
+          "どの",
+          "なに"
+        ],
+        "explanation": "なんさつ = how many (books/magazines). さつ = counter for bound publications."
+      },
+      {
+        "question": "バナナが _____本 あります。(There are 3 bananas.)",
+        "answer": "さんぼん",
+        "options": [
+          "さんぼん",
+          "さんまい",
+          "みっつ",
+          "さんこ"
+        ],
+        "explanation": "本(ほん/ぼん/ぽん) = counter for long thin objects. 3本 = さんぼん."
+      },
+      {
+        "question": "シャツを _____まい かいました。(I bought 2 shirts.)",
+        "answer": "にまい",
+        "options": [
+          "にまい",
+          "にほん",
+          "ふたつ",
+          "にこ"
+        ],
+        "explanation": "枚(まい) = counter for flat objects (shirts, papers, plates). 2枚 = にまい."
+      },
+      {
+        "question": "コーヒーを _____ぱい のみますか。(How many cups of coffee do you drink?)",
+        "answer": "なん",
+        "options": [
+          "なん",
+          "いく",
+          "どれ",
+          "なに"
+        ],
+        "explanation": "なんばい = how many cups. 杯(はい/ばい/ぱい) = counter for cups/glasses."
+      },
+      {
+        "question": "えんぴつが 6_____あります。(There are 6 pencils.)",
+        "answer": "ぽん",
+        "options": [
+          "ぽん",
+          "まい",
+          "こ",
+          "つ"
+        ],
+        "explanation": "6本 = ろっぽん. 本(ほん/ぼん/ぽん) changes based on number: 6→ろっぽん."
+      },
+      {
+        "question": "よく かいものを しますか。——_____たまに します。(Do you often shop? — I shop occasionally.)",
+        "answer": "たまに",
+        "options": [
+          "たまに",
+          "よく",
+          "あまり",
+          "ぜんぜん"
+        ],
+        "explanation": "たまに = occasionally/sometimes. Frequency adverbs: いつも>よく>たまに>あまり〜ない>ぜんぜん〜ない."
+      },
+      {
+        "question": "ジュースを _____ぽん かいましたか。(How many bottles of juice did you buy?)",
+        "answer": "なんぼん",
+        "options": [
+          "なんぼん",
+          "なんまい",
+          "なんこ",
+          "なんつ"
+        ],
+        "explanation": "なんぼん = how many (long objects). 本 = counter for bottles, pens, etc."
+      },
+      {
+        "question": "にほんごを あまり _____。(I don't study Japanese much.)",
+        "answer": "べんきょうしません",
+        "options": [
+          "べんきょうしません",
+          "べんきょうします",
+          "べんきょうしました",
+          "べんきょうしませんでした"
+        ],
+        "explanation": "あまり〜ません = don't ~ much. Paired negative verb."
       }
     ]
   }

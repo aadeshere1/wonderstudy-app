@@ -32,7 +32,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 0,
-      "questionsCount": 3
+      "questionsCount": 20
     },
     "items": [
       {
@@ -67,6 +67,181 @@
           "せんしゅう、京都でかんこうしました。"
         ],
         "explanation": "去年 (きょねん) = last year. で = location of action. かんこうしました = went sightseeing (past)."
+      },
+      {
+        "question": "Saying 'I have never eaten sushi before.'",
+        "answer": "すしを たべたことが ありません。",
+        "options": [
+          "すしを たべたことが ありません。",
+          "すしを たべたことが あります。",
+          "すしを たべることが ありません。",
+          "すしを たべることが あります。"
+        ],
+        "explanation": "〜たことがない = have never done. Negative of experience."
+      },
+      {
+        "question": "Saying 'I brush my teeth before going to bed.'",
+        "answer": "ねる まえに はを みがきます。",
+        "options": [
+          "ねる まえに はを みがきます。",
+          "ねた あとで はを みがきます。",
+          "ねる あとで はを みがきます。",
+          "ねた まえに はを みがきます。"
+        ],
+        "explanation": "まえに = before doing. Dictionary form + まえに (not past tense)."
+      },
+      {
+        "question": "After finishing work, I go to the gym.",
+        "answer": "しごとが おわった あとで、ジムに いきます。",
+        "options": [
+          "しごとが おわった あとで、ジムに いきます。",
+          "しごとが おわる まえに、ジムに いきます。",
+          "しごとが おわったとき、ジムに いきます。",
+          "しごとが おわってから、ジムに いきます。"
+        ],
+        "explanation": "〜たあとで = after doing. Both あとで and てから work here."
+      },
+      {
+        "question": "Asking if someone has ever been to Kyoto:",
+        "answer": "きょうとに いったことが ありますか。",
+        "options": [
+          "きょうとに いったことが ありますか。",
+          "きょうとに いくことが ありますか。",
+          "きょうとに いったことを ありますか。",
+          "きょうとに いくことを ありますか。"
+        ],
+        "explanation": "〜たことがあります = have been (experience). いった = went (past of いく)."
+      },
+      {
+        "question": "Saying 'I have seen this movie three times.'",
+        "answer": "この えいがを さんかい みたことが あります。",
+        "options": [
+          "この えいがを さんかい みたことが あります。",
+          "この えいがを さんかい みることが あります。",
+          "この えいがを さんかい みたことを あります。",
+          "この えいがを さんかい みています。"
+        ],
+        "explanation": "〜たことがあります = have done (experience). さんかい = 3 times."
+      },
+      {
+        "question": "Please check your bag before leaving the house.",
+        "answer": "うちを でる まえに、かばんを たしかめてください。",
+        "options": [
+          "うちを でる まえに、かばんを たしかめてください。",
+          "うちを でた あとで、かばんを たしかめてください。",
+          "うちを でた まえに、かばんを たしかめてください。",
+          "うちを でる あとで、かばんを たしかめてください。"
+        ],
+        "explanation": "まえに = before. Dictionary form + まえに. たしかめる = to check/confirm."
+      },
+      {
+        "question": "I have never driven a car.",
+        "answer": "くるまを うんてんした ことが ありません。",
+        "options": [
+          "くるまを うんてんした ことが ありません。",
+          "くるまを うんてんする ことが ありません。",
+          "くるまを うんてんした ことが あります。",
+          "くるまは うんてんした ことが ありません。"
+        ],
+        "explanation": "〜たことがない = have never done. うんてんする = to drive."
+      },
+      {
+        "question": "After arriving at the hotel, call me.",
+        "answer": "ホテルに ついたあとで、でんわを してください。",
+        "options": [
+          "ホテルに ついたあとで、でんわを してください。",
+          "ホテルに つく まえに、でんわを してください。",
+          "ホテルに ついた まえに、でんわを してください。",
+          "ホテルに つく あとで、でんわを してください。"
+        ],
+        "explanation": "〜たあとで = after doing. つく = to arrive. てください = please."
+      },
+      {
+        "question": "Have you ever eaten natto? It's a Japanese food.",
+        "answer": "なっとうを たべたことが ありますか。にほんの たべものですよ。",
+        "options": [
+          "なっとうを たべたことが ありますか。",
+          "なっとうを たべることが ありますか。",
+          "なっとうを たべましたか。",
+          "なっとうを たべていますか。"
+        ],
+        "explanation": "〜たことがありますか = have you ever done ~? Experience question."
+      },
+      {
+        "question": "I checked my email after waking up.",
+        "answer": "おきた あとで、メールを チェックしました。",
+        "options": [
+          "おきた あとで、メールを チェックしました。",
+          "おきる まえに、メールを チェックしました。",
+          "おきた まえに、メールを チェックしました。",
+          "おきる あとで、メールを チェックしました。"
+        ],
+        "explanation": "〜たあとで = after doing. おきる → おきた (past)."
+      },
+      {
+        "question": "I had never heard this song before.",
+        "answer": "この うたを きいたことが ありませんでした。",
+        "options": [
+          "この うたを きいたことが ありませんでした。",
+          "この うたを きいたことが ありません。",
+          "この うたを きくことが ありませんでした。",
+          "この うたは きいたことが ありませんでした。"
+        ],
+        "explanation": "Past negative experience: 〜たことがありませんでした. きく = to hear/listen."
+      },
+      {
+        "question": "Before submitting, please read through the report.",
+        "answer": "ていしゅつする まえに、レポートを よんでください。",
+        "options": [
+          "ていしゅつする まえに、レポートを よんでください。",
+          "ていしゅつした あとで、レポートを よんでください。",
+          "ていしゅつする あとで、レポートを よんでください。",
+          "ていしゅつした まえに、レポートを よんでください。"
+        ],
+        "explanation": "まえに = before. Dictionary form + まえに. ていしゅつ = submission."
+      },
+      {
+        "question": "I've ridden a horse once.",
+        "answer": "いちど うまに のったことが あります。",
+        "options": [
+          "いちど うまに のったことが あります。",
+          "いちど うまを のったことが あります。",
+          "いちど うまに のることが あります。",
+          "いちど うまで のったことが あります。"
+        ],
+        "explanation": "に = on (riding). 〜たことがある = have done once. いちど = once."
+      },
+      {
+        "question": "After finishing the exam, let's go eat something good.",
+        "answer": "しけんが おわったあとで、なにかおいしいものを たべに いきましょう。",
+        "options": [
+          "しけんが おわったあとで、なにかおいしいものを たべに いきましょう。",
+          "しけんが おわるまえに、なにかおいしいものを たべに いきましょう。",
+          "しけんが おわったとき、なにかおいしいものを たべに いきましょう。",
+          "しけんが おわってから、なにかおいしいものを たべに いきましょう。"
+        ],
+        "explanation": "あとで = after. なにかおいしいもの = something delicious. たべにいく = go to eat."
+      },
+      {
+        "question": "Have you ever tried making Japanese food yourself?",
+        "answer": "じぶんで にほんりょうりを つくったことが ありますか。",
+        "options": [
+          "じぶんで にほんりょうりを つくったことが ありますか。",
+          "じぶんで にほんりょうりを つくることが ありますか。",
+          "じぶんで にほんりょうりが つくったことが ありますか。",
+          "じぶんで にほんりょうりを つくったことを ありますか。"
+        ],
+        "explanation": "じぶんで = by yourself. 〜たことがありますか = have you ever done ~?"
+      },
+      {
+        "question": "How do you say 'Please open the window'?",
+        "answer": "まどをあけてください。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you tell someone 'Please don't make noise here'?",
+        "answer": "ここでさわがないでください。",
+        "type": "short_answer"
       }
     ]
   },
@@ -75,7 +250,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 12,
-      "questionsCount": 3
+      "questionsCount": 20
     },
     "items": [
       {
@@ -110,6 +285,181 @@
           "せんしゅう、京都でかんこうしました。"
         ],
         "explanation": "去年 (きょねん) = last year. で = location of action. かんこうしました = went sightseeing (past)."
+      },
+      {
+        "question": "Saying 'I have never eaten sushi before.'",
+        "answer": "すしを たべたことが ありません。",
+        "options": [
+          "すしを たべたことが ありません。",
+          "すしを たべたことが あります。",
+          "すしを たべることが ありません。",
+          "すしを たべることが あります。"
+        ],
+        "explanation": "〜たことがない = have never done. Negative of experience."
+      },
+      {
+        "question": "Saying 'I brush my teeth before going to bed.'",
+        "answer": "ねる まえに はを みがきます。",
+        "options": [
+          "ねる まえに はを みがきます。",
+          "ねた あとで はを みがきます。",
+          "ねる あとで はを みがきます。",
+          "ねた まえに はを みがきます。"
+        ],
+        "explanation": "まえに = before doing. Dictionary form + まえに (not past tense)."
+      },
+      {
+        "question": "After finishing work, I go to the gym.",
+        "answer": "しごとが おわった あとで、ジムに いきます。",
+        "options": [
+          "しごとが おわった あとで、ジムに いきます。",
+          "しごとが おわる まえに、ジムに いきます。",
+          "しごとが おわったとき、ジムに いきます。",
+          "しごとが おわってから、ジムに いきます。"
+        ],
+        "explanation": "〜たあとで = after doing. Both あとで and てから work here."
+      },
+      {
+        "question": "Asking if someone has ever been to Kyoto:",
+        "answer": "きょうとに いったことが ありますか。",
+        "options": [
+          "きょうとに いったことが ありますか。",
+          "きょうとに いくことが ありますか。",
+          "きょうとに いったことを ありますか。",
+          "きょうとに いくことを ありますか。"
+        ],
+        "explanation": "〜たことがあります = have been (experience). いった = went (past of いく)."
+      },
+      {
+        "question": "Saying 'I have seen this movie three times.'",
+        "answer": "この えいがを さんかい みたことが あります。",
+        "options": [
+          "この えいがを さんかい みたことが あります。",
+          "この えいがを さんかい みることが あります。",
+          "この えいがを さんかい みたことを あります。",
+          "この えいがを さんかい みています。"
+        ],
+        "explanation": "〜たことがあります = have done (experience). さんかい = 3 times."
+      },
+      {
+        "question": "Please check your bag before leaving the house.",
+        "answer": "うちを でる まえに、かばんを たしかめてください。",
+        "options": [
+          "うちを でる まえに、かばんを たしかめてください。",
+          "うちを でた あとで、かばんを たしかめてください。",
+          "うちを でた まえに、かばんを たしかめてください。",
+          "うちを でる あとで、かばんを たしかめてください。"
+        ],
+        "explanation": "まえに = before. Dictionary form + まえに. たしかめる = to check/confirm."
+      },
+      {
+        "question": "I have never driven a car.",
+        "answer": "くるまを うんてんした ことが ありません。",
+        "options": [
+          "くるまを うんてんした ことが ありません。",
+          "くるまを うんてんする ことが ありません。",
+          "くるまを うんてんした ことが あります。",
+          "くるまは うんてんした ことが ありません。"
+        ],
+        "explanation": "〜たことがない = have never done. うんてんする = to drive."
+      },
+      {
+        "question": "After arriving at the hotel, call me.",
+        "answer": "ホテルに ついたあとで、でんわを してください。",
+        "options": [
+          "ホテルに ついたあとで、でんわを してください。",
+          "ホテルに つく まえに、でんわを してください。",
+          "ホテルに ついた まえに、でんわを してください。",
+          "ホテルに つく あとで、でんわを してください。"
+        ],
+        "explanation": "〜たあとで = after doing. つく = to arrive. てください = please."
+      },
+      {
+        "question": "Have you ever eaten natto? It's a Japanese food.",
+        "answer": "なっとうを たべたことが ありますか。にほんの たべものですよ。",
+        "options": [
+          "なっとうを たべたことが ありますか。",
+          "なっとうを たべることが ありますか。",
+          "なっとうを たべましたか。",
+          "なっとうを たべていますか。"
+        ],
+        "explanation": "〜たことがありますか = have you ever done ~? Experience question."
+      },
+      {
+        "question": "I checked my email after waking up.",
+        "answer": "おきた あとで、メールを チェックしました。",
+        "options": [
+          "おきた あとで、メールを チェックしました。",
+          "おきる まえに、メールを チェックしました。",
+          "おきた まえに、メールを チェックしました。",
+          "おきる あとで、メールを チェックしました。"
+        ],
+        "explanation": "〜たあとで = after doing. おきる → おきた (past)."
+      },
+      {
+        "question": "I had never heard this song before.",
+        "answer": "この うたを きいたことが ありませんでした。",
+        "options": [
+          "この うたを きいたことが ありませんでした。",
+          "この うたを きいたことが ありません。",
+          "この うたを きくことが ありませんでした。",
+          "この うたは きいたことが ありませんでした。"
+        ],
+        "explanation": "Past negative experience: 〜たことがありませんでした. きく = to hear/listen."
+      },
+      {
+        "question": "Before submitting, please read through the report.",
+        "answer": "ていしゅつする まえに、レポートを よんでください。",
+        "options": [
+          "ていしゅつする まえに、レポートを よんでください。",
+          "ていしゅつした あとで、レポートを よんでください。",
+          "ていしゅつする あとで、レポートを よんでください。",
+          "ていしゅつした まえに、レポートを よんでください。"
+        ],
+        "explanation": "まえに = before. Dictionary form + まえに. ていしゅつ = submission."
+      },
+      {
+        "question": "I've ridden a horse once.",
+        "answer": "いちど うまに のったことが あります。",
+        "options": [
+          "いちど うまに のったことが あります。",
+          "いちど うまを のったことが あります。",
+          "いちど うまに のることが あります。",
+          "いちど うまで のったことが あります。"
+        ],
+        "explanation": "に = on (riding). 〜たことがある = have done once. いちど = once."
+      },
+      {
+        "question": "After finishing the exam, let's go eat something good.",
+        "answer": "しけんが おわったあとで、なにかおいしいものを たべに いきましょう。",
+        "options": [
+          "しけんが おわったあとで、なにかおいしいものを たべに いきましょう。",
+          "しけんが おわるまえに、なにかおいしいものを たべに いきましょう。",
+          "しけんが おわったとき、なにかおいしいものを たべに いきましょう。",
+          "しけんが おわってから、なにかおいしいものを たべに いきましょう。"
+        ],
+        "explanation": "あとで = after. なにかおいしいもの = something delicious. たべにいく = go to eat."
+      },
+      {
+        "question": "Have you ever tried making Japanese food yourself?",
+        "answer": "じぶんで にほんりょうりを つくったことが ありますか。",
+        "options": [
+          "じぶんで にほんりょうりを つくったことが ありますか。",
+          "じぶんで にほんりょうりを つくることが ありますか。",
+          "じぶんで にほんりょうりが つくったことが ありますか。",
+          "じぶんで にほんりょうりを つくったことを ありますか。"
+        ],
+        "explanation": "じぶんで = by yourself. 〜たことがありますか = have you ever done ~?"
+      },
+      {
+        "question": "How do you say 'Please open the window'?",
+        "answer": "まどをあけてください。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you tell someone 'Please don't make noise here'?",
+        "answer": "ここでさわがないでください。",
+        "type": "short_answer"
       }
     ]
   }

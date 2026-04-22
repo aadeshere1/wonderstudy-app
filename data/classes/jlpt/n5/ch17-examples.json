@@ -32,7 +32,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 0,
-      "questionsCount": 3
+      "questionsCount": 20
     },
     "items": [
       {
@@ -67,6 +67,181 @@
           "Please say it quietly."
         ],
         "explanation": "はっきり = clearly/distinctly. はっきり言う = say clearly. はっきり言ってください = please say it clearly."
+      },
+      {
+        "question": "At a hotel asking staff to carry your luggage.",
+        "answer": "にもつを はこんで いただけませんか。",
+        "options": [
+          "にもつを はこんで いただけませんか。",
+          "にもつを はこんで ください。",
+          "にもつを はこんで くれませんか。",
+          "にもつを はこんで もらえませんか。"
+        ],
+        "explanation": "〜ていただけませんか = most polite request. はこぶ = to carry."
+      },
+      {
+        "question": "Asking a classmate casually to lend their notes.",
+        "answer": "ノートを かして くれませんか。",
+        "options": [
+          "ノートを かして くれませんか。",
+          "ノートを かして いただけませんか。",
+          "ノートを かして もらえませんか。",
+          "ノートを かして ください。"
+        ],
+        "explanation": "〜てくれませんか = friendly/casual request. Used between classmates."
+      },
+      {
+        "question": "Calling customer service: 'Could you check my order number?'",
+        "answer": "ちゅうもん ばんごうを たしかめて いただけませんか。",
+        "options": [
+          "ちゅうもん ばんごうを たしかめて いただけませんか。",
+          "ちゅうもん ばんごうを たしかめて ください。",
+          "ちゅうもん ばんごうを たしかめて くれませんか。",
+          "ちゅうもん ばんごうを たしかめて もらえませんか。"
+        ],
+        "explanation": "ていただけませんか = most polite. Appropriate for customer service calls."
+      },
+      {
+        "question": "Asking a stranger to take your photo at a tourist spot.",
+        "answer": "しゃしんを とって いただけませんか。",
+        "options": [
+          "しゃしんを とって いただけませんか。",
+          "しゃしんを とって ください。",
+          "しゃしんを とって くれませんか。",
+          "しゃしんを とって もらえませんか。"
+        ],
+        "explanation": "ていただけませんか = polite stranger request. とる = to take (photo)."
+      },
+      {
+        "question": "Asking your friend to come a bit early.",
+        "answer": "すこし はやく きて くれませんか。",
+        "options": [
+          "すこし はやく きて くれませんか。",
+          "すこし はやく きて いただけませんか。",
+          "すこし はやく きて もらえませんか。",
+          "すこし はやく きて ください。"
+        ],
+        "explanation": "くれませんか = casual request between friends. はやく = early."
+      },
+      {
+        "question": "Politely asking a shop clerk to show you a different size.",
+        "answer": "べつの サイズを みせて いただけませんか。",
+        "options": [
+          "べつの サイズを みせて いただけませんか。",
+          "べつの サイズを みせて ください。",
+          "べつの サイズを みせて くれませんか。",
+          "べつの サイズを みせて もらえませんか。"
+        ],
+        "explanation": "ていただけませんか = polite customer request. みせる = to show."
+      },
+      {
+        "question": "Asking the teacher to explain it one more time.",
+        "answer": "もう いちど せつめいして いただけませんか。",
+        "options": [
+          "もう いちど せつめいして いただけませんか。",
+          "もう いちど せつめいして ください。",
+          "もう いちど せつめいして くれませんか。",
+          "もう いちど せつめいして もらえませんか。"
+        ],
+        "explanation": "ていただけませんか = polite request to superior. せつめいする = to explain."
+      },
+      {
+        "question": "Asking someone to speak Japanese more slowly.",
+        "answer": "にほんごを もっと ゆっくり はなして いただけませんか。",
+        "options": [
+          "にほんごを もっと ゆっくり はなして いただけませんか。",
+          "にほんごを もっと ゆっくり はなして ください。",
+          "にほんごを もっと ゆっくり はなして くれませんか。",
+          "にほんごを もっと ゆっくり はなして もらえませんか。"
+        ],
+        "explanation": "ていただけませんか = most polite. ゆっくり = slowly. もっと = more."
+      },
+      {
+        "question": "Asking a colleague to cover for you tomorrow.",
+        "answer": "あした かわりに きて もらえませんか。",
+        "options": [
+          "あした かわりに きて もらえませんか。",
+          "あした かわりに きて いただけませんか。",
+          "あした かわりに きて くれませんか。",
+          "あした かわりに きて ください。"
+        ],
+        "explanation": "〜てもらえませんか = could you do for me? かわりに = instead of me. Same level as くれませんか."
+      },
+      {
+        "question": "Asking to switch seats on an airplane.",
+        "answer": "せきを かえて いただけませんか。",
+        "options": [
+          "せきを かえて いただけませんか。",
+          "せきを かえて ください。",
+          "せきを かえて くれませんか。",
+          "せきを かえて もらえませんか。"
+        ],
+        "explanation": "ていただけませんか = polite (to flight attendant). せき = seat. かえる = to change."
+      },
+      {
+        "question": "Asking your roommate to lower the TV volume.",
+        "answer": "テレビの おとを さげて くれませんか。",
+        "options": [
+          "テレビの おとを さげて くれませんか。",
+          "テレビの おとを さげて いただけませんか。",
+          "テレビの おとを さげて もらえませんか。",
+          "テレビの おとを さげて ください。"
+        ],
+        "explanation": "くれませんか = casual request (to roommate). おと = sound. さげる = to lower."
+      },
+      {
+        "question": "Asking an elderly person to fill in a form for you.",
+        "answer": "この もうしこみしょに きにゅうして いただけませんか。",
+        "options": [
+          "この もうしこみしょに きにゅうして いただけませんか。",
+          "この もうしこみしょに きにゅうして ください。",
+          "この もうしこみしょに きにゅうして くれませんか。",
+          "この もうしこみしょに きにゅうして もらえませんか。"
+        ],
+        "explanation": "ていただけませんか = very polite. もうしこみしょ = application form. きにゅう = to fill in."
+      },
+      {
+        "question": "Asking your friend to wait because you'll be 5 minutes late.",
+        "answer": "5ふんぐらい おくれますが、まって くれませんか。",
+        "options": [
+          "5ふんぐらい おくれますが、まって くれませんか。",
+          "5ふんぐらい おくれますが、まって いただけませんか。",
+          "5ふんぐらい おくれますが、まって もらえませんか。",
+          "5ふんぐらい おくれますが、まって ください。"
+        ],
+        "explanation": "くれませんか = casual. おくれます = will be late. まつ = to wait."
+      },
+      {
+        "question": "Asking the doctor to write a medical certificate.",
+        "answer": "しんだんしょを かいて いただけませんか。",
+        "options": [
+          "しんだんしょを かいて いただけませんか。",
+          "しんだんしょを かいて ください。",
+          "しんだんしょを かいて くれませんか。",
+          "しんだんしょを かいて もらえませんか。"
+        ],
+        "explanation": "ていただけませんか = very polite (to doctor). しんだんしょ = medical certificate."
+      },
+      {
+        "question": "Please tell me the way to the station.",
+        "answer": "えきへの みちを おしえて いただけませんか。",
+        "options": [
+          "えきへの みちを おしえて いただけませんか。",
+          "えきへの みちを おしえて ください。",
+          "えきへの みちを おしえて くれませんか。",
+          "えきへの みちを おしえて もらえませんか。"
+        ],
+        "explanation": "ていただけませんか = polite (to stranger). おしえる = to tell/teach."
+      },
+      {
+        "question": "How do you say 'I want to go to Kyoto someday'?",
+        "answer": "いつか京都にいきたいです。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Translate: 'I want to eat ramen before going home.'",
+        "answer": "かえるまえにラーメンをたべたいです。",
+        "type": "short_answer"
       }
     ]
   },
@@ -75,7 +250,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 12,
-      "questionsCount": 3
+      "questionsCount": 20
     },
     "items": [
       {
@@ -110,6 +285,181 @@
           "Please say it quietly."
         ],
         "explanation": "はっきり = clearly/distinctly. はっきり言う = say clearly. はっきり言ってください = please say it clearly."
+      },
+      {
+        "question": "At a hotel asking staff to carry your luggage.",
+        "answer": "にもつを はこんで いただけませんか。",
+        "options": [
+          "にもつを はこんで いただけませんか。",
+          "にもつを はこんで ください。",
+          "にもつを はこんで くれませんか。",
+          "にもつを はこんで もらえませんか。"
+        ],
+        "explanation": "〜ていただけませんか = most polite request. はこぶ = to carry."
+      },
+      {
+        "question": "Asking a classmate casually to lend their notes.",
+        "answer": "ノートを かして くれませんか。",
+        "options": [
+          "ノートを かして くれませんか。",
+          "ノートを かして いただけませんか。",
+          "ノートを かして もらえませんか。",
+          "ノートを かして ください。"
+        ],
+        "explanation": "〜てくれませんか = friendly/casual request. Used between classmates."
+      },
+      {
+        "question": "Calling customer service: 'Could you check my order number?'",
+        "answer": "ちゅうもん ばんごうを たしかめて いただけませんか。",
+        "options": [
+          "ちゅうもん ばんごうを たしかめて いただけませんか。",
+          "ちゅうもん ばんごうを たしかめて ください。",
+          "ちゅうもん ばんごうを たしかめて くれませんか。",
+          "ちゅうもん ばんごうを たしかめて もらえませんか。"
+        ],
+        "explanation": "ていただけませんか = most polite. Appropriate for customer service calls."
+      },
+      {
+        "question": "Asking a stranger to take your photo at a tourist spot.",
+        "answer": "しゃしんを とって いただけませんか。",
+        "options": [
+          "しゃしんを とって いただけませんか。",
+          "しゃしんを とって ください。",
+          "しゃしんを とって くれませんか。",
+          "しゃしんを とって もらえませんか。"
+        ],
+        "explanation": "ていただけませんか = polite stranger request. とる = to take (photo)."
+      },
+      {
+        "question": "Asking your friend to come a bit early.",
+        "answer": "すこし はやく きて くれませんか。",
+        "options": [
+          "すこし はやく きて くれませんか。",
+          "すこし はやく きて いただけませんか。",
+          "すこし はやく きて もらえませんか。",
+          "すこし はやく きて ください。"
+        ],
+        "explanation": "くれませんか = casual request between friends. はやく = early."
+      },
+      {
+        "question": "Politely asking a shop clerk to show you a different size.",
+        "answer": "べつの サイズを みせて いただけませんか。",
+        "options": [
+          "べつの サイズを みせて いただけませんか。",
+          "べつの サイズを みせて ください。",
+          "べつの サイズを みせて くれませんか。",
+          "べつの サイズを みせて もらえませんか。"
+        ],
+        "explanation": "ていただけませんか = polite customer request. みせる = to show."
+      },
+      {
+        "question": "Asking the teacher to explain it one more time.",
+        "answer": "もう いちど せつめいして いただけませんか。",
+        "options": [
+          "もう いちど せつめいして いただけませんか。",
+          "もう いちど せつめいして ください。",
+          "もう いちど せつめいして くれませんか。",
+          "もう いちど せつめいして もらえませんか。"
+        ],
+        "explanation": "ていただけませんか = polite request to superior. せつめいする = to explain."
+      },
+      {
+        "question": "Asking someone to speak Japanese more slowly.",
+        "answer": "にほんごを もっと ゆっくり はなして いただけませんか。",
+        "options": [
+          "にほんごを もっと ゆっくり はなして いただけませんか。",
+          "にほんごを もっと ゆっくり はなして ください。",
+          "にほんごを もっと ゆっくり はなして くれませんか。",
+          "にほんごを もっと ゆっくり はなして もらえませんか。"
+        ],
+        "explanation": "ていただけませんか = most polite. ゆっくり = slowly. もっと = more."
+      },
+      {
+        "question": "Asking a colleague to cover for you tomorrow.",
+        "answer": "あした かわりに きて もらえませんか。",
+        "options": [
+          "あした かわりに きて もらえませんか。",
+          "あした かわりに きて いただけませんか。",
+          "あした かわりに きて くれませんか。",
+          "あした かわりに きて ください。"
+        ],
+        "explanation": "〜てもらえませんか = could you do for me? かわりに = instead of me. Same level as くれませんか."
+      },
+      {
+        "question": "Asking to switch seats on an airplane.",
+        "answer": "せきを かえて いただけませんか。",
+        "options": [
+          "せきを かえて いただけませんか。",
+          "せきを かえて ください。",
+          "せきを かえて くれませんか。",
+          "せきを かえて もらえませんか。"
+        ],
+        "explanation": "ていただけませんか = polite (to flight attendant). せき = seat. かえる = to change."
+      },
+      {
+        "question": "Asking your roommate to lower the TV volume.",
+        "answer": "テレビの おとを さげて くれませんか。",
+        "options": [
+          "テレビの おとを さげて くれませんか。",
+          "テレビの おとを さげて いただけませんか。",
+          "テレビの おとを さげて もらえませんか。",
+          "テレビの おとを さげて ください。"
+        ],
+        "explanation": "くれませんか = casual request (to roommate). おと = sound. さげる = to lower."
+      },
+      {
+        "question": "Asking an elderly person to fill in a form for you.",
+        "answer": "この もうしこみしょに きにゅうして いただけませんか。",
+        "options": [
+          "この もうしこみしょに きにゅうして いただけませんか。",
+          "この もうしこみしょに きにゅうして ください。",
+          "この もうしこみしょに きにゅうして くれませんか。",
+          "この もうしこみしょに きにゅうして もらえませんか。"
+        ],
+        "explanation": "ていただけませんか = very polite. もうしこみしょ = application form. きにゅう = to fill in."
+      },
+      {
+        "question": "Asking your friend to wait because you'll be 5 minutes late.",
+        "answer": "5ふんぐらい おくれますが、まって くれませんか。",
+        "options": [
+          "5ふんぐらい おくれますが、まって くれませんか。",
+          "5ふんぐらい おくれますが、まって いただけませんか。",
+          "5ふんぐらい おくれますが、まって もらえませんか。",
+          "5ふんぐらい おくれますが、まって ください。"
+        ],
+        "explanation": "くれませんか = casual. おくれます = will be late. まつ = to wait."
+      },
+      {
+        "question": "Asking the doctor to write a medical certificate.",
+        "answer": "しんだんしょを かいて いただけませんか。",
+        "options": [
+          "しんだんしょを かいて いただけませんか。",
+          "しんだんしょを かいて ください。",
+          "しんだんしょを かいて くれませんか。",
+          "しんだんしょを かいて もらえませんか。"
+        ],
+        "explanation": "ていただけませんか = very polite (to doctor). しんだんしょ = medical certificate."
+      },
+      {
+        "question": "Please tell me the way to the station.",
+        "answer": "えきへの みちを おしえて いただけませんか。",
+        "options": [
+          "えきへの みちを おしえて いただけませんか。",
+          "えきへの みちを おしえて ください。",
+          "えきへの みちを おしえて くれませんか。",
+          "えきへの みちを おしえて もらえませんか。"
+        ],
+        "explanation": "ていただけませんか = polite (to stranger). おしえる = to tell/teach."
+      },
+      {
+        "question": "How do you say 'I want to go to Kyoto someday'?",
+        "answer": "いつか京都にいきたいです。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Translate: 'I want to eat ramen before going home.'",
+        "answer": "かえるまえにラーメンをたべたいです。",
+        "type": "short_answer"
       }
     ]
   }

@@ -32,7 +32,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 0,
-      "questionsCount": 3
+      "questionsCount": 20
     },
     "items": [
       {
@@ -67,6 +67,91 @@
           "Both A and B are natural"
         ],
         "explanation": "〜かどうかわかりません = don't know whether ~ or not. 〜かわかりません is also natural."
+      },
+      {
+        "question": "You're not sure if the meeting is at 3pm or 4pm. Express your uncertainty.",
+        "answer": "かいぎが3じか4じかわかりません。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I don't know whether it will snow tomorrow'?",
+        "answer": "あした雪がふるかどうかわかりません。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Ask someone to tell you where the restroom is (using embedded question).",
+        "answer": "トイレがどこにあるか、おしえてください。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I'm not sure whether this is correct'?",
+        "answer": "これがただしいかどうかわかりません。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Translate: 'I don't know who the teacher is.'",
+        "answer": "せんせいがだれかわかりません。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I don't know what to buy as a gift'?",
+        "answer": "プレゼントに何をかえばいいかわかりません。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Express that you're not sure whether the party is cancelled.",
+        "answer": "パーティーがキャンセルになるかどうかわかりません。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Translate: 'Please tell me how much this costs.'",
+        "answer": "これがいくらか、おしえてください。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I don't know whether my friend is coming or not'?",
+        "answer": "ともだちがくるかどうかわかりません。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Translate: 'I don't know who will win the game.'",
+        "answer": "しあいでだれがかつかわかりません。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you ask 'Do you know where the key is?'",
+        "answer": "かぎがどこにあるか、しっていますか。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I don't know whether I should study or sleep'?",
+        "answer": "べんきょうするかねるかわかりません。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Translate: 'Please let me know when you arrive.'",
+        "answer": "ついたら、おしえてください。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I don't know whether this restaurant is good'?",
+        "answer": "このレストランがいいかどうかわかりません。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Translate: 'I don't know how to read this kanji.'",
+        "answer": "このかんじがどうよむかわかりません。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Express that you don't know whether the shop is open on Sunday.",
+        "answer": "みせがにちようびにあいているかどうかわかりません。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I'm not sure how many people will come'?",
+        "answer": "なんにんくるかわかりません。",
+        "type": "short_answer"
       }
     ]
   },
@@ -75,7 +160,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 12,
-      "questionsCount": 3
+      "questionsCount": 20
     },
     "items": [
       {
@@ -110,6 +195,91 @@
           "Both A and B are natural"
         ],
         "explanation": "〜かどうかわかりません = don't know whether ~ or not. 〜かわかりません is also natural."
+      },
+      {
+        "question": "You're not sure if the meeting is at 3pm or 4pm. Express your uncertainty.",
+        "answer": "かいぎが3じか4じかわかりません。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I don't know whether it will snow tomorrow'?",
+        "answer": "あした雪がふるかどうかわかりません。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Ask someone to tell you where the restroom is (using embedded question).",
+        "answer": "トイレがどこにあるか、おしえてください。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I'm not sure whether this is correct'?",
+        "answer": "これがただしいかどうかわかりません。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Translate: 'I don't know who the teacher is.'",
+        "answer": "せんせいがだれかわかりません。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I don't know what to buy as a gift'?",
+        "answer": "プレゼントに何をかえばいいかわかりません。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Express that you're not sure whether the party is cancelled.",
+        "answer": "パーティーがキャンセルになるかどうかわかりません。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Translate: 'Please tell me how much this costs.'",
+        "answer": "これがいくらか、おしえてください。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I don't know whether my friend is coming or not'?",
+        "answer": "ともだちがくるかどうかわかりません。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Translate: 'I don't know who will win the game.'",
+        "answer": "しあいでだれがかつかわかりません。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you ask 'Do you know where the key is?'",
+        "answer": "かぎがどこにあるか、しっていますか。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I don't know whether I should study or sleep'?",
+        "answer": "べんきょうするかねるかわかりません。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Translate: 'Please let me know when you arrive.'",
+        "answer": "ついたら、おしえてください。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I don't know whether this restaurant is good'?",
+        "answer": "このレストランがいいかどうかわかりません。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Translate: 'I don't know how to read this kanji.'",
+        "answer": "このかんじがどうよむかわかりません。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Express that you don't know whether the shop is open on Sunday.",
+        "answer": "みせがにちようびにあいているかどうかわかりません。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I'm not sure how many people will come'?",
+        "answer": "なんにんくるかわかりません。",
+        "type": "short_answer"
       }
     ]
   }

@@ -44,7 +44,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 0,
-      "questionsCount": 8
+      "questionsCount": 20
     },
     "items": [
       {
@@ -134,6 +134,138 @@
           "たんじょうびでなんかげつですか。"
         ],
         "explanation": "まで = until/to. なんかげつ = how many months. 〜までなんかげつ = how many months until ~."
+      },
+      {
+        "question": "Someone asks your birthday. You were born on July 15th.",
+        "answer": "7がつ 15にちです。",
+        "options": [
+          "7がつ 15にちです。",
+          "7がつ じゅうごにちです。",
+          "しちがつ 15にちです。",
+          "7がつ じゅうごかです。"
+        ],
+        "explanation": "Month+がつ+date+にち. 15日 = じゅうごにち (regular reading from 11 onwards)."
+      },
+      {
+        "question": "You want to ask someone when their birthday is.",
+        "answer": "たんじょうびは いつですか。",
+        "options": [
+          "たんじょうびは いつですか。",
+          "たんじょうびは なんですか。",
+          "たんじょうびは どこですか。",
+          "たんじょうびは なんにちですか。"
+        ],
+        "explanation": "いつ = when. General time/date question."
+      },
+      {
+        "question": "Today is the 1st of March. How do you say the date?",
+        "answer": "3がつ ついたちです。",
+        "options": [
+          "3がつ ついたちです。",
+          "3がつ いちにちです。",
+          "さんがつ ひとつです。",
+          "みがつ ついたちです。"
+        ],
+        "explanation": "1日 = ついたち (irregular). 3月 = さんがつ."
+      },
+      {
+        "question": "'My birthday is February 14th.' How do you say it?",
+        "answer": "わたしの たんじょうびは にがつ じゅうよっかです。",
+        "options": [
+          "わたしの たんじょうびは にがつ じゅうよっかです。",
+          "わたしの たんじょうびは にがつ じゅうよにちです。",
+          "わたしの たんじょうびは にがつ じゅうよかです。",
+          "わたしの たんじょうびは ふたがつ じゅうよにちです。"
+        ],
+        "explanation": "14日 = じゅうよっか (irregular). 2月 = にがつ."
+      },
+      {
+        "question": "Asking 'What month does school start?'",
+        "answer": "がっこうは なんがつに はじまりますか。",
+        "options": [
+          "がっこうは なんがつに はじまりますか。",
+          "がっこうは いつに はじまりますか。",
+          "がっこうは なんにちに はじまりますか。",
+          "がっこうは なんようびに はじまりますか。"
+        ],
+        "explanation": "なんがつ = what month. に marks time of action."
+      },
+      {
+        "question": "Japan's national holiday 'Culture Day' is November 3rd.",
+        "answer": "ぶんかの ひは じゅういちがつ みっかです。",
+        "options": [
+          "ぶんかの ひは じゅういちがつ みっかです。",
+          "ぶんかの ひは じゅういちがつ さんにちです。",
+          "ぶんかの ひは じゅうひとがつ みっかです。",
+          "ぶんかの ひは いちいちがつ みっかです。"
+        ],
+        "explanation": "11月 = じゅういちがつ. 3日 = みっか."
+      },
+      {
+        "question": "You want to write August 20th in Japanese.",
+        "answer": "はちがつ はつか",
+        "options": [
+          "はちがつ はつか",
+          "はちがつ にじゅうにち",
+          "やがつ はつか",
+          "はちがつ はつにち"
+        ],
+        "explanation": "20日 = はつか (irregular). 8月 = はちがつ."
+      },
+      {
+        "question": "Asking 'What day of the week is Christmas this year?'",
+        "answer": "ことしの クリスマスは なんようびですか。",
+        "options": [
+          "ことしの クリスマスは なんようびですか。",
+          "ことしの クリスマスは いつようびですか。",
+          "ことしの クリスマスは なんにちですか。",
+          "ことしの クリスマスは なんがつですか。"
+        ],
+        "explanation": "なんようび = what day of the week. ことし = this year."
+      },
+      {
+        "question": "The exam is on the 10th of next month.",
+        "answer": "しけんは らいげつの とおかです。",
+        "options": [
+          "しけんは らいげつの とおかです。",
+          "しけんは らいげつの じゅうにちです。",
+          "しけんは らいげつの じゅっかです。",
+          "しけんは らいげつの とかです。"
+        ],
+        "explanation": "10日 = とおか (irregular). らいげつ = next month."
+      },
+      {
+        "question": "Wishing someone a happy birthday:",
+        "answer": "たんじょうび おめでとうございます。",
+        "options": [
+          "たんじょうび おめでとうございます。",
+          "たんじょうびに ありがとうございます。",
+          "たんじょうびは いいですね。",
+          "たんじょうびを おめでとうさまです。"
+        ],
+        "explanation": "〜おめでとうございます = Congratulations on ~. Standard birthday wish."
+      },
+      {
+        "question": "Golden Week in Japan is in May. Asking which dates:",
+        "answer": "ゴールデンウィークは なんにちから なんにちまでですか。",
+        "options": [
+          "ゴールデンウィークは なんにちから なんにちまでですか。",
+          "ゴールデンウィークは いつから いつまでですか。",
+          "ゴールデンウィークは なんがつから なんがつまでですか。",
+          "ゴールデンウィークは なんようびから なんようびまでですか。"
+        ],
+        "explanation": "なんにちからなんにちまで = from what date to what date."
+      },
+      {
+        "question": "The semester ends on March 31st.",
+        "answer": "がっきは さんがつ さんじゅういちにちに おわります。",
+        "options": [
+          "がっきは さんがつ さんじゅういちにちに おわります。",
+          "がっきは さんがつ さんじゅうにちに おわります。",
+          "がっきは みがつ さんじゅういちにちに おわります。",
+          "がっきは さんがつ みそかに おわります。"
+        ],
+        "explanation": "31日 = さんじゅういちにち. さんがつ = March. おわります = ends."
       }
     ]
   },
@@ -142,7 +274,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 12,
-      "questionsCount": 8
+      "questionsCount": 20
     },
     "items": [
       {
@@ -232,6 +364,138 @@
           "たんじょうびでなんかげつですか。"
         ],
         "explanation": "まで = until/to. なんかげつ = how many months. 〜までなんかげつ = how many months until ~."
+      },
+      {
+        "question": "Someone asks your birthday. You were born on July 15th.",
+        "answer": "7がつ 15にちです。",
+        "options": [
+          "7がつ 15にちです。",
+          "7がつ じゅうごにちです。",
+          "しちがつ 15にちです。",
+          "7がつ じゅうごかです。"
+        ],
+        "explanation": "Month+がつ+date+にち. 15日 = じゅうごにち (regular reading from 11 onwards)."
+      },
+      {
+        "question": "You want to ask someone when their birthday is.",
+        "answer": "たんじょうびは いつですか。",
+        "options": [
+          "たんじょうびは いつですか。",
+          "たんじょうびは なんですか。",
+          "たんじょうびは どこですか。",
+          "たんじょうびは なんにちですか。"
+        ],
+        "explanation": "いつ = when. General time/date question."
+      },
+      {
+        "question": "Today is the 1st of March. How do you say the date?",
+        "answer": "3がつ ついたちです。",
+        "options": [
+          "3がつ ついたちです。",
+          "3がつ いちにちです。",
+          "さんがつ ひとつです。",
+          "みがつ ついたちです。"
+        ],
+        "explanation": "1日 = ついたち (irregular). 3月 = さんがつ."
+      },
+      {
+        "question": "'My birthday is February 14th.' How do you say it?",
+        "answer": "わたしの たんじょうびは にがつ じゅうよっかです。",
+        "options": [
+          "わたしの たんじょうびは にがつ じゅうよっかです。",
+          "わたしの たんじょうびは にがつ じゅうよにちです。",
+          "わたしの たんじょうびは にがつ じゅうよかです。",
+          "わたしの たんじょうびは ふたがつ じゅうよにちです。"
+        ],
+        "explanation": "14日 = じゅうよっか (irregular). 2月 = にがつ."
+      },
+      {
+        "question": "Asking 'What month does school start?'",
+        "answer": "がっこうは なんがつに はじまりますか。",
+        "options": [
+          "がっこうは なんがつに はじまりますか。",
+          "がっこうは いつに はじまりますか。",
+          "がっこうは なんにちに はじまりますか。",
+          "がっこうは なんようびに はじまりますか。"
+        ],
+        "explanation": "なんがつ = what month. に marks time of action."
+      },
+      {
+        "question": "Japan's national holiday 'Culture Day' is November 3rd.",
+        "answer": "ぶんかの ひは じゅういちがつ みっかです。",
+        "options": [
+          "ぶんかの ひは じゅういちがつ みっかです。",
+          "ぶんかの ひは じゅういちがつ さんにちです。",
+          "ぶんかの ひは じゅうひとがつ みっかです。",
+          "ぶんかの ひは いちいちがつ みっかです。"
+        ],
+        "explanation": "11月 = じゅういちがつ. 3日 = みっか."
+      },
+      {
+        "question": "You want to write August 20th in Japanese.",
+        "answer": "はちがつ はつか",
+        "options": [
+          "はちがつ はつか",
+          "はちがつ にじゅうにち",
+          "やがつ はつか",
+          "はちがつ はつにち"
+        ],
+        "explanation": "20日 = はつか (irregular). 8月 = はちがつ."
+      },
+      {
+        "question": "Asking 'What day of the week is Christmas this year?'",
+        "answer": "ことしの クリスマスは なんようびですか。",
+        "options": [
+          "ことしの クリスマスは なんようびですか。",
+          "ことしの クリスマスは いつようびですか。",
+          "ことしの クリスマスは なんにちですか。",
+          "ことしの クリスマスは なんがつですか。"
+        ],
+        "explanation": "なんようび = what day of the week. ことし = this year."
+      },
+      {
+        "question": "The exam is on the 10th of next month.",
+        "answer": "しけんは らいげつの とおかです。",
+        "options": [
+          "しけんは らいげつの とおかです。",
+          "しけんは らいげつの じゅうにちです。",
+          "しけんは らいげつの じゅっかです。",
+          "しけんは らいげつの とかです。"
+        ],
+        "explanation": "10日 = とおか (irregular). らいげつ = next month."
+      },
+      {
+        "question": "Wishing someone a happy birthday:",
+        "answer": "たんじょうび おめでとうございます。",
+        "options": [
+          "たんじょうび おめでとうございます。",
+          "たんじょうびに ありがとうございます。",
+          "たんじょうびは いいですね。",
+          "たんじょうびを おめでとうさまです。"
+        ],
+        "explanation": "〜おめでとうございます = Congratulations on ~. Standard birthday wish."
+      },
+      {
+        "question": "Golden Week in Japan is in May. Asking which dates:",
+        "answer": "ゴールデンウィークは なんにちから なんにちまでですか。",
+        "options": [
+          "ゴールデンウィークは なんにちから なんにちまでですか。",
+          "ゴールデンウィークは いつから いつまでですか。",
+          "ゴールデンウィークは なんがつから なんがつまでですか。",
+          "ゴールデンウィークは なんようびから なんようびまでですか。"
+        ],
+        "explanation": "なんにちからなんにちまで = from what date to what date."
+      },
+      {
+        "question": "The semester ends on March 31st.",
+        "answer": "がっきは さんがつ さんじゅういちにちに おわります。",
+        "options": [
+          "がっきは さんがつ さんじゅういちにちに おわります。",
+          "がっきは さんがつ さんじゅうにちに おわります。",
+          "がっきは みがつ さんじゅういちにちに おわります。",
+          "がっきは さんがつ みそかに おわります。"
+        ],
+        "explanation": "31日 = さんじゅういちにち. さんがつ = March. おわります = ends."
       }
     ]
   }

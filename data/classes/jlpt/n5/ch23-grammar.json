@@ -32,7 +32,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 0,
-      "questionsCount": 5
+      "questionsCount": 20
     },
     "items": [
       {
@@ -89,6 +89,171 @@
           "水泳が得意です。"
         ],
         "explanation": "苦手 (にがて) = weak point / not good at. 水泳 (すいえい) = swimming."
+      },
+      {
+        "question": "あしたあめ ___ か どうか、わかりません。(I don't know whether it will rain tomorrow.)",
+        "answer": "が降る",
+        "options": [
+          "が降る",
+          "は降る",
+          "で降る",
+          "に降る"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "かれが来る ___ 、おしえてください。(Please tell me whether he will come.)",
+        "answer": "かどうか",
+        "options": [
+          "かどうか",
+          "のかを",
+          "かもしれない",
+          "かもしれを"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "しあいがあるか ___ 、まだわかりません。(I don't know yet whether there will be a match.)",
+        "answer": "どうか",
+        "options": [
+          "どうか",
+          "なにか",
+          "どこか",
+          "いつか"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "What does よくわかりません mean?",
+        "answer": "I don't understand well / I don't know well",
+        "options": [
+          "I don't understand well / I don't know well",
+          "I understood",
+          "I know",
+          "I can understand"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "How do you say 'I don't know whether the shop is open or not'?",
+        "answer": "みせがあいているかどうかわかりません。",
+        "options": [
+          "みせがあいているかどうかわかりません。",
+          "みせがあいているかわかりません。",
+          "みせがあくかわかりません。",
+          "みせがあくかどうかいいます。"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "バスが来るか ___ バスていで待っています。(I'm waiting at the bus stop not knowing whether the bus will come.)",
+        "answer": "どうか",
+        "options": [
+          "どうか",
+          "なにか",
+          "それか",
+          "どこか"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "どちらが ___ 、えらんでください。(Please choose which one is better.)",
+        "answer": "いいか",
+        "options": [
+          "いいか",
+          "よくか",
+          "いいかどうか",
+          "よいのか"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "I don't know when the exam is. Which is correct?",
+        "answer": "しけんがいつかわかりません。",
+        "options": [
+          "しけんがいつかわかりません。",
+          "しけんがいつかどうかわかりません。",
+          "しけんがいつかしりません。",
+          "しけんがいつかおしえてください。"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "How do you say 'Please tell me where the post office is'?",
+        "answer": "ゆうびんきょくがどこにあるか、おしえてください。",
+        "options": [
+          "ゆうびんきょくがどこにあるか、おしえてください。",
+          "ゆうびんきょくはどこですか。",
+          "ゆうびんきょくがどこかわかりますか。",
+          "ゆうびんきょくをどこかおしえてください。"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "Use 〜かどうか to embed 'Will she come?' into 'I don't know...'",
+        "answer": "かのじょがくるかどうかわかりません。",
+        "options": [
+          "かのじょがくるかどうかわかりません。",
+          "かのじょがくるかわかりません。",
+          "かのじょくるかどうかわかりません。",
+          "かのじょがくるかどうかです。"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "どこで会うか ___ もきめていません。(We haven't even decided where to meet.)",
+        "answer": "まだ",
+        "options": [
+          "まだ",
+          "もう",
+          "ちょうど",
+          "もし"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "Which question word is used to ask 'how many' in an embedded question?",
+        "answer": "いくつ",
+        "options": [
+          "いくつ",
+          "なに",
+          "どこ",
+          "いつ"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "How do you say 'I don't know what time the train leaves'?",
+        "answer": "でんしゃが何時に出るかわかりません。",
+        "options": [
+          "でんしゃが何時に出るかわかりません。",
+          "でんしゃが何時ですか。",
+          "でんしゃは何時に出るかどうかわかりません。",
+          "でんしゃの時間がわかりません。"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "〜かどうか is used when the embedded question is:",
+        "answer": "a yes/no question",
+        "options": [
+          "a yes/no question",
+          "a wh-question",
+          "a request",
+          "a command"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "〜か (without どうか) is used when the embedded question has:",
+        "answer": "a question word (who, what, where, etc.)",
+        "options": [
+          "a question word (who, what, where, etc.)",
+          "a yes/no answer",
+          "no verb",
+          "a polite ending"
+        ],
+        "type": "multiple_choice"
       }
     ]
   },
@@ -97,7 +262,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 12,
-      "questionsCount": 5
+      "questionsCount": 20
     },
     "items": [
       {
@@ -154,6 +319,171 @@
           "水泳が得意です。"
         ],
         "explanation": "苦手 (にがて) = weak point / not good at. 水泳 (すいえい) = swimming."
+      },
+      {
+        "question": "あしたあめ ___ か どうか、わかりません。(I don't know whether it will rain tomorrow.)",
+        "answer": "が降る",
+        "options": [
+          "が降る",
+          "は降る",
+          "で降る",
+          "に降る"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "かれが来る ___ 、おしえてください。(Please tell me whether he will come.)",
+        "answer": "かどうか",
+        "options": [
+          "かどうか",
+          "のかを",
+          "かもしれない",
+          "かもしれを"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "しあいがあるか ___ 、まだわかりません。(I don't know yet whether there will be a match.)",
+        "answer": "どうか",
+        "options": [
+          "どうか",
+          "なにか",
+          "どこか",
+          "いつか"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "What does よくわかりません mean?",
+        "answer": "I don't understand well / I don't know well",
+        "options": [
+          "I don't understand well / I don't know well",
+          "I understood",
+          "I know",
+          "I can understand"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "How do you say 'I don't know whether the shop is open or not'?",
+        "answer": "みせがあいているかどうかわかりません。",
+        "options": [
+          "みせがあいているかどうかわかりません。",
+          "みせがあいているかわかりません。",
+          "みせがあくかわかりません。",
+          "みせがあくかどうかいいます。"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "バスが来るか ___ バスていで待っています。(I'm waiting at the bus stop not knowing whether the bus will come.)",
+        "answer": "どうか",
+        "options": [
+          "どうか",
+          "なにか",
+          "それか",
+          "どこか"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "どちらが ___ 、えらんでください。(Please choose which one is better.)",
+        "answer": "いいか",
+        "options": [
+          "いいか",
+          "よくか",
+          "いいかどうか",
+          "よいのか"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "I don't know when the exam is. Which is correct?",
+        "answer": "しけんがいつかわかりません。",
+        "options": [
+          "しけんがいつかわかりません。",
+          "しけんがいつかどうかわかりません。",
+          "しけんがいつかしりません。",
+          "しけんがいつかおしえてください。"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "How do you say 'Please tell me where the post office is'?",
+        "answer": "ゆうびんきょくがどこにあるか、おしえてください。",
+        "options": [
+          "ゆうびんきょくがどこにあるか、おしえてください。",
+          "ゆうびんきょくはどこですか。",
+          "ゆうびんきょくがどこかわかりますか。",
+          "ゆうびんきょくをどこかおしえてください。"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "Use 〜かどうか to embed 'Will she come?' into 'I don't know...'",
+        "answer": "かのじょがくるかどうかわかりません。",
+        "options": [
+          "かのじょがくるかどうかわかりません。",
+          "かのじょがくるかわかりません。",
+          "かのじょくるかどうかわかりません。",
+          "かのじょがくるかどうかです。"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "どこで会うか ___ もきめていません。(We haven't even decided where to meet.)",
+        "answer": "まだ",
+        "options": [
+          "まだ",
+          "もう",
+          "ちょうど",
+          "もし"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "Which question word is used to ask 'how many' in an embedded question?",
+        "answer": "いくつ",
+        "options": [
+          "いくつ",
+          "なに",
+          "どこ",
+          "いつ"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "How do you say 'I don't know what time the train leaves'?",
+        "answer": "でんしゃが何時に出るかわかりません。",
+        "options": [
+          "でんしゃが何時に出るかわかりません。",
+          "でんしゃが何時ですか。",
+          "でんしゃは何時に出るかどうかわかりません。",
+          "でんしゃの時間がわかりません。"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "〜かどうか is used when the embedded question is:",
+        "answer": "a yes/no question",
+        "options": [
+          "a yes/no question",
+          "a wh-question",
+          "a request",
+          "a command"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "〜か (without どうか) is used when the embedded question has:",
+        "answer": "a question word (who, what, where, etc.)",
+        "options": [
+          "a question word (who, what, where, etc.)",
+          "a yes/no answer",
+          "no verb",
+          "a polite ending"
+        ],
+        "type": "multiple_choice"
       }
     ]
   }

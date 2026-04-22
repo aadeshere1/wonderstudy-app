@@ -44,7 +44,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 0,
-      "questionsCount": 8
+      "questionsCount": 20
     },
     "items": [
       {
@@ -134,6 +134,138 @@
           "これがざっしです。"
         ],
         "explanation": "これはNですか = Is this N? Simple question pattern with は and か."
+      },
+      {
+        "question": "You pick up something unfamiliar. How do you ask what it is?",
+        "answer": "これは なんですか。",
+        "options": [
+          "これは なんですか。",
+          "これは だれですか。",
+          "これは いつですか。",
+          "これは どこですか。"
+        ],
+        "explanation": "なん(なに) = what. これはなんですか = What is this?"
+      },
+      {
+        "question": "You want to say 'That (near you) is my dictionary.'",
+        "answer": "それは わたしの じしょです。",
+        "options": [
+          "それは わたしの じしょです。",
+          "あれは わたしが じしょです。",
+          "これは わたしを じしょです。",
+          "それを わたしの じしょです。"
+        ],
+        "explanation": "それは = that (near listener). わたしの = my. じしょ = dictionary."
+      },
+      {
+        "question": "Pointing at something far away, you ask what it is.",
+        "answer": "あれは なんですか。",
+        "options": [
+          "あれは なんですか。",
+          "それは なんですか。",
+          "これは なんですか。",
+          "どれは なんですか。"
+        ],
+        "explanation": "あれ = that (far from both speakers)."
+      },
+      {
+        "question": "Asking the price of an item in a shop:",
+        "answer": "これは いくらですか。",
+        "options": [
+          "これは いくらですか。",
+          "これは なんですか。",
+          "これは どこですか。",
+          "これは だれですか。"
+        ],
+        "explanation": "いくら = how much (price query)."
+      },
+      {
+        "question": "You want to say 'This is Mr Tanaka's book.'",
+        "answer": "これは たなかさんの ほんです。",
+        "options": [
+          "これは たなかさんの ほんです。",
+          "これが たなかさんを ほんです。",
+          "これは たなかさんが ほんです。",
+          "これも たなかさんに ほんです。"
+        ],
+        "explanation": "Person+の+noun = person's noun (possession)."
+      },
+      {
+        "question": "Someone shows you their ID card. How do you introduce yourself using こちらは?",
+        "answer": "こちらは やまださんです。",
+        "options": [
+          "こちらは やまださんです。",
+          "それは やまださんです。",
+          "あちらは やまださんです。",
+          "どちらは やまださんです。"
+        ],
+        "explanation": "こちらは used to introduce someone standing nearby."
+      },
+      {
+        "question": "Which word means 'that one' when choosing among several options?",
+        "answer": "どれ",
+        "options": [
+          "どれ",
+          "これ",
+          "それ",
+          "あれ"
+        ],
+        "explanation": "どれ = which one (of three or more)."
+      },
+      {
+        "question": "A: このかばんは スミスさんのですか。B: _____、わたしのじゃありません。",
+        "answer": "いいえ",
+        "options": [
+          "いいえ",
+          "はい",
+          "ええ",
+          "そう"
+        ],
+        "explanation": "いいえ = No (polite). Negation response."
+      },
+      {
+        "question": "You want to say 'That is not a camera, it is a phone.'",
+        "answer": "それは カメラじゃ ありません。でんわです。",
+        "options": [
+          "それは カメラじゃ ありません。でんわです。",
+          "それは カメラです。でんわじゃ ありません。",
+          "これは カメラじゃ ありません。でんわです。",
+          "それが カメラを ありません。でんわです。"
+        ],
+        "explanation": "〜じゃありません。〜です = It is not X. It is Y."
+      },
+      {
+        "question": "Asking 'Which one is yours?' among several bags:",
+        "answer": "どれが あなたのですか。",
+        "options": [
+          "どれが あなたのですか。",
+          "どこが あなたのですか。",
+          "だれが あなたのですか。",
+          "なにが あなたのですか。"
+        ],
+        "explanation": "どれ = which one (choosing from multiple items)."
+      },
+      {
+        "question": "You want to say 'This is 1,500 yen.'",
+        "answer": "これは せんごひゃくえんです。",
+        "options": [
+          "これは せんごひゃくえんです。",
+          "これは ごひゃくえんです。",
+          "これは いちまんえんです。",
+          "これは ひゃくえんです。"
+        ],
+        "explanation": "1500 = せんごひゃく. Japanese numbers: 1000=せん, 500=ごひゃく."
+      },
+      {
+        "question": "Politely confirming: 'Is this yours, Mr Yamada?'",
+        "answer": "これは やまださんのですか。",
+        "options": [
+          "これは やまださんのですか。",
+          "これを やまださんのですか。",
+          "これが やまださんですか。",
+          "これは やまださんでしたか。"
+        ],
+        "explanation": "〜のですか = Is it ~'s? Confirming possession."
       }
     ]
   },
@@ -142,7 +274,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 12,
-      "questionsCount": 8
+      "questionsCount": 20
     },
     "items": [
       {
@@ -232,6 +364,138 @@
           "これがざっしです。"
         ],
         "explanation": "これはNですか = Is this N? Simple question pattern with は and か."
+      },
+      {
+        "question": "You pick up something unfamiliar. How do you ask what it is?",
+        "answer": "これは なんですか。",
+        "options": [
+          "これは なんですか。",
+          "これは だれですか。",
+          "これは いつですか。",
+          "これは どこですか。"
+        ],
+        "explanation": "なん(なに) = what. これはなんですか = What is this?"
+      },
+      {
+        "question": "You want to say 'That (near you) is my dictionary.'",
+        "answer": "それは わたしの じしょです。",
+        "options": [
+          "それは わたしの じしょです。",
+          "あれは わたしが じしょです。",
+          "これは わたしを じしょです。",
+          "それを わたしの じしょです。"
+        ],
+        "explanation": "それは = that (near listener). わたしの = my. じしょ = dictionary."
+      },
+      {
+        "question": "Pointing at something far away, you ask what it is.",
+        "answer": "あれは なんですか。",
+        "options": [
+          "あれは なんですか。",
+          "それは なんですか。",
+          "これは なんですか。",
+          "どれは なんですか。"
+        ],
+        "explanation": "あれ = that (far from both speakers)."
+      },
+      {
+        "question": "Asking the price of an item in a shop:",
+        "answer": "これは いくらですか。",
+        "options": [
+          "これは いくらですか。",
+          "これは なんですか。",
+          "これは どこですか。",
+          "これは だれですか。"
+        ],
+        "explanation": "いくら = how much (price query)."
+      },
+      {
+        "question": "You want to say 'This is Mr Tanaka's book.'",
+        "answer": "これは たなかさんの ほんです。",
+        "options": [
+          "これは たなかさんの ほんです。",
+          "これが たなかさんを ほんです。",
+          "これは たなかさんが ほんです。",
+          "これも たなかさんに ほんです。"
+        ],
+        "explanation": "Person+の+noun = person's noun (possession)."
+      },
+      {
+        "question": "Someone shows you their ID card. How do you introduce yourself using こちらは?",
+        "answer": "こちらは やまださんです。",
+        "options": [
+          "こちらは やまださんです。",
+          "それは やまださんです。",
+          "あちらは やまださんです。",
+          "どちらは やまださんです。"
+        ],
+        "explanation": "こちらは used to introduce someone standing nearby."
+      },
+      {
+        "question": "Which word means 'that one' when choosing among several options?",
+        "answer": "どれ",
+        "options": [
+          "どれ",
+          "これ",
+          "それ",
+          "あれ"
+        ],
+        "explanation": "どれ = which one (of three or more)."
+      },
+      {
+        "question": "A: このかばんは スミスさんのですか。B: _____、わたしのじゃありません。",
+        "answer": "いいえ",
+        "options": [
+          "いいえ",
+          "はい",
+          "ええ",
+          "そう"
+        ],
+        "explanation": "いいえ = No (polite). Negation response."
+      },
+      {
+        "question": "You want to say 'That is not a camera, it is a phone.'",
+        "answer": "それは カメラじゃ ありません。でんわです。",
+        "options": [
+          "それは カメラじゃ ありません。でんわです。",
+          "それは カメラです。でんわじゃ ありません。",
+          "これは カメラじゃ ありません。でんわです。",
+          "それが カメラを ありません。でんわです。"
+        ],
+        "explanation": "〜じゃありません。〜です = It is not X. It is Y."
+      },
+      {
+        "question": "Asking 'Which one is yours?' among several bags:",
+        "answer": "どれが あなたのですか。",
+        "options": [
+          "どれが あなたのですか。",
+          "どこが あなたのですか。",
+          "だれが あなたのですか。",
+          "なにが あなたのですか。"
+        ],
+        "explanation": "どれ = which one (choosing from multiple items)."
+      },
+      {
+        "question": "You want to say 'This is 1,500 yen.'",
+        "answer": "これは せんごひゃくえんです。",
+        "options": [
+          "これは せんごひゃくえんです。",
+          "これは ごひゃくえんです。",
+          "これは いちまんえんです。",
+          "これは ひゃくえんです。"
+        ],
+        "explanation": "1500 = せんごひゃく. Japanese numbers: 1000=せん, 500=ごひゃく."
+      },
+      {
+        "question": "Politely confirming: 'Is this yours, Mr Yamada?'",
+        "answer": "これは やまださんのですか。",
+        "options": [
+          "これは やまださんのですか。",
+          "これを やまださんのですか。",
+          "これが やまださんですか。",
+          "これは やまださんでしたか。"
+        ],
+        "explanation": "〜のですか = Is it ~'s? Confirming possession."
       }
     ]
   }

@@ -33,7 +33,7 @@
       "answerMode": "mcq",
       "optionsCount": 4,
       "timeLimit": 0,
-      "questionsCount": 15
+      "questionsCount": 30
     },
     "items": [
       {
@@ -185,6 +185,156 @@
           "must not ~",
           "can't ~"
         ]
+      },
+      {
+        "question": "How do you say 'I'm tired / got tired' in Japanese?",
+        "answer": "つかれました (疲れました)",
+        "options": [
+          "つかれました (疲れました)",
+          "〜てしまいます",
+          "〜てしまいました",
+          "〜なければなりません"
+        ]
+      },
+      {
+        "question": "How do you say 'ended up doing ~ / unfortunately did ~' in Japanese?",
+        "answer": "〜てしまいました",
+        "options": [
+          "〜てしまいます",
+          "つかれました (疲れました)",
+          "〜てしまいました",
+          "〜なければなりません"
+        ]
+      },
+      {
+        "question": "How do you say 'end up doing ~ (habitual unfortunate)' in Japanese?",
+        "answer": "〜てしまいます",
+        "options": [
+          "つかれました (疲れました)",
+          "〜てしまいます",
+          "〜なければなりません",
+          "〜てしまいました"
+        ]
+      },
+      {
+        "question": "How do you say 'must ~ / have to ~' in Japanese?",
+        "answer": "〜なければなりません",
+        "options": [
+          "〜てしまいました",
+          "〜てしまいます",
+          "〜なければなりません",
+          "つかれました (疲れました)"
+        ]
+      },
+      {
+        "question": "How do you say 'don't have to ~ / it's OK not to ~' in Japanese?",
+        "answer": "〜なくてもいいです",
+        "options": [
+          "〜てしまいます",
+          "つかれました (疲れました)",
+          "〜てしまいました",
+          "〜なくてもいいです"
+        ]
+      },
+      {
+        "question": "How do you say 'to catch a cold' in Japanese?",
+        "answer": "かぜをひきます",
+        "options": [
+          "つかれました (疲れました)",
+          "かぜをひきます",
+          "〜てしまいます",
+          "〜てしまいました"
+        ]
+      },
+      {
+        "question": "How do you say 'to have a fever' in Japanese?",
+        "answer": "ねつがあります",
+        "options": [
+          "〜てしまいました",
+          "ねつがあります",
+          "〜てしまいます",
+          "つかれました (疲れました)"
+        ]
+      },
+      {
+        "question": "How do you say 'to have a headache' in Japanese?",
+        "answer": "あたまがいたいです",
+        "options": [
+          "〜てしまいます",
+          "つかれました (疲れました)",
+          "〜てしまいました",
+          "あたまがいたいです"
+        ]
+      },
+      {
+        "question": "How do you say 'to have a toothache' in Japanese?",
+        "answer": "はがいたいです",
+        "options": [
+          "〜てしまいます",
+          "〜てしまいました",
+          "つかれました (疲れました)",
+          "はがいたいです"
+        ]
+      },
+      {
+        "question": "How do you say 'painful / it hurts' in Japanese?",
+        "answer": "いたい (痛い)",
+        "options": [
+          "〜てしまいます",
+          "いたい (痛い)",
+          "〜てしまいました",
+          "つかれました (疲れました)"
+        ]
+      },
+      {
+        "question": "How do you say 'to be sick / ill' in Japanese?",
+        "answer": "びょうきです (病気です)",
+        "options": [
+          "〜てしまいます",
+          "〜てしまいました",
+          "びょうきです (病気です)",
+          "つかれました (疲れました)"
+        ]
+      },
+      {
+        "question": "How do you say 'medicine' in Japanese?",
+        "answer": "くすり (薬)",
+        "options": [
+          "〜てしまいました",
+          "〜てしまいます",
+          "くすり (薬)",
+          "つかれました (疲れました)"
+        ]
+      },
+      {
+        "question": "How do you say 'to take medicine' in Japanese?",
+        "answer": "のみます (薬を飲みます)",
+        "options": [
+          "〜てしまいます",
+          "〜てしまいました",
+          "つかれました (疲れました)",
+          "のみます (薬を飲みます)"
+        ]
+      },
+      {
+        "question": "How do you say 'to rest / take time off' in Japanese?",
+        "answer": "やすみます (休みます)",
+        "options": [
+          "〜てしまいました",
+          "やすみます (休みます)",
+          "つかれました (疲れました)",
+          "〜てしまいます"
+        ]
+      },
+      {
+        "question": "How do you say 'it's okay to ~ / you may ~' in Japanese?",
+        "answer": "〜てもいいです",
+        "options": [
+          "〜てもいいです",
+          "つかれました (疲れました)",
+          "〜てしまいました",
+          "〜てしまいます"
+        ]
       }
     ]
   },
@@ -194,9 +344,159 @@
       "answerMode": "mcq",
       "optionsCount": 4,
       "timeLimit": 10,
-      "questionsCount": 15
+      "questionsCount": 30
     },
     "items": [
+      {
+        "question": "つかれました (疲れました)",
+        "answer": "I'm tired / got tired",
+        "options": [
+          "I'm energetic",
+          "I'm tired / got tired",
+          "I'm fine",
+          "I'm busy"
+        ]
+      },
+      {
+        "question": "〜てしまいました",
+        "answer": "ended up doing ~ / unfortunately did ~",
+        "options": [
+          "ended up doing ~ / unfortunately did ~",
+          "will do ~",
+          "am doing ~",
+          "haven't done ~"
+        ]
+      },
+      {
+        "question": "〜てしまいます",
+        "answer": "end up doing ~ (habitual unfortunate)",
+        "options": [
+          "end up doing ~ (habitual unfortunate)",
+          "haven't done ~",
+          "will do ~",
+          "am doing ~"
+        ]
+      },
+      {
+        "question": "〜なければなりません",
+        "answer": "must ~ / have to ~",
+        "options": [
+          "want to ~",
+          "can ~",
+          "must ~ / have to ~",
+          "don't have to ~"
+        ]
+      },
+      {
+        "question": "〜なくてもいいです",
+        "answer": "don't have to ~ / it's OK not to ~",
+        "options": [
+          "don't have to ~ / it's OK not to ~",
+          "must ~",
+          "can't ~",
+          "have to ~"
+        ]
+      },
+      {
+        "question": "かぜをひきます",
+        "answer": "to catch a cold",
+        "options": [
+          "to go to hospital",
+          "to feel well",
+          "to catch a cold",
+          "to recover"
+        ]
+      },
+      {
+        "question": "ねつがあります",
+        "answer": "to have a fever",
+        "options": [
+          "to have a fever",
+          "to feel cold",
+          "to have no fever",
+          "to feel hot"
+        ]
+      },
+      {
+        "question": "あたまがいたいです",
+        "answer": "to have a headache",
+        "options": [
+          "to feel fine",
+          "to be tired",
+          "to have a headache",
+          "to have a stomachache"
+        ]
+      },
+      {
+        "question": "はがいたいです",
+        "answer": "to have a toothache",
+        "options": [
+          "to have a headache",
+          "to have a cold",
+          "to feel fine",
+          "to have a toothache"
+        ]
+      },
+      {
+        "question": "いたい (痛い)",
+        "answer": "painful / it hurts",
+        "options": [
+          "feels good",
+          "fine",
+          "painful / it hurts",
+          "comfortable"
+        ]
+      },
+      {
+        "question": "びょうきです (病気です)",
+        "answer": "to be sick / ill",
+        "options": [
+          "to be well",
+          "to be busy",
+          "to be fine",
+          "to be sick / ill"
+        ]
+      },
+      {
+        "question": "くすり (薬)",
+        "answer": "medicine",
+        "options": [
+          "injection",
+          "medicine",
+          "doctor",
+          "hospital"
+        ]
+      },
+      {
+        "question": "のみます (薬を飲みます)",
+        "answer": "to take medicine",
+        "options": [
+          "to take medicine",
+          "to give medicine",
+          "to rest",
+          "to get an injection"
+        ]
+      },
+      {
+        "question": "やすみます (休みます)",
+        "answer": "to rest / take time off",
+        "options": [
+          "to study",
+          "to work",
+          "to play",
+          "to rest / take time off"
+        ]
+      },
+      {
+        "question": "〜てもいいです",
+        "answer": "it's okay to ~ / you may ~",
+        "options": [
+          "must ~",
+          "it's okay to ~ / you may ~",
+          "must not ~",
+          "can't ~"
+        ]
+      },
       {
         "question": "How do you say 'I'm tired / got tired' in Japanese?",
         "answer": "つかれました (疲れました)",

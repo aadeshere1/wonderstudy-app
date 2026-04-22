@@ -32,7 +32,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 0,
-      "questionsCount": 3
+      "questionsCount": 20
     },
     "items": [
       {
@@ -67,6 +67,181 @@
           "All of these are natural"
         ],
         "explanation": "All three are natural! どのくらいでとどきますか = how long until it arrives? とどきます = to be delivered."
+      },
+      {
+        "question": "You want to send a package to your family in Nepal.",
+        "answer": "かぞくに にもつを おくりたいんですが。",
+        "options": [
+          "かぞくに にもつを おくりたいんですが。",
+          "かぞくに にもつを おくりますが。",
+          "かぞくに にもつを おくってください。",
+          "かぞくに にもつを おくりませんが。"
+        ],
+        "explanation": "〜たいんですが = I'd like to ~ (soft, polite want). Used at shops/post office."
+      },
+      {
+        "question": "You want to become a doctor in the future.",
+        "answer": "しょうらい いしゃに なりたいです。",
+        "options": [
+          "しょうらい いしゃに なりたいです。",
+          "しょうらい いしゃが なりたいです。",
+          "しょうらい いしゃで なりたいです。",
+          "しょうらい いしゃを なりたいです。"
+        ],
+        "explanation": "〜になりたい = want to become ~. に marks the goal. しょうらい = in the future."
+      },
+      {
+        "question": "At a bank: 'I'd like to open an account.'",
+        "answer": "こうざを ひらきたいんですが。",
+        "options": [
+          "こうざを ひらきたいんですが。",
+          "こうざを ひらきますが。",
+          "こうざを ひらいてください。",
+          "こうざを ひらきませんか。"
+        ],
+        "explanation": "〜たいんですが = I'd like to (introducing a request at a counter). こうざ = bank account."
+      },
+      {
+        "question": "Expressing your dream: 'I want to travel the world.'",
+        "answer": "せかいを りょこうしたいと おもっています。",
+        "options": [
+          "せかいを りょこうしたいと おもっています。",
+          "せかいを りょこうしたいです。",
+          "せかいを りょこうしますと おもっています。",
+          "せかいを りょこうしたいとおもいます。"
+        ],
+        "explanation": "〜たいとおもっています = am thinking of wanting to (ongoing thought/plan)."
+      },
+      {
+        "question": "At a restaurant: 'I'd like to order, please.'",
+        "answer": "ちゅうもんを したいんですが。",
+        "options": [
+          "ちゅうもんを したいんですが。",
+          "ちゅうもんを します。",
+          "ちゅうもんを してください。",
+          "ちゅうもんが したいです。"
+        ],
+        "explanation": "〜たいんですが = I'd like to. Used as a polite opener for a request."
+      },
+      {
+        "question": "You want to speak to the manager.",
+        "answer": "マネージャーに はなしたいんですが。",
+        "options": [
+          "マネージャーに はなしたいんですが。",
+          "マネージャーを はなしたいんですが。",
+          "マネージャーが はなしたいんですが。",
+          "マネージャーで はなしたいんですが。"
+        ],
+        "explanation": "に = to (person). はなしたいんですが = I'd like to speak to ~."
+      },
+      {
+        "question": "I want to try living abroad someday.",
+        "answer": "いつか がいこくに すんで みたいです。",
+        "options": [
+          "いつか がいこくに すんで みたいです。",
+          "いつか がいこくで すんで みたいです。",
+          "いつか がいこくを すんで みたいです。",
+          "いつか がいこくが すんで みたいです。"
+        ],
+        "explanation": "〜てみたい = want to try doing. に = in (living location). いつか = someday."
+      },
+      {
+        "question": "Asking a friend what kind of work they want to do.",
+        "answer": "どんな しごとを したいですか。",
+        "options": [
+          "どんな しごとを したいですか。",
+          "どんな しごとが したいですか。",
+          "どんな しごとに したいですか。",
+          "どんな しごとで したいですか。"
+        ],
+        "explanation": "を marks the activity. したいですか = do you want to do?"
+      },
+      {
+        "question": "I'd like to go to the restroom. Where is it?",
+        "answer": "トイレに いきたいんですが、どこですか。",
+        "options": [
+          "トイレに いきたいんですが、どこですか。",
+          "トイレを いきたいんですが、どこですか。",
+          "トイレが いきたいんですが、どこですか。",
+          "トイレで いきたいんですが、どこですか。"
+        ],
+        "explanation": "に = direction/destination. いきたいんですが = I'd like to go. どこですか = where is it?"
+      },
+      {
+        "question": "You want to study abroad in Japan for a year.",
+        "answer": "いちねんかん にほんに りゅうがくしたいと おもっています。",
+        "options": [
+          "いちねんかん にほんに りゅうがくしたいと おもっています。",
+          "いちねんかん にほんで りゅうがくしたいと おもっています。",
+          "いちねんかん にほんを りゅうがくしたいと おもっています。",
+          "いちねんかん にほんが りゅうがくしたいと おもっています。"
+        ],
+        "explanation": "に = destination. りゅうがく = study abroad. たいとおもっています = am thinking of wanting to."
+      },
+      {
+        "question": "At a clinic: 'I'd like to see a doctor.'",
+        "answer": "しんさつを うけたいんですが。",
+        "options": [
+          "しんさつを うけたいんですが。",
+          "しんさつを したいんですが。",
+          "しんさつが うけたいんですが。",
+          "しんさつで うけたいんですが。"
+        ],
+        "explanation": "しんさつをうける = to receive a medical examination. たいんですが = I'd like to."
+      },
+      {
+        "question": "I want to improve my Japanese speaking ability.",
+        "answer": "にほんごの かいわりょくを あげたいです。",
+        "options": [
+          "にほんごの かいわりょくを あげたいです。",
+          "にほんごの かいわりょくが あげたいです。",
+          "にほんごの かいわりょくに あげたいです。",
+          "にほんごの かいわりょくで あげたいです。"
+        ],
+        "explanation": "を marks the object to improve. あげる = to raise/improve. たい = want to."
+      },
+      {
+        "question": "I'd like to try eating sushi for the first time.",
+        "answer": "はじめて すしを たべて みたいんですが。",
+        "options": [
+          "はじめて すしを たべて みたいんですが。",
+          "はじめて すしが たべて みたいんですが。",
+          "はじめて すしを たべたいんですが。",
+          "はじめて すしに たべて みたいんですが。"
+        ],
+        "explanation": "〜てみたい = want to try doing. はじめて = for the first time."
+      },
+      {
+        "question": "You want to give your friend a birthday present.",
+        "answer": "ともだちに たんじょうびプレゼントを あげたいんですが、なにが いいですか。",
+        "options": [
+          "ともだちに たんじょうびプレゼントを あげたいんですが、なにが いいですか。",
+          "ともだちを たんじょうびプレゼントを あげたいんですが、なにが いいですか。",
+          "ともだちへ たんじょうびプレゼントを あげたいんですが、なにが いいですか。",
+          "ともだちが たんじょうびプレゼントを あげたいんですが、なにが いいですか。"
+        ],
+        "explanation": "に = to (recipient). あげる = to give. たいんですが = I'd like to."
+      },
+      {
+        "question": "I want to watch a Japanese movie without subtitles someday.",
+        "answer": "いつか じまくなしで にほんえいがを みたいです。",
+        "options": [
+          "いつか じまくなしで にほんえいがを みたいです。",
+          "いつか じまくなしに にほんえいがを みたいです。",
+          "いつか じまくなしが にほんえいがを みたいです。",
+          "いつか じまくなしは にほんえいがを みたいです。"
+        ],
+        "explanation": "〜なしで = without ~. じまく = subtitles. みたい = want to watch."
+      },
+      {
+        "question": "Translate: 'She is a kind person.'",
+        "answer": "かのじょはしんせつなひとです。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I want a quieter room'?",
+        "answer": "もっとしずかなへやがほしいです。",
+        "type": "short_answer"
       }
     ]
   },
@@ -75,7 +250,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 12,
-      "questionsCount": 3
+      "questionsCount": 20
     },
     "items": [
       {
@@ -110,6 +285,181 @@
           "All of these are natural"
         ],
         "explanation": "All three are natural! どのくらいでとどきますか = how long until it arrives? とどきます = to be delivered."
+      },
+      {
+        "question": "You want to send a package to your family in Nepal.",
+        "answer": "かぞくに にもつを おくりたいんですが。",
+        "options": [
+          "かぞくに にもつを おくりたいんですが。",
+          "かぞくに にもつを おくりますが。",
+          "かぞくに にもつを おくってください。",
+          "かぞくに にもつを おくりませんが。"
+        ],
+        "explanation": "〜たいんですが = I'd like to ~ (soft, polite want). Used at shops/post office."
+      },
+      {
+        "question": "You want to become a doctor in the future.",
+        "answer": "しょうらい いしゃに なりたいです。",
+        "options": [
+          "しょうらい いしゃに なりたいです。",
+          "しょうらい いしゃが なりたいです。",
+          "しょうらい いしゃで なりたいです。",
+          "しょうらい いしゃを なりたいです。"
+        ],
+        "explanation": "〜になりたい = want to become ~. に marks the goal. しょうらい = in the future."
+      },
+      {
+        "question": "At a bank: 'I'd like to open an account.'",
+        "answer": "こうざを ひらきたいんですが。",
+        "options": [
+          "こうざを ひらきたいんですが。",
+          "こうざを ひらきますが。",
+          "こうざを ひらいてください。",
+          "こうざを ひらきませんか。"
+        ],
+        "explanation": "〜たいんですが = I'd like to (introducing a request at a counter). こうざ = bank account."
+      },
+      {
+        "question": "Expressing your dream: 'I want to travel the world.'",
+        "answer": "せかいを りょこうしたいと おもっています。",
+        "options": [
+          "せかいを りょこうしたいと おもっています。",
+          "せかいを りょこうしたいです。",
+          "せかいを りょこうしますと おもっています。",
+          "せかいを りょこうしたいとおもいます。"
+        ],
+        "explanation": "〜たいとおもっています = am thinking of wanting to (ongoing thought/plan)."
+      },
+      {
+        "question": "At a restaurant: 'I'd like to order, please.'",
+        "answer": "ちゅうもんを したいんですが。",
+        "options": [
+          "ちゅうもんを したいんですが。",
+          "ちゅうもんを します。",
+          "ちゅうもんを してください。",
+          "ちゅうもんが したいです。"
+        ],
+        "explanation": "〜たいんですが = I'd like to. Used as a polite opener for a request."
+      },
+      {
+        "question": "You want to speak to the manager.",
+        "answer": "マネージャーに はなしたいんですが。",
+        "options": [
+          "マネージャーに はなしたいんですが。",
+          "マネージャーを はなしたいんですが。",
+          "マネージャーが はなしたいんですが。",
+          "マネージャーで はなしたいんですが。"
+        ],
+        "explanation": "に = to (person). はなしたいんですが = I'd like to speak to ~."
+      },
+      {
+        "question": "I want to try living abroad someday.",
+        "answer": "いつか がいこくに すんで みたいです。",
+        "options": [
+          "いつか がいこくに すんで みたいです。",
+          "いつか がいこくで すんで みたいです。",
+          "いつか がいこくを すんで みたいです。",
+          "いつか がいこくが すんで みたいです。"
+        ],
+        "explanation": "〜てみたい = want to try doing. に = in (living location). いつか = someday."
+      },
+      {
+        "question": "Asking a friend what kind of work they want to do.",
+        "answer": "どんな しごとを したいですか。",
+        "options": [
+          "どんな しごとを したいですか。",
+          "どんな しごとが したいですか。",
+          "どんな しごとに したいですか。",
+          "どんな しごとで したいですか。"
+        ],
+        "explanation": "を marks the activity. したいですか = do you want to do?"
+      },
+      {
+        "question": "I'd like to go to the restroom. Where is it?",
+        "answer": "トイレに いきたいんですが、どこですか。",
+        "options": [
+          "トイレに いきたいんですが、どこですか。",
+          "トイレを いきたいんですが、どこですか。",
+          "トイレが いきたいんですが、どこですか。",
+          "トイレで いきたいんですが、どこですか。"
+        ],
+        "explanation": "に = direction/destination. いきたいんですが = I'd like to go. どこですか = where is it?"
+      },
+      {
+        "question": "You want to study abroad in Japan for a year.",
+        "answer": "いちねんかん にほんに りゅうがくしたいと おもっています。",
+        "options": [
+          "いちねんかん にほんに りゅうがくしたいと おもっています。",
+          "いちねんかん にほんで りゅうがくしたいと おもっています。",
+          "いちねんかん にほんを りゅうがくしたいと おもっています。",
+          "いちねんかん にほんが りゅうがくしたいと おもっています。"
+        ],
+        "explanation": "に = destination. りゅうがく = study abroad. たいとおもっています = am thinking of wanting to."
+      },
+      {
+        "question": "At a clinic: 'I'd like to see a doctor.'",
+        "answer": "しんさつを うけたいんですが。",
+        "options": [
+          "しんさつを うけたいんですが。",
+          "しんさつを したいんですが。",
+          "しんさつが うけたいんですが。",
+          "しんさつで うけたいんですが。"
+        ],
+        "explanation": "しんさつをうける = to receive a medical examination. たいんですが = I'd like to."
+      },
+      {
+        "question": "I want to improve my Japanese speaking ability.",
+        "answer": "にほんごの かいわりょくを あげたいです。",
+        "options": [
+          "にほんごの かいわりょくを あげたいです。",
+          "にほんごの かいわりょくが あげたいです。",
+          "にほんごの かいわりょくに あげたいです。",
+          "にほんごの かいわりょくで あげたいです。"
+        ],
+        "explanation": "を marks the object to improve. あげる = to raise/improve. たい = want to."
+      },
+      {
+        "question": "I'd like to try eating sushi for the first time.",
+        "answer": "はじめて すしを たべて みたいんですが。",
+        "options": [
+          "はじめて すしを たべて みたいんですが。",
+          "はじめて すしが たべて みたいんですが。",
+          "はじめて すしを たべたいんですが。",
+          "はじめて すしに たべて みたいんですが。"
+        ],
+        "explanation": "〜てみたい = want to try doing. はじめて = for the first time."
+      },
+      {
+        "question": "You want to give your friend a birthday present.",
+        "answer": "ともだちに たんじょうびプレゼントを あげたいんですが、なにが いいですか。",
+        "options": [
+          "ともだちに たんじょうびプレゼントを あげたいんですが、なにが いいですか。",
+          "ともだちを たんじょうびプレゼントを あげたいんですが、なにが いいですか。",
+          "ともだちへ たんじょうびプレゼントを あげたいんですが、なにが いいですか。",
+          "ともだちが たんじょうびプレゼントを あげたいんですが、なにが いいですか。"
+        ],
+        "explanation": "に = to (recipient). あげる = to give. たいんですが = I'd like to."
+      },
+      {
+        "question": "I want to watch a Japanese movie without subtitles someday.",
+        "answer": "いつか じまくなしで にほんえいがを みたいです。",
+        "options": [
+          "いつか じまくなしで にほんえいがを みたいです。",
+          "いつか じまくなしに にほんえいがを みたいです。",
+          "いつか じまくなしが にほんえいがを みたいです。",
+          "いつか じまくなしは にほんえいがを みたいです。"
+        ],
+        "explanation": "〜なしで = without ~. じまく = subtitles. みたい = want to watch."
+      },
+      {
+        "question": "Translate: 'She is a kind person.'",
+        "answer": "かのじょはしんせつなひとです。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I want a quieter room'?",
+        "answer": "もっとしずかなへやがほしいです。",
+        "type": "short_answer"
       }
     ]
   }

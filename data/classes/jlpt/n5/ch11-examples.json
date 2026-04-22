@@ -44,7 +44,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 0,
-      "questionsCount": 5
+      "questionsCount": 20
     },
     "items": [
       {
@@ -101,6 +101,171 @@
           "All of the above are natural"
         ],
         "explanation": "All three are natural ways to ask. どうでしたか = how was it? なにをしましたか = what did you do? どこへいきましたか = where did you go?"
+      },
+      {
+        "question": "Asking if a friend went anywhere over the weekend:",
+        "answer": "しゅうまつ どこかへ いきましたか。",
+        "options": [
+          "しゅうまつ どこかへ いきましたか。",
+          "しゅうまつ どこへも いきましたか。",
+          "しゅうまつ どこかに いきましたか。",
+          "しゅうまつ どこでも いきましたか。"
+        ],
+        "explanation": "どこかへ = somewhere. Used in questions."
+      },
+      {
+        "question": "You stayed home all weekend. How do you say it?",
+        "answer": "しゅうまつは どこへも いきませんでした。うちに いました。",
+        "options": [
+          "しゅうまつは どこへも いきませんでした。うちに いました。",
+          "しゅうまつは どこかへ いきませんでした。うちに いました。",
+          "しゅうまつは どこへも いきました。うちに いました。",
+          "しゅうまつは どこにも いきませんでした。うちで いました。"
+        ],
+        "explanation": "どこへも+negative = didn't go anywhere. うちにいました = stayed at home."
+      },
+      {
+        "question": "Asking 'Did anyone call while I was out?'",
+        "answer": "るすの あいだに だれかから でんわが ありましたか。",
+        "options": [
+          "るすの あいだに だれかから でんわが ありましたか。",
+          "るすの あいだに だれもから でんわが ありましたか。",
+          "るすの あいだに だれかに でんわが ありましたか。",
+          "るすの あいだに だれでもから でんわが ありましたか。"
+        ],
+        "explanation": "だれかから = from someone. あいだに = during. るす = absence/being out."
+      },
+      {
+        "question": "You want to eat something sweet. How do you say it?",
+        "answer": "なにか あまい ものが たべたいです。",
+        "options": [
+          "なにか あまい ものが たべたいです。",
+          "なにも あまい ものが たべたいです。",
+          "なにか あまい ものを たべたいです。",
+          "なにでも あまい ものが たべたいです。"
+        ],
+        "explanation": "なにか = something. あまい = sweet. たべたい = want to eat."
+      },
+      {
+        "question": "Nobody understood the teacher's explanation.",
+        "answer": "せんせいの せつめいは だれも わかりませんでした。",
+        "options": [
+          "せんせいの せつめいは だれも わかりませんでした。",
+          "せんせいの せつめいは だれか わかりませんでした。",
+          "せんせいの せつめいは だれでも わかりませんでした。",
+          "せんせいの せつめいは だれかが わかりませんでした。"
+        ],
+        "explanation": "だれも+negative = nobody. わかりませんでした = didn't understand."
+      },
+      {
+        "question": "Asking if there's anything you should bring to the party:",
+        "answer": "パーティーに なにか もっていきましょうか。",
+        "options": [
+          "パーティーに なにか もっていきましょうか。",
+          "パーティーに なにも もっていきましょうか。",
+          "パーティーへ なにか もっていきますか。",
+          "パーティーで なにか もっていきましょうか。"
+        ],
+        "explanation": "なにか = something. 〜ましょうか = shall I ~? Offering to bring something."
+      },
+      {
+        "question": "I didn't eat anything since morning.",
+        "answer": "あさから なにも たべていません。",
+        "options": [
+          "あさから なにも たべていません。",
+          "あさから なにか たべていません。",
+          "あさから なにも たべません。",
+          "あさから なにでも たべていません。"
+        ],
+        "explanation": "なにも+negative = nothing. から = since. ていません = have not done."
+      },
+      {
+        "question": "Someone is knocking. Asking 'Is someone there?'",
+        "answer": "だれかいますか。",
+        "options": [
+          "だれかいますか。",
+          "だれもいますか。",
+          "だれでもいますか。",
+          "だれかはいますか。"
+        ],
+        "explanation": "だれか = someone. います = is there (person). だれかいますか = Is anyone there?"
+      },
+      {
+        "question": "Nothing special happened today.",
+        "answer": "きょうは なにも とくべつな ことが ありませんでした。",
+        "options": [
+          "きょうは なにも とくべつな ことが ありませんでした。",
+          "きょうは なにか とくべつな ことが ありませんでした。",
+          "きょうは なにでも とくべつな ことが ありませんでした。",
+          "きょうは なにも とくべつな ことが ありました。"
+        ],
+        "explanation": "なにも+negative = nothing. とくべつ = special. ありませんでした = there wasn't."
+      },
+      {
+        "question": "Let's go somewhere fun this weekend!",
+        "answer": "しゅうまつは どこか たのしいところへ いきましょう！",
+        "options": [
+          "しゅうまつは どこか たのしいところへ いきましょう！",
+          "しゅうまつは どこも たのしいところへ いきましょう！",
+          "しゅうまつは どこかで たのしいところへ いきましょう！",
+          "しゅうまつは どこへも たのしいところへ いきましょう！"
+        ],
+        "explanation": "どこかへ = to somewhere. ましょう = let's. たのしいところ = a fun place."
+      },
+      {
+        "question": "I looked everywhere but couldn't find my keys.",
+        "answer": "どこを さがしても かぎが みつかりませんでした。",
+        "options": [
+          "どこを さがしても かぎが みつかりませんでした。",
+          "どこかを さがしても かぎが みつかりませんでした。",
+          "どこへも さがしても かぎが みつかりませんでした。",
+          "どこでも さがしたが かぎが みつかりませんでした。"
+        ],
+        "explanation": "どこを〜ても = no matter where. さがす = to search. みつかりません = can't find."
+      },
+      {
+        "question": "Asking someone if they want anything to drink:",
+        "answer": "なにか のみますか。",
+        "options": [
+          "なにか のみますか。",
+          "なにも のみますか。",
+          "なにでも のみますか。",
+          "なにか のみましたか。"
+        ],
+        "explanation": "なにか = something/anything (in question). のみますか = will you drink?"
+      },
+      {
+        "question": "Nobody was absent from class today.",
+        "answer": "きょうは だれも やすみませんでした。",
+        "options": [
+          "きょうは だれも やすみませんでした。",
+          "きょうは だれか やすみませんでした。",
+          "きょうは だれでも やすみませんでした。",
+          "きょうは だれも やすみました。"
+        ],
+        "explanation": "だれも+negative = nobody. やすむ = to be absent/rest."
+      },
+      {
+        "question": "I want to live somewhere quiet and green.",
+        "answer": "どこか しずかで みどりの おおい ところに すみたいです。",
+        "options": [
+          "どこか しずかで みどりの おおい ところに すみたいです。",
+          "どこも しずかで みどりの おおい ところに すみたいです。",
+          "どこかへ しずかで みどりの おおい ところに すみたいです。",
+          "どこかで しずかで みどりの おおい ところに すみたいです。"
+        ],
+        "explanation": "どこかに = somewhere (location). すみたい = want to live. に marks destination."
+      },
+      {
+        "question": "Did anyone see my umbrella?",
+        "answer": "だれか わたしの かさを みましたか。",
+        "options": [
+          "だれか わたしの かさを みましたか。",
+          "だれも わたしの かさを みましたか。",
+          "だれかが わたしの かさを みませんでしたか。",
+          "だれでも わたしの かさを みましたか。"
+        ],
+        "explanation": "だれか = someone/anyone. みましたか = did you see?"
       }
     ]
   },
@@ -109,7 +274,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 12,
-      "questionsCount": 5
+      "questionsCount": 20
     },
     "items": [
       {
@@ -166,6 +331,171 @@
           "All of the above are natural"
         ],
         "explanation": "All three are natural ways to ask. どうでしたか = how was it? なにをしましたか = what did you do? どこへいきましたか = where did you go?"
+      },
+      {
+        "question": "Asking if a friend went anywhere over the weekend:",
+        "answer": "しゅうまつ どこかへ いきましたか。",
+        "options": [
+          "しゅうまつ どこかへ いきましたか。",
+          "しゅうまつ どこへも いきましたか。",
+          "しゅうまつ どこかに いきましたか。",
+          "しゅうまつ どこでも いきましたか。"
+        ],
+        "explanation": "どこかへ = somewhere. Used in questions."
+      },
+      {
+        "question": "You stayed home all weekend. How do you say it?",
+        "answer": "しゅうまつは どこへも いきませんでした。うちに いました。",
+        "options": [
+          "しゅうまつは どこへも いきませんでした。うちに いました。",
+          "しゅうまつは どこかへ いきませんでした。うちに いました。",
+          "しゅうまつは どこへも いきました。うちに いました。",
+          "しゅうまつは どこにも いきませんでした。うちで いました。"
+        ],
+        "explanation": "どこへも+negative = didn't go anywhere. うちにいました = stayed at home."
+      },
+      {
+        "question": "Asking 'Did anyone call while I was out?'",
+        "answer": "るすの あいだに だれかから でんわが ありましたか。",
+        "options": [
+          "るすの あいだに だれかから でんわが ありましたか。",
+          "るすの あいだに だれもから でんわが ありましたか。",
+          "るすの あいだに だれかに でんわが ありましたか。",
+          "るすの あいだに だれでもから でんわが ありましたか。"
+        ],
+        "explanation": "だれかから = from someone. あいだに = during. るす = absence/being out."
+      },
+      {
+        "question": "You want to eat something sweet. How do you say it?",
+        "answer": "なにか あまい ものが たべたいです。",
+        "options": [
+          "なにか あまい ものが たべたいです。",
+          "なにも あまい ものが たべたいです。",
+          "なにか あまい ものを たべたいです。",
+          "なにでも あまい ものが たべたいです。"
+        ],
+        "explanation": "なにか = something. あまい = sweet. たべたい = want to eat."
+      },
+      {
+        "question": "Nobody understood the teacher's explanation.",
+        "answer": "せんせいの せつめいは だれも わかりませんでした。",
+        "options": [
+          "せんせいの せつめいは だれも わかりませんでした。",
+          "せんせいの せつめいは だれか わかりませんでした。",
+          "せんせいの せつめいは だれでも わかりませんでした。",
+          "せんせいの せつめいは だれかが わかりませんでした。"
+        ],
+        "explanation": "だれも+negative = nobody. わかりませんでした = didn't understand."
+      },
+      {
+        "question": "Asking if there's anything you should bring to the party:",
+        "answer": "パーティーに なにか もっていきましょうか。",
+        "options": [
+          "パーティーに なにか もっていきましょうか。",
+          "パーティーに なにも もっていきましょうか。",
+          "パーティーへ なにか もっていきますか。",
+          "パーティーで なにか もっていきましょうか。"
+        ],
+        "explanation": "なにか = something. 〜ましょうか = shall I ~? Offering to bring something."
+      },
+      {
+        "question": "I didn't eat anything since morning.",
+        "answer": "あさから なにも たべていません。",
+        "options": [
+          "あさから なにも たべていません。",
+          "あさから なにか たべていません。",
+          "あさから なにも たべません。",
+          "あさから なにでも たべていません。"
+        ],
+        "explanation": "なにも+negative = nothing. から = since. ていません = have not done."
+      },
+      {
+        "question": "Someone is knocking. Asking 'Is someone there?'",
+        "answer": "だれかいますか。",
+        "options": [
+          "だれかいますか。",
+          "だれもいますか。",
+          "だれでもいますか。",
+          "だれかはいますか。"
+        ],
+        "explanation": "だれか = someone. います = is there (person). だれかいますか = Is anyone there?"
+      },
+      {
+        "question": "Nothing special happened today.",
+        "answer": "きょうは なにも とくべつな ことが ありませんでした。",
+        "options": [
+          "きょうは なにも とくべつな ことが ありませんでした。",
+          "きょうは なにか とくべつな ことが ありませんでした。",
+          "きょうは なにでも とくべつな ことが ありませんでした。",
+          "きょうは なにも とくべつな ことが ありました。"
+        ],
+        "explanation": "なにも+negative = nothing. とくべつ = special. ありませんでした = there wasn't."
+      },
+      {
+        "question": "Let's go somewhere fun this weekend!",
+        "answer": "しゅうまつは どこか たのしいところへ いきましょう！",
+        "options": [
+          "しゅうまつは どこか たのしいところへ いきましょう！",
+          "しゅうまつは どこも たのしいところへ いきましょう！",
+          "しゅうまつは どこかで たのしいところへ いきましょう！",
+          "しゅうまつは どこへも たのしいところへ いきましょう！"
+        ],
+        "explanation": "どこかへ = to somewhere. ましょう = let's. たのしいところ = a fun place."
+      },
+      {
+        "question": "I looked everywhere but couldn't find my keys.",
+        "answer": "どこを さがしても かぎが みつかりませんでした。",
+        "options": [
+          "どこを さがしても かぎが みつかりませんでした。",
+          "どこかを さがしても かぎが みつかりませんでした。",
+          "どこへも さがしても かぎが みつかりませんでした。",
+          "どこでも さがしたが かぎが みつかりませんでした。"
+        ],
+        "explanation": "どこを〜ても = no matter where. さがす = to search. みつかりません = can't find."
+      },
+      {
+        "question": "Asking someone if they want anything to drink:",
+        "answer": "なにか のみますか。",
+        "options": [
+          "なにか のみますか。",
+          "なにも のみますか。",
+          "なにでも のみますか。",
+          "なにか のみましたか。"
+        ],
+        "explanation": "なにか = something/anything (in question). のみますか = will you drink?"
+      },
+      {
+        "question": "Nobody was absent from class today.",
+        "answer": "きょうは だれも やすみませんでした。",
+        "options": [
+          "きょうは だれも やすみませんでした。",
+          "きょうは だれか やすみませんでした。",
+          "きょうは だれでも やすみませんでした。",
+          "きょうは だれも やすみました。"
+        ],
+        "explanation": "だれも+negative = nobody. やすむ = to be absent/rest."
+      },
+      {
+        "question": "I want to live somewhere quiet and green.",
+        "answer": "どこか しずかで みどりの おおい ところに すみたいです。",
+        "options": [
+          "どこか しずかで みどりの おおい ところに すみたいです。",
+          "どこも しずかで みどりの おおい ところに すみたいです。",
+          "どこかへ しずかで みどりの おおい ところに すみたいです。",
+          "どこかで しずかで みどりの おおい ところに すみたいです。"
+        ],
+        "explanation": "どこかに = somewhere (location). すみたい = want to live. に marks destination."
+      },
+      {
+        "question": "Did anyone see my umbrella?",
+        "answer": "だれか わたしの かさを みましたか。",
+        "options": [
+          "だれか わたしの かさを みましたか。",
+          "だれも わたしの かさを みましたか。",
+          "だれかが わたしの かさを みませんでしたか。",
+          "だれでも わたしの かさを みましたか。"
+        ],
+        "explanation": "だれか = someone/anyone. みましたか = did you see?"
       }
     ]
   }

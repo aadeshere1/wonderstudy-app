@@ -32,7 +32,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 0,
-      "questionsCount": 3
+      "questionsCount": 20
     },
     "items": [
       {
@@ -67,6 +67,187 @@
           "きょうはやすんではいけません。"
         ],
         "explanation": "〜なくてもいいです = don't have to. やすむ → やすまない → やすまなくてもいいです."
+      },
+      {
+        "question": "You're sick. Telling someone you have to take medicine.",
+        "answer": "くすりを のまなければ なりません。",
+        "options": [
+          "くすりを のまなければ なりません。",
+          "くすりを のまなくても いいです。",
+          "くすりを のんでは いけません。",
+          "くすりを のんでも かまいません。"
+        ],
+        "explanation": "〜なければなりません = must. のむ = to take/drink."
+      },
+      {
+        "question": "You don't need to bring anything to the party.",
+        "answer": "パーティーに なにも もってこなくても いいです。",
+        "options": [
+          "パーティーに なにも もってこなくても いいです。",
+          "パーティーに なにも もってこなければ なりません。",
+          "パーティーに なにも もってきては いけません。",
+          "パーティーに なにか もってこなくても いいです。"
+        ],
+        "explanation": "〜なくてもいいです = don't need to. もってくる = to bring."
+      },
+      {
+        "question": "Telling a child they must not run inside the library.",
+        "answer": "としょかんの なかで はしっては いけません。",
+        "options": [
+          "としょかんの なかで はしっては いけません。",
+          "としょかんの なかで はしらなければ なりません。",
+          "としょかんの なかで はしらなくても いいです。",
+          "としょかんの なかで はしっても いいです。"
+        ],
+        "explanation": "〜てはいけません = must not. はしる = to run."
+      },
+      {
+        "question": "You accidentally deleted an important file.",
+        "answer": "たいせつな ファイルを けして しまいました。",
+        "options": [
+          "たいせつな ファイルを けして しまいました。",
+          "たいせつな ファイルを けしては いけません。",
+          "たいせつな ファイルを けして ください。",
+          "たいせつな ファイルを けさなければ なりません。"
+        ],
+        "explanation": "〜てしまいました = accidentally did / did regrettably. けす = to delete."
+      },
+      {
+        "question": "You don't have to wear a tie at this company.",
+        "answer": "この かいしゃでは ネクタイを しなくても いいです。",
+        "options": [
+          "この かいしゃでは ネクタイを しなくても いいです。",
+          "この かいしゃでは ネクタイを しなければ なりません。",
+          "この かいしゃでは ネクタイを しては いけません。",
+          "この かいしゃでは ネクタイを しても かまいません。"
+        ],
+        "explanation": "〜なくてもいいです = no need to. ネクタイをする = to wear a tie."
+      },
+      {
+        "question": "You have to submit your report by Friday.",
+        "answer": "きんようびまでに レポートを ださなければ なりません。",
+        "options": [
+          "きんようびまでに レポートを ださなければ なりません。",
+          "きんようびまでに レポートを ださなくても いいです。",
+          "きんようびまでに レポートを だしては いけません。",
+          "きんようびまでに レポートを だして しまいました。"
+        ],
+        "explanation": "〜までに = by (deadline). ださなければなりません = must submit."
+      },
+      {
+        "question": "I accidentally bought the wrong size.",
+        "answer": "まちがった サイズを かって しまいました。",
+        "options": [
+          "まちがった サイズを かって しまいました。",
+          "まちがった サイズを かわなければ なりません。",
+          "まちがった サイズを かっては いけません。",
+          "まちがった サイズを かなくても いいです。"
+        ],
+        "explanation": "〜てしまう = accidentally/regrettably did. まちがった = wrong/mistaken."
+      },
+      {
+        "question": "Students must arrive by 9am.",
+        "answer": "がくせいは 9じまでに こなければ なりません。",
+        "options": [
+          "がくせいは 9じまでに こなければ なりません。",
+          "がくせいは 9じまでに こなくても いいです。",
+          "がくせいは 9じまでに きては いけません。",
+          "がくせいは 9じまでに きても かまいません。"
+        ],
+        "explanation": "〜までに = by. こなければなりません = must come. くる→こ+なければ."
+      },
+      {
+        "question": "You don't have to return the book today.",
+        "answer": "きょうは ほんを かえさなくても いいです。",
+        "options": [
+          "きょうは ほんを かえさなくても いいです。",
+          "きょうは ほんを かえさなければ なりません。",
+          "きょうは ほんを かえしては いけません。",
+          "きょうは ほんを かえして しまいました。"
+        ],
+        "explanation": "かえす = to return. 〜なくてもいいです = don't need to."
+      },
+      {
+        "question": "You forgot your homework. Explaining to the teacher.",
+        "answer": "しゅくだいを わすれて しまいました。すみません。",
+        "options": [
+          "しゅくだいを わすれて しまいました。すみません。",
+          "しゅくだいを わすれなければ なりません。",
+          "しゅくだいを わすれては いけません。",
+          "しゅくだいを わすれなくても いいです。"
+        ],
+        "explanation": "〜てしまいました = regrettably did. わすれる = to forget."
+      },
+      {
+        "question": "You need to save money for the trip.",
+        "answer": "りょこうのために おかねを ためなければ なりません。",
+        "options": [
+          "りょこうのために おかねを ためなければ なりません。",
+          "りょこうのために おかねを ためなくても いいです。",
+          "りょこうのために おかねを ためては いけません。",
+          "りょこうのために おかねを ためて しまいました。"
+        ],
+        "explanation": "〜ために = for the purpose of. ためる = to save (money). なければなりません = must."
+      },
+      {
+        "question": "You must not park your bicycle here.",
+        "answer": "ここに じてんしゃを とめては いけません。",
+        "options": [
+          "ここに じてんしゃを とめては いけません。",
+          "ここに じてんしゃを とめなければ なりません。",
+          "ここに じてんしゃを とめなくても いいです。",
+          "ここに じてんしゃを とめて しまいました。"
+        ],
+        "explanation": "〜てはいけません = must not. とめる = to park. じてんしゃ = bicycle."
+      },
+      {
+        "question": "You ate too much and feel sick.",
+        "answer": "たべすぎて しまって、きぶんが わるいです。",
+        "options": [
+          "たべすぎて しまって、きぶんが わるいです。",
+          "たべすぎては いけなくて、きぶんが わるいです。",
+          "たべすぎなければ ならなくて、きぶんが わるいです。",
+          "たべなくても いいのに、きぶんが わるいです。"
+        ],
+        "explanation": "〜てしまう = regrettably did. すぎる = too much. きぶんがわるい = feel sick."
+      },
+      {
+        "question": "You must go to the hospital because you have a fever.",
+        "answer": "ねつが あるので、びょういんに いかなければ なりません。",
+        "options": [
+          "ねつが あるので、びょういんに いかなければ なりません。",
+          "ねつが あるので、びょういんに いかなくても いいです。",
+          "ねつが あるので、びょういんに いっては いけません。",
+          "ねつが あるので、びょういんに いって しまいました。"
+        ],
+        "explanation": "ので = because. いかなければなりません = must go."
+      },
+      {
+        "question": "You don't have to clean your room today.",
+        "answer": "きょうは へやを そうじしなくても いいです。",
+        "options": [
+          "きょうは へやを そうじしなくても いいです。",
+          "きょうは へやを そうじしなければ なりません。",
+          "きょうは へやを そうじしては いけません。",
+          "きょうは へやを そうじして しまいました。"
+        ],
+        "explanation": "〜なくてもいいです = don't have to. そうじする = to clean."
+      },
+      {
+        "question": "I accidentally lost my train pass.",
+        "answer": "ていきけんを なくして しまいました。",
+        "options": [
+          "ていきけんを なくして しまいました。",
+          "ていきけんを なくさなければ なりません。",
+          "ていきけんを なくしては いけません。",
+          "ていきけんを なくさなくても いいです。"
+        ],
+        "explanation": "〜てしまいました = accidentally/regrettably. なくす = to lose. ていきけん = commuter pass."
+      },
+      {
+        "question": "How do you say 'I will go skiing this winter'?",
+        "answer": "ことしのふゆはスキーにいきます。",
+        "type": "short_answer"
       }
     ]
   },
@@ -75,7 +256,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 12,
-      "questionsCount": 3
+      "questionsCount": 20
     },
     "items": [
       {
@@ -110,6 +291,187 @@
           "きょうはやすんではいけません。"
         ],
         "explanation": "〜なくてもいいです = don't have to. やすむ → やすまない → やすまなくてもいいです."
+      },
+      {
+        "question": "You're sick. Telling someone you have to take medicine.",
+        "answer": "くすりを のまなければ なりません。",
+        "options": [
+          "くすりを のまなければ なりません。",
+          "くすりを のまなくても いいです。",
+          "くすりを のんでは いけません。",
+          "くすりを のんでも かまいません。"
+        ],
+        "explanation": "〜なければなりません = must. のむ = to take/drink."
+      },
+      {
+        "question": "You don't need to bring anything to the party.",
+        "answer": "パーティーに なにも もってこなくても いいです。",
+        "options": [
+          "パーティーに なにも もってこなくても いいです。",
+          "パーティーに なにも もってこなければ なりません。",
+          "パーティーに なにも もってきては いけません。",
+          "パーティーに なにか もってこなくても いいです。"
+        ],
+        "explanation": "〜なくてもいいです = don't need to. もってくる = to bring."
+      },
+      {
+        "question": "Telling a child they must not run inside the library.",
+        "answer": "としょかんの なかで はしっては いけません。",
+        "options": [
+          "としょかんの なかで はしっては いけません。",
+          "としょかんの なかで はしらなければ なりません。",
+          "としょかんの なかで はしらなくても いいです。",
+          "としょかんの なかで はしっても いいです。"
+        ],
+        "explanation": "〜てはいけません = must not. はしる = to run."
+      },
+      {
+        "question": "You accidentally deleted an important file.",
+        "answer": "たいせつな ファイルを けして しまいました。",
+        "options": [
+          "たいせつな ファイルを けして しまいました。",
+          "たいせつな ファイルを けしては いけません。",
+          "たいせつな ファイルを けして ください。",
+          "たいせつな ファイルを けさなければ なりません。"
+        ],
+        "explanation": "〜てしまいました = accidentally did / did regrettably. けす = to delete."
+      },
+      {
+        "question": "You don't have to wear a tie at this company.",
+        "answer": "この かいしゃでは ネクタイを しなくても いいです。",
+        "options": [
+          "この かいしゃでは ネクタイを しなくても いいです。",
+          "この かいしゃでは ネクタイを しなければ なりません。",
+          "この かいしゃでは ネクタイを しては いけません。",
+          "この かいしゃでは ネクタイを しても かまいません。"
+        ],
+        "explanation": "〜なくてもいいです = no need to. ネクタイをする = to wear a tie."
+      },
+      {
+        "question": "You have to submit your report by Friday.",
+        "answer": "きんようびまでに レポートを ださなければ なりません。",
+        "options": [
+          "きんようびまでに レポートを ださなければ なりません。",
+          "きんようびまでに レポートを ださなくても いいです。",
+          "きんようびまでに レポートを だしては いけません。",
+          "きんようびまでに レポートを だして しまいました。"
+        ],
+        "explanation": "〜までに = by (deadline). ださなければなりません = must submit."
+      },
+      {
+        "question": "I accidentally bought the wrong size.",
+        "answer": "まちがった サイズを かって しまいました。",
+        "options": [
+          "まちがった サイズを かって しまいました。",
+          "まちがった サイズを かわなければ なりません。",
+          "まちがった サイズを かっては いけません。",
+          "まちがった サイズを かなくても いいです。"
+        ],
+        "explanation": "〜てしまう = accidentally/regrettably did. まちがった = wrong/mistaken."
+      },
+      {
+        "question": "Students must arrive by 9am.",
+        "answer": "がくせいは 9じまでに こなければ なりません。",
+        "options": [
+          "がくせいは 9じまでに こなければ なりません。",
+          "がくせいは 9じまでに こなくても いいです。",
+          "がくせいは 9じまでに きては いけません。",
+          "がくせいは 9じまでに きても かまいません。"
+        ],
+        "explanation": "〜までに = by. こなければなりません = must come. くる→こ+なければ."
+      },
+      {
+        "question": "You don't have to return the book today.",
+        "answer": "きょうは ほんを かえさなくても いいです。",
+        "options": [
+          "きょうは ほんを かえさなくても いいです。",
+          "きょうは ほんを かえさなければ なりません。",
+          "きょうは ほんを かえしては いけません。",
+          "きょうは ほんを かえして しまいました。"
+        ],
+        "explanation": "かえす = to return. 〜なくてもいいです = don't need to."
+      },
+      {
+        "question": "You forgot your homework. Explaining to the teacher.",
+        "answer": "しゅくだいを わすれて しまいました。すみません。",
+        "options": [
+          "しゅくだいを わすれて しまいました。すみません。",
+          "しゅくだいを わすれなければ なりません。",
+          "しゅくだいを わすれては いけません。",
+          "しゅくだいを わすれなくても いいです。"
+        ],
+        "explanation": "〜てしまいました = regrettably did. わすれる = to forget."
+      },
+      {
+        "question": "You need to save money for the trip.",
+        "answer": "りょこうのために おかねを ためなければ なりません。",
+        "options": [
+          "りょこうのために おかねを ためなければ なりません。",
+          "りょこうのために おかねを ためなくても いいです。",
+          "りょこうのために おかねを ためては いけません。",
+          "りょこうのために おかねを ためて しまいました。"
+        ],
+        "explanation": "〜ために = for the purpose of. ためる = to save (money). なければなりません = must."
+      },
+      {
+        "question": "You must not park your bicycle here.",
+        "answer": "ここに じてんしゃを とめては いけません。",
+        "options": [
+          "ここに じてんしゃを とめては いけません。",
+          "ここに じてんしゃを とめなければ なりません。",
+          "ここに じてんしゃを とめなくても いいです。",
+          "ここに じてんしゃを とめて しまいました。"
+        ],
+        "explanation": "〜てはいけません = must not. とめる = to park. じてんしゃ = bicycle."
+      },
+      {
+        "question": "You ate too much and feel sick.",
+        "answer": "たべすぎて しまって、きぶんが わるいです。",
+        "options": [
+          "たべすぎて しまって、きぶんが わるいです。",
+          "たべすぎては いけなくて、きぶんが わるいです。",
+          "たべすぎなければ ならなくて、きぶんが わるいです。",
+          "たべなくても いいのに、きぶんが わるいです。"
+        ],
+        "explanation": "〜てしまう = regrettably did. すぎる = too much. きぶんがわるい = feel sick."
+      },
+      {
+        "question": "You must go to the hospital because you have a fever.",
+        "answer": "ねつが あるので、びょういんに いかなければ なりません。",
+        "options": [
+          "ねつが あるので、びょういんに いかなければ なりません。",
+          "ねつが あるので、びょういんに いかなくても いいです。",
+          "ねつが あるので、びょういんに いっては いけません。",
+          "ねつが あるので、びょういんに いって しまいました。"
+        ],
+        "explanation": "ので = because. いかなければなりません = must go."
+      },
+      {
+        "question": "You don't have to clean your room today.",
+        "answer": "きょうは へやを そうじしなくても いいです。",
+        "options": [
+          "きょうは へやを そうじしなくても いいです。",
+          "きょうは へやを そうじしなければ なりません。",
+          "きょうは へやを そうじしては いけません。",
+          "きょうは へやを そうじして しまいました。"
+        ],
+        "explanation": "〜なくてもいいです = don't have to. そうじする = to clean."
+      },
+      {
+        "question": "I accidentally lost my train pass.",
+        "answer": "ていきけんを なくして しまいました。",
+        "options": [
+          "ていきけんを なくして しまいました。",
+          "ていきけんを なくさなければ なりません。",
+          "ていきけんを なくしては いけません。",
+          "ていきけんを なくさなくても いいです。"
+        ],
+        "explanation": "〜てしまいました = accidentally/regrettably. なくす = to lose. ていきけん = commuter pass."
+      },
+      {
+        "question": "How do you say 'I will go skiing this winter'?",
+        "answer": "ことしのふゆはスキーにいきます。",
+        "type": "short_answer"
       }
     ]
   }

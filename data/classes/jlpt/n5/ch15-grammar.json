@@ -32,7 +32,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 0,
-      "questionsCount": 5
+      "questionsCount": 20
     },
     "items": [
       {
@@ -89,6 +89,171 @@
           "たべてください"
         ],
         "explanation": "〜なくてもいいです = don't have to do. たべなくても = even without eating."
+      },
+      {
+        "question": "くすりを のま_____なりません。(I must take medicine.)",
+        "answer": "なければ",
+        "options": [
+          "なければ",
+          "ないで",
+          "なくて",
+          "なくても"
+        ],
+        "explanation": "〜なければなりません = must do. Verb negative stem + なければなりません."
+      },
+      {
+        "question": "あした までに レポートを ださ_____ならない。(I must submit the report by tomorrow.)",
+        "answer": "なければ",
+        "options": [
+          "なければ",
+          "ないと",
+          "なくても",
+          "なくて"
+        ],
+        "explanation": "だす→ださなければならない. Must submit (obligation)."
+      },
+      {
+        "question": "むりを しては _____。(You must not overwork yourself.)",
+        "answer": "いけません",
+        "options": [
+          "いけません",
+          "いいです",
+          "なりません",
+          "かまいません"
+        ],
+        "explanation": "〜てはいけません = must not. むりをする = to overdo things."
+      },
+      {
+        "question": "きょうは はやく ねなければ _____。(I must sleep early today.)",
+        "answer": "なりません",
+        "options": [
+          "なりません",
+          "いけません",
+          "いいです",
+          "かまいません"
+        ],
+        "explanation": "〜なければなりません. なければ + なりません = must. Obligation."
+      },
+      {
+        "question": "いちにちじゅう あるいて、すこし つかれ_____。(I walked all day and got a little tired.)",
+        "answer": "ました",
+        "options": [
+          "ました",
+          "ています",
+          "てしまいました",
+          "ません"
+        ],
+        "explanation": "つかれました = got tired (past). Simple past result."
+      },
+      {
+        "question": "パスポートを もって いか_____ならない。(I must bring my passport.)",
+        "answer": "なければ",
+        "options": [
+          "なければ",
+          "なくても",
+          "ないで",
+          "なくて"
+        ],
+        "explanation": "いく→いかなければならない. Must go (with obligation)."
+      },
+      {
+        "question": "この くすりは まずかった ですが、飲ま_____なりませんでした。",
+        "answer": "なければ",
+        "options": [
+          "なければ",
+          "なくて",
+          "ないで",
+          "なくても"
+        ],
+        "explanation": "〜なければなりませんでした = had to do (past obligation)."
+      },
+      {
+        "question": "むりを しなくても _____。(You don't have to force yourself.)",
+        "answer": "いいです",
+        "options": [
+          "いいです",
+          "なりません",
+          "いけません",
+          "かまいません"
+        ],
+        "explanation": "〜なくてもいいです = don't need to. Absence of obligation."
+      },
+      {
+        "question": "きんえんです。タバコを すっては _____。",
+        "answer": "いけません",
+        "options": [
+          "いけません",
+          "なりません",
+          "いいです",
+          "かまいません"
+        ],
+        "explanation": "きんえん = no smoking. 〜てはいけません = prohibited."
+      },
+      {
+        "question": "にほんに すむなら、にほんごを べんきょうしなければ_____。",
+        "answer": "なりません",
+        "options": [
+          "なりません",
+          "いけません",
+          "いいです",
+          "かまいません"
+        ],
+        "explanation": "〜なければなりません = must. なら = if. Conditional obligation."
+      },
+      {
+        "question": "あした 8じに くるひつようが _____。(You don't need to come at 8 tomorrow.)",
+        "answer": "ありません",
+        "options": [
+          "ありません",
+          "なりません",
+          "いけません",
+          "います"
+        ],
+        "explanation": "〜ひつようがありません = no need to. Absence of necessity."
+      },
+      {
+        "question": "かれは びょうきなので、しごとを やすまなければ _____。",
+        "answer": "なりません",
+        "options": [
+          "なりません",
+          "いけません",
+          "いいです",
+          "かまいません"
+        ],
+        "explanation": "〜なければなりません = must. やすむ = to take a rest/day off."
+      },
+      {
+        "question": "もう おそいですね。そろそろ かえらなければ _____。",
+        "answer": "なりません",
+        "options": [
+          "なりません",
+          "いけません",
+          "いいです",
+          "かまいません"
+        ],
+        "explanation": "そろそろ = soon/about time. かえらなければなりません = must go home."
+      },
+      {
+        "question": "そのルールは まもらなければ _____。(Those rules must be followed.)",
+        "answer": "なりません",
+        "options": [
+          "なりません",
+          "いけません",
+          "なくていいです",
+          "かまいません"
+        ],
+        "explanation": "まもる = to follow (rules). まもらなければなりません = must follow."
+      },
+      {
+        "question": "かぜを ひいて しまいました。むりを _____なかった のに。",
+        "answer": "し",
+        "options": [
+          "し",
+          "させ",
+          "させて",
+          "して"
+        ],
+        "explanation": "してしまいました = ended up doing (regret). のに = even though / despite that."
       }
     ]
   },
@@ -97,7 +262,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 12,
-      "questionsCount": 5
+      "questionsCount": 20
     },
     "items": [
       {
@@ -154,6 +319,171 @@
           "たべてください"
         ],
         "explanation": "〜なくてもいいです = don't have to do. たべなくても = even without eating."
+      },
+      {
+        "question": "くすりを のま_____なりません。(I must take medicine.)",
+        "answer": "なければ",
+        "options": [
+          "なければ",
+          "ないで",
+          "なくて",
+          "なくても"
+        ],
+        "explanation": "〜なければなりません = must do. Verb negative stem + なければなりません."
+      },
+      {
+        "question": "あした までに レポートを ださ_____ならない。(I must submit the report by tomorrow.)",
+        "answer": "なければ",
+        "options": [
+          "なければ",
+          "ないと",
+          "なくても",
+          "なくて"
+        ],
+        "explanation": "だす→ださなければならない. Must submit (obligation)."
+      },
+      {
+        "question": "むりを しては _____。(You must not overwork yourself.)",
+        "answer": "いけません",
+        "options": [
+          "いけません",
+          "いいです",
+          "なりません",
+          "かまいません"
+        ],
+        "explanation": "〜てはいけません = must not. むりをする = to overdo things."
+      },
+      {
+        "question": "きょうは はやく ねなければ _____。(I must sleep early today.)",
+        "answer": "なりません",
+        "options": [
+          "なりません",
+          "いけません",
+          "いいです",
+          "かまいません"
+        ],
+        "explanation": "〜なければなりません. なければ + なりません = must. Obligation."
+      },
+      {
+        "question": "いちにちじゅう あるいて、すこし つかれ_____。(I walked all day and got a little tired.)",
+        "answer": "ました",
+        "options": [
+          "ました",
+          "ています",
+          "てしまいました",
+          "ません"
+        ],
+        "explanation": "つかれました = got tired (past). Simple past result."
+      },
+      {
+        "question": "パスポートを もって いか_____ならない。(I must bring my passport.)",
+        "answer": "なければ",
+        "options": [
+          "なければ",
+          "なくても",
+          "ないで",
+          "なくて"
+        ],
+        "explanation": "いく→いかなければならない. Must go (with obligation)."
+      },
+      {
+        "question": "この くすりは まずかった ですが、飲ま_____なりませんでした。",
+        "answer": "なければ",
+        "options": [
+          "なければ",
+          "なくて",
+          "ないで",
+          "なくても"
+        ],
+        "explanation": "〜なければなりませんでした = had to do (past obligation)."
+      },
+      {
+        "question": "むりを しなくても _____。(You don't have to force yourself.)",
+        "answer": "いいです",
+        "options": [
+          "いいです",
+          "なりません",
+          "いけません",
+          "かまいません"
+        ],
+        "explanation": "〜なくてもいいです = don't need to. Absence of obligation."
+      },
+      {
+        "question": "きんえんです。タバコを すっては _____。",
+        "answer": "いけません",
+        "options": [
+          "いけません",
+          "なりません",
+          "いいです",
+          "かまいません"
+        ],
+        "explanation": "きんえん = no smoking. 〜てはいけません = prohibited."
+      },
+      {
+        "question": "にほんに すむなら、にほんごを べんきょうしなければ_____。",
+        "answer": "なりません",
+        "options": [
+          "なりません",
+          "いけません",
+          "いいです",
+          "かまいません"
+        ],
+        "explanation": "〜なければなりません = must. なら = if. Conditional obligation."
+      },
+      {
+        "question": "あした 8じに くるひつようが _____。(You don't need to come at 8 tomorrow.)",
+        "answer": "ありません",
+        "options": [
+          "ありません",
+          "なりません",
+          "いけません",
+          "います"
+        ],
+        "explanation": "〜ひつようがありません = no need to. Absence of necessity."
+      },
+      {
+        "question": "かれは びょうきなので、しごとを やすまなければ _____。",
+        "answer": "なりません",
+        "options": [
+          "なりません",
+          "いけません",
+          "いいです",
+          "かまいません"
+        ],
+        "explanation": "〜なければなりません = must. やすむ = to take a rest/day off."
+      },
+      {
+        "question": "もう おそいですね。そろそろ かえらなければ _____。",
+        "answer": "なりません",
+        "options": [
+          "なりません",
+          "いけません",
+          "いいです",
+          "かまいません"
+        ],
+        "explanation": "そろそろ = soon/about time. かえらなければなりません = must go home."
+      },
+      {
+        "question": "そのルールは まもらなければ _____。(Those rules must be followed.)",
+        "answer": "なりません",
+        "options": [
+          "なりません",
+          "いけません",
+          "なくていいです",
+          "かまいません"
+        ],
+        "explanation": "まもる = to follow (rules). まもらなければなりません = must follow."
+      },
+      {
+        "question": "かぜを ひいて しまいました。むりを _____なかった のに。",
+        "answer": "し",
+        "options": [
+          "し",
+          "させ",
+          "させて",
+          "して"
+        ],
+        "explanation": "してしまいました = ended up doing (regret). のに = even though / despite that."
       }
     ]
   }

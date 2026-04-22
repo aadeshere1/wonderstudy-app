@@ -32,7 +32,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 0,
-      "questionsCount": 3
+      "questionsCount": 20
     },
     "items": [
       {
@@ -67,6 +67,91 @@
           "よていがあるけど、いけません。"
         ],
         "explanation": "〜から = because. よていがあるから = because I have plans. Natural reason for declining."
+      },
+      {
+        "question": "A friend invites you to a party but you already have plans. Decline politely.",
+        "answer": "すみません、よていがあるから、いけません。",
+        "type": "short_answer"
+      },
+      {
+        "question": "You're going to a friend's house and want to take a cake. How do you say this?",
+        "answer": "ともだちのうちにケーキをもっていきます。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you invite a friend to come along to the park?",
+        "answer": "こうえんにいっしょに行きませんか。",
+        "type": "short_answer"
+      },
+      {
+        "question": "It's cold outside. What reason do you give for bringing a coat?",
+        "answer": "さむいから、コートをもっていきます。",
+        "type": "short_answer"
+      },
+      {
+        "question": "You're returning from a trip and you bought a souvenir. How do you say 'I brought a souvenir'?",
+        "answer": "おみやげをもってきました。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I'll take my younger brother to the hospital'?",
+        "answer": "おとうとをびょういんにつれていきます。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Translate: 'Because it is interesting, I want to read this book.'",
+        "answer": "おもしろいから、このほんをよみたいです。",
+        "type": "short_answer"
+      },
+      {
+        "question": "You're meeting someone for the first time. How do you accept their invitation to lunch?",
+        "answer": "ぜひ、いっしょにたべましょう！",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'Please bring your dictionary'?",
+        "answer": "じしょをもってきてください。",
+        "type": "short_answer"
+      },
+      {
+        "question": "It's raining. How do you tell a friend to bring an umbrella?",
+        "answer": "あめだから、かさをもってきてください。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I'll take my dog for a walk'?",
+        "answer": "いぬをさんぽにつれていきます。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Your colleague forgot their lunch. How do you offer to bring it to them?",
+        "answer": "もっていきましょうか。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Translate: 'Because the movie is interesting, many people come.'",
+        "answer": "えいががおもしろいから、ひとがたくさんきます。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you ask 'Why did you come to Japan?'",
+        "answer": "なぜ（どうして）にほんにきたんですか。",
+        "type": "short_answer"
+      },
+      {
+        "question": "You came to Japan to study Japanese. How do you explain your reason?",
+        "answer": "日本語をべんきょうするために、日本にきました。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I brought children to the park'?",
+        "answer": "こどもをこうえんにつれていきました。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Translate: 'Won't you go see a movie together this weekend?'",
+        "answer": "こんしゅうまつ、いっしょにえいがを見にいきませんか。",
+        "type": "short_answer"
       }
     ]
   },
@@ -75,7 +160,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 12,
-      "questionsCount": 3
+      "questionsCount": 20
     },
     "items": [
       {
@@ -110,6 +195,91 @@
           "よていがあるけど、いけません。"
         ],
         "explanation": "〜から = because. よていがあるから = because I have plans. Natural reason for declining."
+      },
+      {
+        "question": "A friend invites you to a party but you already have plans. Decline politely.",
+        "answer": "すみません、よていがあるから、いけません。",
+        "type": "short_answer"
+      },
+      {
+        "question": "You're going to a friend's house and want to take a cake. How do you say this?",
+        "answer": "ともだちのうちにケーキをもっていきます。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you invite a friend to come along to the park?",
+        "answer": "こうえんにいっしょに行きませんか。",
+        "type": "short_answer"
+      },
+      {
+        "question": "It's cold outside. What reason do you give for bringing a coat?",
+        "answer": "さむいから、コートをもっていきます。",
+        "type": "short_answer"
+      },
+      {
+        "question": "You're returning from a trip and you bought a souvenir. How do you say 'I brought a souvenir'?",
+        "answer": "おみやげをもってきました。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I'll take my younger brother to the hospital'?",
+        "answer": "おとうとをびょういんにつれていきます。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Translate: 'Because it is interesting, I want to read this book.'",
+        "answer": "おもしろいから、このほんをよみたいです。",
+        "type": "short_answer"
+      },
+      {
+        "question": "You're meeting someone for the first time. How do you accept their invitation to lunch?",
+        "answer": "ぜひ、いっしょにたべましょう！",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'Please bring your dictionary'?",
+        "answer": "じしょをもってきてください。",
+        "type": "short_answer"
+      },
+      {
+        "question": "It's raining. How do you tell a friend to bring an umbrella?",
+        "answer": "あめだから、かさをもってきてください。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I'll take my dog for a walk'?",
+        "answer": "いぬをさんぽにつれていきます。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Your colleague forgot their lunch. How do you offer to bring it to them?",
+        "answer": "もっていきましょうか。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Translate: 'Because the movie is interesting, many people come.'",
+        "answer": "えいががおもしろいから、ひとがたくさんきます。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you ask 'Why did you come to Japan?'",
+        "answer": "なぜ（どうして）にほんにきたんですか。",
+        "type": "short_answer"
+      },
+      {
+        "question": "You came to Japan to study Japanese. How do you explain your reason?",
+        "answer": "日本語をべんきょうするために、日本にきました。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I brought children to the park'?",
+        "answer": "こどもをこうえんにつれていきました。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Translate: 'Won't you go see a movie together this weekend?'",
+        "answer": "こんしゅうまつ、いっしょにえいがを見にいきませんか。",
+        "type": "short_answer"
       }
     ]
   }

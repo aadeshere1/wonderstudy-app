@@ -32,7 +32,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 0,
-      "questionsCount": 3
+      "questionsCount": 20
     },
     "items": [
       {
@@ -67,6 +67,175 @@
           "東京をすんでいますか。"
         ],
         "explanation": "に marks location for living: 〜に住んでいます. すんでいますか = do you live?"
+      },
+      {
+        "question": "Someone calls. You're eating. What do you say?",
+        "answer": "いま ごはんを たべています。",
+        "options": [
+          "いま ごはんを たべています。",
+          "いま ごはんを たべました。",
+          "いま ごはんを たべます。",
+          "いま ごはんが たべています。"
+        ],
+        "explanation": "〜ています = currently doing (progressive). いま = now."
+      },
+      {
+        "question": "Asking what your friend is doing right now:",
+        "answer": "いま なにを していますか。",
+        "options": [
+          "いま なにを していますか。",
+          "いま なにを しましたか。",
+          "いま なにを しますか。",
+          "いま なにを するか。"
+        ],
+        "explanation": "〜ていますか = what are you doing? Progressive question."
+      },
+      {
+        "question": "You are looking for your glasses. 'I am looking for my glasses.'",
+        "answer": "めがねを さがしています。",
+        "options": [
+          "めがねを さがしています。",
+          "めがねを さがしました。",
+          "めがねを さがします。",
+          "めがねが さがしています。"
+        ],
+        "explanation": "さがしています = am looking for (ongoing action)."
+      },
+      {
+        "question": "Telling someone that the restaurant is closed now.",
+        "answer": "そのレストランは いまは しまっています。",
+        "options": [
+          "そのレストランは いまは しまっています。",
+          "そのレストランは いまは しまりました。",
+          "そのレストランは いまは しまります。",
+          "そのレストランは いまは あいています。"
+        ],
+        "explanation": "しまっています = is closed (resultant state). あいています = is open."
+      },
+      {
+        "question": "Asking 'Where does your father work?'",
+        "answer": "おとうさんは どこに つとめていますか。",
+        "options": [
+          "おとうさんは どこに つとめていますか。",
+          "おとうさんは どこで はたらいていますか。",
+          "おとうさんは どこを つとめていますか。",
+          "おとうさんは どこに はたらいていますか。"
+        ],
+        "explanation": "つとめています = is employed at. Both つとめる and はたらく work; つとめる implies a specific organization."
+      },
+      {
+        "question": "The teacher is writing on the blackboard.",
+        "answer": "せんせいは こくばんに かいています。",
+        "options": [
+          "せんせいは こくばんに かいています。",
+          "せんせいは こくばんを かいています。",
+          "せんせいは こくばんで かいています。",
+          "せんせいは こくばんが かいています。"
+        ],
+        "explanation": "に marks the surface written on. かいています = is writing (progressive)."
+      },
+      {
+        "question": "Telling a caller you'll call back because you're in a meeting.",
+        "answer": "いま かいぎ中ですので、あとで おかけなおします。",
+        "options": [
+          "いま かいぎ中ですので、あとで おかけなおします。",
+          "いま かいぎを していますので、あとで おかけなおします。",
+          "いま かいぎ中ですから、あとで かけなおします。",
+          "いま かいぎ中なので、あとで おかけなおします。"
+        ],
+        "explanation": "かいぎ中 = in a meeting. ので = because (polite reason). おかけなおします = will call back (polite)."
+      },
+      {
+        "question": "I already know that information.",
+        "answer": "その じょうほうは もう しっています。",
+        "options": [
+          "その じょうほうは もう しっています。",
+          "その じょうほうは もう しります。",
+          "その じょうほうは もう しりました。",
+          "その じょうほうは もう しっていません。"
+        ],
+        "explanation": "しっています = know (resultant state). NOT しります."
+      },
+      {
+        "question": "Children are playing in the park.",
+        "answer": "こどもたちが こうえんで あそんでいます。",
+        "options": [
+          "こどもたちが こうえんで あそんでいます。",
+          "こどもたちが こうえんに あそんでいます。",
+          "こどもたちが こうえんを あそんでいます。",
+          "こどもたちが こうえんで あそびます。"
+        ],
+        "explanation": "で = at (place of action). あそんでいます = are playing (progressive)."
+      },
+      {
+        "question": "My older brother is living in Tokyo.",
+        "answer": "あには とうきょうに すんでいます。",
+        "options": [
+          "あには とうきょうに すんでいます。",
+          "あには とうきょうで すんでいます。",
+          "あには とうきょうを すんでいます。",
+          "あには とうきょうが すんでいます。"
+        ],
+        "explanation": "に = at (location of living). すんでいます = lives/is living (resultant state)."
+      },
+      {
+        "question": "The dog is sleeping in front of the door.",
+        "answer": "いぬが ドアの まえで ねています。",
+        "options": [
+          "いぬが ドアの まえで ねています。",
+          "いぬが ドアの まえに ねています。",
+          "いぬが ドアの まえを ねています。",
+          "いぬが ドアの まえは ねています。"
+        ],
+        "explanation": "で = at (place of action). まえ = in front. ねています = is sleeping."
+      },
+      {
+        "question": "Telling a friend you're almost there (on the way).",
+        "answer": "いま むかっています。もうすぐ つきます。",
+        "options": [
+          "いま むかっています。もうすぐ つきます。",
+          "いま むかいます。もうすぐ つきます。",
+          "いま むかっていました。もうすぐ つきます。",
+          "いま むかっています。すぐ つきました。"
+        ],
+        "explanation": "むかっています = is heading toward. もうすぐ = very soon. つきます = will arrive."
+      },
+      {
+        "question": "I am tired because I've been standing for a long time.",
+        "answer": "ながい あいだ たっていたので、つかれました。",
+        "options": [
+          "ながい あいだ たっていたので、つかれました。",
+          "ながい あいだ たっているので、つかれました。",
+          "ながい あいだ たっていたから、つかれます。",
+          "ながい あいだ たつので、つかれました。"
+        ],
+        "explanation": "たっていた = was standing (past progressive). ので = because. つかれました = got tired."
+      },
+      {
+        "question": "She's been going to the same company for 10 years.",
+        "answer": "かのじょは 10ねんかん おなじ かいしゃに つとめています。",
+        "options": [
+          "かのじょは 10ねんかん おなじ かいしゃに つとめています。",
+          "かのじょは 10ねんかん おなじ かいしゃで つとめています。",
+          "かのじょは 10ねんかん おなじ かいしゃを つとめています。",
+          "かのじょは 10ねんかん おなじ かいしゃが つとめています。"
+        ],
+        "explanation": "に = at (organization). つとめています = is employed. 〜かん = for [duration]."
+      },
+      {
+        "question": "How do you say 'Please show me a cheaper one'?",
+        "answer": "もっとやすいものをみせてください。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Translate: 'May I pay by credit card?'",
+        "answer": "クレジットカードでしはらってもいいですか。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you ask for a receipt?",
+        "answer": "レシートをください。",
+        "type": "short_answer"
       }
     ]
   },
@@ -75,7 +244,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 12,
-      "questionsCount": 3
+      "questionsCount": 20
     },
     "items": [
       {
@@ -110,6 +279,175 @@
           "東京をすんでいますか。"
         ],
         "explanation": "に marks location for living: 〜に住んでいます. すんでいますか = do you live?"
+      },
+      {
+        "question": "Someone calls. You're eating. What do you say?",
+        "answer": "いま ごはんを たべています。",
+        "options": [
+          "いま ごはんを たべています。",
+          "いま ごはんを たべました。",
+          "いま ごはんを たべます。",
+          "いま ごはんが たべています。"
+        ],
+        "explanation": "〜ています = currently doing (progressive). いま = now."
+      },
+      {
+        "question": "Asking what your friend is doing right now:",
+        "answer": "いま なにを していますか。",
+        "options": [
+          "いま なにを していますか。",
+          "いま なにを しましたか。",
+          "いま なにを しますか。",
+          "いま なにを するか。"
+        ],
+        "explanation": "〜ていますか = what are you doing? Progressive question."
+      },
+      {
+        "question": "You are looking for your glasses. 'I am looking for my glasses.'",
+        "answer": "めがねを さがしています。",
+        "options": [
+          "めがねを さがしています。",
+          "めがねを さがしました。",
+          "めがねを さがします。",
+          "めがねが さがしています。"
+        ],
+        "explanation": "さがしています = am looking for (ongoing action)."
+      },
+      {
+        "question": "Telling someone that the restaurant is closed now.",
+        "answer": "そのレストランは いまは しまっています。",
+        "options": [
+          "そのレストランは いまは しまっています。",
+          "そのレストランは いまは しまりました。",
+          "そのレストランは いまは しまります。",
+          "そのレストランは いまは あいています。"
+        ],
+        "explanation": "しまっています = is closed (resultant state). あいています = is open."
+      },
+      {
+        "question": "Asking 'Where does your father work?'",
+        "answer": "おとうさんは どこに つとめていますか。",
+        "options": [
+          "おとうさんは どこに つとめていますか。",
+          "おとうさんは どこで はたらいていますか。",
+          "おとうさんは どこを つとめていますか。",
+          "おとうさんは どこに はたらいていますか。"
+        ],
+        "explanation": "つとめています = is employed at. Both つとめる and はたらく work; つとめる implies a specific organization."
+      },
+      {
+        "question": "The teacher is writing on the blackboard.",
+        "answer": "せんせいは こくばんに かいています。",
+        "options": [
+          "せんせいは こくばんに かいています。",
+          "せんせいは こくばんを かいています。",
+          "せんせいは こくばんで かいています。",
+          "せんせいは こくばんが かいています。"
+        ],
+        "explanation": "に marks the surface written on. かいています = is writing (progressive)."
+      },
+      {
+        "question": "Telling a caller you'll call back because you're in a meeting.",
+        "answer": "いま かいぎ中ですので、あとで おかけなおします。",
+        "options": [
+          "いま かいぎ中ですので、あとで おかけなおします。",
+          "いま かいぎを していますので、あとで おかけなおします。",
+          "いま かいぎ中ですから、あとで かけなおします。",
+          "いま かいぎ中なので、あとで おかけなおします。"
+        ],
+        "explanation": "かいぎ中 = in a meeting. ので = because (polite reason). おかけなおします = will call back (polite)."
+      },
+      {
+        "question": "I already know that information.",
+        "answer": "その じょうほうは もう しっています。",
+        "options": [
+          "その じょうほうは もう しっています。",
+          "その じょうほうは もう しります。",
+          "その じょうほうは もう しりました。",
+          "その じょうほうは もう しっていません。"
+        ],
+        "explanation": "しっています = know (resultant state). NOT しります."
+      },
+      {
+        "question": "Children are playing in the park.",
+        "answer": "こどもたちが こうえんで あそんでいます。",
+        "options": [
+          "こどもたちが こうえんで あそんでいます。",
+          "こどもたちが こうえんに あそんでいます。",
+          "こどもたちが こうえんを あそんでいます。",
+          "こどもたちが こうえんで あそびます。"
+        ],
+        "explanation": "で = at (place of action). あそんでいます = are playing (progressive)."
+      },
+      {
+        "question": "My older brother is living in Tokyo.",
+        "answer": "あには とうきょうに すんでいます。",
+        "options": [
+          "あには とうきょうに すんでいます。",
+          "あには とうきょうで すんでいます。",
+          "あには とうきょうを すんでいます。",
+          "あには とうきょうが すんでいます。"
+        ],
+        "explanation": "に = at (location of living). すんでいます = lives/is living (resultant state)."
+      },
+      {
+        "question": "The dog is sleeping in front of the door.",
+        "answer": "いぬが ドアの まえで ねています。",
+        "options": [
+          "いぬが ドアの まえで ねています。",
+          "いぬが ドアの まえに ねています。",
+          "いぬが ドアの まえを ねています。",
+          "いぬが ドアの まえは ねています。"
+        ],
+        "explanation": "で = at (place of action). まえ = in front. ねています = is sleeping."
+      },
+      {
+        "question": "Telling a friend you're almost there (on the way).",
+        "answer": "いま むかっています。もうすぐ つきます。",
+        "options": [
+          "いま むかっています。もうすぐ つきます。",
+          "いま むかいます。もうすぐ つきます。",
+          "いま むかっていました。もうすぐ つきます。",
+          "いま むかっています。すぐ つきました。"
+        ],
+        "explanation": "むかっています = is heading toward. もうすぐ = very soon. つきます = will arrive."
+      },
+      {
+        "question": "I am tired because I've been standing for a long time.",
+        "answer": "ながい あいだ たっていたので、つかれました。",
+        "options": [
+          "ながい あいだ たっていたので、つかれました。",
+          "ながい あいだ たっているので、つかれました。",
+          "ながい あいだ たっていたから、つかれます。",
+          "ながい あいだ たつので、つかれました。"
+        ],
+        "explanation": "たっていた = was standing (past progressive). ので = because. つかれました = got tired."
+      },
+      {
+        "question": "She's been going to the same company for 10 years.",
+        "answer": "かのじょは 10ねんかん おなじ かいしゃに つとめています。",
+        "options": [
+          "かのじょは 10ねんかん おなじ かいしゃに つとめています。",
+          "かのじょは 10ねんかん おなじ かいしゃで つとめています。",
+          "かのじょは 10ねんかん おなじ かいしゃを つとめています。",
+          "かのじょは 10ねんかん おなじ かいしゃが つとめています。"
+        ],
+        "explanation": "に = at (organization). つとめています = is employed. 〜かん = for [duration]."
+      },
+      {
+        "question": "How do you say 'Please show me a cheaper one'?",
+        "answer": "もっとやすいものをみせてください。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Translate: 'May I pay by credit card?'",
+        "answer": "クレジットカードでしはらってもいいですか。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you ask for a receipt?",
+        "answer": "レシートをください。",
+        "type": "short_answer"
       }
     ]
   }

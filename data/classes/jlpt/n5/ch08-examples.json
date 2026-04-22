@@ -44,7 +44,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 0,
-      "questionsCount": 8
+      "questionsCount": 20
     },
     "items": [
       {
@@ -134,6 +134,138 @@
           "まどを開けてはいけません。"
         ],
         "explanation": "開けます (あけます) = to open. → 開けて + ください = Please open."
+      },
+      {
+        "question": "You want to ask if you can sit next to someone on a train.",
+        "answer": "ここに すわっても いいですか。",
+        "options": [
+          "ここに すわっても いいですか。",
+          "ここを すわっても いいですか。",
+          "ここで すわっても いいですか。",
+          "ここが すわっても いいですか。"
+        ],
+        "explanation": "に marks location for sitting (すわる). てもいいですか = may I."
+      },
+      {
+        "question": "In a museum: 'Please do not touch the exhibits.'",
+        "answer": "てんじひんに さわらないで ください。",
+        "options": [
+          "てんじひんに さわらないで ください。",
+          "てんじひんを さわっては いけません。",
+          "てんじひんが さわらないで ください。",
+          "てんじひんで さわらないで ください。"
+        ],
+        "explanation": "〜ないでください = please don't ~. さわる = to touch. Both forms are correct."
+      },
+      {
+        "question": "Asking permission to open the window in a classroom.",
+        "answer": "まどを あけても いいですか。",
+        "options": [
+          "まどを あけても いいですか。",
+          "まどが あけても いいですか。",
+          "まどで あけても いいですか。",
+          "まどに あけても いいですか。"
+        ],
+        "explanation": "を marks the object (window). あける = open. てもいいですか = may I."
+      },
+      {
+        "question": "The teacher says 'You don't need to submit the report today.'",
+        "answer": "きょう レポートを ださなくても いいです。",
+        "options": [
+          "きょう レポートを ださなくても いいです。",
+          "きょう レポートを だしては いけません。",
+          "きょう レポートを だしても いいです。",
+          "きょう レポートを ださないで ください。"
+        ],
+        "explanation": "〜なくてもいいです = don't need to do ~. Absence of obligation."
+      },
+      {
+        "question": "Politely asking someone to speak more slowly.",
+        "answer": "もっと ゆっくり はなして いただけませんか。",
+        "options": [
+          "もっと ゆっくり はなして いただけませんか。",
+          "もっと ゆっくり はなして ください。",
+          "もっと ゆっくり はなしても いいですか。",
+          "もっと ゆっくり はなしては いけません。"
+        ],
+        "explanation": "〜ていただけませんか = Could you please ~? Most polite request form."
+      },
+      {
+        "question": "Sign at a coffee shop: 'Outside food and drink prohibited.'",
+        "answer": "もちこみは おことわりします。",
+        "options": [
+          "もちこみは おことわりします。",
+          "もちこんでは いけません。",
+          "もちこまないで ください。",
+          "もちこんでも いいです。"
+        ],
+        "explanation": "おことわりします = we decline/prohibit (formal sign language). もちこみ = bringing in (outside items)."
+      },
+      {
+        "question": "You're tired. Asking permission to go home early.",
+        "answer": "はやく かえっても いいですか。",
+        "options": [
+          "はやく かえっても いいですか。",
+          "はやく かえっては いけませんか。",
+          "はやく かえらないで ください。",
+          "はやく かえって ください。"
+        ],
+        "explanation": "かえる → かえって (て-form). てもいいですか = may I. はやく = early."
+      },
+      {
+        "question": "The sign says 'No photography allowed.'",
+        "answer": "しゃしん さつえい きんし。",
+        "options": [
+          "しゃしん さつえい きんし。",
+          "しゃしんを とっても いいです。",
+          "しゃしんを とらないで ください。",
+          "しゃしんを とっては いけません。"
+        ],
+        "explanation": "きんし = prohibited (noun, used on signs). The full sentence would be: しゃしんさつえいをしてはいけません。"
+      },
+      {
+        "question": "You need to leave the library. Asking if you can borrow the book for a week.",
+        "answer": "この ほんを いっしゅうかん かりても いいですか。",
+        "options": [
+          "この ほんを いっしゅうかん かりても いいですか。",
+          "この ほんが いっしゅうかん かりても いいですか。",
+          "この ほんで いっしゅうかん かりても いいですか。",
+          "この ほんに いっしゅうかん かりても いいですか。"
+        ],
+        "explanation": "を = object (book). いっしゅうかん = one week. かりる = to borrow."
+      },
+      {
+        "question": "Rules say you must wear a mask inside.",
+        "answer": "なかでは マスクを して ください。",
+        "options": [
+          "なかでは マスクを して ください。",
+          "なかでは マスクを しては いけません。",
+          "なかでは マスクを しても いいです。",
+          "なかでは マスクを しなくても いいです。"
+        ],
+        "explanation": "〜てください = please do ~. マスクをする = to wear a mask. で = inside."
+      },
+      {
+        "question": "Asking if it's okay NOT to wear a uniform on Fridays.",
+        "answer": "きんようびは せいふくを きなくても いいですか。",
+        "options": [
+          "きんようびは せいふくを きなくても いいですか。",
+          "きんようびは せいふくを きても いいですか。",
+          "きんようびは せいふくを きては いけませんか。",
+          "きんようびは せいふくを きないで ください。"
+        ],
+        "explanation": "〜なくてもいいですか = Is it okay if I don't ~? せいふく = uniform, きる = to wear."
+      },
+      {
+        "question": "In a library, reminding someone: 'Please don't use your phone.'",
+        "answer": "けいたいを つかわないで ください。",
+        "options": [
+          "けいたいを つかわないで ください。",
+          "けいたいを つかっても いいです。",
+          "けいたいを つかっては いけません。",
+          "けいたいを つかっても いいですか。"
+        ],
+        "explanation": "〜ないでください = Please refrain from ~. Natural library announcement form."
       }
     ]
   },
@@ -142,7 +274,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 12,
-      "questionsCount": 8
+      "questionsCount": 20
     },
     "items": [
       {
@@ -232,6 +364,138 @@
           "まどを開けてはいけません。"
         ],
         "explanation": "開けます (あけます) = to open. → 開けて + ください = Please open."
+      },
+      {
+        "question": "You want to ask if you can sit next to someone on a train.",
+        "answer": "ここに すわっても いいですか。",
+        "options": [
+          "ここに すわっても いいですか。",
+          "ここを すわっても いいですか。",
+          "ここで すわっても いいですか。",
+          "ここが すわっても いいですか。"
+        ],
+        "explanation": "に marks location for sitting (すわる). てもいいですか = may I."
+      },
+      {
+        "question": "In a museum: 'Please do not touch the exhibits.'",
+        "answer": "てんじひんに さわらないで ください。",
+        "options": [
+          "てんじひんに さわらないで ください。",
+          "てんじひんを さわっては いけません。",
+          "てんじひんが さわらないで ください。",
+          "てんじひんで さわらないで ください。"
+        ],
+        "explanation": "〜ないでください = please don't ~. さわる = to touch. Both forms are correct."
+      },
+      {
+        "question": "Asking permission to open the window in a classroom.",
+        "answer": "まどを あけても いいですか。",
+        "options": [
+          "まどを あけても いいですか。",
+          "まどが あけても いいですか。",
+          "まどで あけても いいですか。",
+          "まどに あけても いいですか。"
+        ],
+        "explanation": "を marks the object (window). あける = open. てもいいですか = may I."
+      },
+      {
+        "question": "The teacher says 'You don't need to submit the report today.'",
+        "answer": "きょう レポートを ださなくても いいです。",
+        "options": [
+          "きょう レポートを ださなくても いいです。",
+          "きょう レポートを だしては いけません。",
+          "きょう レポートを だしても いいです。",
+          "きょう レポートを ださないで ください。"
+        ],
+        "explanation": "〜なくてもいいです = don't need to do ~. Absence of obligation."
+      },
+      {
+        "question": "Politely asking someone to speak more slowly.",
+        "answer": "もっと ゆっくり はなして いただけませんか。",
+        "options": [
+          "もっと ゆっくり はなして いただけませんか。",
+          "もっと ゆっくり はなして ください。",
+          "もっと ゆっくり はなしても いいですか。",
+          "もっと ゆっくり はなしては いけません。"
+        ],
+        "explanation": "〜ていただけませんか = Could you please ~? Most polite request form."
+      },
+      {
+        "question": "Sign at a coffee shop: 'Outside food and drink prohibited.'",
+        "answer": "もちこみは おことわりします。",
+        "options": [
+          "もちこみは おことわりします。",
+          "もちこんでは いけません。",
+          "もちこまないで ください。",
+          "もちこんでも いいです。"
+        ],
+        "explanation": "おことわりします = we decline/prohibit (formal sign language). もちこみ = bringing in (outside items)."
+      },
+      {
+        "question": "You're tired. Asking permission to go home early.",
+        "answer": "はやく かえっても いいですか。",
+        "options": [
+          "はやく かえっても いいですか。",
+          "はやく かえっては いけませんか。",
+          "はやく かえらないで ください。",
+          "はやく かえって ください。"
+        ],
+        "explanation": "かえる → かえって (て-form). てもいいですか = may I. はやく = early."
+      },
+      {
+        "question": "The sign says 'No photography allowed.'",
+        "answer": "しゃしん さつえい きんし。",
+        "options": [
+          "しゃしん さつえい きんし。",
+          "しゃしんを とっても いいです。",
+          "しゃしんを とらないで ください。",
+          "しゃしんを とっては いけません。"
+        ],
+        "explanation": "きんし = prohibited (noun, used on signs). The full sentence would be: しゃしんさつえいをしてはいけません。"
+      },
+      {
+        "question": "You need to leave the library. Asking if you can borrow the book for a week.",
+        "answer": "この ほんを いっしゅうかん かりても いいですか。",
+        "options": [
+          "この ほんを いっしゅうかん かりても いいですか。",
+          "この ほんが いっしゅうかん かりても いいですか。",
+          "この ほんで いっしゅうかん かりても いいですか。",
+          "この ほんに いっしゅうかん かりても いいですか。"
+        ],
+        "explanation": "を = object (book). いっしゅうかん = one week. かりる = to borrow."
+      },
+      {
+        "question": "Rules say you must wear a mask inside.",
+        "answer": "なかでは マスクを して ください。",
+        "options": [
+          "なかでは マスクを して ください。",
+          "なかでは マスクを しては いけません。",
+          "なかでは マスクを しても いいです。",
+          "なかでは マスクを しなくても いいです。"
+        ],
+        "explanation": "〜てください = please do ~. マスクをする = to wear a mask. で = inside."
+      },
+      {
+        "question": "Asking if it's okay NOT to wear a uniform on Fridays.",
+        "answer": "きんようびは せいふくを きなくても いいですか。",
+        "options": [
+          "きんようびは せいふくを きなくても いいですか。",
+          "きんようびは せいふくを きても いいですか。",
+          "きんようびは せいふくを きては いけませんか。",
+          "きんようびは せいふくを きないで ください。"
+        ],
+        "explanation": "〜なくてもいいですか = Is it okay if I don't ~? せいふく = uniform, きる = to wear."
+      },
+      {
+        "question": "In a library, reminding someone: 'Please don't use your phone.'",
+        "answer": "けいたいを つかわないで ください。",
+        "options": [
+          "けいたいを つかわないで ください。",
+          "けいたいを つかっても いいです。",
+          "けいたいを つかっては いけません。",
+          "けいたいを つかっても いいですか。"
+        ],
+        "explanation": "〜ないでください = Please refrain from ~. Natural library announcement form."
       }
     ]
   }

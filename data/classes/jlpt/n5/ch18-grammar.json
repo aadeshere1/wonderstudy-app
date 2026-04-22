@@ -32,7 +32,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 0,
-      "questionsCount": 5
+      "questionsCount": 20
     },
     "items": [
       {
@@ -89,6 +89,171 @@
           "すみません"
         ],
         "explanation": "ぜひ = by all means / definitely! The most enthusiastic way to accept an invitation."
+      },
+      {
+        "question": "あめ ___ 、かさをもっていきます。(It's raining, so I'll bring an umbrella.)",
+        "answer": "だから",
+        "options": [
+          "だから",
+          "でも",
+          "けど",
+          "のに"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "いそが ___ から、てつだえません。(I'm busy, so I can't help.)",
+        "answer": "しい",
+        "options": [
+          "しい",
+          "くて",
+          "なくて",
+          "じゃない"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "友だちを ___  いきます。(I'll take my friend along.)",
+        "answer": "つれて",
+        "options": [
+          "つれて",
+          "もって",
+          "おくって",
+          "みせて"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "かいものに行く ___ 、なにかかってきましょうか。(If you're going shopping, shall I buy something for you?)",
+        "answer": "なら",
+        "options": [
+          "なら",
+          "から",
+          "ので",
+          "けど"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "おみやげを ___  きました。(I brought a souvenir back.)",
+        "answer": "もって",
+        "options": [
+          "もって",
+          "つれて",
+          "おくって",
+          "かって"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "Which phrase means 'because it is cheap'?",
+        "answer": "やすいから",
+        "options": [
+          "やすいから",
+          "やすくて",
+          "やすければ",
+          "やすいのに"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "びょうき ___ 、がっこうをやすみます。(Because I'm sick, I'll be absent from school.)",
+        "answer": "だから",
+        "options": [
+          "だから",
+          "なので",
+          "でも",
+          "けど"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "もっていく means:",
+        "answer": "to take (something) somewhere",
+        "options": [
+          "to take (something) somewhere",
+          "to bring (something) here",
+          "to send (something)",
+          "to receive (something)"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "もってくる means:",
+        "answer": "to bring (something) here",
+        "options": [
+          "to bring (something) here",
+          "to take (something) there",
+          "to carry (something)",
+          "to drop (something)"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "パーティーに ___ ませんか。(Won't you come to the party?)",
+        "answer": "き",
+        "options": [
+          "き",
+          "いき",
+          "おき",
+          "でき"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "How do you invite someone saying 'Shall we go together?'",
+        "answer": "いっしょに行きませんか。",
+        "options": [
+          "いっしょに行きませんか。",
+          "いっしょに行きます。",
+          "いっしょに行きたい。",
+          "いっしょに行くかな。"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "つれていく is used when you take ___ somewhere.",
+        "answer": "a person or animal",
+        "options": [
+          "a person or animal",
+          "an object",
+          "money",
+          "a message"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "もっていく is used when you take ___ somewhere.",
+        "answer": "an object",
+        "options": [
+          "an object",
+          "a person",
+          "an animal",
+          "an idea"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "たのし ___ から、また来たいです。(Because it's fun, I want to come again.)",
+        "answer": "い",
+        "options": [
+          "い",
+          "くて",
+          "かった",
+          "じゃない"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "How do you say 'Because I have plans, I can't go'?",
+        "answer": "よていがあるから、いけません。",
+        "options": [
+          "よていがあるから、いけません。",
+          "よていがなくて、いけません。",
+          "よていだから、いきます。",
+          "よていがあれば、いきます。"
+        ],
+        "type": "multiple_choice"
       }
     ]
   },
@@ -97,7 +262,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 12,
-      "questionsCount": 5
+      "questionsCount": 20
     },
     "items": [
       {
@@ -154,6 +319,171 @@
           "すみません"
         ],
         "explanation": "ぜひ = by all means / definitely! The most enthusiastic way to accept an invitation."
+      },
+      {
+        "question": "あめ ___ 、かさをもっていきます。(It's raining, so I'll bring an umbrella.)",
+        "answer": "だから",
+        "options": [
+          "だから",
+          "でも",
+          "けど",
+          "のに"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "いそが ___ から、てつだえません。(I'm busy, so I can't help.)",
+        "answer": "しい",
+        "options": [
+          "しい",
+          "くて",
+          "なくて",
+          "じゃない"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "友だちを ___  いきます。(I'll take my friend along.)",
+        "answer": "つれて",
+        "options": [
+          "つれて",
+          "もって",
+          "おくって",
+          "みせて"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "かいものに行く ___ 、なにかかってきましょうか。(If you're going shopping, shall I buy something for you?)",
+        "answer": "なら",
+        "options": [
+          "なら",
+          "から",
+          "ので",
+          "けど"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "おみやげを ___  きました。(I brought a souvenir back.)",
+        "answer": "もって",
+        "options": [
+          "もって",
+          "つれて",
+          "おくって",
+          "かって"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "Which phrase means 'because it is cheap'?",
+        "answer": "やすいから",
+        "options": [
+          "やすいから",
+          "やすくて",
+          "やすければ",
+          "やすいのに"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "びょうき ___ 、がっこうをやすみます。(Because I'm sick, I'll be absent from school.)",
+        "answer": "だから",
+        "options": [
+          "だから",
+          "なので",
+          "でも",
+          "けど"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "もっていく means:",
+        "answer": "to take (something) somewhere",
+        "options": [
+          "to take (something) somewhere",
+          "to bring (something) here",
+          "to send (something)",
+          "to receive (something)"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "もってくる means:",
+        "answer": "to bring (something) here",
+        "options": [
+          "to bring (something) here",
+          "to take (something) there",
+          "to carry (something)",
+          "to drop (something)"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "パーティーに ___ ませんか。(Won't you come to the party?)",
+        "answer": "き",
+        "options": [
+          "き",
+          "いき",
+          "おき",
+          "でき"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "How do you invite someone saying 'Shall we go together?'",
+        "answer": "いっしょに行きませんか。",
+        "options": [
+          "いっしょに行きませんか。",
+          "いっしょに行きます。",
+          "いっしょに行きたい。",
+          "いっしょに行くかな。"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "つれていく is used when you take ___ somewhere.",
+        "answer": "a person or animal",
+        "options": [
+          "a person or animal",
+          "an object",
+          "money",
+          "a message"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "もっていく is used when you take ___ somewhere.",
+        "answer": "an object",
+        "options": [
+          "an object",
+          "a person",
+          "an animal",
+          "an idea"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "たのし ___ から、また来たいです。(Because it's fun, I want to come again.)",
+        "answer": "い",
+        "options": [
+          "い",
+          "くて",
+          "かった",
+          "じゃない"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "How do you say 'Because I have plans, I can't go'?",
+        "answer": "よていがあるから、いけません。",
+        "options": [
+          "よていがあるから、いけません。",
+          "よていがなくて、いけません。",
+          "よていだから、いきます。",
+          "よていがあれば、いきます。"
+        ],
+        "type": "multiple_choice"
       }
     ]
   }

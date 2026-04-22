@@ -33,7 +33,7 @@
       "answerMode": "mcq",
       "optionsCount": 4,
       "timeLimit": 0,
-      "questionsCount": 15
+      "questionsCount": 30
     },
     "items": [
       {
@@ -185,6 +185,156 @@
           "to save",
           "to take (time/money) / to cost"
         ]
+      },
+      {
+        "question": "How do you say 'want to do ~' in Japanese?",
+        "answer": "〜たい",
+        "options": [
+          "〜んですが",
+          "〜たい",
+          "〜たいと思っています",
+          "おくります (送ります)"
+        ]
+      },
+      {
+        "question": "How do you say 'I'm thinking I'd like to ~' in Japanese?",
+        "answer": "〜たいと思っています",
+        "options": [
+          "〜たい",
+          "〜んですが",
+          "おくります (送ります)",
+          "〜たいと思っています"
+        ]
+      },
+      {
+        "question": "How do you say 'it's that ~ / (giving background context)' in Japanese?",
+        "answer": "〜んですが",
+        "options": [
+          "〜んですが",
+          "おくります (送ります)",
+          "〜たい",
+          "〜たいと思っています"
+        ]
+      },
+      {
+        "question": "How do you say 'to send' in Japanese?",
+        "answer": "おくります (送ります)",
+        "options": [
+          "おくります (送ります)",
+          "〜たい",
+          "〜たいと思っています",
+          "〜んですが"
+        ]
+      },
+      {
+        "question": "How do you say 'luggage / baggage / package' in Japanese?",
+        "answer": "にもつ (荷物)",
+        "options": [
+          "〜たい",
+          "にもつ (荷物)",
+          "〜たいと思っています",
+          "〜んですが"
+        ]
+      },
+      {
+        "question": "How do you say 'parcel / package' in Japanese?",
+        "answer": "こづつみ (小包)",
+        "options": [
+          "こづつみ (小包)",
+          "〜たいと思っています",
+          "〜たい",
+          "〜んですが"
+        ]
+      },
+      {
+        "question": "How do you say 'letter' in Japanese?",
+        "answer": "てがみ (手紙)",
+        "options": [
+          "〜たいと思っています",
+          "〜たい",
+          "てがみ (手紙)",
+          "〜んですが"
+        ]
+      },
+      {
+        "question": "How do you say 'postcard' in Japanese?",
+        "answer": "はがき (葉書)",
+        "options": [
+          "〜たいと思っています",
+          "〜んですが",
+          "はがき (葉書)",
+          "〜たい"
+        ]
+      },
+      {
+        "question": "How do you say 'postage stamp' in Japanese?",
+        "answer": "きって (切手)",
+        "options": [
+          "〜たいと思っています",
+          "〜たい",
+          "〜んですが",
+          "きって (切手)"
+        ]
+      },
+      {
+        "question": "How do you say 'envelope' in Japanese?",
+        "answer": "ふうとう (封筒)",
+        "options": [
+          "〜んですが",
+          "〜たいと思っています",
+          "ふうとう (封筒)",
+          "〜たい"
+        ]
+      },
+      {
+        "question": "How do you say 'post office' in Japanese?",
+        "answer": "ゆうびんきょく (郵便局)",
+        "options": [
+          "〜んですが",
+          "〜たいと思っています",
+          "ゆうびんきょく (郵便局)",
+          "〜たい"
+        ]
+      },
+      {
+        "question": "How do you say 'to arrive / be delivered' in Japanese?",
+        "answer": "とどきます (届きます)",
+        "options": [
+          "とどきます (届きます)",
+          "〜たい",
+          "〜んですが",
+          "〜たいと思っています"
+        ]
+      },
+      {
+        "question": "How do you say 'approximately ~ / about ~' in Japanese?",
+        "answer": "〜ほど",
+        "options": [
+          "〜ほど",
+          "〜たい",
+          "〜んですが",
+          "〜たいと思っています"
+        ]
+      },
+      {
+        "question": "How do you say 'more than ~ / that's all' in Japanese?",
+        "answer": "いじょう (以上)",
+        "options": [
+          "〜たい",
+          "〜たいと思っています",
+          "いじょう (以上)",
+          "〜んですが"
+        ]
+      },
+      {
+        "question": "How do you say 'to take (time/money) / to cost' in Japanese?",
+        "answer": "かかります",
+        "options": [
+          "〜んですが",
+          "かかります",
+          "〜たい",
+          "〜たいと思っています"
+        ]
       }
     ]
   },
@@ -194,9 +344,159 @@
       "answerMode": "mcq",
       "optionsCount": 4,
       "timeLimit": 10,
-      "questionsCount": 15
+      "questionsCount": 30
     },
     "items": [
+      {
+        "question": "〜たい",
+        "answer": "want to do ~",
+        "options": [
+          "must do ~",
+          "want to do ~",
+          "don't want to do ~",
+          "can do ~"
+        ]
+      },
+      {
+        "question": "〜たいと思っています",
+        "answer": "I'm thinking I'd like to ~",
+        "options": [
+          "I don't want to ~",
+          "I'm thinking I'd like to ~",
+          "I have to ~",
+          "I decided to ~"
+        ]
+      },
+      {
+        "question": "〜んですが",
+        "answer": "it's that ~ / (giving background context)",
+        "options": [
+          "because ~",
+          "although ~",
+          "if ~",
+          "it's that ~ / (giving background context)"
+        ]
+      },
+      {
+        "question": "おくります (送ります)",
+        "answer": "to send",
+        "options": [
+          "to return",
+          "to send",
+          "to receive",
+          "to carry"
+        ]
+      },
+      {
+        "question": "にもつ (荷物)",
+        "answer": "luggage / baggage / package",
+        "options": [
+          "letter",
+          "luggage / baggage / package",
+          "parcel only",
+          "envelope"
+        ]
+      },
+      {
+        "question": "こづつみ (小包)",
+        "answer": "parcel / package",
+        "options": [
+          "luggage",
+          "parcel / package",
+          "letter",
+          "envelope"
+        ]
+      },
+      {
+        "question": "てがみ (手紙)",
+        "answer": "letter",
+        "options": [
+          "email",
+          "parcel",
+          "postcard",
+          "letter"
+        ]
+      },
+      {
+        "question": "はがき (葉書)",
+        "answer": "postcard",
+        "options": [
+          "parcel",
+          "envelope",
+          "postcard",
+          "letter"
+        ]
+      },
+      {
+        "question": "きって (切手)",
+        "answer": "postage stamp",
+        "options": [
+          "postage stamp",
+          "postcard",
+          "letter",
+          "envelope"
+        ]
+      },
+      {
+        "question": "ふうとう (封筒)",
+        "answer": "envelope",
+        "options": [
+          "postcard",
+          "stamp",
+          "letter",
+          "envelope"
+        ]
+      },
+      {
+        "question": "ゆうびんきょく (郵便局)",
+        "answer": "post office",
+        "options": [
+          "library",
+          "bank",
+          "hospital",
+          "post office"
+        ]
+      },
+      {
+        "question": "とどきます (届きます)",
+        "answer": "to arrive / be delivered",
+        "options": [
+          "to send",
+          "to leave",
+          "to arrive / be delivered",
+          "to return"
+        ]
+      },
+      {
+        "question": "〜ほど",
+        "answer": "approximately ~ / about ~",
+        "options": [
+          "exactly ~",
+          "more than ~",
+          "less than ~",
+          "approximately ~ / about ~"
+        ]
+      },
+      {
+        "question": "いじょう (以上)",
+        "answer": "more than ~ / that's all",
+        "options": [
+          "not enough",
+          "exactly ~",
+          "more than ~ / that's all",
+          "less than ~"
+        ]
+      },
+      {
+        "question": "かかります",
+        "answer": "to take (time/money) / to cost",
+        "options": [
+          "to spend",
+          "to give",
+          "to save",
+          "to take (time/money) / to cost"
+        ]
+      },
       {
         "question": "How do you say 'want to do ~' in Japanese?",
         "answer": "〜たい",

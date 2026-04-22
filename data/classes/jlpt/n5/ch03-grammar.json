@@ -52,7 +52,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 0,
-      "questionsCount": 12
+      "questionsCount": 20
     },
     "items": [
       {
@@ -186,6 +186,94 @@
           "ちかわん"
         ],
         "explanation": "ちか (地下) = underground/basement. ちかいっかい = B1 (basement 1st floor)."
+      },
+      {
+        "question": "トイレは _____ ですか。(Where is the restroom?)",
+        "answer": "どこ",
+        "options": [
+          "どこ",
+          "なに",
+          "だれ",
+          "いつ"
+        ],
+        "explanation": "どこ = where. Used for location questions."
+      },
+      {
+        "question": "エレベーターは _____ かいに あります。(The elevator is on the 2nd floor.)",
+        "answer": "に",
+        "options": [
+          "に",
+          "は",
+          "が",
+          "を"
+        ],
+        "explanation": "〜かいに = on the Nth floor. に marks location."
+      },
+      {
+        "question": "ATMは _____ にあります。(The ATM is over there.)",
+        "answer": "あそこ",
+        "options": [
+          "あそこ",
+          "ここ",
+          "そこ",
+          "どこ"
+        ],
+        "explanation": "あそこ = over there (far from both). ここ=here, そこ=there (near listener)."
+      },
+      {
+        "question": "この へやは _____ えん ですか。(How much is this room per night?)",
+        "answer": "いくら",
+        "options": [
+          "いくら",
+          "なんえん",
+          "いくつ",
+          "なんかい"
+        ],
+        "explanation": "いくら = how much (money)."
+      },
+      {
+        "question": "ここは _____ うけつけです。(This is the reception desk.)",
+        "answer": "うけつけ",
+        "options": [
+          "うけつけ",
+          "エレベーター",
+          "かいだん",
+          "レストラン"
+        ],
+        "explanation": "うけつけ = reception/front desk. Common location word."
+      },
+      {
+        "question": "かいぎしつは _____ かいですか。(What floor is the meeting room?)",
+        "answer": "なん",
+        "options": [
+          "なん",
+          "どこ",
+          "いくつ",
+          "いくら"
+        ],
+        "explanation": "なんかい = what floor. なん + counter for asking numbers."
+      },
+      {
+        "question": "ぎんこうは _____ ちかくに あります。(The bank is near the station.)",
+        "answer": "えき",
+        "options": [
+          "えき",
+          "こうえん",
+          "びょういん",
+          "がっこう"
+        ],
+        "explanation": "えき = station. ちかく = near/nearby."
+      },
+      {
+        "question": "スーパーは _____ の となりです。(The supermarket is next to the park.)",
+        "answer": "こうえん",
+        "options": [
+          "こうえん",
+          "えき",
+          "ゆうびんきょく",
+          "やっきょく"
+        ],
+        "explanation": "こうえん = park. となり = next door."
       }
     ]
   },
@@ -194,7 +282,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 12,
-      "questionsCount": 12
+      "questionsCount": 20
     },
     "items": [
       {
@@ -328,6 +416,94 @@
           "ちかわん"
         ],
         "explanation": "ちか (地下) = underground/basement. ちかいっかい = B1 (basement 1st floor)."
+      },
+      {
+        "question": "トイレは _____ ですか。(Where is the restroom?)",
+        "answer": "どこ",
+        "options": [
+          "どこ",
+          "なに",
+          "だれ",
+          "いつ"
+        ],
+        "explanation": "どこ = where. Used for location questions."
+      },
+      {
+        "question": "エレベーターは _____ かいに あります。(The elevator is on the 2nd floor.)",
+        "answer": "に",
+        "options": [
+          "に",
+          "は",
+          "が",
+          "を"
+        ],
+        "explanation": "〜かいに = on the Nth floor. に marks location."
+      },
+      {
+        "question": "ATMは _____ にあります。(The ATM is over there.)",
+        "answer": "あそこ",
+        "options": [
+          "あそこ",
+          "ここ",
+          "そこ",
+          "どこ"
+        ],
+        "explanation": "あそこ = over there (far from both). ここ=here, そこ=there (near listener)."
+      },
+      {
+        "question": "この へやは _____ えん ですか。(How much is this room per night?)",
+        "answer": "いくら",
+        "options": [
+          "いくら",
+          "なんえん",
+          "いくつ",
+          "なんかい"
+        ],
+        "explanation": "いくら = how much (money)."
+      },
+      {
+        "question": "ここは _____ うけつけです。(This is the reception desk.)",
+        "answer": "うけつけ",
+        "options": [
+          "うけつけ",
+          "エレベーター",
+          "かいだん",
+          "レストラン"
+        ],
+        "explanation": "うけつけ = reception/front desk. Common location word."
+      },
+      {
+        "question": "かいぎしつは _____ かいですか。(What floor is the meeting room?)",
+        "answer": "なん",
+        "options": [
+          "なん",
+          "どこ",
+          "いくつ",
+          "いくら"
+        ],
+        "explanation": "なんかい = what floor. なん + counter for asking numbers."
+      },
+      {
+        "question": "ぎんこうは _____ ちかくに あります。(The bank is near the station.)",
+        "answer": "えき",
+        "options": [
+          "えき",
+          "こうえん",
+          "びょういん",
+          "がっこう"
+        ],
+        "explanation": "えき = station. ちかく = near/nearby."
+      },
+      {
+        "question": "スーパーは _____ の となりです。(The supermarket is next to the park.)",
+        "answer": "こうえん",
+        "options": [
+          "こうえん",
+          "えき",
+          "ゆうびんきょく",
+          "やっきょく"
+        ],
+        "explanation": "こうえん = park. となり = next door."
       }
     ]
   }

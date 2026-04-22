@@ -52,7 +52,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 0,
-      "questionsCount": 10
+      "questionsCount": 20
     },
     "items": [
       {
@@ -164,6 +164,116 @@
           "日本語はとてもむずかしいです。"
         ],
         "explanation": "あまり = not very (used with negative form). あまり + むずかしくない = not very difficult."
+      },
+      {
+        "question": "このレストランの りょうりは _____ですか。(Is the food at this restaurant good?)",
+        "answer": "おいしい",
+        "options": [
+          "おいしい",
+          "たかい",
+          "やすい",
+          "ひろい"
+        ],
+        "explanation": "おいしい = delicious. い-adjective directly before です."
+      },
+      {
+        "question": "きょうは _____くない ですね。(It's not cold today, is it?)",
+        "answer": "さむ",
+        "options": [
+          "さむ",
+          "あつ",
+          "すず",
+          "あたた"
+        ],
+        "explanation": "さむい → さむくない. Negative of い-adj: drop い, add くない."
+      },
+      {
+        "question": "このかばんは _____くて じょうぶです。(This bag is light and durable.)",
+        "answer": "かる",
+        "options": [
+          "かる",
+          "おも",
+          "おお",
+          "ちい"
+        ],
+        "explanation": "かるい = light (weight). て-form of い-adj: drop い, add くて."
+      },
+      {
+        "question": "あのビルは _____です。(That building is tall.)",
+        "answer": "たかい",
+        "options": [
+          "たかい",
+          "ひくい",
+          "せまい",
+          "ひろい"
+        ],
+        "explanation": "たかい = tall/high. ひくい = low. Common spatial adjective."
+      },
+      {
+        "question": "えいがは _____ なかった。(The movie was not interesting.) (plain past negative)",
+        "answer": "おもしろく",
+        "options": [
+          "おもしろく",
+          "おもしろい",
+          "おもしろくて",
+          "おもしろかった"
+        ],
+        "explanation": "おもしろい → おもしろくなかった (plain past negative: drop い, add くなかった)."
+      },
+      {
+        "question": "りょうりは おいし_____ です。(The food is delicious.)",
+        "answer": "い",
+        "options": [
+          "い",
+          "く",
+          "かった",
+          "くない"
+        ],
+        "explanation": "おいしい+です: no change to adjective before です in affirmative present."
+      },
+      {
+        "question": "やちんは _____くなりました。(The rent became cheap.)",
+        "answer": "やす",
+        "options": [
+          "やす",
+          "たか",
+          "おお",
+          "ちい"
+        ],
+        "explanation": "やすい = cheap. 〜くなりました = became ~. Change of state."
+      },
+      {
+        "question": "この テストは _____くて、みんな とれませんでした。(This test was hard, nobody passed.)",
+        "answer": "むずかし",
+        "options": [
+          "むずかし",
+          "やさし",
+          "おもしろ",
+          "たのし"
+        ],
+        "explanation": "むずかしい = difficult. て-form: むずかしくて (connecting reason)."
+      },
+      {
+        "question": "にほんの なつは _____いですね。(Japanese summer is hot, isn't it!)",
+        "answer": "あつ",
+        "options": [
+          "あつ",
+          "さむ",
+          "すず",
+          "あたた"
+        ],
+        "explanation": "あつい = hot. ですね = isn't it (seeking agreement)."
+      },
+      {
+        "question": "この へやは _____くて きれいです。(This room is bright and clean.)",
+        "answer": "あかる",
+        "options": [
+          "あかる",
+          "くら",
+          "せま",
+          "うるさ"
+        ],
+        "explanation": "あかるい = bright. て-form connects two adjective descriptions."
       }
     ]
   },
@@ -172,7 +282,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 12,
-      "questionsCount": 10
+      "questionsCount": 20
     },
     "items": [
       {
@@ -284,6 +394,116 @@
           "日本語はとてもむずかしいです。"
         ],
         "explanation": "あまり = not very (used with negative form). あまり + むずかしくない = not very difficult."
+      },
+      {
+        "question": "このレストランの りょうりは _____ですか。(Is the food at this restaurant good?)",
+        "answer": "おいしい",
+        "options": [
+          "おいしい",
+          "たかい",
+          "やすい",
+          "ひろい"
+        ],
+        "explanation": "おいしい = delicious. い-adjective directly before です."
+      },
+      {
+        "question": "きょうは _____くない ですね。(It's not cold today, is it?)",
+        "answer": "さむ",
+        "options": [
+          "さむ",
+          "あつ",
+          "すず",
+          "あたた"
+        ],
+        "explanation": "さむい → さむくない. Negative of い-adj: drop い, add くない."
+      },
+      {
+        "question": "このかばんは _____くて じょうぶです。(This bag is light and durable.)",
+        "answer": "かる",
+        "options": [
+          "かる",
+          "おも",
+          "おお",
+          "ちい"
+        ],
+        "explanation": "かるい = light (weight). て-form of い-adj: drop い, add くて."
+      },
+      {
+        "question": "あのビルは _____です。(That building is tall.)",
+        "answer": "たかい",
+        "options": [
+          "たかい",
+          "ひくい",
+          "せまい",
+          "ひろい"
+        ],
+        "explanation": "たかい = tall/high. ひくい = low. Common spatial adjective."
+      },
+      {
+        "question": "えいがは _____ なかった。(The movie was not interesting.) (plain past negative)",
+        "answer": "おもしろく",
+        "options": [
+          "おもしろく",
+          "おもしろい",
+          "おもしろくて",
+          "おもしろかった"
+        ],
+        "explanation": "おもしろい → おもしろくなかった (plain past negative: drop い, add くなかった)."
+      },
+      {
+        "question": "りょうりは おいし_____ です。(The food is delicious.)",
+        "answer": "い",
+        "options": [
+          "い",
+          "く",
+          "かった",
+          "くない"
+        ],
+        "explanation": "おいしい+です: no change to adjective before です in affirmative present."
+      },
+      {
+        "question": "やちんは _____くなりました。(The rent became cheap.)",
+        "answer": "やす",
+        "options": [
+          "やす",
+          "たか",
+          "おお",
+          "ちい"
+        ],
+        "explanation": "やすい = cheap. 〜くなりました = became ~. Change of state."
+      },
+      {
+        "question": "この テストは _____くて、みんな とれませんでした。(This test was hard, nobody passed.)",
+        "answer": "むずかし",
+        "options": [
+          "むずかし",
+          "やさし",
+          "おもしろ",
+          "たのし"
+        ],
+        "explanation": "むずかしい = difficult. て-form: むずかしくて (connecting reason)."
+      },
+      {
+        "question": "にほんの なつは _____いですね。(Japanese summer is hot, isn't it!)",
+        "answer": "あつ",
+        "options": [
+          "あつ",
+          "さむ",
+          "すず",
+          "あたた"
+        ],
+        "explanation": "あつい = hot. ですね = isn't it (seeking agreement)."
+      },
+      {
+        "question": "この へやは _____くて きれいです。(This room is bright and clean.)",
+        "answer": "あかる",
+        "options": [
+          "あかる",
+          "くら",
+          "せま",
+          "うるさ"
+        ],
+        "explanation": "あかるい = bright. て-form connects two adjective descriptions."
       }
     ]
   }

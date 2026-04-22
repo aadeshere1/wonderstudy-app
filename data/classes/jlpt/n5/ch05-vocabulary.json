@@ -53,7 +53,7 @@
       "answerMode": "mcq",
       "optionsCount": 4,
       "timeLimit": 0,
-      "questionsCount": 15
+      "questionsCount": 35
     },
     "items": [
       {
@@ -255,6 +255,156 @@
           "month counter",
           "day counter"
         ]
+      },
+      {
+        "question": "How do you say 'when?' in Japanese?",
+        "answer": "いつ",
+        "options": [
+          "たんじょうび (誕生日)",
+          "〜がつ (〜月)",
+          "〜にち/か (〜日)",
+          "いつ"
+        ]
+      },
+      {
+        "question": "How do you say 'birthday' in Japanese?",
+        "answer": "たんじょうび (誕生日)",
+        "options": [
+          "いつ",
+          "たんじょうび (誕生日)",
+          "〜にち/か (〜日)",
+          "〜がつ (〜月)"
+        ]
+      },
+      {
+        "question": "How do you say 'month (counter)' in Japanese?",
+        "answer": "〜がつ (〜月)",
+        "options": [
+          "〜にち/か (〜日)",
+          "〜がつ (〜月)",
+          "たんじょうび (誕生日)",
+          "いつ"
+        ]
+      },
+      {
+        "question": "How do you say 'day of the month (counter)' in Japanese?",
+        "answer": "〜にち/か (〜日)",
+        "options": [
+          "〜にち/か (〜日)",
+          "〜がつ (〜月)",
+          "いつ",
+          "たんじょうび (誕生日)"
+        ]
+      },
+      {
+        "question": "How do you say 'which month?' in Japanese?",
+        "answer": "なんがつ (何月)",
+        "options": [
+          "いつ",
+          "なんがつ (何月)",
+          "たんじょうび (誕生日)",
+          "〜がつ (〜月)"
+        ]
+      },
+      {
+        "question": "How do you say 'which day of the month?' in Japanese?",
+        "answer": "なんにち (何日)",
+        "options": [
+          "たんじょうび (誕生日)",
+          "〜がつ (〜月)",
+          "なんにち (何日)",
+          "いつ"
+        ]
+      },
+      {
+        "question": "How do you say 'today' in Japanese?",
+        "answer": "きょう (今日)",
+        "options": [
+          "いつ",
+          "たんじょうび (誕生日)",
+          "〜がつ (〜月)",
+          "きょう (今日)"
+        ]
+      },
+      {
+        "question": "How do you say 'yesterday' in Japanese?",
+        "answer": "きのう (昨日)",
+        "options": [
+          "きのう (昨日)",
+          "たんじょうび (誕生日)",
+          "いつ",
+          "〜がつ (〜月)"
+        ]
+      },
+      {
+        "question": "How do you say 'tomorrow' in Japanese?",
+        "answer": "あした (明日)",
+        "options": [
+          "〜がつ (〜月)",
+          "たんじょうび (誕生日)",
+          "あした (明日)",
+          "いつ"
+        ]
+      },
+      {
+        "question": "How do you say 'the day after tomorrow' in Japanese?",
+        "answer": "あさって",
+        "options": [
+          "〜がつ (〜月)",
+          "あさって",
+          "いつ",
+          "たんじょうび (誕生日)"
+        ]
+      },
+      {
+        "question": "How do you say 'last week' in Japanese?",
+        "answer": "せんしゅう (先週)",
+        "options": [
+          "いつ",
+          "たんじょうび (誕生日)",
+          "せんしゅう (先週)",
+          "〜がつ (〜月)"
+        ]
+      },
+      {
+        "question": "How do you say 'this week' in Japanese?",
+        "answer": "こんしゅう (今週)",
+        "options": [
+          "たんじょうび (誕生日)",
+          "こんしゅう (今週)",
+          "〜がつ (〜月)",
+          "いつ"
+        ]
+      },
+      {
+        "question": "How do you say 'next week' in Japanese?",
+        "answer": "らいしゅう (来週)",
+        "options": [
+          "らいしゅう (来週)",
+          "〜がつ (〜月)",
+          "たんじょうび (誕生日)",
+          "いつ"
+        ]
+      },
+      {
+        "question": "How do you say 'last month' in Japanese?",
+        "answer": "せんげつ (先月)",
+        "options": [
+          "せんげつ (先月)",
+          "いつ",
+          "〜がつ (〜月)",
+          "たんじょうび (誕生日)"
+        ]
+      },
+      {
+        "question": "How do you say 'this month' in Japanese?",
+        "answer": "こんげつ (今月)",
+        "options": [
+          "〜がつ (〜月)",
+          "いつ",
+          "たんじょうび (誕生日)",
+          "こんげつ (今月)"
+        ]
       }
     ]
   },
@@ -264,9 +414,209 @@
       "answerMode": "mcq",
       "optionsCount": 4,
       "timeLimit": 10,
-      "questionsCount": 15
+      "questionsCount": 35
     },
     "items": [
+      {
+        "question": "いつ",
+        "answer": "when?",
+        "options": [
+          "where?",
+          "who?",
+          "what?",
+          "when?"
+        ]
+      },
+      {
+        "question": "たんじょうび (誕生日)",
+        "answer": "birthday",
+        "options": [
+          "anniversary",
+          "birthday",
+          "holiday",
+          "wedding"
+        ]
+      },
+      {
+        "question": "〜がつ (〜月)",
+        "answer": "month (counter)",
+        "options": [
+          "month (counter)",
+          "day counter",
+          "week counter",
+          "year counter"
+        ]
+      },
+      {
+        "question": "〜にち/か (〜日)",
+        "answer": "day of the month (counter)",
+        "options": [
+          "day of the month (counter)",
+          "month counter",
+          "week counter",
+          "year counter"
+        ]
+      },
+      {
+        "question": "なんがつ (何月)",
+        "answer": "which month?",
+        "options": [
+          "which month?",
+          "when?",
+          "which year?",
+          "which day?"
+        ]
+      },
+      {
+        "question": "なんにち (何日)",
+        "answer": "which day of the month?",
+        "options": [
+          "which day of the month?",
+          "which year?",
+          "how many?",
+          "which month?"
+        ]
+      },
+      {
+        "question": "きょう (今日)",
+        "answer": "today",
+        "options": [
+          "today",
+          "yesterday",
+          "the day after tomorrow",
+          "tomorrow"
+        ]
+      },
+      {
+        "question": "きのう (昨日)",
+        "answer": "yesterday",
+        "options": [
+          "today",
+          "yesterday",
+          "tomorrow",
+          "the day before"
+        ]
+      },
+      {
+        "question": "あした (明日)",
+        "answer": "tomorrow",
+        "options": [
+          "tomorrow",
+          "yesterday",
+          "today",
+          "next week"
+        ]
+      },
+      {
+        "question": "あさって",
+        "answer": "the day after tomorrow",
+        "options": [
+          "yesterday",
+          "tomorrow",
+          "the day after tomorrow",
+          "today"
+        ]
+      },
+      {
+        "question": "せんしゅう (先週)",
+        "answer": "last week",
+        "options": [
+          "this week",
+          "next week",
+          "last week",
+          "last month"
+        ]
+      },
+      {
+        "question": "こんしゅう (今週)",
+        "answer": "this week",
+        "options": [
+          "last week",
+          "this month",
+          "next week",
+          "this week"
+        ]
+      },
+      {
+        "question": "らいしゅう (来週)",
+        "answer": "next week",
+        "options": [
+          "next week",
+          "last week",
+          "next month",
+          "this week"
+        ]
+      },
+      {
+        "question": "せんげつ (先月)",
+        "answer": "last month",
+        "options": [
+          "last year",
+          "next month",
+          "this month",
+          "last month"
+        ]
+      },
+      {
+        "question": "こんげつ (今月)",
+        "answer": "this month",
+        "options": [
+          "this month",
+          "this year",
+          "last month",
+          "next month"
+        ]
+      },
+      {
+        "question": "らいげつ (来月)",
+        "answer": "next month",
+        "options": [
+          "this month",
+          "last month",
+          "next month",
+          "next year"
+        ]
+      },
+      {
+        "question": "きょねん (去年)",
+        "answer": "last year",
+        "options": [
+          "next year",
+          "last year",
+          "this year",
+          "two years ago"
+        ]
+      },
+      {
+        "question": "ことし (今年)",
+        "answer": "this year",
+        "options": [
+          "this year",
+          "next year",
+          "last year",
+          "the year before"
+        ]
+      },
+      {
+        "question": "らいねん (来年)",
+        "answer": "next year",
+        "options": [
+          "this year",
+          "next year",
+          "in two years",
+          "last year"
+        ]
+      },
+      {
+        "question": "〜ねん (〜年)",
+        "answer": "year (counter)",
+        "options": [
+          "year (counter)",
+          "week counter",
+          "month counter",
+          "day counter"
+        ]
+      },
       {
         "question": "How do you say 'when?' in Japanese?",
         "answer": "いつ",

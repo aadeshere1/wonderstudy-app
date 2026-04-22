@@ -44,7 +44,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 0,
-      "questionsCount": 8
+      "questionsCount": 20
     },
     "items": [
       {
@@ -134,6 +134,138 @@
           "Every day"
         ],
         "explanation": "毎晩 (まいばん) = every evening/night. 毎朝 (まいあさ) = every morning. 毎日 (まいにち) = every day."
+      },
+      {
+        "question": "Someone asks what time you wake up. You say 6:30am.",
+        "answer": "まいあさ 6じはんに おきます。",
+        "options": [
+          "まいあさ 6じはんに おきます。",
+          "まいあさ 6じはんで おきます。",
+          "まいあさ 6じはんが おきます。",
+          "まいあさ 6じはんは おきます。"
+        ],
+        "explanation": "Time+に+verb. じはん = half past (30 min)."
+      },
+      {
+        "question": "You want to say 'I go to bed at 11pm every night.'",
+        "answer": "まいばん 11じに ねます。",
+        "options": [
+          "まいばん 11じに ねます。",
+          "まいばん 11じで ねます。",
+          "まいばん 11じは ねます。",
+          "まいばん 11じを ねます。"
+        ],
+        "explanation": "まいばん = every night. 11じ = 11 o'clock. に = at."
+      },
+      {
+        "question": "The store opens from 10am to 9pm. How do you say it?",
+        "answer": "10じから 9じまで あいています。",
+        "options": [
+          "10じから 9じまで あいています。",
+          "10じに 9じまで あいています。",
+          "10じから 9じに あいています。",
+          "10じまで 9じから あいています。"
+        ],
+        "explanation": "から〜まで = from〜to. あいています = is open."
+      },
+      {
+        "question": "You want to ask 'What time does the class start?'",
+        "answer": "じゅぎょうは なんじに はじまりますか。",
+        "options": [
+          "じゅぎょうは なんじに はじまりますか。",
+          "じゅぎょうは いつに はじまりますか。",
+          "じゅぎょうは なんようびに はじまりますか。",
+          "じゅぎょうは なんじで はじまりますか。"
+        ],
+        "explanation": "なんじに = at what time. はじまります = starts."
+      },
+      {
+        "question": "You didn't go to school yesterday.",
+        "answer": "きのう がっこうに いきませんでした。",
+        "options": [
+          "きのう がっこうに いきませんでした。",
+          "きのう がっこうに いきません。",
+          "きのう がっこうに いきました。",
+          "きのう がっこうで いきませんでした。"
+        ],
+        "explanation": "〜ませんでした = did not (past negative). きのう = yesterday."
+      },
+      {
+        "question": "How do you say 'I usually eat breakfast at 7am'?",
+        "answer": "たいてい あさごはんを 7じに たべます。",
+        "options": [
+          "たいてい あさごはんを 7じに たべます。",
+          "よく あさごはんが 7じで たべます。",
+          "いつも あさごはんを 7じは たべます。",
+          "たいてい あさごはんに 7じを たべます。"
+        ],
+        "explanation": "たいてい = usually. を marks the object eaten. に marks time."
+      },
+      {
+        "question": "Asking what day of the week Japanese class is:",
+        "answer": "にほんごの じゅぎょうは なんようびですか。",
+        "options": [
+          "にほんごの じゅぎょうは なんようびですか。",
+          "にほんごの じゅぎょうは なんじですか。",
+          "にほんごの じゅぎょうは いつですか。",
+          "にほんごの じゅぎょうは どこですか。"
+        ],
+        "explanation": "なんようび = what day of the week."
+      },
+      {
+        "question": "'I work from Monday to Friday.' How do you say it?",
+        "answer": "げつようびから きんようびまで はたらきます。",
+        "options": [
+          "げつようびから きんようびまで はたらきます。",
+          "げつようびに きんようびまで はたらきます。",
+          "げつようびから きんようびに はたらきます。",
+          "げつようびまで きんようびから はたらきます。"
+        ],
+        "explanation": "Day+から〜Day+まで = from [day] to [day]."
+      },
+      {
+        "question": "Someone asks what you did last night. You studied Japanese.",
+        "answer": "きのうの よる にほんごを べんきょうしました。",
+        "options": [
+          "きのうの よる にほんごを べんきょうしました。",
+          "きのうの よる にほんごに べんきょうしました。",
+          "きのうの よる にほんごが べんきょうしました。",
+          "きのうの よる にほんごで べんきょうしました。"
+        ],
+        "explanation": "を marks the object studied. べんきょうしました = studied."
+      },
+      {
+        "question": "Saying 'The supermarket closes at 10pm.'",
+        "answer": "スーパーは よる 10じに しまります。",
+        "options": [
+          "スーパーは よる 10じに しまります。",
+          "スーパーは よる 10じで しまります。",
+          "スーパーは よる 10じから しまります。",
+          "スーパーは よる 10じまで しまります。"
+        ],
+        "explanation": "しまります = closes. に marks the specific time."
+      },
+      {
+        "question": "Asking 'How many hours do you sleep?'",
+        "answer": "なんじかん ねますか。",
+        "options": [
+          "なんじかん ねますか。",
+          "なんじ ねますか。",
+          "いつ ねますか。",
+          "どのくらい ねますか。"
+        ],
+        "explanation": "なんじかん = how many hours. Counter for hours duration."
+      },
+      {
+        "question": "You usually go to the gym on Saturdays.",
+        "answer": "たいてい どようびに ジムに いきます。",
+        "options": [
+          "たいてい どようびに ジムに いきます。",
+          "たいてい どようびで ジムで いきます。",
+          "たいてい どようびを ジムを いきます。",
+          "たいてい どようびは ジムに いきます。"
+        ],
+        "explanation": "Day+に for specific day. Destination+に+いきます = go to ~."
       }
     ]
   },
@@ -142,7 +274,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 12,
-      "questionsCount": 8
+      "questionsCount": 20
     },
     "items": [
       {
@@ -232,6 +364,138 @@
           "Every day"
         ],
         "explanation": "毎晩 (まいばん) = every evening/night. 毎朝 (まいあさ) = every morning. 毎日 (まいにち) = every day."
+      },
+      {
+        "question": "Someone asks what time you wake up. You say 6:30am.",
+        "answer": "まいあさ 6じはんに おきます。",
+        "options": [
+          "まいあさ 6じはんに おきます。",
+          "まいあさ 6じはんで おきます。",
+          "まいあさ 6じはんが おきます。",
+          "まいあさ 6じはんは おきます。"
+        ],
+        "explanation": "Time+に+verb. じはん = half past (30 min)."
+      },
+      {
+        "question": "You want to say 'I go to bed at 11pm every night.'",
+        "answer": "まいばん 11じに ねます。",
+        "options": [
+          "まいばん 11じに ねます。",
+          "まいばん 11じで ねます。",
+          "まいばん 11じは ねます。",
+          "まいばん 11じを ねます。"
+        ],
+        "explanation": "まいばん = every night. 11じ = 11 o'clock. に = at."
+      },
+      {
+        "question": "The store opens from 10am to 9pm. How do you say it?",
+        "answer": "10じから 9じまで あいています。",
+        "options": [
+          "10じから 9じまで あいています。",
+          "10じに 9じまで あいています。",
+          "10じから 9じに あいています。",
+          "10じまで 9じから あいています。"
+        ],
+        "explanation": "から〜まで = from〜to. あいています = is open."
+      },
+      {
+        "question": "You want to ask 'What time does the class start?'",
+        "answer": "じゅぎょうは なんじに はじまりますか。",
+        "options": [
+          "じゅぎょうは なんじに はじまりますか。",
+          "じゅぎょうは いつに はじまりますか。",
+          "じゅぎょうは なんようびに はじまりますか。",
+          "じゅぎょうは なんじで はじまりますか。"
+        ],
+        "explanation": "なんじに = at what time. はじまります = starts."
+      },
+      {
+        "question": "You didn't go to school yesterday.",
+        "answer": "きのう がっこうに いきませんでした。",
+        "options": [
+          "きのう がっこうに いきませんでした。",
+          "きのう がっこうに いきません。",
+          "きのう がっこうに いきました。",
+          "きのう がっこうで いきませんでした。"
+        ],
+        "explanation": "〜ませんでした = did not (past negative). きのう = yesterday."
+      },
+      {
+        "question": "How do you say 'I usually eat breakfast at 7am'?",
+        "answer": "たいてい あさごはんを 7じに たべます。",
+        "options": [
+          "たいてい あさごはんを 7じに たべます。",
+          "よく あさごはんが 7じで たべます。",
+          "いつも あさごはんを 7じは たべます。",
+          "たいてい あさごはんに 7じを たべます。"
+        ],
+        "explanation": "たいてい = usually. を marks the object eaten. に marks time."
+      },
+      {
+        "question": "Asking what day of the week Japanese class is:",
+        "answer": "にほんごの じゅぎょうは なんようびですか。",
+        "options": [
+          "にほんごの じゅぎょうは なんようびですか。",
+          "にほんごの じゅぎょうは なんじですか。",
+          "にほんごの じゅぎょうは いつですか。",
+          "にほんごの じゅぎょうは どこですか。"
+        ],
+        "explanation": "なんようび = what day of the week."
+      },
+      {
+        "question": "'I work from Monday to Friday.' How do you say it?",
+        "answer": "げつようびから きんようびまで はたらきます。",
+        "options": [
+          "げつようびから きんようびまで はたらきます。",
+          "げつようびに きんようびまで はたらきます。",
+          "げつようびから きんようびに はたらきます。",
+          "げつようびまで きんようびから はたらきます。"
+        ],
+        "explanation": "Day+から〜Day+まで = from [day] to [day]."
+      },
+      {
+        "question": "Someone asks what you did last night. You studied Japanese.",
+        "answer": "きのうの よる にほんごを べんきょうしました。",
+        "options": [
+          "きのうの よる にほんごを べんきょうしました。",
+          "きのうの よる にほんごに べんきょうしました。",
+          "きのうの よる にほんごが べんきょうしました。",
+          "きのうの よる にほんごで べんきょうしました。"
+        ],
+        "explanation": "を marks the object studied. べんきょうしました = studied."
+      },
+      {
+        "question": "Saying 'The supermarket closes at 10pm.'",
+        "answer": "スーパーは よる 10じに しまります。",
+        "options": [
+          "スーパーは よる 10じに しまります。",
+          "スーパーは よる 10じで しまります。",
+          "スーパーは よる 10じから しまります。",
+          "スーパーは よる 10じまで しまります。"
+        ],
+        "explanation": "しまります = closes. に marks the specific time."
+      },
+      {
+        "question": "Asking 'How many hours do you sleep?'",
+        "answer": "なんじかん ねますか。",
+        "options": [
+          "なんじかん ねますか。",
+          "なんじ ねますか。",
+          "いつ ねますか。",
+          "どのくらい ねますか。"
+        ],
+        "explanation": "なんじかん = how many hours. Counter for hours duration."
+      },
+      {
+        "question": "You usually go to the gym on Saturdays.",
+        "answer": "たいてい どようびに ジムに いきます。",
+        "options": [
+          "たいてい どようびに ジムに いきます。",
+          "たいてい どようびで ジムで いきます。",
+          "たいてい どようびを ジムを いきます。",
+          "たいてい どようびは ジムに いきます。"
+        ],
+        "explanation": "Day+に for specific day. Destination+に+いきます = go to ~."
       }
     ]
   }

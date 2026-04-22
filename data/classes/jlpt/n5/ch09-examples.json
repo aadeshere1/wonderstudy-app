@@ -44,7 +44,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 0,
-      "questionsCount": 8
+      "questionsCount": 20
     },
     "items": [
       {
@@ -134,6 +134,138 @@
           "ぜんぜんすしを食べましょう。"
         ],
         "explanation": "ぜんぜん = not at all. Must be followed by negative: ぜんぜん〜ません. Stronger than あまり."
+      },
+      {
+        "question": "Asking how many pieces of paper you need:",
+        "answer": "かみは なんまい いりますか。",
+        "options": [
+          "かみは なんまい いりますか。",
+          "かみは なんほん いりますか。",
+          "かみは なんこ いりますか。",
+          "かみは いくつ いりますか。"
+        ],
+        "explanation": "まい = flat objects counter. かみ = paper. いります = to need."
+      },
+      {
+        "question": "Buying 3 bottles of water at a convenience store:",
+        "answer": "みずを さんぼん ください。",
+        "options": [
+          "みずを さんぼん ください。",
+          "みずを さんまい ください。",
+          "みずを みっつ ください。",
+          "みずを さんこ ください。"
+        ],
+        "explanation": "本(ぼん) = counter for bottles/long things. 3本 = さんぼん."
+      },
+      {
+        "question": "You go to the market every day. How do you say it?",
+        "answer": "まいにち いちばに いきます。",
+        "options": [
+          "まいにち いちばに いきます。",
+          "よく いちばに いきます。",
+          "たまに いちばに いきます。",
+          "まいにち いちばで いきます。"
+        ],
+        "explanation": "まいにち = every day. いちば = market. に = destination."
+      },
+      {
+        "question": "Saying 'I rarely drink alcohol.'",
+        "answer": "あまり おさけを のみません。",
+        "options": [
+          "あまり おさけを のみません。",
+          "よく おさけを のみません。",
+          "たまに おさけを のみます。",
+          "あまり おさけを のみます。"
+        ],
+        "explanation": "あまり+negative = not much/rarely. Must pair with negative verb."
+      },
+      {
+        "question": "Asking how many stamps you need for the letter:",
+        "answer": "きってを なんまい はります か。",
+        "options": [
+          "きってを なんまい はりますか。",
+          "きってを なんほん はりますか。",
+          "きってを なんこ はりますか。",
+          "きってを いくつ はりますか。"
+        ],
+        "explanation": "きって = stamp. まい = flat object counter. はります = to stick/affix."
+      },
+      {
+        "question": "You bought 5 notebooks. How do you say it?",
+        "answer": "ノートを ごさつ かいました。",
+        "options": [
+          "ノートを ごさつ かいました。",
+          "ノートを いつつ かいました。",
+          "ノートを ごまい かいました。",
+          "ノートを ごほん かいました。"
+        ],
+        "explanation": "冊(さつ) = counter for books/notebooks. 5冊 = ごさつ."
+      },
+      {
+        "question": "How often do you eat at a restaurant? About twice a week.",
+        "answer": "しゅうに にかい ぐらい レストランで たべます。",
+        "options": [
+          "しゅうに にかい ぐらい レストランで たべます。",
+          "しゅうに にかい ぐらい レストランに たべます。",
+          "まいしゅう にかい ぐらい レストランで たべます。",
+          "しゅうに にかい ぐらい レストランを たべます。"
+        ],
+        "explanation": "しゅうに〜かい = ~ times a week. ぐらい = approximately. で = at (place of action)."
+      },
+      {
+        "question": "You don't watch TV at all.",
+        "answer": "ぜんぜん テレビを みません。",
+        "options": [
+          "ぜんぜん テレビを みません。",
+          "あまり テレビを みません。",
+          "ぜんぜん テレビを みます。",
+          "たまに テレビを みません。"
+        ],
+        "explanation": "ぜんぜん+negative = not at all. Strongest negative frequency."
+      },
+      {
+        "question": "At a ticket counter: 'Two adult tickets, please.'",
+        "answer": "おとなを にまい ください。",
+        "options": [
+          "おとなを にまい ください。",
+          "おとなを にほん ください。",
+          "おとなを ふたつ ください。",
+          "おとなを にこ ください。"
+        ],
+        "explanation": "Tickets use 枚(まい) = flat objects. おとな = adult. にまい = 2 tickets."
+      },
+      {
+        "question": "Saying you exercise 3 times a week:",
+        "answer": "しゅうに さんかい うんどうします。",
+        "options": [
+          "しゅうに さんかい うんどうします。",
+          "しゅうに さんど うんどうします。",
+          "まいしゅう さんかい うんどうします。",
+          "しゅうに さんかい うんどうしました。"
+        ],
+        "explanation": "しゅうに〜かい = ~ times a week. 回(かい) = counter for times/occurrences."
+      },
+      {
+        "question": "Asking 'How many cups of tea do you drink a day?'",
+        "answer": "いちにちに おちゃを なんばい のみますか。",
+        "options": [
+          "いちにちに おちゃを なんばい のみますか。",
+          "いちにちに おちゃを なんほん のみますか。",
+          "いちにちに おちゃを いくつ のみますか。",
+          "いちにちに おちゃを なんまい のみますか。"
+        ],
+        "explanation": "杯(はい/ばい) = counter for cups. なんばい = how many cups."
+      },
+      {
+        "question": "You always bring lunch from home.",
+        "answer": "いつも うちから おべんとうを もってきます。",
+        "options": [
+          "いつも うちから おべんとうを もってきます。",
+          "よく うちから おべんとうを もってきます。",
+          "いつも うちに おべんとうを もってきます。",
+          "いつも うちで おべんとうを もってきます。"
+        ],
+        "explanation": "いつも = always. から = from. もってきます = bring (to the speaker's location)."
       }
     ]
   },
@@ -142,7 +274,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 12,
-      "questionsCount": 8
+      "questionsCount": 20
     },
     "items": [
       {
@@ -232,6 +364,138 @@
           "ぜんぜんすしを食べましょう。"
         ],
         "explanation": "ぜんぜん = not at all. Must be followed by negative: ぜんぜん〜ません. Stronger than あまり."
+      },
+      {
+        "question": "Asking how many pieces of paper you need:",
+        "answer": "かみは なんまい いりますか。",
+        "options": [
+          "かみは なんまい いりますか。",
+          "かみは なんほん いりますか。",
+          "かみは なんこ いりますか。",
+          "かみは いくつ いりますか。"
+        ],
+        "explanation": "まい = flat objects counter. かみ = paper. いります = to need."
+      },
+      {
+        "question": "Buying 3 bottles of water at a convenience store:",
+        "answer": "みずを さんぼん ください。",
+        "options": [
+          "みずを さんぼん ください。",
+          "みずを さんまい ください。",
+          "みずを みっつ ください。",
+          "みずを さんこ ください。"
+        ],
+        "explanation": "本(ぼん) = counter for bottles/long things. 3本 = さんぼん."
+      },
+      {
+        "question": "You go to the market every day. How do you say it?",
+        "answer": "まいにち いちばに いきます。",
+        "options": [
+          "まいにち いちばに いきます。",
+          "よく いちばに いきます。",
+          "たまに いちばに いきます。",
+          "まいにち いちばで いきます。"
+        ],
+        "explanation": "まいにち = every day. いちば = market. に = destination."
+      },
+      {
+        "question": "Saying 'I rarely drink alcohol.'",
+        "answer": "あまり おさけを のみません。",
+        "options": [
+          "あまり おさけを のみません。",
+          "よく おさけを のみません。",
+          "たまに おさけを のみます。",
+          "あまり おさけを のみます。"
+        ],
+        "explanation": "あまり+negative = not much/rarely. Must pair with negative verb."
+      },
+      {
+        "question": "Asking how many stamps you need for the letter:",
+        "answer": "きってを なんまい はります か。",
+        "options": [
+          "きってを なんまい はりますか。",
+          "きってを なんほん はりますか。",
+          "きってを なんこ はりますか。",
+          "きってを いくつ はりますか。"
+        ],
+        "explanation": "きって = stamp. まい = flat object counter. はります = to stick/affix."
+      },
+      {
+        "question": "You bought 5 notebooks. How do you say it?",
+        "answer": "ノートを ごさつ かいました。",
+        "options": [
+          "ノートを ごさつ かいました。",
+          "ノートを いつつ かいました。",
+          "ノートを ごまい かいました。",
+          "ノートを ごほん かいました。"
+        ],
+        "explanation": "冊(さつ) = counter for books/notebooks. 5冊 = ごさつ."
+      },
+      {
+        "question": "How often do you eat at a restaurant? About twice a week.",
+        "answer": "しゅうに にかい ぐらい レストランで たべます。",
+        "options": [
+          "しゅうに にかい ぐらい レストランで たべます。",
+          "しゅうに にかい ぐらい レストランに たべます。",
+          "まいしゅう にかい ぐらい レストランで たべます。",
+          "しゅうに にかい ぐらい レストランを たべます。"
+        ],
+        "explanation": "しゅうに〜かい = ~ times a week. ぐらい = approximately. で = at (place of action)."
+      },
+      {
+        "question": "You don't watch TV at all.",
+        "answer": "ぜんぜん テレビを みません。",
+        "options": [
+          "ぜんぜん テレビを みません。",
+          "あまり テレビを みません。",
+          "ぜんぜん テレビを みます。",
+          "たまに テレビを みません。"
+        ],
+        "explanation": "ぜんぜん+negative = not at all. Strongest negative frequency."
+      },
+      {
+        "question": "At a ticket counter: 'Two adult tickets, please.'",
+        "answer": "おとなを にまい ください。",
+        "options": [
+          "おとなを にまい ください。",
+          "おとなを にほん ください。",
+          "おとなを ふたつ ください。",
+          "おとなを にこ ください。"
+        ],
+        "explanation": "Tickets use 枚(まい) = flat objects. おとな = adult. にまい = 2 tickets."
+      },
+      {
+        "question": "Saying you exercise 3 times a week:",
+        "answer": "しゅうに さんかい うんどうします。",
+        "options": [
+          "しゅうに さんかい うんどうします。",
+          "しゅうに さんど うんどうします。",
+          "まいしゅう さんかい うんどうします。",
+          "しゅうに さんかい うんどうしました。"
+        ],
+        "explanation": "しゅうに〜かい = ~ times a week. 回(かい) = counter for times/occurrences."
+      },
+      {
+        "question": "Asking 'How many cups of tea do you drink a day?'",
+        "answer": "いちにちに おちゃを なんばい のみますか。",
+        "options": [
+          "いちにちに おちゃを なんばい のみますか。",
+          "いちにちに おちゃを なんほん のみますか。",
+          "いちにちに おちゃを いくつ のみますか。",
+          "いちにちに おちゃを なんまい のみますか。"
+        ],
+        "explanation": "杯(はい/ばい) = counter for cups. なんばい = how many cups."
+      },
+      {
+        "question": "You always bring lunch from home.",
+        "answer": "いつも うちから おべんとうを もってきます。",
+        "options": [
+          "いつも うちから おべんとうを もってきます。",
+          "よく うちから おべんとうを もってきます。",
+          "いつも うちに おべんとうを もってきます。",
+          "いつも うちで おべんとうを もってきます。"
+        ],
+        "explanation": "いつも = always. から = from. もってきます = bring (to the speaker's location)."
       }
     ]
   }

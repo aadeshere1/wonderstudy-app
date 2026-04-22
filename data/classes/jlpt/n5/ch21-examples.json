@@ -32,7 +32,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 0,
-      "questionsCount": 3
+      "questionsCount": 20
     },
     "items": [
       {
@@ -67,6 +67,91 @@
           "泳むません。"
         ],
         "explanation": "泳ぐ (およぐ) is Group 1: g(u) → g(e)ru. 泳ぐ → 泳げる → 泳げません (cannot swim)."
+      },
+      {
+        "question": "How do you say 'I can drive a car'?",
+        "answer": "くるまが運転できます。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I can't eat raw fish'?",
+        "answer": "なまさかなが食べられません。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Ask a friend: 'Can you play the piano?'",
+        "answer": "ピアノが弾けますか。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Respond to the above: 'No, I can't play the piano, but I can play the guitar.'",
+        "answer": "いいえ、ピアノは弾けませんが、ギターが弾けます。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'Anyone can use this computer'?",
+        "answer": "このパソコンはだれでも使えます。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I can speak a little English'?",
+        "answer": "すこしえいごが話せます。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I couldn't wake up early this morning'?",
+        "answer": "けさはやく起きられませんでした。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Ask: 'Can you understand this Japanese?'",
+        "answer": "この日本語がわかりますか。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I can type fast'?",
+        "answer": "タイピングがはやくできます。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'My child can read hiragana now'?",
+        "answer": "こどもがひらがなを読めるようになりました。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I can drink milk but I can't eat cheese'?",
+        "answer": "ぎゅうにゅうは飲めますが、チーズは食べられません。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I can write kanji a little'?",
+        "answer": "かんじが少し書けます。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'He can run 10 kilometres'?",
+        "answer": "かれは10キロ走れます。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I couldn't finish the homework'?",
+        "answer": "しゅくだいが終わりませんでした。/ しゅくだいができませんでした。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'She can cook very well'?",
+        "answer": "かのじょはりょうりがとてもじょうずです。/ りょうりがとてもできます。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'Can you come tomorrow?'",
+        "answer": "あしたこられますか。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I can't come because I have work'?",
+        "answer": "しごとがあるから、こられません。",
+        "type": "short_answer"
       }
     ]
   },
@@ -75,7 +160,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 12,
-      "questionsCount": 3
+      "questionsCount": 20
     },
     "items": [
       {
@@ -110,6 +195,91 @@
           "泳むません。"
         ],
         "explanation": "泳ぐ (およぐ) is Group 1: g(u) → g(e)ru. 泳ぐ → 泳げる → 泳げません (cannot swim)."
+      },
+      {
+        "question": "How do you say 'I can drive a car'?",
+        "answer": "くるまが運転できます。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I can't eat raw fish'?",
+        "answer": "なまさかなが食べられません。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Ask a friend: 'Can you play the piano?'",
+        "answer": "ピアノが弾けますか。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Respond to the above: 'No, I can't play the piano, but I can play the guitar.'",
+        "answer": "いいえ、ピアノは弾けませんが、ギターが弾けます。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'Anyone can use this computer'?",
+        "answer": "このパソコンはだれでも使えます。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I can speak a little English'?",
+        "answer": "すこしえいごが話せます。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I couldn't wake up early this morning'?",
+        "answer": "けさはやく起きられませんでした。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Ask: 'Can you understand this Japanese?'",
+        "answer": "この日本語がわかりますか。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I can type fast'?",
+        "answer": "タイピングがはやくできます。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'My child can read hiragana now'?",
+        "answer": "こどもがひらがなを読めるようになりました。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I can drink milk but I can't eat cheese'?",
+        "answer": "ぎゅうにゅうは飲めますが、チーズは食べられません。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I can write kanji a little'?",
+        "answer": "かんじが少し書けます。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'He can run 10 kilometres'?",
+        "answer": "かれは10キロ走れます。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I couldn't finish the homework'?",
+        "answer": "しゅくだいが終わりませんでした。/ しゅくだいができませんでした。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'She can cook very well'?",
+        "answer": "かのじょはりょうりがとてもじょうずです。/ りょうりがとてもできます。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'Can you come tomorrow?'",
+        "answer": "あしたこられますか。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I can't come because I have work'?",
+        "answer": "しごとがあるから、こられません。",
+        "type": "short_answer"
       }
     ]
   }

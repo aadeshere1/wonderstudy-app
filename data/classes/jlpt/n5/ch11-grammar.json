@@ -44,7 +44,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 0,
-      "questionsCount": 10
+      "questionsCount": 20
     },
     "items": [
       {
@@ -156,6 +156,116 @@
           "京都がおみやげをかいました。"
         ],
         "explanation": "で marks location of action. 京都で = in Kyoto. を marks object. かいました = bought (past)."
+      },
+      {
+        "question": "しゅうまつは _____へ いきましたか。——いいえ、どこへも いきませんでした。",
+        "answer": "どこか",
+        "options": [
+          "どこか",
+          "どこも",
+          "どこへも",
+          "どこでも"
+        ],
+        "explanation": "どこかへ = somewhere. どこへもいきません = didn't go anywhere (negative)."
+      },
+      {
+        "question": "なにか _____ましたか。——いいえ、なにも たべませんでした。(Did you eat something?)",
+        "answer": "たべ",
+        "options": [
+          "たべ",
+          "のみ",
+          "かい",
+          "み"
+        ],
+        "explanation": "なにか = something. なにも+negative = nothing at all."
+      },
+      {
+        "question": "だれかが きましたか。——いいえ、_____きませんでした。(Did someone come? — No, nobody came.)",
+        "answer": "だれも",
+        "options": [
+          "だれも",
+          "だれか",
+          "だれでも",
+          "だれには"
+        ],
+        "explanation": "だれか = someone. だれも+negative = no one."
+      },
+      {
+        "question": "どこかで おいしい すしを たべ _____。(Let's eat delicious sushi somewhere.)",
+        "answer": "ましょう",
+        "options": [
+          "ましょう",
+          "ませんか",
+          "ません",
+          "ました"
+        ],
+        "explanation": "ましょう = let's (suggestion). どこかで = somewhere."
+      },
+      {
+        "question": "きのう なにか かいましたか。——はい、_____ かいました。(Did you buy anything? — Yes, I bought something.)",
+        "answer": "なにか",
+        "options": [
+          "なにか",
+          "なにも",
+          "なにでも",
+          "なにが"
+        ],
+        "explanation": "なにか = something (affirmative context). なにも+negative = nothing."
+      },
+      {
+        "question": "この へんに _____いい レストランが ありますか。(Is there a good restaurant somewhere around here?)",
+        "answer": "どこか",
+        "options": [
+          "どこか",
+          "どこも",
+          "どこへも",
+          "どこでも"
+        ],
+        "explanation": "どこか = somewhere. どこかに = somewhere (location)."
+      },
+      {
+        "question": "かれは _____いきません。(He doesn't go anywhere.)",
+        "answer": "どこへも",
+        "options": [
+          "どこへも",
+          "どこかへ",
+          "どこでも",
+          "どこかで"
+        ],
+        "explanation": "どこへも+negative = (not) anywhere. The も with negative means 'not even anywhere'."
+      },
+      {
+        "question": "たなかさんが なにか _____。(Mr Tanaka said something.)",
+        "answer": "いいました",
+        "options": [
+          "いいました",
+          "きこえました",
+          "みえました",
+          "おもいました"
+        ],
+        "explanation": "なにか+verb = said/did something (indefinite). いいました = said."
+      },
+      {
+        "question": "だれかに _____ましたか。(Did you ask someone?)",
+        "answer": "きき",
+        "options": [
+          "きき",
+          "いい",
+          "おし",
+          "はなし"
+        ],
+        "explanation": "だれかに = to someone (direction). ききます = to ask/listen. に marks recipient."
+      },
+      {
+        "question": "いえに _____いますか。(Is anyone at home?)",
+        "answer": "だれか",
+        "options": [
+          "だれか",
+          "だれも",
+          "だれでも",
+          "だれには"
+        ],
+        "explanation": "だれか = someone. In a question, だれか = is anyone ~?"
       }
     ]
   },
@@ -164,7 +274,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 12,
-      "questionsCount": 10
+      "questionsCount": 20
     },
     "items": [
       {
@@ -276,6 +386,116 @@
           "京都がおみやげをかいました。"
         ],
         "explanation": "で marks location of action. 京都で = in Kyoto. を marks object. かいました = bought (past)."
+      },
+      {
+        "question": "しゅうまつは _____へ いきましたか。——いいえ、どこへも いきませんでした。",
+        "answer": "どこか",
+        "options": [
+          "どこか",
+          "どこも",
+          "どこへも",
+          "どこでも"
+        ],
+        "explanation": "どこかへ = somewhere. どこへもいきません = didn't go anywhere (negative)."
+      },
+      {
+        "question": "なにか _____ましたか。——いいえ、なにも たべませんでした。(Did you eat something?)",
+        "answer": "たべ",
+        "options": [
+          "たべ",
+          "のみ",
+          "かい",
+          "み"
+        ],
+        "explanation": "なにか = something. なにも+negative = nothing at all."
+      },
+      {
+        "question": "だれかが きましたか。——いいえ、_____きませんでした。(Did someone come? — No, nobody came.)",
+        "answer": "だれも",
+        "options": [
+          "だれも",
+          "だれか",
+          "だれでも",
+          "だれには"
+        ],
+        "explanation": "だれか = someone. だれも+negative = no one."
+      },
+      {
+        "question": "どこかで おいしい すしを たべ _____。(Let's eat delicious sushi somewhere.)",
+        "answer": "ましょう",
+        "options": [
+          "ましょう",
+          "ませんか",
+          "ません",
+          "ました"
+        ],
+        "explanation": "ましょう = let's (suggestion). どこかで = somewhere."
+      },
+      {
+        "question": "きのう なにか かいましたか。——はい、_____ かいました。(Did you buy anything? — Yes, I bought something.)",
+        "answer": "なにか",
+        "options": [
+          "なにか",
+          "なにも",
+          "なにでも",
+          "なにが"
+        ],
+        "explanation": "なにか = something (affirmative context). なにも+negative = nothing."
+      },
+      {
+        "question": "この へんに _____いい レストランが ありますか。(Is there a good restaurant somewhere around here?)",
+        "answer": "どこか",
+        "options": [
+          "どこか",
+          "どこも",
+          "どこへも",
+          "どこでも"
+        ],
+        "explanation": "どこか = somewhere. どこかに = somewhere (location)."
+      },
+      {
+        "question": "かれは _____いきません。(He doesn't go anywhere.)",
+        "answer": "どこへも",
+        "options": [
+          "どこへも",
+          "どこかへ",
+          "どこでも",
+          "どこかで"
+        ],
+        "explanation": "どこへも+negative = (not) anywhere. The も with negative means 'not even anywhere'."
+      },
+      {
+        "question": "たなかさんが なにか _____。(Mr Tanaka said something.)",
+        "answer": "いいました",
+        "options": [
+          "いいました",
+          "きこえました",
+          "みえました",
+          "おもいました"
+        ],
+        "explanation": "なにか+verb = said/did something (indefinite). いいました = said."
+      },
+      {
+        "question": "だれかに _____ましたか。(Did you ask someone?)",
+        "answer": "きき",
+        "options": [
+          "きき",
+          "いい",
+          "おし",
+          "はなし"
+        ],
+        "explanation": "だれかに = to someone (direction). ききます = to ask/listen. に marks recipient."
+      },
+      {
+        "question": "いえに _____いますか。(Is anyone at home?)",
+        "answer": "だれか",
+        "options": [
+          "だれか",
+          "だれも",
+          "だれでも",
+          "だれには"
+        ],
+        "explanation": "だれか = someone. In a question, だれか = is anyone ~?"
       }
     ]
   }

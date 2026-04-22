@@ -32,7 +32,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 0,
-      "questionsCount": 5
+      "questionsCount": 20
     },
     "items": [
       {
@@ -89,6 +89,171 @@
           "よう"
         ],
         "explanation": "利用できます = can use / is available for use. だれでも = anyone. だれでも利用できます."
+      },
+      {
+        "question": "見る → potential form is:",
+        "answer": "見られます",
+        "options": [
+          "見られます",
+          "見えます",
+          "見れます",
+          "見できます"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "来る → potential form is:",
+        "answer": "来られます（こられます）",
+        "options": [
+          "来られます（こられます）",
+          "来できます",
+          "来れます",
+          "来えます"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "する → potential form is:",
+        "answer": "できます",
+        "options": [
+          "できます",
+          "しられます",
+          "しれます",
+          "せられます"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "飲む → potential form is:",
+        "answer": "飲めます",
+        "options": [
+          "飲めます",
+          "飲まれます",
+          "飲みられます",
+          "飲できます"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "泳ぐ → potential form is:",
+        "answer": "泳げます",
+        "options": [
+          "泳げます",
+          "泳ぎます",
+          "泳がれます",
+          "泳ぐます"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "話す → potential form is:",
+        "answer": "話せます",
+        "options": [
+          "話せます",
+          "話さます",
+          "話しられます",
+          "話します"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "聞く → potential form is:",
+        "answer": "聞けます",
+        "options": [
+          "聞けます",
+          "聞きます",
+          "聞かれます",
+          "聞くます"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "What particle is typically used with potential verbs for the object?",
+        "answer": "が",
+        "options": [
+          "が",
+          "を",
+          "に",
+          "で"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "How do you say 'Can you ride a bicycle'?",
+        "answer": "じてんしゃに乗れますか。",
+        "options": [
+          "じてんしゃに乗れますか。",
+          "じてんしゃを乗れますか。",
+          "じてんしゃが乗れますか。",
+          "じてんしゃで乗れますか。"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "I can play the guitar. Which is correct?",
+        "answer": "ギターが弾けます。",
+        "options": [
+          "ギターが弾けます。",
+          "ギターを弾けます。",
+          "ギターで弾けます。",
+          "ギターに弾けます。"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "She can't cook. Which is correct?",
+        "answer": "かのじょは料理ができません。",
+        "options": [
+          "かのじょは料理ができません。",
+          "かのじょは料理を できません。",
+          "かのじょは料理に できません。",
+          "かのじょは料理のできません。"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "起きる → potential form is:",
+        "answer": "起きられます",
+        "options": [
+          "起きられます",
+          "起きれます",
+          "起きできます",
+          "起けます"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "読む → potential form is:",
+        "answer": "読めます",
+        "options": [
+          "読めます",
+          "読まれます",
+          "読みられます",
+          "読できます"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "How do you say 'I can eat spicy food'?",
+        "answer": "からいたべものが食べられます。",
+        "options": [
+          "からいたべものが食べられます。",
+          "からいたべものを食べられます。",
+          "からいたべものが食べます。",
+          "からいたべものを食べできます。"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "切る → potential form is:",
+        "answer": "切れます",
+        "options": [
+          "切れます",
+          "切られます",
+          "切りられます",
+          "切できます"
+        ],
+        "type": "multiple_choice"
       }
     ]
   },
@@ -97,7 +262,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 12,
-      "questionsCount": 5
+      "questionsCount": 20
     },
     "items": [
       {
@@ -154,6 +319,171 @@
           "よう"
         ],
         "explanation": "利用できます = can use / is available for use. だれでも = anyone. だれでも利用できます."
+      },
+      {
+        "question": "見る → potential form is:",
+        "answer": "見られます",
+        "options": [
+          "見られます",
+          "見えます",
+          "見れます",
+          "見できます"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "来る → potential form is:",
+        "answer": "来られます（こられます）",
+        "options": [
+          "来られます（こられます）",
+          "来できます",
+          "来れます",
+          "来えます"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "する → potential form is:",
+        "answer": "できます",
+        "options": [
+          "できます",
+          "しられます",
+          "しれます",
+          "せられます"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "飲む → potential form is:",
+        "answer": "飲めます",
+        "options": [
+          "飲めます",
+          "飲まれます",
+          "飲みられます",
+          "飲できます"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "泳ぐ → potential form is:",
+        "answer": "泳げます",
+        "options": [
+          "泳げます",
+          "泳ぎます",
+          "泳がれます",
+          "泳ぐます"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "話す → potential form is:",
+        "answer": "話せます",
+        "options": [
+          "話せます",
+          "話さます",
+          "話しられます",
+          "話します"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "聞く → potential form is:",
+        "answer": "聞けます",
+        "options": [
+          "聞けます",
+          "聞きます",
+          "聞かれます",
+          "聞くます"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "What particle is typically used with potential verbs for the object?",
+        "answer": "が",
+        "options": [
+          "が",
+          "を",
+          "に",
+          "で"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "How do you say 'Can you ride a bicycle'?",
+        "answer": "じてんしゃに乗れますか。",
+        "options": [
+          "じてんしゃに乗れますか。",
+          "じてんしゃを乗れますか。",
+          "じてんしゃが乗れますか。",
+          "じてんしゃで乗れますか。"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "I can play the guitar. Which is correct?",
+        "answer": "ギターが弾けます。",
+        "options": [
+          "ギターが弾けます。",
+          "ギターを弾けます。",
+          "ギターで弾けます。",
+          "ギターに弾けます。"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "She can't cook. Which is correct?",
+        "answer": "かのじょは料理ができません。",
+        "options": [
+          "かのじょは料理ができません。",
+          "かのじょは料理を できません。",
+          "かのじょは料理に できません。",
+          "かのじょは料理のできません。"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "起きる → potential form is:",
+        "answer": "起きられます",
+        "options": [
+          "起きられます",
+          "起きれます",
+          "起きできます",
+          "起けます"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "読む → potential form is:",
+        "answer": "読めます",
+        "options": [
+          "読めます",
+          "読まれます",
+          "読みられます",
+          "読できます"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "How do you say 'I can eat spicy food'?",
+        "answer": "からいたべものが食べられます。",
+        "options": [
+          "からいたべものが食べられます。",
+          "からいたべものを食べられます。",
+          "からいたべものが食べます。",
+          "からいたべものを食べできます。"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "切る → potential form is:",
+        "answer": "切れます",
+        "options": [
+          "切れます",
+          "切られます",
+          "切りられます",
+          "切できます"
+        ],
+        "type": "multiple_choice"
       }
     ]
   }

@@ -52,7 +52,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 0,
-      "questionsCount": 12
+      "questionsCount": 20
     },
     "items": [
       {
@@ -186,6 +186,94 @@
           "すみません。"
         ],
         "explanation": "ぜひ = by all means / definitely! + ましょう = let's. Express enthusiasm when accepting invitations."
+      },
+      {
+        "question": "いっしょに えいがを み _____か。(Shall we watch a movie together?)",
+        "answer": "ませんか",
+        "options": [
+          "ませんか",
+          "ましょうか",
+          "ませんね",
+          "ましょうね"
+        ],
+        "explanation": "〜ませんか = Shall we ~? / Would you like to ~? (invitation)"
+      },
+      {
+        "question": "A: 9じに ロビーで あいましょう。B: _____、そうしましょう。",
+        "answer": "ええ",
+        "options": [
+          "ええ",
+          "いいえ",
+          "ちがいます",
+          "どうぞ"
+        ],
+        "explanation": "ええ = yes (informal/conversational). そうしましょう = let's do that."
+      },
+      {
+        "question": "でんしゃ_____ ひろしままで いきます。(I go to Hiroshima by train.)",
+        "answer": "で",
+        "options": [
+          "で",
+          "に",
+          "を",
+          "から"
+        ],
+        "explanation": "で marks means of transport: でんしゃで = by train."
+      },
+      {
+        "question": "きっぷを _____ ください。(Please buy a ticket.)",
+        "answer": "かって",
+        "options": [
+          "かって",
+          "かいて",
+          "かって",
+          "のって"
+        ],
+        "explanation": "かう → かって (て-form of かう: buy). 〜てください = please do ~."
+      },
+      {
+        "question": "バスに _____。(Please get on the bus.)",
+        "answer": "のって ください",
+        "options": [
+          "のって ください",
+          "おりて ください",
+          "あるいて ください",
+          "はいって ください"
+        ],
+        "explanation": "のります → のって = get on (て-form). のってください = please board."
+      },
+      {
+        "question": "くうこうまで どうやって いきますか。——でんしゃ _____ いきます。",
+        "answer": "で",
+        "options": [
+          "で",
+          "に",
+          "を",
+          "から"
+        ],
+        "explanation": "Transport+で = by [transport]. でんしゃで = by train."
+      },
+      {
+        "question": "タクシー_____ いきましょうか。(Shall we go by taxi?)",
+        "answer": "で",
+        "options": [
+          "で",
+          "に",
+          "が",
+          "を"
+        ],
+        "explanation": "タクシーで = by taxi. で = means/method."
+      },
+      {
+        "question": "てを _____ から、しょくじしましょう。(After washing hands, let's eat.)",
+        "answer": "あらって",
+        "options": [
+          "あらって",
+          "あらいて",
+          "あらって",
+          "あらって"
+        ],
+        "explanation": "あらう → あらって (て-form: wash hands). て-form connects actions."
       }
     ]
   },
@@ -194,7 +282,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 12,
-      "questionsCount": 12
+      "questionsCount": 20
     },
     "items": [
       {
@@ -328,6 +416,94 @@
           "すみません。"
         ],
         "explanation": "ぜひ = by all means / definitely! + ましょう = let's. Express enthusiasm when accepting invitations."
+      },
+      {
+        "question": "いっしょに えいがを み _____か。(Shall we watch a movie together?)",
+        "answer": "ませんか",
+        "options": [
+          "ませんか",
+          "ましょうか",
+          "ませんね",
+          "ましょうね"
+        ],
+        "explanation": "〜ませんか = Shall we ~? / Would you like to ~? (invitation)"
+      },
+      {
+        "question": "A: 9じに ロビーで あいましょう。B: _____、そうしましょう。",
+        "answer": "ええ",
+        "options": [
+          "ええ",
+          "いいえ",
+          "ちがいます",
+          "どうぞ"
+        ],
+        "explanation": "ええ = yes (informal/conversational). そうしましょう = let's do that."
+      },
+      {
+        "question": "でんしゃ_____ ひろしままで いきます。(I go to Hiroshima by train.)",
+        "answer": "で",
+        "options": [
+          "で",
+          "に",
+          "を",
+          "から"
+        ],
+        "explanation": "で marks means of transport: でんしゃで = by train."
+      },
+      {
+        "question": "きっぷを _____ ください。(Please buy a ticket.)",
+        "answer": "かって",
+        "options": [
+          "かって",
+          "かいて",
+          "かって",
+          "のって"
+        ],
+        "explanation": "かう → かって (て-form of かう: buy). 〜てください = please do ~."
+      },
+      {
+        "question": "バスに _____。(Please get on the bus.)",
+        "answer": "のって ください",
+        "options": [
+          "のって ください",
+          "おりて ください",
+          "あるいて ください",
+          "はいって ください"
+        ],
+        "explanation": "のります → のって = get on (て-form). のってください = please board."
+      },
+      {
+        "question": "くうこうまで どうやって いきますか。——でんしゃ _____ いきます。",
+        "answer": "で",
+        "options": [
+          "で",
+          "に",
+          "を",
+          "から"
+        ],
+        "explanation": "Transport+で = by [transport]. でんしゃで = by train."
+      },
+      {
+        "question": "タクシー_____ いきましょうか。(Shall we go by taxi?)",
+        "answer": "で",
+        "options": [
+          "で",
+          "に",
+          "が",
+          "を"
+        ],
+        "explanation": "タクシーで = by taxi. で = means/method."
+      },
+      {
+        "question": "てを _____ から、しょくじしましょう。(After washing hands, let's eat.)",
+        "answer": "あらって",
+        "options": [
+          "あらって",
+          "あらいて",
+          "あらって",
+          "あらって"
+        ],
+        "explanation": "あらう → あらって (て-form: wash hands). て-form connects actions."
       }
     ]
   }

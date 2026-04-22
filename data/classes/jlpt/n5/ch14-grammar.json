@@ -32,7 +32,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 0,
-      "questionsCount": 6
+      "questionsCount": 20
     },
     "items": [
       {
@@ -100,6 +100,160 @@
           "I am going to ~"
         ],
         "explanation": "住む (すむ) + でいます = ongoing state of living. 〜に住んでいます = live in ~."
+      },
+      {
+        "question": "いま なにを して _____か。(What are you doing now?)",
+        "answer": "います",
+        "options": [
+          "います",
+          "あります",
+          "おきます",
+          "します"
+        ],
+        "explanation": "〜ています = is doing (progressive). します→しています. います for living things/ongoing action."
+      },
+      {
+        "question": "かのじょは いま でんわで はなして _____。(She is talking on the phone now.)",
+        "answer": "います",
+        "options": [
+          "います",
+          "あります",
+          "いません",
+          "おきます"
+        ],
+        "explanation": "〜ています = progressive. はなしています = is talking."
+      },
+      {
+        "question": "たなかさんは もう けっこん して _____。(Mr Tanaka is already married.)",
+        "answer": "います",
+        "options": [
+          "います",
+          "あります",
+          "きます",
+          "いきます"
+        ],
+        "explanation": "〜ています can also express a resultant state. けっこんしています = is married."
+      },
+      {
+        "question": "さとうさんは いま でかけて _____。(Ms Sato has gone out/is out.)",
+        "answer": "います",
+        "options": [
+          "います",
+          "あります",
+          "いません",
+          "ありません"
+        ],
+        "explanation": "でかけています = has gone out and is away (resultant state)."
+      },
+      {
+        "question": "はなが さいて _____。(The flowers are blooming.)",
+        "answer": "います",
+        "options": [
+          "います",
+          "あります",
+          "きます",
+          "いきます"
+        ],
+        "explanation": "〜ています = state/ongoing. さいています = is blooming (state of flower)."
+      },
+      {
+        "question": "いまから でんわを かける _____ですが、いま よろしいですか。",
+        "answer": "ところ",
+        "options": [
+          "ところ",
+          "こと",
+          "もの",
+          "ため"
+        ],
+        "explanation": "〜ところです = about to do / just doing. いまからかけるところ = about to call."
+      },
+      {
+        "question": "ちょうど ひるごはんを たべて _____ところです。(I am just eating lunch now.)",
+        "answer": "いる",
+        "options": [
+          "いる",
+          "ある",
+          "いない",
+          "くる"
+        ],
+        "explanation": "〜ているところです = is in the middle of doing."
+      },
+      {
+        "question": "あの ひとは たなかさんを _____ていますか。(Do you know that person?)",
+        "answer": "しっ",
+        "options": [
+          "しっ",
+          "みて",
+          "きいて",
+          "よんで"
+        ],
+        "explanation": "しる→しっています = know (resultant state). Not しています."
+      },
+      {
+        "question": "かれは がいしゃに _____います。(He works at a company — is employed.)",
+        "answer": "つとめて",
+        "options": [
+          "つとめて",
+          "はたらいて",
+          "いって",
+          "きて"
+        ],
+        "explanation": "つとめています = is employed at. Resultant state from getting a job."
+      },
+      {
+        "question": "スミスさんは いま にほんごを _____ています。(Mr Smith is studying Japanese.)",
+        "answer": "べんきょうし",
+        "options": [
+          "べんきょうし",
+          "べんきょう",
+          "べんきょうして",
+          "べんきょうする"
+        ],
+        "explanation": "べんきょうしています = is studying. する→して+います."
+      },
+      {
+        "question": "でんしゃが _____ています。(The train is running/in service.)",
+        "answer": "はしっ",
+        "options": [
+          "はしっ",
+          "きて",
+          "いって",
+          "とまっ"
+        ],
+        "explanation": "はしる→はしっています = is running. Progressive of movement."
+      },
+      {
+        "question": "あのみせは いまも _____ていますか。(Is that store still open?)",
+        "answer": "あいて",
+        "options": [
+          "あいて",
+          "しまって",
+          "きて",
+          "いって"
+        ],
+        "explanation": "あく→あいています = is open (resultant state). しまっています = is closed."
+      },
+      {
+        "question": "いもうとは もう ねて _____。(My younger sister is already asleep.)",
+        "answer": "います",
+        "options": [
+          "います",
+          "あります",
+          "きます",
+          "いきます"
+        ],
+        "explanation": "ねています = is sleeping (ongoing state)."
+      },
+      {
+        "question": "いま でんしゃに _____ので、あとで かけなおします。(I'm on the train now so I'll call back later.)",
+        "answer": "のって",
+        "options": [
+          "のって",
+          "はいって",
+          "すわって",
+          "きて"
+        ],
+        "explanation": "のっています = is on (the train). のる→のって+います. State of being on transport."
       }
     ]
   },
@@ -108,7 +262,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 12,
-      "questionsCount": 6
+      "questionsCount": 20
     },
     "items": [
       {
@@ -176,6 +330,160 @@
           "I am going to ~"
         ],
         "explanation": "住む (すむ) + でいます = ongoing state of living. 〜に住んでいます = live in ~."
+      },
+      {
+        "question": "いま なにを して _____か。(What are you doing now?)",
+        "answer": "います",
+        "options": [
+          "います",
+          "あります",
+          "おきます",
+          "します"
+        ],
+        "explanation": "〜ています = is doing (progressive). します→しています. います for living things/ongoing action."
+      },
+      {
+        "question": "かのじょは いま でんわで はなして _____。(She is talking on the phone now.)",
+        "answer": "います",
+        "options": [
+          "います",
+          "あります",
+          "いません",
+          "おきます"
+        ],
+        "explanation": "〜ています = progressive. はなしています = is talking."
+      },
+      {
+        "question": "たなかさんは もう けっこん して _____。(Mr Tanaka is already married.)",
+        "answer": "います",
+        "options": [
+          "います",
+          "あります",
+          "きます",
+          "いきます"
+        ],
+        "explanation": "〜ています can also express a resultant state. けっこんしています = is married."
+      },
+      {
+        "question": "さとうさんは いま でかけて _____。(Ms Sato has gone out/is out.)",
+        "answer": "います",
+        "options": [
+          "います",
+          "あります",
+          "いません",
+          "ありません"
+        ],
+        "explanation": "でかけています = has gone out and is away (resultant state)."
+      },
+      {
+        "question": "はなが さいて _____。(The flowers are blooming.)",
+        "answer": "います",
+        "options": [
+          "います",
+          "あります",
+          "きます",
+          "いきます"
+        ],
+        "explanation": "〜ています = state/ongoing. さいています = is blooming (state of flower)."
+      },
+      {
+        "question": "いまから でんわを かける _____ですが、いま よろしいですか。",
+        "answer": "ところ",
+        "options": [
+          "ところ",
+          "こと",
+          "もの",
+          "ため"
+        ],
+        "explanation": "〜ところです = about to do / just doing. いまからかけるところ = about to call."
+      },
+      {
+        "question": "ちょうど ひるごはんを たべて _____ところです。(I am just eating lunch now.)",
+        "answer": "いる",
+        "options": [
+          "いる",
+          "ある",
+          "いない",
+          "くる"
+        ],
+        "explanation": "〜ているところです = is in the middle of doing."
+      },
+      {
+        "question": "あの ひとは たなかさんを _____ていますか。(Do you know that person?)",
+        "answer": "しっ",
+        "options": [
+          "しっ",
+          "みて",
+          "きいて",
+          "よんで"
+        ],
+        "explanation": "しる→しっています = know (resultant state). Not しています."
+      },
+      {
+        "question": "かれは がいしゃに _____います。(He works at a company — is employed.)",
+        "answer": "つとめて",
+        "options": [
+          "つとめて",
+          "はたらいて",
+          "いって",
+          "きて"
+        ],
+        "explanation": "つとめています = is employed at. Resultant state from getting a job."
+      },
+      {
+        "question": "スミスさんは いま にほんごを _____ています。(Mr Smith is studying Japanese.)",
+        "answer": "べんきょうし",
+        "options": [
+          "べんきょうし",
+          "べんきょう",
+          "べんきょうして",
+          "べんきょうする"
+        ],
+        "explanation": "べんきょうしています = is studying. する→して+います."
+      },
+      {
+        "question": "でんしゃが _____ています。(The train is running/in service.)",
+        "answer": "はしっ",
+        "options": [
+          "はしっ",
+          "きて",
+          "いって",
+          "とまっ"
+        ],
+        "explanation": "はしる→はしっています = is running. Progressive of movement."
+      },
+      {
+        "question": "あのみせは いまも _____ていますか。(Is that store still open?)",
+        "answer": "あいて",
+        "options": [
+          "あいて",
+          "しまって",
+          "きて",
+          "いって"
+        ],
+        "explanation": "あく→あいています = is open (resultant state). しまっています = is closed."
+      },
+      {
+        "question": "いもうとは もう ねて _____。(My younger sister is already asleep.)",
+        "answer": "います",
+        "options": [
+          "います",
+          "あります",
+          "きます",
+          "いきます"
+        ],
+        "explanation": "ねています = is sleeping (ongoing state)."
+      },
+      {
+        "question": "いま でんしゃに _____ので、あとで かけなおします。(I'm on the train now so I'll call back later.)",
+        "answer": "のって",
+        "options": [
+          "のって",
+          "はいって",
+          "すわって",
+          "きて"
+        ],
+        "explanation": "のっています = is on (the train). のる→のって+います. State of being on transport."
       }
     ]
   }

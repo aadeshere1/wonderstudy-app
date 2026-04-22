@@ -32,7 +32,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 0,
-      "questionsCount": 5
+      "questionsCount": 20
     },
     "items": [
       {
@@ -89,6 +89,171 @@
           "になり"
         ],
         "explanation": "Verb stem + すぎます = do too much. 食べ (stem of 食べる) + すぎます = eat too much."
+      },
+      {
+        "question": "この映画はなが ___ 。(This movie is too long.)",
+        "answer": "すぎます",
+        "options": [
+          "すぎます",
+          "なりました",
+          "なっています",
+          "いすぎます"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "To form the adverb of an い-adjective, change い to:",
+        "answer": "く",
+        "options": [
+          "く",
+          "に",
+          "な",
+          "で"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "To form the adverb of a な-adjective, add:",
+        "answer": "に",
+        "options": [
+          "に",
+          "く",
+          "で",
+          "な"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "はるになると、きおんがあたたか ___ 。(When spring comes, the temperature gets warm.)",
+        "answer": "くなります",
+        "options": [
+          "くなります",
+          "になります",
+          "さくなります",
+          "でなります"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "にぎやかになりました means:",
+        "answer": "It became lively.",
+        "options": [
+          "It became lively.",
+          "It is lively.",
+          "It was lively.",
+          "It will be lively."
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "The adverb form of じょうずです is:",
+        "answer": "じょうずに",
+        "options": [
+          "じょうずに",
+          "じょうずく",
+          "じょうずで",
+          "じょうずの"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "The adverb form of はやいです is:",
+        "answer": "はやく",
+        "options": [
+          "はやく",
+          "はやに",
+          "はやくて",
+          "はやで"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "たべすぎは体によく ___ 。(Eating too much is not good for your body.)",
+        "answer": "ない",
+        "options": [
+          "ない",
+          "なりません",
+          "ありません",
+          "できません"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "もっとゆっくり ___ てください。(Please speak more slowly.)",
+        "answer": "はなし",
+        "options": [
+          "はなし",
+          "はなす",
+          "はなせ",
+          "はなさ"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "Which phrase means 'I drank too much'?",
+        "answer": "のみすぎました",
+        "options": [
+          "のみすぎました",
+          "のみました",
+          "のみませんでした",
+          "のみたかったです"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "How do you say 'Japanese is becoming easier'?",
+        "answer": "日本語がやさしくなっています。",
+        "options": [
+          "日本語がやさしくなっています。",
+          "日本語がやさしになっています。",
+          "日本語がやさしくなりました。",
+          "日本語がやさしすぎます。"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "How do you attach すぎます to the い-adj むずかしい?",
+        "answer": "むずかしすぎます",
+        "options": [
+          "むずかしすぎます",
+          "むずかしいすぎます",
+          "むずかしくすぎます",
+          "むずかしなすぎます"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "How do you attach すぎます to the な-adj しずか?",
+        "answer": "しずかすぎます",
+        "options": [
+          "しずかすぎます",
+          "しずかなすぎます",
+          "しずかにすぎます",
+          "しずかくすぎます"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "もっとまじめに ___ ください。(Please study more seriously.)",
+        "answer": "べんきょうして",
+        "options": [
+          "べんきょうして",
+          "べんきょうし",
+          "べんきょうする",
+          "べんきょうした"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "How do you say 'I want to become a doctor'?",
+        "answer": "いしゃになりたいです。",
+        "options": [
+          "いしゃになりたいです。",
+          "いしゃがなりたいです。",
+          "いしゃをなりたいです。",
+          "いしゃでなりたいです。"
+        ],
+        "type": "multiple_choice"
       }
     ]
   },
@@ -97,7 +262,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 12,
-      "questionsCount": 5
+      "questionsCount": 20
     },
     "items": [
       {
@@ -154,6 +319,171 @@
           "になり"
         ],
         "explanation": "Verb stem + すぎます = do too much. 食べ (stem of 食べる) + すぎます = eat too much."
+      },
+      {
+        "question": "この映画はなが ___ 。(This movie is too long.)",
+        "answer": "すぎます",
+        "options": [
+          "すぎます",
+          "なりました",
+          "なっています",
+          "いすぎます"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "To form the adverb of an い-adjective, change い to:",
+        "answer": "く",
+        "options": [
+          "く",
+          "に",
+          "な",
+          "で"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "To form the adverb of a な-adjective, add:",
+        "answer": "に",
+        "options": [
+          "に",
+          "く",
+          "で",
+          "な"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "はるになると、きおんがあたたか ___ 。(When spring comes, the temperature gets warm.)",
+        "answer": "くなります",
+        "options": [
+          "くなります",
+          "になります",
+          "さくなります",
+          "でなります"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "にぎやかになりました means:",
+        "answer": "It became lively.",
+        "options": [
+          "It became lively.",
+          "It is lively.",
+          "It was lively.",
+          "It will be lively."
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "The adverb form of じょうずです is:",
+        "answer": "じょうずに",
+        "options": [
+          "じょうずに",
+          "じょうずく",
+          "じょうずで",
+          "じょうずの"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "The adverb form of はやいです is:",
+        "answer": "はやく",
+        "options": [
+          "はやく",
+          "はやに",
+          "はやくて",
+          "はやで"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "たべすぎは体によく ___ 。(Eating too much is not good for your body.)",
+        "answer": "ない",
+        "options": [
+          "ない",
+          "なりません",
+          "ありません",
+          "できません"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "もっとゆっくり ___ てください。(Please speak more slowly.)",
+        "answer": "はなし",
+        "options": [
+          "はなし",
+          "はなす",
+          "はなせ",
+          "はなさ"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "Which phrase means 'I drank too much'?",
+        "answer": "のみすぎました",
+        "options": [
+          "のみすぎました",
+          "のみました",
+          "のみませんでした",
+          "のみたかったです"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "How do you say 'Japanese is becoming easier'?",
+        "answer": "日本語がやさしくなっています。",
+        "options": [
+          "日本語がやさしくなっています。",
+          "日本語がやさしになっています。",
+          "日本語がやさしくなりました。",
+          "日本語がやさしすぎます。"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "How do you attach すぎます to the い-adj むずかしい?",
+        "answer": "むずかしすぎます",
+        "options": [
+          "むずかしすぎます",
+          "むずかしいすぎます",
+          "むずかしくすぎます",
+          "むずかしなすぎます"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "How do you attach すぎます to the な-adj しずか?",
+        "answer": "しずかすぎます",
+        "options": [
+          "しずかすぎます",
+          "しずかなすぎます",
+          "しずかにすぎます",
+          "しずかくすぎます"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "もっとまじめに ___ ください。(Please study more seriously.)",
+        "answer": "べんきょうして",
+        "options": [
+          "べんきょうして",
+          "べんきょうし",
+          "べんきょうする",
+          "べんきょうした"
+        ],
+        "type": "multiple_choice"
+      },
+      {
+        "question": "How do you say 'I want to become a doctor'?",
+        "answer": "いしゃになりたいです。",
+        "options": [
+          "いしゃになりたいです。",
+          "いしゃがなりたいです。",
+          "いしゃをなりたいです。",
+          "いしゃでなりたいです。"
+        ],
+        "type": "multiple_choice"
       }
     ]
   }

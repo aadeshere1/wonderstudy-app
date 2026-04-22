@@ -44,7 +44,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 0,
-      "questionsCount": 4
+      "questionsCount": 20
     },
     "items": [
       {
@@ -90,6 +90,182 @@
           "へやをそうじしてください。"
         ],
         "explanation": "〜てあります = has been done (resultant state, someone did it intentionally). そうじしてあります = has been cleaned."
+      },
+      {
+        "question": "Asking a colleague 'Have you already sent the email?'",
+        "answer": "もう メールを おくりましたか。",
+        "options": [
+          "もう メールを おくりましたか。",
+          "まだ メールを おくりましたか。",
+          "もう メールを おくりませんか。",
+          "まだ メールを おくりましたか。"
+        ],
+        "explanation": "もう+〜ましたか = have you already ~? おくる = to send."
+      },
+      {
+        "question": "You haven't eaten dinner yet. How do you say it?",
+        "answer": "まだ ばんごはんを たべていません。",
+        "options": [
+          "まだ ばんごはんを たべていません。",
+          "もう ばんごはんを たべていません。",
+          "まだ ばんごはんを たべませんでした。",
+          "まだ ばんごはんが たべていません。"
+        ],
+        "explanation": "まだ+〜ていません = haven't done yet. ていません = haven't done (progressive negative)."
+      },
+      {
+        "question": "Saying you've already read that book:",
+        "answer": "その ほんは もう よみました。",
+        "options": [
+          "その ほんは もう よみました。",
+          "その ほんは まだ よみました。",
+          "その ほんは もう よんでいません。",
+          "その ほんは もう よみません。"
+        ],
+        "explanation": "もう+〜ました = already did. よむ → よみました = read."
+      },
+      {
+        "question": "Preparing for a trip: putting clothes in the suitcase.",
+        "answer": "スーツケースに ふくを いれておきました。",
+        "options": [
+          "スーツケースに ふくを いれておきました。",
+          "スーツケースに ふくを いれてあります。",
+          "スーツケースに ふくを いれました。",
+          "スーツケースに ふくを いれてきました。"
+        ],
+        "explanation": "〜ておきました = did something in preparation. Both ておく and てある are natural here."
+      },
+      {
+        "question": "Someone asks if you've seen the new movie. Not yet.",
+        "answer": "いいえ、まだ みていません。",
+        "options": [
+          "いいえ、まだ みていません。",
+          "いいえ、もう みていません。",
+          "いいえ、まだ みませんでした。",
+          "いいえ、まだ みません。"
+        ],
+        "explanation": "まだ+〜ていません = haven't seen yet. The standard response to もうみましたか."
+      },
+      {
+        "question": "The meeting room has been booked (someone booked it).",
+        "answer": "かいぎしつが よやくして あります。",
+        "options": [
+          "かいぎしつが よやくして あります。",
+          "かいぎしつが よやくして います。",
+          "かいぎしつを よやくして あります。",
+          "かいぎしつは よやくして おきます。"
+        ],
+        "explanation": "〜てあります = result of deliberate preparation. よやくする = to book/reserve."
+      },
+      {
+        "question": "After finishing your meal, you say:",
+        "answer": "ごちそうさまでした。",
+        "options": [
+          "ごちそうさまでした。",
+          "いただきます。",
+          "おつかれさまでした。",
+          "よろしくおねがいします。"
+        ],
+        "explanation": "ごちそうさまでした = Thank you for the meal (said after eating). いただきます is said before."
+      },
+      {
+        "question": "Before going to bed, you set your alarm.",
+        "answer": "ねる まえに めざましを かけておきました。",
+        "options": [
+          "ねる まえに めざましを かけておきました。",
+          "ねた あとで めざましを かけておきました。",
+          "ねる まえに めざましを かけてありました。",
+          "ねる まえに めざましを かけてしまいました。"
+        ],
+        "explanation": "〜まえに = before doing ~. 〜ておく = do in advance for later."
+      },
+      {
+        "question": "Did you already pay the bill?",
+        "answer": "もう かいけいを しましたか。",
+        "options": [
+          "もう かいけいを しましたか。",
+          "まだ かいけいを しましたか。",
+          "もう かいけいが ありましたか。",
+          "もう かいけいは しますか。"
+        ],
+        "explanation": "もう〜ましたか = have you already ~? かいけい = bill/payment."
+      },
+      {
+        "question": "I have to do laundry before going out tomorrow.",
+        "answer": "あした でかける まえに せんたくを しておかなければなりません。",
+        "options": [
+          "あした でかける まえに せんたくを しておかなければなりません。",
+          "あした でかけた あとで せんたくを しておかなければなりません。",
+          "あした でかける まえに せんたくを してしまいました。",
+          "あした でかける まえに せんたくを しておきました。"
+        ],
+        "explanation": "まえに+ておかなければなりません = must do (in advance) before ~. せんたく = laundry."
+      },
+      {
+        "question": "The windows have been left open (someone opened them).",
+        "answer": "まどが あけて あります。",
+        "options": [
+          "まどが あけて あります。",
+          "まどが あけて います。",
+          "まどを あけて あります。",
+          "まどは あいて あります。"
+        ],
+        "explanation": "〜てあります = result of deliberate action by someone. まどがあいています = window is open (state)."
+      },
+      {
+        "question": "You haven't decided what to eat yet.",
+        "answer": "まだ なにを たべるか きめていません。",
+        "options": [
+          "まだ なにを たべるか きめていません。",
+          "もう なにを たべるか きめていません。",
+          "まだ なにを たべるか きめませんでした。",
+          "まだ なにが たべるか きめていません。"
+        ],
+        "explanation": "まだ〜ていません = haven't done yet. きめる = to decide. なにをたべるか = what to eat."
+      },
+      {
+        "question": "I've already called the restaurant to make a reservation.",
+        "answer": "もう レストランに よやくの でんわを しました。",
+        "options": [
+          "もう レストランに よやくの でんわを しました。",
+          "まだ レストランに よやくの でんわを しました。",
+          "もう レストランで よやくの でんわを しました。",
+          "もう レストランを よやくの でんわを しました。"
+        ],
+        "explanation": "もう+〜ました = already did. に = to (recipient). よやく = reservation."
+      },
+      {
+        "question": "Leaving a note: 'I have left your lunch in the fridge.'",
+        "answer": "ひるごはんを れいぞうこに いれておきました。",
+        "options": [
+          "ひるごはんを れいぞうこに いれておきました。",
+          "ひるごはんが れいぞうこに いれておきました。",
+          "ひるごはんを れいぞうこで いれておきました。",
+          "ひるごはんは れいぞうこに いれてありました。"
+        ],
+        "explanation": "〜ておきました = did in advance. れいぞうこ = refrigerator. に = in (location)."
+      },
+      {
+        "question": "Before the test: 'Have you reviewed all the vocabulary?'",
+        "answer": "もう たんごを ぜんぶ おさらいしましたか。",
+        "options": [
+          "もう たんごを ぜんぶ おさらいしましたか。",
+          "まだ たんごを ぜんぶ おさらいしましたか。",
+          "もう たんごが ぜんぶ おさらいしましたか。",
+          "もう たんごは ぜんぶ おさらいしますか。"
+        ],
+        "explanation": "もう〜ましたか = have you already ~? おさらい = review. ぜんぶ = all."
+      },
+      {
+        "question": "The chairs have been arranged in a circle for the meeting.",
+        "answer": "いすが えんけいに ならべて あります。",
+        "options": [
+          "いすが えんけいに ならべて あります。",
+          "いすが えんけいに ならべて います。",
+          "いすを えんけいに ならべて あります。",
+          "いすは えんけいに ならんで あります。"
+        ],
+        "explanation": "〜てあります = has been done (preparation). ならべる = to arrange. えんけい = circle."
       }
     ]
   },
@@ -98,7 +274,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 12,
-      "questionsCount": 4
+      "questionsCount": 20
     },
     "items": [
       {
@@ -144,6 +320,182 @@
           "へやをそうじしてください。"
         ],
         "explanation": "〜てあります = has been done (resultant state, someone did it intentionally). そうじしてあります = has been cleaned."
+      },
+      {
+        "question": "Asking a colleague 'Have you already sent the email?'",
+        "answer": "もう メールを おくりましたか。",
+        "options": [
+          "もう メールを おくりましたか。",
+          "まだ メールを おくりましたか。",
+          "もう メールを おくりませんか。",
+          "まだ メールを おくりましたか。"
+        ],
+        "explanation": "もう+〜ましたか = have you already ~? おくる = to send."
+      },
+      {
+        "question": "You haven't eaten dinner yet. How do you say it?",
+        "answer": "まだ ばんごはんを たべていません。",
+        "options": [
+          "まだ ばんごはんを たべていません。",
+          "もう ばんごはんを たべていません。",
+          "まだ ばんごはんを たべませんでした。",
+          "まだ ばんごはんが たべていません。"
+        ],
+        "explanation": "まだ+〜ていません = haven't done yet. ていません = haven't done (progressive negative)."
+      },
+      {
+        "question": "Saying you've already read that book:",
+        "answer": "その ほんは もう よみました。",
+        "options": [
+          "その ほんは もう よみました。",
+          "その ほんは まだ よみました。",
+          "その ほんは もう よんでいません。",
+          "その ほんは もう よみません。"
+        ],
+        "explanation": "もう+〜ました = already did. よむ → よみました = read."
+      },
+      {
+        "question": "Preparing for a trip: putting clothes in the suitcase.",
+        "answer": "スーツケースに ふくを いれておきました。",
+        "options": [
+          "スーツケースに ふくを いれておきました。",
+          "スーツケースに ふくを いれてあります。",
+          "スーツケースに ふくを いれました。",
+          "スーツケースに ふくを いれてきました。"
+        ],
+        "explanation": "〜ておきました = did something in preparation. Both ておく and てある are natural here."
+      },
+      {
+        "question": "Someone asks if you've seen the new movie. Not yet.",
+        "answer": "いいえ、まだ みていません。",
+        "options": [
+          "いいえ、まだ みていません。",
+          "いいえ、もう みていません。",
+          "いいえ、まだ みませんでした。",
+          "いいえ、まだ みません。"
+        ],
+        "explanation": "まだ+〜ていません = haven't seen yet. The standard response to もうみましたか."
+      },
+      {
+        "question": "The meeting room has been booked (someone booked it).",
+        "answer": "かいぎしつが よやくして あります。",
+        "options": [
+          "かいぎしつが よやくして あります。",
+          "かいぎしつが よやくして います。",
+          "かいぎしつを よやくして あります。",
+          "かいぎしつは よやくして おきます。"
+        ],
+        "explanation": "〜てあります = result of deliberate preparation. よやくする = to book/reserve."
+      },
+      {
+        "question": "After finishing your meal, you say:",
+        "answer": "ごちそうさまでした。",
+        "options": [
+          "ごちそうさまでした。",
+          "いただきます。",
+          "おつかれさまでした。",
+          "よろしくおねがいします。"
+        ],
+        "explanation": "ごちそうさまでした = Thank you for the meal (said after eating). いただきます is said before."
+      },
+      {
+        "question": "Before going to bed, you set your alarm.",
+        "answer": "ねる まえに めざましを かけておきました。",
+        "options": [
+          "ねる まえに めざましを かけておきました。",
+          "ねた あとで めざましを かけておきました。",
+          "ねる まえに めざましを かけてありました。",
+          "ねる まえに めざましを かけてしまいました。"
+        ],
+        "explanation": "〜まえに = before doing ~. 〜ておく = do in advance for later."
+      },
+      {
+        "question": "Did you already pay the bill?",
+        "answer": "もう かいけいを しましたか。",
+        "options": [
+          "もう かいけいを しましたか。",
+          "まだ かいけいを しましたか。",
+          "もう かいけいが ありましたか。",
+          "もう かいけいは しますか。"
+        ],
+        "explanation": "もう〜ましたか = have you already ~? かいけい = bill/payment."
+      },
+      {
+        "question": "I have to do laundry before going out tomorrow.",
+        "answer": "あした でかける まえに せんたくを しておかなければなりません。",
+        "options": [
+          "あした でかける まえに せんたくを しておかなければなりません。",
+          "あした でかけた あとで せんたくを しておかなければなりません。",
+          "あした でかける まえに せんたくを してしまいました。",
+          "あした でかける まえに せんたくを しておきました。"
+        ],
+        "explanation": "まえに+ておかなければなりません = must do (in advance) before ~. せんたく = laundry."
+      },
+      {
+        "question": "The windows have been left open (someone opened them).",
+        "answer": "まどが あけて あります。",
+        "options": [
+          "まどが あけて あります。",
+          "まどが あけて います。",
+          "まどを あけて あります。",
+          "まどは あいて あります。"
+        ],
+        "explanation": "〜てあります = result of deliberate action by someone. まどがあいています = window is open (state)."
+      },
+      {
+        "question": "You haven't decided what to eat yet.",
+        "answer": "まだ なにを たべるか きめていません。",
+        "options": [
+          "まだ なにを たべるか きめていません。",
+          "もう なにを たべるか きめていません。",
+          "まだ なにを たべるか きめませんでした。",
+          "まだ なにが たべるか きめていません。"
+        ],
+        "explanation": "まだ〜ていません = haven't done yet. きめる = to decide. なにをたべるか = what to eat."
+      },
+      {
+        "question": "I've already called the restaurant to make a reservation.",
+        "answer": "もう レストランに よやくの でんわを しました。",
+        "options": [
+          "もう レストランに よやくの でんわを しました。",
+          "まだ レストランに よやくの でんわを しました。",
+          "もう レストランで よやくの でんわを しました。",
+          "もう レストランを よやくの でんわを しました。"
+        ],
+        "explanation": "もう+〜ました = already did. に = to (recipient). よやく = reservation."
+      },
+      {
+        "question": "Leaving a note: 'I have left your lunch in the fridge.'",
+        "answer": "ひるごはんを れいぞうこに いれておきました。",
+        "options": [
+          "ひるごはんを れいぞうこに いれておきました。",
+          "ひるごはんが れいぞうこに いれておきました。",
+          "ひるごはんを れいぞうこで いれておきました。",
+          "ひるごはんは れいぞうこに いれてありました。"
+        ],
+        "explanation": "〜ておきました = did in advance. れいぞうこ = refrigerator. に = in (location)."
+      },
+      {
+        "question": "Before the test: 'Have you reviewed all the vocabulary?'",
+        "answer": "もう たんごを ぜんぶ おさらいしましたか。",
+        "options": [
+          "もう たんごを ぜんぶ おさらいしましたか。",
+          "まだ たんごを ぜんぶ おさらいしましたか。",
+          "もう たんごが ぜんぶ おさらいしましたか。",
+          "もう たんごは ぜんぶ おさらいしますか。"
+        ],
+        "explanation": "もう〜ましたか = have you already ~? おさらい = review. ぜんぶ = all."
+      },
+      {
+        "question": "The chairs have been arranged in a circle for the meeting.",
+        "answer": "いすが えんけいに ならべて あります。",
+        "options": [
+          "いすが えんけいに ならべて あります。",
+          "いすが えんけいに ならべて います。",
+          "いすを えんけいに ならべて あります。",
+          "いすは えんけいに ならんで あります。"
+        ],
+        "explanation": "〜てあります = has been done (preparation). ならべる = to arrange. えんけい = circle."
       }
     ]
   }

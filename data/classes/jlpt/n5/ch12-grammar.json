@@ -44,7 +44,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 0,
-      "questionsCount": 9
+      "questionsCount": 20
     },
     "items": [
       {
@@ -145,6 +145,127 @@
           "Sometimes"
         ],
         "explanation": "まだです as a short answer = 'not yet'. Full form: まだ〜ていません."
+      },
+      {
+        "question": "もう しゅくだいを _____か。(Have you already done your homework?)",
+        "answer": "しましたか",
+        "options": [
+          "しましたか",
+          "しますか",
+          "するか",
+          "しているか"
+        ],
+        "explanation": "もう+〜ましたか = have you already done ~? もう = already (in questions)."
+      },
+      {
+        "question": "テーブルに はなを _____おきました。(I have put flowers on the table (in advance).)",
+        "answer": "かって",
+        "options": [
+          "かって",
+          "かき",
+          "かいて",
+          "かけて"
+        ],
+        "explanation": "〜ておきます = do something in advance/preparation. かう→かって."
+      },
+      {
+        "question": "まだ ひるごはんを _____。(I haven't eaten lunch yet.)",
+        "answer": "たべていません",
+        "options": [
+          "たべていません",
+          "たべませんでした",
+          "たべません",
+          "たべませんか"
+        ],
+        "explanation": "まだ+〜ていません = haven't done yet. まだ = not yet (with negative)."
+      },
+      {
+        "question": "でんきが _____ あります。(The light has been left on.)",
+        "answer": "ついて",
+        "options": [
+          "ついて",
+          "きって",
+          "けして",
+          "つけて"
+        ],
+        "explanation": "〜てあります = result of a deliberate action remains. ついてあります = the light is on."
+      },
+      {
+        "question": "かいぎの まえに しりょうを _____おきましょう。(Let's prepare the materials before the meeting.)",
+        "answer": "コピーして",
+        "options": [
+          "コピーして",
+          "みて",
+          "よんで",
+          "かいて"
+        ],
+        "explanation": "〜ておく = prepare in advance. コピーしておく = copy ahead of time."
+      },
+      {
+        "question": "A: ドアを しめましたか。B: はい、もう _____。(Did you close the door? — Yes, already done.)",
+        "answer": "しめました",
+        "options": [
+          "しめました",
+          "しめます",
+          "しめていません",
+          "しめませんでした"
+        ],
+        "explanation": "もう+〜ました = I already did ~. Answer to もう〜ましたか."
+      },
+      {
+        "question": "まだ レポートが _____。(The report is not done yet.)",
+        "answer": "できていません",
+        "options": [
+          "できていません",
+          "できません",
+          "できませんでした",
+          "できました"
+        ],
+        "explanation": "まだ〜ていません = has not been done yet. できる = to be done/completed."
+      },
+      {
+        "question": "てを _____から、ごはんを たべましょう。(Let's eat after washing hands.)",
+        "answer": "あらって",
+        "options": [
+          "あらって",
+          "あらいて",
+          "あらって から",
+          "あらいてから"
+        ],
+        "explanation": "〜てから = after doing ~. あらってから = after washing. Note: あらって alone is て-form."
+      },
+      {
+        "question": "冷蔵庫に たまごが _____あります。(Eggs have been put in the fridge.)",
+        "answer": "いれて",
+        "options": [
+          "いれて",
+          "かって",
+          "おいて",
+          "のこして"
+        ],
+        "explanation": "〜てあります = something has been done (and the result remains). いれてあります = have been placed."
+      },
+      {
+        "question": "もう でんしゃが _____。だから おそくなりました。(The train had already left. So I was late.)",
+        "answer": "でていました",
+        "options": [
+          "でていました",
+          "でます",
+          "でていません",
+          "でませんでした"
+        ],
+        "explanation": "もう〜ていました = had already ~ (past progressive result). でる = to leave/depart."
+      },
+      {
+        "question": "しゅっぱつまえに パスポートを _____おいてください。(Please prepare your passport before departure.)",
+        "answer": "よういして",
+        "options": [
+          "よういして",
+          "かって",
+          "もって",
+          "みて"
+        ],
+        "explanation": "〜ておく = prepare in advance. よういする = to prepare. よういしておく = have ready."
       }
     ]
   },
@@ -153,7 +274,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 12,
-      "questionsCount": 9
+      "questionsCount": 20
     },
     "items": [
       {
@@ -254,6 +375,127 @@
           "Sometimes"
         ],
         "explanation": "まだです as a short answer = 'not yet'. Full form: まだ〜ていません."
+      },
+      {
+        "question": "もう しゅくだいを _____か。(Have you already done your homework?)",
+        "answer": "しましたか",
+        "options": [
+          "しましたか",
+          "しますか",
+          "するか",
+          "しているか"
+        ],
+        "explanation": "もう+〜ましたか = have you already done ~? もう = already (in questions)."
+      },
+      {
+        "question": "テーブルに はなを _____おきました。(I have put flowers on the table (in advance).)",
+        "answer": "かって",
+        "options": [
+          "かって",
+          "かき",
+          "かいて",
+          "かけて"
+        ],
+        "explanation": "〜ておきます = do something in advance/preparation. かう→かって."
+      },
+      {
+        "question": "まだ ひるごはんを _____。(I haven't eaten lunch yet.)",
+        "answer": "たべていません",
+        "options": [
+          "たべていません",
+          "たべませんでした",
+          "たべません",
+          "たべませんか"
+        ],
+        "explanation": "まだ+〜ていません = haven't done yet. まだ = not yet (with negative)."
+      },
+      {
+        "question": "でんきが _____ あります。(The light has been left on.)",
+        "answer": "ついて",
+        "options": [
+          "ついて",
+          "きって",
+          "けして",
+          "つけて"
+        ],
+        "explanation": "〜てあります = result of a deliberate action remains. ついてあります = the light is on."
+      },
+      {
+        "question": "かいぎの まえに しりょうを _____おきましょう。(Let's prepare the materials before the meeting.)",
+        "answer": "コピーして",
+        "options": [
+          "コピーして",
+          "みて",
+          "よんで",
+          "かいて"
+        ],
+        "explanation": "〜ておく = prepare in advance. コピーしておく = copy ahead of time."
+      },
+      {
+        "question": "A: ドアを しめましたか。B: はい、もう _____。(Did you close the door? — Yes, already done.)",
+        "answer": "しめました",
+        "options": [
+          "しめました",
+          "しめます",
+          "しめていません",
+          "しめませんでした"
+        ],
+        "explanation": "もう+〜ました = I already did ~. Answer to もう〜ましたか."
+      },
+      {
+        "question": "まだ レポートが _____。(The report is not done yet.)",
+        "answer": "できていません",
+        "options": [
+          "できていません",
+          "できません",
+          "できませんでした",
+          "できました"
+        ],
+        "explanation": "まだ〜ていません = has not been done yet. できる = to be done/completed."
+      },
+      {
+        "question": "てを _____から、ごはんを たべましょう。(Let's eat after washing hands.)",
+        "answer": "あらって",
+        "options": [
+          "あらって",
+          "あらいて",
+          "あらって から",
+          "あらいてから"
+        ],
+        "explanation": "〜てから = after doing ~. あらってから = after washing. Note: あらって alone is て-form."
+      },
+      {
+        "question": "冷蔵庫に たまごが _____あります。(Eggs have been put in the fridge.)",
+        "answer": "いれて",
+        "options": [
+          "いれて",
+          "かって",
+          "おいて",
+          "のこして"
+        ],
+        "explanation": "〜てあります = something has been done (and the result remains). いれてあります = have been placed."
+      },
+      {
+        "question": "もう でんしゃが _____。だから おそくなりました。(The train had already left. So I was late.)",
+        "answer": "でていました",
+        "options": [
+          "でていました",
+          "でます",
+          "でていません",
+          "でませんでした"
+        ],
+        "explanation": "もう〜ていました = had already ~ (past progressive result). でる = to leave/depart."
+      },
+      {
+        "question": "しゅっぱつまえに パスポートを _____おいてください。(Please prepare your passport before departure.)",
+        "answer": "よういして",
+        "options": [
+          "よういして",
+          "かって",
+          "もって",
+          "みて"
+        ],
+        "explanation": "〜ておく = prepare in advance. よういする = to prepare. よういしておく = have ready."
       }
     ]
   }

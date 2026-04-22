@@ -32,7 +32,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 0,
-      "questionsCount": 3
+      "questionsCount": 20
     },
     "items": [
       {
@@ -67,6 +67,91 @@
           "はい、一度見ます。"
         ],
         "explanation": "〜たことがあります = have done before. 一度 = once. 見た = saw (past) + ことがあります."
+      },
+      {
+        "question": "Have you ever climbed a mountain? You have, twice. Reply in Japanese.",
+        "answer": "はい、2かい山にのぼったことがあります。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I have never ridden a horse'?",
+        "answer": "うまにのったことがありません。",
+        "type": "short_answer"
+      },
+      {
+        "question": "You just woke up. How do you say 'I just woke up'?",
+        "answer": "おきたばかりです。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Your friend asks if you've tried takoyaki. You have, once. Reply.",
+        "answer": "はい、いちどたべたことがあります。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'This is the first time I've seen snow'?",
+        "answer": "ゆきをみるのははじめてです。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you ask 'Have you ever watched a sumo match?'",
+        "answer": "すもうをみたことがありますか。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Translate: 'I just arrived at the hotel.'",
+        "answer": "ホテルについたばかりです。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I have been to Kyoto several times'?",
+        "answer": "京都には何度か行ったことがあります。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I have never spoken to a foreigner'?",
+        "answer": "がいこくじんと話したことがありません。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Translate: 'I just bought a new smartphone.'",
+        "answer": "あたらしいスマホをかったばかりです。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'My father has never cooked'?",
+        "answer": "ちちはりょうりをしたことがありません。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Have you ever lived abroad? You have, for one year. Reply.",
+        "answer": "はい、いちねんかいがいにすんだことがあります。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Translate: 'She just graduated from university.'",
+        "answer": "かのじょはだいがくをそつぎょうしたばかりです。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I have read this book before'?",
+        "answer": "このほんをよんだことがあります。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'Have you ever made Japanese food?'",
+        "answer": "日本りょうりをつくったことがありますか。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Translate: 'He just started learning Japanese.'",
+        "answer": "かれは日本語をならいはじめたばかりです。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I have never been abroad'?",
+        "answer": "がいこくにいったことがありません。",
+        "type": "short_answer"
       }
     ]
   },
@@ -75,7 +160,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 12,
-      "questionsCount": 3
+      "questionsCount": 20
     },
     "items": [
       {
@@ -110,6 +195,91 @@
           "はい、一度見ます。"
         ],
         "explanation": "〜たことがあります = have done before. 一度 = once. 見た = saw (past) + ことがあります."
+      },
+      {
+        "question": "Have you ever climbed a mountain? You have, twice. Reply in Japanese.",
+        "answer": "はい、2かい山にのぼったことがあります。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I have never ridden a horse'?",
+        "answer": "うまにのったことがありません。",
+        "type": "short_answer"
+      },
+      {
+        "question": "You just woke up. How do you say 'I just woke up'?",
+        "answer": "おきたばかりです。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Your friend asks if you've tried takoyaki. You have, once. Reply.",
+        "answer": "はい、いちどたべたことがあります。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'This is the first time I've seen snow'?",
+        "answer": "ゆきをみるのははじめてです。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you ask 'Have you ever watched a sumo match?'",
+        "answer": "すもうをみたことがありますか。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Translate: 'I just arrived at the hotel.'",
+        "answer": "ホテルについたばかりです。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I have been to Kyoto several times'?",
+        "answer": "京都には何度か行ったことがあります。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I have never spoken to a foreigner'?",
+        "answer": "がいこくじんと話したことがありません。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Translate: 'I just bought a new smartphone.'",
+        "answer": "あたらしいスマホをかったばかりです。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'My father has never cooked'?",
+        "answer": "ちちはりょうりをしたことがありません。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Have you ever lived abroad? You have, for one year. Reply.",
+        "answer": "はい、いちねんかいがいにすんだことがあります。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Translate: 'She just graduated from university.'",
+        "answer": "かのじょはだいがくをそつぎょうしたばかりです。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I have read this book before'?",
+        "answer": "このほんをよんだことがあります。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'Have you ever made Japanese food?'",
+        "answer": "日本りょうりをつくったことがありますか。",
+        "type": "short_answer"
+      },
+      {
+        "question": "Translate: 'He just started learning Japanese.'",
+        "answer": "かれは日本語をならいはじめたばかりです。",
+        "type": "short_answer"
+      },
+      {
+        "question": "How do you say 'I have never been abroad'?",
+        "answer": "がいこくにいったことがありません。",
+        "type": "short_answer"
       }
     ]
   }

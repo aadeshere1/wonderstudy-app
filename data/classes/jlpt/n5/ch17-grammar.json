@@ -32,7 +32,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 0,
-      "questionsCount": 5
+      "questionsCount": 20
     },
     "items": [
       {
@@ -89,6 +89,171 @@
           "日本語からかいていただけませんか。"
         ],
         "explanation": "で marks the means/language: 日本語で = in Japanese. かいて + いただけませんか = could you write?"
+      },
+      {
+        "question": "もう すこし おおきい こえで はなして _____か。(Could you speak a little louder?)",
+        "answer": "いただけません",
+        "options": [
+          "いただけません",
+          "ください",
+          "もらいません",
+          "いただけます"
+        ],
+        "explanation": "〜ていただけませんか = Could you please ~? (Very polite request)."
+      },
+      {
+        "question": "ここに なまえを かいて _____か。(Could you write your name here?)",
+        "answer": "いただけません",
+        "options": [
+          "いただけません",
+          "ください",
+          "くれません",
+          "もらいません"
+        ],
+        "explanation": "〜ていただけませんか vs 〜てください: ていただけませんか is more polite."
+      },
+      {
+        "question": "すみません、ちょっと てつだって _____か。(Could you help me for a moment?)",
+        "answer": "くれませんか",
+        "options": [
+          "くれませんか",
+          "いただけませんか",
+          "もらえませんか",
+          "ください"
+        ],
+        "explanation": "〜てくれませんか = could you do for me? Less formal than ていただけませんか."
+      },
+      {
+        "question": "もっと ゆっくり はなして いただけ_____か。(Could you speak more slowly?)",
+        "answer": "ません",
+        "options": [
+          "ません",
+          "ます",
+          "ない",
+          "くない"
+        ],
+        "explanation": "いただけませんか = could you please? The negative form makes it a polite question."
+      },
+      {
+        "question": "しゃしんを とって _____か。(Could you take a photo for me?)",
+        "answer": "もらえません",
+        "options": [
+          "もらえません",
+          "くれません",
+          "いただけません",
+          "ください"
+        ],
+        "explanation": "〜てもらえませんか = could you do for me? Similar to くれませんか but slightly more formal."
+      },
+      {
+        "question": "すみません、ちょっと _____てください。(Please wait a moment.)",
+        "answer": "まっ",
+        "options": [
+          "まっ",
+          "みて",
+          "きて",
+          "いって"
+        ],
+        "explanation": "まつ→まって (て-form: wait). ちょっとまってください = please wait a moment."
+      },
+      {
+        "question": "この かんじの よみかたを おしえて _____か。(Could you teach me how to read this kanji?)",
+        "answer": "いただけません",
+        "options": [
+          "いただけません",
+          "くれません",
+          "もらえません",
+          "ください"
+        ],
+        "explanation": "〜ていただけませんか = most polite request form. おしえる = to teach."
+      },
+      {
+        "question": "もう いちど いって _____か。(Could you say that again?)",
+        "answer": "いただけません",
+        "options": [
+          "いただけません",
+          "ください",
+          "くれません",
+          "もらえません"
+        ],
+        "explanation": "もういちど = one more time. いっていただけませんか = could you say (polite)?"
+      },
+      {
+        "question": "ドアを しめて _____か。(Could you close the door?)",
+        "answer": "くれませんか",
+        "options": [
+          "くれませんか",
+          "いただけませんか",
+          "もらえませんか",
+          "ください"
+        ],
+        "explanation": "〜てくれませんか = casual-polite request. Used among colleagues/friends."
+      },
+      {
+        "question": "ちょっと おまちくだ_____。(Please wait a moment.) (abbreviated)",
+        "answer": "さい",
+        "options": [
+          "さい",
+          "さいませ",
+          "します",
+          "ます"
+        ],
+        "explanation": "おまちください = please wait (humble/formal). くださいませ even more formal."
+      },
+      {
+        "question": "この たんごの いみを おしえて _____か。(Could you explain the meaning of this word?)",
+        "answer": "くれませんか",
+        "options": [
+          "くれませんか",
+          "いただけませんか",
+          "ください",
+          "もらえませんか"
+        ],
+        "explanation": "〜てくれませんか = friendly request. All of these work; level of formality differs."
+      },
+      {
+        "question": "えいごで せつめいして _____か。(Could you explain in English?)",
+        "answer": "いただけません",
+        "options": [
+          "いただけません",
+          "ください",
+          "くれません",
+          "もらえません"
+        ],
+        "explanation": "ていただけませんか = most polite. Used when talking to strangers or seniors."
+      },
+      {
+        "question": "レシートを _____ですが。(I'd like a receipt.)",
+        "answer": "いただきたいん",
+        "options": [
+          "いただきたいん",
+          "ください",
+          "くださいん",
+          "もらいたいん"
+        ],
+        "explanation": "いただきたいんですが = I would like to receive. Polite receipt request at a shop."
+      },
+      {
+        "question": "すみません、すこし _____てもらえませんか。(Could you move over a little?)",
+        "answer": "つめ",
+        "options": [
+          "つめ",
+          "はなれ",
+          "まっ",
+          "やめ"
+        ],
+        "explanation": "つめる = to compress/move closer together. もらえませんか = could you?"
+      },
+      {
+        "question": "しずかに _____ていただけませんか。(Could you please be quiet?)",
+        "answer": "して",
+        "options": [
+          "して",
+          "し",
+          "した",
+          "する"
+        ],
+        "explanation": "しずかにする = to be quiet. して+いただけませんか = polite request."
       }
     ]
   },
@@ -97,7 +262,7 @@
     "config": {
       "shuffleOptions": true,
       "timeLimit": 12,
-      "questionsCount": 5
+      "questionsCount": 20
     },
     "items": [
       {
@@ -154,6 +319,171 @@
           "日本語からかいていただけませんか。"
         ],
         "explanation": "で marks the means/language: 日本語で = in Japanese. かいて + いただけませんか = could you write?"
+      },
+      {
+        "question": "もう すこし おおきい こえで はなして _____か。(Could you speak a little louder?)",
+        "answer": "いただけません",
+        "options": [
+          "いただけません",
+          "ください",
+          "もらいません",
+          "いただけます"
+        ],
+        "explanation": "〜ていただけませんか = Could you please ~? (Very polite request)."
+      },
+      {
+        "question": "ここに なまえを かいて _____か。(Could you write your name here?)",
+        "answer": "いただけません",
+        "options": [
+          "いただけません",
+          "ください",
+          "くれません",
+          "もらいません"
+        ],
+        "explanation": "〜ていただけませんか vs 〜てください: ていただけませんか is more polite."
+      },
+      {
+        "question": "すみません、ちょっと てつだって _____か。(Could you help me for a moment?)",
+        "answer": "くれませんか",
+        "options": [
+          "くれませんか",
+          "いただけませんか",
+          "もらえませんか",
+          "ください"
+        ],
+        "explanation": "〜てくれませんか = could you do for me? Less formal than ていただけませんか."
+      },
+      {
+        "question": "もっと ゆっくり はなして いただけ_____か。(Could you speak more slowly?)",
+        "answer": "ません",
+        "options": [
+          "ません",
+          "ます",
+          "ない",
+          "くない"
+        ],
+        "explanation": "いただけませんか = could you please? The negative form makes it a polite question."
+      },
+      {
+        "question": "しゃしんを とって _____か。(Could you take a photo for me?)",
+        "answer": "もらえません",
+        "options": [
+          "もらえません",
+          "くれません",
+          "いただけません",
+          "ください"
+        ],
+        "explanation": "〜てもらえませんか = could you do for me? Similar to くれませんか but slightly more formal."
+      },
+      {
+        "question": "すみません、ちょっと _____てください。(Please wait a moment.)",
+        "answer": "まっ",
+        "options": [
+          "まっ",
+          "みて",
+          "きて",
+          "いって"
+        ],
+        "explanation": "まつ→まって (て-form: wait). ちょっとまってください = please wait a moment."
+      },
+      {
+        "question": "この かんじの よみかたを おしえて _____か。(Could you teach me how to read this kanji?)",
+        "answer": "いただけません",
+        "options": [
+          "いただけません",
+          "くれません",
+          "もらえません",
+          "ください"
+        ],
+        "explanation": "〜ていただけませんか = most polite request form. おしえる = to teach."
+      },
+      {
+        "question": "もう いちど いって _____か。(Could you say that again?)",
+        "answer": "いただけません",
+        "options": [
+          "いただけません",
+          "ください",
+          "くれません",
+          "もらえません"
+        ],
+        "explanation": "もういちど = one more time. いっていただけませんか = could you say (polite)?"
+      },
+      {
+        "question": "ドアを しめて _____か。(Could you close the door?)",
+        "answer": "くれませんか",
+        "options": [
+          "くれませんか",
+          "いただけませんか",
+          "もらえませんか",
+          "ください"
+        ],
+        "explanation": "〜てくれませんか = casual-polite request. Used among colleagues/friends."
+      },
+      {
+        "question": "ちょっと おまちくだ_____。(Please wait a moment.) (abbreviated)",
+        "answer": "さい",
+        "options": [
+          "さい",
+          "さいませ",
+          "します",
+          "ます"
+        ],
+        "explanation": "おまちください = please wait (humble/formal). くださいませ even more formal."
+      },
+      {
+        "question": "この たんごの いみを おしえて _____か。(Could you explain the meaning of this word?)",
+        "answer": "くれませんか",
+        "options": [
+          "くれませんか",
+          "いただけませんか",
+          "ください",
+          "もらえませんか"
+        ],
+        "explanation": "〜てくれませんか = friendly request. All of these work; level of formality differs."
+      },
+      {
+        "question": "えいごで せつめいして _____か。(Could you explain in English?)",
+        "answer": "いただけません",
+        "options": [
+          "いただけません",
+          "ください",
+          "くれません",
+          "もらえません"
+        ],
+        "explanation": "ていただけませんか = most polite. Used when talking to strangers or seniors."
+      },
+      {
+        "question": "レシートを _____ですが。(I'd like a receipt.)",
+        "answer": "いただきたいん",
+        "options": [
+          "いただきたいん",
+          "ください",
+          "くださいん",
+          "もらいたいん"
+        ],
+        "explanation": "いただきたいんですが = I would like to receive. Polite receipt request at a shop."
+      },
+      {
+        "question": "すみません、すこし _____てもらえませんか。(Could you move over a little?)",
+        "answer": "つめ",
+        "options": [
+          "つめ",
+          "はなれ",
+          "まっ",
+          "やめ"
+        ],
+        "explanation": "つめる = to compress/move closer together. もらえませんか = could you?"
+      },
+      {
+        "question": "しずかに _____ていただけませんか。(Could you please be quiet?)",
+        "answer": "して",
+        "options": [
+          "して",
+          "し",
+          "した",
+          "する"
+        ],
+        "explanation": "しずかにする = to be quiet. して+いただけませんか = polite request."
       }
     ]
   }
